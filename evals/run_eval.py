@@ -10,7 +10,7 @@ import sys
 from datetime import datetime, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from monitor.classify import AnthropicClient, classify_llm, classify_rules  # noqa: E402
+from monitor.classify import classify_llm, classify_rules, make_client  # noqa: E402
 
 
 def score(items, preds):
@@ -45,12 +45,12 @@ def main():
     report = {"generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"), "golden_set": gold.get("_note", ""), "results": {}}
     if a.mode in ("rules", "both"):
         report["results"]["rules"] = score(items, classify_rules(items, cfg["competitors"], [k.lower() for k in cfg["topic_keywords"]]))
-    client = AnthropicClient()
-    if a.mode in ("llm", "both") and client.available:
+    client = make_client(cfg)
+    if a.mode in ("llm", "both") and client:
         report["results"]["llm"] = score(items, classify_llm(items, client, cfg["models"]["classify"]))
-        report["results"]["llm"]["model"] = cfg["models"]["classify"]
+        report["results"]["llm"]["model"] = client.label
     elif a.mode in ("llm", "both"):
-        report["results"]["llm"] = {"skipped": "ANTHROPIC_API_KEY not set"}
+        report["results"]["llm"] = {"skipped": "no LLM key configured"}
     for k, v in report["results"].items():
         print(k, {x: y for x, y in v.items() if x != "misses"})
         for m in v.get("misses", []):

@@ -9,7 +9,7 @@ Built for the Nirvana Chief of Staff case study, part 2. The monitor runs again 
 GitHub Actions (daily cron + "Run workflow" button)
   └─ collect ── trade-press & wire RSS · Bing News RSS · GDELT news API · Federal Register API · SEC EDGAR FTS · page-diff watch
   └─ dedup / delta ── canonical URL hash → title fingerprint → fuzzy cluster (14-day window) vs history
-  └─ classify ── Claude (Haiku) structured JSON, temp 0 ── rules fallback if no API key
+  └─ classify ── free LLM (GitHub Models by default; Gemini free tier or Claude optional), JSON, temp 0 ── rules fallback
   └─ verify ── evidence quote must appear verbatim in fetched text, else quarantined
   └─ rank ── deterministic score: materiality · watchlist priority · source tier · recency · last-mile fit
   └─ store ── docs/data/*.json committed to git (every daily pull = its own snapshot; git log = full history)
@@ -65,7 +65,9 @@ Every card shows:
 
    | Secret | Purpose |
    |---|---|
-   | `ANTHROPIC_API_KEY` | Claude classification, discovery and digest. Without it, the run falls back to the rules classifier and discovery is off. |
+   | *(none needed for the AI)* | **Default AI = GitHub Models, free**, authenticated by the workflow's own token (`models: read`). Nothing to set up. |
+| `GEMINI_API_KEY` | Optional. A free Google AI Studio key; set the variable `LLM_PROVIDER=gemini` to use it. |
+| `ANTHROPIC_API_KEY` | Optional. A paid Claude API key; set `LLM_PROVIDER=anthropic`. |
    | `SLACK_WEBHOOK_URL` | Slack incoming webhook |
    | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO`, `EMAIL_FROM` | Email delivery. For Gmail, use `smtp.gmail.com`, port 587 and an App Password. |
    | `WEBHOOK_URL` | Generic JSON POST (Teams, Discord, Zapier, n8n) |
@@ -73,7 +75,8 @@ Every card shows:
    | Variable | Purpose |
    |---|---|
    | `SEC_USER_AGENT` | Required for SEC EDGAR, e.g. `Your Name you@email.com` |
-   | `NOTIFY_HEARTBEAT` | `true` or `false`: whether to send a "nothing new" message |
+   | `LLM_PROVIDER` / `LLM_MODEL` | `github` (default), `gemini` or `anthropic`, plus an optional model override |
+| `NOTIFY_HEARTBEAT` | `true` or `false`: whether to send a "nothing new" message |
 
 4. **First run.** Go to Actions → *Daily competitor intel* → **Run workflow**. That creates the baseline pull.
 5. **Share.** The dashboard lives at `https://<user>.github.io/<repo>/`, and that is the link to send.

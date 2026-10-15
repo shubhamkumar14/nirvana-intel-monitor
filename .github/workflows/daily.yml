@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  models: read
   pages: write
   id-token: write
 
@@ -35,12 +36,20 @@ jobs:
       - name: Classifier eval on golden set (recorded, non-blocking here)
         continue-on-error: true
         env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
         run: python -m evals.run_eval --mode both --out docs/data/evals.json
 
       - name: Run monitor (live sources)
         env:
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github' }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}

@@ -71,6 +71,69 @@ class AnthropicClient:
         raise RuntimeError("Anthropic API retries exhausted")
 
 
+class OpenAICompatClient:
+    """Free-tier providers via OpenAI-compatible chat endpoints.
+
+    github: GitHub Models — auth with the workflow's own GITHUB_TOKEN (needs `permissions: models: read`), no extra account.
+    gemini: Google AI Studio free key (GEMINI_API_KEY). Free-tier prompts may be reviewed/used by Google; we only send public news.
+    """
+    PROVIDERS = {
+        "github": {"url": "https://models.github.ai/inference/chat/completions", "env": "GITHUB_TOKEN",
+                   "models": {"classify": "openai/gpt-4.1-mini", "digest": "openai/gpt-4.1-mini"}},
+        "gemini": {"url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", "env": "GEMINI_API_KEY",
+                   "models": {"classify": "gemini-flash-latest", "digest": "gemini-flash-latest"}},
+    }
+
+    def __init__(self, provider):
+        p = self.PROVIDERS[provider]
+        self.provider, self.url = provider, p["url"]
+        self.api_key = os.environ.get(p["env"], "").strip()
+        m = os.environ.get("LLM_MODEL", "").strip()
+        self.models = {"classify": m or p["models"]["classify"], "digest": os.environ.get("LLM_DIGEST_MODEL", "").strip() or m or p["models"]["digest"]}
+        self.usage = {"input_tokens": 0, "output_tokens": 0, "calls": 0, "errors": 0, "provider": provider}
+
+    @property
+    def available(self):
+        return bool(self.api_key)
+
+    def complete(self, model, system, user, max_tokens=4000):
+        body = json.dumps({"model": model, "max_tokens": max_tokens, "temperature": 0,
+                           "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}).encode()
+        for attempt in range(4):
+            req = urllib.request.Request(self.url, data=body, headers={
+                "Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"})
+            try:
+                with urllib.request.urlopen(req, timeout=120) as r:
+                    data = json.loads(r.read())
+                u = data.get("usage", {}) or {}
+                self.usage["input_tokens"] += u.get("prompt_tokens", 0)
+                self.usage["output_tokens"] += u.get("completion_tokens", 0)
+                self.usage["calls"] += 1
+                return data["choices"][0]["message"]["content"] or ""
+            except urllib.error.HTTPError as e:
+                if e.code in (429, 500, 502, 503) and attempt < 3:
+                    time.sleep(int(e.headers.get("Retry-After", "0") or 0) or 10 * (attempt + 1))
+                    continue
+                self.usage["errors"] += 1
+                raise RuntimeError(f"{self.provider} HTTP {e.code}: {e.read()[:300]!r}")
+        self.usage["errors"] += 1
+        raise RuntimeError(f"{self.provider} retries exhausted")
+
+
+def make_client(cfg):
+    """Pick the LLM by LLM_PROVIDER (github | gemini | anthropic). Default: first provider with a key, github first."""
+    want = os.environ.get("LLM_PROVIDER", "").strip().lower()
+    order = [want] if want else ["github", "gemini", "anthropic"]
+    for p in order:
+        c = AnthropicClient() if p == "anthropic" else OpenAICompatClient(p) if p in OpenAICompatClient.PROVIDERS else None
+        if c and c.available:
+            if p != "anthropic":
+                cfg["models"] = dict(c.models)
+            c.label = f"{p}:{cfg['models']['classify']}"
+            return c
+    return None
+
+
 def _parse_json_array(text):
     text = text.strip()
     m = re.search(r"\[.*\]", text, re.S)

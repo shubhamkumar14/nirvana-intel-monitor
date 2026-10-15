@@ -185,7 +185,7 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
               "summary": r["summary"], "evidence_quote": r["evidence_quote"], "companies": r["companies"],
               "watchlist_companies": wl, "published": it.get("published"), "date_known": bool(it.get("published")),
               "first_seen": iso(now), "first_run": run_id, "last_seen": iso(now), "last_updated_run": run_id,
-              "update_note": None, "late_discovery": late, "classifier": "rules-fallback" if r.get("_fallback") else mode,
+              "update_note": None, "late_discovery": late, "classifier": "rules-fallback" if r.get("_fallback") else (getattr(client, "label", mode) if mode == "llm" else mode),
               "lane_hint": it.get("lane_hint"), "fingerprints": [it["_fp"]], "sources": [_src(it, tier)], "best_tier": tier}
         store.events[eid] = ev
         new_pool.append((eid, nt))
@@ -257,7 +257,7 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
     }
     summary = {"run_id": run_id, "date": now.strftime("%Y-%m-%d"), "started": iso(now), "duration_s": round(time.time() - t0, 1),
                "baseline": baseline, "previous_run": prev["run_id"] if prev else None, "previous_started": prev["started"] if prev else None,
-               "classifier": mode, "counts": counts, "evals": evals, "health": health,
+               "classifier": mode, "model": getattr(client, "label", None) if mode == "llm" else None, "counts": counts, "evals": evals, "health": health,
                "llm_usage": dict(client.usage) if client and client.available else None}
     pull = {**summary, "new": fresh_new, "updated": updated, "late_discoveries": [store.events[e] for e in new_ids if store.events[e]["late_discovery"]],
             "quarantine": quarantine, "digest": digest}

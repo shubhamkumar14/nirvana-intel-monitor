@@ -6,7 +6,7 @@ import sys
 from datetime import datetime, timezone
 
 from . import http
-from .classify import AnthropicClient
+from .classify import make_client
 from .notify import make_notifier
 from .pipeline import run_pipeline
 
@@ -19,8 +19,8 @@ def main():
     ap.add_argument("--only", default=None, help="comma list of collectors")
     a = ap.parse_args()
     cfg = json.load(open(a.config))
-    client = AnthropicClient()
-    print(f"classifier: {'Claude ' + cfg['models']['classify'] if client.available else 'RULES (no ANTHROPIC_API_KEY)'}")
+    client = make_client(cfg)
+    print(f"classifier: {client.label if client else 'RULES (no LLM key: set GITHUB_TOKEN, GEMINI_API_KEY or ANTHROPIC_API_KEY)'}")
     fetch = lambda url, headers=None, respect_robots=True: http.get(url, headers=headers, respect_robots=respect_robots)
     summary, _ = run_pipeline(cfg, a.data_dir, fetch, client, datetime.now(timezone.utc),
                               notifier=None if a.no_notify else make_notifier(), only=set(a.only.split(",")) if a.only else None)

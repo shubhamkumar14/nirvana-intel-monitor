@@ -193,7 +193,7 @@ function health(){
     <div class="kpi"><div class="v">${c.quarantined}</div><div class="l">quarantined (unverifiable)</div></div></div>
    <h4 class="sec-h">Last run funnel · ${fmtDate(r.started)} · ${r.duration_s}s · classifier: ${esc(r.classifier)}</h4>
    <div class="scroll"><table><tr>${Object.keys(c).map(k=>`<th>${k.replace(/_/g," ")}</th>`).join("")}</tr><tr>${Object.values(c).map(v=>`<td class="num">${v}</td>`).join("")}</tr></table></div>
-   ${D.evals?`<h4 class="sec-h" style="margin-top:18px">Classifier eval (golden set)</h4><div class="scroll"><table><tr><th>Mode</th><th>Relevance precision</th><th>Relevance recall</th><th>Lane accuracy</th><th>n</th></tr>${gRow("Claude",g.llm)}${gRow("Rules",g.rules)}</table></div><div class="note">${esc(D.evals.golden_set||"")}</div>`:""}
+   ${D.evals?`<h4 class="sec-h" style="margin-top:18px">Classifier eval (golden set)</h4><div class="scroll"><table><tr><th>Mode</th><th>Relevance precision</th><th>Relevance recall</th><th>Lane accuracy</th><th>n</th></tr>${gRow("AI model",g.llm)}${gRow("Rules",g.rules)}</table></div><div class="note">${esc(D.evals.golden_set||"")}</div>`:""}
    <h4 class="sec-h" style="margin-top:18px">Source health (${r.health.length} source queries)</h4>
    <div class="scroll"><table><tr><th>Source</th><th>Status</th><th>Items</th><th>ms</th><th>Detail</th></tr>
    ${r.health.map(h=>`<tr><td>${esc(h.name)}</td><td class="st-${h.status}">${h.status}</td><td class="num">${h.items}</td><td class="num">${h.ms}</td><td>${esc(h.error||"")}</td></tr>`).join("")}</table></div>
@@ -225,7 +225,7 @@ function show(key){
   document.getElementById("status").innerHTML = r ? `
     <span class="pill">Last pull <b>${fmtDate(r.started)}</b></span>
     <span class="pill ${ok>=0.7?"ok":"warn"}">Sources OK <b>${Math.round((ok||0)*100)}%</b></span>
-    <span class="pill">Classifier <b>${r.classifier==="llm"?"Claude":"Rules"}</b></span>
+    <span class="pill">Classifier <b>${r.classifier==="llm"?esc(r.model||"AI model"):"Rules"}</b></span>
     <span class="pill">${D.runs.length} pulls · ${Object.keys(D.events).length} events</span>` : `<span class="pill warn">No runs yet</span>`;
   document.getElementById("tabs").innerHTML = TABS.map(t=>`<button role="tab" data-k="${t[0]}">${t[1]}${t[3]?`<span class="n">${t[3]()}</span>`:""}</button>`).join("");
   document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>show(b.dataset.k));
