@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEST FIXTURE (synthetic) — not real news. -->
+<rss version="2.0"><channel><title>Trade Feed Fixture</title><link>https://example-trade.test</link><description>x</description>
+<item><title>Cover Whale exits courier delivery segment in three states</title><link>https://example-trade.test/a/coverwhale-exit</link><pubDate>Wed, 14 Oct 2026 15:00:00 +0000</pubDate><description>The MGA will non-renew courier delivery commercial auto policies in Texas, Florida and Georgia.</description></item>
+<item><title>Fairmatic launches telematics-based policy for last-mile delivery fleets</title><link>https://example-trade.test/a/fairmatic-last-mile</link><pubDate>Tue, 13 Oct 2026 14:00:00 +0000</pubDate><description>Fairmatic said the new commercial auto program targets Amazon delivery service partners with van fleets.</description></item>
+<item><title>Nuclear verdicts push commercial auto liability rates higher for delivery fleets</title><link>https://example-trade.test/a/verdicts</link><pubDate>Tue, 13 Oct 2026 10:00:00 +0000</pubDate><description>Jury awards over $10 million in auto liability cases rose again, according to the analysis.</description></item>
+<item><title>Delivery fleet insurance study from 2025 resurfaces</title><link>https://example-trade.test/a/old</link><pubDate>Mon, 21 Sep 2026 10:00:00 +0000</pubDate><description>Older delivery commercial auto analysis.</description></item>
+</channel></rss>

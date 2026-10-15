@@ -1,0 +1,18 @@
+name: CI (tests + eval gate)
+on:
+  push:
+    paths: ["monitor/**", "config/**", "evals/**", "tests/**"]
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m unittest discover -s tests -v
+      - name: Eval gate (blocks prompt/config changes that drop precision below 0.80)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m evals.run_eval --mode both --gate 0.80

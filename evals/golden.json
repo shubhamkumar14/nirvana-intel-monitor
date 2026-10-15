@@ -1,0 +1,29 @@
+{
+  "_note": "SYNTHETIC v0 golden set written by the AI to exercise classifier logic (hard negatives included). It is NOT real news. Replace with human-labeled items from live pulls: python -m evals.label docs/data (see README). Labels: lane in competitor_move|market_driver|research|policy_macro|irrelevant.",
+  "items": [
+    {"title": "Fairmatic launches commercial auto program for last-mile delivery fleets", "snippet": "The insurtech said the policy uses telematics to price Amazon DSP van fleets.", "lane": "competitor_move"},
+    {"title": "Cover Whale to non-renew courier delivery policies in Florida", "snippet": "The MGA will stop writing courier commercial auto business in the state.", "lane": "competitor_move"},
+    {"title": "INSHUR raises Series C to expand delivery driver coverage in US", "snippet": "INSHUR, which insures rideshare and delivery drivers, closed a funding round.", "lane": "competitor_move"},
+    {"title": "Next Insurance partners with delivery platform to offer commercial auto", "snippet": "Small delivery businesses can buy commercial auto insurance in the app.", "lane": "competitor_move"},
+    {"title": "Progressive files commercial auto rate increase in Texas", "snippet": "Progressive's rate filing affects commercial auto policies including delivery vans.", "lane": "competitor_move"},
+    {"title": "Samsara adds insurance marketplace for fleet customers", "snippet": "Fleet operators can share telematics data with insurers for quotes.", "lane": "competitor_move"},
+    {"title": "Coverdash launches embedded insurance for gig delivery couriers", "snippet": "Coverdash said couriers on partner platforms can buy hired auto coverage.", "lane": "competitor_move"},
+    {"title": "Nuclear verdicts drive commercial auto liability losses higher", "snippet": "Jury awards above $10 million rose, pushing auto liability severity for fleets.", "lane": "market_driver"},
+    {"title": "Amazon cuts DSP payouts, squeezing delivery contractor margins", "snippet": "Delivery service partners say lower rates make insurance costs harder to absorb.", "lane": "market_driver"},
+    {"title": "Parcel delivery volumes climb ahead of holiday season", "snippet": "Carriers expect record last-mile delivery volumes, adding fleet miles.", "lane": "market_driver"},
+    {"title": "Repair costs for electric delivery vans outpace gas models", "snippet": "Higher EV repair severity affects commercial auto physical damage claims.", "lane": "market_driver"},
+    {"title": "Commercial auto market outlook report sees continued rate firming", "snippet": "The annual report projects double-digit commercial auto rate increases.", "lane": "research"},
+    {"title": "Survey: last-mile delivery fleet operators rank insurance as top cost", "snippet": "A survey of courier and DSP owners found insurance is their fastest-rising expense.", "lane": "research"},
+    {"title": "Study finds telematics coaching cuts delivery fleet crash rates", "snippet": "Analysis of fleet data showed fewer collisions after driver coaching.", "lane": "research"},
+    {"title": "FMCSA proposes higher minimum insurance for motor carriers", "snippet": "The proposed rule would raise financial responsibility limits.", "lane": "policy_macro"},
+    {"title": "Georgia governor signs tort reform bill affecting auto liability suits", "snippet": "The law limits phantom damages in commercial auto litigation.", "lane": "policy_macro"},
+    {"title": "California law reclassifies app-based delivery drivers as employees", "snippet": "The legislation changes who must carry commercial auto coverage for delivery work.", "lane": "policy_macro"},
+    {"title": "New tariffs raise prices of delivery vans and replacement parts", "snippet": "Tariffs on imported parts increase repair and fleet acquisition costs.", "lane": "policy_macro"},
+    {"title": "Progressive reports strong personal auto growth in quarterly earnings", "snippet": "Personal auto policies in force grew; homeowners results improved.", "lane": "irrelevant"},
+    {"title": "UK insurer launches home insurance product", "snippet": "The product covers flooding for UK homeowners.", "lane": "irrelevant"},
+    {"title": "Best pizza delivery deals this weekend", "snippet": "Coupons for pizza delivery near you.", "lane": "irrelevant"},
+    {"title": "Motive stock jumps after earnings call", "snippet": "Shares rose in afternoon trading.", "lane": "irrelevant"},
+    {"title": "Buckle the seatbelt: safety tips for families on road trips", "snippet": "Advice for parents driving long distances.", "lane": "irrelevant"},
+    {"title": "Arctic sea ice continues to shrink", "snippet": "Climate study on polar ice.", "lane": "irrelevant"}
+  ]
+}

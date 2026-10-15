@@ -1,0 +1,82 @@
+name: Daily competitor intel
+
+on:
+  schedule:
+    - cron: "47 12 * * *"      # 12:47 UTC = 05:47 PT (PDT) / 04:47 PT (PST), daily
+  workflow_dispatch:            # "Run workflow" button = on-demand pull for live demos
+    inputs:
+      notify:
+        description: "Send Slack / email / webhook"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: intel-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Unit tests (synthetic fixtures — logic only)
+        run: python -m unittest discover -s tests -v
+
+      - name: Classifier eval on golden set (recorded, non-blocking here)
+        continue-on-error: true
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python -m evals.run_eval --mode both --out docs/data/evals.json
+
+      - name: Run monitor (live sources)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT }}
+          NOTIFY_HEARTBEAT: ${{ vars.NOTIFY_HEARTBEAT || 'true' }}
+          DASHBOARD_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.notify }}" = "false" ]; then
+            python -m monitor --no-notify
+          else
+            python -m monitor
+          fi
+
+      - name: Commit this pull to history (git = database)
+        run: |
+          git config user.name "intel-monitor-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          git commit -m "Pull $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "No data changes"
+          git pull --rebase --autostash && git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: monitor
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEST FIXTURE (synthetic) — not real news. Used only by unit tests. -->
+<rss version="2.0"><channel><title>Trade Feed Fixture</title><link>https://example-trade.test</link><description>x</description>
+<item><title>Fairmatic launches telematics-based policy for last-mile delivery fleets</title><link>https://example-trade.test/a/fairmatic-last-mile</link><pubDate>Tue, 13 Oct 2026 14:00:00 +0000</pubDate><description>Fairmatic said the new commercial auto program targets Amazon delivery service partners with van fleets.</description></item>
+<item><title>Nuclear verdicts push commercial auto liability rates higher for delivery fleets</title><link>https://example-trade.test/a/verdicts</link><pubDate>Tue, 13 Oct 2026 10:00:00 +0000</pubDate><description>Jury awards over $10 million in auto liability cases rose again, according to the analysis.</description></item>
+<item><title>Arctic sea ice continues to shrink</title><link>https://example-trade.test/a/ice</link><pubDate>Tue, 13 Oct 2026 09:00:00 +0000</pubDate><description>Climate study on polar ice.</description></item>
+</channel></rss>

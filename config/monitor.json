@@ -1,0 +1,89 @@
+{
+  "_note": "Seed config. Competitor list is a HYPOTHESIS pending Shubham / Nirvana SME sign-off. Edit freely; no code changes needed.",
+  "lookback_days": 10,
+  "late_discovery_days": 30,
+  "cluster_window_days": 14,
+  "fuzzy_merge_threshold": 0.86,
+  "max_classify_per_run": 160,
+  "classify_batch_size": 15,
+  "models": {
+    "classify": "claude-haiku-5-5",
+    "digest": "claude-sonnet-5-5"
+  },
+  "weights": {
+    "materiality": 0.40,
+    "priority": 0.20,
+    "source_tier": 0.15,
+    "recency": 0.15,
+    "last_mile_fit": 0.10,
+    "recency_half_life_days": 7
+  },
+
+  "competitors": [
+    {"name": "Fairmatic", "aliases": ["Fairmatic"], "priority": 1.0, "domains": ["fairmatic.com"], "query": "\"Fairmatic\""},
+    {"name": "NEXT Insurance", "aliases": ["NEXT Insurance", "Next Insurance"], "priority": 0.9, "domains": ["nextinsurance.com"], "query": "\"Next Insurance\" commercial auto"},
+    {"name": "Progressive Commercial", "aliases": ["Progressive Commercial", "Progressive Insurance", "Progressive Corp"], "priority": 0.9, "domains": ["progressive.com", "progressivecommercial.com"], "query": "Progressive \"commercial auto\""},
+    {"name": "Cover Whale", "aliases": ["Cover Whale", "CoverWhale"], "priority": 0.8, "domains": ["coverwhale.com"], "query": "\"Cover Whale\""},
+    {"name": "INSHUR", "aliases": ["INSHUR"], "priority": 0.8, "domains": ["inshur.com"], "query": "\"INSHUR\""},
+    {"name": "Buckle", "aliases": ["Buckle Insurance", "Buckle"], "priority": 0.7, "domains": ["buckle.com"], "query": "\"Buckle\" insurance gig drivers"},
+    {"name": "Coverdash", "aliases": ["Coverdash"], "priority": 0.7, "domains": ["coverdash.com"], "query": "\"Coverdash\""},
+    {"name": "Lula", "aliases": ["Lula Insurance", "Lula"], "priority": 0.6, "domains": ["lula.com"], "query": "\"Lula\" fleet insurance"},
+    {"name": "Samsara", "aliases": ["Samsara"], "priority": 0.5, "domains": ["samsara.com"], "query": "\"Samsara\" insurance"},
+    {"name": "Motive", "aliases": ["Motive Technologies", "Motive"], "priority": 0.5, "domains": ["gomotive.com"], "query": "\"Motive\" fleet insurance"}
+  ],
+
+  "query_packs": [
+    {"lane": "discovery", "q": "\"last-mile delivery\" insurance"},
+    {"lane": "discovery", "q": "\"delivery fleet\" insurance launch"},
+    {"lane": "discovery", "q": "\"delivery service partner\" insurance"},
+    {"lane": "discovery", "q": "gig delivery drivers \"commercial auto\" insurance"},
+    {"lane": "discovery", "q": "insurtech \"commercial auto\" funding"},
+    {"lane": "discovery", "q": "telematics insurance fleet MGA"},
+    {"lane": "market_driver", "q": "\"commercial auto\" insurance rates"},
+    {"lane": "market_driver", "q": "\"nuclear verdicts\" OR \"social inflation\" auto liability"},
+    {"lane": "market_driver", "q": "\"tort reform\" trucking OR delivery"},
+    {"lane": "market_driver", "q": "Amazon DSP delivery contractors"},
+    {"lane": "market_driver", "q": "parcel delivery volumes"},
+    {"lane": "research", "q": "\"commercial auto\" market outlook report"},
+    {"lane": "research", "q": "last-mile delivery market report"},
+    {"lane": "policy_macro", "q": "tariffs freight trucking costs"},
+    {"lane": "policy_macro", "q": "FMCSA insurance minimum"},
+    {"lane": "policy_macro", "q": "delivery driver independent contractor law"}
+  ],
+
+  "search_engines": {
+    "bing_news": {"enabled": true, "robots": true},
+    "gdelt": {"enabled": true, "robots": false, "timespan": "7d", "max_records": 25, "sleep_seconds": 6}
+  },
+
+  "feeds": [
+    {"id": "insurancejournal", "name": "Insurance Journal", "url": "https://www.insurancejournal.com/rss/news/", "tier": 2},
+    {"id": "carriermanagement", "name": "Carrier Management", "url": "https://www.carriermanagement.com/feed/", "tier": 2},
+    {"id": "supplychaindive", "name": "Supply Chain Dive", "url": "https://www.supplychaindive.com/feeds/news/", "tier": 2},
+    {"id": "freightwaves", "name": "FreightWaves", "url": "https://www.freightwaves.com/news/feed", "tier": 2},
+    {"id": "prn_insurance", "name": "PR Newswire - Insurance", "url": "https://www.prnewswire.com/rss/financial-services-latest-news/insurance-list.rss", "tier": 1},
+    {"id": "techcrunch", "name": "TechCrunch", "url": "https://techcrunch.com/feed/", "tier": 3}
+  ],
+
+  "federal_register_terms": ["motor carrier insurance", "financial responsibility motor carriers", "FMCSA delivery"],
+  "sec_queries": ["\"last-mile delivery\" \"commercial auto\"", "\"delivery service partners\" insurance"],
+  "sec_forms": "8-K,10-Q,10-K,S-1",
+
+  "page_watch": [],
+
+  "topic_keywords": [
+    "commercial auto", "auto liability", "fleet insurance", "last-mile", "last mile", "delivery", "courier", "parcel",
+    "delivery service partner", "dsp", "gig", "rideshare", "telematics", "trucking insurance", "nuclear verdict",
+    "social inflation", "tort reform", "fmcsa", "amazon", "fedex", "ups ", "doordash", "uber eats", "instacart",
+    "cargo", "hired and non-owned", "insurtech", "mga", "motor carrier"
+  ],
+
+  "source_tiers": {
+    "1": ["sec.gov", "federalregister.gov", "prnewswire.com", "businesswire.com", "globenewswire.com", "congress.gov", "fmcsa.dot.gov"],
+    "2": ["insurancejournal.com", "carriermanagement.com", "supplychaindive.com", "freightwaves.com", "reinsurancene.ws",
+          "artemis.bm", "insurancebusinessmag.com", "propertycasualty360.com", "coverager.com", "dig-in.com",
+          "ccjdigital.com", "overdriveonline.com", "theinsurer.com", "insurtechinsights.com", "riskandinsurance.com",
+          "ttnews.com", "dcvelocity.com", "modernretail.co", "insurancetimes.co.uk", "repairerdrivennews.com"],
+    "3": []
+  }
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- TEST FIXTURE (synthetic) — a second publisher re-reporting a day-1 story (corroboration). -->
+<rss version="2.0"><channel><title>Wire Fixture</title><link>https://example-wire.test</link><description>x</description>
+<item><title>Fairmatic Launches Telematics-Based Policy for Last-Mile Delivery Fleets</title><link>https://example-wire.test/news/fairmatic-launch-302</link><pubDate>Tue, 13 Oct 2026 13:00:00 +0000</pubDate><description>Fairmatic announced a commercial auto program for last-mile delivery fleets.</description></item>
+</channel></rss>
