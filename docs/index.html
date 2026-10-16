@@ -295,6 +295,7 @@ function show(key){
   document.getElementById("tabs").innerHTML = TABS.map(t=>`<button role="tab" data-k="${t[0]}">${t[1]}${t[3]?`<span class="n">${t[3]()}</span>`:""}</button>`).join("");
   document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>show(b.dataset.k));
   const h = location.hash.slice(1); show(TABS.some(t=>t[0]===h)?h:"new");
+  window.addEventListener("hashchange",()=>{ const k=location.hash.slice(1); if(TABS.some(t=>t[0]===k)) show(k); });
 })();
 document.getElementById("themeBtn").onclick=()=>{const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==="dark":matchMedia("(prefers-color-scheme: dark)").matches;r.dataset.theme=dark?"light":"dark";try{localStorage.setItem("theme",r.dataset.theme)}catch(e){}};
 try{const t=localStorage.getItem("theme"); if(t) document.documentElement.dataset.theme=t;}catch(e){}

@@ -128,7 +128,8 @@ class OpenAICompatClient:
     def complete(self, model, system, user, max_tokens=4000):
         """Try the primary model, then each fallback; transient errors (429/5xx: free-tier 'high demand') back off and retry.
         A model reported as unknown/retired is dropped for the rest of the run."""
-        chain = [m for m in [model] + self.fallbacks if m not in self._dead]
+        first = getattr(self, "_sticky", None) or model
+        chain = [m for m in dict.fromkeys([first, model] + self.fallbacks) if m not in self._dead]
         last = None
         for m in chain:
             for attempt in range(3):
@@ -136,6 +137,7 @@ class OpenAICompatClient:
                     out = self._call(m, system, user, max_tokens)
                     if m != model:
                         self.usage.setdefault("model_fallbacks", []).append(f"{model} -> {m}")
+                        self._sticky = m  # primary is overloaded: start with the working model for the rest of this run
                     self.label = f"{self.provider}:{m}" if m == self.models["classify"] else f"{self.provider}:{self.models['classify']} (+{m} fallback)"
                     return out
                 except urllib.error.HTTPError as e:

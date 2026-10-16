@@ -280,12 +280,6 @@
       "tier": 2
     },
     {
-      "id": "coverager",
-      "name": "Coverager",
-      "url": "https://coverager.com/feed/",
-      "tier": 2
-    },
-    {
       "id": "repairerdriven",
       "name": "Repairer Driven News",
       "url": "https://www.repairerdrivennews.com/feed/",
@@ -296,18 +290,6 @@
       "name": "Artemis",
       "url": "https://www.artemis.bm/feed/",
       "tier": 2
-    },
-    {
-      "id": "businesswire_ins",
-      "name": "Business Wire - Insurance",
-      "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFtRWQ==",
-      "tier": 1
-    },
-    {
-      "id": "globenewswire_ins",
-      "name": "GlobeNewswire - Insurance",
-      "url": "https://www.globenewswire.com/RssFeed/industry/8500-Insurance/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Insurance",
-      "tier": 1
     }
   ],
   "federal_register_terms": [
