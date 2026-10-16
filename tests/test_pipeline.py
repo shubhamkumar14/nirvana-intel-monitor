@@ -137,6 +137,18 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(s["counts"]["classifier_errors"], 0)
         self.assertEqual(l["total_events"], 2)
 
+    def test_email_summary_after_run(self):
+        from monitor.notify import email_parts
+        self.run_day(["ij_day1.xml"], D1, FakeLLM())
+        _, l2 = self.run_day(["ij_day2.xml", "wire_day2.xml"], D2, FakeLLM())
+        subj, text, html_body = email_parts(l2, "https://x.test/")
+        self.assertIn("1 new, 1 updated", subj)
+        self.assertIn("For Nirvana:", text)
+        self.assertIn("Cover Whale exits", html_body)
+        self.assertIn("UPDATED", html_body)
+        _, l3 = self.run_day(["ij_day2.xml", "wire_day2.xml"], D2.replace(hour=15), FakeLLM())
+        self.assertIn("No new developments", email_parts(l3, "https://x.test/")[0])
+
     def test_rules_mode_has_templated_implication(self):
         s, l = self.run_day(["ij_day1.xml"], D1, None)
         e = next(iter(json.load(open(os.path.join(self.dir, "events.json"))).values()))
