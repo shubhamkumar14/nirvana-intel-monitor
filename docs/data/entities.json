@@ -1,0 +1,22 @@
+{
+ "Federation of Professional Truckers": {
+  "name": "Federation of Professional Truckers",
+  "first_seen": "2026-10-16T17:33:00Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_67efbd9e7dd0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:33:00Z"
+ },
+ "Cleveland-Cliffs Steel LLC": {
+  "name": "Cleveland-Cliffs Steel LLC",
+  "first_seen": "2026-10-16T17:33:00Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9417655b9c53"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:33:00Z"
+ }
+}

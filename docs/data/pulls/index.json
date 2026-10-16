@@ -1,0 +1,15 @@
+[
+ {
+  "run_id": "2026-10-16T17-33-00Z",
+  "date": "2026-10-16",
+  "started": "2026-10-16T17:33:00Z",
+  "new": 21,
+  "updated": 0,
+  "baseline": true,
+  "trigger": "workflow_dispatch",
+  "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/38940509349",
+  "sources_ok": 0.737,
+  "scanned": 273,
+  "file": "pulls/2026-10-16T17-33-00Z.json"
+ }
+]
