@@ -224,7 +224,8 @@
   "search_engines": {
     "bing_news": {
       "enabled": true,
-      "robots": true
+      "robots": true,
+      "sleep_seconds": 3
     },
     "gdelt": {
       "enabled": false,

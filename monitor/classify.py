@@ -85,7 +85,7 @@ class OpenAICompatClient:
                    "fallbacks": ["openai/gpt-4o-mini", "openai/gpt-5-mini", "meta/Llama-3.3-70B-Instruct"]},
         "gemini": {"url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", "env": "GEMINI_API_KEY",
                    "models": {"classify": "gemini-flash-latest", "digest": "gemini-flash-latest"},
-                   "fallbacks": ["gemini-flash-lite-latest"]},
+                   "fallbacks": ["gemini-flash-lite-latest", "gemini-flash-latest"]},
     }
 
     def __init__(self, provider):
@@ -96,50 +96,63 @@ class OpenAICompatClient:
         self.models = {"classify": m or p["models"]["classify"], "digest": os.environ.get("LLM_DIGEST_MODEL", "").strip() or m or p["models"]["digest"]}
         self.usage = {"input_tokens": 0, "output_tokens": 0, "calls": 0, "errors": 0, "provider": provider}
         self.fallbacks = [m for m in p.get("fallbacks", []) if m != self.models["classify"]]
+        self._dead = set()
+        self.label = f"{provider}:{self.models['classify']}"
 
     @property
     def available(self):
         return bool(self.api_key)
 
-    def complete(self, model, system, user, max_tokens=4000):
-        model = getattr(self, "_active", None) or model
+    def _call(self, model, system, user, max_tokens):
         body = json.dumps({"model": model, "max_tokens": max_tokens, "temperature": 0,
                            "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}).encode()
-        for attempt in range(4):
-            req = urllib.request.Request(self.url, data=body, headers={
-                "Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json",
-                "Accept": "application/json", "X-GitHub-Api-Version": "2022-11-28"})
+        req = urllib.request.Request(self.url, data=body, headers={
+            "Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json", "Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=150) as r:
+            raw = r.read()
             try:
-                with urllib.request.urlopen(req, timeout=120) as r:
-                    raw = r.read()
-                    try:
-                        data = json.loads(raw)
-                    except ValueError:
-                        raise RuntimeError(f"{self.provider} non-JSON response (HTTP {r.status}, {r.headers.get('Content-Type')}): {raw[:200]!r}")
-                    if not (data.get("choices") or [{}])[0].get("message", {}).get("content"):
-                        raise RuntimeError(f"{self.provider} empty completion: {json.dumps(data)[:300]}")
-                u = data.get("usage", {}) or {}
-                self.usage["input_tokens"] += u.get("prompt_tokens", 0)
-                self.usage["output_tokens"] += u.get("completion_tokens", 0)
-                self.usage["calls"] += 1
-                return data["choices"][0]["message"]["content"] or ""
-            except urllib.error.HTTPError as e:
-                err = e.read()[:400]
-                if e.code in (429, 500, 502, 503) and attempt < 3:
-                    time.sleep(min(60, int(e.headers.get("Retry-After", "0") or 0) or 10 * (attempt + 1)))
-                    continue
-                quota = e.code == 429
-                if ((e.code in (400, 404) and b"model" in err.lower()) or quota) and self.fallbacks:
-                    nxt = self.fallbacks.pop(0)  # model retired/renamed -> try next free model, record it
-                    self.usage.setdefault("model_fallbacks", []).append(f"{model} -> {nxt}")
-                    self.models = {"classify": nxt, "digest": nxt}
-                    self._active = nxt
-                    self.label = f"{self.provider}:{nxt}"
-                    return self.complete(nxt, system, user, max_tokens)
-                self.usage["errors"] += 1
-                raise RuntimeError(f"{self.provider} HTTP {e.code}: {err!r}")
+                data = json.loads(raw)
+            except ValueError:
+                raise RuntimeError(f"{self.provider} non-JSON response (HTTP {r.status}, {r.headers.get('Content-Type')}): {raw[:200]!r}")
+        content = ((data.get("choices") or [{}])[0].get("message") or {}).get("content")
+        if not content:
+            raise RuntimeError(f"{self.provider} empty completion: {json.dumps(data)[:300]}")
+        u = data.get("usage", {}) or {}
+        self.usage["input_tokens"] += u.get("prompt_tokens", 0)
+        self.usage["output_tokens"] += u.get("completion_tokens", 0)
+        self.usage["calls"] += 1
+        self.usage.setdefault("by_model", {})
+        self.usage["by_model"][model] = self.usage["by_model"].get(model, 0) + 1
+        return content
+
+    def complete(self, model, system, user, max_tokens=4000):
+        """Try the primary model, then each fallback; transient errors (429/5xx: free-tier 'high demand') back off and retry.
+        A model reported as unknown/retired is dropped for the rest of the run."""
+        chain = [m for m in [model] + self.fallbacks if m not in self._dead]
+        last = None
+        for m in chain:
+            for attempt in range(3):
+                try:
+                    out = self._call(m, system, user, max_tokens)
+                    if m != model:
+                        self.usage.setdefault("model_fallbacks", []).append(f"{model} -> {m}")
+                    self.label = f"{self.provider}:{m}" if m == self.models["classify"] else f"{self.provider}:{self.models['classify']} (+{m} fallback)"
+                    return out
+                except urllib.error.HTTPError as e:
+                    err = e.read()[:300]
+                    last = f"{self.provider}:{m} HTTP {e.code}: {err!r}"
+                    if e.code in (400, 404) and b"model" in err.lower():
+                        self._dead.add(m)
+                        break
+                    if e.code in (429, 500, 502, 503, 504):
+                        time.sleep(min(60, int(e.headers.get("Retry-After", "0") or 0) or 15 * (attempt + 1)))
+                        continue
+                    break
+                except Exception as e:
+                    last = f"{self.provider}:{m} {type(e).__name__}: {e}"
+                    time.sleep(5)
         self.usage["errors"] += 1
-        raise RuntimeError(f"{self.provider} retries exhausted")
+        raise RuntimeError(last or f"{self.provider}: all models failed")
 
 
 def make_client(cfg):
