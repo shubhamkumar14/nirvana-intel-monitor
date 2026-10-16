@@ -184,23 +184,25 @@
  "Novacore": {
   "name": "Novacore",
   "first_seen": "2026-10-16T17:40:26Z",
-  "mentions": 2,
+  "mentions": 3,
   "event_ids": [
    "ev_d33f8cc3b4cc",
-   "ev_3d94751de6c4"
+   "ev_3d94751de6c4",
+   "ev_2f12be7f7a98"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T17:40:26Z"
+  "last_seen": "2026-10-16T17:51:13Z"
  },
  "Diesel Insurance Solutions": {
   "name": "Diesel Insurance Solutions",
   "first_seen": "2026-10-16T17:40:26Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_d33f8cc3b4cc"
+   "ev_d33f8cc3b4cc",
+   "ev_2f12be7f7a98"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T17:40:26Z"
+  "last_seen": "2026-10-16T17:51:13Z"
  },
  "Diesel Insurance Solutions Inc.": {
   "name": "Diesel Insurance Solutions Inc.",
@@ -303,5 +305,76 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Marsh": {
+  "name": "Marsh",
+  "first_seen": "2026-10-16T17:51:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_512aefee1a8b"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:51:13Z"
+ },
+ "Chubb": {
+  "name": "Chubb",
+  "first_seen": "2026-10-16T17:51:13Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_52a63b732c41",
+   "ev_fdd4f35d64ad"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:51:13Z"
+ },
+ "Tokio Marine": {
+  "name": "Tokio Marine",
+  "first_seen": "2026-10-16T17:51:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_52a63b732c41"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:51:13Z"
+ },
+ "ICW Group": {
+  "name": "ICW Group",
+  "first_seen": "2026-10-16T17:51:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_52a63b732c41"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:51:13Z"
+ },
+ "Chubb Limited": {
+  "name": "Chubb Limited",
+  "first_seen": "2026-10-16T17:51:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b46b6b1039fc"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:51:13Z"
+ },
+ "TheZebra.com": {
+  "name": "TheZebra.com",
+  "first_seen": "2026-10-16T17:51:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_45630621afd8"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:51:13Z"
+ },
+ "Harbor": {
+  "name": "Harbor",
+  "first_seen": "2026-10-16T17:51:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_48d72d3dc433"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:51:13Z"
  }
 }

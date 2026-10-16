@@ -42,7 +42,7 @@
    }
   ],
   "best_tier": 2,
-  "score": 46.2,
+  "score": 46.1,
   "age_days": 0.1,
   "score_parts": {
    "materiality": 1,
@@ -411,7 +411,7 @@
   "date_known": true,
   "first_seen": "2026-10-16T17:40:26Z",
   "first_run": "2026-10-16T17-40-26Z",
-  "last_seen": "2026-10-16T17:40:26Z",
+  "last_seen": "2026-10-16T17:51:13Z",
   "last_updated_run": "2026-10-16T17-40-26Z",
   "update_note": null,
   "late_discovery": false,
@@ -433,7 +433,7 @@
   ],
   "best_tier": 3,
   "score": 54.0,
-  "age_days": 0.3,
+  "age_days": 0.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -493,7 +493,7 @@
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.97,
+   "recency": 0.96,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -543,7 +543,7 @@
    }
   ],
   "best_tier": 3,
-  "score": 63.0,
+  "score": 62.9,
   "age_days": 0.4,
   "score_parts": {
    "materiality": 3,
@@ -577,9 +577,9 @@
   "date_known": true,
   "first_seen": "2026-10-16T17:40:26Z",
   "first_run": "2026-10-16T17-40-26Z",
-  "last_seen": "2026-10-16T17:40:26Z",
-  "last_updated_run": "2026-10-16T17-40-26Z",
-  "update_note": null,
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": "New corroborating source: Investing.com Australia",
   "late_discovery": false,
   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
   "lane_hint": "market_driver",
@@ -595,10 +595,19 @@
     "tier": 3,
     "source_id": "bing_news",
     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   },
+   {
+    "url": "https://au.investing.com/news/stock-market-news/earnings-call-transcript-travelers-tops-q3-2026-estimates-on-strong-underwriting-93CH-4695493",
+    "publisher": "Investing.com Australia",
+    "publisher_key": "investing.com australia",
+    "published": "2026-10-16T07:16:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"commercial auto\" insurance rates"
    }
   ],
   "best_tier": 3,
-  "score": 49.9,
+  "score": 52.9,
   "age_days": 0.4,
   "score_parts": {
    "materiality": 2,
@@ -607,9 +616,9 @@
    "recency": 0.96,
    "last_mile_fit": 0.2
   },
-  "verification": "Reported",
-  "confidence": "Low",
-  "confidence_reason": "general news, single source"
+  "verification": "Corroborated",
+  "confidence": "High",
+  "confidence_reason": "general news, 2 independent publishers"
  },
  "ev_a19b6253d460": {
   "id": "ev_a19b6253d460",
@@ -760,7 +769,7 @@
   ],
   "best_tier": 3,
   "score": 50.7,
-  "age_days": 0.5,
+  "age_days": 0.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -871,7 +880,7 @@
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.92,
+   "recency": 0.91,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -1299,7 +1308,7 @@
   ],
   "best_tier": 3,
   "score": 51.3,
-  "age_days": 2.4,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -1407,7 +1416,7 @@
   ],
   "best_tier": 3,
   "score": 48.8,
-  "age_days": 2.8,
+  "age_days": 2.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -1555,15 +1564,16 @@
   "date_known": true,
   "first_seen": "2026-10-16T17:40:26Z",
   "first_run": "2026-10-16T17-40-26Z",
-  "last_seen": "2026-10-16T17:40:26Z",
-  "last_updated_run": "2026-10-16T17-40-26Z",
-  "update_note": null,
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": "New corroborating source: Yahoo Finance",
   "late_discovery": false,
   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
   "lane_hint": "competitor_move",
   "fingerprints": [
    "3d94751de6c4",
-   "4234b7453bc9"
+   "4234b7453bc9",
+   "7f7c49fede53"
   ],
   "sources": [
    {
@@ -1583,6 +1593,15 @@
     "tier": 3,
     "source_id": "bing_news",
     "query": "\"Asero\" insurance transportation"
+   },
+   {
+    "url": "https://finance.yahoo.com/small-business/articles/novacore-acquire-diesel-insurance-solutions-120000249.html",
+    "publisher": "Yahoo Finance",
+    "publisher_key": "yahoo finance",
+    "published": "2026-10-13T05:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"Asero\" insurance transportation"
    }
   ],
   "best_tier": 3,
@@ -1597,7 +1616,7 @@
   },
   "verification": "Corroborated",
   "confidence": "High",
-  "confidence_reason": "general news, 2 independent publishers"
+  "confidence_reason": "general news, 3 independent publishers"
  },
  "ev_f555e967d765": {
   "id": "ev_f555e967d765",
@@ -1697,8 +1716,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.1,
-  "age_days": 3.5,
+  "score": 47.0,
+  "age_days": 3.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
@@ -2256,5 +2275,1502 @@
   "verification": "Confirmed (primary source)",
   "confidence": "High",
   "confidence_reason": "primary source, single source"
+ },
+ "ev_4c57f4a4aec0": {
+  "id": "ev_4c57f4a4aec0",
+  "title": "Mamdani's crackdown on Amazon could cost New York thousands of jobs and an extra $664 a year per household",
+  "url": "https://voz.us/en/politics/261016/40029/mamdani-s-crackdown-on-amazon-could-cost-new-york-thousands-of-jobs-and-664-per-household.html",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.7,
+  "summary": "Proposed regulations in New York could force Amazon to close 15 last-mile fulfillment centers, impacting local jobs.",
+  "evidence_quote": "Mamdani's crackdown on Amazon could cost New York thousands of jobs",
+  "companies": [
+   "Amazon"
+  ],
+  "implication": "Monitor regulatory risks to Amazon DSP footprint in New York which could affect local fleet exposure volumes.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T10:08:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "4c57f4a4aec0"
+  ],
+  "sources": [
+   {
+    "url": "https://voz.us/en/politics/261016/40029/mamdani-s-crackdown-on-amazon-could-cost-new-york-thousands-of-jobs-and-664-per-household.html",
+    "publisher": "VOZ",
+    "publisher_key": "voz",
+    "published": "2026-10-16T10:08:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "delivery driver independent contractor law"
+   }
+  ],
+  "best_tier": 3,
+  "score": 63.0,
+  "age_days": 0.3,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.97,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_bd487fb8d6c5": {
+  "id": "ev_bd487fb8d6c5",
+  "title": "Supermarket chain expands footprint, same-day delivery",
+  "url": "https://www.mlive.com/news/2026/10/supermarket-chain-expands-footprint-same-day-delivery.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.5,
+  "summary": "An Arizona-based supermarket chain has expanded its same-day delivery options for natural and organic products.",
+  "evidence_quote": "Supermarket chain expands footprint, same-day delivery",
+  "companies": [],
+  "implication": "Continued growth in same-day grocery delivery supports expanding commercial auto exposure in local delivery fleets.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T05:28:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "bd487fb8d6c5"
+  ],
+  "sources": [
+   {
+    "url": "https://www.mlive.com/news/2026/10/supermarket-chain-expands-footprint-same-day-delivery.html",
+    "publisher": "mlive",
+    "publisher_key": "mlive",
+    "published": "2026-10-16T05:28:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"tort reform\" trucking OR delivery"
+   }
+  ],
+  "best_tier": 3,
+  "score": 52.8,
+  "age_days": 0.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.95,
+   "last_mile_fit": 0.5
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_512aefee1a8b": {
+  "id": "ev_512aefee1a8b",
+  "title": "Poaching wars: Marsh spends $30m in a quarter fighting rivals over staff",
+  "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/poaching-wars-marsh-spends-30m-in-a-quarter-fighting-rivals-over-staff-593829.aspx",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Marsh spent $30 million in a quarter on staff poaching wars against rivals.",
+  "evidence_quote": "Poaching wars: Marsh spends $30m in a quarter fighting rivals over staff",
+  "companies": [
+   "Marsh"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T23:59:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "512aefee1a8b"
+  ],
+  "sources": [
+   {
+    "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/poaching-wars-marsh-spends-30m-in-a-quarter-fighting-rivals-over-staff-593829.aspx",
+    "publisher": "Insurance Business America",
+    "publisher_key": "insurance business america",
+    "published": "2026-10-15T23:59:00Z",
+    "tier": 2,
+    "source_id": "bing_news",
+    "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+   }
+  ],
+  "best_tier": 2,
+  "score": 51.2,
+  "age_days": 0.7,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 2,
+   "recency": 0.93,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_be20d64bc23d": {
+  "id": "ev_be20d64bc23d",
+  "title": "Amazon delivery driver shot while working in Cedar Hill, suspect arrested",
+  "url": "https://www.msn.com/en-us/news/other/amazon-delivery-driver-shot-while-working-in-cedar-hill-suspect-arrested/ar-AA2ekJL4",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.8,
+  "summary": "An Amazon delivery driver was shot twice while working a shift in Cedar Hill, Texas, and a suspect was arrested.",
+  "evidence_quote": "Amazon delivery driver shot while working in Cedar Hill, suspect arrested",
+  "companies": [
+   "Amazon"
+  ],
+  "implication": "Highlights personal safety and crime risks for last-mile delivery drivers on route, impacting worker compensation and liability considerations.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T18:27:44Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "be20d64bc23d"
+  ],
+  "sources": [
+   {
+    "url": "https://www.msn.com/en-us/news/other/amazon-delivery-driver-shot-while-working-in-cedar-hill-suspect-arrested/ar-AA2ekJL4",
+    "publisher": "FOX 4 News Dallas-Fort Worth on MSN",
+    "publisher_key": "fox 4 news dallas-fort worth on msn",
+    "published": "2026-10-15T18:27:44Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "delivery driver independent contractor law"
+   }
+  ],
+  "best_tier": 3,
+  "score": 63.1,
+  "age_days": 1.0,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.91,
+   "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_37c7487b58b5": {
+  "id": "ev_37c7487b58b5",
+  "title": "The Carrier You Onboarded in July Can Lose Its Authority by September",
+  "url": "https://www.supplychainbrain.com/blogs/1-think-tank/post/44865-the-carrier-you-onboarded-in-july-can-lose-its-authority-by-september",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.6,
+  "summary": "Carriers can quickly lose active authority, posing ongoing compliance and underwriting challenges for motor carrier safety records.",
+  "evidence_quote": "The Carrier You Onboarded in July Can Lose Its Authority by September",
+  "companies": [
+   "FMCSA"
+  ],
+  "implication": "Reinforces the need for continuous telematics-based monitoring of carrier and fleet authority status during onboarding and underwriting.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T17:01:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "37c7487b58b5"
+  ],
+  "sources": [
+   {
+    "url": "https://www.supplychainbrain.com/blogs/1-think-tank/post/44865-the-carrier-you-onboarded-in-july-can-lose-its-authority-by-september",
+    "publisher": "SupplyChainBrain",
+    "publisher_key": "supplychainbrain",
+    "published": "2026-10-15T17:01:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "FMCSA insurance minimum"
+   }
+  ],
+  "best_tier": 3,
+  "score": 61.0,
+  "age_days": 1.0,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.9,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_d73cab5f369f": {
+  "id": "ev_d73cab5f369f",
+  "title": "US P&C insurers report $31.7 bn underwriting gain, combined ratio improved to 92.7%",
+  "url": "https://beinsure.com/news/us-pc-insurers-report-31-7-bn-underwriting-gain/",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.3,
+  "summary": "US P&C insurers reported a $31.7 billion underwriting gain in H1 2026, with the combined ratio improving to 92.7%.",
+  "evidence_quote": "US P&C insurers report $31.7 bn underwriting gain, combined ratio improved to 92.7%",
+  "companies": [],
+  "implication": "Broader P&C profitability is recovering, but commercial auto lines remain under pressure.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T14:48:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "d73cab5f369f"
+  ],
+  "sources": [
+   {
+    "url": "https://beinsure.com/news/us-pc-insurers-report-31-7-bn-underwriting-gain/",
+    "publisher": "beinsure",
+    "publisher_key": "beinsure",
+    "published": "2026-10-15T14:48:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"commercial auto\" insurance rates"
+   }
+  ],
+  "best_tier": 3,
+  "score": 57.9,
+  "age_days": 1.1,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.89,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_52a63b732c41": {
+  "id": "ev_52a63b732c41",
+  "title": "Insurance moves: Chubb, Tokio Marine and ICW Group",
+  "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/insurance-moves-chubb-tokio-marine-and-icw-group-593754.aspx",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.1,
+  "summary": "Chubb, Tokio Marine, and ICW Group announced executive leadership appointments for risk and reinsurance roles.",
+  "evidence_quote": "Insurance moves: Chubb, Tokio Marine and ICW Group",
+  "companies": [
+   "Chubb",
+   "Tokio Marine",
+   "ICW Group"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T14:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "52a63b732c41"
+  ],
+  "sources": [
+   {
+    "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/insurance-moves-chubb-tokio-marine-and-icw-group-593754.aspx",
+    "publisher": "Insurance Business America",
+    "publisher_key": "insurance business america",
+    "published": "2026-10-15T14:00:00Z",
+    "tier": 2,
+    "source_id": "bing_news",
+    "query": "\"LEEO\" insurance OR \"Fairmatic\""
+   }
+  ],
+  "best_tier": 2,
+  "score": 49.6,
+  "age_days": 1.2,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 2,
+   "recency": 0.89,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_500ec425f96b": {
+  "id": "ev_500ec425f96b",
+  "title": "P&C industry on track for 94 combined ratio in 2026: Triple-I and Milliman",
+  "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/pandc-industry-on-track-for-94-combined-ratio-in-2026-triplei-and-milliman-593744.aspx",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 4,
+  "last_mile_fit": 0.6,
+  "summary": "Triple-I and Milliman project a 94 combined ratio for the P&C industry in 2026, noting commercial auto is still expected to lose underwriting money.",
+  "evidence_quote": "P&C industry on track for 94 combined ratio in 2026: Triple-I and Milliman",
+  "companies": [
+   "Triple-I",
+   "Milliman"
+  ],
+  "implication": "Commercial auto underwriting losses persist industry-wide, reinforcing the value proposition of Nirvana's telematics-driven risk selection for last-mile fleets.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T13:34:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "500ec425f96b"
+  ],
+  "sources": [
+   {
+    "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/pandc-industry-on-track-for-94-combined-ratio-in-2026-triplei-and-milliman-593744.aspx",
+    "publisher": "Insurance Business America",
+    "publisher_key": "insurance business america",
+    "published": "2026-10-15T13:34:00Z",
+    "tier": 2,
+    "source_id": "bing_news",
+    "query": "\"commercial auto\" insurance rates"
+   }
+  ],
+  "best_tier": 2,
+  "score": 72.6,
+  "age_days": 1.2,
+  "score_parts": {
+   "materiality": 4,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.89,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_c37fabf328c2": {
+  "id": "ev_c37fabf328c2",
+  "title": "Couple paid $49K for a cross-country move. What went wrong and how to protect yours",
+  "url": "https://www.msn.com/en-us/money/general/couple-paid-49k-for-a-cross-country-move-what-went-wrong-and-how-to-protect-yours/ar-AA2el66n",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 1,
+  "last_mile_fit": 0.2,
+  "summary": "A couple experiences issues and delays during a cross-country household goods move.",
+  "evidence_quote": "Couple paid $49K for a cross-country move. What went wrong",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T13:13:59Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "c37fabf328c2"
+  ],
+  "sources": [
+   {
+    "url": "https://www.msn.com/en-us/money/general/couple-paid-49k-for-a-cross-country-move-what-went-wrong-and-how-to-protect-yours/ar-AA2el66n",
+    "publisher": "Charlotte Observer on MSN",
+    "publisher_key": "charlotte observer on msn",
+    "published": "2026-10-15T13:13:59Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "FMCSA insurance minimum"
+   }
+  ],
+  "best_tier": 3,
+  "score": 40.8,
+  "age_days": 1.2,
+  "score_parts": {
+   "materiality": 1,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.89,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_b46b6b1039fc": {
+  "id": "ev_b46b6b1039fc",
+  "title": "Chubb Limited Announces Management Changes",
+  "url": "https://www.marketscreener.com/news/chubb-limited-announces-management-changes-ce785cdad88df527",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.1,
+  "summary": "Chubb Limited appointed Lisa Wilson as Head of North America Claims, overseeing commercial claims.",
+  "evidence_quote": "Chubb Limited Announces Management Changes",
+  "companies": [
+   "Chubb Limited"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T10:04:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "b46b6b1039fc"
+  ],
+  "sources": [
+   {
+    "url": "https://www.marketscreener.com/news/chubb-limited-announces-management-changes-ce785cdad88df527",
+    "publisher": "MarketScreener",
+    "publisher_key": "marketscreener",
+    "published": "2026-10-15T10:04:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"LEEO\" insurance OR \"Fairmatic\""
+   }
+  ],
+  "best_tier": 3,
+  "score": 45.7,
+  "age_days": 1.3,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.88,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_45630621afd8": {
+  "id": "ev_45630621afd8",
+  "title": "David Seider",
+  "url": "https://www.dig-in.com/author/david-seider",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.1,
+  "summary": "David Seider has been named Chief Commercial Officer of insurance comparison platform TheZebra.com.",
+  "evidence_quote": "David Seider is the Chief Commercial Officer of TheZebra.com",
+  "companies": [
+   "TheZebra.com"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T03:06:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "45630621afd8"
+  ],
+  "sources": [
+   {
+    "url": "https://www.dig-in.com/author/david-seider",
+    "publisher": "Digital Insurance",
+    "publisher_key": "digital insurance",
+    "published": "2026-10-15T03:06:00Z",
+    "tier": 2,
+    "source_id": "bing_news",
+    "query": "\"HDVI\" insurance"
+   }
+  ],
+  "best_tier": 2,
+  "score": 49.0,
+  "age_days": 1.6,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 2,
+   "recency": 0.85,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_2f12be7f7a98": {
+  "id": "ev_2f12be7f7a98",
+  "title": "Novacore expands US InsurTech footprint with Diesel acquisition",
+  "url": "https://fintech.global/2026/10/15/novacore-expands-us-insurtech-footprint-with-diesel-acquisition/",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.1,
+  "summary": "InsurTech Novacore has agreed to acquire specialty MGU Diesel Insurance Solutions, which specializes in cross-border trucking.",
+  "evidence_quote": "Novacore expands US InsurTech footprint with Diesel acquisition",
+  "companies": [
+   "Novacore",
+   "Diesel Insurance Solutions"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T02:35:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "2f12be7f7a98"
+  ],
+  "sources": [
+   {
+    "url": "https://fintech.global/2026/10/15/novacore-expands-us-insurtech-footprint-with-diesel-acquisition/",
+    "publisher": "FinTech Global",
+    "publisher_key": "fintech global",
+    "published": "2026-10-15T02:35:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"Asero\" insurance transportation"
+   }
+  ],
+  "best_tier": 3,
+  "score": 45.3,
+  "age_days": 1.6,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.85,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_fdd4f35d64ad": {
+  "id": "ev_fdd4f35d64ad",
+  "title": "Chubb : Announces Claims Leadership Appointments",
+  "url": "https://www.marketscreener.com/news/chubb-announces-claims-leadership-appointments-ce785dd3df89f621",
+  "lane": "competitor_move",
+  "event_type": "leadership",
+  "direction": "neutral",
+  "materiality": 1,
+  "last_mile_fit": 0.0,
+  "summary": "Chubb Limited announced three leadership appointments within its Global Claims organization.",
+  "evidence_quote": "Chubb : Announces Claims Leadership Appointments",
+  "companies": [
+   "Chubb"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T01:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "fdd4f35d64ad"
+  ],
+  "sources": [
+   {
+    "url": "https://www.marketscreener.com/news/chubb-announces-claims-leadership-appointments-ce785dd3df89f621",
+    "publisher": "MarketScreener",
+    "publisher_key": "marketscreener",
+    "published": "2026-10-15T01:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"LEEO\" insurance OR \"Fairmatic\""
+   }
+  ],
+  "best_tier": 3,
+  "score": 36.2,
+  "age_days": 1.7,
+  "score_parts": {
+   "materiality": 1,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.84,
+   "last_mile_fit": 0.0
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_ccd20ae70d70": {
+  "id": "ev_ccd20ae70d70",
+  "title": "Triple-I/Milliman: P/C Industry Continues to Benefit from Underlying Economic Conditions and Underwriting Profitability; Geopolitical and Natural Catastrophe Risk Anomalies ...",
+  "url": "https://www.tmcnet.com/usubmit/2026/10/15/10464127.htm",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "A Triple-I and Milliman study notes that property/casualty underlying premium growth is projected to outpace GDP in 2026 and 2028.",
+  "evidence_quote": "Triple-I/Milliman: P/C Industry Continues to Benefit from Underlying Economic Conditions",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T17:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "ccd20ae70d70"
+  ],
+  "sources": [
+   {
+    "url": "https://www.tmcnet.com/usubmit/2026/10/15/10464127.htm",
+    "publisher": "TMCnet",
+    "publisher_key": "tmcnet",
+    "published": "2026-10-14T17:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"commercial auto\" insurance rates"
+   }
+  ],
+  "best_tier": 3,
+  "score": 47.8,
+  "age_days": 2.0,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.82,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_d0e9aa211aba": {
+  "id": "ev_d0e9aa211aba",
+  "title": "Between the 'Employer' and the 'Worker'—The EU's Decision on Platform Responsibility",
+  "url": "https://note.com/tueno/n/n08e032ecd964?hl=en",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "An analysis examines the European Union's policy decisions regarding platform worker responsibility and contractor relationships.",
+  "evidence_quote": "Between the 'Employer' and the 'Worker'—The EU's Decision on Platform Responsibility",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T06:08:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "d0e9aa211aba"
+  ],
+  "sources": [
+   {
+    "url": "https://note.com/tueno/n/n08e032ecd964?hl=en",
+    "publisher": "note",
+    "publisher_key": "note",
+    "published": "2026-10-14T06:08:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "delivery driver independent contractor law"
+   }
+  ],
+  "best_tier": 3,
+  "score": 48.2,
+  "age_days": 2.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.78,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_ccb708a10a81": {
+  "id": "ev_ccb708a10a81",
+  "title": "Conning Study Finds Wholesale Insurance Distribution Has Lower Non-Loss Costs Than Retail",
+  "url": "https://programbusiness.com/news/conning-study-finds-wholesale-insurance-distribution-has-lower-non-loss-costs-than-retail/",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "A Conning study indicates wholesale commercial insurance distribution channels had lower non-loss costs than retail from 2021 to 2025.",
+  "evidence_quote": "Conning Study Finds Wholesale Insurance Distribution Has Lower Non-Loss Costs Than Retail",
+  "companies": [],
+  "implication": "Validate MGA distribution efficiency. Confirms wholesale structures can maintain favorable expense ratios compared to retail channels.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-14T06:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "ccb708a10a81"
+  ],
+  "sources": [
+   {
+    "url": "https://programbusiness.com/news/conning-study-finds-wholesale-insurance-distribution-has-lower-non-loss-costs-than-retail/",
+    "publisher": "programbusiness",
+    "publisher_key": "programbusiness",
+    "published": "2026-10-14T06:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"commercial auto\" insurance rates"
+   }
+  ],
+  "best_tier": 3,
+  "score": 47.2,
+  "age_days": 2.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.78,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_c0bc46bbb306": {
+  "id": "ev_c0bc46bbb306",
+  "title": "AI can’t fix messy specialty insurance data, says Accelerant exec",
+  "url": "https://www.insurancebusinessmag.com/us/news/technology/ai-cant-fix-messy-specialty-insurance-data-says-accelerant-exec-593505.aspx",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "An Accelerant executive states that insurers deploying AI still underappreciate underlying data quality challenges in specialty lines.",
+  "evidence_quote": "AI can’t fix messy specialty insurance data, says Accelerant exec",
+  "companies": [
+   "Accelerant"
+  ],
+  "implication": "Reinforces the value of clean, proprietary telematics ingestion. Nirvana's direct fleet data pipelines bypass messy historical specialty data issues.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-14T04:22:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "c0bc46bbb306"
+  ],
+  "sources": [
+   {
+    "url": "https://www.insurancebusinessmag.com/us/news/technology/ai-cant-fix-messy-specialty-insurance-data-says-accelerant-exec-593505.aspx",
+    "publisher": "Insurance Business America",
+    "publisher_key": "insurance business america",
+    "published": "2026-10-14T04:22:00Z",
+    "tier": 2,
+    "source_id": "bing_news",
+    "query": "\"LEEO\" insurance OR \"Fairmatic\""
+   }
+  ],
+  "best_tier": 2,
+  "score": 50.9,
+  "age_days": 2.6,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.78,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_7806c5e663be": {
+  "id": "ev_7806c5e663be",
+  "title": "SambaSafety Releases 2026 Telematics Report Highlighting Gaps in Fleet Data Sharing",
+  "url": "https://markets.businessinsider.com/news/currencies/sambasafety-releases-2026-telematics-report-highlighting-gaps-in-fleet-data-sharing-1034856619",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 4,
+  "last_mile_fit": 0.8,
+  "summary": "SambaSafety published its fourth annual telematics report, identifying existing gaps in fleet data sharing among insurers, brokers, and fleets.",
+  "evidence_quote": "SambaSafety Releases 2026 Telematics Report Highlighting Gaps in Fleet Data Sharing",
+  "companies": [
+   "SambaSafety"
+  ],
+  "implication": "Highlights industry friction in fleet data integration. Nirvana can capitalize by proving seamless telematics ingestion directly to DSP and ISP fleets.",
+  "action": "respond",
+  "watchlist_companies": [],
+  "published": "2026-10-13T17:20:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "discovery",
+  "fingerprints": [
+   "7806c5e663be"
+  ],
+  "sources": [
+   {
+    "url": "https://markets.businessinsider.com/news/currencies/sambasafety-releases-2026-telematics-report-highlighting-gaps-in-fleet-data-sharing-1034856619",
+    "publisher": "Markets Insider",
+    "publisher_key": "markets insider",
+    "published": "2026-10-13T17:20:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "telematics insurance fleet MGA"
+   }
+  ],
+  "best_tier": 3,
+  "score": 68.6,
+  "age_days": 3.0,
+  "score_parts": {
+   "materiality": 4,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.74,
+   "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_99ddeef84883": {
+  "id": "ev_99ddeef84883",
+  "title": "San Diego gets new powers to go after employers who commit wage theft",
+  "url": "https://www.msn.com/en-us/money/human-resources/san-diego-gets-new-powers-to-go-after-employers-who-commit-wage-theft/ar-AA2ebjnz",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "The San Diego City Council approved measures to strengthen local prosecution of employers committing wage theft.",
+  "evidence_quote": "San Diego gets new powers to go after employers who commit wage theft",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-13T15:50:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "99ddeef84883"
+  ],
+  "sources": [
+   {
+    "url": "https://www.msn.com/en-us/money/human-resources/san-diego-gets-new-powers-to-go-after-employers-who-commit-wage-theft/ar-AA2ebjnz",
+    "publisher": "The San Diego Union-Tribune on MSN",
+    "publisher_key": "the san diego union-tribune on msn",
+    "published": "2026-10-13T15:50:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "delivery driver independent contractor law"
+   }
+  ],
+  "best_tier": 3,
+  "score": 46.6,
+  "age_days": 3.1,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.74,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_7796571037a5": {
+  "id": "ev_7796571037a5",
+  "title": "A Safe and Healthy New York Starts With Protecting Last-Mile Delivery Workers",
+  "url": "https://earthjustice.org/press/2026/a-safe-and-healthy-new-york-starts-with-protecting-last-mile-delivery-workers",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.8,
+  "summary": "Environmental and labor groups push for local legislation like the Delivery Protection Act to protect last-mile delivery workers.",
+  "evidence_quote": "Protecting Last-Mile Delivery Workers",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-13T14:12:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "7796571037a5"
+  ],
+  "sources": [
+   {
+    "url": "https://earthjustice.org/press/2026/a-safe-and-healthy-new-york-starts-with-protecting-last-mile-delivery-workers",
+    "publisher": "Earthjustice",
+    "publisher_key": "earthjustice",
+    "published": "2026-10-13T14:12:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"One80\" last mile delivery insurance"
+   }
+  ],
+  "best_tier": 3,
+  "score": 52.5,
+  "age_days": 3.2,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.73,
+   "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_b7994c6413cc": {
+  "id": "ev_b7994c6413cc",
+  "title": "Amazon launches new delivery hub in Vincennes",
+  "url": "https://www.wbiw.com/2026/10/13/amazon-launches-new-delivery-hub-in-vincennes/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.9,
+  "summary": "Amazon opened a new 104,000-square-foot delivery station in Vincennes to increase delivery speeds in Knox County.",
+  "evidence_quote": "Amazon launches new delivery hub in Vincennes",
+  "companies": [
+   "Amazon"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-13T11:09:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "discovery",
+  "fingerprints": [
+   "b7994c6413cc"
+  ],
+  "sources": [
+   {
+    "url": "https://www.wbiw.com/2026/10/13/amazon-launches-new-delivery-hub-in-vincennes/",
+    "publisher": "WBIW",
+    "publisher_key": "wbiw",
+    "published": "2026-10-13T11:09:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"delivery service partner\" insurance"
+   }
+  ],
+  "best_tier": 3,
+  "score": 61.3,
+  "age_days": 3.3,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.72,
+   "last_mile_fit": 0.9
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_48d72d3dc433": {
+  "id": "ev_48d72d3dc433",
+  "title": "Harbor Emerges From Stealth with $10M Funding to Handle AI-Agent Risk",
+  "url": "https://www.insurancejournal.com/news/national/2026/10/13/888747.htm",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.1,
+  "summary": "AI risk startup Harbor emerged from stealth with $10 million in funding to manage risks associated with deploying AI agents.",
+  "evidence_quote": "Harbor Emerges From Stealth with $10M Funding to Handle AI-Agent Risk",
+  "companies": [
+   "Harbor"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-13T08:43:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "48d72d3dc433"
+  ],
+  "sources": [
+   {
+    "url": "https://www.insurancejournal.com/news/national/2026/10/13/888747.htm",
+    "publisher": "Insurance Journal",
+    "publisher_key": "insurance journal",
+    "published": "2026-10-13T08:43:00Z",
+    "tier": 2,
+    "source_id": "bing_news",
+    "query": "\"LEEO\" insurance OR \"Fairmatic\""
+   }
+  ],
+  "best_tier": 2,
+  "score": 47.0,
+  "age_days": 3.4,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 2,
+   "recency": 0.72,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_a73d81934157": {
+  "id": "ev_a73d81934157",
+  "title": "Over 90 Oklahoma delivery drivers file against FedEx in federal court, allege unpaid overtime",
+  "url": "https://www.publicradiotulsa.org/local-regional/2026-10-13/over-90-oklahoma-delivery-drivers-file-against-fedex-in-federal-court-allege-unpaid-overtime",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.8,
+  "summary": "Over 90 delivery drivers filed federal lawsuits against FedEx in Oklahoma alleging unpaid overtime.",
+  "evidence_quote": "Over 90 Oklahoma delivery drivers file against FedEx in federal court",
+  "companies": [
+   "FedEx"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-13T06:12:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "a73d81934157"
+  ],
+  "sources": [
+   {
+    "url": "https://www.publicradiotulsa.org/local-regional/2026-10-13/over-90-oklahoma-delivery-drivers-file-against-fedex-in-federal-court-allege-unpaid-overtime",
+    "publisher": "Public Radio Tulsa",
+    "publisher_key": "public radio tulsa",
+    "published": "2026-10-13T06:12:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "delivery driver independent contractor law"
+   }
+  ],
+  "best_tier": 3,
+  "score": 60.1,
+  "age_days": 3.5,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.71,
+   "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_995644c33b53": {
+  "id": "ev_995644c33b53",
+  "title": "Commercial insurance pricing set to ease further",
+  "url": "https://www.businessinsurance.com/commercial-insurance-pricing-set-to-ease-further/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.5,
+  "summary": "Commercial insurance pricing is projected to ease into 2027 with property rate declines and moderating liability increases.",
+  "evidence_quote": "Commercial insurance pricing set to ease further",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-13T05:18:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "995644c33b53"
+  ],
+  "sources": [
+   {
+    "url": "https://www.businessinsurance.com/commercial-insurance-pricing-set-to-ease-further/",
+    "publisher": "Business Insurance",
+    "publisher_key": "business insurance",
+    "published": "2026-10-13T05:18:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"commercial auto\" insurance rates"
+   }
+  ],
+  "best_tier": 3,
+  "score": 57.1,
+  "age_days": 3.5,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.71,
+   "last_mile_fit": 0.5
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_72114a0f3d93": {
+  "id": "ev_72114a0f3d93",
+  "title": "Lyft’s historic wage theft settlement fixes the past but ignores the future",
+  "url": "https://www.fastcompany.com/91620939/lyfts-historic-wage-theft-settlement-fixes-the-past-but-ignores-the-future",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.4,
+  "summary": "A $272 million wage theft settlement compensates Lyft drivers for past grievances but leaves gig work rules unchanged.",
+  "evidence_quote": "Lyft’s historic wage theft settlement fixes the past but ignores the future",
+  "companies": [
+   "Lyft"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-12T02:59:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "72114a0f3d93"
+  ],
+  "sources": [
+   {
+    "url": "https://www.fastcompany.com/91620939/lyfts-historic-wage-theft-settlement-fixes-the-past-but-ignores-the-future",
+    "publisher": "Fast Company",
+    "publisher_key": "fast company",
+    "published": "2026-10-12T02:59:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "delivery driver independent contractor law"
+   }
+  ],
+  "best_tier": 3,
+  "score": 55.0,
+  "age_days": 4.6,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.63,
+   "last_mile_fit": 0.4
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_5c4236663da7": {
+  "id": "ev_5c4236663da7",
+  "title": "The Fatal Risks of Compliance Loopholes and the Measures Companies Must Take",
+  "url": "https://note.com/muscle_arita/n/n53acb9ad5677?hl=en",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.5,
+  "summary": "Analysis highlights compliance risks and loopholes associated with algorithmic management by modern digital platform companies.",
+  "evidence_quote": "The Fatal Risks of Compliance Loopholes",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-10T23:35:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "5c4236663da7"
+  ],
+  "sources": [
+   {
+    "url": "https://note.com/muscle_arita/n/n53acb9ad5677?hl=en",
+    "publisher": "note",
+    "publisher_key": "note",
+    "published": "2026-10-10T23:35:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "delivery driver independent contractor law"
+   }
+  ],
+  "best_tier": 3,
+  "score": 47.0,
+  "age_days": 5.8,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.57,
+   "last_mile_fit": 0.5
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_99b51f5984d4": {
+  "id": "ev_99b51f5984d4",
+  "title": "Amazon Package Drivers Rev Up Organizing To Become Direct Employees",
+  "url": "https://popularresistance.org/amazon-package-drivers-rev-up-organizing-to-become-direct-employees/",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.8,
+  "summary": "New York City legislation proposed by Teamsters and Amazon workers aims to reclassify package drivers as direct employees rather than working for delivery service partners.",
+  "evidence_quote": "Amazon Package Drivers Rev Up Organizing To Become Direct Employees",
+  "companies": [
+   "Amazon",
+   "Teamsters"
+  ],
+  "implication": "Potential shift from DSP model to direct employment could alter fleet insurance buying structures and liability profiles for last-mile underwriters.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-09T11:57:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:51:13Z",
+  "first_run": "2026-10-16T17-51-13Z",
+  "last_seen": "2026-10-16T17:51:13Z",
+  "last_updated_run": "2026-10-16T17-51-13Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "99b51f5984d4"
+  ],
+  "sources": [
+   {
+    "url": "https://popularresistance.org/amazon-package-drivers-rev-up-organizing-to-become-direct-employees/",
+    "publisher": "popularresistance.org",
+    "publisher_key": "popularresistance.org",
+    "published": "2026-10-09T11:57:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "delivery driver independent contractor law"
+   }
+  ],
+  "best_tier": 3,
+  "score": 56.8,
+  "age_days": 7.2,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.49,
+   "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
  }
 }
