@@ -18,7 +18,7 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - name: Eval gate (blocks prompt/config changes that drop precision below 0.80)
         env:
-          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github' }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

@@ -37,7 +37,7 @@ jobs:
       - name: Classifier eval on golden set (recorded, non-blocking here)
         continue-on-error: true
         env:
-          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github' }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -46,7 +46,7 @@ jobs:
 
       - name: Run monitor (live sources)
         env:
-          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github' }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

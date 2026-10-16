@@ -9,7 +9,7 @@ Built for the Nirvana Chief of Staff case study, part 2. The monitor runs again 
 GitHub Actions (daily cron + "Run workflow" button)
   └─ collect ── trade-press & wire RSS · Bing News RSS · GDELT news API · Federal Register API · SEC EDGAR FTS · page-diff watch
   └─ dedup / delta ── canonical URL hash → title fingerprint → fuzzy cluster (14-day window) vs history
-  └─ classify ── free LLM (GitHub Models by default; Gemini free tier or Claude optional), JSON, temp 0 ── rules fallback
+  └─ classify ── LLM (Gemini free tier by default; Claude optional), JSON, temp 0 ── rules fallback
   └─ verify ── evidence quote must appear verbatim in fetched text, else quarantined
   └─ rank ── deterministic score: materiality · watchlist priority · source tier · recency · last-mile fit
   └─ store ── docs/data/*.json committed to git (every daily pull = its own snapshot; git log = full history)
@@ -65,8 +65,7 @@ Every card shows:
 
    | Secret | Purpose |
    |---|---|
-   | *(none needed for the AI)* | **Default AI = GitHub Models, free**, authenticated by the workflow's own token (`models: read`). Nothing to set up. |
-| `GEMINI_API_KEY` | Optional. A free Google AI Studio key; set the variable `LLM_PROVIDER=gemini` to use it. |
+   | `GEMINI_API_KEY` | **Recommended (free).** Key from aistudio.google.com/apikey; used automatically when present. (GitHub Models, the original free default, was retired by GitHub.) |
 | `ANTHROPIC_API_KEY` | Optional. A paid Claude API key; set `LLM_PROVIDER=anthropic`. |
    | `SLACK_WEBHOOK_URL` | Slack incoming webhook |
    | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO`, `EMAIL_FROM` | Email delivery. For Gmail, use `smtp.gmail.com`, port 587 and an App Password. |

@@ -30,12 +30,13 @@ Builder: Claude (Forward Deployed PM chat). Owner and decision-maker: Shubham Ku
 | C11 | Confidence = the LLM's own judgment | Confidence computed in code from source tier, number of independent publishers, date known, and AI vs rules | An LLM rating its own certainty isn't auditable. The rule is in `monitor/scoring.py::confidence`, and its reason is printed on every card. |
 | C12 | Pin one free model | Primary `openai/gpt-4.1-mini` on GitHub Models, with automatic fallback to other free models if it is retired | Free-model catalogs change without notice. Any switch is recorded in the run's `llm_usage.model_fallbacks`. |
 | C13 | Once-daily schedule | Twice daily (06:47 and 18:47 PT) | Gives at least two real deltas before the demo. Cost stays inside the GitHub Models free quota. |
+| C14 | GitHub Models as the free default AI | Gemini free tier (key from Google AI Studio) as the default; Claude optional; the run falls back to rules if neither key is set | On the first live CI run (2026-10-16) the GitHub Models endpoint returned a plain-text "OK" instead of a completion. GitHub's docs confirm that the GitHub Models inference API has been retired. The new diagnostics surfaced this instead of failing silently. |
 | C7 | Every pull's items shown as new | The first run is a **baseline**; What's New only shows deltas versus the previous pull. Items published more than 10 days ago are tagged *late discovery*. | Old news showing up as "new" on day 1 would mislead leadership. |
 
 ## Prompts in production
 
 - **Classifier system prompt:** `monitor/classify.py → SYSTEM_PROMPT`.
-  - Model: GitHub Models `openai/gpt-4.1-mini` by default, temperature 0.
+  - Model: Gemini free tier (`gemini-flash-latest`) by default, Claude optional; temperature 0.
   - Output: a JSON array with lane, event type, direction, materiality, last-mile fit, companies, summary, a **verbatim evidence quote**, an **implication for Nirvana** and an **action** (respond / watch / context).
 - **Digest prompt:** `monitor/classify.py → DIGEST_PROMPT`.
   - 3–5 bullets, written only from that pull's new events, each with a reference.

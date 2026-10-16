@@ -142,9 +142,9 @@ class OpenAICompatClient:
 
 
 def make_client(cfg):
-    """Pick the LLM by LLM_PROVIDER (github | gemini | anthropic). Default: first provider with a key, github first."""
+    """Pick the LLM by LLM_PROVIDER (gemini | anthropic | github). Default: first provider with a key, Gemini first."""
     want = os.environ.get("LLM_PROVIDER", "").strip().lower()
-    order = [want] if want else ["github", "gemini", "anthropic"]
+    order = [want] if want else ["gemini", "anthropic"]  # GitHub Models inference API was retired (verified 2026-10-16)
     for p in order:
         c = AnthropicClient() if p == "anthropic" else OpenAICompatClient(p) if p in OpenAICompatClient.PROVIDERS else None
         if c and c.available:
