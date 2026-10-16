@@ -6,7 +6,7 @@ from datetime import timedelta
 
 from . import collectors as C
 from .classify import classify_llm, classify_rules, write_digest
-from .scoring import evidence_found, score_event, source_tier, verification_status
+from .scoring import confidence, evidence_found, score_event, source_tier, verification_status
 from .store import Store
 from .textutil import domain_of, fingerprint, iso, norm_title, parse_date, url_hash
 
@@ -154,6 +154,13 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
 
     # ---- verify + build events
     quarantine, new_ids, updated_ids = [], [], set()
+    decisions = []  # AI decision log: what the model decided for every item it saw, and what the verifier did with it
+
+    def decide(it, r, outcome, note=""):
+        decisions.append({"title": it["title"], "url": it["url"], "publisher": it.get("publisher"), "lane": r.get("lane"),
+                          "event_type": r.get("event_type"), "materiality": r.get("materiality"), "outcome": outcome,
+                          "classifier": "rules-fallback" if r.get("_fallback") else (getattr(client, "label", mode) if mode == "llm" else mode),
+                          "evidence_quote": r.get("evidence_quote"), "note": note})
     new_pool = []
     for it in candidates:
         r = results.get(it["_cid"])
@@ -161,6 +168,7 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
             continue
         mark = {"first_seen": iso(now), "outcome": r["lane"]}
         if r["lane"] == "irrelevant":
+            decide(it, r, "dropped: irrelevant", r.get("summary", ""))
             counts["irrelevant"] += 1
             store.seen[it["_uh"]] = mark
             store.seen["fp:" + it["_fp"]] = mark
@@ -168,6 +176,7 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
         if not evidence_found(r["evidence_quote"], it["title"], it.get("snippet", "")):
             counts["quarantined"] += 1
             quarantine.append({"title": it["title"], "url": it["url"], "claimed_quote": r["evidence_quote"], "lane": r["lane"]})
+            decide(it, r, "quarantined: evidence not in source", "Quoted text was not found in the fetched title/snippet")
             store.seen[it["_uh"]] = {"first_seen": iso(now), "outcome": "quarantined"}
             continue
         tier = source_tier(it["url"], it.get("publisher"), it.get("tier_hint"), cfg, comp_domains)
@@ -175,6 +184,7 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
         same = fuzzy(nt, new_pool) if new_pool else None
         if same:
             attach.append((it, same))
+            decide(it, r, "merged into existing event", same)
             continue
         eid = "ev_" + it["_fp"]
         pub = parse_date(it.get("published"))
@@ -183,11 +193,13 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
         ev = {"id": eid, "title": it["title"], "url": it["url"], "lane": r["lane"], "event_type": r["event_type"],
               "direction": r["direction"], "materiality": r["materiality"], "last_mile_fit": r["last_mile_fit"],
               "summary": r["summary"], "evidence_quote": r["evidence_quote"], "companies": r["companies"],
+              "implication": r.get("implication", ""), "action": r.get("action", "watch"),
               "watchlist_companies": wl, "published": it.get("published"), "date_known": bool(it.get("published")),
               "first_seen": iso(now), "first_run": run_id, "last_seen": iso(now), "last_updated_run": run_id,
               "update_note": None, "late_discovery": late, "classifier": "rules-fallback" if r.get("_fallback") else (getattr(client, "label", mode) if mode == "llm" else mode),
               "lane_hint": it.get("lane_hint"), "fingerprints": [it["_fp"]], "sources": [_src(it, tier)], "best_tier": tier}
         store.events[eid] = ev
+        decide(it, r, "kept: late discovery" if late else "kept: new event", r.get("implication", ""))
         new_pool.append((eid, nt))
         new_ids.append(eid)
         store.seen[it["_uh"]] = {"first_seen": iso(now), "outcome": "event", "event_id": eid}
@@ -231,6 +243,7 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
             continue
         score_event(ev, cfg, now, prio)
         ev["verification"] = verification_status(ev)
+        ev["confidence"], ev["confidence_reason"] = confidence(ev)
 
     fresh_new = sorted([store.events[e] for e in new_ids if not store.events[e]["late_discovery"]], key=lambda e: -e["score"])
     updated = sorted([store.events[e] for e in updated_ids], key=lambda e: -e["score"])
@@ -255,15 +268,20 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
         "dedup_ratio": round(1 - len(candidates) / counts["unique"], 3) if counts["unique"] else None,
         "relevance_rate": round(len(new_ids) / counts["classified"], 3) if counts["classified"] else None,
     }
-    summary = {"run_id": run_id, "date": now.strftime("%Y-%m-%d"), "started": iso(now), "duration_s": round(time.time() - t0, 1),
+    import os
+    gh_repo, gh_run = os.environ.get("GITHUB_REPOSITORY"), os.environ.get("GITHUB_RUN_ID")
+    run_url = f"https://github.com/{gh_repo}/actions/runs/{gh_run}" if gh_repo and gh_run else None
+    trigger = os.environ.get("GITHUB_EVENT_NAME", "local")
+    summary = {"run_id": run_id, "run_url": run_url, "trigger": trigger, "repo": gh_repo, "date": now.strftime("%Y-%m-%d"), "started": iso(now), "duration_s": round(time.time() - t0, 1),
                "baseline": baseline, "previous_run": prev["run_id"] if prev else None, "previous_started": prev["started"] if prev else None,
                "classifier": mode, "model": getattr(client, "label", None) if mode == "llm" else None, "counts": counts, "evals": evals, "health": health,
                "llm_usage": dict(client.usage) if client and client.available else None}
     pull = {**summary, "new": fresh_new, "updated": updated, "late_discoveries": [store.events[e] for e in new_ids if store.events[e]["late_discovery"]],
-            "quarantine": quarantine, "digest": digest}
-    latest = {"run_id": run_id, "started": iso(now), "baseline": baseline, "previous_started": summary["previous_started"],
+            "quarantine": quarantine, "decisions": decisions, "digest": digest}
+    latest = {"run_id": run_id, "run_url": run_url, "trigger": trigger, "repo": gh_repo, "started": iso(now), "baseline": baseline, "previous_started": summary["previous_started"],
               "classifier": mode, "counts": counts, "evals": evals, "digest": digest,
-              "whats_new": {"new": fresh_new, "updated": updated}, "total_events": len(store.events)}
+              "whats_new": {"new": fresh_new, "updated": updated}, "total_events": len(store.events),
+              "decisions": decisions[:300], "model": summary["model"], "llm_usage": summary["llm_usage"]}
     store.save(summary, pull, latest)
     log(f"Done: {counts}")
     log(f"Evals: {evals}")

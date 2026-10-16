@@ -11,7 +11,8 @@ Builder: Claude (Forward Deployed PM chat). Owner and decision-maker: Shubham Ku
 | H2 | 2026-10-15 15:17 | Ship an MVP now and add sophistication later. Use personal keys and accounts only, with no enterprise tools. Prioritize scraping wherever possible. Add a **What's New** section that is filled only when there is new information versus yesterday's pull, plus a **historic repo of daily pulls**. | Git-as-database daily snapshots, a What's New tab, and a Daily Pulls tab |
 | H3 | 2026-10-15 15:48 | Use a free or open model instead of a paid account for the MVP. | Added a provider switch. The default is GitHub Models (free, uses the workflow's own GitHub token). Gemini free tier and Claude are optional. |
 | H4 | 2026-10-15 15:53 | Extract Nirvana's brand language from nirvanatech.com into a reusable design-system PDF and restyle the dashboard with it. | `brand/Nirvana_Brand_Design_System.pdf` (10 pages). The dashboard now uses Manrope, Instrument Serif, the navy palette and pill components. |
-| H5 | pending | Competitor watchlist sign-off | `config/monitor.json` seed is still a hypothesis |
+| H5 | 2026-10-16 10:10 | Approved the watchlist from the Project docs: LEEO (formerly Fairmatic), Progressive Commercial, Amazon DSP insurance program, One80 Last Mile, SPG Transportation, Risk Strategies / Brown & Brown, HDVI, Cover Whale, InShare, TrueNorth, Asero. Exclude the London "Nirvana" insurer and Nirvana Health. | `config/monitor.json` competitors and `entity_ignore` updated |
+| H6 | 2026-10-16 10:10 | Before the live demo, findings must carry sources, dates, confidence and actionable implications for Nirvana; history must be kept; runs must be automatic; AI decisions must be visible. | Added `implication` and `action` to the classifier output, a deterministic confidence label with reasons, an AI Decisions tab, and per-pull links to the GitHub Actions run log |
 
 ## AI proposals that were changed, and why
 
@@ -25,12 +26,20 @@ Builder: Claude (Forward Deployed PM chat). Owner and decision-maker: Shubham Ku
 | C6 | Dashboard function named `history()` | Renamed to `pullsView()` | It shadowed `window.history` and would have broken URL-hash navigation. Caught in self-review before any test run. |
 | C8 | Claude API as the only AI | Provider-agnostic client (GitHub Models / Gemini / Claude) via OpenAI-compatible endpoints | H3. GitHub Models needs no extra account. Free-tier limits (Copilot Free, low-tier model: 15 requests/min, 150/day, 8k input tokens) fit about 10 classification calls a day. The model ID and endpoint get confirmed on the first live run. |
 | C9 | Put the Nirvana logo on the dashboard | Brand typography and colors only, no logo, plus a footer saying it is not an official Nirvana product | The dashboard sits on a public URL, and a logo there could read as an official Nirvana page. The logo stays in the internal brand PDF. |
+| C10 | Seed watchlist (Fairmatic and LEEO as separate firms, plus NEXT, INSHUR, Buckle, Coverdash, Lula, Samsara, Motive) | Watchlist taken from the approved Project docs | Stage 2 v1.1 found that LEEO *is* Fairmatic, rebranded in Dec 2025, so tracking both would double-count. The approved docs name the actual last-mile programs (One80, SPG, Risk Strategies, TrueNorth, InShare, Asero). |
+| C11 | Confidence = the LLM's own judgment | Confidence computed in code from source tier, number of independent publishers, date known, and AI vs rules | An LLM rating its own certainty isn't auditable. The rule is in `monitor/scoring.py::confidence`, and its reason is printed on every card. |
+| C12 | Pin one free model | Primary `openai/gpt-4.1-mini` on GitHub Models, with automatic fallback to other free models if it is retired | Free-model catalogs change without notice. Any switch is recorded in the run's `llm_usage.model_fallbacks`. |
+| C13 | Once-daily schedule | Twice daily (06:47 and 18:47 PT) | Gives at least two real deltas before the demo. Cost stays inside the GitHub Models free quota. |
 | C7 | Every pull's items shown as new | The first run is a **baseline**; What's New only shows deltas versus the previous pull. Items published more than 10 days ago are tagged *late discovery*. | Old news showing up as "new" on day 1 would mislead leadership. |
 
 ## Prompts in production
 
-- **Classifier system prompt:** `monitor/classify.py → SYSTEM_PROMPT`. Claude Haiku, temperature 0, JSON array output, verbatim evidence quote required.
-- **Digest prompt:** `monitor/classify.py → DIGEST_PROMPT`. Claude Sonnet, 3–5 bullets, only from that day's new events, each bullet with a reference.
+- **Classifier system prompt:** `monitor/classify.py → SYSTEM_PROMPT`.
+  - Model: GitHub Models `openai/gpt-4.1-mini` by default, temperature 0.
+  - Output: a JSON array with lane, event type, direction, materiality, last-mile fit, companies, summary, a **verbatim evidence quote**, an **implication for Nirvana** and an **action** (respond / watch / context).
+- **Digest prompt:** `monitor/classify.py → DIGEST_PROMPT`.
+  - 3–5 bullets, written only from that pull's new events, each with a reference.
+- **Implications are analyst judgments.** They are labeled "For Nirvana" in the UI, never stated as facts. In rules mode they come from templates and are marked "(template, no AI)".
 
 ## Verified facts used in the build (2026-10-15)
 
@@ -52,6 +61,7 @@ Builder: Claude (Forward Deployed PM chat). Owner and decision-maker: Shubham Ku
 |---|---|---|
 | 2026-10-15 | Offline suite, `python -m unittest` on synthetic fixtures | **10/10 pass.** Covers: baseline → next-day delta (1 new, 1 updated via corroboration, 1 late discovery) → same-day re-run with 0 new and 0 LLM calls; fabricated quote quarantined; rules mode; discovery excludes the watchlist; ranking; Atom/RSS parsing; a failing source is recorded, not raised; page-diff watch. |
 | 2026-10-15 | Rules classifier on the synthetic golden set (n=24) | Precision 0.947, recall 1.0, lane accuracy 0.917. Misses: a Progressive rate filing was classed as market_driver because of an alias gap; "pizza delivery deals" passed the keyword gate. These numbers are **optimistic**: the same author wrote the set and the rules. |
+| 2026-10-16 | Offline suite after adding implications, confidence and the decision log | **12/12 pass.** New tests: every event carries an implication and a confidence with a reason; the decision log records each kept item; a corroborated event comes out as High confidence; rules mode marks its implication as a template. |
 | _pending_ | First live GitHub Actions runs | Will be recorded here: source health, counts, and the URL of each run log. |
 
 ## Environment constraint (disclosed)

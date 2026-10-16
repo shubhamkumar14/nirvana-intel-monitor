@@ -30,7 +30,9 @@ For each news item decide whether it matters to that opportunity and classify it
 - materiality 1-5: 5 = direct competitor launches/exits/prices a last-mile product or major regulatory change; 1 = tangential.
 - last_mile_fit 0.0-1.0: how specifically the item is about last-mile delivery commercial auto.
 - companies: organizations named in the item that are insurers, MGAs, insurtechs, telematics or delivery platforms (exact names as written).
-Return ONLY a JSON array, one object per item, keys: id, lane, event_type, direction, materiality, last_mile_fit, companies, summary, evidence_quote."""
+- implication: max 30 words. What this means for Nirvana's last-mile entry (target: Amazon DSP / FedEx ISP / courier fleets; telematics underwriting; broker distribution). Concrete and specific; say "Context only" if nothing actionable. Clearly an analyst judgment, never a new fact.
+- action: one of "respond" (Nirvana should consider a response soon), "watch" (track for follow-up), "context" (background only).
+Return ONLY a JSON array, one object per item, keys: id, lane, event_type, direction, materiality, last_mile_fit, companies, summary, evidence_quote, implication, action."""
 
 
 def _items_payload(items):
@@ -79,9 +81,11 @@ class OpenAICompatClient:
     """
     PROVIDERS = {
         "github": {"url": "https://models.github.ai/inference/chat/completions", "env": "GITHUB_TOKEN",
-                   "models": {"classify": "openai/gpt-4.1-mini", "digest": "openai/gpt-4.1-mini"}},
+                   "models": {"classify": "openai/gpt-4.1-mini", "digest": "openai/gpt-4.1-mini"},
+                   "fallbacks": ["openai/gpt-4o-mini", "openai/gpt-5-mini", "meta/Llama-3.3-70B-Instruct"]},
         "gemini": {"url": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions", "env": "GEMINI_API_KEY",
-                   "models": {"classify": "gemini-flash-latest", "digest": "gemini-flash-latest"}},
+                   "models": {"classify": "gemini-flash-latest", "digest": "gemini-flash-latest"},
+                   "fallbacks": ["gemini-flash-lite-latest"]},
     }
 
     def __init__(self, provider):
@@ -91,12 +95,14 @@ class OpenAICompatClient:
         m = os.environ.get("LLM_MODEL", "").strip()
         self.models = {"classify": m or p["models"]["classify"], "digest": os.environ.get("LLM_DIGEST_MODEL", "").strip() or m or p["models"]["digest"]}
         self.usage = {"input_tokens": 0, "output_tokens": 0, "calls": 0, "errors": 0, "provider": provider}
+        self.fallbacks = [m for m in p.get("fallbacks", []) if m != self.models["classify"]]
 
     @property
     def available(self):
         return bool(self.api_key)
 
     def complete(self, model, system, user, max_tokens=4000):
+        model = getattr(self, "_active", None) or model
         body = json.dumps({"model": model, "max_tokens": max_tokens, "temperature": 0,
                            "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}).encode()
         for attempt in range(4):
@@ -111,11 +117,19 @@ class OpenAICompatClient:
                 self.usage["calls"] += 1
                 return data["choices"][0]["message"]["content"] or ""
             except urllib.error.HTTPError as e:
+                err = e.read()[:400]
                 if e.code in (429, 500, 502, 503) and attempt < 3:
-                    time.sleep(int(e.headers.get("Retry-After", "0") or 0) or 10 * (attempt + 1))
+                    time.sleep(min(60, int(e.headers.get("Retry-After", "0") or 0) or 10 * (attempt + 1)))
                     continue
+                if e.code in (400, 404) and b"model" in err.lower() and self.fallbacks:
+                    nxt = self.fallbacks.pop(0)  # model retired/renamed -> try next free model, record it
+                    self.usage.setdefault("model_fallbacks", []).append(f"{model} -> {nxt}")
+                    self.models = {"classify": nxt, "digest": nxt}
+                    self._active = nxt
+                    self.label = f"{self.provider}:{nxt}"
+                    return self.complete(nxt, system, user, max_tokens)
                 self.usage["errors"] += 1
-                raise RuntimeError(f"{self.provider} HTTP {e.code}: {e.read()[:300]!r}")
+                raise RuntimeError(f"{self.provider} HTTP {e.code}: {err!r}")
         self.usage["errors"] += 1
         raise RuntimeError(f"{self.provider} retries exhausted")
 
@@ -154,7 +168,8 @@ def _clean(r):
         fit = 0.0
     comps = [c for c in (r.get("companies") or []) if isinstance(c, str)][:8]
     return {"lane": lane, "event_type": et, "direction": d, "materiality": mat, "last_mile_fit": fit,
-            "companies": comps, "summary": str(r.get("summary", ""))[:300], "evidence_quote": str(r.get("evidence_quote", ""))[:400]}
+            "companies": comps, "summary": str(r.get("summary", ""))[:300], "evidence_quote": str(r.get("evidence_quote", ""))[:400],
+            "implication": str(r.get("implication", ""))[:300], "action": r.get("action") if r.get("action") in ("respond", "watch", "context") else "watch"}
 
 
 def classify_llm(items, client, model, batch_size=15):
@@ -191,6 +206,23 @@ _HEAD = ["verdict", "rising", "increase", "higher", "losses", "tariff", "shortag
 _TAIL = ["reform", "growth", "grows", "record volume", "expands", "decline in claims", "lower costs", "demand"]
 
 
+_HOT = {"product_launch", "market_entry", "market_exit", "pricing_rate", "m_and_a", "partnership_distribution"}
+
+
+def _rule_implication(lane, et, comps):
+    """Template text used only when no LLM is available; labelled as rules-generated in the UI."""
+    who = ", ".join(comps) if comps else "A player"
+    if lane == "competitor_move":
+        return {"product_launch": f"{who} adds supply in a segment Nirvana may target; compare terms and broker reach.",
+                "market_exit": f"{who} pulling back may free up DSP/courier accounts; brief target brokers.",
+                "pricing_rate": f"{who} pricing move shifts the benchmark Nirvana's quotes will be compared against.",
+                "partnership_distribution": f"{who} gains a distribution route; check overlap with Nirvana's broker targets.",
+                "funding": f"{who} has new capital to compete on price or distribution."}.get(et, f"Track {who}; possible effect on Nirvana's last-mile position.")
+    return {"market_driver": "Affects loss costs or demand in last-mile commercial auto; feed into pricing assumptions.",
+            "policy_macro": "Regulatory or macro change; check impact on limits, loss costs or target states.",
+            "research": "Third-party data point; check against Nirvana's sizing and loss assumptions."}.get(lane, "Context only.")
+
+
 def classify_rules(items, competitors, topic_keywords):
     out = {}
     for it in items:
@@ -214,7 +246,8 @@ def classify_rules(items, competitors, topic_keywords):
         fit = 0.9 if ("last-mile" in text or "last mile" in text) else 0.6 if any(k in text for k in ["delivery", "courier", "parcel", "dsp"]) else 0.3
         mat = 3 + (1 if et in ("product_launch", "market_entry", "market_exit", "m_and_a", "pricing_rate") else 0) + (1 if fit >= 0.9 else 0) if lane != "irrelevant" else 1
         out[it["_cid"]] = {"lane": lane, "event_type": et, "direction": direction, "materiality": min(mat, 5),
-                           "last_mile_fit": fit, "companies": comps, "summary": it["title"][:300], "evidence_quote": it["title"]}
+                           "last_mile_fit": fit, "companies": comps, "summary": it["title"][:300], "evidence_quote": it["title"],
+                           "implication": _rule_implication(lane, et, comps), "action": "respond" if (comps and et in _HOT) else "watch" if lane != "irrelevant" else "context"}
     return out
 
 
@@ -227,7 +260,7 @@ def write_digest(events, client, model):
     if not events:
         return None
     payload = [{"ref": i + 1, "title": e["title"], "lane": e["lane"], "event_type": e["event_type"], "direction": e["direction"],
-                "summary": e["summary"], "publisher": e["sources"][0]["publisher"], "score": e["score"]} for i, e in enumerate(events[:15])]
+                "summary": e["summary"], "implication": e.get("implication"), "confidence": e.get("confidence"), "publisher": e["sources"][0]["publisher"], "score": e["score"]} for i, e in enumerate(events[:15])]
     try:
         return client.complete(model, DIGEST_PROMPT, json.dumps(payload, ensure_ascii=False), max_tokens=800).strip()
     except Exception:

@@ -46,6 +46,7 @@ class Store:
         _save(self.p("pulls", run_summary["run_id"] + ".json"), pull)
         self.pull_index.append({"run_id": run_summary["run_id"], "date": run_summary["date"], "started": run_summary["started"],
                                 "new": run_summary["counts"]["new_events"], "updated": run_summary["counts"]["updated_events"],
-                                "baseline": run_summary["baseline"], "file": f"pulls/{run_summary['run_id']}.json"})
+                                "baseline": run_summary["baseline"], "trigger": run_summary.get("trigger"), "run_url": run_summary.get("run_url"),
+                                "sources_ok": run_summary["evals"]["source_success_rate"], "scanned": run_summary["counts"]["unique"], "file": f"pulls/{run_summary['run_id']}.json"})
         _save(self.p("pulls/index.json"), self.pull_index)
         _save(self.p("latest.json"), latest)

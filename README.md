@@ -27,7 +27,7 @@ GitHub Actions (daily cron + "Run workflow" button)
 | Policy and macro | Regulation, tort reform, tariffs, contractor-classification law | Federal Register API and query packs |
 
 The watchlist, queries and feeds all live in `config/monitor.json`, so changing them needs no code changes.
-The current watchlist is a **hypothesis seed pending Nirvana SME sign-off.**
+The watchlist was approved by Shubham on 2026-10-16, sourced from the approved Project docs.
 
 ## Dashboard
 

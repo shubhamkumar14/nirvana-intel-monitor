@@ -51,7 +51,8 @@ class FakeLLM:
             quote = "Company confirmed record profits for the quarter" if self.lie else " ".join(it["title"].split()[:6])
             out.append({"id": it["id"], "lane": lane, "event_type": "product_launch" if "launch" in t else "market_exit" if "exit" in t else "trend_data",
                         "direction": "headwind", "materiality": 5 if lane == "competitor_move" else 3, "last_mile_fit": 0.9,
-                        "companies": ["Fairmatic", "NewCo Delivery Insure"] if "fairmatic" in t else [], "summary": "s", "evidence_quote": quote})
+                        "companies": ["Fairmatic", "NewCo Delivery Insure"] if "fairmatic" in t else [], "summary": "s", "evidence_quote": quote,
+                        "implication": "Benchmark for Nirvana DSP pricing", "action": "respond"})
         return json.dumps(out)
 
 
@@ -106,6 +107,24 @@ class PipelineTests(unittest.TestCase):
         ents = json.load(open(os.path.join(self.dir, "entities.json")))
         self.assertIn("NewCo Delivery Insure", ents)
         self.assertNotIn("Fairmatic", ents)
+
+    def test_events_carry_implication_confidence_and_decision_log(self):
+        s, l = self.run_day(["ij_day1.xml"], D1, FakeLLM())
+        evs = json.load(open(os.path.join(self.dir, "events.json"))).values()
+        for e in evs:
+            self.assertTrue(e["implication"])
+            self.assertIn(e["confidence"], ("High", "Medium", "Low"))
+            self.assertTrue(e["confidence_reason"])
+        outcomes = sorted(d["outcome"] for d in l["decisions"])
+        self.assertEqual(outcomes, ["kept: new event", "kept: new event"])
+        s2, l2 = self.run_day(["ij_day2.xml", "wire_day2.xml"], D2, FakeLLM())
+        self.assertEqual(l2["whats_new"]["updated"][0]["confidence"], "High")  # 2 publishers + trade press + dated
+
+    def test_rules_mode_has_templated_implication(self):
+        s, l = self.run_day(["ij_day1.xml"], D1, None)
+        e = next(iter(json.load(open(os.path.join(self.dir, "events.json"))).values()))
+        self.assertTrue(e["implication"])
+        self.assertIn("rules classifier", e["confidence_reason"])
 
     def test_ranking_prefers_competitor_move(self):
         self.run_day(["ij_day1.xml"], D1, FakeLLM())

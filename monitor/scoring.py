@@ -65,3 +65,28 @@ def score_event(event, cfg, now, priority_lookup):
     event["score_parts"] = {"materiality": event["materiality"], "priority": round(prio, 2), "tier": event["best_tier"],
                             "recency": round(rec, 2), "last_mile_fit": event["last_mile_fit"]}
     return event
+
+
+def confidence(event):
+    """Deterministic confidence label + reason (shown on every card)."""
+    pubs = {s["publisher_key"] for s in event["sources"]}
+    reasons = []
+    pts = 0
+    if event["best_tier"] == 1:
+        pts += 2; reasons.append("primary source")
+    elif event["best_tier"] == 2:
+        pts += 1; reasons.append("trade press")
+    else:
+        reasons.append("general news")
+    if len(pubs) >= 2:
+        pts += 2; reasons.append(f"{len(pubs)} independent publishers")
+    else:
+        reasons.append("single source")
+    if event.get("date_known"):
+        pts += 1
+    else:
+        reasons.append("publish date unknown")
+    if str(event.get("classifier", "")).startswith("rules"):
+        pts -= 1; reasons.append("rules classifier (no AI)")
+    level = "High" if pts >= 3 else "Medium" if pts >= 2 else "Low"
+    return level, ", ".join(reasons)

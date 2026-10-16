@@ -2,7 +2,8 @@ name: Daily competitor intel
 
 on:
   schedule:
-    - cron: "47 12 * * *"      # 12:47 UTC = 05:47 PT (PDT) / 04:47 PT (PST), daily
+    - cron: "47 13 * * *"      # 13:47 UTC = 06:47 PT (PDT) daily
+    - cron: "47 1 * * *"       # 01:47 UTC = 18:47 PT (PDT) daily — second pull so change detection is visible within a day
   workflow_dispatch:            # "Run workflow" button = on-demand pull for live demos
     inputs:
       notify:
@@ -75,6 +76,9 @@ jobs:
           git add docs/data
           git commit -m "Pull $(date -u +%Y-%m-%dT%H:%M:%SZ)" || echo "No data changes"
           git pull --rebase --autostash && git push
+
+      - name: Publish AI implementation log to the dashboard
+        run: cp AI_LOG.md docs/ai_log.md
 
       - uses: actions/upload-pages-artifact@v3
         with:
