@@ -19,6 +19,8 @@ def main():
     ap.add_argument("--only", default=None, help="comma list of collectors")
     a = ap.parse_args()
     cfg = json.load(open(a.config))
+    import time as _t
+    http.DEADLINE[0] = _t.time() + int(os.environ.get("COLLECT_BUDGET_S", "600"))
     client = make_client(cfg)
     print(f"classifier: {client.label if client else 'RULES (no LLM key: set GITHUB_TOKEN, GEMINI_API_KEY or ANTHROPIC_API_KEY)'}")
     fetch = lambda url, headers=None, respect_robots=True: http.get(url, headers=headers, respect_robots=respect_robots)

@@ -45,7 +45,10 @@ jobs:
         run: python -m evals.run_eval --mode rules --out docs/data/evals.json  # LLM eval runs in CI on code changes, to save free-tier quota
 
       - name: Run monitor (live sources)
+        timeout-minutes: 20
         env:
+          PYTHONUNBUFFERED: "1"
+          COLLECT_BUDGET_S: "600"
           LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}

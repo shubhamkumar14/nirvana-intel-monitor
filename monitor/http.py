@@ -18,6 +18,13 @@ class RobotsDisallowed(FetchError):
 
 
 _robots_cache = {}
+_host_fail = {}          # host -> consecutive failures (circuit breaker)
+DEADLINE = [None]        # epoch seconds; set by the pipeline so one slow source can't stall the whole run
+CIRCUIT_LIMIT = 2
+
+
+def _host(url):
+    return urllib.parse.urlparse(url).netloc
 
 
 def _raw_get(url, headers=None, timeout=25):
@@ -40,7 +47,7 @@ def robots_allowed(url, ua=UA):
     if rp is None:
         rp = urllib.robotparser.RobotFileParser()
         try:
-            status, text = _raw_get(base + "/robots.txt", timeout=15)
+            status, text = _raw_get(base + "/robots.txt", timeout=10)
             if status == 200:
                 rp.parse(text.splitlines())
             elif status in (401, 403):
@@ -53,10 +60,15 @@ def robots_allowed(url, ua=UA):
     return rp.can_fetch(ua, url)
 
 
-def get(url, headers=None, respect_robots=True, retries=2, timeout=25):
+def get(url, headers=None, respect_robots=True, retries=1, timeout=20):
     """Return response text or raise FetchError / RobotsDisallowed."""
     if url.startswith("fixture://"):
         raise FetchError("fixture URLs need a fixture fetcher")
+    host = _host(url)
+    if DEADLINE[0] and time.time() > DEADLINE[0]:
+        raise FetchError("skipped: run time budget exhausted")
+    if _host_fail.get(host, 0) >= CIRCUIT_LIMIT:
+        raise FetchError(f"skipped: {host} failed {CIRCUIT_LIMIT}x in a row this run (circuit open)")
     if respect_robots and not robots_allowed(url):
         raise RobotsDisallowed(f"robots.txt disallows {url}")
     last = None
@@ -64,6 +76,7 @@ def get(url, headers=None, respect_robots=True, retries=2, timeout=25):
         try:
             status, text = _raw_get(url, headers, timeout)
             if status == 200:
+                _host_fail[host] = 0
                 return text
             last = f"HTTP {status}"
             if status in (429, 500, 502, 503, 504):
@@ -73,4 +86,5 @@ def get(url, headers=None, respect_robots=True, retries=2, timeout=25):
         except Exception as e:  # network errors
             last = f"{type(e).__name__}: {e}"
             time.sleep(2 * (attempt + 1))
+    _host_fail[host] = _host_fail.get(host, 0) + 1
     raise FetchError(last or "unknown error")
