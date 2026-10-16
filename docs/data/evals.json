@@ -1,0 +1,24 @@
+{
+ "generated": "2026-10-16T17:28:52Z",
+ "golden_set": "SYNTHETIC v0 golden set written by the AI (hard negatives included), updated 2026-10-16 to the approved watchlist. NOT real news. Replace with human-labeled items from live pulls.",
+ "results": {
+  "rules": {
+   "n": 24,
+   "relevance_precision": 0.947,
+   "relevance_recall": 1.0,
+   "lane_accuracy": 0.917,
+   "misses": [
+    {
+     "title": "Progressive files commercial auto rate increase in Texas",
+     "gold": "competitor_move",
+     "pred": "market_driver"
+    },
+    {
+     "title": "Best pizza delivery deals this weekend",
+     "gold": "irrelevant",
+     "pred": "market_driver"
+    }
+   ]
+  }
+ }
+}
