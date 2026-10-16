@@ -66,7 +66,7 @@ Every card shows:
    | Secret | Purpose |
    |---|---|
    | `GEMINI_API_KEY` | **Recommended (free).** Key from aistudio.google.com/apikey; used automatically when present. (GitHub Models, the original free default, was retired by GitHub.) |
-| `ANTHROPIC_API_KEY` | Optional. A paid Claude API key; set `LLM_PROVIDER=anthropic`. |
+   | `ANTHROPIC_API_KEY` | Optional. A paid Claude API key; set `LLM_PROVIDER=anthropic`. |
    | `SLACK_WEBHOOK_URL` | Slack incoming webhook |
    | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO`, `EMAIL_FROM` | Email delivery. For Gmail, use `smtp.gmail.com`, port 587 and an App Password. |
    | `WEBHOOK_URL` | Generic JSON POST (Teams, Discord, Zapier, n8n) |
@@ -74,12 +74,12 @@ Every card shows:
    | Variable | Purpose |
    |---|---|
    | `SEC_USER_AGENT` | Required for SEC EDGAR, e.g. `Your Name you@email.com` |
-   | `LLM_PROVIDER` / `LLM_MODEL` | `github` (default), `gemini` or `anthropic`, plus an optional model override |
-| `NOTIFY_HEARTBEAT` | `true` or `false`: whether to send a "nothing new" message |
+   | `LLM_PROVIDER` / `LLM_MODEL` | Leave unset: Gemini is used when its key exists. Set `anthropic` to force Claude. Optional model override. |
+   | `NOTIFY_HEARTBEAT` | `true` or `false`: whether to send a "nothing new" message |
 
 4. **First run.** Go to Actions → *Daily competitor intel* → **Run workflow**. That creates the baseline pull.
 5. **Share.** The dashboard lives at `https://<user>.github.io/<repo>/`, and that is the link to send.
-6. **Daily runs** then happen automatically at 12:47 UTC.
+6. **Scheduled runs** then happen automatically twice a day: 06:47 and 18:47 PT (13:47 and 01:47 UTC). GitHub can delay scheduled runs by a few minutes.
 
 Local run: `python -m monitor --no-notify`. It is Python 3.11+ standard library only, with no `pip install`.
 
@@ -92,6 +92,8 @@ Eval: `python -m evals.run_eval --mode both`
 - **Not scraped:** Google News (its robots.txt disallows this), X (needs the paid API) and LinkedIn (scraping violates its terms).
 - **SERFF rate filings are not covered.** There is no reliable free automated access; trade-press coverage of filings is the proxy.
 - **Bing News RSS** is checked against robots.txt on every run. If it is disallowed, it appears as `skipped_robots` on the Health tab.
-- **GDELT** is rate-limited to 1 request per 5 seconds, so it adds about 2–3 minutes per run.
+- **GDELT** is disabled because it answers HTTP 429 to GitHub-hosted runners. **Bing News** is throttled on some runs (HTML instead of RSS); the Health tab shows which queries failed. The trade-press feeds, Federal Register and page watches are the dependable core.
+- **Gemini free tier** sometimes returns 503 "high demand". The run then falls back flash → flash-lite, and finally to rules; every card shows which classifier produced it.
+- **Status of this deployment:** <https://shubhamkumar14.github.io/nirvana-intel-monitor/>. The run history and evidence are in `AI_LOG.md`.
 - **No full article text.** Classification uses the title and snippet only, so evidence is limited to that text. This is deliberate, for copyright reasons and speed.
 - **Git as the database** suits MVP volumes, around 100 events a day. Postgres or Supabase is the upgrade path; `monitor/store.py` is the single seam to swap.
