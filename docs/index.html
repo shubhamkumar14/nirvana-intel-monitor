@@ -142,7 +142,7 @@ function card(e, opts={}){
     ${e.implication ? `<div class="impl"><b>For Nirvana</b>${esc(e.implication)}${String(e.classifier).startsWith("rules")?' <span style="color:var(--faint)">(template, no AI)</span>':''}</div>` : ""}
     ${e.evidence_quote && e.evidence_quote!==e.title ? `<div class="quote">Evidence: “${esc(e.evidence_quote)}”</div>` : ""}
     ${e.update_note && opts.badge==="upd" ? `<p><b>${esc(e.update_note)}</b></p>` : ""}
-    <div class="srcs"><span>Published ${e.published ? fmtDay(e.published) : "—"} · ${age(e.age_days)}</span><span>${srcs}</span><span>first seen ${fmtDate(e.first_seen)}</span><span>classifier: ${esc(e.classifier)}</span><span title="${esc(e.confidence_reason||"")}">${esc(e.confidence||"—")} confidence (${esc(e.confidence_reason||"—")})</span><span title="Relevance ranking 0–100: materiality ${e.score_parts?.materiality}/5 · priority ${e.score_parts?.priority} · tier ${e.score_parts?.tier} · recency ${e.score_parts?.recency} · fit ${e.score_parts?.last_mile_fit}">relevance ${e.score}</span></div>
+    <div class="srcs"><span>Published ${e.published ? fmtDay(e.published) : "—"} · ${age(e.age_days)}</span><span>${srcs}</span><span>first seen ${fmtDate(e.first_seen)}</span><span title="${esc(e.confidence_reason||"")}">${esc(e.confidence||"—")} confidence (${esc(e.confidence_reason||"—")})</span><span title="Relevance ranking 0–100: materiality ${e.score_parts?.materiality}/5 · priority ${e.score_parts?.priority} · tier ${e.score_parts?.tier} · recency ${e.score_parts?.recency} · fit ${e.score_parts?.last_mile_fit}">relevance ${e.score}</span></div>
   </div>`;
 }
 
