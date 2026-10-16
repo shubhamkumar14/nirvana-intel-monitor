@@ -376,5 +376,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-16T17:51:13Z"
+ },
+ "Vertafore": {
+  "name": "Vertafore",
+  "first_seen": "2026-10-16T18:03:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e3a0f92aa34a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T18:03:58Z"
+ },
+ "Evri": {
+  "name": "Evri",
+  "first_seen": "2026-10-16T18:03:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_8ac95a863f0d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T18:03:58Z"
  }
 }

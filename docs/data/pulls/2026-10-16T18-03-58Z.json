@@ -1,0 +1,1625 @@
+{
+ "run_id": "2026-10-16T18-03-58Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/38944452747",
+ "trigger": "workflow_dispatch",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-16",
+ "started": "2026-10-16T18:03:58Z",
+ "duration_s": 311.0,
+ "baseline": false,
+ "previous_run": "2026-10-16T17-51-13Z",
+ "previous_started": "2026-10-16T17:51:13Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 328,
+  "unique": 314,
+  "known_skipped": 264,
+  "attached_existing": 4,
+  "prefiltered_out": 1,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 45,
+  "irrelevant": 21,
+  "quarantined": 0,
+  "new_events": 7,
+  "updated_events": 3,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 16
+ },
+ "evals": {
+  "source_success_rate": 0.792,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.4,
+  "dedup_ratio": 0.857,
+  "relevance_rate": 0.511
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 500
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 585
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 136
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 480
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 84
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 534
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1588
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 515
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 126
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 161
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 53
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 128
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 275
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 60
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 150
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 120
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 112
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 152
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 90
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 139
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 156
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 57
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 139
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 201
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 97
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 163
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 210
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 180
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 310
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 111
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1366
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 702
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 347
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 807
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 678
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 210
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2614
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 8114,
+  "output_tokens": 6669,
+  "calls": 4,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 4
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_d6a632ab2f30",
+   "title": "Last-mile delivery costs are rising faster than customer expectations",
+   "url": "https://trans.info/en/last-mile-delivery-costs-are-rising-faster-than-customer-expectations-509010",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.9,
+   "summary": "Last-mile delivery operating costs are outpacing revenue growth for the majority of surveyed companies.",
+   "evidence_quote": "Last-mile delivery costs are rising faster than customer expectations",
+   "companies": [],
+   "implication": "Fleet margin pressure highlights the need for Nirvana's telematics-based risk insights to help operators control insurance loss costs.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-15T17:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T18:03:58Z",
+   "first_run": "2026-10-16T18-03-58Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "d6a632ab2f30"
+   ],
+   "sources": [
+    {
+     "url": "https://trans.info/en/last-mile-delivery-costs-are-rising-faster-than-customer-expectations-509010",
+     "publisher": "trans.info",
+     "publisher_key": "trans.info",
+     "published": "2026-10-15T17:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 72.0,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a4e793d5caa5",
+   "title": "New California laws arise from latest legislative skirmishes in endless ‘tort wars’",
+   "url": "https://calmatters.org/commentary/2026/10/new-california-laws-tort-wars/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "New California laws stem from ongoing legislative battles over tort reform.",
+   "evidence_quote": "New California laws arise from latest legislative skirmishes in endless ‘tort wars’",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-16T05:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T18:03:58Z",
+   "first_run": "2026-10-16T18-03-58Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "a4e793d5caa5"
+   ],
+   "sources": [
+    {
+     "url": "https://calmatters.org/commentary/2026/10/new-california-laws-tort-wars/",
+     "publisher": "CalMatters",
+     "publisher_key": "calmatters",
+     "published": "2026-10-16T05:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1ebaba2c3893",
+   "title": "$815.8M Benzene Verdict Against ExxonMobil Survives Pa. Appeals Court Challenge",
+   "url": "https://www.law.com/thelegalintelligencer/2026/10/15/8158m-benzene-verdict-against-exxonmobil-survives-pa-appeals-court-challenge/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "An appellate court upheld a major toxic tort verdict against ExxonMobil.",
+   "evidence_quote": "$815.8M Benzene Verdict Against ExxonMobil Survives Pa. Appeals Court Challenge",
+   "companies": [
+    "ExxonMobil"
+   ],
+   "implication": "Continued massive corporate verdicts underscore ongoing social inflation trends affecting commercial liability lines across all sectors.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-15T09:24:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T18:03:58Z",
+   "first_run": "2026-10-16T18-03-58Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1ebaba2c3893"
+   ],
+   "sources": [
+    {
+     "url": "https://www.law.com/thelegalintelligencer/2026/10/15/8158m-benzene-verdict-against-exxonmobil-survives-pa-appeals-court-challenge/",
+     "publisher": "Law.com",
+     "publisher_key": "law.com",
+     "published": "2026-10-15T09:24:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.6,
+   "age_days": 1.4,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.87,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_6675c432d07e",
+   "title": "Global Diesel Shortages Could Last Into 2027. Bain Has a Playbook for Shippers",
+   "url": "https://wwd.com/sourcing-journal/logistics/diesel-fuel-costs-prices-shortages-2027-surcharges-trucking-intermodal-bain-1239347871/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.5,
+   "summary": "Persistent diesel shortages and high fuel surcharges drive up freight and shipping operational expenses.",
+   "evidence_quote": "Global Diesel Shortages Could Last Into 2027. Bain Has a Playbook for Shippers",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-14T09:52:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T18:03:58Z",
+   "first_run": "2026-10-16T18-03-58Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "6675c432d07e"
+   ],
+   "sources": [
+    {
+     "url": "https://wwd.com/sourcing-journal/logistics/diesel-fuel-costs-prices-shortages-2027-surcharges-trucking-intermodal-bain-1239347871/",
+     "publisher": "Women's Wear Daily",
+     "publisher_key": "women's wear daily",
+     "published": "2026-10-14T09:52:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.4,
+   "age_days": 2.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.79,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1d4c5b09d1fa",
+   "title": "Tyson & Mendes Adds Robert S. Nobel as Partner in New York Office",
+   "url": "https://www.citybiz.co/article/918721/tyson-mendes-adds-robert-s-nobel-as-partner-in-new-york-office/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Tyson & Mendes adds a new partner to its New York office insurance defense practice.",
+   "evidence_quote": "Tyson & Mendes Adds Robert S. Nobel as Partner in New York Office",
+   "companies": [
+    "Tyson & Mendes"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-14T10:37:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T18:03:58Z",
+   "first_run": "2026-10-16T18-03-58Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1d4c5b09d1fa",
+    "ec37e228e79e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.citybiz.co/article/918721/tyson-mendes-adds-robert-s-nobel-as-partner-in-new-york-office/",
+     "publisher": "citybiz",
+     "publisher_key": "citybiz",
+     "published": "2026-10-14T10:37:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    },
+    {
+     "url": "https://www.jsonline.com/press-release/story/254664/tyson-mendes-welcomes-robert-s-nobel-as-partner-in-its-new-york-office/",
+     "publisher": "Milwaukee Journal Sentinel",
+     "publisher_key": "milwaukee journal sentinel",
+     "published": "2026-10-14T05:49:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.4,
+   "age_days": 2.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.8,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_e3a0f92aa34a",
+   "title": "Vertafore launches AI agents to automate insurance policy verification and management",
+   "url": "https://beinsure.com/news/vertafore-launches-ai-agents-to-automate-policy-verification/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Vertafore launched AI agents designed to automate insurance policy verification and management tasks.",
+   "evidence_quote": "Vertafore launches AI agents to automate insurance policy verification and management",
+   "companies": [
+    "Vertafore"
+   ],
+   "implication": "Monitor broker technology integrations to ensure Nirvana's MGA distribution workflows remain compatible with agency automation tools.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-15T13:56:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T18:03:58Z",
+   "first_run": "2026-10-16T18-03-58Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "e3a0f92aa34a"
+   ],
+   "sources": [
+    {
+     "url": "https://beinsure.com/news/vertafore-launches-ai-agents-to-automate-policy-verification/",
+     "publisher": "beinsure",
+     "publisher_key": "beinsure",
+     "published": "2026-10-15T13:56:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.9,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9e1f2571722c",
+   "title": "【Amazon Now vs Rocket Now】Will the 30-minute delivery war change Japanese logistics? Amazon enters the 'deliver now' market. A thorough analysis of the next main ...",
+   "url": "https://note.com/hakobito/n/n6e6d79ccfa17?hl=en",
+   "lane": "market_driver",
+   "event_type": "market_entry",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Amazon enters the 30-minute delivery market in Japan, prompting logistics industry analysis.",
+   "evidence_quote": "【Amazon Now vs Rocket Now】Will the 30-minute delivery war change Japanese logistics?",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-10T19:46:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T18:03:58Z",
+   "first_run": "2026-10-16T18-03-58Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "9e1f2571722c"
+   ],
+   "sources": [
+    {
+     "url": "https://note.com/hakobito/n/n6e6d79ccfa17?hl=en",
+     "publisher": "note",
+     "publisher_key": "note",
+     "published": "2026-10-10T19:46:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.8,
+   "age_days": 5.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.56,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_1232fe9c7ae3",
+   "title": "Is UPS parcel pivot a strategic winner or a ‘Trojan horse’?",
+   "url": "https://www.freightwaves.com/news/is-ups-parcel-pivot-a-strategic-winner-or-a-trojan-horse",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "UPS is prioritizing premium parcel service over sheer volume ahead of potential union labor disruptions.",
+   "evidence_quote": "UPS is focusing on premium service over parcel volume with a potential Teamsters union strike on the horizon.",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-14T13:23:59Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T17:40:26Z",
+   "first_run": "2026-10-16T17-40-26Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": "New corroborating source: Yahoo Finance",
+   "late_discovery": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "1232fe9c7ae3"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/is-ups-parcel-pivot-a-strategic-winner-or-a-trojan-horse",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-14T13:23:59Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    },
+    {
+     "url": "https://finance.yahoo.com/small-business/articles/ups-parcel-pivot-strategic-winner-132359247.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-14T06:23:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 2,
+   "score": 66.3,
+   "age_days": 2.2,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.8,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "trade press, 2 independent publishers"
+  },
+  {
+   "id": "ev_714d54f66761",
+   "title": "Elite Express Holding Inc. Reports Third Quarter 2026 Results",
+   "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/elite-express-holding-inc-reports-third-quarter-2026-results/2446020",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.7,
+   "summary": "California-based last-mile provider Elite Express Holding reported third quarter 2026 financial results.",
+   "evidence_quote": "Elite Express Holding Inc. ('ETS” or the 'Company”) (Nasdaq: ETS), a California-based provider of last-mile delivery services, today reported results",
+   "companies": [
+    "Elite Express Holding Inc."
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-14T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T17:40:26Z",
+   "first_run": "2026-10-16T17-40-26Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": "New corroborating source: Markets Insider",
+   "late_discovery": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "714d54f66761"
+   ],
+   "sources": [
+    {
+     "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/elite-express-holding-inc-reports-third-quarter-2026-results/2446020",
+     "publisher": "The Manila Times",
+     "publisher_key": "the manila times",
+     "published": "2026-10-14T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    },
+    {
+     "url": "https://markets.businessinsider.com/news/stocks/elite-express-holding-inc-reports-third-quarter-2026-results-1036627329",
+     "publisher": "Markets Insider",
+     "publisher_key": "markets insider",
+     "published": "2026-10-14T09:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 55.8,
+   "age_days": 2.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.82,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_48b0254d66e4",
+   "title": "Progressive Reports September 2026 Results",
+   "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/progressive-reports-september-2026-results/2445572",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Progressive reported financial results for the month and quarter ended September 30, 2026.",
+   "evidence_quote": "The Progressive Corporation (NYSE:PGR) today reported the following results for the month and quarter",
+   "companies": [
+    "The Progressive Corporation"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-14T05:37:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T17:40:26Z",
+   "first_run": "2026-10-16T17-40-26Z",
+   "last_seen": "2026-10-16T18:03:58Z",
+   "last_updated_run": "2026-10-16T18-03-58Z",
+   "update_note": "New corroborating source: Markets Insider",
+   "late_discovery": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "48b0254d66e4"
+   ],
+   "sources": [
+    {
+     "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/progressive-reports-september-2026-results/2445572",
+     "publisher": "The Manila Times",
+     "publisher_key": "the manila times",
+     "published": "2026-10-14T05:37:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    },
+    {
+     "url": "https://markets.businessinsider.com/news/stocks/progressive-reports-september-2026-results-1036625236",
+     "publisher": "Markets Insider",
+     "publisher_key": "markets insider",
+     "published": "2026-10-14T01:17:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.2,
+   "age_days": 2.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.78,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "InShare on Geotab Marketplace page changed (1 new lines)",
+   "url": "https://marketplace.geotab.com/solutions/inshare/#chg-28424c08",
+   "publisher": "marketplace.geotab.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "InShare on Geotab Marketplace page changed",
+   "note": "Minor metadata change on a Geotab Marketplace page."
+  },
+  {
+   "title": "Market turns higher as Superior offers 27,947 head",
+   "url": "https://www.oklahomafarmreport.com/2026/10/16/market-turns-higher-as-superior-offers-27947-head/",
+   "publisher": "oklahomafarmreport",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Market turns higher as Superior offers 27,947 head",
+   "note": "Livestock auction market report with higher trading volumes."
+  },
+  {
+   "title": "United Parcel Service (UPS) Opens Philippines Air Hub With 170 Weekly Flight Segments",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/united-parcel-ups-opens-philippines-171136272.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "United Parcel Service (UPS) Opens Philippines Air Hub With 170 Weekly Flight Segments",
+   "note": "Context only"
+  },
+  {
+   "title": "Thailand Post weathers economic turmoil",
+   "url": "https://www.msn.com/en-xl/news/other/thailand-post-weathers-economic-turmoil/ar-AA2eokRq",
+   "publisher": "Bangkok Post on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Thailand Post weathers economic turmoil",
+   "note": "Thailand Post reported positive earnings despite macroeconomic challenges."
+  },
+  {
+   "title": "Porch Pirates Moved Indoors: How Yonkers Apartment Buildings Are Rethinking Package Rooms",
+   "url": "https://yonkerstimes.com/porch-pirates-moved-indoors-how-yonkers-apartment-buildings-are-rethinking-package-rooms/",
+   "publisher": "Yonkers Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Porch Pirates Moved Indoors: How Yonkers Apartment Buildings Are Rethinking Package Rooms",
+   "note": "Apartment buildings in Yonkers are redesigning package rooms to combat theft."
+  },
+  {
+   "title": "Tesla Unveiled its Awaited Roadster Developed With SpaceX. Their Stocks are Little Changed.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-unveiled-awaited-roadster-developed-145518524.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tesla Unveiled its Awaited Roadster Developed With SpaceX.",
+   "note": "Tesla unveiled a new Roadster developed with SpaceX."
+  },
+  {
+   "title": "Trump’s tariffs and Iran war will make toys more expensive this holiday season",
+   "url": "https://www.aol.com/articles/trump-tariffs-iran-war-toys-140903000.html",
+   "publisher": "AOL",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Trump’s tariffs and Iran war will make toys more expensive this holiday season",
+   "note": "Context only"
+  },
+  {
+   "title": "Shipping Electronics to India from USA: Customs Duty, Costs & How to Ship Safely",
+   "url": "https://pctechmag.com/2026/10/shipping-electronics-to-india-from-usa-customs-duty-costs-how-to-ship-safely/",
+   "publisher": "PC Tech Magazine",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Shipping Electronics to India from USA: Customs Duty, Costs & How to Ship Safely",
+   "note": "A guide explaining customs duties and shipping methods for electronics to India."
+  },
+  {
+   "title": "New California laws arise from latest legislative skirmishes in endless ‘tort wars’",
+   "url": "https://calmatters.org/commentary/2026/10/new-california-laws-tort-wars/",
+   "publisher": "CalMatters",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "New California laws arise from latest legislative skirmishes in endless ‘tort wars’",
+   "note": "Context only"
+  },
+  {
+   "title": "Tariffs are reshaping the airfreight map",
+   "url": "https://aircargoweek.com/week-issues-posts/tariffs-are-reshaping-the-airfreight-map/",
+   "publisher": "Air Cargo Week",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tariffs are reshaping the airfreight map",
+   "note": "Context only"
+  },
+  {
+   "title": "As Tariffs Push Manufacturers to Reshore, Woods Distribution Offers Integrated 3PL Support for U.S. Producers",
+   "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/as-tariffs-push-manufacturers-to-reshore-woods-distribution-offe-1237199",
+   "publisher": "accessnewswire.com",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "As Tariffs Push Manufacturers to Reshore, Woods Distribution Offers Integrated 3PL Support for U.S. Producers",
+   "note": "Context only"
+  },
+  {
+   "title": "Inside TRANSWORLD’s Proprietary US Overseas Warehouse DDP Delivery Network for Local Fulfillment and Relabeling",
+   "url": "https://www.greenbaypressgazette.com/press-release/story/193889/inside-transworlds-proprietary-us-overseas-warehouse-ddp-delivery-network-for-local-fulfillment-and-relabeling/",
+   "publisher": "Green Bay Press-Gazette",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Inside TRANSWORLD’s Proprietary US Overseas Warehouse DDP Delivery Network",
+   "note": "A supply chain provider detailed its overseas warehouse and delivery network for e-commerce sellers."
+  },
+  {
+   "title": "TRANSWORLD Expands Integrated Southeast Asia to US DDP Shipping Solutions Across Multi-Country Export Hubs",
+   "url": "https://www.greenbaypressgazette.com/press-release/story/193891/transworld-expands-integrated-southeast-asia-to-us-ddp-shipping-solutions-across-multi-country-export-hubs/",
+   "publisher": "Green Bay Press-Gazette",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "TRANSWORLD Expands Integrated Southeast Asia to US DDP Shipping Solutions",
+   "note": "TRANSWORLD expanded its Southeast Asia to US DDP shipping solutions."
+  },
+  {
+   "title": "Choosing TRANSWORLD as a Cross-Border Canada FBA Freight Forwarding Partner for CARM Customs and Warehouse Delivery",
+   "url": "https://www.northjersey.com/press-release/story/254389/choosing-transworld-as-a-cross-border-canada-fba-freight-forwarding-partner-for-carm-customs-and-warehouse-delivery/",
+   "publisher": "NorthJersey.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Choosing TRANSWORLD as a Cross-Border Canada FBA Freight Forwarding Partner",
+   "note": "TRANSWORLD highlighted its cross-border Canada FBA freight forwarding partner services."
+  },
+  {
+   "title": "Pet store giant confirms California store closing date in downsizing trend",
+   "url": "https://nypost.com/2026/10/16/business/pet-store-giant-closes-another-california-store-amid-downsizing-trend/",
+   "publisher": "New York Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Pet store giant confirms California store closing date in downsizing trend",
+   "note": "Pet retail chains are continuing store closures amidst a retail downsizing trend."
+  },
+  {
+   "title": "DCF Global: The Nordics' AI Boom Meets the Power Test",
+   "url": "https://www.datacenterfrontier.com/sustainability/article/55412461/dcf-global-the-nordics-ai-boom-meets-the-power-test",
+   "publisher": "Data Center Frontier",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DCF Global: The Nordics' AI Boom Meets the Power Test",
+   "note": "Data center developments and power testing demands are growing in the Nordic region."
+  },
+  {
+   "title": "Last-mile delivery costs are rising faster than customer expectations",
+   "url": "https://trans.info/en/last-mile-delivery-costs-are-rising-faster-than-customer-expectations-509010",
+   "publisher": "trans.info",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Last-mile delivery costs are rising faster than customer expectations",
+   "note": "Fleet margin pressure highlights the need for Nirvana's telematics-based risk insights to help operators control insurance loss costs."
+  },
+  {
+   "title": "Vertafore launches AI agents to automate insurance policy verification and management",
+   "url": "https://beinsure.com/news/vertafore-launches-ai-agents-to-automate-policy-verification/",
+   "publisher": "beinsure",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Vertafore launches AI agents to automate insurance policy verification and management",
+   "note": "Monitor broker technology integrations to ensure Nirvana's MGA distribution workflows remain compatible with agency automation tools."
+  },
+  {
+   "title": "Teamsters Organize Amazon Drivers in Fight for Security and Dignity",
+   "url": "https://www.randomlengthsnews.com/archives/2026/10/15/teamsters-organize-amazon-drivers/77984",
+   "publisher": "Random Lengths News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Teamsters Organize Amazon Drivers in Fight for Security and Dignity",
+   "note": "Labor organizing among Amazon DSP drivers can alter fleet operations and stability; factor driver retention into underwriting risk models."
+  },
+  {
+   "title": "$815.8M Benzene Verdict Against ExxonMobil Survives Pa. Appeals Court Challenge",
+   "url": "https://www.law.com/thelegalintelligencer/2026/10/15/8158m-benzene-verdict-against-exxonmobil-survives-pa-appeals-court-challenge/",
+   "publisher": "Law.com",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "$815.8M Benzene Verdict Against ExxonMobil Survives Pa. Appeals Court Challenge",
+   "note": "Continued massive corporate verdicts underscore ongoing social inflation trends affecting commercial liability lines across all sectors."
+  },
+  {
+   "title": "Holiday toy prices surge as tariffs, war-driven energy costs squeeze shoppers",
+   "url": "https://finance.yahoo.com/economy/policy/articles/holiday-toy-prices-surge-tariffs-154524600.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Holiday toy prices surge as tariffs, war-driven energy costs squeeze shoppers",
+   "note": "Context only."
+  },
+  {
+   "title": "Why DTC fulfillment is now a network design decision for growing brands",
+   "url": "https://www.ajot.com/news/why-dtc-fulfillment-is-now-a-network-design-decision-for-growing-brands",
+   "publisher": "American Journal of Transportation",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Why DTC fulfillment is now a network design decision for growing brands",
+   "note": "Context only."
+  },
+  {
+   "title": "Global banana trade faces rising fuel, fertilizer, and shipping costs",
+   "url": "https://www.freshplaza.com/north-america/article/9883262/global-banana-trade-faces-rising-fuel-fertilizer-and-shipping-costs/",
+   "publisher": "FreshPlaza",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Global banana trade faces rising fuel, fertilizer, and shipping costs",
+   "note": "Geopolitical conflict increases fuel and shipping costs for banana growers and exporters."
+  },
+  {
+   "title": "New Investigative Documentary ‘Undeliverable’ Examines Consumer Convenience and America’s Last-Mile Delivery Workforce",
+   "url": "https://www.azcentral.com/press-release/story/138236/new-investigative-documentary-undeliverable-examines-consumer-convenience-and-americas-last-mile-delivery-workforce-2/",
+   "publisher": "azcentral.com",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "New Investigative Documentary ‘Undeliverable’ Examines Consumer Convenience and America’s Last-Mile Delivery Workforce",
+   "note": "Context only."
+  },
+  {
+   "title": "U.S. toy prices surge as tariffs and Iran war lift holiday costs",
+   "url": "https://tradersunion.com/news/financial-news/show/3824102-us-toy-prices-rise-tariffs-war/",
+   "publisher": "tradersunion",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "U.S. toy prices surge as tariffs and Iran war lift holiday costs",
+   "note": "Context only."
+  },
+  {
+   "title": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
+   "url": "https://www.miamiherald.com/news/business/article317632067.html",
+   "publisher": "Miami Herald",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
+   "note": "Context only."
+  },
+  {
+   "title": "Teamsters Local 804 Organizes Amazon Workers as NYC Council Considers Passing the Delivery Protection Act",
+   "url": "https://www.laborpress.org/teamsters-local-804-organizes-amazon-workers-as-nyc-council-considers-passing-the-delivery-protection-act/",
+   "publisher": "LaborPress",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Teamsters Local 804 Organizes Amazon Workers as NYC Council Considers Passing the Delivery Protection Act",
+   "note": "Track labour organizing and legislative pushback against Amazon DSP models, as changing employment structures affect risk profiles and fleet operations."
+  },
+  {
+   "title": "Amazon is taking over Phoenix storefronts for a new grocery service",
+   "url": "https://tucson.com/news/local/business/article_c592c42b-9e6b-4104-8a6f-426464ee865a.html",
+   "publisher": "Arizona Daily Star",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon is taking over Phoenix storefronts for a new grocery service",
+   "note": "Context only."
+  },
+  {
+   "title": "Trump's tariffs are changing the global trade ecosystem",
+   "url": "https://en.majalla.com/node/333605/business-economy/trumps-tariffs-are-changing-global-trade-ecosystem",
+   "publisher": "en.majalla",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Trump's tariffs are changing the global trade ecosystem",
+   "note": "Context only."
+  },
+  {
+   "title": "Top Journal Star photos and videos for September 2026",
+   "url": "https://omaha.com/sports/huskers/football/collection_a3ae8f87-2da5-55cd-baea-a973155177dd.html",
+   "publisher": "Omaha World-Herald",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Top Journal Star photos and videos for September 2026",
+   "note": "A local news photo compilation features a security video of a car crashing into a store."
+  },
+  {
+   "title": "DSA, Teamsters, Amazon Workers Fight to Pass the Delivery Protection Act",
+   "url": "https://indypendent.org/2026/10/dsa-teamsters-amazon-workers-fight-to-pass-the-delivery-protection-act/",
+   "publisher": "The Indypendent",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DSA, Teamsters, Amazon Workers Fight to Pass the Delivery Protection Act",
+   "note": "Monitor legislative efforts to alter the DSP contractor model, which could reshape commercial auto insurance buyers in last-mile delivery."
+  },
+  {
+   "title": "Tyson & Mendes Adds Robert S. Nobel as Partner in New York Office",
+   "url": "https://www.citybiz.co/article/918721/tyson-mendes-adds-robert-s-nobel-as-partner-in-new-york-office/",
+   "publisher": "citybiz",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tyson & Mendes Adds Robert S. Nobel as Partner in New York Office",
+   "note": "Context only."
+  },
+  {
+   "title": "Global Diesel Shortages Could Last Into 2027. Bain Has a Playbook for Shippers",
+   "url": "https://wwd.com/sourcing-journal/logistics/diesel-fuel-costs-prices-shortages-2027-surcharges-trucking-intermodal-bain-1239347871/",
+   "publisher": "Women's Wear Daily",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Global Diesel Shortages Could Last Into 2027. Bain Has a Playbook for Shippers",
+   "note": "Context only."
+  },
+  {
+   "title": "Tyson & Mendes Welcomes Robert S. Nobel as Partner in its New York Office",
+   "url": "https://www.jsonline.com/press-release/story/254664/tyson-mendes-welcomes-robert-s-nobel-as-partner-in-its-new-york-office/",
+   "publisher": "Milwaukee Journal Sentinel",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "merged into existing event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tyson & Mendes Welcomes Robert S. Nobel as Partner in its New York Office",
+   "note": "ev_1d4c5b09d1fa"
+  },
+  {
+   "title": "High Templar Tech Limited Reports First Half of 2026 Unaudited Financial Results",
+   "url": "https://www.prnewswire.com/news-releases/high-templar-tech-limited-reports-first-half-of-2026-unaudited-financial-results-302908359.html",
+   "publisher": "PR Newswire",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "High Templar Tech Limited Reports First Half of 2026 Unaudited Financial Results",
+   "note": "High Templar Tech reports its unaudited financial results for the first half of 2026."
+  },
+  {
+   "title": "Six Flags faces mounting liability pressure after Georgia death",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/six-flags-faces-mounting-liability-pressure-after-georgia-death-593301.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Six Flags faces mounting liability pressure after Georgia death",
+   "note": "Six Flags faces liability pressure following a fatality and numerous brain injury claims at its properties."
+  },
+  {
+   "title": "Milazzo: Parco Corolla e InShare insieme per la mobilità sostenibile",
+   "url": "https://24live.it/2026/09/03/milazzo-parco-corolla-e-inshare-insieme-per-la-mobilita-sostenibile/",
+   "publisher": "24live",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Milazzo: Parco Corolla e InShare insieme per la mobilità sostenibile",
+   "note": "Parco Corolla and InShare partner for sustainable shared micro-mobility in Milazzo."
+  },
+  {
+   "title": "Evri invests £1.3m in new Gloucester parcel depot",
+   "url": "https://www.fleetpoint.org/logistics/evri-invests-1-3m-in-new-gloucester-parcel-depot/",
+   "publisher": "FleetPoint",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Evri invests £1.3m in new Gloucester parcel depot",
+   "note": "Context only."
+  },
+  {
+   "title": "American aluminum manufacturer reports up to $5 million in added costs as tariffs and freight bills rise",
+   "url": "https://www.msn.com/en-ca/news/other/american-aluminum-manufacturer-reports-up-to-5-million-in-added-costs-as-tariffs-and-freight-bills-rise/ar-AA2e0Tob",
+   "publisher": "Trendonomist on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: first pull of a newly added source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "American aluminum manufacturer reports up to $5 million in added costs as tariffs and freight bills rise",
+   "note": "Context only."
+  },
+  {
+   "title": "【Amazon Now vs Rocket Now】Will the 30-minute delivery war change Japanese logistics? Amazon enters the 'deliver now' market. A thorough analysis of the next main ...",
+   "url": "https://note.com/hakobito/n/n6e6d79ccfa17?hl=en",
+   "publisher": "note",
+   "lane": "market_driver",
+   "event_type": "market_entry",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "【Amazon Now vs Rocket Now】Will the 30-minute delivery war change Japanese logistics?",
+   "note": "Context only."
+  },
+  {
+   "title": "Viksit Bharat possible through inclusive growth: Vice President",
+   "url": "https://www.msn.com/en-in/news/other/viksit-bharat-possible-through-inclusive-growth-vice-president/ar-AA2dYAuQ",
+   "publisher": "The Pioneer on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Viksit Bharat possible through inclusive growth: Vice President",
+   "note": "India's Vice-President spoke about inclusive growth for Viksit Bharat."
+  },
+  {
+   "title": "Viksit Bharat possible only when every state, village develops together: VP Radhakrishnan",
+   "url": "https://www.msn.com/en-in/news/other/viksit-bharat-possible-only-when-every-state-village-develops-together-vp-radhakrishnan/ar-AA2dXmhJ",
+   "publisher": "Daily Excelsior on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Viksit Bharat possible only when every state, village develops together",
+   "note": "Vice-President CP Radhakrishnan discussed regional development in India."
+  },
+  {
+   "title": "Faster deliveries, wider reach? India Post, Blue Dart seal nationwide parcel services deal",
+   "url": "https://www.msn.com/en-in/news/other/faster-deliveries-wider-reach-india-post-blue-dart-seal-nationwide-parcel-services-deal/ar-AA2dV8hm",
+   "publisher": "Indiablooms on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "India Post, Blue Dart seal nationwide parcel services deal",
+   "note": "India Post and Blue Dart Express signed a nationwide parcel collaboration agreement."
+  },
+  {
+   "title": "Zomato, Blinkit hired 3.1 lakh delivery partners in FY26",
+   "url": "https://lapaasvoice.com/zomato-blinkit-hired-3-1-lakh-delivery-partners-in-fy26/",
+   "publisher": "lapaasvoice.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Zomato, Blinkit hired 3.1 lakh delivery partners in FY26",
+   "note": "Zomato and Blinkit parent Eternal reported significant delivery partner growth in India during FY26."
+  },
+  {
+   "title": "Procter & Gamble could face new cost problem amid oil, shipping, tariff pressures",
+   "url": "https://www.msn.com/en-us/news/money/procter-gamble-could-face-new-cost-problem-amid-oil-shipping-tariff-pressures/ar-AA2dVIqx",
+   "publisher": "TheStreet on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Procter & Gamble could face new cost problem",
+   "note": "Evercore ISI upgraded Procter & Gamble to Outperform while noting Amazon share gains."
+  }
+ ],
+ "digest": "- Last-mile operating costs are outpacing revenue growth for surveyed fleets, highlighting margin pressure that validates Nirvana's telematics-based risk insights for helping operators control loss costs [1].\n- An appeals court upheld an $815.8M benzene verdict against ExxonMobil, underscoring ongoing social inflation trends that continue to affect commercial liability lines [3].\n- Vertafore launched AI agents to automate policy verification and management tasks, requiring Nirvana to monitor broker tech integrations so MGA distribution workflows remain compatible with agency tools [6]."
+}

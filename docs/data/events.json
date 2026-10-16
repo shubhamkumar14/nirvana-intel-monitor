@@ -208,7 +208,7 @@
    }
   ],
   "best_tier": 2,
-  "score": 55.0,
+  "score": 54.9,
   "age_days": 0.2,
   "score_parts": {
    "materiality": 2,
@@ -411,7 +411,7 @@
   "date_known": true,
   "first_seen": "2026-10-16T17:40:26Z",
   "first_run": "2026-10-16T17-40-26Z",
-  "last_seen": "2026-10-16T17:51:13Z",
+  "last_seen": "2026-10-16T18:03:58Z",
   "last_updated_run": "2026-10-16T17-40-26Z",
   "update_note": null,
   "late_discovery": false,
@@ -438,7 +438,7 @@
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.97,
+   "recency": 0.96,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -713,8 +713,8 @@
    }
   ],
   "best_tier": 2,
-  "score": 52.5,
-  "age_days": 0.5,
+  "score": 52.4,
+  "age_days": 0.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -821,7 +821,7 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.6,
+  "score": 61.5,
   "age_days": 0.7,
   "score_parts": {
    "materiality": 3,
@@ -1067,9 +1067,9 @@
   "date_known": true,
   "first_seen": "2026-10-16T17:40:26Z",
   "first_run": "2026-10-16T17-40-26Z",
-  "last_seen": "2026-10-16T17:40:26Z",
-  "last_updated_run": "2026-10-16T17-40-26Z",
-  "update_note": null,
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": "New corroborating source: Markets Insider",
   "late_discovery": false,
   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
   "lane_hint": "research",
@@ -1085,10 +1085,19 @@
     "tier": 3,
     "source_id": "bing_news",
     "query": "last-mile delivery market report"
+   },
+   {
+    "url": "https://markets.businessinsider.com/news/stocks/elite-express-holding-inc-reports-third-quarter-2026-results-1036627329",
+    "publisher": "Markets Insider",
+    "publisher_key": "markets insider",
+    "published": "2026-10-14T09:05:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
    }
   ],
   "best_tier": 3,
-  "score": 52.8,
+  "score": 55.8,
   "age_days": 2.0,
   "score_parts": {
    "materiality": 2,
@@ -1097,9 +1106,9 @@
    "recency": 0.82,
    "last_mile_fit": 0.7
   },
-  "verification": "Reported",
-  "confidence": "Low",
-  "confidence_reason": "general news, single source"
+  "verification": "Corroborated",
+  "confidence": "High",
+  "confidence_reason": "general news, 2 independent publishers"
  },
  "ev_1232fe9c7ae3": {
   "id": "ev_1232fe9c7ae3",
@@ -1120,9 +1129,9 @@
   "date_known": true,
   "first_seen": "2026-10-16T17:40:26Z",
   "first_run": "2026-10-16T17-40-26Z",
-  "last_seen": "2026-10-16T17:40:26Z",
-  "last_updated_run": "2026-10-16T17-40-26Z",
-  "update_note": null,
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": "New corroborating source: Yahoo Finance",
   "late_discovery": false,
   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
   "lane_hint": null,
@@ -1138,21 +1147,30 @@
     "tier": 2,
     "source_id": "freightwaves",
     "query": null
+   },
+   {
+    "url": "https://finance.yahoo.com/small-business/articles/ups-parcel-pivot-strategic-winner-132359247.html",
+    "publisher": "Yahoo Finance",
+    "publisher_key": "yahoo finance",
+    "published": "2026-10-14T06:23:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "parcel delivery volumes"
    }
   ],
   "best_tier": 2,
-  "score": 63.3,
+  "score": 66.3,
   "age_days": 2.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.81,
+   "recency": 0.8,
    "last_mile_fit": 0.6
   },
-  "verification": "Reported",
-  "confidence": "Medium",
-  "confidence_reason": "trade press, single source"
+  "verification": "Corroborated",
+  "confidence": "High",
+  "confidence_reason": "trade press, 2 independent publishers"
  },
  "ev_f5bfb100fa2d": {
   "id": "ev_f5bfb100fa2d",
@@ -1252,7 +1270,7 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.5,
+  "score": 45.4,
   "age_days": 2.3,
   "score_parts": {
    "materiality": 2,
@@ -1341,9 +1359,9 @@
   "date_known": true,
   "first_seen": "2026-10-16T17:40:26Z",
   "first_run": "2026-10-16T17-40-26Z",
-  "last_seen": "2026-10-16T17:40:26Z",
-  "last_updated_run": "2026-10-16T17-40-26Z",
-  "update_note": null,
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": "New corroborating source: Markets Insider",
   "late_discovery": false,
   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
   "lane_hint": "competitor_move",
@@ -1359,10 +1377,19 @@
     "tier": 3,
     "source_id": "bing_news",
     "query": "Progressive \"commercial auto\""
+   },
+   {
+    "url": "https://markets.businessinsider.com/news/stocks/progressive-reports-september-2026-results-1036625236",
+    "publisher": "Markets Insider",
+    "publisher_key": "markets insider",
+    "published": "2026-10-14T01:17:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Progressive \"commercial auto\""
    }
   ],
   "best_tier": 3,
-  "score": 45.2,
+  "score": 48.2,
   "age_days": 2.5,
   "score_parts": {
    "materiality": 2,
@@ -1371,9 +1398,9 @@
    "recency": 0.78,
    "last_mile_fit": 0.2
   },
-  "verification": "Reported",
-  "confidence": "Low",
-  "confidence_reason": "general news, single source"
+  "verification": "Corroborated",
+  "confidence": "High",
+  "confidence_reason": "general news, 2 independent publishers"
  },
  "ev_23a4bd778c72": {
   "id": "ev_23a4bd778c72",
@@ -1825,7 +1852,7 @@
   ],
   "best_tier": 3,
   "score": 43.1,
-  "age_days": 4.5,
+  "age_days": 4.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
@@ -1880,7 +1907,7 @@
   ],
   "best_tier": 3,
   "score": 56.7,
-  "age_days": 6.1,
+  "age_days": 6.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -1933,7 +1960,7 @@
   ],
   "best_tier": 1,
   "score": 59.3,
-  "age_days": 8.7,
+  "age_days": 8.8,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -1987,7 +2014,7 @@
   ],
   "best_tier": 1,
   "score": 58.7,
-  "age_days": 9.7,
+  "age_days": 9.8,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -2043,7 +2070,7 @@
   ],
   "best_tier": 1,
   "score": 47.9,
-  "age_days": 16.7,
+  "age_days": 16.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -2099,7 +2126,7 @@
   ],
   "best_tier": 1,
   "score": 36.9,
-  "age_days": 16.7,
+  "age_days": 16.8,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
@@ -2154,7 +2181,7 @@
   ],
   "best_tier": 1,
   "score": 36.3,
-  "age_days": 18.7,
+  "age_days": 18.8,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
@@ -2209,7 +2236,7 @@
   ],
   "best_tier": 1,
   "score": 37.3,
-  "age_days": 18.7,
+  "age_days": 18.8,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
@@ -2264,7 +2291,7 @@
   ],
   "best_tier": 1,
   "score": 35.7,
-  "age_days": 21.7,
+  "age_days": 21.8,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
@@ -2373,7 +2400,7 @@
    }
   ],
   "best_tier": 3,
-  "score": 52.8,
+  "score": 52.7,
   "age_days": 0.5,
   "score_parts": {
    "materiality": 2,
@@ -2430,7 +2457,7 @@
   ],
   "best_tier": 2,
   "score": 51.2,
-  "age_days": 0.7,
+  "age_days": 0.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
@@ -2820,7 +2847,7 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.7,
+  "score": 45.6,
   "age_days": 1.3,
   "score_parts": {
    "materiality": 2,
@@ -2933,7 +2960,7 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.3,
+  "score": 45.2,
   "age_days": 1.6,
   "score_parts": {
    "materiality": 2,
@@ -3317,7 +3344,7 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.6,
+  "score": 46.5,
   "age_days": 3.1,
   "score_parts": {
    "materiality": 2,
@@ -3489,7 +3516,7 @@
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.72,
+   "recency": 0.71,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -3599,7 +3626,7 @@
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.71,
+   "recency": 0.7,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -3709,7 +3736,7 @@
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.57,
+   "recency": 0.56,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -3761,13 +3788,1292 @@
   ],
   "best_tier": 3,
   "score": 56.8,
-  "age_days": 7.2,
+  "age_days": 7.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
    "recency": 0.49,
    "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_aca9c6882d71": {
+  "id": "ev_aca9c6882d71",
+  "title": "United Parcel Service (UPS) Opens Philippines Air Hub With 170 Weekly Flight Segments",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/united-parcel-ups-opens-philippines-171136272.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "UPS opened a large air hub in the Philippines.",
+  "evidence_quote": "United Parcel Service (UPS) Opens Philippines Air Hub With 170 Weekly Flight Segments",
+  "companies": [
+   "United Parcel Service",
+   "UPS"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T10:11:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "aca9c6882d71"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/united-parcel-ups-opens-philippines-171136272.html",
+    "publisher": "Yahoo Finance",
+    "publisher_key": "yahoo finance",
+    "published": "2026-10-16T10:11:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "parcel delivery volumes"
+   }
+  ],
+  "best_tier": 3,
+  "score": 51.0,
+  "age_days": 0.3,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.97,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_db25b1c15987": {
+  "id": "ev_db25b1c15987",
+  "title": "Trump’s tariffs and Iran war will make toys more expensive this holiday season",
+  "url": "https://www.aol.com/articles/trump-tariffs-iran-war-toys-140903000.html",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Tariffs and geopolitical conflicts are driving up holiday toy prices in the US.",
+  "evidence_quote": "Trump’s tariffs and Iran war will make toys more expensive this holiday season",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T07:09:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "db25b1c15987"
+  ],
+  "sources": [
+   {
+    "url": "https://www.aol.com/articles/trump-tariffs-iran-war-toys-140903000.html",
+    "publisher": "AOL",
+    "publisher_key": "aol",
+    "published": "2026-10-16T07:09:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "tariffs freight trucking costs"
+   }
+  ],
+  "best_tier": 3,
+  "score": 49.8,
+  "age_days": 0.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.96,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_a4e793d5caa5": {
+  "id": "ev_a4e793d5caa5",
+  "title": "New California laws arise from latest legislative skirmishes in endless ‘tort wars’",
+  "url": "https://calmatters.org/commentary/2026/10/new-california-laws-tort-wars/",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.3,
+  "summary": "New California laws stem from ongoing legislative battles over tort reform.",
+  "evidence_quote": "New California laws arise from latest legislative skirmishes in endless ‘tort wars’",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T05:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "a4e793d5caa5"
+  ],
+  "sources": [
+   {
+    "url": "https://calmatters.org/commentary/2026/10/new-california-laws-tort-wars/",
+    "publisher": "CalMatters",
+    "publisher_key": "calmatters",
+    "published": "2026-10-16T05:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 58.7,
+  "age_days": 0.5,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.95,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_753e4563a338": {
+  "id": "ev_753e4563a338",
+  "title": "Tariffs are reshaping the airfreight map",
+  "url": "https://aircargoweek.com/week-issues-posts/tariffs-are-reshaping-the-airfreight-map/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Government trade policies and tariffs are shifting airfreight demand patterns.",
+  "evidence_quote": "Tariffs are reshaping the airfreight map",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T04:32:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "753e4563a338"
+  ],
+  "sources": [
+   {
+    "url": "https://aircargoweek.com/week-issues-posts/tariffs-are-reshaping-the-airfreight-map/",
+    "publisher": "Air Cargo Week",
+    "publisher_key": "air cargo week",
+    "published": "2026-10-16T04:32:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "tariffs freight trucking costs"
+   }
+  ],
+  "best_tier": 3,
+  "score": 49.7,
+  "age_days": 0.6,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.95,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_d4dca4ffb3ee": {
+  "id": "ev_d4dca4ffb3ee",
+  "title": "As Tariffs Push Manufacturers to Reshore, Woods Distribution Offers Integrated 3PL Support for U.S. Producers",
+  "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/as-tariffs-push-manufacturers-to-reshore-woods-distribution-offe-1237199",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "Logistics providers are expanding 3PL support as tariffs encourage domestic manufacturing reshoring.",
+  "evidence_quote": "As Tariffs Push Manufacturers to Reshore, Woods Distribution Offers Integrated 3PL Support for U.S. Producers",
+  "companies": [
+   "Woods Distribution"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T02:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "d4dca4ffb3ee"
+  ],
+  "sources": [
+   {
+    "url": "https://www.accessnewswire.com/newsroom/en/business-and-professional-services/as-tariffs-push-manufacturers-to-reshore-woods-distribution-offe-1237199",
+    "publisher": "accessnewswire.com",
+    "publisher_key": "accessnewswire.com",
+    "published": "2026-10-16T02:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "tariffs freight trucking costs"
+   }
+  ],
+  "best_tier": 3,
+  "score": 50.5,
+  "age_days": 0.7,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.94,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_d6a632ab2f30": {
+  "id": "ev_d6a632ab2f30",
+  "title": "Last-mile delivery costs are rising faster than customer expectations",
+  "url": "https://trans.info/en/last-mile-delivery-costs-are-rising-faster-than-customer-expectations-509010",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 4,
+  "last_mile_fit": 0.9,
+  "summary": "Last-mile delivery operating costs are outpacing revenue growth for the majority of surveyed companies.",
+  "evidence_quote": "Last-mile delivery costs are rising faster than customer expectations",
+  "companies": [],
+  "implication": "Fleet margin pressure highlights the need for Nirvana's telematics-based risk insights to help operators control insurance loss costs.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T17:01:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "research",
+  "fingerprints": [
+   "d6a632ab2f30"
+  ],
+  "sources": [
+   {
+    "url": "https://trans.info/en/last-mile-delivery-costs-are-rising-faster-than-customer-expectations-509010",
+    "publisher": "trans.info",
+    "publisher_key": "trans.info",
+    "published": "2026-10-15T17:01:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
+   }
+  ],
+  "best_tier": 3,
+  "score": 72.0,
+  "age_days": 1.0,
+  "score_parts": {
+   "materiality": 4,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.9,
+   "last_mile_fit": 0.9
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_e3a0f92aa34a": {
+  "id": "ev_e3a0f92aa34a",
+  "title": "Vertafore launches AI agents to automate insurance policy verification and management",
+  "url": "https://beinsure.com/news/vertafore-launches-ai-agents-to-automate-policy-verification/",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Vertafore launched AI agents designed to automate insurance policy verification and management tasks.",
+  "evidence_quote": "Vertafore launches AI agents to automate insurance policy verification and management",
+  "companies": [
+   "Vertafore"
+  ],
+  "implication": "Monitor broker technology integrations to ensure Nirvana's MGA distribution workflows remain compatible with agency automation tools.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T13:56:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "e3a0f92aa34a"
+  ],
+  "sources": [
+   {
+    "url": "https://beinsure.com/news/vertafore-launches-ai-agents-to-automate-policy-verification/",
+    "publisher": "beinsure",
+    "publisher_key": "beinsure",
+    "published": "2026-10-15T13:56:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"InShare\" insurance delivery"
+   }
+  ],
+  "best_tier": 3,
+  "score": 46.9,
+  "age_days": 1.2,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.89,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_3a590307341d": {
+  "id": "ev_3a590307341d",
+  "title": "Teamsters Organize Amazon Drivers in Fight for Security and Dignity",
+  "url": "https://www.randomlengthsnews.com/archives/2026/10/15/teamsters-organize-amazon-drivers/77984",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.9,
+  "summary": "The Teamsters union is actively organizing Amazon delivery drivers.",
+  "evidence_quote": "Teamsters Organize Amazon Drivers in Fight for Security and Dignity",
+  "companies": [
+   "Teamsters",
+   "Amazon"
+  ],
+  "implication": "Labor organizing among Amazon DSP drivers can alter fleet operations and stability; factor driver retention into underwriting risk models.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T10:13:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "3a590307341d"
+  ],
+  "sources": [
+   {
+    "url": "https://www.randomlengthsnews.com/archives/2026/10/15/teamsters-organize-amazon-drivers/77984",
+    "publisher": "Random Lengths News",
+    "publisher_key": "random lengths news",
+    "published": "2026-10-15T10:13:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Amazon DSP delivery contractors"
+   }
+  ],
+  "best_tier": 3,
+  "score": 63.7,
+  "age_days": 1.3,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.88,
+   "last_mile_fit": 0.9
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_1ebaba2c3893": {
+  "id": "ev_1ebaba2c3893",
+  "title": "$815.8M Benzene Verdict Against ExxonMobil Survives Pa. Appeals Court Challenge",
+  "url": "https://www.law.com/thelegalintelligencer/2026/10/15/8158m-benzene-verdict-against-exxonmobil-survives-pa-appeals-court-challenge/",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.4,
+  "summary": "An appellate court upheld a major toxic tort verdict against ExxonMobil.",
+  "evidence_quote": "$815.8M Benzene Verdict Against ExxonMobil Survives Pa. Appeals Court Challenge",
+  "companies": [
+   "ExxonMobil"
+  ],
+  "implication": "Continued massive corporate verdicts underscore ongoing social inflation trends affecting commercial liability lines across all sectors.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T09:24:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "1ebaba2c3893"
+  ],
+  "sources": [
+   {
+    "url": "https://www.law.com/thelegalintelligencer/2026/10/15/8158m-benzene-verdict-against-exxonmobil-survives-pa-appeals-court-challenge/",
+    "publisher": "Law.com",
+    "publisher_key": "law.com",
+    "published": "2026-10-15T09:24:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 58.6,
+  "age_days": 1.4,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.87,
+   "last_mile_fit": 0.4
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_dd69adcd683f": {
+  "id": "ev_dd69adcd683f",
+  "title": "Holiday toy prices surge as tariffs, war-driven energy costs squeeze shoppers",
+  "url": "https://finance.yahoo.com/economy/policy/articles/holiday-toy-prices-surge-tariffs-154524600.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "Rising tariffs and energy costs increase general retail prices and consumer spending pressures ahead of the holidays.",
+  "evidence_quote": "Holiday toy prices surge as tariffs, war-driven energy costs squeeze shoppers",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T08:45:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "dd69adcd683f"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/economy/policy/articles/holiday-toy-prices-surge-tariffs-154524600.html",
+    "publisher": "Yahoo Finance",
+    "publisher_key": "yahoo finance",
+    "published": "2026-10-15T08:45:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "tariffs freight trucking costs"
+   }
+  ],
+  "best_tier": 3,
+  "score": 49.6,
+  "age_days": 1.4,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.87,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_b6b7864e524e": {
+  "id": "ev_b6b7864e524e",
+  "title": "Why DTC fulfillment is now a network design decision for growing brands",
+  "url": "https://www.ajot.com/news/why-dtc-fulfillment-is-now-a-network-design-decision-for-growing-brands",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.5,
+  "summary": "Direct-to-consumer growth forces logistics teams to treat network design, inventory location, and parcel zones as key operational variables.",
+  "evidence_quote": "Why DTC fulfillment is now a network design decision for growing brands",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T07:16:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "b6b7864e524e"
+  ],
+  "sources": [
+   {
+    "url": "https://www.ajot.com/news/why-dtc-fulfillment-is-now-a-network-design-decision-for-growing-brands",
+    "publisher": "American Journal of Transportation",
+    "publisher_key": "american journal of transportation",
+    "published": "2026-10-15T07:16:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "parcel delivery volumes"
+   }
+  ],
+  "best_tier": 3,
+  "score": 51.5,
+  "age_days": 1.4,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.87,
+   "last_mile_fit": 0.5
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_f7ef410c9c81": {
+  "id": "ev_f7ef410c9c81",
+  "title": "New Investigative Documentary ‘Undeliverable’ Examines Consumer Convenience and America’s Last-Mile Delivery Workforce",
+  "url": "https://www.azcentral.com/press-release/story/138236/new-investigative-documentary-undeliverable-examines-consumer-convenience-and-americas-last-mile-delivery-workforce-2/",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.7,
+  "summary": "A new investigative documentary examines consumer convenience and the last-mile delivery workforce.",
+  "evidence_quote": "New Investigative Documentary ‘Undeliverable’ Examines Consumer Convenience and America’s Last-Mile Delivery Workforce",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T04:27:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "f7ef410c9c81"
+  ],
+  "sources": [
+   {
+    "url": "https://www.azcentral.com/press-release/story/138236/new-investigative-documentary-undeliverable-examines-consumer-convenience-and-americas-last-mile-delivery-workforce-2/",
+    "publisher": "azcentral.com",
+    "publisher_key": "azcentral.com",
+    "published": "2026-10-15T04:27:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Amazon DSP delivery contractors"
+   }
+  ],
+  "best_tier": 3,
+  "score": 53.3,
+  "age_days": 1.6,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.86,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_e3a93348a5ad": {
+  "id": "ev_e3a93348a5ad",
+  "title": "U.S. toy prices surge as tariffs and Iran war lift holiday costs",
+  "url": "https://tradersunion.com/news/financial-news/show/3824102-us-toy-prices-rise-tariffs-war/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "Tariffs and geopolitical tensions raise retail costs and pressure holiday budgets in the US.",
+  "evidence_quote": "U.S. toy prices surge as tariffs and Iran war lift holiday costs",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-15T03:37:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "e3a93348a5ad"
+  ],
+  "sources": [
+   {
+    "url": "https://tradersunion.com/news/financial-news/show/3824102-us-toy-prices-rise-tariffs-war/",
+    "publisher": "tradersunion",
+    "publisher_key": "tradersunion",
+    "published": "2026-10-15T03:37:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "tariffs freight trucking costs"
+   }
+  ],
+  "best_tier": 3,
+  "score": 49.3,
+  "age_days": 1.6,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.85,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_dc07ba41c061": {
+  "id": "ev_dc07ba41c061",
+  "title": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
+  "url": "https://www.miamiherald.com/news/business/article317632067.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "US holiday shoppers face budget squeezes due to combined tariffs and energy costs.",
+  "evidence_quote": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T23:26:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "dc07ba41c061"
+  ],
+  "sources": [
+   {
+    "url": "https://www.miamiherald.com/news/business/article317632067.html",
+    "publisher": "Miami Herald",
+    "publisher_key": "miami herald",
+    "published": "2026-10-14T23:26:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "tariffs freight trucking costs"
+   }
+  ],
+  "best_tier": 3,
+  "score": 49.1,
+  "age_days": 1.8,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.84,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_fb5e77214a44": {
+  "id": "ev_fb5e77214a44",
+  "title": "Teamsters Local 804 Organizes Amazon Workers as NYC Council Considers Passing the Delivery Protection Act",
+  "url": "https://www.laborpress.org/teamsters-local-804-organizes-amazon-workers-as-nyc-council-considers-passing-the-delivery-protection-act/",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 4,
+  "last_mile_fit": 0.9,
+  "summary": "Teamsters organize Amazon DSP drivers in New York while the city council considers the Delivery Protection Act.",
+  "evidence_quote": "Teamsters Local 804 Organizes Amazon Workers as NYC Council Considers Passing the Delivery Protection Act",
+  "companies": [
+   "Amazon",
+   "Teamsters"
+  ],
+  "implication": "Track labour organizing and legislative pushback against Amazon DSP models, as changing employment structures affect risk profiles and fleet operations.",
+  "action": "watch",
+  "watchlist_companies": [
+   "Amazon DSP insurance program"
+  ],
+  "published": "2026-10-14T17:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "fb5e77214a44"
+  ],
+  "sources": [
+   {
+    "url": "https://www.laborpress.org/teamsters-local-804-organizes-amazon-workers-as-nyc-council-considers-passing-the-delivery-protection-act/",
+    "publisher": "LaborPress",
+    "publisher_key": "laborpress",
+    "published": "2026-10-14T17:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Amazon DSP delivery contractors"
+   }
+  ],
+  "best_tier": 3,
+  "score": 78.8,
+  "age_days": 2.0,
+  "score_parts": {
+   "materiality": 4,
+   "priority": 0.9,
+   "tier": 3,
+   "recency": 0.82,
+   "last_mile_fit": 0.9
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_d0d6fd63ec54": {
+  "id": "ev_d0d6fd63ec54",
+  "title": "Amazon is taking over Phoenix storefronts for a new grocery service",
+  "url": "https://tucson.com/news/local/business/article_c592c42b-9e6b-4104-8a6f-426464ee865a.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.6,
+  "summary": "Amazon acquires Phoenix storefronts to support expanded 30-minute grocery delivery operations.",
+  "evidence_quote": "Amazon is taking over Phoenix storefronts for a new grocery service",
+  "companies": [
+   "Amazon"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T17:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "d0d6fd63ec54"
+  ],
+  "sources": [
+   {
+    "url": "https://tucson.com/news/local/business/article_c592c42b-9e6b-4104-8a6f-426464ee865a.html",
+    "publisher": "Arizona Daily Star",
+    "publisher_key": "arizona daily star",
+    "published": "2026-10-14T17:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Amazon DSP delivery contractors"
+   }
+  ],
+  "best_tier": 3,
+  "score": 59.8,
+  "age_days": 2.0,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.82,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_18f53998ca53": {
+  "id": "ev_18f53998ca53",
+  "title": "Trump's tariffs are changing the global trade ecosystem",
+  "url": "https://en.majalla.com/node/333605/business-economy/trumps-tariffs-are-changing-global-trade-ecosystem",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Tariffs alter global trade routes and the distribution of manufacturing origins.",
+  "evidence_quote": "Trump's tariffs are changing the global trade ecosystem",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T17:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "18f53998ca53"
+  ],
+  "sources": [
+   {
+    "url": "https://en.majalla.com/node/333605/business-economy/trumps-tariffs-are-changing-global-trade-ecosystem",
+    "publisher": "en.majalla",
+    "publisher_key": "en.majalla",
+    "published": "2026-10-14T17:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "tariffs freight trucking costs"
+   }
+  ],
+  "best_tier": 3,
+  "score": 47.8,
+  "age_days": 2.0,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.82,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_a0e77b127682": {
+  "id": "ev_a0e77b127682",
+  "title": "DSA, Teamsters, Amazon Workers Fight to Pass the Delivery Protection Act",
+  "url": "https://indypendent.org/2026/10/dsa-teamsters-amazon-workers-fight-to-pass-the-delivery-protection-act/",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 4,
+  "last_mile_fit": 0.9,
+  "summary": "Advocacy groups and labor unions push to pass the Delivery Protection Act to restrict contractor hiring models.",
+  "evidence_quote": "DSA, Teamsters, Amazon Workers Fight to Pass the Delivery Protection Act",
+  "companies": [
+   "Amazon"
+  ],
+  "implication": "Monitor legislative efforts to alter the DSP contractor model, which could reshape commercial auto insurance buyers in last-mile delivery.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-14T10:41:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "a0e77b127682"
+  ],
+  "sources": [
+   {
+    "url": "https://indypendent.org/2026/10/dsa-teamsters-amazon-workers-fight-to-pass-the-delivery-protection-act/",
+    "publisher": "The Indypendent",
+    "publisher_key": "the indypendent",
+    "published": "2026-10-14T10:41:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Amazon DSP delivery contractors"
+   }
+  ],
+  "best_tier": 3,
+  "score": 70.4,
+  "age_days": 2.3,
+  "score_parts": {
+   "materiality": 4,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.8,
+   "last_mile_fit": 0.9
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_1d4c5b09d1fa": {
+  "id": "ev_1d4c5b09d1fa",
+  "title": "Tyson & Mendes Adds Robert S. Nobel as Partner in New York Office",
+  "url": "https://www.citybiz.co/article/918721/tyson-mendes-adds-robert-s-nobel-as-partner-in-new-york-office/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "Tyson & Mendes adds a new partner to its New York office insurance defense practice.",
+  "evidence_quote": "Tyson & Mendes Adds Robert S. Nobel as Partner in New York Office",
+  "companies": [
+   "Tyson & Mendes"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T10:37:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "1d4c5b09d1fa",
+   "ec37e228e79e"
+  ],
+  "sources": [
+   {
+    "url": "https://www.citybiz.co/article/918721/tyson-mendes-adds-robert-s-nobel-as-partner-in-new-york-office/",
+    "publisher": "citybiz",
+    "publisher_key": "citybiz",
+    "published": "2026-10-14T10:37:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   },
+   {
+    "url": "https://www.jsonline.com/press-release/story/254664/tyson-mendes-welcomes-robert-s-nobel-as-partner-in-its-new-york-office/",
+    "publisher": "Milwaukee Journal Sentinel",
+    "publisher_key": "milwaukee journal sentinel",
+    "published": "2026-10-14T05:49:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 51.4,
+  "age_days": 2.3,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.8,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Corroborated",
+  "confidence": "High",
+  "confidence_reason": "general news, 2 independent publishers"
+ },
+ "ev_6675c432d07e": {
+  "id": "ev_6675c432d07e",
+  "title": "Global Diesel Shortages Could Last Into 2027. Bain Has a Playbook for Shippers",
+  "url": "https://wwd.com/sourcing-journal/logistics/diesel-fuel-costs-prices-shortages-2027-surcharges-trucking-intermodal-bain-1239347871/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.5,
+  "summary": "Persistent diesel shortages and high fuel surcharges drive up freight and shipping operational expenses.",
+  "evidence_quote": "Global Diesel Shortages Could Last Into 2027. Bain Has a Playbook for Shippers",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T09:52:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "research",
+  "fingerprints": [
+   "6675c432d07e"
+  ],
+  "sources": [
+   {
+    "url": "https://wwd.com/sourcing-journal/logistics/diesel-fuel-costs-prices-shortages-2027-surcharges-trucking-intermodal-bain-1239347871/",
+    "publisher": "Women's Wear Daily",
+    "publisher_key": "women's wear daily",
+    "published": "2026-10-14T09:52:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
+   }
+  ],
+  "best_tier": 3,
+  "score": 58.4,
+  "age_days": 2.3,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.79,
+   "last_mile_fit": 0.5
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_8ac95a863f0d": {
+  "id": "ev_8ac95a863f0d",
+  "title": "Evri invests £1.3m in new Gloucester parcel depot",
+  "url": "https://www.fleetpoint.org/logistics/evri-invests-1-3m-in-new-gloucester-parcel-depot/",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.7,
+  "summary": "Evri invests £1.3m to open a new parcel depot in Gloucester to increase handling capacity.",
+  "evidence_quote": "Evri invests £1.3m in new Gloucester parcel depot",
+  "companies": [
+   "Evri"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-12T01:43:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "8ac95a863f0d"
+  ],
+  "sources": [
+   {
+    "url": "https://www.fleetpoint.org/logistics/evri-invests-1-3m-in-new-gloucester-parcel-depot/",
+    "publisher": "FleetPoint",
+    "publisher_key": "fleetpoint",
+    "published": "2026-10-12T01:43:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "parcel delivery volumes"
+   }
+  ],
+  "best_tier": 3,
+  "score": 55.9,
+  "age_days": 4.7,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.63,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_d91d70578805": {
+  "id": "ev_d91d70578805",
+  "title": "American aluminum manufacturer reports up to $5 million in added costs as tariffs and freight bills rise",
+  "url": "https://www.msn.com/en-ca/news/other/american-aluminum-manufacturer-reports-up-to-5-million-in-added-costs-as-tariffs-and-freight-bills-rise/ar-AA2e0Tob",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "Tariffs and rising freight bills increase operational expenses for an American aluminum manufacturer.",
+  "evidence_quote": "American aluminum manufacturer reports up to $5 million in added costs as tariffs and freight bills rise",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-11T10:02:05Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "d91d70578805"
+  ],
+  "sources": [
+   {
+    "url": "https://www.msn.com/en-ca/news/other/american-aluminum-manufacturer-reports-up-to-5-million-in-added-costs-as-tariffs-and-freight-bills-rise/ar-AA2e0Tob",
+    "publisher": "Trendonomist on MSN",
+    "publisher_key": "trendonomist on msn",
+    "published": "2026-10-11T10:02:05Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "tariffs freight trucking costs"
+   }
+  ],
+  "best_tier": 3,
+  "score": 45.3,
+  "age_days": 5.3,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.59,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_9e1f2571722c": {
+  "id": "ev_9e1f2571722c",
+  "title": "【Amazon Now vs Rocket Now】Will the 30-minute delivery war change Japanese logistics? Amazon enters the 'deliver now' market. A thorough analysis of the next main ...",
+  "url": "https://note.com/hakobito/n/n6e6d79ccfa17?hl=en",
+  "lane": "market_driver",
+  "event_type": "market_entry",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.4,
+  "summary": "Amazon enters the 30-minute delivery market in Japan, prompting logistics industry analysis.",
+  "evidence_quote": "【Amazon Now vs Rocket Now】Will the 30-minute delivery war change Japanese logistics?",
+  "companies": [
+   "Amazon"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-10T19:46:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:03:58Z",
+  "first_run": "2026-10-16T18-03-58Z",
+  "last_seen": "2026-10-16T18:03:58Z",
+  "last_updated_run": "2026-10-16T18-03-58Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "discovery",
+  "fingerprints": [
+   "9e1f2571722c"
+  ],
+  "sources": [
+   {
+    "url": "https://note.com/hakobito/n/n6e6d79ccfa17?hl=en",
+    "publisher": "note",
+    "publisher_key": "note",
+    "published": "2026-10-10T19:46:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"last-mile delivery\" insurance"
+   }
+  ],
+  "best_tier": 3,
+  "score": 45.8,
+  "age_days": 5.9,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.56,
+   "last_mile_fit": 0.4
   },
   "verification": "Reported",
   "confidence": "Low",
