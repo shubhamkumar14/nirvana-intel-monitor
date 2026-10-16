@@ -25,7 +25,13 @@ def _local(tag):
 def parse_feed(xml_text):
     """Parse RSS 2.0 or Atom into [{title,url,published,snippet,publisher,publisher_url}]."""
     xml_text = re.sub(r"^[^<]+", "", xml_text or "")
-    root = ET.fromstring(xml_text.encode("utf-8"))
+    try:
+        root = ET.fromstring(xml_text.encode("utf-8"))
+    except ET.ParseError:
+        # Some feeds (seen on Bing News, 2026-10-16) ship bare '&' or control chars; repair and retry once.
+        fixed = re.sub(r"&(?!(?:[a-zA-Z]+|#\d+|#x[0-9a-fA-F]+);)", "&amp;", xml_text)
+        fixed = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", fixed)
+        root = ET.fromstring(fixed.encode("utf-8"))
     out = []
     for node in root.iter():
         if _local(node.tag) not in ("item", "entry"):

@@ -214,6 +214,9 @@ _HEAD = ["verdict", "rising", "increase", "higher", "losses", "tariff", "shortag
 _TAIL = ["reform", "growth", "grows", "record volume", "expands", "decline in claims", "lower costs", "demand"]
 
 
+_RISK = ["liabilit", "verdict", "claims", "crash", "accident", "fmcsa", "regulat", "legislat", "law ", "tariff", "court",
+         "lawsuit", "safety", "telematics", "fleet cost", "insurance cost", "rate increase", "contractor", "dsp"]
+_NON_US = ["royal mail", " uk ", "britain", "london", "australia", "india", "germany", "verlingue", " mp ", "canada post"]
 _HOT = {"product_launch", "market_entry", "market_exit", "pricing_rate", "m_and_a", "partnership_distribution"}
 
 
@@ -238,9 +241,11 @@ def classify_rules(items, competitors, topic_keywords):
         comps = [c["name"] for c in competitors if any(re.search(r"\b" + re.escape(a.lower()) + r"\b", text) for a in c["aliases"])]
         topical = any(k in text for k in topic_keywords)
         insurance = any(k in text for k in ["insur", "coverage", "underwrit", "premium", "mga", "carrier"])
+        risky = insurance or any(k in text for k in _RISK)
+        foreign = any(k in text for k in _NON_US) or str(it.get("url", "")).split("/")[2:3] and str(it.get("url", "")).split("/")[2].endswith((".uk", ".de", ".au", ".in", ".fr"))
         if comps and (insurance or topical):
             lane = "competitor_move"
-        elif not topical:
+        elif not topical or not risky or foreign:
             lane = "irrelevant"
         elif any(k in text for k in _POLICY):
             lane = "policy_macro"

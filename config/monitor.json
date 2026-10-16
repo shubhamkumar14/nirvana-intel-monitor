@@ -227,11 +227,12 @@
       "robots": true
     },
     "gdelt": {
-      "enabled": true,
+      "enabled": false,
       "robots": false,
       "timespan": "7d",
       "max_records": 25,
-      "sleep_seconds": 6
+      "sleep_seconds": 6,
+      "_note": "Disabled 2026-10-16: GDELT returned HTTP 429 to GitHub-hosted runners on the first request (shared runner IPs)."
     }
   },
   "feeds": [
