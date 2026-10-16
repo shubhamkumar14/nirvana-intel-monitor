@@ -107,10 +107,17 @@ class OpenAICompatClient:
                            "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}).encode()
         for attempt in range(4):
             req = urllib.request.Request(self.url, data=body, headers={
-                "Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json"})
+                "Authorization": f"Bearer {self.api_key}", "Content-Type": "application/json",
+                "Accept": "application/json", "X-GitHub-Api-Version": "2022-11-28"})
             try:
                 with urllib.request.urlopen(req, timeout=120) as r:
-                    data = json.loads(r.read())
+                    raw = r.read()
+                    try:
+                        data = json.loads(raw)
+                    except ValueError:
+                        raise RuntimeError(f"{self.provider} non-JSON response (HTTP {r.status}, {r.headers.get('Content-Type')}): {raw[:200]!r}")
+                    if not (data.get("choices") or [{}])[0].get("message", {}).get("content"):
+                        raise RuntimeError(f"{self.provider} empty completion: {json.dumps(data)[:300]}")
                 u = data.get("usage", {}) or {}
                 self.usage["input_tokens"] += u.get("prompt_tokens", 0)
                 self.usage["output_tokens"] += u.get("completion_tokens", 0)
