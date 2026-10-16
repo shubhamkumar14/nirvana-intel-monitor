@@ -396,5 +396,45 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-16T18:03:58Z"
+ },
+ "Arity": {
+  "name": "Arity",
+  "first_seen": "2026-10-16T18:18:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_28bc48a3921f"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T18:18:53Z"
+ },
+ "INRIX": {
+  "name": "INRIX",
+  "first_seen": "2026-10-16T18:18:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_28bc48a3921f"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T18:18:53Z"
+ },
+ "Markel Insurance": {
+  "name": "Markel Insurance",
+  "first_seen": "2026-10-16T18:18:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0367938d2ea4"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T18:18:53Z"
+ },
+ "Markel Group Inc.": {
+  "name": "Markel Group Inc.",
+  "first_seen": "2026-10-16T18:18:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0367938d2ea4"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T18:18:53Z"
  }
 }
