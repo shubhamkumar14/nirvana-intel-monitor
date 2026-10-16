@@ -128,7 +128,8 @@ class OpenAICompatClient:
                 if e.code in (429, 500, 502, 503) and attempt < 3:
                     time.sleep(min(60, int(e.headers.get("Retry-After", "0") or 0) or 10 * (attempt + 1)))
                     continue
-                if e.code in (400, 404) and b"model" in err.lower() and self.fallbacks:
+                quota = e.code == 429
+                if ((e.code in (400, 404) and b"model" in err.lower()) or quota) and self.fallbacks:
                     nxt = self.fallbacks.pop(0)  # model retired/renamed -> try next free model, record it
                     self.usage.setdefault("model_fallbacks", []).append(f"{model} -> {nxt}")
                     self.models = {"classify": nxt, "digest": nxt}
@@ -179,13 +180,13 @@ def _clean(r):
             "implication": str(r.get("implication", ""))[:300], "action": r.get("action") if r.get("action") in ("respond", "watch", "context") else "watch"}
 
 
-def classify_llm(items, client, model, batch_size=15):
+def classify_llm(items, client, model, batch_size=30):
     results = {}
     for i in range(0, len(items), batch_size):
         batch = items[i:i + batch_size]
         user = "Classify these items:\n" + json.dumps(_items_payload(batch), ensure_ascii=False)
         try:
-            arr = _parse_json_array(client.complete(model, SYSTEM_PROMPT, user))
+            arr = _parse_json_array(client.complete(model, SYSTEM_PROMPT, user, max_tokens=8000))
         except Exception as e:
             for it in batch:
                 results[it["_cid"]] = {"error": str(e)[:200]}

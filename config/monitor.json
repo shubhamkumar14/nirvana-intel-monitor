@@ -4,8 +4,8 @@
   "late_discovery_days": 30,
   "cluster_window_days": 14,
   "fuzzy_merge_threshold": 0.86,
-  "max_classify_per_run": 160,
-  "classify_batch_size": 15,
+  "max_classify_per_run": 150,
+  "classify_batch_size": 30,
   "models": {
     "classify": "claude-haiku-5-5",
     "digest": "claude-sonnet-5-5"

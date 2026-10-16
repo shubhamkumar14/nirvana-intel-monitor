@@ -42,7 +42,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
-        run: python -m evals.run_eval --mode both --out docs/data/evals.json
+        run: python -m evals.run_eval --mode rules --out docs/data/evals.json  # LLM eval runs in CI on code changes, to save free-tier quota
 
       - name: Run monitor (live sources)
         env:
