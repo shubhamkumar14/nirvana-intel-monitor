@@ -2254,5 +2254,42 @@
   "first_seen": "2026-10-16T18:18:53Z",
   "outcome": "attached",
   "event_id": "ev_dc07ba41c061"
+ },
+ "c4163a23809fef24": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "irrelevant"
+ },
+ "fp:10653b82b190": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "irrelevant"
+ },
+ "a56d4b799374f3d9": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "irrelevant"
+ },
+ "fp:5c472bf285b6": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "irrelevant"
+ },
+ "2655b84781e15fc6": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "irrelevant"
+ },
+ "fp:4405f1197bc7": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "irrelevant"
+ },
+ "e1d1b2ec0c046d29": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "irrelevant"
+ },
+ "fp:6e1b214e286a": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "irrelevant"
+ },
+ "a7ce97345ae92e33": {
+  "first_seen": "2026-10-16T18:23:34Z",
+  "outcome": "event",
+  "event_id": "ev_34c447f2b13e"
  }
 }

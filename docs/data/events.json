@@ -432,7 +432,7 @@
    }
   ],
   "best_tier": 3,
-  "score": 54.0,
+  "score": 53.9,
   "age_days": 0.4,
   "score_parts": {
    "materiality": 2,
@@ -719,7 +719,7 @@
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.95,
+   "recency": 0.94,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -981,7 +981,7 @@
   ],
   "best_tier": 3,
   "score": 71.4,
-  "age_days": 1.5,
+  "age_days": 1.6,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
@@ -1033,7 +1033,7 @@
    }
   ],
   "best_tier": 2,
-  "score": 52.7,
+  "score": 52.6,
   "age_days": 1.9,
   "score_parts": {
    "materiality": 2,
@@ -1562,7 +1562,7 @@
    "materiality": 4,
    "priority": 0.7,
    "tier": 2,
-   "recency": 0.74,
+   "recency": 0.73,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -5437,6 +5437,63 @@
    "tier": 3,
    "recency": 0.5,
    "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_34c447f2b13e": {
+  "id": "ev_34c447f2b13e",
+  "title": "Surcharges Stack Up in the Most Expensive Parcel Shipping Year on Record",
+  "url": "https://wwd.com/sourcing-journal/logistics/parcel-shipping-costs-peak-holiday-season-surcharges-afs-cowen-jb-hunt-earnings-1239364780/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.5,
+  "summary": "TD Cowen and AFS project record parcel shipping costs with higher ground rates and escalated surcharges.",
+  "evidence_quote": "Surcharges Stack Up in the Most Expensive Parcel Shipping Year on Record",
+  "companies": [
+   "TD Cowen",
+   "AFS"
+  ],
+  "implication": "Higher shipping rates indicate strong parcel volumes, which can lead to increased fleet utilization and higher exposure for last-mile fleets insured by Nirvana.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T07:02:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T18:23:34Z",
+  "first_run": "2026-10-16T18-23-34Z",
+  "last_seen": "2026-10-16T18:23:34Z",
+  "last_updated_run": "2026-10-16T18-23-34Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "34c447f2b13e"
+  ],
+  "sources": [
+   {
+    "url": "https://wwd.com/sourcing-journal/logistics/parcel-shipping-costs-peak-holiday-season-surcharges-afs-cowen-jb-hunt-earnings-1239364780/",
+    "publisher": "Women's Wear Daily",
+    "publisher_key": "women's wear daily",
+    "published": "2026-10-16T07:02:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "parcel delivery volumes"
+   }
+  ],
+  "best_tier": 3,
+  "score": 52.8,
+  "age_days": 0.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.95,
+   "last_mile_fit": 0.5
   },
   "verification": "Reported",
   "confidence": "Low",
