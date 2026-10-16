@@ -1,0 +1,307 @@
+{
+ "Carrier Logistics": {
+  "name": "Carrier Logistics",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_90f386f75844"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "LSP44": {
+  "name": "LSP44",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_90f386f75844"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "TD Cowen": {
+  "name": "TD Cowen",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_84c67041ebee"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "AFS": {
+  "name": "AFS",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_84c67041ebee"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "PetSmart": {
+  "name": "PetSmart",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_6878df304172"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Petco": {
+  "name": "Petco",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_6878df304172"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Petsense": {
+  "name": "Petsense",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_6878df304172"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Chewy": {
+  "name": "Chewy",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_6878df304172"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Emergency Safety Solutions": {
+  "name": "Emergency Safety Solutions",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_24e5bfa83596"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "The Travelers Companies, Inc.": {
+  "name": "The Travelers Companies, Inc.",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f93dc49f4344"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Travelers Companies": {
+  "name": "Travelers Companies",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_b3740a1feb5c",
+   "ev_e853663a6ff8"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "VeloHub": {
+  "name": "VeloHub",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_66d1357eda50"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "BattSwap": {
+  "name": "BattSwap",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_66d1357eda50"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Tata Motors": {
+  "name": "Tata Motors",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_943361f56e95"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Elite Express Holding Inc.": {
+  "name": "Elite Express Holding Inc.",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_714d54f66761"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "The Progressive Corporation": {
+  "name": "The Progressive Corporation",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_7eafcd491076",
+   "ev_48b0254d66e4"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "nuVizz": {
+  "name": "nuVizz",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_2be1d97b03f1"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Hala Mobility": {
+  "name": "Hala Mobility",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_4565a958b697"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Novacore": {
+  "name": "Novacore",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_d33f8cc3b4cc",
+   "ev_3d94751de6c4"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Diesel Insurance Solutions": {
+  "name": "Diesel Insurance Solutions",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d33f8cc3b4cc"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Diesel Insurance Solutions Inc.": {
+  "name": "Diesel Insurance Solutions Inc.",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3d94751de6c4"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Tesla": {
+  "name": "Tesla",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f555e967d765"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Arrive AI": {
+  "name": "Arrive AI",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_a08e2427dc3e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Rivo": {
+  "name": "Rivo",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_a08e2427dc3e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Progressive Corp": {
+  "name": "Progressive Corp",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3c6a4f64f617"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Federal Motor Carrier Safety Administration": {
+  "name": "Federal Motor Carrier Safety Administration",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 3,
+  "event_ids": [
+   "ev_67efbd9e7dd0",
+   "ev_9417655b9c53",
+   "ev_f621901d9ccf"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Federation of Professional Truckers": {
+  "name": "Federation of Professional Truckers",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_67efbd9e7dd0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Cleveland-Cliffs Steel LLC": {
+  "name": "Cleveland-Cliffs Steel LLC",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9417655b9c53"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Pipeline and Hazardous Materials Safety Administration": {
+  "name": "Pipeline and Hazardous Materials Safety Administration",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_248753208306"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ },
+ "Bureau of Alcohol, Tobacco, Firearms, and Explosives": {
+  "name": "Bureau of Alcohol, Tobacco, Firearms, and Explosives",
+  "first_seen": "2026-10-16T17:40:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b028741dacd3"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-16T17:40:26Z"
+ }
+}

@@ -1,0 +1,2260 @@
+{
+ "ev_90f386f75844": {
+  "id": "ev_90f386f75844",
+  "title": "Carrier Logistics, LSP44 announce partnership to automate LTL shipment identification",
+  "url": "https://www.freightwaves.com/news/carrier-logistics-lsp44-announce-partnership-to-automate-ltl-shipment-identification",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 1,
+  "last_mile_fit": 0.2,
+  "summary": "Carrier Logistics and LSP44 launched an API to automate LTL shipment identification when tracking numbers are missing or incorrect.",
+  "evidence_quote": "Carrier Logistics, LSP44 announce partnership to automate LTL shipment identification",
+  "companies": [
+   "Carrier Logistics",
+   "LSP44"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T16:08:59Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": null,
+  "fingerprints": [
+   "90f386f75844"
+  ],
+  "sources": [
+   {
+    "url": "https://www.freightwaves.com/news/carrier-logistics-lsp44-announce-partnership-to-automate-ltl-shipment-identification",
+    "publisher": "FreightWaves",
+    "publisher_key": "freightwaves",
+    "published": "2026-10-16T16:08:59Z",
+    "tier": 2,
+    "source_id": "freightwaves",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 46.2,
+  "age_days": 0.1,
+  "score_parts": {
+   "materiality": 1,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.99,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_ae5d9c6ace83": {
+  "id": "ev_ae5d9c6ace83",
+  "title": "Larger UPS air hub in Philippines boosts Asia service levels",
+  "url": "https://www.freightwaves.com/news/larger-ups-air-hub-in-philippines-boosts-asia-service-levels",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.4,
+  "summary": "UPS opened a larger air cargo and package terminal in the Philippines to enhance its Asian global network connectivity.",
+  "evidence_quote": "Larger UPS air hub in Philippines boosts Asia service levels",
+  "companies": [
+   "UPS"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T14:52:48Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": null,
+  "fingerprints": [
+   "ae5d9c6ace83"
+  ],
+  "sources": [
+   {
+    "url": "https://www.freightwaves.com/news/larger-ups-air-hub-in-philippines-boosts-asia-service-levels",
+    "publisher": "FreightWaves",
+    "publisher_key": "freightwaves",
+    "published": "2026-10-16T14:52:48Z",
+    "tier": 2,
+    "source_id": "freightwaves",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 56.1,
+  "age_days": 0.1,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.99,
+   "last_mile_fit": 0.4
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_84c67041ebee": {
+  "id": "ev_84c67041ebee",
+  "title": "FedEx, UPS delivery prices set for record-high Q4: TD Cowen/AFS",
+  "url": "https://www.supplychaindive.com/news/fedex-ups-delivery-prices-set-for-record-high-q4-td-cowenafs/832992/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.8,
+  "summary": "FedEx and UPS are heading toward record-high delivery prices for Q4 as peak season surcharges offset temporary Q3 discounting relief.",
+  "evidence_quote": "FedEx, UPS delivery prices set for record-high Q4: TD Cowen/AFS",
+  "companies": [
+   "FedEx",
+   "UPS",
+   "TD Cowen",
+   "AFS"
+  ],
+  "implication": "Higher carrier pricing power and volumes improve last-mile fleet revenues, supporting stronger fleet balance sheets for insurance premium payments. Context only.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T13:31:02Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": null,
+  "fingerprints": [
+   "84c67041ebee"
+  ],
+  "sources": [
+   {
+    "url": "https://www.supplychaindive.com/news/fedex-ups-delivery-prices-set-for-record-high-q4-td-cowenafs/832992/",
+    "publisher": "Supply Chain Dive",
+    "publisher_key": "supply chain dive",
+    "published": "2026-10-16T13:31:02Z",
+    "tier": 2,
+    "source_id": "supplychaindive",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 68.0,
+  "age_days": 0.2,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.98,
+   "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_6d3a1d483d5f": {
+  "id": "ev_6d3a1d483d5f",
+  "title": "New Long Beach record as volume nears 1M containers",
+  "url": "https://www.freightwaves.com/news/new-long-beach-record-as-volume-nears-1m-containers",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "The Port of Long Beach reported an all-time monthly cargo record in September as shippers managed diesel costs.",
+  "evidence_quote": "New Long Beach record as volume nears 1M containers",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T13:09:32Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": null,
+  "fingerprints": [
+   "6d3a1d483d5f"
+  ],
+  "sources": [
+   {
+    "url": "https://www.freightwaves.com/news/new-long-beach-record-as-volume-nears-1m-containers",
+    "publisher": "FreightWaves",
+    "publisher_key": "freightwaves",
+    "published": "2026-10-16T13:09:32Z",
+    "tier": 2,
+    "source_id": "freightwaves",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 55.0,
+  "age_days": 0.2,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.98,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_6878df304172": {
+  "id": "ev_6878df304172",
+  "title": "Pet store chain closures grow, as PetSmart shutters locations",
+  "url": "https://finance.yahoo.com/small-business/articles/pet-store-chain-closures-grow-171700132.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.6,
+  "summary": "Brick-and-mortar pet store closures grow as online competitors like Chewy and Amazon take market share.",
+  "evidence_quote": "Pet store chain closures grow, as PetSmart shutters locations",
+  "companies": [
+   "PetSmart",
+   "Petco",
+   "Petsense",
+   "Chewy",
+   "Amazon"
+  ],
+  "implication": "Shift to e-commerce retail increases parcel and last-mile delivery volumes, expanding the addressable fleet market. Context only.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T10:17:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "6878df304172"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/small-business/articles/pet-store-chain-closures-grow-171700132.html",
+    "publisher": "Yahoo Finance",
+    "publisher_key": "yahoo finance",
+    "published": "2026-10-16T10:17:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"tort reform\" trucking OR delivery"
+   }
+  ],
+  "best_tier": 3,
+  "score": 54.0,
+  "age_days": 0.3,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.97,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_24e5bfa83596": {
+  "id": "ev_24e5bfa83596",
+  "title": "ESS brings hazard lights into the connected age",
+  "url": "https://www.trucknews.com/health-safety/ess-brings-hazard-lights-into-the-connected-age/1003223442/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.7,
+  "summary": "Emergency Safety Solutions combines enhanced warning lights with digital alerts to warn drivers of stopped trucks.",
+  "evidence_quote": "ESS brings hazard lights into the connected age",
+  "companies": [
+   "Emergency Safety Solutions"
+  ],
+  "implication": "Connected safety hardware reduces rear-end collision risks for delivery box trucks, aligning with Nirvana's telematics risk-mitigation focus. Context only.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T10:06:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "24e5bfa83596"
+  ],
+  "sources": [
+   {
+    "url": "https://www.trucknews.com/health-safety/ess-brings-hazard-lights-into-the-connected-age/1003223442/",
+    "publisher": "Truck News",
+    "publisher_key": "truck news",
+    "published": "2026-10-16T10:06:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 63.0,
+  "age_days": 0.3,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.97,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_f93dc49f4344": {
+  "id": "ev_f93dc49f4344",
+  "title": "The Travelers Companies, Inc. Q3 2026 Earnings Call Summary",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/travelers-companies-inc-q3-2026-164854073.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Travelers Companies projected robust 2027 fixed income net investment income and outlined expense forecasts during its Q3 earnings call.",
+  "evidence_quote": "The Travelers Companies, Inc. Q3 2026 Earnings Call Summary",
+  "companies": [
+   "The Travelers Companies, Inc."
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T09:48:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "f93dc49f4344"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/travelers-companies-inc-q3-2026-164854073.html",
+    "publisher": "Yahoo Finance",
+    "publisher_key": "yahoo finance",
+    "published": "2026-10-16T09:48:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 50.0,
+  "age_days": 0.3,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.97,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_3918da8b1ae8": {
+  "id": "ev_3918da8b1ae8",
+  "title": "USPS warns some mail deliveries could be delayed: What customers should know",
+  "url": "https://www.yahoo.com/news/weather-news/articles/usps-warns-mail-deliveries-could-161826985.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.6,
+  "summary": "USPS warns customers that weather and other disruptions are causing delivery delays across multiple locations.",
+  "evidence_quote": "USPS warns some mail deliveries could be delayed",
+  "companies": [
+   "USPS"
+  ],
+  "implication": "Operational headwinds for carriers can stress delivery timelines, though commercial parcel volumes generally reroute. Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T09:18:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "3918da8b1ae8"
+  ],
+  "sources": [
+   {
+    "url": "https://www.yahoo.com/news/weather-news/articles/usps-warns-mail-deliveries-could-161826985.html",
+    "publisher": "Yahoo",
+    "publisher_key": "yahoo",
+    "published": "2026-10-16T09:18:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"tort reform\" trucking OR delivery"
+   }
+  ],
+  "best_tier": 3,
+  "score": 54.0,
+  "age_days": 0.3,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.97,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_b3740a1feb5c": {
+  "id": "ev_b3740a1feb5c",
+  "title": "What Travelers Companies (TRV) Said on Its Q3 Earnings Call",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/travelers-companies-trv-said-q3-160309517.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Travelers Companies reported strong Q3 2026 core income driven by underwriting profitability and investment returns.",
+  "evidence_quote": "What Travelers Companies (TRV) Said on Its Q3 Earnings Call",
+  "companies": [
+   "Travelers Companies"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T09:03:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "b3740a1feb5c"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/travelers-companies-trv-said-q3-160309517.html",
+    "publisher": "Yahoo Finance",
+    "publisher_key": "yahoo finance",
+    "published": "2026-10-16T09:03:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 50.0,
+  "age_days": 0.4,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.97,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_66d1357eda50": {
+  "id": "ev_66d1357eda50",
+  "title": "How battery-swapping is targeting Poland’s electric delivery fleet bottleneck",
+  "url": "https://zagdaily.com/featured/how-battery-swapping-is-targeting-polands-electric-delivery-fleet-bottleneck/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.7,
+  "summary": "VeloHub and BattSwap partner to introduce automated battery swapping to address electric delivery fleet bottlenecks in Poland.",
+  "evidence_quote": "How battery-swapping is targeting Poland’s electric delivery fleet bottleneck",
+  "companies": [
+   "VeloHub",
+   "BattSwap"
+  ],
+  "implication": "EV adoption and uptime innovations affect fleet maintenance and risk profiles for last-mile fleets adopting electric vans. Context only.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T08:47:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "research",
+  "fingerprints": [
+   "66d1357eda50"
+  ],
+  "sources": [
+   {
+    "url": "https://zagdaily.com/featured/how-battery-swapping-is-targeting-polands-electric-delivery-fleet-bottleneck/",
+    "publisher": "Zag Daily",
+    "publisher_key": "zag daily",
+    "published": "2026-10-16T08:47:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
+   }
+  ],
+  "best_tier": 3,
+  "score": 63.0,
+  "age_days": 0.4,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.96,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_e853663a6ff8": {
+  "id": "ev_e853663a6ff8",
+  "title": "Earnings call transcript: Travelers tops Q3 2026 estimates on strong underwriting",
+  "url": "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-travelers-tops-q3-2026-estimates-on-strong-underwriting-93CH-2740819",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Travelers Companies beat Q3 estimates on strong underwriting results and higher investment income.",
+  "evidence_quote": "Earnings call transcript: Travelers tops Q3 2026 estimates on strong underwriting",
+  "companies": [
+   "Travelers Companies"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T08:16:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "e853663a6ff8"
+  ],
+  "sources": [
+   {
+    "url": "https://ng.investing.com/news/stock-market-news/earnings-call-transcript-travelers-tops-q3-2026-estimates-on-strong-underwriting-93CH-2740819",
+    "publisher": "Investing.com Nigeria",
+    "publisher_key": "investing.com nigeria",
+    "published": "2026-10-16T08:16:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 49.9,
+  "age_days": 0.4,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.96,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_a19b6253d460": {
+  "id": "ev_a19b6253d460",
+  "title": "When the Trailer Starts Talking: Getting More From Cargo Cameras",
+  "url": "https://www.fleetequipmentmag.com/getting-more-from-cargo-cameras/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.7,
+  "summary": "Fleet equipment publication explores how cargo cameras help fleets monitor load shifts, utilization, and claims.",
+  "evidence_quote": "When the Trailer Starts Talking: Getting More From Cargo Cameras",
+  "companies": [],
+  "implication": "Increased adoption of cargo and telematics cameras improves risk visibility and claims validation for commercial delivery fleets, supporting Nirvana's underwriting model. Context only.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T05:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "discovery",
+  "fingerprints": [
+   "a19b6253d460"
+  ],
+  "sources": [
+   {
+    "url": "https://www.fleetequipmentmag.com/getting-more-from-cargo-cameras/",
+    "publisher": "Fleet Equipment Magazine",
+    "publisher_key": "fleet equipment magazine",
+    "published": "2026-10-16T05:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"last-mile delivery\" insurance"
+   }
+  ],
+  "best_tier": 3,
+  "score": 62.7,
+  "age_days": 0.5,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.95,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_41fe429d19ee": {
+  "id": "ev_41fe429d19ee",
+  "title": "Romania Blames Russia for Escalating Black Sea Ship Strikes",
+  "url": "https://www.insurancejournal.com/news/international/2026/10/16/889159.htm",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 2,
+  "last_mile_fit": 0.1,
+  "summary": "Romania blamed Russia for escalating drone strikes targeting commercial cargo vessels in the Black Sea.",
+  "evidence_quote": "Romania Blames Russia for Escalating Black Sea Ship Strikes",
+  "companies": [],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T04:40:21Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": null,
+  "fingerprints": [
+   "41fe429d19ee"
+  ],
+  "sources": [
+   {
+    "url": "https://www.insurancejournal.com/news/international/2026/10/16/889159.htm",
+    "publisher": "Insurance Journal",
+    "publisher_key": "insurance journal",
+    "published": "2026-10-16T04:40:21Z",
+    "tier": 2,
+    "source_id": "insurancejournal",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 52.5,
+  "age_days": 0.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.95,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_943361f56e95": {
+  "id": "ev_943361f56e95",
+  "title": "Tata Motors PV vs CV: One Year After the Demerger, Which Has Performed Better and Which Offers a Better Investment Case Today?",
+  "url": "https://tradebrains.in/premium/tata-motors-pv-vs-cv-one-year-after-the-demerger-which-has-performed-better-and-which-offers-a-better-investment-case-today-12680775",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "One year after Tata Motors' demerger, the commercial vehicle division leads in share performance and profitability.",
+  "evidence_quote": "Tata Motors PV vs CV: One Year After the Demerger",
+  "companies": [
+   "Tata Motors"
+  ],
+  "implication": "Context only.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-16T04:33:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "discovery",
+  "fingerprints": [
+   "943361f56e95"
+  ],
+  "sources": [
+   {
+    "url": "https://tradebrains.in/premium/tata-motors-pv-vs-cv-one-year-after-the-demerger-which-has-performed-better-and-which-offers-a-better-investment-case-today-12680775",
+    "publisher": "Trade Brains",
+    "publisher_key": "trade brains",
+    "published": "2026-10-16T04:33:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"last-mile delivery\" insurance"
+   }
+  ],
+  "best_tier": 3,
+  "score": 50.7,
+  "age_days": 0.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.95,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_c994fc40efd6": {
+  "id": "ev_c994fc40efd6",
+  "title": "ServiceOntario not meeting French-language service needs, ombudsman report says",
+  "url": "https://www.cbc.ca/news/canada/toronto/ombudsman-report-french-language-service-ontario-9.7382620",
+  "lane": "research",
+  "event_type": "leadership",
+  "direction": "neutral",
+  "materiality": 3,
+  "last_mile_fit": 0.6,
+  "summary": "ServiceOntario not meeting French-language service needs, ombudsman report says",
+  "evidence_quote": "ServiceOntario not meeting French-language service needs, ombudsman report says",
+  "companies": [],
+  "implication": "Third-party data point; check against Nirvana's sizing and loss assumptions.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-16T02:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "rules-fallback",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "c994fc40efd6"
+  ],
+  "sources": [
+   {
+    "url": "https://www.cbc.ca/news/canada/toronto/ombudsman-report-french-language-service-ontario-9.7382620",
+    "publisher": "CBC.ca",
+    "publisher_key": "cbc.ca",
+    "published": "2026-10-16T02:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"tort reform\" trucking OR delivery"
+   }
+  ],
+  "best_tier": 3,
+  "score": 61.6,
+  "age_days": 0.7,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.94,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source, rules classifier (no AI)"
+ },
+ "ev_696e896903a0": {
+  "id": "ev_696e896903a0",
+  "title": "Is Your Trailer Leasing EXPOSURE Covered?",
+  "url": "https://www.freightwaves.com/news/is-your-trailer-leasing-exposure-covered",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 3,
+  "last_mile_fit": 0.3,
+  "summary": "Is Your Trailer Leasing EXPOSURE Covered?",
+  "evidence_quote": "Is Your Trailer Leasing EXPOSURE Covered?",
+  "companies": [],
+  "implication": "Affects loss costs or demand in last-mile commercial auto; feed into pricing assumptions.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T20:16:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "rules-fallback",
+  "lane_hint": null,
+  "fingerprints": [
+   "696e896903a0"
+  ],
+  "sources": [
+   {
+    "url": "https://www.freightwaves.com/news/is-your-trailer-leasing-exposure-covered",
+    "publisher": "FreightWaves",
+    "publisher_key": "freightwaves",
+    "published": "2026-10-15T20:16:00Z",
+    "tier": 2,
+    "source_id": "freightwaves",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 62.0,
+  "age_days": 0.9,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.92,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "trade press, single source, rules classifier (no AI)"
+ },
+ "ev_2379a076f4bf": {
+  "id": "ev_2379a076f4bf",
+  "title": "Opinion: How politics and policy are rewriting the rules of parcel delivery",
+  "url": "https://www.freightwaves.com/news/opinion-how-politics-and-policy-are-rewriting-the-rules-of-parcel-delivery",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 3,
+  "last_mile_fit": 0.6,
+  "summary": "Opinion: How politics and policy are rewriting the rules of parcel delivery",
+  "evidence_quote": "Opinion: How politics and policy are rewriting the rules of parcel delivery",
+  "companies": [],
+  "implication": "Regulatory or macro change; check impact on limits, loss costs or target states.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T13:59:56Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "rules-fallback",
+  "lane_hint": null,
+  "fingerprints": [
+   "2379a076f4bf"
+  ],
+  "sources": [
+   {
+    "url": "https://www.freightwaves.com/news/opinion-how-politics-and-policy-are-rewriting-the-rules-of-parcel-delivery",
+    "publisher": "FreightWaves",
+    "publisher_key": "freightwaves",
+    "published": "2026-10-15T13:59:56Z",
+    "tier": 2,
+    "source_id": "freightwaves",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 64.6,
+  "age_days": 1.2,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.89,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "trade press, single source, rules classifier (no AI)"
+ },
+ "ev_443eaad1db9e": {
+  "id": "ev_443eaad1db9e",
+  "title": "Costs up 11%, rates up 5%: FarEye’s Suryansh Jalan on the hidden “inefficiency tax” in Europe’s last mile [INTERVIEW]",
+  "url": "https://trans.info/en/last-mile-leaders-europe-inefficiency-tax-interview-508926",
+  "lane": "market_driver",
+  "event_type": "leadership",
+  "direction": "headwind",
+  "materiality": 4,
+  "last_mile_fit": 0.9,
+  "summary": "Costs up 11%, rates up 5%: FarEye’s Suryansh Jalan on the hidden “inefficiency tax” in Europe’s last mile [INTERVIEW]",
+  "evidence_quote": "Costs up 11%, rates up 5%: FarEye’s Suryansh Jalan on the hidden “inefficiency tax” in Europe’s last mile [INTERVIEW]",
+  "companies": [],
+  "implication": "Affects loss costs or demand in last-mile commercial auto; feed into pricing assumptions.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-15T05:08:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "rules-fallback",
+  "lane_hint": "research",
+  "fingerprints": [
+   "443eaad1db9e"
+  ],
+  "sources": [
+   {
+    "url": "https://trans.info/en/last-mile-leaders-europe-inefficiency-tax-interview-508926",
+    "publisher": "trans.info",
+    "publisher_key": "trans.info",
+    "published": "2026-10-15T05:08:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
+   }
+  ],
+  "best_tier": 3,
+  "score": 71.4,
+  "age_days": 1.5,
+  "score_parts": {
+   "materiality": 4,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.86,
+   "last_mile_fit": 0.9
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source, rules classifier (no AI)"
+ },
+ "ev_6795de1170e0": {
+  "id": "ev_6795de1170e0",
+  "title": "English language rule’s comments bring criticism from Sikh organization",
+  "url": "https://www.freightwaves.com/news/english-language-rules-comments-bring-criticism-from-sikh-organization",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.3,
+  "summary": "The Sikh Coalition opposed the FMCSA's proposed English language rule for commercial drivers.",
+  "evidence_quote": "The Sikh Coalition was one of the louder voices in opposition to FMCSA’s English language proposed rule.",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T20:13:47Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": null,
+  "fingerprints": [
+   "6795de1170e0"
+  ],
+  "sources": [
+   {
+    "url": "https://www.freightwaves.com/news/english-language-rules-comments-bring-criticism-from-sikh-organization",
+    "publisher": "FreightWaves",
+    "publisher_key": "freightwaves",
+    "published": "2026-10-14T20:13:47Z",
+    "tier": 2,
+    "source_id": "freightwaves",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 52.7,
+  "age_days": 1.9,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.83,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_714d54f66761": {
+  "id": "ev_714d54f66761",
+  "title": "Elite Express Holding Inc. Reports Third Quarter 2026 Results",
+  "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/elite-express-holding-inc-reports-third-quarter-2026-results/2446020",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.7,
+  "summary": "California-based last-mile provider Elite Express Holding reported third quarter 2026 financial results.",
+  "evidence_quote": "Elite Express Holding Inc. ('ETS” or the 'Company”) (Nasdaq: ETS), a California-based provider of last-mile delivery services, today reported results",
+  "companies": [
+   "Elite Express Holding Inc."
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T17:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "research",
+  "fingerprints": [
+   "714d54f66761"
+  ],
+  "sources": [
+   {
+    "url": "https://www.manilatimes.net/2026/10/15/tmt-newswire/globenewswire/elite-express-holding-inc-reports-third-quarter-2026-results/2446020",
+    "publisher": "The Manila Times",
+    "publisher_key": "the manila times",
+    "published": "2026-10-14T17:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
+   }
+  ],
+  "best_tier": 3,
+  "score": 52.8,
+  "age_days": 2.0,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.82,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_1232fe9c7ae3": {
+  "id": "ev_1232fe9c7ae3",
+  "title": "Is UPS parcel pivot a strategic winner or a ‘Trojan horse’?",
+  "url": "https://www.freightwaves.com/news/is-ups-parcel-pivot-a-strategic-winner-or-a-trojan-horse",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.6,
+  "summary": "UPS is prioritizing premium parcel service over sheer volume ahead of potential union labor disruptions.",
+  "evidence_quote": "UPS is focusing on premium service over parcel volume with a potential Teamsters union strike on the horizon.",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T13:23:59Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": null,
+  "fingerprints": [
+   "1232fe9c7ae3"
+  ],
+  "sources": [
+   {
+    "url": "https://www.freightwaves.com/news/is-ups-parcel-pivot-a-strategic-winner-or-a-trojan-horse",
+    "publisher": "FreightWaves",
+    "publisher_key": "freightwaves",
+    "published": "2026-10-14T13:23:59Z",
+    "tier": 2,
+    "source_id": "freightwaves",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 63.3,
+  "age_days": 2.2,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.81,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_f5bfb100fa2d": {
+  "id": "ev_f5bfb100fa2d",
+  "title": "Parcel shipping costs approach record high as extra charges stack up",
+  "url": "https://www.freightwaves.com/news/parcel-shipping-costs-approach-record-high-as-extra-charges-stack-up",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.7,
+  "summary": "Parcel carriers FedEx and UPS have increasingly relied on extra surcharges to drive profit margins.",
+  "evidence_quote": "FedEx and UPS have turned surcharges into a profit center rather than a pass-through mechanism",
+  "companies": [
+   "FedEx",
+   "UPS"
+  ],
+  "implication": "Higher carrier surcharges improve delivery fleet revenues, increasing their ability to afford comprehensive telematics-based commercial auto insurance.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-14T12:33:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": null,
+  "fingerprints": [
+   "f5bfb100fa2d"
+  ],
+  "sources": [
+   {
+    "url": "https://www.freightwaves.com/news/parcel-shipping-costs-approach-record-high-as-extra-charges-stack-up",
+    "publisher": "FreightWaves",
+    "publisher_key": "freightwaves",
+    "published": "2026-10-14T12:33:00Z",
+    "tier": 2,
+    "source_id": "freightwaves",
+    "query": null
+   }
+  ],
+  "best_tier": 2,
+  "score": 64.3,
+  "age_days": 2.2,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 2,
+   "recency": 0.8,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_7eafcd491076": {
+  "id": "ev_7eafcd491076",
+  "title": "Why Did Progressive (NYSE:PGR) Shares Drop After Its Latest Results?",
+  "url": "https://kalkinemedia.com/us/stocks/financial/why-did-progressive-nysepgr-shares-drop-after-its-latest-results",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Progressive shares dropped as softer earnings and investment losses offset revenue growth.",
+  "evidence_quote": "The Progressive Corporation (NYSE:PGR) gapped lower as softer earnings and investment losses overshadowed a revenue beat.",
+  "companies": [
+   "The Progressive Corporation"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T10:50:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "7eafcd491076"
+  ],
+  "sources": [
+   {
+    "url": "https://kalkinemedia.com/us/stocks/financial/why-did-progressive-nysepgr-shares-drop-after-its-latest-results",
+    "publisher": "Kalkine Media",
+    "publisher_key": "kalkine media",
+    "published": "2026-10-14T10:50:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Progressive \"commercial auto\""
+   }
+  ],
+  "best_tier": 3,
+  "score": 45.5,
+  "age_days": 2.3,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.8,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_2be1d97b03f1": {
+  "id": "ev_2be1d97b03f1",
+  "title": "Orchestrating Last-Mile Operations at Scale: Nucleus Research Names nuVizz an Accelerator in the 2026 TMS Value Matrix",
+  "url": "https://finance.yahoo.com/technology/articles/orchestrating-last-mile-operations-scale-140000865.html",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.6,
+  "summary": "Nucleus Research named nuVizz as an accelerator in the 2026 TMS Value Matrix for last-mile operations.",
+  "evidence_quote": "Orchestrating Last-Mile Operations at Scale: Nucleus Research Names nuVizz an Accelerator in the 2026 TMS Value Matrix",
+  "companies": [
+   "nuVizz"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T07:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "research",
+  "fingerprints": [
+   "2be1d97b03f1"
+  ],
+  "sources": [
+   {
+    "url": "https://finance.yahoo.com/technology/articles/orchestrating-last-mile-operations-scale-140000865.html",
+    "publisher": "Yahoo Finance",
+    "publisher_key": "yahoo finance",
+    "published": "2026-10-14T07:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
+   }
+  ],
+  "best_tier": 3,
+  "score": 51.3,
+  "age_days": 2.4,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.78,
+   "last_mile_fit": 0.6
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_48b0254d66e4": {
+  "id": "ev_48b0254d66e4",
+  "title": "Progressive Reports September 2026 Results",
+  "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/progressive-reports-september-2026-results/2445572",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Progressive reported financial results for the month and quarter ended September 30, 2026.",
+  "evidence_quote": "The Progressive Corporation (NYSE:PGR) today reported the following results for the month and quarter",
+  "companies": [
+   "The Progressive Corporation"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-14T05:37:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "48b0254d66e4"
+  ],
+  "sources": [
+   {
+    "url": "https://www.manilatimes.net/2026/10/14/tmt-newswire/globenewswire/progressive-reports-september-2026-results/2445572",
+    "publisher": "The Manila Times",
+    "publisher_key": "the manila times",
+    "published": "2026-10-14T05:37:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Progressive \"commercial auto\""
+   }
+  ],
+  "best_tier": 3,
+  "score": 45.2,
+  "age_days": 2.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.78,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_23a4bd778c72": {
+  "id": "ev_23a4bd778c72",
+  "title": "The drone market is projected to reach USD 12.44 billion in 2025 and USD 41.89 billion by 2036, with a compound annual growth rate (CAGR) of 11.67% during the forecast period ...",
+  "url": "https://note.com/ready_ruff6869/n/na8fdf531e3e1?hl=en",
+  "lane": "research",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.4,
+  "summary": "The global drone market is projected to reach $41.89 billion by 2036, expanding at an 11.67% CAGR.",
+  "evidence_quote": "The drone market is projected to reach USD 12.44 billion in 2025 and USD 41.89 billion by 2036",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-13T21:19:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "research",
+  "fingerprints": [
+   "23a4bd778c72"
+  ],
+  "sources": [
+   {
+    "url": "https://note.com/ready_ruff6869/n/na8fdf531e3e1?hl=en",
+    "publisher": "note",
+    "publisher_key": "note",
+    "published": "2026-10-13T21:19:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
+   }
+  ],
+  "best_tier": 3,
+  "score": 48.8,
+  "age_days": 2.8,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.75,
+   "last_mile_fit": 0.4
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_4565a958b697": {
+  "id": "ev_4565a958b697",
+  "title": "Hala Mobility Introduces Battery Swapping and Insurance for Gig Workers",
+  "url": "https://www.autocarpro.in/news/hala-mobility-introduces-battery-swapping-and-insurance-for-gig-workers-135225",
+  "lane": "competitor_move",
+  "event_type": "product_launch",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.8,
+  "summary": "Hala Mobility launched a gig worker ecosystem featuring integrated daily micro-insurance and battery swapping.",
+  "evidence_quote": "Hala Mobility Introduces Battery Swapping and Insurance for Gig Workers",
+  "companies": [
+   "Hala Mobility"
+  ],
+  "implication": "Highlights growing market demand for embedded gig delivery insurance; validates bundled EV fleet services as a competitive vector.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-13T17:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "discovery",
+  "fingerprints": [
+   "4565a958b697"
+  ],
+  "sources": [
+   {
+    "url": "https://www.autocarpro.in/news/hala-mobility-introduces-battery-swapping-and-insurance-for-gig-workers-135225",
+    "publisher": "Autocar Professional",
+    "publisher_key": "autocar professional",
+    "published": "2026-10-13T17:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"last-mile delivery\" insurance"
+   }
+  ],
+  "best_tier": 3,
+  "score": 58.6,
+  "age_days": 3.0,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.74,
+   "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_d33f8cc3b4cc": {
+  "id": "ev_d33f8cc3b4cc",
+  "title": "Novacore agrees to buy Diesel Insurance Solutions to add cross-border trucking cover",
+  "url": "https://www.insurancebusinessmag.com/us/news/auto-motor/novacore-agrees-to-buy-diesel-insurance-solutions-to-add-crossborder-trucking-cover-593408.aspx",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 4,
+  "last_mile_fit": 0.3,
+  "summary": "Specialty insurance platform Novacore agreed to acquire Diesel Insurance Solutions, a California MGU.",
+  "evidence_quote": "Novacore agrees to buy Diesel Insurance Solutions to add cross-border trucking cover",
+  "companies": [
+   "Novacore",
+   "Diesel Insurance Solutions",
+   "Cover Whale"
+  ],
+  "implication": "Competitor consolidation in specialty transportation distribution increases competition for broker-backed commercial auto business.",
+  "action": "watch",
+  "watchlist_companies": [
+   "Cover Whale"
+  ],
+  "published": "2026-10-13T15:42:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "d33f8cc3b4cc"
+  ],
+  "sources": [
+   {
+    "url": "https://www.insurancebusinessmag.com/us/news/auto-motor/novacore-agrees-to-buy-diesel-insurance-solutions-to-add-crossborder-trucking-cover-593408.aspx",
+    "publisher": "Insurance Business America",
+    "publisher_key": "insurance business america",
+    "published": "2026-10-13T15:42:00Z",
+    "tier": 2,
+    "source_id": "bing_news",
+    "query": "\"Cover Whale\""
+   }
+  ],
+  "best_tier": 2,
+  "score": 71.3,
+  "age_days": 3.1,
+  "score_parts": {
+   "materiality": 4,
+   "priority": 0.7,
+   "tier": 2,
+   "recency": 0.74,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Medium",
+  "confidence_reason": "trade press, single source"
+ },
+ "ev_3d94751de6c4": {
+  "id": "ev_3d94751de6c4",
+  "title": "Novacore to Acquire Diesel Insurance Solutions, Expanding Cross-Border Trucking Insurance Business",
+  "url": "https://www.citybiz.co/article/917990/novacore-to-acquire-diesel-insurance-solutions-expanding-cross-border-trucking-insurance-business/",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 4,
+  "last_mile_fit": 0.3,
+  "summary": "Novacore announced its definitive agreement to acquire Diesel Insurance Solutions to expand specialty trucking coverage.",
+  "evidence_quote": "Novacore to Acquire Diesel Insurance Solutions, Expanding Cross-Border Trucking Insurance Business",
+  "companies": [
+   "Novacore",
+   "Diesel Insurance Solutions Inc."
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-13T12:31:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "3d94751de6c4",
+   "4234b7453bc9"
+  ],
+  "sources": [
+   {
+    "url": "https://www.citybiz.co/article/917990/novacore-to-acquire-diesel-insurance-solutions-expanding-cross-border-trucking-insurance-business/",
+    "publisher": "citybiz",
+    "publisher_key": "citybiz",
+    "published": "2026-10-13T12:31:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"Asero\" insurance transportation"
+   },
+   {
+    "url": "https://www.trucknews.com/transportation/novacore-to-acquire-diesel-insurance-solutions-expand-cross-border-trucking-coverage/1003223131/",
+    "publisher": "Truck News",
+    "publisher_key": "truck news",
+    "published": "2026-10-13T05:58:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"Asero\" insurance transportation"
+   }
+  ],
+  "best_tier": 3,
+  "score": 64.4,
+  "age_days": 3.2,
+  "score_parts": {
+   "materiality": 4,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.73,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Corroborated",
+  "confidence": "High",
+  "confidence_reason": "general news, 2 independent publishers"
+ },
+ "ev_f555e967d765": {
+  "id": "ev_f555e967d765",
+  "title": "Tesla ordered to pay $150K after a Quebec man’s car caught fire",
+  "url": "https://www.ctvnews.ca/montreal/article/tesla-ordered-to-pay-150k-after-a-quebec-mans-car-caught-fire/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.2,
+  "summary": "Tesla was ordered to pay over $150,000 following a vehicle fire caused by an electrical failure.",
+  "evidence_quote": "Tesla ordered to pay $150K after a Quebec man’s car caught fire",
+  "companies": [
+   "Tesla"
+  ],
+  "implication": "Reflects ongoing product liability and severity risks associated with electric vehicles, a consideration for underwriting EV delivery fleets.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-13T12:29:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "f555e967d765"
+  ],
+  "sources": [
+   {
+    "url": "https://www.ctvnews.ca/montreal/article/tesla-ordered-to-pay-150k-after-a-quebec-mans-car-caught-fire/",
+    "publisher": "CTV News",
+    "publisher_key": "ctv news",
+    "published": "2026-10-13T12:29:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 54.4,
+  "age_days": 3.2,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.73,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_a08e2427dc3e": {
+  "id": "ev_a08e2427dc3e",
+  "title": "Arrive AI and Rivo Collaborate on Autonomous Delivery Solutions for Golf & Luxury Hospitality",
+  "url": "https://markets.chroniclejournal.com/chroniclejournal/article/accwirecq-2026-10-13-arrive-ai-and-rivo-collaborate-on-autonomous-delivery-solutions-for-golf-and-luxury-hospitality",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.5,
+  "summary": "Arrive AI and Rivo are collaborating to evaluate autonomous delivery solutions for luxury hospitality properties.",
+  "evidence_quote": "Arrive AI and Rivo Collaborate on Autonomous Delivery Solutions for Golf & Luxury Hospitality",
+  "companies": [
+   "Arrive AI",
+   "Rivo"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-13T04:30:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "research",
+  "fingerprints": [
+   "a08e2427dc3e"
+  ],
+  "sources": [
+   {
+    "url": "https://markets.chroniclejournal.com/chroniclejournal/article/accwirecq-2026-10-13-arrive-ai-and-rivo-collaborate-on-autonomous-delivery-solutions-for-golf-and-luxury-hospitality",
+    "publisher": "markets.chroniclejournal",
+    "publisher_key": "markets.chroniclejournal",
+    "published": "2026-10-13T04:30:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "last-mile delivery market report"
+   }
+  ],
+  "best_tier": 3,
+  "score": 47.1,
+  "age_days": 3.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.7,
+   "last_mile_fit": 0.5
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_4bc950d46c20": {
+  "id": "ev_4bc950d46c20",
+  "title": "Appellate Trial Support: Accelerating Growth or ‘New Normal’ for Defense Teams?",
+  "url": "https://www.law.com/thelegalintelligencer/2026/10/12/appellate-trial-support-accelerating-growth-or-new-normal-for-defense-teams/",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "headwind",
+  "materiality": 3,
+  "last_mile_fit": 0.2,
+  "summary": "Defense appellate trial support has become standard practice in high-stakes litigation.",
+  "evidence_quote": "defense appellate trial support has become a fixture in high-stakes litigation.",
+  "companies": [],
+  "implication": "Highlights elevated litigation defense costs and severity pressures in commercial auto liability cases.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-12T10:29:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "4bc950d46c20"
+  ],
+  "sources": [
+   {
+    "url": "https://www.law.com/thelegalintelligencer/2026/10/12/appellate-trial-support-accelerating-growth-or-new-normal-for-defense-teams/",
+    "publisher": "Law.com",
+    "publisher_key": "law.com",
+    "published": "2026-10-12T10:29:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+   }
+  ],
+  "best_tier": 3,
+  "score": 53.3,
+  "age_days": 4.3,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.65,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_3c6a4f64f617": {
+  "id": "ev_3c6a4f64f617",
+  "title": "JPMorgan raises target for Progressive Corp stock to USD 250",
+  "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-raises-target-for-progressive-corp-stock-to-usd-250/70300040",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "JPMorgan raised its price target for Progressive Corp stock to $250.",
+  "evidence_quote": "JPMorgan raises target for Progressive Corp stock to USD 250",
+  "companies": [
+   "Progressive Corp"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-12T04:51:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "3c6a4f64f617"
+  ],
+  "sources": [
+   {
+    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-raises-target-for-progressive-corp-stock-to-usd-250/70300040",
+    "publisher": "Ad Hoc News",
+    "publisher_key": "ad hoc news",
+    "published": "2026-10-12T04:51:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Progressive \"commercial auto\""
+   }
+  ],
+  "best_tier": 3,
+  "score": 43.1,
+  "age_days": 4.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.64,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_1265698bc552": {
+  "id": "ev_1265698bc552",
+  "title": "Amazon holding hiring events for Niagara fulfillment center",
+  "url": "https://www.yahoo.com/news/us/articles/amazon-holding-hiring-events-niagara-211700605.html",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.7,
+  "summary": "Amazon is holding hiring events for its new $587.5 million fulfillment center in Niagara.",
+  "evidence_quote": "Amazon holding hiring events for Niagara fulfillment center",
+  "companies": [
+   "Amazon"
+  ],
+  "implication": "Expansion of Amazon fulfillment infrastructure signals ongoing localized delivery volume growth, creating new DSP commercial auto insurance prospects.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-10T14:17:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "discovery",
+  "fingerprints": [
+   "1265698bc552"
+  ],
+  "sources": [
+   {
+    "url": "https://www.yahoo.com/news/us/articles/amazon-holding-hiring-events-niagara-211700605.html",
+    "publisher": "Yahoo",
+    "publisher_key": "yahoo",
+    "published": "2026-10-10T14:17:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"last-mile delivery\" insurance"
+   }
+  ],
+  "best_tier": 3,
+  "score": 56.7,
+  "age_days": 6.1,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.54,
+   "last_mile_fit": 0.7
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_26dd0c15708b": {
+  "id": "ev_26dd0c15708b",
+  "title": "Qualification of Drivers; Commercial Vehicle Safety Alliance; Application for Exemption",
+  "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20649/qualification-of-drivers-commercial-vehicle-safety-alliance-application-for-exemption",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 3,
+  "last_mile_fit": 0.4,
+  "summary": "FMCSA renewed a provisional exemption allowing Alaska commercial drivers to use paper medical certificates.",
+  "evidence_quote": "FMCSA announces its decision to renew provisionally for one year an exemption to allow drivers with a commercial learner's permit",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-08T00:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "26dd0c15708b"
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20649/qualification-of-drivers-commercial-vehicle-safety-alliance-application-for-exemption",
+    "publisher": "Federal Register",
+    "publisher_key": "federal register",
+    "published": "2026-10-08T00:00:00Z",
+    "tier": 1,
+    "source_id": "federal_register",
+    "query": "FMCSA delivery"
+   }
+  ],
+  "best_tier": 1,
+  "score": 59.3,
+  "age_days": 8.7,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 1,
+   "recency": 0.42,
+   "last_mile_fit": 0.4
+  },
+  "verification": "Confirmed (primary source)",
+  "confidence": "High",
+  "confidence_reason": "primary source, single source"
+ },
+ "ev_8be2d54d4312": {
+  "id": "ev_8be2d54d4312",
+  "title": "Agency Information Collection Activities; New Information Collection: Hours of Service of Drivers; Pilot Program To Allow Commercial Drivers To Split Sleeper Berth Time",
+  "url": "https://www.federalregister.gov/documents/2026/10/07/2026-20524/agency-information-collection-activities-new-information-collection-hours-of-service-of-drivers",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 3,
+  "last_mile_fit": 0.4,
+  "summary": "FMCSA submitted an information collection request for a pilot program allowing commercial drivers to split sleeper berth time.",
+  "evidence_quote": "Federal Motor Carrier Safety Administration (FMCSA) announces its plan to submit the Information Collection Request",
+  "companies": [],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-07T00:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "8be2d54d4312",
+   "31f1540671f5"
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalregister.gov/documents/2026/10/07/2026-20524/agency-information-collection-activities-new-information-collection-hours-of-service-of-drivers",
+    "publisher": "Federal Register",
+    "publisher_key": "federal register",
+    "published": "2026-10-07T00:00:00Z",
+    "tier": 1,
+    "source_id": "federal_register",
+    "query": "financial responsibility motor carriers"
+   }
+  ],
+  "best_tier": 1,
+  "score": 58.7,
+  "age_days": 9.7,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 1,
+   "recency": 0.38,
+   "last_mile_fit": 0.4
+  },
+  "verification": "Confirmed (primary source)",
+  "confidence": "High",
+  "confidence_reason": "primary source, single source"
+ },
+ "ev_67efbd9e7dd0": {
+  "id": "ev_67efbd9e7dd0",
+  "title": "Electronic Logging Device Requirements: Application for Exemption; Federation of Professional Truckers",
+  "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20043/electronic-logging-device-requirements-application-for-exemption-federation-of-professional-truckers",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.4,
+  "summary": "FMCSA denied an exemption request that would have allowed professional drivers to use manual logs instead of electronic logging devices.",
+  "evidence_quote": "deny the application from the Federation of Professional Truckers (FOPT) requesting an exemption from the electronic logging device (ELD)",
+  "companies": [
+   "Federal Motor Carrier Safety Administration",
+   "Federation of Professional Truckers"
+  ],
+  "implication": "Context only. Reinforces mandatory ELD usage, which aligns well with Nirvana's telematics-based underwriting and data ingestion approach for commercial fleets.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-09-30T00:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "67efbd9e7dd0"
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20043/electronic-logging-device-requirements-application-for-exemption-federation-of-professional-truckers",
+    "publisher": "Federal Register",
+    "publisher_key": "federal register",
+    "published": "2026-09-30T00:00:00Z",
+    "tier": 1,
+    "source_id": "federal_register",
+    "query": "financial responsibility motor carriers"
+   }
+  ],
+  "best_tier": 1,
+  "score": 47.9,
+  "age_days": 16.7,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 1,
+   "recency": 0.19,
+   "last_mile_fit": 0.4
+  },
+  "verification": "Confirmed (primary source)",
+  "confidence": "High",
+  "confidence_reason": "primary source, single source"
+ },
+ "ev_9417655b9c53": {
+  "id": "ev_9417655b9c53",
+  "title": "Hours of Service of Drivers; Parts and Accessories Necessary for Safe Operation; Exemption Renewal for Cleveland-Cliffs Steel LLC",
+  "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20048/hours-of-service-of-drivers-parts-and-accessories-necessary-for-safe-operation-exemption-renewal-for",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 1,
+  "last_mile_fit": 0.1,
+  "summary": "FMCSA provisionally renewed hours-of-service and parts exemptions for specific steel manufacturing employee-drivers.",
+  "evidence_quote": "Exemption Renewal for Cleveland-Cliffs Steel LLC",
+  "companies": [
+   "Federal Motor Carrier Safety Administration",
+   "Cleveland-Cliffs Steel LLC"
+  ],
+  "implication": "Context only. Steel manufacturing exemptions have no direct read-through to last-mile delivery fleets or parcel operations.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-09-30T00:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "9417655b9c53"
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalregister.gov/documents/2026/09/30/2026-20048/hours-of-service-of-drivers-parts-and-accessories-necessary-for-safe-operation-exemption-renewal-for",
+    "publisher": "Federal Register",
+    "publisher_key": "federal register",
+    "published": "2026-09-30T00:00:00Z",
+    "tier": 1,
+    "source_id": "federal_register",
+    "query": "FMCSA delivery"
+   }
+  ],
+  "best_tier": 1,
+  "score": 36.9,
+  "age_days": 16.7,
+  "score_parts": {
+   "materiality": 1,
+   "priority": 0.5,
+   "tier": 1,
+   "recency": 0.19,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Confirmed (primary source)",
+  "confidence": "High",
+  "confidence_reason": "primary source, single source"
+ },
+ "ev_248753208306": {
+  "id": "ev_248753208306",
+  "title": "Hazardous Materials: Incorporation of ASME Code Section XII and the National Board Inspection Code",
+  "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19741/hazardous-materials-incorporation-of-asme-code-section-xii-and-the-national-board-inspection-code",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 1,
+  "last_mile_fit": 0.1,
+  "summary": "PHMSA amended hazardous materials regulations to incorporate updated ASME code standards for cargo tanks and portable tanks.",
+  "evidence_quote": "Hazardous Materials: Incorporation of ASME Code Section XII",
+  "companies": [
+   "Pipeline and Hazardous Materials Safety Administration"
+  ],
+  "implication": "Context only. Relates to specialized cargo tanks rather than standard last-mile delivery vans or box trucks.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-09-28T00:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "248753208306"
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19741/hazardous-materials-incorporation-of-asme-code-section-xii-and-the-national-board-inspection-code",
+    "publisher": "Federal Register",
+    "publisher_key": "federal register",
+    "published": "2026-09-28T00:00:00Z",
+    "tier": 1,
+    "source_id": "federal_register",
+    "query": "financial responsibility motor carriers"
+   }
+  ],
+  "best_tier": 1,
+  "score": 36.3,
+  "age_days": 18.7,
+  "score_parts": {
+   "materiality": 1,
+   "priority": 0.5,
+   "tier": 1,
+   "recency": 0.16,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Confirmed (primary source)",
+  "confidence": "High",
+  "confidence_reason": "primary source, single source"
+ },
+ "ev_f621901d9ccf": {
+  "id": "ev_f621901d9ccf",
+  "title": "Qualification of Drivers; Exemption Applications; Hearing",
+  "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19808/qualification-of-drivers-exemption-applications-hearing",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 1,
+  "last_mile_fit": 0.2,
+  "summary": "FMCSA announced receipt of hearing exemption applications from nine commercial vehicle drivers.",
+  "evidence_quote": "applications from nine individuals for an exemption from the hearing requirement",
+  "companies": [
+   "Federal Motor Carrier Safety Administration"
+  ],
+  "implication": "Context only. Routine administrative filings unrelated to last-mile delivery risk profiles.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-09-28T00:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "f621901d9ccf"
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19808/qualification-of-drivers-exemption-applications-hearing",
+    "publisher": "Federal Register",
+    "publisher_key": "federal register",
+    "published": "2026-09-28T00:00:00Z",
+    "tier": 1,
+    "source_id": "federal_register",
+    "query": "FMCSA delivery"
+   }
+  ],
+  "best_tier": 1,
+  "score": 37.3,
+  "age_days": 18.7,
+  "score_parts": {
+   "materiality": 1,
+   "priority": 0.5,
+   "tier": 1,
+   "recency": 0.16,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Confirmed (primary source)",
+  "confidence": "High",
+  "confidence_reason": "primary source, single source"
+ },
+ "ev_b028741dacd3": {
+  "id": "ev_b028741dacd3",
+  "title": "Implementing the Safe Explosives Act",
+  "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19693/implementing-the-safe-explosives-act",
+  "lane": "policy_macro",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 1,
+  "last_mile_fit": 0.1,
+  "summary": "ATF finalized rules implementing the Safe Explosives Act, clarifying reporting procedures for federal licensees and permittees.",
+  "evidence_quote": "Implementing the Safe Explosives Act",
+  "companies": [
+   "Bureau of Alcohol, Tobacco, Firearms, and Explosives"
+  ],
+  "implication": "Context only. Governs explosives handling, bearing no relevance to commercial auto or last-mile parcel fleets.",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-09-25T00:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-16T17:40:26Z",
+  "first_run": "2026-10-16T17-40-26Z",
+  "last_seen": "2026-10-16T17:40:26Z",
+  "last_updated_run": "2026-10-16T17-40-26Z",
+  "update_note": null,
+  "late_discovery": true,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "policy_macro",
+  "fingerprints": [
+   "b028741dacd3"
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19693/implementing-the-safe-explosives-act",
+    "publisher": "Federal Register",
+    "publisher_key": "federal register",
+    "published": "2026-09-25T00:00:00Z",
+    "tier": 1,
+    "source_id": "federal_register",
+    "query": "motor carrier insurance"
+   }
+  ],
+  "best_tier": 1,
+  "score": 35.7,
+  "age_days": 21.7,
+  "score_parts": {
+   "materiality": 1,
+   "priority": 0.5,
+   "tier": 1,
+   "recency": 0.12,
+   "last_mile_fit": 0.1
+  },
+  "verification": "Confirmed (primary source)",
+  "confidence": "High",
+  "confidence_reason": "primary source, single source"
+ }
+}
