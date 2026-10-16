@@ -47,8 +47,13 @@ def main():
         report["results"]["rules"] = score(items, classify_rules(items, cfg["competitors"], [k.lower() for k in cfg["topic_keywords"]]))
     client = make_client(cfg)
     if a.mode in ("llm", "both") and client:
-        report["results"]["llm"] = score(items, classify_llm(items, client, cfg["models"]["classify"]))
+        preds = classify_llm(items, client, cfg["models"]["classify"])
+        errs = sorted({v["error"] for v in preds.values() if "error" in v})
+        report["results"]["llm"] = score(items, preds)
         report["results"]["llm"]["model"] = client.label
+        if errs:
+            report["results"]["llm"]["errors"] = errs[:3]
+            print("LLM ERRORS:", errs[:3])
     elif a.mode in ("llm", "both"):
         report["results"]["llm"] = {"skipped": "no LLM key configured"}
     for k, v in report["results"].items():

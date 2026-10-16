@@ -140,10 +140,14 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
 
     # ---- classify
     mode = "llm" if (client and client.available) else "rules"
+    llm_errors = []
     if mode == "llm":
         results = classify_llm(candidates, client, cfg["models"]["classify"], cfg.get("classify_batch_size", 15))
         errored = [it for it in candidates if "error" in results.get(it["_cid"], {"error": "missing"})]
         counts["classifier_errors"] = len(errored)
+        llm_errors = sorted({results[it["_cid"]]["error"] for it in errored if it["_cid"] in results})[:3]
+        if llm_errors:
+            log(f"LLM errors (falling back to rules for {len(errored)} items): {llm_errors}")
         if errored:
             for k, v in classify_rules(errored, comps, topic).items():
                 v["_fallback"] = True
@@ -275,7 +279,7 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
     summary = {"run_id": run_id, "run_url": run_url, "trigger": trigger, "repo": gh_repo, "date": now.strftime("%Y-%m-%d"), "started": iso(now), "duration_s": round(time.time() - t0, 1),
                "baseline": baseline, "previous_run": prev["run_id"] if prev else None, "previous_started": prev["started"] if prev else None,
                "classifier": mode, "model": getattr(client, "label", None) if mode == "llm" else None, "counts": counts, "evals": evals, "health": health,
-               "llm_usage": dict(client.usage) if client and client.available else None}
+               "llm_usage": dict(client.usage) if client and client.available else None, "llm_errors": llm_errors}
     pull = {**summary, "new": fresh_new, "updated": updated, "late_discoveries": [store.events[e] for e in new_ids if store.events[e]["late_discovery"]],
             "quarantine": quarantine, "decisions": decisions, "digest": digest}
     latest = {"run_id": run_id, "run_url": run_url, "trigger": trigger, "repo": gh_repo, "started": iso(now), "baseline": baseline, "previous_started": summary["previous_started"],
