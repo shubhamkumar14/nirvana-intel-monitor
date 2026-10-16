@@ -19,6 +19,8 @@ def _collect(cfg, fetch, now, data_dir, log, only=None):
 
     def add(res):
         items, h = res
+        for it in items:
+            it["_skey"] = h["source_id"]
         raw.extend(items)
         health.append(h)
         log(f"  [{h['status']:>14}] {h['name'][:70]:<70} {h['items']:>3} items  {h['ms']}ms")
@@ -71,10 +73,13 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
     prio = {c["name"]: c.get("priority", 0.5) for c in comps}
     ignore = ENTITY_IGNORE | {a.lower() for c in comps for a in c["aliases"]} | {x.lower() for x in cfg.get("entity_ignore", [])}
     counts = {k: 0 for k in ["raw", "unique", "known_skipped", "attached_existing", "prefiltered_out", "too_old", "deferred",
-                             "classified", "irrelevant", "quarantined", "new_events", "updated_events", "late_discoveries", "classifier_errors"]}
+                             "classified", "irrelevant", "quarantined", "new_events", "updated_events", "late_discoveries", "classifier_errors", "new_source_baseline"]}
 
     log(f"Run {run_id} (baseline={baseline})")
     raw, health = _collect(cfg, fetch, now, data_dir, log, only)
+    # A source that has never succeeded before gets its own baseline: its backlog is indexed but not shown as "new".
+    known_sources = {h["source_id"] for r in store.runs for h in r.get("health", []) if h["status"] == "ok"}
+    first_time_sources = {h["source_id"] for h in health if h["status"] == "ok" and h["source_id"] not in known_sources} if not baseline else set()
     counts["raw"] = len(raw)
 
     # ---- normalize + in-run dedup by canonical URL
@@ -193,6 +198,7 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
         eid = "ev_" + it["_fp"]
         pub = parse_date(it.get("published"))
         late = bool(pub and (now - pub).days > cfg["lookback_days"])
+        source_baseline = it.get("_skey") in first_time_sources
         wl = sorted(set(_watchlist_matches(f"{it['title']} {it.get('snippet', '')} {' '.join(r['companies'])}", comps)))
         ev = {"id": eid, "title": it["title"], "url": it["url"], "lane": r["lane"], "event_type": r["event_type"],
               "direction": r["direction"], "materiality": r["materiality"], "last_mile_fit": r["last_mile_fit"],
@@ -200,16 +206,16 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
               "implication": r.get("implication", ""), "action": r.get("action", "watch"),
               "watchlist_companies": wl, "published": it.get("published"), "date_known": bool(it.get("published")),
               "first_seen": iso(now), "first_run": run_id, "last_seen": iso(now), "last_updated_run": run_id,
-              "update_note": None, "late_discovery": late, "classifier": "rules-fallback" if r.get("_fallback") else (getattr(client, "label", mode) if mode == "llm" else mode),
+              "update_note": None, "late_discovery": late, "source_baseline": source_baseline, "classifier": "rules-fallback" if r.get("_fallback") else (getattr(client, "label", mode) if mode == "llm" else mode),
               "lane_hint": it.get("lane_hint"), "fingerprints": [it["_fp"]], "sources": [_src(it, tier)], "best_tier": tier}
         store.events[eid] = ev
-        decide(it, r, "kept: late discovery" if late else "kept: new event", r.get("implication", ""))
+        decide(it, r, "kept: late discovery" if late else "kept: first pull of a newly added source" if source_baseline else "kept: new event", r.get("implication", ""))
         new_pool.append((eid, nt))
         new_ids.append(eid)
         store.seen[it["_uh"]] = {"first_seen": iso(now), "outcome": "event", "event_id": eid}
         if late:
             counts["late_discoveries"] += 1
-        if mode == "llm":
+        if mode == "llm" and r["lane"] == "competitor_move":
             for name in r["companies"]:
                 key = name.strip()
                 if not key or key.lower() in ignore:
@@ -249,7 +255,9 @@ def run_pipeline(cfg, data_dir, fetch, client, now, notifier=None, only=None, lo
         ev["verification"] = verification_status(ev)
         ev["confidence"], ev["confidence_reason"] = confidence(ev)
 
-    fresh_new = sorted([store.events[e] for e in new_ids if not store.events[e]["late_discovery"]], key=lambda e: -e["score"])
+    fresh_new = sorted([store.events[e] for e in new_ids if not store.events[e]["late_discovery"] and not store.events[e].get("source_baseline")],
+                       key=lambda e: -e["score"])
+    counts["new_source_baseline"] = sum(1 for e in new_ids if store.events[e].get("source_baseline"))
     updated = sorted([store.events[e] for e in updated_ids], key=lambda e: -e["score"])
     counts["new_events"], counts["updated_events"] = len(fresh_new), len(updated)
 

@@ -193,20 +193,35 @@ def _clean(r):
             "implication": str(r.get("implication", ""))[:300], "action": r.get("action") if r.get("action") in ("respond", "watch", "context") else "watch"}
 
 
-def classify_llm(items, client, model, batch_size=30):
+def classify_llm(items, client, model, batch_size=20):
     results = {}
-    for i in range(0, len(items), batch_size):
-        batch = items[i:i + batch_size]
+
+    def run(batch, depth=0):
         user = "Classify these items:\n" + json.dumps(_items_payload(batch), ensure_ascii=False)
         try:
-            arr = _parse_json_array(client.complete(model, SYSTEM_PROMPT, user, max_tokens=8000))
+            text = client.complete(model, SYSTEM_PROMPT, user, max_tokens=8000)
         except Exception as e:
             for it in batch:
                 results[it["_cid"]] = {"error": str(e)[:200]}
-            continue
+            return
+        try:
+            arr = _parse_json_array(text)
+        except ValueError as e:
+            if len(batch) > 1 and depth < 3:
+                mid = len(batch) // 2  # malformed/truncated JSON: retry as two smaller batches
+                run(batch[:mid], depth + 1)
+                run(batch[mid:], depth + 1)
+                return
+            for it in batch:
+                results[it["_cid"]] = {"error": str(e)[:200]}
+            return
+        ids = {it["_cid"] for it in batch}
         for r in arr:
-            if isinstance(r, dict) and r.get("id") in {it["_cid"] for it in batch}:
+            if isinstance(r, dict) and r.get("id") in ids:
                 results[r["id"]] = _clean(r)
+
+    for i in range(0, len(items), batch_size):
+        run(items[i:i + batch_size])
     return results
 
 

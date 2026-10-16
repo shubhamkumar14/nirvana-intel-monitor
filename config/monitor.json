@@ -5,7 +5,7 @@
   "cluster_window_days": 14,
   "fuzzy_merge_threshold": 0.86,
   "max_classify_per_run": 150,
-  "classify_batch_size": 30,
+  "classify_batch_size": 20,
   "models": {
     "classify": "claude-haiku-5-5",
     "digest": "claude-sonnet-5-5"
@@ -272,6 +272,42 @@
       "name": "TechCrunch",
       "url": "https://techcrunch.com/feed/",
       "tier": 3
+    },
+    {
+      "id": "reinsurancenews",
+      "name": "Reinsurance News",
+      "url": "https://www.reinsurancene.ws/feed/",
+      "tier": 2
+    },
+    {
+      "id": "coverager",
+      "name": "Coverager",
+      "url": "https://coverager.com/feed/",
+      "tier": 2
+    },
+    {
+      "id": "repairerdriven",
+      "name": "Repairer Driven News",
+      "url": "https://www.repairerdrivennews.com/feed/",
+      "tier": 2
+    },
+    {
+      "id": "artemis",
+      "name": "Artemis",
+      "url": "https://www.artemis.bm/feed/",
+      "tier": 2
+    },
+    {
+      "id": "businesswire_ins",
+      "name": "Business Wire - Insurance",
+      "url": "https://feed.businesswire.com/rss/home/?rss=G1QFDERJXkJeEFtRWQ==",
+      "tier": 1
+    },
+    {
+      "id": "globenewswire_ins",
+      "name": "GlobeNewswire - Insurance",
+      "url": "https://www.globenewswire.com/RssFeed/industry/8500-Insurance/feedTitle/GlobeNewswire%20-%20Industry%20News%20on%20Insurance",
+      "tier": 1
     }
   ],
   "federal_register_terms": [
@@ -284,7 +320,43 @@
     "\"delivery service partners\" insurance"
   ],
   "sec_forms": "8-K,10-Q,10-K,S-1",
-  "page_watch": [],
+  "page_watch": [
+    {
+      "id": "one80_lastmile",
+      "name": "One80 Last Mile Delivery program",
+      "url": "https://www.one80.com/?p=17201"
+    },
+    {
+      "id": "progressive_proview",
+      "name": "Progressive Snapshot ProView",
+      "url": "https://www.progressivecommercial.com/snapshot-proview/"
+    },
+    {
+      "id": "bbrown_lastmile",
+      "name": "Brown & Brown last/final-mile page",
+      "url": "https://us.bbrown.com/industries/logistics-transportation/last-mile-and-final-mile-delivery-insurance"
+    },
+    {
+      "id": "truenorth_finalmile",
+      "name": "TrueNorth Final Mile",
+      "url": "https://truenorthcompanies.com/transportation/enterprise-risk-management/final-mile.aspx"
+    },
+    {
+      "id": "asero_transport",
+      "name": "Asero Transportation programs",
+      "url": "https://aseroins.com/programs/transportation/"
+    },
+    {
+      "id": "marsh_dsp",
+      "name": "Marsh Amazon DSP insurance",
+      "url": "https://affinity.marsh.com/dspinsurance/us/en/working-with-marsh.html"
+    },
+    {
+      "id": "inshare_geotab",
+      "name": "InShare on Geotab Marketplace",
+      "url": "https://marketplace.geotab.com/solutions/inshare/"
+    }
+  ],
   "topic_keywords": [
     "commercial auto",
     "auto liability",

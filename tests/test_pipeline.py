@@ -120,6 +120,23 @@ class PipelineTests(unittest.TestCase):
         s2, l2 = self.run_day(["ij_day2.xml", "wire_day2.xml"], D2, FakeLLM())
         self.assertEqual(l2["whats_new"]["updated"][0]["confidence"], "High")  # 2 publishers + trade press + dated
 
+    def test_newly_added_source_is_baselined_not_new(self):
+        self.run_day(["ij_day1.xml"], D1, FakeLLM())
+        s2, l2 = self.run_day(["ij_day1.xml", "wire_day2.xml"], D2, FakeLLM())   # wire feed added on day 2
+        self.assertEqual(l2["whats_new"]["new"], [])
+        self.assertEqual(s2["counts"]["new_events"], 0)
+
+    def test_malformed_json_batch_is_split_and_retried(self):
+        class Flaky(FakeLLM):
+            def complete(self, model, system, user, max_tokens=4000):
+                items = json.loads(user.split("\n", 1)[1]) if "Classify" in user else []
+                if len(items) > 1:
+                    return "[{broken json"
+                return super().complete(model, system, user, max_tokens)
+        s, l = self.run_day(["ij_day1.xml"], D1, Flaky())
+        self.assertEqual(s["counts"]["classifier_errors"], 0)
+        self.assertEqual(l["total_events"], 2)
+
     def test_rules_mode_has_templated_implication(self):
         s, l = self.run_day(["ij_day1.xml"], D1, None)
         e = next(iter(json.load(open(os.path.join(self.dir, "events.json"))).values()))
