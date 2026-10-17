@@ -1,0 +1,1295 @@
+{
+ "run_id": "2026-10-17T16-39-21Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/39050347455",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-17",
+ "started": "2026-10-17T16:39:21Z",
+ "duration_s": 159.2,
+ "baseline": false,
+ "previous_run": "2026-10-17T06-16-02Z",
+ "previous_started": "2026-10-17T06:16:02Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest",
+ "counts": {
+  "raw": 380,
+  "unique": 352,
+  "known_skipped": 321,
+  "attached_existing": 2,
+  "prefiltered_out": 1,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 28,
+  "irrelevant": 22,
+  "quarantined": 0,
+  "new_events": 6,
+  "updated_events": 2,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.6499999999999999,
+  "dedup_ratio": 0.92,
+  "relevance_rate": 0.214
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 606
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 521
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 151
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 2533
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 128
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 320
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1353
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 165
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 432
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 204
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 205
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 247
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 221
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 322
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 302
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 216
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 256
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 306
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 237
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 247
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 318
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 220
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 282
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 235
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 279
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 259
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 270
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1922
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 974
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 419
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 860
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 234
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 779
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1876
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5763,
+  "output_tokens": 4568,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 3
+  }
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_b4ead3a220e8",
+   "title": "Amazon Has Now Deployed Over 1 Million Robots, Which Is Bad News for Its 1.5 Million Workers",
+   "url": "https://futurism.com/future-society/amazon-robotics-automation-warehouse-labor-safety",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Amazon has surpassed one million deployed robots across operations, potentially affecting its human workforce.",
+   "evidence_quote": "Amazon has officially surpassed a fleet",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only. Highlights Amazon's internal automation drive, though focused on warehouse robotics rather than last-mile delivery fleet risk profiles.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-17T08:48:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-17T16:39:21Z",
+   "first_run": "2026-10-17T16-39-21Z",
+   "last_seen": "2026-10-17T16:39:21Z",
+   "last_updated_run": "2026-10-17T16-39-21Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "b4ead3a220e8"
+   ],
+   "sources": [
+    {
+     "url": "https://futurism.com/future-society/amazon-robotics-automation-warehouse-labor-safety",
+     "publisher": "Futurism",
+     "publisher_key": "futurism",
+     "published": "2026-10-17T08:48:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.0,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f22794dce12a",
+   "title": "Retail price impacts from the Iran war are uneven but add up for US households before midterms",
+   "url": "https://cw33.com/business/ap-business/ap-retail-price-impacts-from-the-iran-war-are-uneven-but-add-up-for-us-households-before-midterms/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Prolonged geopolitical conflict has raised US fuel prices, increasing vehicle operating costs and pressure on household goods.",
+   "evidence_quote": "sharply higher fuel prices are making it more expensive to drive and fly and adding to the cost of some goods",
+   "companies": [],
+   "implication": "Context only. Elevated operating costs squeeze delivery fleet margins, potentially impacting DSP and courier cash flows.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-17T00:24:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-17T16:39:21Z",
+   "first_run": "2026-10-17T16-39-21Z",
+   "last_seen": "2026-10-17T16:39:21Z",
+   "last_updated_run": "2026-10-17T16-39-21Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "f22794dce12a"
+   ],
+   "sources": [
+    {
+     "url": "https://cw33.com/business/ap-business/ap-retail-price-impacts-from-the-iran-war-are-uneven-but-add-up-for-us-households-before-midterms/",
+     "publisher": "CW33",
+     "publisher_key": "cw33",
+     "published": "2026-10-17T00:24:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_bdd920c83b2b",
+   "title": "트래블러스(TRV) 2026년 3분기 실적 발표 콜: 핵심 이익 19억 5,000만 달러 기록",
+   "url": "https://www.tradingkey.com/kr/news/transcripts/262221727-tradingkey",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Travelers reported strong Q3 2026 financial results, including core income of $1.95 billion and a consolidated combined ratio of 86.8%.",
+   "evidence_quote": "트래블러스 컴퍼니는 2026년 3분기 핵심 이익 19억 5,000만 달러 (희석주당 9.18달러), 연결 합산비율 86.8%, 기초 합산비율 84.1%를 기록하며 우수한 실적을 거뒀다.",
+   "companies": [
+    "트래블러스 컴퍼니",
+    "트래블러스"
+   ],
+   "implication": "Context only. Highlights overall profitability of a major incumbent commercial insurer without specific last-mile delivery auto segment data.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-16T06:02:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-17T16:39:21Z",
+   "first_run": "2026-10-17T16-39-21Z",
+   "last_seen": "2026-10-17T16:39:21Z",
+   "last_updated_run": "2026-10-17T16-39-21Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "research",
+   "fingerprints": [
+    "bdd920c83b2b"
+   ],
+   "sources": [
+    {
+     "url": "https://www.tradingkey.com/kr/news/transcripts/262221727-tradingkey",
+     "publisher": "tradingkey",
+     "publisher_key": "tradingkey",
+     "published": "2026-10-16T06:02:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.5,
+   "age_days": 1.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.87,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9bfdf006f91f",
+   "title": "Georgia’s Lift-Kit Law Exempts Basically Every Pickup Since 2011. A Wrongful-Death Suit Wants a Jury to Draw the Line.",
+   "url": "https://theautowire.com/2026/10/13/georgia-lift-kit-law-exemption-wrongful-death-lawsuit-f150/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "A Georgia wrongful-death lawsuit tests legal liability and statutory exemptions under the state's 2024 lift-kit vehicle law.",
+   "evidence_quote": "Georgia's 2024 lift law exempts trucks with stability control. A wrongful-death suit over a lifted F-150 now asks a jury where the line is.",
+   "companies": [],
+   "implication": "Context only. Highlights Georgia auto tort exposure, though aftermarket lift-kit litigation rarely impacts standardized delivery cargo vans and box trucks.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-13T06:14:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-17T16:39:21Z",
+   "first_run": "2026-10-17T16-39-21Z",
+   "last_seen": "2026-10-17T16:39:21Z",
+   "last_updated_run": "2026-10-17T16-39-21Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9bfdf006f91f"
+   ],
+   "sources": [
+    {
+     "url": "https://theautowire.com/2026/10/13/georgia-lift-kit-law-exemption-wrongful-death-lawsuit-f150/",
+     "publisher": "theautowire.com",
+     "publisher_key": "theautowire.com",
+     "published": "2026-10-13T06:14:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 44.2,
+   "age_days": 4.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.64,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_73d58603f092",
+   "title": "President Trump Signs Executive Order Waiving Key Russian Sanctions and Tariffs Under the Graham Act, Helping Keep Oil Flowing",
+   "url": "https://energynewsbeat.co/crude-oil/president-trump-signs-executive-order-waiving-key-russian-sanctions-and-tariffs-under-the-graham-act-helping-keep-oil-flowing/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Executive order waives sanctions and tariffs under the Graham Act to maintain Russian oil flows.",
+   "evidence_quote": "President Donald Trump signed an executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 while simultaneously waiving most of its new sanctions",
+   "companies": [],
+   "implication": "Context only. Global energy trade policies do not directly affect Nirvana's commercial fleet underwriting.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-17T07:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-17T16:39:21Z",
+   "first_run": "2026-10-17T16-39-21Z",
+   "last_seen": "2026-10-17T16:39:21Z",
+   "last_updated_run": "2026-10-17T16-39-21Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "73d58603f092"
+   ],
+   "sources": [
+    {
+     "url": "https://energynewsbeat.co/crude-oil/president-trump-signs-executive-order-waiving-key-russian-sanctions-and-tariffs-under-the-graham-act-helping-keep-oil-flowing/",
+     "publisher": "energynewsbeat.co",
+     "publisher_key": "energynewsbeat.co",
+     "published": "2026-10-17T07:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_c68019265c88",
+   "title": "Trump waives Russia oil sanctions: What it means for India’s oil imports, US tariffs and trade relations",
+   "url": "https://news24online.com/business/trump-waives-russia-oil-sanctions-what-it-means-for-indias-oil-imports-us-tariffs-and-trade-relations/943951/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Trump waived Russian sanctions and tariffs, reducing immediate trade penalties for Indian crude oil importers.",
+   "evidence_quote": "Donald Trump has waived certain Russia-related sanctions and tariffs, easing immediate concerns for India’s Russian oil imports and exporters facing potential US trade penalties.",
+   "companies": [],
+   "implication": "Context only. Macro foreign trade sanctions do not alter US commercial auto underwriting.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-17T01:50:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-17T16:39:21Z",
+   "first_run": "2026-10-17T16-39-21Z",
+   "last_seen": "2026-10-17T16:39:21Z",
+   "last_updated_run": "2026-10-17T16-39-21Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "c68019265c88"
+   ],
+   "sources": [
+    {
+     "url": "https://news24online.com/business/trump-waives-russia-oil-sanctions-what-it-means-for-indias-oil-imports-us-tariffs-and-trade-relations/943951/",
+     "publisher": "News24",
+     "publisher_key": "news24",
+     "published": "2026-10-17T01:50:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_db8f86957c52",
+   "title": "BREAKING: Texas judge upholds nuclear verdict against C.H. Robinson",
+   "url": "https://www.freightwaves.com/news/breaking-texas-judge-upholds-nuclear-verdict-against-c-h-robinson",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.4,
+   "summary": "A Texas judge upheld a nuclear verdict against transportation company C.H. Robinson, highlighting ongoing severe liability risks in commercial transport.",
+   "evidence_quote": "Texas judge upholds nuclear verdict against C.H. Robinson",
+   "companies": [
+    "C.H. Robinson"
+   ],
+   "implication": "Reinforces severe liability and nuclear verdict trends in commercial auto, driving up reinsurance costs and necessitating strict telematics underwriting for last-mile fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-17T00:15:48Z",
+   "date_known": true,
+   "first_seen": "2026-10-17T06:16:02Z",
+   "first_run": "2026-10-17T06-16-02Z",
+   "last_seen": "2026-10-17T16:39:21Z",
+   "last_updated_run": "2026-10-17T16-39-21Z",
+   "update_note": "New corroborating source: Yahoo Finance",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "db8f86957c52"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/breaking-texas-judge-upholds-nuclear-verdict-against-c-h-robinson",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-17T00:15:48Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/breaking-texas-judge-upholds-nuclear-001548979.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-16T17:14:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 2,
+   "score": 74.3,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.93,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "trade press, 2 independent publishers"
+  },
+  {
+   "id": "ev_dc07ba41c061",
+   "title": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
+   "url": "https://www.miamiherald.com/news/business/article317632067.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "US holiday shoppers face budget squeezes due to combined tariffs and energy costs.",
+   "evidence_quote": "US toy prices surge ahead of holiday shopping season as tariffs, Iran war bite",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-14T23:26:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-16T18:03:58Z",
+   "first_run": "2026-10-16T18-03-58Z",
+   "last_seen": "2026-10-17T16:39:21Z",
+   "last_updated_run": "2026-10-17T16-39-21Z",
+   "update_note": "New corroborating source: Apple Valley News Now",
+   "late_discovery": false,
+   "source_baseline": true,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "dc07ba41c061"
+   ],
+   "sources": [
+    {
+     "url": "https://www.miamiherald.com/news/business/article317632067.html",
+     "publisher": "Miami Herald",
+     "publisher_key": "miami herald",
+     "published": "2026-10-14T23:26:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://www.msn.com/en-us/news/other/us-toy-prices-surge-ahead-of-holiday-shopping-season-as-tariffs-iran-war-bite/ar-AA2ehynb",
+     "publisher": "Reuters on MSN",
+     "publisher_key": "reuters on msn",
+     "published": "2026-10-15T06:06:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://www.applevalleynewsnow.com/news/shareable-stories/us-toy-prices-surge-ahead-of-holiday-shopping-season-as-tariffs-iran-war-bite/article_c3386c67-44fc-54c1-8eef-ced889adbf69.html",
+     "publisher": "Apple Valley News Now",
+     "publisher_key": "apple valley news now",
+     "published": "2026-10-17T04:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.0,
+   "age_days": 2.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.76,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 3 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Trump waives 100% tariffs on major Russian-oil buyers as Canadian drivers face high fuel prices",
+   "url": "https://www.msn.com/en-ca/news/other/trump-waives-100-tariffs-on-major-russian-oil-buyers-as-canadian-drivers-face-high-fuel-prices/ar-AA2erBNE",
+   "publisher": "Auto Igloo on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Canadian motorists are facing another expensive stretch at the pumps, just as Washington makes a significant reversal",
+   "note": "President Trump waived 100% tariffs on major Russian oil purchasers while Canadian drivers confront elevated pump prices."
+  },
+  {
+   "title": "Why the Knicks Need to Sign Both Bruce Brown and James Wiseman",
+   "url": "https://www.si.com/nba/knicks/onsi/why-knicks-need-sign-both-bruce-brown-james-wiseman-01m5576m4qsx",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "As things stand, the New York Knicks probably can't keep James Wiseman and Bruce Brown.",
+   "note": "Sports article evaluating roster constraints for the New York Knicks regarding Bruce Brown and James Wiseman."
+  },
+  {
+   "title": "Amazon Has Now Deployed Over 1 Million Robots, Which Is Bad News for Its 1.5 Million Workers",
+   "url": "https://futurism.com/future-society/amazon-robotics-automation-warehouse-labor-safety",
+   "publisher": "Futurism",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon has officially surpassed a fleet",
+   "note": "Context only. Highlights Amazon's internal automation drive, though focused on warehouse robotics rather than last-mile delivery fleet risk profiles."
+  },
+  {
+   "title": "Mom Will Fall Twice in Her First Month at the Nursing Home. When the Family Calls a Lawyer, He Will Find an Arbitration Clause That Could Keep Her Case From a Jury",
+   "url": "https://www.yahoo.com/news/us/articles/mom-fall-twice-her-first-153042548.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A signature scrawled on move-in night can quietly move a negligence case out of a courtroom",
+   "note": "Article analyzing mandatory arbitration clauses in nursing home negligence disputes."
+  },
+  {
+   "title": "These 10 DP World Tour golfers are in the best position to earn 2027 PGA Tour cards",
+   "url": "https://sports.yahoo.com/articles/10-dp-world-tour-golfers-150113528.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The top 10 in the DP World Tour's Race to Dubai standings (who are eligible and not otherwise exempt) will earn PGA Tour cards",
+   "note": "Article discussing DP World Tour golfers positioned to secure PGA Tour cards."
+  },
+  {
+   "title": "President Trump Signs Executive Order Waiving Key Russian Sanctions and Tariffs Under the Graham Act, Helping Keep Oil Flowing",
+   "url": "https://energynewsbeat.co/crude-oil/president-trump-signs-executive-order-waiving-key-russian-sanctions-and-tariffs-under-the-graham-act-helping-keep-oil-flowing/",
+   "publisher": "energynewsbeat.co",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "President Donald Trump signed an executive order implementing the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026 while simultaneously waiving most of its new sanctions",
+   "note": "Context only. Global energy trade policies do not directly affect Nirvana's commercial fleet underwriting."
+  },
+  {
+   "title": "Pope Leo leaves Rome’s Gemelli hospital 4 days after lung cancer surgery",
+   "url": "https://apnews.com/video/pope-leo-leaves-romes-gemelli-hospital-4-days-after-lung-cancer-surgery-477255f5f4e2467e8b8c139a2d05fc7a",
+   "publisher": "Associated Press News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Pope Leo left Rome’s Gemelli hospital on Saturday, four days after undergoing surgery for lung cancer.",
+   "note": "Pope Leo was discharged from Gemelli hospital four days after undergoing lung cancer surgery."
+  },
+  {
+   "title": "Russian Oil Imports to India Get Relief, but China Raises the Cost",
+   "url": "https://urbanacres.in/russian-oil-imports-to-india-get-relief-but-china-raises-the-cost/",
+   "publisher": "Urban Acres",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Russian oil imports to India get immediate relief after the US waives proposed tariffs",
+   "note": "US tariff waivers ease Russian oil imports to India despite rising Chinese demand and regional disruption."
+  },
+  {
+   "title": "Apple Says iPhone Duo Demand Is Extraordinary. Compared With What?",
+   "url": "https://www.inc.com/jason-aten/apple-says-iphone-duo-demand-is-extraordinary-compared-with-what/91421819",
+   "publisher": "Inc.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The iPhone Duo starts at $1,999, making it the most expensive starting price for an iPhone that Apple has ever sold.",
+   "note": "Apple reports strong demand for the iPhone Duo despite a starting price of $1,999."
+  },
+  {
+   "title": "Nick Marsh 2027 NFL draft profile: Indiana WR's projection, strengths, pro comparison",
+   "url": "https://www.msn.com/en-us/news/other/nick-marsh-2027-nfl-draft-profile-indiana-wrs-projection-strengths-pro-comparison/ar-AA2ervDq",
+   "publisher": "NFL Mocks on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Nick Marsh is pushing for WR2 in the 2027 NFL Draft",
+   "note": "2027 NFL Draft projection analyzing Indiana wide receiver Nick Marsh."
+  },
+  {
+   "title": "Woman's $2k Furniture Reselling Scam Unravels Because She Forgot to Remove Her Name",
+   "url": "https://www.yahoo.com/news/us/articles/womans-2k-furniture-reselling-scam-123001449.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Body-camera footage from a November 7, 2023, police operation in Riverside, Ohio, has resurfaced",
+   "note": "Bodycam video highlights an Ohio furniture reselling scam unraveling due to an unremoved shipping label."
+  },
+  {
+   "title": "The Touring Bike Built For Endless Interstate Miles",
+   "url": "https://www.topspeed.com/touring-bike-for-endless-interstate-miles/",
+   "publisher": "Top Speed",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "With 139 lb-ft of torque, Brembo brakes, and handcrafted paint, the CVO Street Glide Limited is Harley's most complete tourer.",
+   "note": "Motorcycle review of Harley-Davidson's CVO Street Glide Limited touring bike."
+  },
+  {
+   "title": "Ranking All 30 Projected NBA Starting Lineups in 2026–27 From Worst to Best",
+   "url": "https://www.si.com/nba/ranking-all-30-projected-nba-starting-lineups-from-worst-to-best",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Here’s a look at every team’s new starting lineup, ranked from bottom to top.",
+   "note": "Preseason ranking of all thirty NBA starting lineups for the 2026-27 season."
+  },
+  {
+   "title": "IV Muse Cell Therapy Guide Released for Miami Patients",
+   "url": "https://www.usatoday.com/press-release/story/51243/iv-muse-cell-therapy-guide-released-for-miami-patients/",
+   "publisher": "USA TODAY",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Springs Rejuvenation Publishes IV Muse Cell Therapy Patient Guide Citing Peer-Reviewed Research",
+   "note": "Springs Rejuvenation published a patient guide regarding IV Muse cell therapy."
+  },
+  {
+   "title": "Walmart takes aim at Costco with a new shopping perk",
+   "url": "https://www.thestreet.com/retail/walmart-takes-aim-at-costco-with-express-pickup",
+   "publisher": "TheStreet",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Walmart doesn’t just operate Costco competitor Sam’s Club. Walmart’s regular retail stores, with their massive selection and amazingly low everyday prices, also tend to draw customers away",
+   "note": "Walmart introduces a new shopping perk intended to draw retail customers away from Costco."
+  },
+  {
+   "title": "‘Dandiya Khatam, Parcel Return’: Delivery agent’s viral video shows pile of returned festive outfits",
+   "url": "https://www.moneycontrol.com/news/trends/dandiya-khatam-parcel-return-delivery-agent-s-viral-video-shows-pile-of-returned-festive-outfits-14054442.html",
+   "publisher": "Moneycontrol",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A viral video showing a delivery agent surrounded by returned Dandiya outfits has sparked debate over whether some shoppers are buying festive clothes",
+   "note": "A viral video shows an Indian delivery courier handling extensive festive outfit returns following Navratri."
+  },
+  {
+   "title": "Trump waives Russia oil sanctions: What it means for India’s oil imports, US tariffs and trade relations",
+   "url": "https://news24online.com/business/trump-waives-russia-oil-sanctions-what-it-means-for-indias-oil-imports-us-tariffs-and-trade-relations/943951/",
+   "publisher": "News24",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Donald Trump has waived certain Russia-related sanctions and tariffs, easing immediate concerns for India’s Russian oil imports and exporters facing potential US trade penalties.",
+   "note": "Context only. Macro foreign trade sanctions do not alter US commercial auto underwriting."
+  },
+  {
+   "title": "Retail price impacts from the Iran war are uneven but add up for US households before midterms",
+   "url": "https://cw33.com/business/ap-business/ap-retail-price-impacts-from-the-iran-war-are-uneven-but-add-up-for-us-households-before-midterms/",
+   "publisher": "CW33",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "sharply higher fuel prices are making it more expensive to drive and fly and adding to the cost of some goods",
+   "note": "Context only. Elevated operating costs squeeze delivery fleet margins, potentially impacting DSP and courier cash flows."
+  },
+  {
+   "title": "Everton 0-2 Chelsea (Oct 17, 2026) Game Analysis - ESPN",
+   "url": "https://www.espn.com/soccer/report/_/gameId/401878771",
+   "publisher": "ESPN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Pedro Neto scored twice in the second half to guide Chelsea to a 2-0 win at Everton on Saturday",
+   "note": "Chelsea defeated Everton 2-0 in Premier League soccer action."
+  },
+  {
+   "title": "India selling more to US despite tariffs, but China trade gap keeps rising",
+   "url": "https://indiashippingnews.com/export/india-selling-more-to-us-despite-tariffs-but-china-trade-gap-keeps-rising/",
+   "publisher": "India Shipping News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "India's shipments to the United States are rising despite tariff-related disruptions.",
+   "note": "India's exports to the US expand despite tariff headwinds while bilateral shipments to China grow quickly."
+  },
+  {
+   "title": "US Appeals Court Blocks Class Actions Over Tesla's Self-Driving Claims",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-16/us-appeals-court-blocks-class-actions-over-teslas-self-driving-claims",
+   "publisher": "U.S. News Money",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "US Appeals Court Blocks Class Actions Over Tesla's Self-Driving Claims",
+   "note": "A US appeals court blocked class certification in lawsuits against Tesla regarding marketing claims for its self-driving vehicle technology."
+  },
+  {
+   "title": "트래블러스(TRV) 2026년 3분기 실적 발표 콜: 핵심 이익 19억 5,000만 달러 기록",
+   "url": "https://www.tradingkey.com/kr/news/transcripts/262221727-tradingkey",
+   "publisher": "tradingkey",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "트래블러스 컴퍼니는 2026년 3분기 핵심 이익 19억 5,000만 달러 (희석주당 9.18달러), 연결 합산비율 86.8%, 기초 합산비율 84.1%를 기록하며 우수한 실적을 거뒀다.",
+   "note": "Context only. Highlights overall profitability of a major incumbent commercial insurer without specific last-mile delivery auto segment data."
+  },
+  {
+   "title": "Field Textbook | The first thing I said to a subordinate who forgot a promise to a client was, 'Let's organize it together'",
+   "url": "https://note.com/koyamanntte/n/n1a6520ab15df?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A subordinate forgot a promise to a client.",
+   "note": "A workplace blog post outlines managerial advice for responding to subordinate mistakes regarding client commitments."
+  },
+  {
+   "title": "What the Office Cafeteria Company KOMPEITO Inherited Was a Milk Delivery Route",
+   "url": "https://note.com/family_biz/n/n27e49c01b693?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "KOMPEITO, a company providing on-site office cafeterias, has taken over seven milk retail stores in the Tokyo metropolitan area.",
+   "note": "Tokyo office cafeteria company KOMPEITO expanded into regional retail by acquiring seven local milk delivery locations."
+  },
+  {
+   "title": "Saudi diplomat says Iran encouraging Houthi escalation against kingdom",
+   "url": "https://www.iranintl.com/en/202610151893",
+   "publisher": "Iran International",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Saudi diplomat says Iran encouraging Houthi escalation against kingdom",
+   "note": "A Saudi diplomat reported that Iran is encouraging Houthi attacks against Saudi Arabia amid broader international tensions."
+  },
+  {
+   "title": "Asus ROG Xbox Ally X20 Review: The Prettiest, Most Comfortable Handheld You Can Buy",
+   "url": "https://gizmodo.com/asus-rog-xbox-ally-x20-review-2000826321",
+   "publisher": "Gizmodo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The OLED Xbox Ally looks, feels, and plays better than ever.",
+   "note": "A consumer tech review examines the design and performance features of Asus's ROG Xbox Ally handheld gaming console."
+  },
+  {
+   "title": "CenterPoint Energy, Inc. Data Breach Investigation",
+   "url": "https://www.almeidalawgroup.com/data-breach-news/centerpoint-energy-inc-data-breach-investigation/",
+   "publisher": "almeidalawgroup.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Read about CenterPoint Energy, Inc. Data Breach Investigation.",
+   "note": "A law firm is investigating a customer data breach incident involving energy utility firm CenterPoint Energy."
+  },
+  {
+   "title": "Georgia’s Lift-Kit Law Exempts Basically Every Pickup Since 2011. A Wrongful-Death Suit Wants a Jury to Draw the Line.",
+   "url": "https://theautowire.com/2026/10/13/georgia-lift-kit-law-exemption-wrongful-death-lawsuit-f150/",
+   "publisher": "theautowire.com",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Georgia's 2024 lift law exempts trucks with stability control. A wrongful-death suit over a lifted F-150 now asks a jury where the line is.",
+   "note": "Context only. Highlights Georgia auto tort exposure, though aftermarket lift-kit litigation rarely impacts standardized delivery cargo vans and box trucks."
+  }
+ ],
+ "digest": "- A Texas judge upheld a nuclear verdict against C.H. Robinson, reinforcing severe commercial auto liability risks that drive up reinsurance costs and necessitate strict telematics"
+}

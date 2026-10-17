@@ -499,5 +499,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-17T06:16:02Z"
+ },
+ "트래블러스 컴퍼니": {
+  "name": "트래블러스 컴퍼니",
+  "first_seen": "2026-10-17T16:39:21Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_bdd920c83b2b"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-17T16:39:21Z"
+ },
+ "트래블러스": {
+  "name": "트래블러스",
+  "first_seen": "2026-10-17T16:39:21Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_bdd920c83b2b"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-17T16:39:21Z"
  }
 }
