@@ -350,12 +350,14 @@
  "Chubb Limited": {
   "name": "Chubb Limited",
   "first_seen": "2026-10-16T17:51:13Z",
-  "mentions": 1,
+  "mentions": 3,
   "event_ids": [
-   "ev_b46b6b1039fc"
+   "ev_b46b6b1039fc",
+   "ev_8d6b7880bbc6",
+   "ev_36cccdf1d5a8"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T17:51:13Z"
+  "last_seen": "2026-10-17T06:16:02Z"
  },
  "TheZebra.com": {
   "name": "TheZebra.com",
@@ -400,12 +402,13 @@
  "Arity": {
   "name": "Arity",
   "first_seen": "2026-10-16T18:18:53Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_28bc48a3921f"
+   "ev_28bc48a3921f",
+   "ev_4a220a8b871f"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T18:18:53Z"
+  "last_seen": "2026-10-17T06:16:02Z"
  },
  "INRIX": {
   "name": "INRIX",
@@ -436,5 +439,65 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-16T18:18:53Z"
+ },
+ "Fair Isaac": {
+  "name": "Fair Isaac",
+  "first_seen": "2026-10-17T06:16:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7b0b98e86a7d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-17T06:16:02Z"
+ },
+ "Equifax": {
+  "name": "Equifax",
+  "first_seen": "2026-10-17T06:16:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7b0b98e86a7d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-17T06:16:02Z"
+ },
+ "Accenture": {
+  "name": "Accenture",
+  "first_seen": "2026-10-17T06:16:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7b0b98e86a7d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-17T06:16:02Z"
+ },
+ "Corgi Insurance": {
+  "name": "Corgi Insurance",
+  "first_seen": "2026-10-17T06:16:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_38d65b7e5dbc"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-17T06:16:02Z"
+ },
+ "Inrix": {
+  "name": "Inrix",
+  "first_seen": "2026-10-17T06:16:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_4a220a8b871f"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-17T06:16:02Z"
+ },
+ "Allstate": {
+  "name": "Allstate",
+  "first_seen": "2026-10-17T06:16:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_4a220a8b871f"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-17T06:16:02Z"
  }
 }
