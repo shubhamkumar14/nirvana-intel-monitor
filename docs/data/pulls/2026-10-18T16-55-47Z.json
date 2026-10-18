@@ -1,0 +1,919 @@
+{
+ "run_id": "2026-10-18T16-55-47Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/39147231799",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-18",
+ "started": "2026-10-18T16:55:47Z",
+ "duration_s": 120.8,
+ "baseline": false,
+ "previous_run": "2026-10-18T06-38-50Z",
+ "previous_started": "2026-10-18T06:38:50Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest",
+ "counts": {
+  "raw": 295,
+  "unique": 278,
+  "known_skipped": 258,
+  "attached_existing": 0,
+  "prefiltered_out": 3,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 17,
+  "irrelevant": 13,
+  "quarantined": 0,
+  "new_events": 4,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.729,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.9500000000000002,
+  "dedup_ratio": 0.939,
+  "relevance_rate": 0.235
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 255
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 312
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 370
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 165
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 354
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 950
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 289
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 259
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 318
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 248
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 233
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 274
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 138
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 183
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 136
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 221
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 255
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 231
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 142
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 286
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 234
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 277
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 268
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 248
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 209
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 143
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 271
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 178
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 195
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 213
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 228
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 237
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 138
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1529
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1916
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 289
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1008
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 324
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 732
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 947
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 3130,
+  "output_tokens": 2569,
+  "calls": 2,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 2
+  }
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_62e0a430329f",
+   "title": "Insurance for Rideshare and Delivery Drivers: What Your Personal Policy Won’t Cover",
+   "url": "https://www.autoracing1.com/pl/506710/insurance-for-rideshare-and-delivery-drivers-what-your-personal-policy-wont-cover/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.7,
+   "summary": "An educational guide explains coverage exclusions in personal auto policies for gig delivery and rideshare drivers, highlighting commercial insurance necessity.",
+   "evidence_quote": "Learn about insurance for rideshare and delivery drivers to protect your income and avoid unexpected expenses while driving.",
+   "companies": [],
+   "implication": "Heightened driver awareness of personal auto coverage gaps supports demand for specialized gig and last-mile commercial delivery insurance solutions.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-16T03:37:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-18T16:55:47Z",
+   "first_run": "2026-10-18T16-55-47Z",
+   "last_seen": "2026-10-18T16:55:47Z",
+   "last_updated_run": "2026-10-18T16-55-47Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "62e0a430329f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.autoracing1.com/pl/506710/insurance-for-rideshare-and-delivery-drivers-what-your-personal-policy-wont-cover/",
+     "publisher": "AutoRacing1",
+     "publisher_key": "autoracing1",
+     "published": "2026-10-16T03:37:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 52.1,
+   "age_days": 2.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.78,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_30873c7d88f0",
+   "title": "A truck company founder was indicted for fraud. California still paid $50 million for its vehicles",
+   "url": "https://www.yahoo.com/news/us/articles/truck-company-founder-indicted-fraud-100000082.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "California awarded fifty million dollars in zero-emission truck incentives to Nikola Corp. despite fraud charges against its former CEO.",
+   "evidence_quote": "His company's vehicles were the most heavily subsidized in California's $1-billion clean truck incentive program",
+   "companies": [
+    "Nikola Corp."
+   ],
+   "implication": "California zero-emission truck fleet incentives continue despite controversy, which could influence future EV cargo van and medium-duty delivery adoption.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-18T03:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-18T16:55:47Z",
+   "first_run": "2026-10-18T16-55-47Z",
+   "last_seen": "2026-10-18T16:55:47Z",
+   "last_updated_run": "2026-10-18T16-55-47Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "30873c7d88f0"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/us/articles/truck-company-founder-indicted-fraud-100000082.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-10-18T03:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_7ebb5dac82ae",
+   "title": "Tesla Wins Major Self-Driving Lawsuit Appeal Because Buyers May Not Have Seen Its Advertising",
+   "url": "https://www.yahoo.com/news/us/articles/tesla-wins-major-self-driving-155944588.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Tesla won an appeal in a lawsuit challenging its Full Self-Driving marketing because plaintiffs could not prove buyers saw the ads.",
+   "evidence_quote": "Tesla has won a major appeal in a lawsuit accusing the automaker of misleading customers about its Full Self-Driving technology",
+   "companies": [
+    "Tesla"
+   ],
+   "implication": "Illustrates defense viability in automated driving marketing disputes, but provides minimal direct impact on commercial delivery telematics underwriting.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-17T08:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-18T16:55:47Z",
+   "first_run": "2026-10-18T16-55-47Z",
+   "last_seen": "2026-10-18T16:55:47Z",
+   "last_updated_run": "2026-10-18T16-55-47Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "7ebb5dac82ae"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/us/articles/tesla-wins-major-self-driving-155944588.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-10-17T08:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.6,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_05838e784e38",
+   "title": "HERE Technologies and Wherobots Partner to Give AI Agents Geospatial Intelligence",
+   "url": "https://finance.yahoo.com/technology/ai/articles/technologies-wherobots-partner-ai-agents-070000220.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "HERE Technologies and Wherobots partnered to integrate mapping data and geospatial intelligence into artificial intelligence agents.",
+   "evidence_quote": "Wherobots, and HERE Technologies, the world's leading mapping and location data company, have formed a strategic partnership",
+   "companies": [
+    "HERE Technologies",
+    "Wherobots"
+   ],
+   "implication": "Supplies context on advancing geospatial intelligence tools that could eventually enhance fleet routing or telematics spatial risk modeling.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-14T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-18T16:55:47Z",
+   "first_run": "2026-10-18T16-55-47Z",
+   "last_seen": "2026-10-18T16:55:47Z",
+   "last_updated_run": "2026-10-18T16-55-47Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "05838e784e38"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/technologies-wherobots-partner-ai-agents-070000220.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-14T00:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 43.9,
+   "age_days": 4.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.63,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Texans safety Reed Blankenship suffers concussion vs. Jaguars in London",
+   "url": "https://www.espn.com/nfl/story/_/id/50210735/texans-safety-reed-blankenship-suffers-concussion-london",
+   "publisher": "ESPN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The Texans lost starter safety Reed Blankenship to a concussion",
+   "note": "Houston Texans safety Reed Blankenship suffered a concussion during an NFL game against the Jaguars in London."
+  },
+  {
+   "title": "Compact A-frame tiny house makes room for a few home comforts",
+   "url": "https://newatlas.com/tiny-houses/mini-brda-bay-window/",
+   "publisher": "New Atlas",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Compact A-frame tiny house makes room for a few home comforts",
+   "note": "Mini Domy has developed a compact A-frame tiny house offering limited living amenities."
+  },
+  {
+   "title": "Nara Smith Can ‘Absolutely’ Afford a Birkin, but Says She Won’t Drop More Than $13K on the Bag for One Simple Reason",
+   "url": "https://www.yahoo.com/entertainment/celebrity/articles/nara-smith-absolutely-afford-birkin-155900629.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Says She Won’t Drop More Than $13K on the Bag",
+   "note": "Influencer Nara Smith stated she refuses to spend over thirteen thousand dollars on a Birkin bag."
+  },
+  {
+   "title": "Man Utd fail to relieve pressure on Carrick after draw at Leeds",
+   "url": "https://sports.yahoo.com/articles/man-utd-fail-relieve-pressure-153323506.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Man Utd fail to relieve pressure on Carrick after draw at Leeds",
+   "note": "Manchester United drew against Leeds, leaving manager Michael Carrick under sustained pressure with one win in seven matches."
+  },
+  {
+   "title": "Can You Use A Ryobi Battery On A Dyson Vacuum Cleaner?",
+   "url": "https://www.aol.com/articles/ryobi-battery-dyson-vacuum-cleaner-144500000.html",
+   "publisher": "AOL",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Can You Use A Ryobi Battery On A Dyson Vacuum Cleaner?",
+   "note": "An article discusses whether power tool batteries from Ryobi can be used in Dyson vacuum cleaners."
+  },
+  {
+   "title": "Jenny McCarthy Says Tom Cruise’s Wedding Guests Went Silent When She Held Baby Suri: ‘Scientology Stare’",
+   "url": "https://wealthofgeeks.com/jenny-mccarthy-says-tom-cruises-wedding-guests-went-silent-when-she-held-baby-suri-scientology-stare/",
+   "publisher": "Wealth of Geeks",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Jenny McCarthy Says Tom Cruise’s Wedding Guests Went Silent",
+   "note": "Jenny McCarthy recounted an uncomfortable interaction at Tom Cruise's 2006 wedding rehearsal dinner."
+  },
+  {
+   "title": "12 Things $50 Buys at Completely Different Types of Restaurants",
+   "url": "https://www.aol.com/articles/12-things-50-buys-completely-132328000.html",
+   "publisher": "AOL",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "12 Things $50 Buys at Completely Different Types of Restaurants",
+   "note": "A feature highlights various food items and restaurant options that can be purchased for fifty dollars."
+  },
+  {
+   "title": "2 babies suffered brain injuries at same Texas hospital 25 days apart. 1 died, lawsuits say",
+   "url": "https://www.yahoo.com/news/us/articles/2-babies-suffered-brain-injuries-115000411.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "families are suing Medical City and the physicians involved in the deliveries",
+   "note": "Lawsuits were filed against Medical City and doctors after two infants suffered birth-related brain injuries at a Texas hospital."
+  },
+  {
+   "title": "A truck company founder was indicted for fraud. California still paid $50 million for its vehicles",
+   "url": "https://www.yahoo.com/news/us/articles/truck-company-founder-indicted-fraud-100000082.html",
+   "publisher": "Yahoo",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "His company's vehicles were the most heavily subsidized in California's $1-billion clean truck incentive program",
+   "note": "California zero-emission truck fleet incentives continue despite controversy, which could influence future EV cargo van and medium-duty delivery adoption."
+  },
+  {
+   "title": "US arms firm Anduril could make interceptors in Europe, executive says",
+   "url": "https://www.defensenews.com/industry/techwatch/2026/10/18/us-arms-firm-anduril-could-make-interceptors-in-europe-executive-says/",
+   "publisher": "Defense News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "US arms firm Anduril could make interceptors in Europe",
+   "note": "Defense firm Anduril may produce its Steelfin interceptor missiles in Europe, according to an executive."
+  },
+  {
+   "title": "Battling Whites forced to settle for point in Women's top-two meeting",
+   "url": "https://sports.yahoo.com/articles/battling-whites-forced-settle-point-032000919.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Battling Whites forced to settle for point in Women's top-two meeting",
+   "note": "AFC Fylde Women drew nil-nil against Leeds United Women in a top-two league matchup."
+  },
+  {
+   "title": "Tesla Wins Major Self-Driving Lawsuit Appeal Because Buyers May Not Have Seen Its Advertising",
+   "url": "https://www.yahoo.com/news/us/articles/tesla-wins-major-self-driving-155944588.html",
+   "publisher": "Yahoo",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Tesla has won a major appeal in a lawsuit accusing the automaker of misleading customers about its Full Self-Driving technology",
+   "note": "Illustrates defense viability in automated driving marketing disputes, but provides minimal direct impact on commercial delivery telematics underwriting."
+  },
+  {
+   "title": "Taking a bird's-eye view of the system to build assigned features more reliably",
+   "url": "https://note.com/masanote_2026/n/n922ea93f5fcd?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Taking a bird's-eye view of the system to build assigned features more reliably",
+   "note": "A developer discusses methodologies for verifying input checks and implementing application features reliably from design documents."
+  },
+  {
+   "title": "Week in Politics: Trump's Russian diesel deal update; why the DOJ is suing California",
+   "url": "https://www.npr.org/2026/10/17/nx-s1-5998079/week-in-politics-trumps-russian-diesel-deal-update-why-the-doj-is-suing-california",
+   "publisher": "NPR",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Trump's Russian diesel deal update; why the DOJ is suing California",
+   "note": "NPR reviews current updates on a Russian diesel import agreement and federal legal actions against California."
+  },
+  {
+   "title": "Insurance for Rideshare and Delivery Drivers: What Your Personal Policy Won’t Cover",
+   "url": "https://www.autoracing1.com/pl/506710/insurance-for-rideshare-and-delivery-drivers-what-your-personal-policy-wont-cover/",
+   "publisher": "AutoRacing1",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Learn about insurance for rideshare and delivery drivers to protect your income and avoid unexpected expenses while driving.",
+   "note": "Heightened driver awareness of personal auto coverage gaps supports demand for specialized gig and last-mile commercial delivery insurance solutions."
+  },
+  {
+   "title": "HERE Technologies and Wherobots Partner to Give AI Agents Geospatial Intelligence",
+   "url": "https://finance.yahoo.com/technology/ai/articles/technologies-wherobots-partner-ai-agents-070000220.html",
+   "publisher": "Yahoo Finance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Wherobots, and HERE Technologies, the world's leading mapping and location data company, have formed a strategic partnership",
+   "note": "Supplies context on advancing geospatial intelligence tools that could eventually enhance fleet routing or telematics spatial risk modeling."
+  },
+  {
+   "title": "Washington resident charged with conspiracy in Canada school shooting is ordered detained",
+   "url": "https://www.wowktv.com/news/u-s-world/ap-washington-resident-charged-with-conspiracy-in-canada-shool-shooting-is-ordered-detained/",
+   "publisher": "WOWK-TV",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Washington resident charged with conspiracy in Canada school shooting is ordered detained",
+   "note": "A Washington state resident was detained in connection with conspiracy charges related to a Canadian school shooting."
+  }
+ ],
+ "digest": "- Coverage guides are spotlighting personal auto exclusions for gig delivery drivers, reinforcing commercial coverage requirements and expanding market demand for specialized last-mile"
+}

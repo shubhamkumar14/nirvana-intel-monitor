@@ -519,5 +519,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-17T16:39:21Z"
+ },
+ "HERE Technologies": {
+  "name": "HERE Technologies",
+  "first_seen": "2026-10-18T16:55:47Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_05838e784e38"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-18T16:55:47Z"
+ },
+ "Wherobots": {
+  "name": "Wherobots",
+  "first_seen": "2026-10-18T16:55:47Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_05838e784e38"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-18T16:55:47Z"
  }
 }
