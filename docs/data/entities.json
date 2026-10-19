@@ -350,14 +350,16 @@
  "Chubb Limited": {
   "name": "Chubb Limited",
   "first_seen": "2026-10-16T17:51:13Z",
-  "mentions": 3,
+  "mentions": 5,
   "event_ids": [
    "ev_b46b6b1039fc",
    "ev_8d6b7880bbc6",
-   "ev_36cccdf1d5a8"
+   "ev_36cccdf1d5a8",
+   "ev_8b95a5d9b527",
+   "ev_07027c3ad464"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-17T06:16:02Z"
+  "last_seen": "2026-10-19T06:57:11Z"
  },
  "TheZebra.com": {
   "name": "TheZebra.com",
@@ -539,5 +541,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-18T16:55:47Z"
+ },
+ "Ford Pro": {
+  "name": "Ford Pro",
+  "first_seen": "2026-10-19T06:57:11Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_83cb15e44c37"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-19T06:57:11Z"
  }
 }
