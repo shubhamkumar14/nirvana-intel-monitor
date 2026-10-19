@@ -551,5 +551,46 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-19T06:57:11Z"
+ },
+ "DOXA": {
+  "name": "DOXA",
+  "first_seen": "2026-10-19T19:29:27Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7ec0b6ed142a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-19T19:29:27Z"
+ },
+ "DOXA Re": {
+  "name": "DOXA Re",
+  "first_seen": "2026-10-19T19:29:27Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7ec0b6ed142a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-19T19:29:27Z"
+ },
+ "Travelers": {
+  "name": "Travelers",
+  "first_seen": "2026-10-19T19:29:27Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_b9253d838792",
+   "ev_a343eb05b0ef"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-19T19:29:27Z"
+ },
+ "Definity": {
+  "name": "Definity",
+  "first_seen": "2026-10-19T19:29:27Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b9253d838792"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-19T19:29:27Z"
  }
 }
