@@ -1,0 +1,1018 @@
+{
+ "run_id": "2026-10-20T06-42-13Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/39381912255",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-20",
+ "started": "2026-10-20T06:42:13Z",
+ "duration_s": 265.4,
+ "baseline": false,
+ "previous_run": "2026-10-19T19-29-27Z",
+ "previous_started": "2026-10-19T19:29:27Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest",
+ "counts": {
+  "raw": 289,
+  "unique": 276,
+  "known_skipped": 235,
+  "attached_existing": 0,
+  "prefiltered_out": 20,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 21,
+  "irrelevant": 16,
+  "quarantined": 0,
+  "new_events": 5,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.854,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.6,
+  "dedup_ratio": 0.924,
+  "relevance_rate": 0.238
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 240
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 2528
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 216
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 277
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 182
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 157
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 636
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 928
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 270
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 383
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 341
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 459
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 253
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 298
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 240
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 250
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 303
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 491
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 344
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 163
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 421
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 337
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 369
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 494
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 185
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 145
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 471
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 464
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 323
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 216
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 381
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 586
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 306
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 160
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 129
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1482
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 457
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 317
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 973
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 318
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 932
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1041
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 4507,
+  "output_tokens": 3437,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 3
+  }
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_7b917770e42a",
+   "title": "Freight Fraud Gets More Strategic Heading Into Peak Season",
+   "url": "https://www.freightwaves.com/news/freight-fraud-gets-more-strategic-heading-into-peak-season",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "Q2 2026 freight cargo theft incidents dropped 25% year-over-year, but total losses doubled to $304.6 million ahead of peak season.",
+   "evidence_quote": "losses over that same period more than doubled, to $304.6 million, with the average theft",
+   "companies": [],
+   "implication": "Rising theft severity impacts cargo coverage pricing for delivery and courier fleets during high-volume peak seasons; telematics tracking can serve as a risk-mitigation selling point.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-19T22:31:39Z",
+   "date_known": true,
+   "first_seen": "2026-10-20T06:42:13Z",
+   "first_run": "2026-10-20T06-42-13Z",
+   "last_seen": "2026-10-20T06:42:13Z",
+   "last_updated_run": "2026-10-20T06-42-13Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "7b917770e42a"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/freight-fraud-gets-more-strategic-heading-into-peak-season",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-19T22:31:39Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 63.8,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.97,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_c6c8d775eaf4",
+   "title": "Chewy vs. DoorDash: As Consumers Tighten Their Wallets, Which Stock Can Thrive?",
+   "url": "https://www.fool.com/coverage/better-buy/2026/10/19/chewy-vs-doordash-as-consumers-tighten-their-wallets-which-stock-can-thrive/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Stock comparison between Chewy and DoorDash examining consumer spending slowdown, profitability, and delivery platform valuation profiles.",
+   "evidence_quote": "One dominates through subscription predictability; the other through explosive growth and profitability.",
+   "companies": [
+    "DoorDash"
+   ],
+   "implication": "Context only. Highlights delivery platform business model performance amid consumer tightening; monitor for downstream gig-driver order volume trends.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-19T13:20:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-20T06:42:13Z",
+   "first_run": "2026-10-20T06-42-13Z",
+   "last_seen": "2026-10-20T06:42:13Z",
+   "last_updated_run": "2026-10-20T06-42-13Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "c6c8d775eaf4"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fool.com/coverage/better-buy/2026/10/19/chewy-vs-doordash-as-consumers-tighten-their-wallets-which-stock-can-thrive/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-10-19T13:20:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_2cdcef9ce81f",
+   "title": "Waymo's plan to flood US cities with Chinese-made robotaxis sparks national security fears over ties to Beijing",
+   "url": "https://www.dailymail.com/yourmoney/article-16221527/chinese-cars-waymo-robotaxis-us.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Waymo ordered Chinese-built autonomous vehicles for US robotaxi expansion, drawing national security and regulatory scrutiny.",
+   "evidence_quote": "Waymo has ordered thousands of Chinese-made vehicles as it races to flood American cities with futuristic driverless taxis",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Context only. Autonomous passenger robotaxis do not impact near-term commercial auto delivery van fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-19T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-20T06:42:13Z",
+   "first_run": "2026-10-20T06-42-13Z",
+   "last_seen": "2026-10-20T06:42:13Z",
+   "last_updated_run": "2026-10-20T06-42-13Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "2cdcef9ce81f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.dailymail.com/yourmoney/article-16221527/chinese-cars-waymo-robotaxis-us.html",
+     "publisher": "Daily Mail",
+     "publisher_key": "daily mail",
+     "published": "2026-10-19T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_583a791ae87b",
+   "title": "Trump tariff fight pushes up Canadian business costs as about half of consumers fear recession: Bank of Canada",
+   "url": "https://www.msn.com/en-ca/news/other/trump-tariff-fight-pushes-up-canadian-business-costs-as-about-half-of-consumers-fear-recession-bank-of-canada/ar-AA2fC7V8",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Tariff disputes between the US and Canada are increasing business costs and raising recession fears among Canadian consumers.",
+   "evidence_quote": "Canada’s trade dispute with the United States is beginning to squeeze businesses and households from different directions.",
+   "companies": [],
+   "implication": "Context only. Broad macro pressure in Canada; minimal direct relevance to US domestic last-mile fleet coverage.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-19T21:25:06Z",
+   "date_known": true,
+   "first_seen": "2026-10-20T06:42:13Z",
+   "first_run": "2026-10-20T06-42-13Z",
+   "last_seen": "2026-10-20T06:42:13Z",
+   "last_updated_run": "2026-10-20T06-42-13Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "583a791ae87b"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-ca/news/other/trump-tariff-fight-pushes-up-canadian-business-costs-as-about-half-of-consumers-fear-recession-bank-of-canada/ar-AA2fC7V8",
+     "publisher": "#Investing on MSN",
+     "publisher_key": "#investing on msn",
+     "published": "2026-10-19T21:25:06Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_0c495af17f61",
+   "title": "KKR to Sell Infinity Transportation to Ares for $2.9 Billion",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kkr-sell-infinity-transportation-ares-105000070.html",
+   "lane": "market_driver",
+   "event_type": "m_and_a",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "KKR signed an agreement to sell Infinity Transportation to Ares Management for $2.9 billion.",
+   "evidence_quote": "KKR will sell Infinity Transportation (\"Infinity\" or the \"Company\"),",
+   "companies": [],
+   "implication": "Context only. Large transportation infrastructure transaction; no direct linkage to last-mile commercial auto underwriting or courier fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-19T03:50:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-20T06:42:13Z",
+   "first_run": "2026-10-20T06-42-13Z",
+   "last_seen": "2026-10-20T06:42:13Z",
+   "last_updated_run": "2026-10-20T06-42-13Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "0c495af17f61"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/kkr-sell-infinity-transportation-ares-105000070.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-19T03:50:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"Asero\" insurance transportation"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.9,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Walmart’s Flipkart is quietly building a food delivery challenger in India",
+   "url": "https://techcrunch.com/2026/10/19/walmarts-flipkart-is-quietly-building-a-food-delivery-challenger-in-india/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "product_launch",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Flipkart has expanded access to its food-delivery service to thousands of employees ahead of its public launch.",
+   "note": "Walmart's Flipkart is preparing a food delivery service in India, rolling out employee access prior to public launch."
+  },
+  {
+   "title": "15 Must-Have Workman Items for Mature Women: Stylish Clothes and Shoes That Keep Selling Out [2026]",
+   "url": "https://note.com/ladysme/n/n360ecaec71e5?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Workman is currently surging in popularity, offering comfortable functionality and affordable prices",
+   "note": "Lifestyle article discussing Workman branded apparel and footwear popular among women."
+  },
+  {
+   "title": "Freight Fraud Gets More Strategic Heading Into Peak Season",
+   "url": "https://www.freightwaves.com/news/freight-fraud-gets-more-strategic-heading-into-peak-season",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "losses over that same period more than doubled, to $304.6 million, with the average theft",
+   "note": "Rising theft severity impacts cargo coverage pricing for delivery and courier fleets during high-volume peak seasons; telematics tracking can serve as a risk-mitigation selling point."
+  },
+  {
+   "title": "Trump tariff fight pushes up Canadian business costs as about half of consumers fear recession: Bank of Canada",
+   "url": "https://www.msn.com/en-ca/news/other/trump-tariff-fight-pushes-up-canadian-business-costs-as-about-half-of-consumers-fear-recession-bank-of-canada/ar-AA2fC7V8",
+   "publisher": "#Investing on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Canada’s trade dispute with the United States is beginning to squeeze businesses and households from different directions.",
+   "note": "Context only. Broad macro pressure in Canada; minimal direct relevance to US domestic last-mile fleet coverage."
+  },
+  {
+   "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+   "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps",
+   "note": "Amazon introduced TorchNeuron developer tools to challenge Nvidia's dominance in AI chip software."
+  },
+  {
+   "title": "Player-by-player takeaways from Vanderbilt basketball's exhibition win over UAB",
+   "url": "https://www.msn.com/en-us/sports/basketball/player-by-player-takeaways-from-vanderbilt-basketball-s-exhibition-win-over-uab/ar-AA2fBDcs",
+   "publisher": "Sports Illustrated on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Vanderbilt basketball took down UAB 97-65 and a number of individuals stood out while it did so.",
+   "note": "Recap of Vanderbilt college basketball's exhibition victory over UAB."
+  },
+  {
+   "title": "Waymo's plan to flood US cities with Chinese-made robotaxis sparks national security fears over ties to Beijing",
+   "url": "https://www.dailymail.com/yourmoney/article-16221527/chinese-cars-waymo-robotaxis-us.html",
+   "publisher": "Daily Mail",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Waymo has ordered thousands of Chinese-made vehicles as it races to flood American cities with futuristic driverless taxis",
+   "note": "Context only. Autonomous passenger robotaxis do not impact near-term commercial auto delivery van fleets."
+  },
+  {
+   "title": "‘He Wasn’t Blaming This on Anyone’ — Patriots WR A.J. Brown Earns Praise From Hall of Famer for Taking Accountability After Three Drops vs. Jets",
+   "url": "https://sports.yahoo.com/articles/wasn-t-blaming-anyone-patriots-055229867.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A. J. Brown waited four games to return to the New England Patriots lineup, but his long-awaited comeback Sunday was marred by three dropped passes.",
+   "note": "Patriots receiver A.J. Brown took accountability after dropping three passes against the Jets."
+  },
+  {
+   "title": "76ers’ Jaylen Brown Turns Heads With Bizarre Confession",
+   "url": "https://www.yahoo.com/lifestyle/articles/76ers-jaylen-brown-turns-heads-060137882.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Philadelphia 76ers star Jaylen Brown has made plenty of headlines throughout his NBA career",
+   "note": "Philadelphia 76ers player Jaylen Brown drew attention for comments outside basketball."
+  },
+  {
+   "title": "Inside Ant Brown’s Night in Vanderbilt Basketball’s Exhibition Win Over UAB",
+   "url": "https://www.si.com/college/vanderbilt/basketball/inside-ant-brown-s-night-in-vanderbilt-basketball-s-exhibition-win-over-uab",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "It was one of his first highlights of the career of Vanderbilt basketball freshman Ant Brown.",
+   "note": "Vanderbilt basketball player Ant Brown highlights from exhibition game against UAB."
+  },
+  {
+   "title": "PS6 Price Could Top $1,000 as RAM and Storage Reportedly Cost Over $680",
+   "url": "https://www.shanethegamer.com/news/ps6-price-1000-leak/",
+   "publisher": "shanethegamer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Leaker Kepler_L2 claims PS6 RAM and storage cost over $680, putting the PS6 price under pressure.",
+   "note": "Console hardware leaks suggest the PlayStation 6 component costs for memory could push retail pricing over $1,000."
+  },
+  {
+   "title": "Carmelo Anthony echoes the claim Jaylen Brown made about himself last March: \"If Wemby wasn’t in the league, he could be DPOY”",
+   "url": "https://sports.yahoo.com/articles/carmelo-anthony-echoes-claim-jaylen-214137831.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Carmelo Anthony dubbed anointed Jaylen Brown as the best two-way player in the NBA today",
+   "note": "Carmelo Anthony discussed NBA player Jaylen Brown's defensive capabilities relative to Victor Wembanyama."
+  },
+  {
+   "title": "Chewy vs. DoorDash: As Consumers Tighten Their Wallets, Which Stock Can Thrive?",
+   "url": "https://www.fool.com/coverage/better-buy/2026/10/19/chewy-vs-doordash-as-consumers-tighten-their-wallets-which-stock-can-thrive/",
+   "publisher": "The Motley Fool",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "One dominates through subscription predictability; the other through explosive growth and profitability.",
+   "note": "Context only. Highlights delivery platform business model performance amid consumer tightening; monitor for downstream gig-driver order volume trends."
+  },
+  {
+   "title": "OIL SHIPPING COSTS SOAR: Hormuz Attacks Push Tanker Rates To Records Despite Falling Crude Prices",
+   "url": "https://www.theyeshivaworld.com/news/israel-news/2611824/oil-shipping-costs-soar-hormuz-attacks-push-tanker-rates-to-records-despite-falling-crude-prices.html",
+   "publisher": "The Yeshiva World",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "disruptions around the Strait of Hormuz drive tanker rates and insurance expenses to unusually",
+   "note": "Hormuz attacks increased international oil tanker freight rates and maritime insurance premiums."
+  },
+  {
+   "title": "KUMBA IRON ORE LIMITED – Kumba production and sales report for the third quarter ended 30 September 2026",
+   "url": "https://www.moneyweb.co.za/mny_sens/kumba-iron-ore-limited-kumba-production-and-sales-report-for-the-third-quarter-ended-30-september-2026/",
+   "publisher": "Moneyweb",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "We delivered a resilient third quarter performance, supported by safe and focused operational and project execution",
+   "note": "Kumba Iron Ore reported third-quarter operational and sales figures."
+  },
+  {
+   "title": "U.S. Global’s Frank Holmes Follows the Freight: What Shipping and Airline Trends Reveal About the Global Economy",
+   "url": "https://www.thewealthadvisor.com/article/us-globals-frank-holmes-follows-freight-what-shipping-and-airline-trends-reveal-about",
+   "publisher": "thewealthadvisor",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Tariffs, oil spikes, and flare-ups along critical shipping lanes have given investors plenty of reasons to brace for a slowdown.",
+   "note": "US Global Investors analyst reviews global freight, shipping lane attacks, and airline trends for macroeconomic indicators."
+  },
+  {
+   "title": "Rodinné podniky tvoria väčšinu zamestnanosti na Slovensku. Čelia však ľudským rizikám, ukázal prieskum",
+   "url": "https://hnonline.sk/finweb/ekonomika/96308616-rodinne-podniky-tvoria-vacsinu-zamestnanosti-na-slovensku-celia-vsak-ludskym-rizikam-ukazal-prieskum",
+   "publisher": "HNonline.sk",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Slovenské malé a stredné podniky majú podľa prieskumu v európskom porovnaní veľmi silnú pozíciu.",
+   "note": "Survey on employment and operational risks among family-owned businesses in Slovakia."
+  },
+  {
+   "title": "KKR to Sell Infinity Transportation to Ares for $2.9 Billion",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kkr-sell-infinity-transportation-ares-105000070.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "m_and_a",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "KKR will sell Infinity Transportation (\"Infinity\" or the \"Company\"),",
+   "note": "Context only. Large transportation infrastructure transaction; no direct linkage to last-mile commercial auto underwriting or courier fleets."
+  },
+  {
+   "title": "99 euró egy adag spagettiért? Egy bécsi étterem árai sokakat meglepnek",
+   "url": "https://parameter.sk/1395262/99-euro-egy-adag-spagettiert-egy-becsi-etterem-arai-sokakat-meglepnek/",
+   "publisher": "Paraméter",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Egy bécsi étterem nagyon borsos áraival hívta fel magára a figyelmet.",
+   "note": "Article on a Vienna restaurant charging 99 euros for spaghetti carbonara."
+  },
+  {
+   "title": "Best Homeowners Insurance Companies of October 2026",
+   "url": "https://www.usnews.com/insurance/homeowners-insurance",
+   "publisher": "U.S. News & World Report",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amica is the overall best homeowners insurance provider in our in-depth analysis of nearly 30 insurers.",
+   "note": "U.S. News ranked top homeowners insurance providers for October 2026, naming Amica top choice."
+  },
+  {
+   "title": "Brokfill Expands Nationwide Delivery Coverage with USPS Shipping Integration",
+   "url": "https://finance.yahoo.com/small-business/articles/brokfill-expands-nationwide-delivery-coverage-222400699.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Merchants using Brokfill can now ship to every U.S. address through USPS",
+   "note": "Brokfill integrated with USPS, enabling e-commerce merchants to ship packages across all U.S. addresses, including rural and P.O. Box locations."
+  }
+ ],
+ "digest": "- Q2 freight theft losses doubled to $304.6 million despite fewer incidents, driving up delivery cargo risk. Telematics"
+}
