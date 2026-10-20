@@ -384,12 +384,13 @@
  "Vertafore": {
   "name": "Vertafore",
   "first_seen": "2026-10-16T18:03:58Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_e3a0f92aa34a"
+   "ev_e3a0f92aa34a",
+   "ev_790254fd3ac5"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T18:03:58Z"
+  "last_seen": "2026-10-20T18:06:58Z"
  },
  "Evri": {
   "name": "Evri",
@@ -575,13 +576,14 @@
  "Travelers": {
   "name": "Travelers",
   "first_seen": "2026-10-19T19:29:27Z",
-  "mentions": 2,
+  "mentions": 3,
   "event_ids": [
    "ev_b9253d838792",
-   "ev_a343eb05b0ef"
+   "ev_a343eb05b0ef",
+   "ev_f136d22037f9"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-19T19:29:27Z"
+  "last_seen": "2026-10-20T18:06:58Z"
  },
  "Definity": {
   "name": "Definity",
@@ -592,5 +594,45 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-19T19:29:27Z"
+ },
+ "Rokstone": {
+  "name": "Rokstone",
+  "first_seen": "2026-10-20T18:06:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3d25ee96e62c"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-20T18:06:58Z"
+ },
+ "Antares Managing Agency Ltd": {
+  "name": "Antares Managing Agency Ltd",
+  "first_seen": "2026-10-20T18:06:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3d25ee96e62c"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-20T18:06:58Z"
+ },
+ "Delegance Brokerage": {
+  "name": "Delegance Brokerage",
+  "first_seen": "2026-10-20T18:06:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_10da5d0f953f"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-20T18:06:58Z"
+ },
+ "Arrowhead Intermediaries": {
+  "name": "Arrowhead Intermediaries",
+  "first_seen": "2026-10-20T18:06:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_04c87ff1c83e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-20T18:06:58Z"
  }
 }
