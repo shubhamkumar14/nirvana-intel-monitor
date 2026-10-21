@@ -618,12 +618,14 @@
  "Delegance Brokerage": {
   "name": "Delegance Brokerage",
   "first_seen": "2026-10-20T18:06:58Z",
-  "mentions": 1,
+  "mentions": 3,
   "event_ids": [
-   "ev_10da5d0f953f"
+   "ev_10da5d0f953f",
+   "ev_2855c210e75d",
+   "ev_3e50de656abb"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-20T18:06:58Z"
+  "last_seen": "2026-10-21T06:37:41Z"
  },
  "Arrowhead Intermediaries": {
   "name": "Arrowhead Intermediaries",
@@ -634,5 +636,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-20T18:06:58Z"
+ },
+ "Grit Capital Partners": {
+  "name": "Grit Capital Partners",
+  "first_seen": "2026-10-21T06:37:41Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_2855c210e75d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-21T06:37:41Z"
  }
 }
