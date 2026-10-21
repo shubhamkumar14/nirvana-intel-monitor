@@ -646,5 +646,55 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-21T06:37:41Z"
+ },
+ "SecondSight": {
+  "name": "SecondSight",
+  "first_seen": "2026-10-21T18:16:06Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_1052b8e990c2"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-21T18:16:06Z"
+ },
+ "Progressive": {
+  "name": "Progressive",
+  "first_seen": "2026-10-21T18:16:06Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_6d171a959d11"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-21T18:16:06Z"
+ },
+ "Banyan Risk": {
+  "name": "Banyan Risk",
+  "first_seen": "2026-10-21T18:16:06Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d0357e7a59ba"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-21T18:16:06Z"
+ },
+ "Accredited": {
+  "name": "Accredited",
+  "first_seen": "2026-10-21T18:16:06Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d0357e7a59ba"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-21T18:16:06Z"
+ },
+ "TrueNorth Companies, L.C.": {
+  "name": "TrueNorth Companies, L.C.",
+  "first_seen": "2026-10-21T18:16:06Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_16bee3ae31ed"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-21T18:16:06Z"
  }
 }
