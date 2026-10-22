@@ -1,0 +1,1811 @@
+{
+ "run_id": "2026-10-22T06-38-54Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/39735242765",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-22",
+ "started": "2026-10-22T06:38:54Z",
+ "duration_s": 242.3,
+ "baseline": false,
+ "previous_run": "2026-10-21T18-16-06Z",
+ "previous_started": "2026-10-21T18:16:06Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest",
+ "counts": {
+  "raw": 347,
+  "unique": 329,
+  "known_skipped": 237,
+  "attached_existing": 0,
+  "prefiltered_out": 47,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 45,
+  "irrelevant": 31,
+  "quarantined": 0,
+  "new_events": 14,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.812,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.6,
+  "dedup_ratio": 0.863,
+  "relevance_rate": 0.311
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 274
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 318
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 279
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 508
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 132
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 320
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "error",
+   "items": 0,
+   "error": "HTTP 503",
+   "ms": 9352
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 211
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 374
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 265
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 354
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 355
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 200
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 231
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 303
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 176
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 261
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 183
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 189
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 226
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 265
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 300
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 239
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 247
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 335
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 121
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 180
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 235
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 264
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 284
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 287
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 147
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 150
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 109
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1682
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 724
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 237
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 778
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 275
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 769
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 948
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 9072,
+  "output_tokens": 6981,
+  "calls": 4,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 4
+  }
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_1157af0b5765",
+   "title": "Brown & Brown last/final-mile page page changed (2 new lines)",
+   "url": "https://us.bbrown.com/industries/logistics-transportation/last-mile-and-final-mile-delivery-insurance#chg-21134953",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.8,
+   "summary": "Brown & Brown updated its COMPASS last/final-mile insurance web page with minimal text changes.",
+   "evidence_quote": "rown & Brown COMPASS | rown & Brown COMPASS",
+   "companies": [
+    "Brown & Brown"
+   ],
+   "implication": "Brown & Brown actively maintains its dedicated last-mile brokerage brand; Nirvana should monitor their broker distribution footprint and product positioning.",
+   "action": "watch",
+   "watchlist_companies": [
+    "Risk Strategies / Brown & Brown"
+   ],
+   "published": "2026-10-22T06:38:54Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "1157af0b5765"
+   ],
+   "sources": [
+    {
+     "url": "https://us.bbrown.com/industries/logistics-transportation/last-mile-and-final-mile-delivery-insurance#chg-21134953",
+     "publisher": "us.bbrown.com",
+     "publisher_key": "us.bbrown.com",
+     "published": "2026-10-22T06:38:54Z",
+     "tier": 1,
+     "source_id": "page_watch",
+     "query": null
+    }
+   ],
+   "best_tier": 1,
+   "score": 69.0,
+   "age_days": 0.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.75,
+    "tier": 1,
+    "recency": 1.0,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_4f7aecd8eb59",
+   "title": "Who Pays When a Delivery Driver Hits a Pedestrian While on the Job?",
+   "url": "https://insurancenewsnet.com/oarticle/who-pays-when-a-delivery-driver-hits-a-pedestrian-while-on-the-job",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Article examines liability when working delivery drivers strike pedestrians, noting employer commercial auto insurance typically pays.",
+   "evidence_quote": "Most of the time, the driver's employer pays through its commercial auto insurance, as long as the driver was working when the crash happened.",
+   "companies": [],
+   "implication": "Highlights employer liability exposure for pedestrian accidents in last-mile delivery, reinforcing demand for Nirvana's telematics safety monitoring and commercial auto coverage.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-21T12:32:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "4f7aecd8eb59"
+   ],
+   "sources": [
+    {
+     "url": "https://insurancenewsnet.com/oarticle/who-pays-when-a-delivery-driver-hits-a-pedestrian-while-on-the-job",
+     "publisher": "InsuranceNewsNet",
+     "publisher_key": "insurancenewsnet",
+     "published": "2026-10-21T12:32:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "gig delivery drivers \"commercial auto\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a4676e23c170",
+   "title": "TN High Court Says ‘No’ to PE Ownership of Law Firms But Other Options Open",
+   "url": "https://www.insurancejournal.com/news/southeast/2026/10/22/889892.htm",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "Tennessee Supreme Court blocked private equity ownership of law firms, limiting outside funding avenues that insurers feared would escalate litigation and jury verdicts.",
+   "evidence_quote": "The Tennessee Supreme Court has rejected a rule change that would have allowed private equity companies to own law firms",
+   "companies": [],
+   "implication": "Restricts external capital fueling plaintiff litigation in Tennessee, providing a modest tailwind against social inflation and loss severity for commercial auto fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-22T05:01:16Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "a4676e23c170"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancejournal.com/news/southeast/2026/10/22/889892.htm",
+     "publisher": "Insurance Journal",
+     "publisher_key": "insurance journal",
+     "published": "2026-10-22T05:01:16Z",
+     "tier": 2,
+     "source_id": "insurancejournal",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 63.1,
+   "age_days": 0.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.99,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_970549c4a5f9",
+   "title": "Commercial insurance rates fall again in third quarter: Marsh",
+   "url": "https://www.businessinsurance.com/commercial-insurance-rates-fall-again-in-third-quarter-marsh/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "Marsh reported global commercial insurance rates dropped 5% in Q3, a slight deceleration from Q2.",
+   "evidence_quote": "Average commercial insurance rates fell 5% globally in the third quarter, compared with a 6% decline in the second quarter",
+   "companies": [
+    "Marsh"
+   ],
+   "implication": "Softer broad commercial pricing could pressure overall premium levels, though commercial auto often diverges from broad global composite trends.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-21T07:12:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "970549c4a5f9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.businessinsurance.com/commercial-insurance-rates-fall-again-in-third-quarter-marsh/",
+     "publisher": "Business Insurance",
+     "publisher_key": "business insurance",
+     "published": "2026-10-21T07:12:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.1,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e3e008de2765",
+   "title": "Nearly $1M in Pokémon Cards STOLEN from FedEx",
+   "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "A FedEx delivery truck in California was robbed of approximately $1 million in collectible cards.",
+   "evidence_quote": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California.",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Highlights cargo theft exposure for parcel delivery fleets, underscoring the need for tight inland marine sublimits and telematics tracking in high-value lanes.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-21T21:11:21Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "e3e008de2765"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-21T21:11:21Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 57.7,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.96,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_6463ed044d6c",
+   "title": "Lefty NYC Council member shrugs off warnings that her crusade against Amazon could kill thousands of jobs",
+   "url": "https://nypost.com/2026/10/21/us-news/lefty-nyc-council-member-shrugs-off-warnings-that-her-crusade-against-amazon-could-kill-thousands-of-jobs/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "A proposed NYC Delivery Protection Act could lead Amazon to shutter facilities and relocate thousands of jobs.",
+   "evidence_quote": "Council member Tiffany Cabán’s Delivery Protection Act could prompt Amazon to close more than a dozen warehouses and move upwards of 5,000 workers",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Municipal regulatory pressure on Amazon fulfillment in NYC could alter regional DSP route volumes and fleet operational footprints.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-21T16:20:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "6463ed044d6c"
+   ],
+   "sources": [
+    {
+     "url": "https://nypost.com/2026/10/21/us-news/lefty-nyc-council-member-shrugs-off-warnings-that-her-crusade-against-amazon-could-kill-thousands-of-jobs/",
+     "publisher": "New York Post",
+     "publisher_key": "new york post",
+     "published": "2026-10-21T16:20:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_dc8384bcbc6c",
+   "title": "Collectors sent rare Pokémon and sports cards to get graded. Then thieves stole nearly $1 million worth of them from the FedEx truck taking them home",
+   "url": "https://www.msn.com/en-us/money/investment/collectors-sent-rare-pok%C3%A9mon-and-sports-cards-to-get-graded-then-thieves-stole-nearly-1-million-worth-of-them-from-the-fedex-truck-taking-them-home/ar-AA2fKZah",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "Thieves stole nearly $1 million in graded trading cards from a FedEx delivery truck.",
+   "evidence_quote": "Then thieves stole nearly $1 million worth of them from the FedEx truck taking them home",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Demonstrates high-value cargo theft risks in last-mile parcel delivery fleets, underscoring the need for tailored cargo liability limits or exclusions.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-21T11:33:15Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "dc8384bcbc6c"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/investment/collectors-sent-rare-pok%C3%A9mon-and-sports-cards-to-get-graded-then-thieves-stole-nearly-1-million-worth-of-them-from-the-fedex-truck-taking-them-home/ar-AA2fKZah",
+     "publisher": "Fortune on MSN",
+     "publisher_key": "fortune on msn",
+     "published": "2026-10-21T11:33:15Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_35f3ca0f6a36",
+   "title": "Walmart drone deliveries take flight in Charlotte area, raising privacy, safety questions",
+   "url": "https://www.yahoo.com/news/us/articles/walmart-drone-deliveries-flight-charlotte-025022979.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Walmart expanded 30-minute commercial drone delivery to seven store locations in Charlotte, North Carolina.",
+   "evidence_quote": "Walmart has launched drone delivery service at seven locations in the Charlotte area, bringing the promise of deliveries in as little as 30 minutes",
+   "companies": [
+    "Walmart"
+   ],
+   "implication": "Context only; incremental deployment of alternate delivery modes, currently presenting negligible displacement of traditional delivery vans.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-21T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "35f3ca0f6a36"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/us/articles/walmart-drone-deliveries-flight-charlotte-025022979.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-10-21T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_6d8ca3c51574",
+   "title": "Vertical Aerospace eVTOL: The Future of Urgent Air Cargo",
+   "url": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "Vertical Aerospace is developing an eVTOL aircraft aimed at urgent freight and remote cargo logistics.",
+   "evidence_quote": "Vertical Aerospace’s Michael Cervenka explains how their Velocopter eVTOL aircraft is set to transform urgent freight and remote logistics.",
+   "companies": [
+    "Vertical Aerospace"
+   ],
+   "implication": "Context only; long-term speculative cargo technology with zero impact on near-term van and box truck delivery underwriting.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-21T21:15:43Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "6d8ca3c51574"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-21T21:15:43Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 45.7,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.96,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_419f92675b78",
+   "title": "Arrest made after California DoorDash driver found dead in Tesla trunk",
+   "url": "https://www.sfgate.com/bayarea/article/california-body-tesla-arrest-22487729.php",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.4,
+   "summary": "An arrest was made in California following the murder of an on-demand DoorDash gig driver.",
+   "evidence_quote": "A 39-year-old California man has been charged with killing a DoorDash driver whose body was discovered in the trunk of a Tesla",
+   "companies": [
+    "DoorDash"
+   ],
+   "implication": "Context only; illustrates gig-driver personal safety perils, though distinct from fleet physical damage and liability underwriting.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-21T15:28:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "419f92675b78"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sfgate.com/bayarea/article/california-body-tesla-arrest-22487729.php",
+     "publisher": "SFGATE",
+     "publisher_key": "sfgate",
+     "published": "2026-10-21T15:28:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 43.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5bab61a6d644",
+   "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 1,
+   "last_mile_fit": 0.3,
+   "summary": "Walmart enabled AI agent purchases while Amazon moved to restrict them, diverging on autonomous shopping tech.",
+   "evidence_quote": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases",
+   "companies": [
+    "Amazon",
+    "Walmart"
+   ],
+   "implication": "Context only; general e-commerce checkout tech that may marginally influence parcel volume distribution across platforms.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-21T19:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "5bab61a6d644"
+   ],
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+     "publisher": "TechCrunch",
+     "publisher_key": "techcrunch",
+     "published": "2026-10-21T19:30:00Z",
+     "tier": 3,
+     "source_id": "techcrunch",
+     "query": null
+    }
+   ],
+   "best_tier": 3,
+   "score": 42.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_61791084ccaf",
+   "title": "From Russian Oil to U.S. Supply Chains: The Hidden Risk of Secondary Tariffs",
+   "url": "https://www.supplychainbrain.com/blogs/1-think-tank/post/45055-from-russian-oil-to-us-supply-chains-the-hidden-risk-of-secondary-tariffs",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Secondary tariffs risk disrupting interconnected oil, manufacturing, and US transportation supply chains.",
+   "evidence_quote": "Because oil, transportation and manufacturing are interconnected, secondary tariffs could produce a far more complicated response than an ordinary tariff.",
+   "companies": [],
+   "implication": "Context only; macro tariff risk could increase vehicle repair and operational costs over time.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-21T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "61791084ccaf"
+   ],
+   "sources": [
+    {
+     "url": "https://www.supplychainbrain.com/blogs/1-think-tank/post/45055-from-russian-oil-to-us-supply-chains-the-hidden-risk-of-secondary-tariffs",
+     "publisher": "SupplyChainBrain",
+     "publisher_key": "supplychainbrain",
+     "published": "2026-10-21T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_c82e42e2228f",
+   "title": "Public Policy",
+   "url": "https://www.law360.com/publicpolicy",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Supreme Court petition seeks review on whether federal judges can vacate federal administrative agency regulations nationwide.",
+   "evidence_quote": "The Trump administration is asking the U.S. Supreme Court to decide whether the Administrative Procedure Act allows federal judges to universally vacate agency rules",
+   "companies": [],
+   "implication": "Context only; broader administrative law precedent could ultimately affect how federal trucking or labor rules are challenged.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-21T16:06:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "c82e42e2228f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.law360.com/publicpolicy",
+     "publisher": "Law360",
+     "publisher_key": "law360",
+     "published": "2026-10-21T16:06:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_edfcbf73d653",
+   "title": "These 3 logistics firms are fixing e-commerce’s biggest shipping nightmares",
+   "url": "https://www.msn.com/en-us/money/general/these-3-logistics-firms-are-fixing-e-commerce-s-biggest-shipping-nightmares/ar-AA2fKvnp",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "Three logistics firms were recognized as Inc. Power Partners for supporting direct-to-consumer businesses in managing e-commerce shipping and competing against Amazon.",
+   "evidence_quote": "helping DTC businesses compete with the likes of Amazon.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only. Growth in independent e-commerce fulfillment highlights potential demand from non-Amazon courier and parcel fleets, but details on vehicle fleets are absent.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-20T04:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T06:38:54Z",
+   "first_run": "2026-10-22T06-38-54Z",
+   "last_seen": "2026-10-22T06:38:54Z",
+   "last_updated_run": "2026-10-22T06-38-54Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "edfcbf73d653"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/general/these-3-logistics-firms-are-fixing-e-commerce-s-biggest-shipping-nightmares/ar-AA2fKvnp",
+     "publisher": "Inc.com on MSN",
+     "publisher_key": "inc.com on msn",
+     "published": "2026-10-20T04:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"One80\" last mile delivery insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.7,
+   "age_days": 2.1,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.81,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Brown & Brown last/final-mile page page changed (2 new lines)",
+   "url": "https://us.bbrown.com/industries/logistics-transportation/last-mile-and-final-mile-delivery-insurance#chg-21134953",
+   "publisher": "us.bbrown.com",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "rown & Brown COMPASS | rown & Brown COMPASS",
+   "note": "Brown & Brown actively maintains its dedicated last-mile brokerage brand; Nirvana should monitor their broker distribution footprint and product positioning."
+  },
+  {
+   "title": "TN High Court Says ‘No’ to PE Ownership of Law Firms But Other Options Open",
+   "url": "https://www.insurancejournal.com/news/southeast/2026/10/22/889892.htm",
+   "publisher": "Insurance Journal",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The Tennessee Supreme Court has rejected a rule change that would have allowed private equity companies to own law firms",
+   "note": "Restricts external capital fueling plaintiff litigation in Tennessee, providing a modest tailwind against social inflation and loss severity for commercial auto fleets."
+  },
+  {
+   "title": "Reliant Transportation Group, LLC, TIP MNC Acquisition, LLC, TIP MN Investments LP, and Tiger Infrastructure Partners Fund IV AIV LP-Acquisition of Control-Safe-Way Bus Co. and Safe-Way Wisconsin, Inc.",
+   "url": "https://www.federalregister.gov/documents/2026/10/22/2026-21628/reliant-transportation-group-llc-tip-mnc-acquisition-llc-tip-mn-investments-lp-and-tiger",
+   "publisher": "Federal Register",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "authority to acquire, from Jane M. Stiles and Thomas W. Stiles (collectively, Sellers), control of two federally regulated interstate passenger motor carriers: Safe-Way Bus Co.",
+   "note": "Reliant Transportation Group and affiliates sought regulatory approval to acquire passenger motor carrier Safe-Way Bus Co."
+  },
+  {
+   "title": "Knight-Swift projects Q4 2026 adjusted EPS of $0.78-$0.84 as it expects truckload operating income to meaningfully improve sequentially",
+   "url": "https://seekingalpha.com/news/4655692-knight-swift-projects-q4-2026-adjusted-eps-of-0_78-0_84-as-it-expects-truckload-operating",
+   "publisher": "Seeking Alpha",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "We project our adjusted EPS for the fourth quarter of 2026 will be in the range of $0.78 to $0.84",
+   "note": "Knight-Swift projected Q4 2026 adjusted EPS based on sequential truckload volume, rate, and bid trends."
+  },
+  {
+   "title": "Trump Doesn’t Get That Ukraine Isn’t His to Give Away",
+   "url": "https://www.nytimes.com/2026/10/22/opinion/trump-ukraine-russia-war-yalta.html",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "President Trump has been searching for his Yalta in the war in Ukraine since the start of his second term.",
+   "note": "Opinion commentary analyzing US foreign policy and negotiations concerning the war in Ukraine."
+  },
+  {
+   "title": "Vertical Aerospace eVTOL: The Future of Urgent Air Cargo",
+   "url": "https://www.freightwaves.com/news/vertical-aerospace-evtol-the-future-of-urgent-air-cargo",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Vertical Aerospace’s Michael Cervenka explains how their Velocopter eVTOL aircraft is set to transform urgent freight and remote logistics.",
+   "note": "Context only; long-term speculative cargo technology with zero impact on near-term van and box truck delivery underwriting."
+  },
+  {
+   "title": "Nearly $1M in Pokémon Cards STOLEN from FedEx",
+   "url": "https://www.freightwaves.com/news/nearly-1m-in-pokemon-cards-stolen-from-fedex",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A FedEx truck carrying nearly $1 million in Pokémon and sports cards was robbed in California.",
+   "note": "Highlights cargo theft exposure for parcel delivery fleets, underscoring the need for tight inland marine sublimits and telematics tracking in high-value lanes."
+  },
+  {
+   "title": "Ukraine’s strikes on Russian data centers disrupt key services and derail AI research",
+   "url": "https://apnews.com/article/russia-ukraine-war-data-yandex-ai-digital-2886cb306264b9429bd317bde4bf01fa",
+   "publisher": "Associated Press News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Russia prides itself on its digital advances — from an extensive e-commerce services sector to ambitious plans for developing artificial intelligence.",
+   "note": "Ukrainian strikes targeted Russian data centers, disrupting e-commerce and AI initiatives."
+  },
+  {
+   "title": "US deploys drones to patrol Great Lakes amid Canada tensions | Exclusive",
+   "url": "https://www.detroitnews.com/story/business/2026/10/21/coast-guard-uses-drone-boats-to-patrol-great-lakes-amid-canada-tensions/92331194007/",
+   "publisher": "The Detroit News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "US deploys drones to patrol Great Lakes amid Canada tensions",
+   "note": "US authorities deployed surveillance drones along the Great Lakes amid border tensions with Canada."
+  },
+  {
+   "title": "While Amazon blocks AI agents, Walmart rolls out the welcome mat",
+   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+   "publisher": "TechCrunch",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases",
+   "note": "Context only; general e-commerce checkout tech that may marginally influence parcel volume distribution across platforms."
+  },
+  {
+   "title": "Twice the work, half the recognition? How women in farming are closing the authority gap",
+   "url": "https://www.farmersguardian.com/news/4537703/twice-half-recognition-women-farming-closing-authority-gap",
+   "publisher": "Farmers Guardian",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A celebration of women in farming brought guests from across the supply chain together",
+   "note": "An event celebrated women working across the farming supply chain."
+  },
+  {
+   "title": "Illinois Basketball 2026-27 Scouting Report: Ethan Brown",
+   "url": "https://www.si.com/college/illinois/basketball/illinois-basketball-2026-27-scouting-report-ethan-brown",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Brown is looking to crack the Illini rotation as a freshman in 2026-27",
+   "note": "Sports scouting report on Illinois college basketball player Ethan Brown."
+  },
+  {
+   "title": "Feast Like A King At This All-You-Can-Eat Country Buffet In Florida That’s Worth The Drive",
+   "url": "https://familydestinationsguide.com/florida-country-buffet-feast/",
+   "publisher": "Family Destinations Guide",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Brown’s Country Buffet in Alachua, Florida is firmly in the second category.",
+   "note": "Feature article on a country buffet restaurant located in Florida."
+  },
+  {
+   "title": "Is Brighton’s back-post corner now the Premier League’s most dangerous set-piece routine?",
+   "url": "https://www.nytimes.com/athletic/7707208/2026/10/22/brighton-back-post-corner-analysis/",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Hurzeler's side have the right profiles in terms of ball delivery, smart movement and aerial presence",
+   "note": "Analysis of Premier League soccer team Brighton's set-piece corner kick execution."
+  },
+  {
+   "title": "Walmart drone deliveries take flight in Charlotte area, raising privacy, safety questions",
+   "url": "https://www.yahoo.com/news/us/articles/walmart-drone-deliveries-flight-charlotte-025022979.html",
+   "publisher": "Yahoo",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Walmart has launched drone delivery service at seven locations in the Charlotte area, bringing the promise of deliveries in as little as 30 minutes",
+   "note": "Context only; incremental deployment of alternate delivery modes, currently presenting negligible displacement of traditional delivery vans."
+  },
+  {
+   "title": "From Russian Oil to U.S. Supply Chains: The Hidden Risk of Secondary Tariffs",
+   "url": "https://www.supplychainbrain.com/blogs/1-think-tank/post/45055-from-russian-oil-to-us-supply-chains-the-hidden-risk-of-secondary-tariffs",
+   "publisher": "SupplyChainBrain",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Because oil, transportation and manufacturing are interconnected, secondary tariffs could produce a far more complicated response than an ordinary tariff.",
+   "note": "Context only; macro tariff risk could increase vehicle repair and operational costs over time."
+  },
+  {
+   "title": "Ukraine war latest: Trump's envoy branded 'embarrassing' for calling Putin a 'humanitarian'",
+   "url": "https://news.sky.com/story/ukraine-war-latest-zelenskyy-reveals-aim-of-kursk-invasion-starmer-maintains-unwavering-support-ukraine-blows-hole-in-another-russian-bridge-12541713",
+   "publisher": "Sky News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "At least 30 people have been killed in eastern Ukraine, according to authorities, after a Russian strike on buses",
+   "note": "War reporting on strikes in eastern Ukraine and political diplomacy developments."
+  },
+  {
+   "title": "Lefty NYC Council member shrugs off warnings that her crusade against Amazon could kill thousands of jobs",
+   "url": "https://nypost.com/2026/10/21/us-news/lefty-nyc-council-member-shrugs-off-warnings-that-her-crusade-against-amazon-could-kill-thousands-of-jobs/",
+   "publisher": "New York Post",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Council member Tiffany Cabán’s Delivery Protection Act could prompt Amazon to close more than a dozen warehouses and move upwards of 5,000 workers",
+   "note": "Municipal regulatory pressure on Amazon fulfillment in NYC could alter regional DSP route volumes and fleet operational footprints."
+  },
+  {
+   "title": "Public Policy",
+   "url": "https://www.law360.com/publicpolicy",
+   "publisher": "Law360",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The Trump administration is asking the U.S. Supreme Court to decide whether the Administrative Procedure Act allows federal judges to universally vacate agency rules",
+   "note": "Context only; broader administrative law precedent could ultimately affect how federal trucking or labor rules are challenged."
+  },
+  {
+   "title": "Arrest made after California DoorDash driver found dead in Tesla trunk",
+   "url": "https://www.sfgate.com/bayarea/article/california-body-tesla-arrest-22487729.php",
+   "publisher": "SFGATE",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A 39-year-old California man has been charged with killing a DoorDash driver whose body was discovered in the trunk of a Tesla",
+   "note": "Context only; illustrates gig-driver personal safety perils, though distinct from fleet physical damage and liability underwriting."
+  },
+  {
+   "title": "Why can large model manufacturers not decide their own position in the field of embodied intelligence?",
+   "url": "https://eu.36kr.com/en/p/4036436536186758",
+   "publisher": "eu.36kr",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "This paper systematically explores the core mechanism of cost-constrained embodied choice",
+   "note": "Paper discusses decision-making and embodied intelligence mechanisms under cost constraints across individual and enterprise behavior."
+  },
+  {
+   "title": "Elon Musk Claims His Terafab Will Produce Its First Chip By Mid-2027",
+   "url": "https://gizmodo.com/elon-musk-claims-his-terafab-will-produce-its-first-chip-by-mid-2027-2000829167",
+   "publisher": "Gizmodo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Elon Musk claims that his ambitious chip factory project, Terafab, is “progressing quickly” and will be ready to produce its first chip by May",
+   "note": "Elon Musk claims his Terafab chip factory will produce its first chip by mid-2027."
+  },
+  {
+   "title": "Tesla Q3 2026 Earnings Report: Revenue Flat, Profit Falls 43%",
+   "url": "https://www.kucoin.com/news/flash/tesla-q3-2026-earnings-report-revenue-flat-profit-drops-43",
+   "publisher": "kucoin",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Tesla’s Q3 2026 earnings, as reported in the latest daily market report, showed revenue flat at $28.05 billion, with net income down 43%",
+   "note": "Tesla reported flat revenue and a 43% net income drop in Q3 2026."
+  },
+  {
+   "title": "Derrick Brown is no longer having to carry the spotlight in Carolina, and that says everything about the Panthers' growth under Dave Canales",
+   "url": "https://www.msn.com/en-us/sports/football/derrick-brown-is-no-longer-having-to-carry-the-spotlight-in-carolina-and-that-says-everything-about-the-panthers-growth-under-dave-canales/ar-AA2fLXOT",
+   "publisher": "A to Z Sports on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Carolina Panthers defensive tackle Derrick Brown has been through some tough years in Carolina",
+   "note": "Article details Carolina Panthers defensive tackle Derrick Brown's performance and perseverance."
+  },
+  {
+   "title": "145,000 Acres of Timberland Just Became a Geothermal Play. Mineral Royalties Can Tax More Social Security Without Counting as Earnings",
+   "url": "https://247wallst.com/personal-finance/social-security/2026/10/21/145000-acres-of-timberland-just-became-a-geothermal-play-mineral-royalties-can-tax-more-social-security-without-counting-as-earnings/",
+   "publisher": "24/7 Wall St.",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A geothermal lease on timberland can hand a landowner a $30,000 royalty check that Social Security ignores entirely",
+   "note": "Article discusses tax implications and Social Security treatment of timberland geothermal lease royalties."
+  },
+  {
+   "title": "Who Pays When a Delivery Driver Hits a Pedestrian While on the Job?",
+   "url": "https://insurancenewsnet.com/oarticle/who-pays-when-a-delivery-driver-hits-a-pedestrian-while-on-the-job",
+   "publisher": "InsuranceNewsNet",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Most of the time, the driver's employer pays through its commercial auto insurance, as long as the driver was working when the crash happened.",
+   "note": "Highlights employer liability exposure for pedestrian accidents in last-mile delivery, reinforcing demand for Nirvana's telematics safety monitoring and commercial auto coverage."
+  },
+  {
+   "title": "Ohio's 2026 Senate race: What to know about Sherrod Brown vs Jon Husted",
+   "url": "https://www.livenowfox.com/news/key-senate-race-ohio",
+   "publisher": "LiveNOW from FOX",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Former Democratic Sen. Sherrod Brown and Republican Sen. Jon Husted are set to face off in Ohio’s 2026 Senate race",
+   "note": "Overview of Ohio's 2026 Senate race between Sherrod Brown and Jon Husted."
+  },
+  {
+   "title": "E6 avstängd efter olycka",
+   "url": "https://www.aftonbladet.se/nyheter/a/Rr77qd/aftonbladet-direkt?pinnedEntry=1501290",
+   "publisher": "Aftonbladet",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "E6 är just nu avstängd mellan Göteborg och Varberg. Detta efter en vattenplaningsolycka med en personbil",
+   "note": "The E6 highway in Sweden was closed after an accident involving a passenger car."
+  },
+  {
+   "title": "Collectors sent rare Pokémon and sports cards to get graded. Then thieves stole nearly $1 million worth of them from the FedEx truck taking them home",
+   "url": "https://www.msn.com/en-us/money/investment/collectors-sent-rare-pok%C3%A9mon-and-sports-cards-to-get-graded-then-thieves-stole-nearly-1-million-worth-of-them-from-the-fedex-truck-taking-them-home/ar-AA2fKZah",
+   "publisher": "Fortune on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Then thieves stole nearly $1 million worth of them from the FedEx truck taking them home",
+   "note": "Demonstrates high-value cargo theft risks in last-mile parcel delivery fleets, underscoring the need for tailored cargo liability limits or exclusions."
+  },
+  {
+   "title": "Fantasy Football Week 7 Start 'Em, Sit 'Em: A.J. Brown vs. Luther Burden III",
+   "url": "https://sports.yahoo.com/articles/fantasy-football-week-7-start-182715700.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Evaluating who to play in fantasy football this week between Patriots WR A.J. Brown and Bears WR Luther Burden III.",
+   "note": "Fantasy football comparison between wide receivers A.J. Brown and Luther Burden III."
+  },
+  {
+   "title": "The TV shows that almost had completely different casts – and the stars who nearly changed television history",
+   "url": "https://www.radiotimes.com/tv/drama/tv-shows-different-casts-list/",
+   "publisher": "Radio Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "From Michael Keaton almost starring in Lost to Bob Odenkirk nearly playing Michael Scott, we look back at the near-miss casting decisions",
+   "note": "Article looks back at near-miss television show casting choices."
+  },
+  {
+   "title": "The Optimus Video Is Coming. Q3 Shows What It Costs.",
+   "url": "https://www.ainvest.com/news/optimus-video-coming-q3-shows-costs-2610/",
+   "publisher": "ainvest",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Elon Musk announced Tesla's Optimus robot video will showcase \"not a canned demo,\" emphasizing real-world autonomy over scripted tasks.",
+   "note": "Tesla will release a video demonstrating Optimus robot real-world autonomy capabilities."
+  },
+  {
+   "title": "Supreme Court upholds pause on Trump's anti-trans prison policy",
+   "url": "https://www.npr.org/2026/10/21/nx-s1-5993878/supreme-court-trump-trans-prison-policy",
+   "publisher": "NPR",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The Supreme Court ruled Wednesday that the Trump administration has to continue providing gender-affirming care to inmates in federal prisons",
+   "note": "Supreme Court upheld a pause on a federal prison policy regarding gender-affirming care."
+  },
+  {
+   "title": "Paul George Celtics Debut Delivers A Stunning Record, Not Trade Vindication",
+   "url": "https://www.yardbarker.com/nba/articles/paul_george_celtics_debut_delivers_a_stunning_record_not_trade_vindication/s1_17702_44457771",
+   "publisher": "Yardbarker",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The Paul George Celtics debut delivered an immediate spectacle for the Boston Celtics after a summer that reshaped the franchise.",
+   "note": "Paul George scored 38 points in his Boston Celtics debut game."
+  },
+  {
+   "title": "Meta ordered to pay $25 billion privacy penalty",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/meta-ordered-to-pay-25-billion-privacy-penalty-594465.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Meta ordered to pay $25 billion privacy penalty",
+   "note": "Meta was ordered to pay a $25 billion privacy penalty over per-violation data issues."
+  },
+  {
+   "title": "Commercial insurance rates fall again in third quarter: Marsh",
+   "url": "https://www.businessinsurance.com/commercial-insurance-rates-fall-again-in-third-quarter-marsh/",
+   "publisher": "Business Insurance",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Average commercial insurance rates fell 5% globally in the third quarter, compared with a 6% decline in the second quarter",
+   "note": "Softer broad commercial pricing could pressure overall premium levels, though commercial auto often diverges from broad global composite trends."
+  },
+  {
+   "title": "Kinaxis (TSX:KXS) Hits a Fresh High: What’s Next?",
+   "url": "https://kalkinemedia.com/ca/stocks/technology/kinaxis-tsxkxs-hits-a-fresh-high-whats-next",
+   "publisher": "Kalkine Media",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Kinaxis shares set a new high as the supply chain software firm prepares to report third-quarter results in early November.",
+   "note": "Kinaxis stock reached a new high prior to reporting its third-quarter financial results."
+  },
+  {
+   "title": "Flipkart promotes Renuka Singaram as quick-commerce growth puts supply chain efficiency in focus",
+   "url": "https://www.msn.com/en-in/money/general/flipkart-promotes-renuka-singaram-as-quick-commerce-growth-puts-supply-chain-efficiency-in-focus/ar-AA2fITmm",
+   "publisher": "Business Today on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "As Flipkart Minutes expands across cities and product categories, managing inventory, fulfilment and last-mile delivery will be crucial",
+   "note": "Flipkart promoted Renuka Singaram to focus on supply chain and last-mile delivery efficiency."
+  },
+  {
+   "title": "Prime Minister Carney and Premier Ford launch new action plan to protect workers from tariffs and strengthen Ontario industries",
+   "url": "https://finance.yahoo.com/economy/policy/articles/prime-minister-carney-premier-ford-185000942.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Prime Minister Carney and Premier Ford launch new action plan to protect workers from tariffs and strengthen Ontario industries",
+   "note": "Canadian leaders announced an action plan to safeguard domestic workers and industries from US tariffs."
+  },
+  {
+   "title": "Why Anthropic’s draft bill sets $1 billion threshold for AI risk",
+   "url": "https://www.politico.com/news/2026/10/21/anthropic-bill-ai-risk-threshold-01128458",
+   "publisher": "Politico",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The artificial intelligence company’s proposed threshold mirrors a California law — but repurposes it to decide when the government could block an advanced AI model.",
+   "note": "Anthropic proposed a draft bill establishing a $1 billion threshold for government review of advanced AI models."
+  },
+  {
+   "title": "Brent Above $110: Trading Oil CFDs in a Headline Market",
+   "url": "https://admiralmarkets.com/analytics/traders-blog/brent-crude-oil-cfd-above-110",
+   "publisher": "Admiral Markets",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Brent trades above $110 on Hormuz supply fears.",
+   "note": "Brent crude climbed over $110 per barrel amid Middle East supply concerns, alongside trading guidance for Brent oil CFDs."
+  },
+  {
+   "title": "Trump announces $25 million whistleblower program to reward Americans who expose fraud",
+   "url": "https://wcyb.com/news/nation-world/trump-announces-25-million-whistleblower-program-to-reward-americans-who-expose-fraud-schemes-oval-office-president",
+   "publisher": "WCYB",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "announced a $25 million whistleblower incentive program Tuesday, offering Americans cash rewards",
+   "note": "The administration announced a $25 million federal whistleblower incentive program offering cash awards to individuals who expose fraud."
+  },
+  {
+   "title": "These 3 logistics firms are fixing e-commerce’s biggest shipping nightmares",
+   "url": "https://www.msn.com/en-us/money/general/these-3-logistics-firms-are-fixing-e-commerce-s-biggest-shipping-nightmares/ar-AA2fKvnp",
+   "publisher": "Inc.com on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "helping DTC businesses compete with the likes of Amazon.",
+   "note": "Context only. Growth in independent e-commerce fulfillment highlights potential demand from non-Amazon courier and parcel fleets, but details on vehicle fleets are absent."
+  },
+  {
+   "title": "كيفية الاحتفال بمهرجان ديوالي للأضواء في 31 أكتوبر",
+   "url": "https://www.msn.com/ar-sa/news/other/%D9%83%D9%8A%D9%81%D9%8A%D8%A9-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%81%D8%A7%D9%84-%D8%A8%D9%85%D9%87%D8%B1%D8%AC%D8%A7%D9%86-%D8%AF%D9%8A%D9%88%D8%A7%D9%84%D9%8A-%D9%84%D9%84%D8%A3%D8%B6%D9%88%D8%A7%D8%A1-%D9%81%D9%8A-31-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1/ar-AA2fBd4E",
+   "publisher": "سائح on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "يُعد ديوالي، أو مهرجان الأضواء، أحد أكثر المناسبات الهندية بهجة وإشراقًا",
+   "note": "The article provides an overview of Diwali, the festival of lights celebrated on October 31, explaining its cultural significance."
+  },
+  {
+   "title": "House Democrats Seek GAO Audit of FAA’s AI-Based Air Traffic Tools",
+   "url": "https://www.meritalk.com/articles/house-democrats-seek-gao-audit-of-faas-ai-based-air-traffic-tools/",
+   "publisher": "MeriTalk",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "calling on the Government Accountability Office (GAO) to investigate the Federal Aviation Administration’s (FAA) deployment",
+   "note": "Twenty-three House Democrats called on the GAO to audit the FAA's deployment of AI-based air traffic management systems."
+  }
+ ],
+ "digest": ", plain text `- `, ends with `[X]`):**\n\n    *   *Bullet 1 (TN Supreme Court - PE in Law"
+}
