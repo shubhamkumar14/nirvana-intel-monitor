@@ -309,12 +309,13 @@
  "Marsh": {
   "name": "Marsh",
   "first_seen": "2026-10-16T17:51:13Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_512aefee1a8b"
+   "ev_512aefee1a8b",
+   "ev_cde3078cf60e"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T17:51:13Z"
+  "last_seen": "2026-10-22T18:10:19Z"
  },
  "Chubb": {
   "name": "Chubb",
@@ -696,5 +697,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-21T18:16:06Z"
+ },
+ "Elara Spatial": {
+  "name": "Elara Spatial",
+  "first_seen": "2026-10-22T18:10:19Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_343736771117"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-22T18:10:19Z"
  }
 }

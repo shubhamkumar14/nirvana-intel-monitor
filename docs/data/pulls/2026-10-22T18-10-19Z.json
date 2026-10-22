@@ -1,0 +1,1096 @@
+{
+ "run_id": "2026-10-22T18-10-19Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/39828992366",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-22",
+ "started": "2026-10-22T18:10:19Z",
+ "duration_s": 213.9,
+ "baseline": false,
+ "previous_run": "2026-10-22T06-38-54Z",
+ "previous_started": "2026-10-22T06:38:54Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 245,
+  "unique": 239,
+  "known_skipped": 133,
+  "attached_existing": 0,
+  "prefiltered_out": 88,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 18,
+  "irrelevant": 11,
+  "quarantined": 0,
+  "new_events": 7,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.625,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.2,
+  "dedup_ratio": 0.925,
+  "relevance_rate": 0.389
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 341
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 283
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 332
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 150
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 325
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1596
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 316
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 300
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 236
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 238
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 328
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 182
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 232
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 405
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 134
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 187
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 118
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 131
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 205
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 130
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 201
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 239
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 317
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 233
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 402
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 245
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 185
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 175
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 153
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 153
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 128
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1506
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 717
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 313
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 941
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 787
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1009
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 3572,
+  "output_tokens": 2607,
+  "calls": 2,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 2
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_46b50ce6c9fb",
+   "title": "AM Best reports rising social inflation costs continue to challenge US liability insurers",
+   "url": "https://www.reinsurancene.ws/am-best-reports-rising-social-inflation-costs-continue-to-challenge-us-liability-insurers/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.7,
+   "summary": "AM Best reported that rising social inflation, litigation expenses, and high claims costs continue creating cost pressures for US commercial motor liability insurers.",
+   "evidence_quote": "AM Best reports rising social inflation costs continue to challenge US liability insurers",
+   "companies": [],
+   "implication": "Reinforces the need for rigorous telematics-driven risk selection and active claims handling in Nirvana's last-mile underwriting models to counteract social inflation.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-22T13:00:44Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T18:10:19Z",
+   "first_run": "2026-10-22T18-10-19Z",
+   "last_seen": "2026-10-22T18:10:19Z",
+   "last_updated_run": "2026-10-22T18-10-19Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "46b50ce6c9fb"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reinsurancene.ws/am-best-reports-rising-social-inflation-costs-continue-to-challenge-us-liability-insurers/",
+     "publisher": "Reinsurance News",
+     "publisher_key": "reinsurance news",
+     "published": "2026-10-22T13:00:44Z",
+     "tier": 2,
+     "source_id": "reinsurancenews",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 74.9,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.98,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_90d9d0670cb1",
+   "title": "IIHS pedestrian, vehicle-to-vehicle tests show struggling cargo vans and pickups",
+   "url": "https://www.repairerdrivennews.com/2026/10/22/iihs-pedestrian-vehicle-to-vehicle-tests-show-struggling-cargo-vans-and-pickups/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.85,
+   "summary": "IIHS commercial vehicle safety ratings indicate that cargo vans and heavy-duty pickups lag behind passenger vehicles in pedestrian and vehicle-to-vehicle testing.",
+   "evidence_quote": "IIHS pedestrian, vehicle-to-vehicle tests show struggling cargo vans and pickups",
+   "companies": [],
+   "implication": "Validates Nirvana's focus on last-mile cargo vans; highlights collision risks that should be factored into vehicle-level telematics risk scoring.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-22T10:30:53Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T18:10:19Z",
+   "first_run": "2026-10-22T18-10-19Z",
+   "last_seen": "2026-10-22T18:10:19Z",
+   "last_updated_run": "2026-10-22T18-10-19Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "90d9d0670cb1"
+   ],
+   "sources": [
+    {
+     "url": "https://www.repairerdrivennews.com/2026/10/22/iihs-pedestrian-vehicle-to-vehicle-tests-show-struggling-cargo-vans-and-pickups/",
+     "publisher": "Repairer Driven News",
+     "publisher_key": "repairer driven news",
+     "published": "2026-10-22T10:30:53Z",
+     "tier": 2,
+     "source_id": "repairerdriven",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 68.3,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.97,
+    "last_mile_fit": 0.85
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_bd1fb9cc9c8f",
+   "title": "UPS automates 4 additional facilities ahead of peak shipping season",
+   "url": "https://www.freightwaves.com/news/ups-automates-4-additional-facilities-ahead-of-peak-shipping-season",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "UPS completed upgrades on four facilities to expand capacity and boost productivity ahead of the peak shipping season.",
+   "evidence_quote": "UPS automates 4 additional facilities ahead of peak shipping season",
+   "companies": [
+    "UPS"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-22T15:38:17Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T18:10:19Z",
+   "first_run": "2026-10-22T18-10-19Z",
+   "last_seen": "2026-10-22T18:10:19Z",
+   "last_updated_run": "2026-10-22T18-10-19Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "bd1fb9cc9c8f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/ups-automates-4-additional-facilities-ahead-of-peak-shipping-season",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-22T15:38:17Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 58.1,
+   "age_days": 0.1,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.99,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_1916e412bacf",
+   "title": "Delivery Robots Accused of Sharing Biometric Data Without Consent",
+   "url": "https://www.insurancejournal.com/news/midwest/2026/10/22/890055.htm",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.45,
+   "summary": "Class-action lawsuits were filed against delivery robot companies in Chicago over alleged unauthorized biometric data collection.",
+   "evidence_quote": "Delivery Robots Accused of Sharing Biometric Data Without Consent",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-22T16:26:01Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T18:10:19Z",
+   "first_run": "2026-10-22T18-10-19Z",
+   "last_seen": "2026-10-22T18:10:19Z",
+   "last_updated_run": "2026-10-22T18-10-19Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "1916e412bacf"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancejournal.com/news/midwest/2026/10/22/890055.htm",
+     "publisher": "Insurance Journal",
+     "publisher_key": "insurance journal",
+     "published": "2026-10-22T16:26:01Z",
+     "tier": 2,
+     "source_id": "insurancejournal",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 56.6,
+   "age_days": 0.1,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.99,
+    "last_mile_fit": 0.45
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_110865959618",
+   "title": "Extended peak season drives high dwell times at San Pedro Bay Ports",
+   "url": "https://www.supplychaindive.com/news/extended-peak-season-drives-high-dwell-times-at-san-pedro-bay-ports/833584/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "September cargo volume surges created extended dwell times and idle time for trucks at San Pedro Bay ports.",
+   "evidence_quote": "Extended peak season drives high dwell times at San Pedro Bay Ports",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-21T14:17:43Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T18:10:19Z",
+   "first_run": "2026-10-22T18-10-19Z",
+   "last_seen": "2026-10-22T18:10:19Z",
+   "last_updated_run": "2026-10-22T18-10-19Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "110865959618"
+   ],
+   "sources": [
+    {
+     "url": "https://www.supplychaindive.com/news/extended-peak-season-drives-high-dwell-times-at-san-pedro-bay-ports/833584/",
+     "publisher": "Supply Chain Dive",
+     "publisher_key": "supply chain dive",
+     "published": "2026-10-21T14:17:43Z",
+     "tier": 2,
+     "source_id": "supplychaindive",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 55.6,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.89,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_cde3078cf60e",
+   "title": "Markets/Coverages: Marsh Launches Two Insurance Facilities for UK Construction Risks",
+   "url": "https://www.insurancejournal.com/news/international/2026/10/22/890020.htm",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Insurance broker Marsh launched two specialized insurance facilities to support UK construction contractors managing road and highway projects.",
+   "evidence_quote": "Marsh Launches Two Insurance Facilities for UK Construction Risks",
+   "companies": [
+    "Marsh"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-22T14:30:35Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T18:10:19Z",
+   "first_run": "2026-10-22T18-10-19Z",
+   "last_seen": "2026-10-22T18:10:19Z",
+   "last_updated_run": "2026-10-22T18-10-19Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "cde3078cf60e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancejournal.com/news/international/2026/10/22/890020.htm",
+     "publisher": "Insurance Journal",
+     "publisher_key": "insurance journal",
+     "published": "2026-10-22T14:30:35Z",
+     "tier": 2,
+     "source_id": "insurancejournal",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 43.0,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.99,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_343736771117",
+   "title": "Building a Glass Box Not a Black Box at Elara Spatial",
+   "url": "https://www.carriermanagement.com/features/2026/10/22/292858.htm",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Elara Spatial discussed its approach to property claims automation using artificial intelligence at an industry conference.",
+   "evidence_quote": "Building a Glass Box Not a Black Box at Elara Spatial",
+   "companies": [
+    "Elara Spatial"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-22T08:25:40Z",
+   "date_known": true,
+   "first_seen": "2026-10-22T18:10:19Z",
+   "first_run": "2026-10-22T18-10-19Z",
+   "last_seen": "2026-10-22T18:10:19Z",
+   "last_updated_run": "2026-10-22T18-10-19Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "343736771117"
+   ],
+   "sources": [
+    {
+     "url": "https://www.carriermanagement.com/features/2026/10/22/292858.htm",
+     "publisher": "Carrier Management",
+     "publisher_key": "carrier management",
+     "published": "2026-10-22T08:25:40Z",
+     "tier": 2,
+     "source_id": "carriermanagement",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 42.7,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.96,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Delivery Robots Accused of Sharing Biometric Data Without Consent",
+   "url": "https://www.insurancejournal.com/news/midwest/2026/10/22/890055.htm",
+   "publisher": "Insurance Journal",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Delivery Robots Accused of Sharing Biometric Data Without Consent",
+   "note": "Context only."
+  },
+  {
+   "title": "UPS automates 4 additional facilities ahead of peak shipping season",
+   "url": "https://www.freightwaves.com/news/ups-automates-4-additional-facilities-ahead-of-peak-shipping-season",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UPS automates 4 additional facilities ahead of peak shipping season",
+   "note": "Context only."
+  },
+  {
+   "title": "Markets/Coverages: Marsh Launches Two Insurance Facilities for UK Construction Risks",
+   "url": "https://www.insurancejournal.com/news/international/2026/10/22/890020.htm",
+   "publisher": "Insurance Journal",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Marsh Launches Two Insurance Facilities for UK Construction Risks",
+   "note": "Context only."
+  },
+  {
+   "title": "AM Best reports rising social inflation costs continue to challenge US liability insurers",
+   "url": "https://www.reinsurancene.ws/am-best-reports-rising-social-inflation-costs-continue-to-challenge-us-liability-insurers/",
+   "publisher": "Reinsurance News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AM Best reports rising social inflation costs continue to challenge US liability insurers",
+   "note": "Reinforces the need for rigorous telematics-driven risk selection and active claims handling in Nirvana's last-mile underwriting models to counteract social inflation."
+  },
+  {
+   "title": "IIHS pedestrian, vehicle-to-vehicle tests show struggling cargo vans and pickups",
+   "url": "https://www.repairerdrivennews.com/2026/10/22/iihs-pedestrian-vehicle-to-vehicle-tests-show-struggling-cargo-vans-and-pickups/",
+   "publisher": "Repairer Driven News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "IIHS pedestrian, vehicle-to-vehicle tests show struggling cargo vans and pickups",
+   "note": "Validates Nirvana's focus on last-mile cargo vans; highlights collision risks that should be factored into vehicle-level telematics risk scoring."
+  },
+  {
+   "title": "‘Sister Wives’ Meri Brown Reveals Who’s Trying to Win Her Over After Kody",
+   "url": "https://www.yahoo.com/entertainment/celebrity/articles/sister-wives-meri-brown-reveals-164947626.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "‘Sister Wives’ Meri Brown Reveals Who’s Trying to Win Her Over After Kody",
+   "note": "Entertainment news regarding reality TV personal life developments."
+  },
+  {
+   "title": "Building a Glass Box Not a Black Box at Elara Spatial",
+   "url": "https://www.carriermanagement.com/features/2026/10/22/292858.htm",
+   "publisher": "Carrier Management",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Building a Glass Box Not a Black Box at Elara Spatial",
+   "note": "Context only."
+  },
+  {
+   "title": "Lane Kiffin needs LSU to win the field position battle at Auburn",
+   "url": "https://www.msn.com/en-us/sports/college-sports/lane-kiffin-needs-lsu-to-win-the-field-position-battle-at-auburn/ar-AA2fPn3l",
+   "publisher": "Sports Illustrated on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Lane Kiffin needs LSU to win the field position battle at Auburn",
+   "note": "College football game preview and analysis."
+  },
+  {
+   "title": "CMA’s Dolly Parton Tribute: All the Performances, Ranked",
+   "url": "https://www.billboard.com/lists/dolly-parton-cmas-tribute-performances-ranked-nashville/",
+   "publisher": "Billboard",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "CMA’s Dolly Parton Tribute: All the Performances, Ranked",
+   "note": "Music award show performance rankings and commentary."
+  },
+  {
+   "title": "Coastal Financial Corporation to Report Third Quarter 2026 Results and Host a Conference Call on October 29, 2026",
+   "url": "https://markets.businessinsider.com/news/stocks/coastal-financial-corporation-to-report-third-quarter-2026-results-and-host-a-conference-call-on-october-29-2026-1036656029",
+   "publisher": "Markets Insider",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Coastal Financial Corporation to Report Third Quarter 2026 Results and Host a Conference Call on October 29, 2026",
+   "note": "Community bank holding company announces upcoming third-quarter earnings conference call."
+  },
+  {
+   "title": "The Texas Libertarian Who Could Hold the Key to a Talarico Victory",
+   "url": "https://www.newsweek.com/texas-libertarian-who-could-hold-key-to-talarico-victory-12597252",
+   "publisher": "Newsweek",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Texas Libertarian Who Could Hold the Key to a Talarico Victory",
+   "note": "Political commentary on a Texas election race."
+  },
+  {
+   "title": "Raiders Emerge as Potential Trade Suitor for $5 Million WR",
+   "url": "https://heavy.com/sports/nfl/las-vegas-raiders/raiders-emerge-potential-trade-suitor-5-million-wr/",
+   "publisher": "Heavy",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Raiders Emerge as Potential Trade Suitor for $5 Million WR",
+   "note": "Professional sports trade rumor speculation."
+  },
+  {
+   "title": "Brady Pettigrew remains Illinois basketball golden goose as recruiting stock rises",
+   "url": "https://sports.yahoo.com/articles/brady-pettigrew-remains-illinois-basketball-130034057.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Brady Pettigrew remains Illinois basketball golden goose as recruiting stock rises",
+   "note": "College basketball recruiting update."
+  },
+  {
+   "title": "Our defense vs their offense: Auburn Tigers",
+   "url": "https://www.msn.com/en-us/sports/football/our-defense-vs-their-offense-auburn-tigers/ar-AA2fP6Oh",
+   "publisher": "And The Valley Shook on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Our defense vs their offense: Auburn Tigers",
+   "note": "College football match analysis."
+  },
+  {
+   "title": "Tre Singleton Returning to Northwestern for Exhibition Game",
+   "url": "https://sports.yahoo.com/articles/tre-singleton-returning-northwestern-exhibition-110007322.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tre Singleton Returning to Northwestern for Exhibition Game",
+   "note": "College basketball player exhibition game appearance notice."
+  },
+  {
+   "title": "College football coaches on the rise: 20 names to watch after strong starts to 2026",
+   "url": "https://www.nytimes.com/athletic/7709483/2026/10/22/college-football-coaching-carousel-risers-midseason/",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "College football coaches on the rise: 20 names to watch after strong starts to 2026",
+   "note": "College football coaching career watchlist summary."
+  },
+  {
+   "title": "W. R. Berkley Earnings Call Highlights Strong ROE",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/WRB-N/pressreleases/8297845/w-r-berkley-earnings-call-highlights-strong-roe/",
+   "publisher": "The Globe and Mail",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "W. R. Berkley Earnings Call Highlights Strong ROE",
+   "note": "Financial results coverage for an insurance corporation highlighting return on equity."
+  },
+  {
+   "title": "Extended peak season drives high dwell times at San Pedro Bay Ports",
+   "url": "https://www.supplychaindive.com/news/extended-peak-season-drives-high-dwell-times-at-san-pedro-bay-ports/833584/",
+   "publisher": "Supply Chain Dive",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Extended peak season drives high dwell times at San Pedro Bay Ports",
+   "note": "Context only."
+  }
+ ],
+ "digest": "- AM Best reported that rising social inflation, litigation expenses, and high claims costs continue creating cost pressures for US commercial motor liability insurers, reinforcing the need for rigorous telematics-driven risk selection and active claims handling in Nirvana's underwriting models [1].\n- IIHS commercial vehicle safety ratings indicate that cargo vans and heavy-duty pickups lag behind passenger vehicles in pedestrian and vehicle-to-vehicle testing, validating Nirvana's focus on last-mile cargo vans and highlighting collision risks that should be factored into vehicle-level telematics risk scoring [2]."
+}
