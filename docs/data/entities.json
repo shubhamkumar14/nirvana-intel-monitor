@@ -184,14 +184,15 @@
  "Novacore": {
   "name": "Novacore",
   "first_seen": "2026-10-16T17:40:26Z",
-  "mentions": 3,
+  "mentions": 4,
   "event_ids": [
    "ev_d33f8cc3b4cc",
    "ev_3d94751de6c4",
-   "ev_2f12be7f7a98"
+   "ev_2f12be7f7a98",
+   "ev_2feaf32332ad"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T17:51:13Z"
+  "last_seen": "2026-10-23T17:58:20Z"
  },
  "Diesel Insurance Solutions": {
   "name": "Diesel Insurance Solutions",
@@ -207,12 +208,13 @@
  "Diesel Insurance Solutions Inc.": {
   "name": "Diesel Insurance Solutions Inc.",
   "first_seen": "2026-10-16T17:40:26Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_3d94751de6c4"
+   "ev_3d94751de6c4",
+   "ev_2feaf32332ad"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T17:40:26Z"
+  "last_seen": "2026-10-23T17:58:20Z"
  },
  "Tesla": {
   "name": "Tesla",
@@ -732,12 +734,13 @@
  "Old Republic International": {
   "name": "Old Republic International",
   "first_seen": "2026-10-23T06:33:40Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_f242d7f53977"
+   "ev_f242d7f53977",
+   "ev_307ee5f7281e"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-23T06:33:40Z"
+  "last_seen": "2026-10-23T17:58:20Z"
  },
  "Old Republic International Corporation": {
   "name": "Old Republic International Corporation",
@@ -809,5 +812,26 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Selective Insurance": {
+  "name": "Selective Insurance",
+  "first_seen": "2026-10-23T17:58:20Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_0a3ecc84caae",
+   "ev_e4057d590dd7"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T17:58:20Z"
+ },
+ "Selective Insurance Group": {
+  "name": "Selective Insurance Group",
+  "first_seen": "2026-10-23T17:58:20Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_a230cf2a606d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T17:58:20Z"
  }
 }
