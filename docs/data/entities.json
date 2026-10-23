@@ -707,5 +707,107 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-22T18:10:19Z"
+ },
+ "Old Republic": {
+  "name": "Old Republic",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_33f76b958b5d",
+   "ev_7ff8535387e1"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Everett Cash Mutual": {
+  "name": "Everett Cash Mutual",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_33f76b958b5d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Old Republic International": {
+  "name": "Old Republic International",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f242d7f53977"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Old Republic International Corporation": {
+  "name": "Old Republic International Corporation",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_89069150772b",
+   "ev_cc8e8248f090"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Roamly": {
+  "name": "Roamly",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d67736dd575c"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Mobilitas Insurance": {
+  "name": "Mobilitas Insurance",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d67736dd575c"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Innovative Captive Strategies": {
+  "name": "Innovative Captive Strategies",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_4518dd4df42a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Holmes Murphy": {
+  "name": "Holmes Murphy",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_4518dd4df42a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "Bluestem Insurance Group": {
+  "name": "Bluestem Insurance Group",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_4518dd4df42a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
+ },
+ "GEICO": {
+  "name": "GEICO",
+  "first_seen": "2026-10-23T06:33:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_87f7a2310df1"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-23T06:33:40Z"
  }
 }
