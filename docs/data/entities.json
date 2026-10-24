@@ -833,5 +833,55 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-23T17:58:20Z"
+ },
+ "Warrior Insurance Network": {
+  "name": "Warrior Insurance Network",
+  "first_seen": "2026-10-24T16:58:23Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f49b840d4d22"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-24T16:58:23Z"
+ },
+ "Kentucky National": {
+  "name": "Kentucky National",
+  "first_seen": "2026-10-24T16:58:23Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f49b840d4d22"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-24T16:58:23Z"
+ },
+ "NMS Capital": {
+  "name": "NMS Capital",
+  "first_seen": "2026-10-24T16:58:23Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3212a754361a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-24T16:58:23Z"
+ },
+ "Ascendra Specialty": {
+  "name": "Ascendra Specialty",
+  "first_seen": "2026-10-24T16:58:23Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3212a754361a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-24T16:58:23Z"
+ },
+ "Moonshot Foundry": {
+  "name": "Moonshot Foundry",
+  "first_seen": "2026-10-24T16:58:23Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3212a754361a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-24T16:58:23Z"
  }
 }

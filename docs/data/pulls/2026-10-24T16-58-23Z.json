@@ -1,0 +1,1329 @@
+{
+ "run_id": "2026-10-24T16-58-23Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/40113977468",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-24",
+ "started": "2026-10-24T16:58:23Z",
+ "duration_s": 459.9,
+ "baseline": false,
+ "previous_run": "2026-10-24T06-31-45Z",
+ "previous_started": "2026-10-24T06:31:45Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 375,
+  "unique": 360,
+  "known_skipped": 321,
+  "attached_existing": 2,
+  "prefiltered_out": 7,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 29,
+  "irrelevant": 22,
+  "quarantined": 1,
+  "new_events": 6,
+  "updated_events": 2,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 0.857,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.2000000000000002,
+  "dedup_ratio": 0.919,
+  "relevance_rate": 0.207
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 434
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 430
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 366
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 204
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 7695
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 116
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 288
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1119
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 151
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 451
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 251
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 187
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 291
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 272
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 404
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 309
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 253
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 201
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 293
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 275
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 200
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 289
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 283
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 210
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 263
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 241
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 277
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 235
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 296
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 471
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 13,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 2508
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 739
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 356
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 818
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 261
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1055
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1068
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5542,
+  "output_tokens": 4130,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_ea68d3855e35",
+   "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+   "url": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.5,
+   "summary": "Instacart reportedly discussed acquisition possibilities with major delivery platforms DoorDash and Uber.",
+   "evidence_quote": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+   "companies": [
+    "Instacart",
+    "DoorDash",
+    "Uber"
+   ],
+   "implication": "Context only regarding major gig and delivery platform consolidation.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-24T16:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-24T16:58:23Z",
+   "first_run": "2026-10-24T16-58-23Z",
+   "last_seen": "2026-10-24T16:58:23Z",
+   "last_updated_run": "2026-10-24T16-58-23Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "ea68d3855e35"
+   ],
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+     "publisher": "TechCrunch",
+     "publisher_key": "techcrunch",
+     "published": "2026-10-24T16:30:00Z",
+     "tier": 3,
+     "source_id": "techcrunch",
+     "query": null
+    }
+   ],
+   "best_tier": 3,
+   "score": 59.5,
+   "age_days": 0.0,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 1.0,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3212a754361a",
+   "title": "NMS Capital enters MGA market with Ascendra Specialty and Moonshot Foundry",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/nms-capital-enters-mga-market-with-ascendra-specialty-and-moonshot-foundry-594205.aspx",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "PE firm NMS Capital launched the MGA platform Ascendra Specialty using Moonshot Foundry's infrastructure.",
+   "evidence_quote": "NMS Capital enters MGA market with Ascendra Specialty and Moonshot Foundry",
+   "companies": [
+    "NMS Capital",
+    "Ascendra Specialty",
+    "Moonshot Foundry"
+   ],
+   "implication": "Highlights ongoing PE interest in launching competing specialty MGA platforms, increasing competition for distributor mindshare.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-20T00:50:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-24T16:58:23Z",
+   "first_run": "2026-10-24T16-58-23Z",
+   "last_seen": "2026-10-24T16:58:23Z",
+   "last_updated_run": "2026-10-24T16-58-23Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "3212a754361a"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/nms-capital-enters-mga-market-with-ascendra-specialty-and-moonshot-foundry-594205.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-10-20T00:50:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 2,
+   "score": 55.7,
+   "age_days": 4.7,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.63,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_edad375b0715",
+   "title": "USPS rolls out strict mailing rules from TODAY",
+   "url": "https://www.the-sun.com/news/17190191/usps-strict-mailing-rules-midterm-elections-ballots/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "USPS introduces strict new mailing rules across its network ahead of midterm elections.",
+   "evidence_quote": "USPS rolls out strict mailing rules from TODAY",
+   "companies": [
+    "USPS"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-23T23:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-24T16:58:23Z",
+   "first_run": "2026-10-24T16-58-23Z",
+   "last_seen": "2026-10-24T16:58:23Z",
+   "last_updated_run": "2026-10-24T16-58-23Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "edad375b0715"
+   ],
+   "sources": [
+    {
+     "url": "https://www.the-sun.com/news/17190191/usps-strict-mailing-rules-midterm-elections-ballots/",
+     "publisher": "The US Sun",
+     "publisher_key": "the us sun",
+     "published": "2026-10-23T23:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f49b840d4d22",
+   "title": "Warrior Insurance Network adds Kentucky National to its carrier portfolio",
+   "url": "https://www.insurancebusinessmag.com/us/news/mergers-acquisitions/warrior-insurance-network-adds-kentucky-national-to-its-carrier-portfolio-594206.aspx",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Warrior Insurance Network added regional carrier Kentucky National to its carrier portfolio.",
+   "evidence_quote": "Warrior Insurance Network adds Kentucky National to its carrier portfolio",
+   "companies": [
+    "Warrior Insurance Network",
+    "Kentucky National"
+   ],
+   "implication": "Context only regarding regional insurance carrier consolidation.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-20T01:15:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-24T16:58:23Z",
+   "first_run": "2026-10-24T16-58-23Z",
+   "last_seen": "2026-10-24T16:58:23Z",
+   "last_updated_run": "2026-10-24T16-58-23Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f49b840d4d22"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/mergers-acquisitions/warrior-insurance-network-adds-kentucky-national-to-its-carrier-portfolio-594206.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-10-20T01:15:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 2,
+   "score": 46.7,
+   "age_days": 4.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.63,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_7736037def30",
+   "title": "Stocks undercut by oil prices and continued AI anxiety",
+   "url": "https://www.msn.com/en-us/money/top-stocks/stocks-undercut-by-oil-prices-and-continued-ai-anxiety/ar-AA2fWBny",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "US stock indices fell due to oil price pressures and artificial intelligence concerns.",
+   "evidence_quote": "Stocks undercut by oil prices and continued AI anxiety",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-23T13:45:33Z",
+   "date_known": true,
+   "first_seen": "2026-10-24T16:58:23Z",
+   "first_run": "2026-10-24T16-58-23Z",
+   "last_seen": "2026-10-24T16:58:23Z",
+   "last_updated_run": "2026-10-24T16-58-23Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "7736037def30"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/top-stocks/stocks-undercut-by-oil-prices-and-continued-ai-anxiety/ar-AA2fWBny",
+     "publisher": "Barchart on MSN",
+     "publisher_key": "barchart on msn",
+     "published": "2026-10-23T13:45:33Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.9,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f51c8ea553fc",
+   "title": "Saudi, UAE crude exports exceed pre-war levels while others lag - tracker",
+   "url": "https://www.iranintl.com/en/202610236274",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Saudi Arabia and UAE crude oil exports surpassed pre-war levels.",
+   "evidence_quote": "Saudi, UAE crude exports exceed pre-war levels",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-23T09:54:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-24T16:58:23Z",
+   "first_run": "2026-10-24T16-58-23Z",
+   "last_seen": "2026-10-24T16:58:23Z",
+   "last_updated_run": "2026-10-24T16-58-23Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f51c8ea553fc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.iranintl.com/en/202610236274",
+     "publisher": "Iran International",
+     "publisher_key": "iran international",
+     "published": "2026-10-23T09:54:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.7,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_8c86e12b4aae",
+   "title": "Best’s Special Report: Social Inflation Adds Pressure to US Property/Casualty Liability Results",
+   "url": "https://finance.yahoo.com/healthcare/articles/best-special-report-social-inflation-123000036.html",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 4,
+   "last_mile_fit": 0.7,
+   "summary": "AM Best report highlights that rising litigation costs and social inflation continue to pressure U.S. commercial auto liability underwriting.",
+   "evidence_quote": "U.S. commercial auto liability insurance coverage has continued to bear the brunt of rising litigation costs that have outpaced economic inflation",
+   "companies": [
+    "AM Best"
+   ],
+   "implication": "Traditional commercial auto books face severe margin pressure, strengthening demand for Nirvana's telematics-driven underwriting to avoid high-risk litigation exposure in delivery fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-19T05:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-19T19:29:27Z",
+   "first_run": "2026-10-19T19-29-27Z",
+   "last_seen": "2026-10-24T16:58:23Z",
+   "last_updated_run": "2026-10-24T16-58-23Z",
+   "update_note": "New corroborating source: financialcontent",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "8c86e12b4aae"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/healthcare/articles/best-special-report-social-inflation-123000036.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-19T05:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    },
+    {
+     "url": "https://news.ambest.com/NewsContent.aspx?refnum=278162",
+     "publisher": "news.ambest",
+     "publisher_key": "news.ambest",
+     "published": "2026-10-19T03:15:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    },
+    {
+     "url": "https://www.financialcontent.com/article/bizwire-2026-10-19-bests-special-report-social-inflation-adds-pressure-to-us-propertycasualty-liability-results",
+     "publisher": "financialcontent",
+     "publisher_key": "financialcontent",
+     "published": "2026-10-19T05:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 68.2,
+   "age_days": 5.5,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.58,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 3 independent publishers"
+  },
+  {
+   "id": "ev_89069150772b",
+   "title": "Old Republic International Corporation (ORI) Q3 2026 Earnings Call Transcript",
+   "url": "https://news.alphastreet.com/old-republic-international-corporation-ori-q3-2026-earnings-call-transcript/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Old Republic International held its third-quarter 2026 earnings conference call with executive management and investor relations.",
+   "evidence_quote": "Old Republic International Corporation (ORI) Q3 2026 Earnings Call Transcript",
+   "companies": [
+    "Old Republic International Corporation"
+   ],
+   "implication": "Context only; monitor transcript for commentary on commercial auto line loss trends or commercial fleet pricing.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-22T12:53:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-23T06:33:40Z",
+   "first_run": "2026-10-23T06-33-40Z",
+   "last_seen": "2026-10-24T16:58:23Z",
+   "last_updated_run": "2026-10-24T16-58-23Z",
+   "update_note": "New corroborating source: Seeking Alpha",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "89069150772b"
+   ],
+   "sources": [
+    {
+     "url": "https://news.alphastreet.com/old-republic-international-corporation-ori-q3-2026-earnings-call-transcript/",
+     "publisher": "AlphaStreet",
+     "publisher_key": "alphastreet",
+     "published": "2026-10-22T12:53:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    },
+    {
+     "url": "https://seekingalpha.com/article/4956651-old-republic-international-corporation-ori-q3-2026-earnings-call-transcript",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-10-22T16:37:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.6,
+   "age_days": 2.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.81,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [
+  {
+   "title": "Insteel outlines $30M FY2027 capex plan with ~$20M engineered structural mesh expansion amid tariff-driven cost pressure",
+   "url": "https://seekingalpha.com/news/4656156-insteel-outlines-30m-fy2027-capex-plan-with-20m-engineered-structural-mesh-expansion-amid",
+   "claimed_quote": "Insteel outlines $30M FY2027 capex plan... amid tariff-driven cost pressure",
+   "lane": "market_driver"
+  }
+ ],
+ "decisions": [
+  {
+   "title": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+   "url": "https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/",
+   "publisher": "TechCrunch",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Instacart reportedly discussed selling itself with DoorDash and Uber",
+   "note": "Context only regarding major gig and delivery platform consolidation."
+  },
+  {
+   "title": "Melania Trump says she secured one-city ceasefire between Russia and Ukraine for humanitarian aid",
+   "url": "https://www.msn.com/en-us/news/other/melania-trump-says-she-secured-one-city-ceasefire-between-russia-and-ukraine-for-humanitarian-aid/ar-AA2fVbal",
+   "publisher": "CNN on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Melania Trump says she secured one-city ceasefire",
+   "note": "Melania Trump announced a localized ceasefire in Ukraine for humanitarian evacuations."
+  },
+  {
+   "title": "Taiwan Brings Herbal Heritage and Modern Innovation to SupplySide Global 2026",
+   "url": "https://www.aol.com/articles/taiwan-brings-herbal-heritage-modern-113800000.html",
+   "publisher": "AOL",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Taiwan Brings Herbal Heritage and Modern Innovation",
+   "note": "Taiwan showcases traditional and modern medicine at an industry event."
+  },
+  {
+   "title": "India–UK mobility boom is creating a new logistics corridor",
+   "url": "https://www.msn.com/en-in/news/other/india-uk-mobility-boom-is-creating-a-new-logistics-corridor/ar-AA2fYJ4J",
+   "publisher": "Hindustan Times on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "India–UK mobility boom is creating a new logistics corridor",
+   "note": "An opinion piece discusses the logistics corridor created by the India-UK mobility boom."
+  },
+  {
+   "title": "ICE failed to monitor detainee at risk of suicide who later killed himself",
+   "url": "https://www.msn.com/en-us/news/other/ice-failed-to-monitor-detainee-at-risk-of-suicide-who-later-killed-himself/ar-AA2fYG8E",
+   "publisher": "The Washington Post on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ICE failed to monitor detainee at risk of suicide",
+   "note": "Internal reviews cite policy violations in an immigration detention facility."
+  },
+  {
+   "title": "U.S. birth rate drops to record low, but older women are having more babies",
+   "url": "https://www.npr.org/2026/10/24/nx-s1-6012804/birth-rate-population-cdc",
+   "publisher": "NPR",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "U.S. birth rate drops to record low",
+   "note": "US birth rates hit a record low while births to older women increase."
+  },
+  {
+   "title": "Winter is coming. For Maine families, it’s never been more expensive.",
+   "url": "https://www.cnn.com/2026/10/24/economy/heating-costs-struggle-maine-families",
+   "publisher": "CNN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Winter is coming. For Maine families, it’s never been more expensive.",
+   "note": "Maine families face rising energy and heating oil costs."
+  },
+  {
+   "title": "How The Diary Of A CEO Brought Zelenskyy To A Global Audience",
+   "url": "https://www.yahoo.com/entertainment/tv/articles/diary-ceo-brought-zelenskyy-global-100335190.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How The Diary Of A CEO Brought Zelenskyy To A Global Audience",
+   "note": "An analysis details the media effort behind featuring Zelenskyy globally."
+  },
+  {
+   "title": "Every North American to ever play for Man United",
+   "url": "https://sports.yahoo.com/articles/every-north-american-ever-play-073500249.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Every North American to ever play for Man United",
+   "note": "A sports retrospective lists North American players for Manchester United."
+  },
+  {
+   "title": "Walmart recalls: Check your kitchens for these 3 products",
+   "url": "https://www.mlive.com/news/2026/10/walmart-recalls-check-your-kitchens-for-these-3-products.html",
+   "publisher": "mlive",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Walmart recalls: Check your kitchens for these 3 products",
+   "note": "Walmart maintains an online section for product and food recalls."
+  },
+  {
+   "title": "I’ve Tested Dozens of Couches. The One I Kept Is on Sale",
+   "url": "https://www.wired.com/story/joybird-semi-annual-sale-2026/",
+   "publisher": "Wired",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "I’ve Tested Dozens of Couches. The One I Kept Is on Sale",
+   "note": "Wired reviews furniture sales including sleeper couches."
+  },
+  {
+   "title": "USPS rolls out strict mailing rules from TODAY",
+   "url": "https://www.the-sun.com/news/17190191/usps-strict-mailing-rules-midterm-elections-ballots/",
+   "publisher": "The US Sun",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "USPS rolls out strict mailing rules from TODAY",
+   "note": "Context only."
+  },
+  {
+   "title": "6 Best Fall Blush Shades That Take Years Off Your Face—And Ones To Avoid",
+   "url": "https://shopping.yahoo.com/beauty/makeup/articles/6-best-fall-blush-shades-030357239.html",
+   "publisher": "YAHOO!",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "6 Best Fall Blush Shades That Take Years Off Your Face",
+   "note": "A lifestyle column covers fall blush shades."
+  },
+  {
+   "title": "Stocks undercut by oil prices and continued AI anxiety",
+   "url": "https://www.msn.com/en-us/money/top-stocks/stocks-undercut-by-oil-prices-and-continued-ai-anxiety/ar-AA2fWBny",
+   "publisher": "Barchart on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Stocks undercut by oil prices and continued AI anxiety",
+   "note": "Context only."
+  },
+  {
+   "title": "LSU sports community reacts to the death of legendary coach Dale Brown",
+   "url": "https://sports.yahoo.com/articles/lsu-sports-community-reacts-death-200240416.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "LSU sports community reacts to the death of legendary coach Dale Brown",
+   "note": "The sports community reacts to the passing of former basketball coach Dale Brown."
+  },
+  {
+   "title": "Saudi, UAE crude exports exceed pre-war levels while others lag - tracker",
+   "url": "https://www.iranintl.com/en/202610236274",
+   "publisher": "Iran International",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Saudi, UAE crude exports exceed pre-war levels",
+   "note": "Context only."
+  },
+  {
+   "title": "Insteel outlines $30M FY2027 capex plan with ~$20M engineered structural mesh expansion amid tariff-driven cost pressure",
+   "url": "https://seekingalpha.com/news/4656156-insteel-outlines-30m-fy2027-capex-plan-with-20m-engineered-structural-mesh-expansion-amid",
+   "publisher": "Seeking Alpha",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "quarantined: evidence not in source",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Insteel outlines $30M FY2027 capex plan... amid tariff-driven cost pressure",
+   "note": "Quoted text was not found in the fetched title/snippet"
+  },
+  {
+   "title": "Americans spent $110B on the lottery in 2024, analysis finds",
+   "url": "https://www.wavy.com/news/national/americans-spent-110b-on-the-lottery-in-2024-analysis-finds/",
+   "publisher": "WAVY.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Americans spent $110B on the lottery in 2024",
+   "note": "An analysis reveals average American spending on state lotteries in 2024."
+  },
+  {
+   "title": "Tomán Szabina platinaszőke hajjal, köldökig kivágott szerkóban igazi amazon: ennyire szexi modell volt 20 évesen",
+   "url": "https://femina.hu/hazai_sztar/toman-szabina-platinaszonke-haj-modell-20-evesen-foto/",
+   "publisher": "Femina.hu",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tomán Szabina platinaszőke hajjal",
+   "note": "A foreign-language lifestyle article features a celebrity profile."
+  },
+  {
+   "title": "Arttu Wiskarin ura alkoi 15 vuotta sitten – uusi levy ja kiertue tulossa",
+   "url": "https://www.msn.com/fi-fi/viihde/musiikki/arttu-wiskarin-ura-alkoi-15-vuotta-sitten-uusi-levy-ja-kiertue-tulossa/ar-AA2fRFkO",
+   "publisher": "Rumba.fi on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Arttu Wiskarin ura alkoi 15 vuotta sitten",
+   "note": "A foreign-language entertainment article discusses an upcoming music tour."
+  },
+  {
+   "title": "Brown Advisory Exits Fair Isaac Corporation (FICO) Amid Fundamental and Regulatory Concerns",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/brown-advisory-exits-fair-isaac-134412764.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Brown Advisory Exits Fair Isaac Corporation (FICO)",
+   "note": "Investment manager Brown Advisory exited its position in FICO."
+  },
+  {
+   "title": "A political bogeyman has emerged in L.A.’s election: Ousted D.A. George Gascón",
+   "url": "https://www.latimes.com/california/story/2026-10-22/george-gascon-los-angeles-2026-election",
+   "publisher": "Los Angeles Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A political bogeyman has emerged in L.A.’s election: Ousted D.A. George Gascón",
+   "note": "Local politics in Los Angeles involving former D.A. George Gascón."
+  },
+  {
+   "title": "Australia Post boosts air capacity for Christmas peak",
+   "url": "https://www.cep-research.com/2026/10/21/australia-post-boosts-air-capacity-for-christmas-peak/",
+   "publisher": "cep-research.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Australia Post boosts air capacity for Christmas peak",
+   "note": "Australia Post expands air capacity and automates a regional parcel hub for Christmas."
+  },
+  {
+   "title": "Don't underestimate AI's role in trucking's recovery",
+   "url": "https://www.ccjdigital.com/economic-trends/freight-demand/article/15838056/ais-critical-role-in-trucking-sector-recovery-explained",
+   "publisher": "Commercial Carrier Journal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Don't underestimate AI's role in trucking's recovery",
+   "note": "Commentary on AI investment impact on US trucking and GDP growth."
+  },
+  {
+   "title": "El otoño francés: una república en crisis y un pacto social quebrado",
+   "url": "https://portaluniversidad.org.ar/2026/10/20/el-otono-frances-una-republica-en-crisis-y-un-pacto-social-quebrado/",
+   "publisher": "Portal Universidad",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "El otoño francés: una república en crisis y un pacto social quebrado",
+   "note": "Student protests occur in France regarding budget cuts."
+  },
+  {
+   "title": "Mobilitätsangebote mit großem Potenzial",
+   "url": "https://www.velobiz.de/news/mobilitaetsangebote-mit-grossem-potenzial-veloQXJ0aWNsZS8zNTYzMAbiz",
+   "publisher": "velobiz.de",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Mobilitätsangebote mit großem Potenzial",
+   "note": "Market data survey regarding bicycle sharing and subscriptions in Germany."
+  },
+  {
+   "title": "Warrior Insurance Network adds Kentucky National to its carrier portfolio",
+   "url": "https://www.insurancebusinessmag.com/us/news/mergers-acquisitions/warrior-insurance-network-adds-kentucky-national-to-its-carrier-portfolio-594206.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Warrior Insurance Network adds Kentucky National to its carrier portfolio",
+   "note": "Context only regarding regional insurance carrier consolidation."
+  },
+  {
+   "title": "NMS Capital enters MGA market with Ascendra Specialty and Moonshot Foundry",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/nms-capital-enters-mga-market-with-ascendra-specialty-and-moonshot-foundry-594205.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NMS Capital enters MGA market with Ascendra Specialty and Moonshot Foundry",
+   "note": "Highlights ongoing PE interest in launching competing specialty MGA platforms, increasing competition for distributor mindshare."
+  },
+  {
+   "title": "Top 5 Insurance Solutions for Arizona Contractors Taking on Large Projects",
+   "url": "https://www.insidetucsonbusiness.com/affiliate_content/top-5-insurance-solutions-for-arizona-contractors-taking-on-large-projects/article_1ba7ae4f-f972-4835-ace1-ab60d374f792.html",
+   "publisher": "Inside Tucson Business",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Top 5 Insurance Solutions for Arizona Contractors Taking on Large Projects",
+   "note": "Guidance on insurance solutions for contractors in Arizona."
+  }
+ ],
+ "digest": "- AM Best reports that social inflation and rising litigation costs continue to pressure U.S. property and casualty liability results, strengthening the demand for Nirvana's telematics-driven underwriting to avoid high-risk litigation [7].\n- PE firm NMS Capital launched the MGA platform Ascendra Specialty using Moonshot Foundry's infrastructure, highlighting ongoing private equity interest that will increase competition for distributor mindshare [2]."
+}
