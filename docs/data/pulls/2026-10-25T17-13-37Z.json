@@ -1,0 +1,1553 @@
+{
+ "run_id": "2026-10-25T17-13-37Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/40215422803",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-25",
+ "started": "2026-10-25T17:13:37Z",
+ "duration_s": 326.2,
+ "baseline": false,
+ "previous_run": "2026-10-25T06-57-50Z",
+ "previous_started": "2026-10-25T06:57:50Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 365,
+  "unique": 350,
+  "known_skipped": 309,
+  "attached_existing": 1,
+  "prefiltered_out": 3,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 36,
+  "irrelevant": 26,
+  "quarantined": 0,
+  "new_events": 10,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.25,
+  "dedup_ratio": 0.897,
+  "relevance_rate": 0.278
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 416
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 446
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 131
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 148
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 557
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 86
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 248
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 118
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 221
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 295
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 152
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 183
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 216
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 181
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 136
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 170
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 155
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 159
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 165
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 152
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 245
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 150
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 178
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 145
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 231
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 71
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 69
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 113
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1293
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 382
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 488
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 452
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 154
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 568
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2122
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 6793,
+  "output_tokens": 4997,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_86d8f4ccb314",
+   "title": "In Florida, Manatee County plans to turn landfill methane into fuel for bus and truck fleets",
+   "url": "https://www.yahoo.com/news/science/articles/florida-manatee-county-plans-turn-152700941.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Manatee County, Florida plans a $50 million project to convert landfill methane into fuel for bus and truck fleets.",
+   "evidence_quote": "In Florida, Manatee County plans to turn landfill methane into fuel for bus and truck fleets",
+   "companies": [],
+   "implication": "Context only regarding alternative fleet fuel investments.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-25T08:27:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "86d8f4ccb314"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/science/articles/florida-manatee-county-plans-turn-152700941.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-10-25T08:27:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_92cb93b20760",
+   "title": "Even with AI Capital Expenditure Exceeding AWS Annual Revenue, It's 'Still Not Enough' | Amazon CEO Andy Jassy on Hyperscaler CapEx",
+   "url": "https://note.com/channah/n/nbeffda58f96c?hl=en",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Amazon CEO Andy Jassy discusses massive capital expenditures in AI infrastructure.",
+   "evidence_quote": "Even with AI Capital Expenditure Exceeding AWS Annual Revenue, It's 'Still Not Enough' | Amazon CEO Andy Jassy",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-24T05:37:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "92cb93b20760"
+   ],
+   "sources": [
+    {
+     "url": "https://note.com/channah/n/nbeffda58f96c?hl=en",
+     "publisher": "note",
+     "publisher_key": "note",
+     "published": "2026-10-24T05:37:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.5,
+   "age_days": 1.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.86,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_cdb84b81f8c1",
+   "title": "Qantas Adds Converted Airbus Freighter To Fleet",
+   "url": "https://www.aero-news.net/index.cfm?do=main.textpost&id=143944DF-1172-4542-8D5B-1C0A493DE0F8",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Qantas Freight added a converted Airbus freighter to expand its cargo fleet.",
+   "evidence_quote": "Qantas Adds Converted Airbus Freighter To Fleet",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-24T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "cdb84b81f8c1"
+   ],
+   "sources": [
+    {
+     "url": "https://www.aero-news.net/index.cfm?do=main.textpost&id=143944DF-1172-4542-8D5B-1C0A493DE0F8",
+     "publisher": "Aero-News Network",
+     "publisher_key": "aero-news network",
+     "published": "2026-10-24T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.1,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a42b3e412427",
+   "title": "Global sourcing trends 2027: Flexibility, tariffs & risks",
+   "url": "https://www.msn.com/en-us/news/other/global-sourcing-trends-2027-flexibility-tariffs-risks/ar-AA2fVLZa",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Executives discuss sourcing flexibility, tariffs, and supply chain disruptions heading into 2027.",
+   "evidence_quote": "Global sourcing trends 2027: Flexibility, tariffs & risks",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-23T12:37:39Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "a42b3e412427"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/global-sourcing-trends-2027-flexibility-tariffs-risks/ar-AA2fVLZa",
+     "publisher": "Women's Wear Daily on MSN",
+     "publisher_key": "women's wear daily on msn",
+     "published": "2026-10-23T12:37:39Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.6,
+   "age_days": 2.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.8,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_78a133f4e334",
+   "title": "Justifying a $5.8 Billion Acquisition with '$300 Million in Cost Savings within 2 Years'—The Depths of C.H. Robinson Worldwide's Acquisition of RXO [M&A Strategy Analysis Report]",
+   "url": "https://note.com/ma_strategynews/n/n4c57dd83a573?hl=en",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Analysis of C.H. Robinson Worldwide's acquisition of RXO focusing on cost savings.",
+   "evidence_quote": "C.H. Robinson Worldwide's Acquisition of RXO",
+   "companies": [
+    "C.H. Robinson Worldwide",
+    "RXO"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-24T06:24:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "78a133f4e334"
+   ],
+   "sources": [
+    {
+     "url": "https://note.com/ma_strategynews/n/n4c57dd83a573?hl=en",
+     "publisher": "note",
+     "publisher_key": "note",
+     "published": "2026-10-24T06:24:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.5,
+   "age_days": 1.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.87,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_c9b5a76312ef",
+   "title": "Kinsale Capital Earnings Call Highlights Profitable Discipline",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/KNSL/pressreleases/8431610/kinsale-capital-earnings-call-highlights-profitable-discipline/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.0,
+   "summary": "Kinsale Capital discussed profitable underwriting discipline during its earnings call.",
+   "evidence_quote": "Kinsale Capital Earnings Call Highlights Profitable Discipline",
+   "companies": [
+    "Kinsale Capital Group Inc"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-24T17:12:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "c9b5a76312ef"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theglobeandmail.com/investing/markets/stocks/KNSL/pressreleases/8431610/kinsale-capital-earnings-call-highlights-profitable-discipline/",
+     "publisher": "The Globe and Mail",
+     "publisher_key": "the globe and mail",
+     "published": "2026-10-24T17:12:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.1,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_ca8e36ecff90",
+   "title": "Nov. 3 Election Guide: Meet the 1st Congressional District candidates",
+   "url": "https://www.wrkf.org/politics/2026-10-19/nov-3-election-guide-meet-the-1st-congressional-district-candidates",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Candidates for Louisiana's 1st Congressional District answer policy questions.",
+   "evidence_quote": "Nov. 3 Election Guide: Meet the 1st Congressional District candidates",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-19T20:16:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "ca8e36ecff90"
+   ],
+   "sources": [
+    {
+     "url": "https://www.wrkf.org/politics/2026-10-19/nov-3-election-guide-meet-the-1st-congressional-district-candidates",
+     "publisher": "WRKF",
+     "publisher_key": "wrkf",
+     "published": "2026-10-19T20:16:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 42.9,
+   "age_days": 5.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.56,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e734908f81cc",
+   "title": "Amazon is the industry leader in cloud computing",
+   "url": "https://www.fool.com/investing/2026/10/25/prediction-amazon-stock-will-skyrocket-after-oct-2/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "Financial analysis highlighting Amazon's cloud computing market leadership via AWS.",
+   "evidence_quote": "Amazon is the industry leader in cloud computing",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-25T02:13:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "e734908f81cc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fool.com/investing/2026/10/25/prediction-amazon-stock-will-skyrocket-after-oct-2/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-10-25T02:13:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 41.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4d5b63fdea2a",
+   "title": "The $641M Avocado Trucking Windfall Isn't Buyable - Your Real Exposure Is Concentration",
+   "url": "https://www.ainvest.com/news/641m-avocado-trucking-windfall-isn-buyable-real-exposure-concentration-2610/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Study highlights transport and warehousing economic impacts from Mexican avocado imports into Texas.",
+   "evidence_quote": "The $641M Avocado Trucking Windfall Isn't Buyable - Your Real Exposure Is Concentration",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-25T09:52:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "4d5b63fdea2a"
+   ],
+   "sources": [
+    {
+     "url": "https://www.ainvest.com/news/641m-avocado-trucking-windfall-isn-buyable-real-exposure-concentration-2610/",
+     "publisher": "ainvest",
+     "publisher_key": "ainvest",
+     "published": "2026-10-25T09:52:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 41.1,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_117905c4cf74",
+   "title": "Earnings call transcript: W. R. Berkley tops EPS in Q3 2026 but misses revenue",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-w-r-berkley-tops-eps-in-q3-2026-but-misses-revenue-93CH-4918465",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.0,
+   "summary": "W. R. Berkley reported Q3 2026 earnings beating EPS expectations.",
+   "evidence_quote": "Earnings call transcript: W. R. Berkley tops EPS in Q3 2026 but misses revenue",
+   "companies": [
+    "W. R. Berkley"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-19T16:16:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T17:13:37Z",
+   "first_run": "2026-10-25T17-13-37Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "117905c4cf74"
+   ],
+   "sources": [
+    {
+     "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-w-r-berkley-tops-eps-in-q3-2026-but-misses-revenue-93CH-4918465",
+     "publisher": "Investing.com UK",
+     "publisher_key": "investing.com uk",
+     "published": "2026-10-19T16:16:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.7,
+   "age_days": 6.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.55,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_6858f69c50ac",
+   "title": "How commercial truck crash settlements have changed over the past decade, including the rise of 'nuclear verdicts'",
+   "url": "https://www.suncommercial.com/news/national/article_1bd2d2b5-016d-5f71-a3bc-e142508669a4.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.7,
+   "summary": "Commercial truck crash settlement costs continue to surge due to increasing crash severity and the rising frequency of nuclear verdicts exceeding $10 million.",
+   "evidence_quote": "commercial truck crash settlements have surged in costs, driven by rising \"nuclear verdicts\" exceeding $10 million",
+   "companies": [],
+   "implication": "Reinforces the need for Nirvana's telematics underwriting to actively mitigate severe loss exposures for commercial last-mile delivery fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-22T09:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-23T06:33:40Z",
+   "first_run": "2026-10-23T06-33-40Z",
+   "last_seen": "2026-10-25T17:13:37Z",
+   "last_updated_run": "2026-10-25T17-13-37Z",
+   "update_note": "New corroborating source: Collinsville Daily News on MSN",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "6858f69c50ac"
+   ],
+   "sources": [
+    {
+     "url": "https://www.suncommercial.com/news/national/article_1bd2d2b5-016d-5f71-a3bc-e142508669a4.html",
+     "publisher": "The Vincennes Sun-Commercial",
+     "publisher_key": "the vincennes sun-commercial",
+     "published": "2026-10-22T09:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    },
+    {
+     "url": "https://www.miamiherald.com/news/business/article317734361.html",
+     "publisher": "Miami Herald",
+     "publisher_key": "miami herald",
+     "published": "2026-10-22T05:53:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    },
+    {
+     "url": "https://www.msn.com/en-us/news/other/how-commercial-truck-crash-settlements-have-changed-over-the-past-decade-including-the-rise-of-nuclear-verdicts/ar-AA2fQXNq",
+     "publisher": "Collinsville Daily News on MSN",
+     "publisher_key": "collinsville daily news on msn",
+     "published": "2026-10-22T09:30:07Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 70.3,
+   "age_days": 3.3,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.72,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 3 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
+   "url": "https://www.freightwaves.com/news/borderlands-mexico-avocado-imports-generate-641m-for-us-trucking-warehousing",
+   "publisher": "FreightWaves",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Borderlands Mexico: Avocado imports generate $641M for US trucking, warehousing",
+   "note": "Mexican avocado imports generate $641M in US trucking and warehousing, with GLS US expanding its parcel delivery network to Texas."
+  },
+  {
+   "title": "10 Players WVU Must Retain to Build a Special 2027 Season",
+   "url": "https://www.si.com/college/westvirginia/football/10-players-wvu-must-retain-to-build-a-special-2027-season",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "10 Players WVU Must Retain to Build a Special 2027 Season",
+   "note": "College sports roster retention article for West Virginia University."
+  },
+  {
+   "title": "iPhone Duo guide: Price, specs, availability, problems and reviews",
+   "url": "https://www.macworld.com/article/2629813/iphone-duo-folding-design-guide-problems-price-specs.html",
+   "publisher": "Macworld",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "iPhone Duo guide: Price, specs, availability, problems and reviews",
+   "note": "Product review and guide for an iPhone Duo device."
+  },
+  {
+   "title": "The $641M Avocado Trucking Windfall Isn't Buyable - Your Real Exposure Is Concentration",
+   "url": "https://www.ainvest.com/news/641m-avocado-trucking-windfall-isn-buyable-real-exposure-concentration-2610/",
+   "publisher": "ainvest",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The $641M Avocado Trucking Windfall Isn't Buyable - Your Real Exposure Is Concentration",
+   "note": "Context only."
+  },
+  {
+   "title": "From RBI facilities in Bhubaneswar to Air Force Day show in Varanasi, PM Modi highlights development, technology and national security",
+   "url": "https://news.webindia123.com/news/Articles/India/20261025/4515021.html",
+   "publisher": "WebIndia123",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "From RBI facilities in Bhubaneswar to Air Force Day show in Varanasi, PM Modi highlights development, technology and national security",
+   "note": "Political coverage of PM Modi highlighting development and cybersecurity in India."
+  },
+  {
+   "title": "India News | From RBI Facilities in Bhubaneswar to Air Force Day Show in Varanasi, PM Modi Highlights Development, Technology and National Security",
+   "url": "https://www.latestly.com/agency-news/india-news-from-rbi-facilities-in-bhubaneswar-to-air-force-day-show-in-varanasi-pm-modi-highlights-development-technology-and-national-security-7656501.html",
+   "publisher": "LatestLY",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "India News | From RBI Facilities in Bhubaneswar to Air Force Day Show in Varanasi, PM Modi Highlights Development, Technology and National Security",
+   "note": "News report on Prime Minister Narendra Modi's activities in India."
+  },
+  {
+   "title": "PM Modi inaugurates RBI data centre and cybersecurity unit in Odisha",
+   "url": "https://www.msn.com/en-in/news/other/pm-modi-inaugurates-rbi-data-centre-and-cybersecurity-unit-in-odisha/ar-AA2g2kEb",
+   "publisher": "Asianet Newsable on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "PM Modi inaugurates RBI data centre and cybersecurity unit in Odisha",
+   "note": "PM Modi inaugurates RBI data center and cybersecurity institute in Odisha."
+  },
+  {
+   "title": "Yankees birthday of the day: Bobby Brown",
+   "url": "https://www.msn.com/en-us/sports/baseball/yankees-birthday-of-the-day-bobby-brown/ar-AA2g284B",
+   "publisher": "Pinstripe Alley on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Yankees birthday of the day: Bobby Brown",
+   "note": "Historical baseball article on former Yankees player Bobby Brown."
+  },
+  {
+   "title": "NPL 2026 squads: Full list of overseas players in the Nepal Premier League",
+   "url": "https://sports.yahoo.com/articles/npl-2026-squads-full-list-153656261.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NPL 2026 squads: Full list of overseas players in the Nepal Premier League",
+   "note": "Cricket squad list announcement for the Nepal Premier League."
+  },
+  {
+   "title": "In Florida, Manatee County plans to turn landfill methane into fuel for bus and truck fleets",
+   "url": "https://www.yahoo.com/news/science/articles/florida-manatee-county-plans-turn-152700941.html",
+   "publisher": "Yahoo",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "In Florida, Manatee County plans to turn landfill methane into fuel for bus and truck fleets",
+   "note": "Context only regarding alternative fleet fuel investments."
+  },
+  {
+   "title": "Getting Pregnant Again Too Soon May Speed Up Biological Aging, Scientists Say",
+   "url": "https://health.yahoo.com/your-body/womens-health/pregnancy-fertility/articles/getting-pregnant-again-too-soon-151329549.html",
+   "publisher": "health",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Getting Pregnant Again Too Soon May Speed Up Biological Aging, Scientists Say",
+   "note": "Scientific health review discussing biological aging and closely spaced pregnancies."
+  },
+  {
+   "title": "Nevada downs San José State, 28-13, for homecoming win Saturday",
+   "url": "https://www.msn.com/en-us/news/other/nevada-downs-san-jos%C3%A9-state-28-13-for-homecoming-win-saturday/ar-AA2fZNiU",
+   "publisher": "Reno Gazette Journal on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Nevada downs San José State, 28-13, for homecoming win Saturday",
+   "note": "College football game recap featuring Nevada defeating San José State."
+  },
+  {
+   "title": "Newport Gold Group review: Is this gold IRA company worth it?",
+   "url": "https://www.usatoday.com/story/money/money-management/investing/newport-gold-group-review/92401867007/",
+   "publisher": "USA TODAY",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Newport Gold Group review: Is this gold IRA company worth it?",
+   "note": "Financial review of Newport Gold Group's gold and silver IRAs."
+  },
+  {
+   "title": "Obama attacks Trump over Iran war, tariffs and immigration at Ohio rally",
+   "url": "https://www.nationalheraldindia.com/international/barack-obama-attacks-donald-trump-over-iran-war-tariffs-and-immigration-at-ohio-rally",
+   "publisher": "National Herald",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Obama attacks Trump over Iran war, tariffs and immigration at Ohio rally",
+   "note": "Political rally coverage of Barack Obama campaigning in Ohio."
+  },
+  {
+   "title": "Why Terrence Brown’s Performances in UNC's Preseason Are Alarming",
+   "url": "https://www.si.com/college/unc/tar-heels-why-terrence-brown-performances-preseason-alarming",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Why Terrence Brown’s Performances in UNC's Preseason Are Alarming",
+   "note": "Sports commentary regarding a basketball player's preseason performance."
+  },
+  {
+   "title": "Just One Day of Weight Lifting a Week Can Rebuild and Preserve Strength",
+   "url": "https://www.verywellhealth.com/one-day-weight-lifting-a-week-strength-12164470",
+   "publisher": "Verywell Health",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Just One Day of Weight Lifting a Week Can Rebuild and Preserve Strength",
+   "note": "Health and wellness article on the benefits of weekly weight lifting."
+  },
+  {
+   "title": "Cardinals Cut Ties With Hated Rival’s 4-Year Outfielder Immediately After Season Ends",
+   "url": "https://www.forbes.com/sites/peterchawaga/2026/10/25/cardinals-cut-ties-with-hated-rivals-4-year-outfielder-immediately-after-season-ends/",
+   "publisher": "Forbes",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Cardinals Cut Ties With Hated Rival’s 4-Year Outfielder Immediately After Season Ends",
+   "note": "Major League Baseball roster move report concerning the St. Louis Cardinals."
+  },
+  {
+   "title": "Medicare Covers One Pair of Diabetic Shoes a Year. Missing Paperwork Drove 85.5% of Improper Payments. Her Diagnosis Alone Won’t Get the Bill Paid",
+   "url": "https://247wallst.com/personal-finance/2026/10/25/medicare-covers-one-pair-of-diabetic-shoes-a-year-missing-paperwork-drove-85-5-of-improper-payments/",
+   "publisher": "24/7 Wall St.",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Medicare Covers One Pair of Diabetic Shoes a Year. Missing Paperwork Drove 85.5% of Improper Payments. Her Diagnosis Alone Won’t Get the Bill Paid",
+   "note": "Medicare policy coverage details and improper payment data for diabetic shoes."
+  },
+  {
+   "title": "Small-but-mighty trailer manufacturer Vistabule finds success in Eagan",
+   "url": "https://www.twincities.com/2026/10/25/vistabule-trailer-manufacturer-eagan/",
+   "publisher": "Pioneer Press",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Small-but-mighty trailer manufacturer Vistabule finds success in Eagan",
+   "note": "Small business relocation announcement for trailer manufacturer Vistabule."
+  },
+  {
+   "title": "Amazon is the industry leader in cloud computing",
+   "url": "https://www.fool.com/investing/2026/10/25/prediction-amazon-stock-will-skyrocket-after-oct-2/",
+   "publisher": "The Motley Fool",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon is the industry leader in cloud computing",
+   "note": "Context only."
+  },
+  {
+   "title": "Ukraine must 'unblock' Patriot missile delivery, Zelenskyy says after deadly strikes",
+   "url": "https://abcnews.com/International/ukraine-unblock-patriot-missile-delivery-zelenskyy-after-deadly/story?id=137550094",
+   "publisher": "ABC News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ukraine must 'unblock' Patriot missile delivery, Zelenskyy says after deadly strikes",
+   "note": "Report on Patriot missile delivery and Russian attacks in Ukraine."
+  },
+  {
+   "title": "Kinsale Capital Earnings Call Highlights Profitable Discipline",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/KNSL/pressreleases/8431610/kinsale-capital-earnings-call-highlights-profitable-discipline/",
+   "publisher": "The Globe and Mail",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kinsale Capital Earnings Call Highlights Profitable Discipline",
+   "note": "Context only."
+  },
+  {
+   "title": "Protect Our Banking System From Cyber Looters & Cyber Terrorists: PM",
+   "url": "http://www.fintechbiznews.com/fintech-information-technology/protect-our-banking-system-from-cyber-looters-cyber-terrorists-pm",
+   "publisher": "fintechbiznews",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Protect Our Banking System From Cyber Looters & Cyber Terrorists: PM",
+   "note": "Indian Prime Minister emphasizes cybersecurity for banking systems."
+  },
+  {
+   "title": "PM inaugurates RBI’s newly established Data Centre and Cybersecurity Training Institute in Bhubaneswar, Odisha",
+   "url": "https://www.pmindia.gov.in/en/news_updates/pm-inaugurates-rbis-newly-established-data-centre-and-cybersecurity-training-institute-in-bhubaneswar-odisha/",
+   "publisher": "Prime Minister of India",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "PM inaugurates RBI’s newly established Data Centre and Cybersecurity Training Institute in Bhubaneswar, Odisha",
+   "note": "India inaugurates new RBI data center and cybersecurity training facility."
+  },
+  {
+   "title": "Qantas Adds Converted Airbus Freighter To Fleet",
+   "url": "https://www.aero-news.net/index.cfm?do=main.textpost&id=143944DF-1172-4542-8D5B-1C0A493DE0F8",
+   "publisher": "Aero-News Network",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Qantas Adds Converted Airbus Freighter To Fleet",
+   "note": "Context only."
+  },
+  {
+   "title": "Forward Margin: What It Means, How It Works",
+   "url": "https://www.investopedia.com/terms/f/forward-margin.asp",
+   "publisher": "Investopedia",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Forward Margin: What It Means, How It Works",
+   "note": "Investopedia definition of forward margin."
+  },
+  {
+   "title": "Half-split",
+   "url": "https://note.com/honda_tadatoki/n/n15404408d0f7?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Half-split",
+   "note": "Geological explanation of a half-split megathrust earthquake phenomenon."
+  },
+  {
+   "title": "Justifying a $5.8 Billion Acquisition with '$300 Million in Cost Savings within 2 Years'—The Depths of C.H. Robinson Worldwide's Acquisition of RXO [M&A Strategy Analysis Report]",
+   "url": "https://note.com/ma_strategynews/n/n4c57dd83a573?hl=en",
+   "publisher": "note",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "C.H. Robinson Worldwide's Acquisition of RXO",
+   "note": "Context only."
+  },
+  {
+   "title": "Even with AI Capital Expenditure Exceeding AWS Annual Revenue, It's 'Still Not Enough' | Amazon CEO Andy Jassy on Hyperscaler CapEx",
+   "url": "https://note.com/channah/n/nbeffda58f96c?hl=en",
+   "publisher": "note",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Even with AI Capital Expenditure Exceeding AWS Annual Revenue, It's 'Still Not Enough' | Amazon CEO Andy Jassy",
+   "note": "Context only."
+  },
+  {
+   "title": "Global sourcing trends 2027: Flexibility, tariffs & risks",
+   "url": "https://www.msn.com/en-us/news/other/global-sourcing-trends-2027-flexibility-tariffs-risks/ar-AA2fVLZa",
+   "publisher": "Women's Wear Daily on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Global sourcing trends 2027: Flexibility, tariffs & risks",
+   "note": "Context only."
+  },
+  {
+   "title": "[리포트 브리핑]삼성E&A, '4분기까지 약속한 서프' 목표가 73,000원 - 하나증권",
+   "url": "https://www.newspim.com/news/view/20261023000128",
+   "publisher": "뉴스핌",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "[리포트 브리핑]삼성E&A, '4분기까지 약속한 서프' 목표가 73,000원 - 하나증권",
+   "note": "Korean equity research report on Samsung E&A."
+  },
+  {
+   "title": "Aniversario 99 del natalicio de Abel Santamaría",
+   "url": "https://insurgente.org/aniversario-99-del-natalicio-de-abel-santamaria/",
+   "publisher": "Insurgente",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Aniversario 99 del natalicio de Abel Santamaría",
+   "note": "Article commemorating the anniversary of Abel Santamaría's birth in Cuba."
+  },
+  {
+   "title": "Nov. 3 Election Guide: Meet the 1st Congressional District candidates",
+   "url": "https://www.wrkf.org/politics/2026-10-19/nov-3-election-guide-meet-the-1st-congressional-district-candidates",
+   "publisher": "WRKF",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Nov. 3 Election Guide: Meet the 1st Congressional District candidates",
+   "note": "Context only."
+  },
+  {
+   "title": "Earnings call transcript: W. R. Berkley tops EPS in Q3 2026 but misses revenue",
+   "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-w-r-berkley-tops-eps-in-q3-2026-but-misses-revenue-93CH-4918465",
+   "publisher": "Investing.com UK",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Earnings call transcript: W. R. Berkley tops EPS in Q3 2026 but misses revenue",
+   "note": "Context only."
+  },
+  {
+   "title": "Történelmi nyugdíjemelésre számíthat a nyugdíjasok egy csoportja",
+   "url": "https://ujszo.com/kozelet/tortenelmi-nyugdijemelesre-szamithat-nyugdijasok-egy-csoportja",
+   "publisher": "Új Szó",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Történelmi nyugdíjemelésre számíthat a nyugdíjasok egy csoportja",
+   "note": "Hungarian-language article regarding pension increases."
+  },
+  {
+   "title": "Hurricane Trudy weakens off Mexico and Typhoon Champi moves away from land",
+   "url": "https://www.wjbf.com/news/ap-top-headlines/ap-hurricane-trudy-brings-heavy-rain-and-strong-winds-to-mexicos-pacific-coast/",
+   "publisher": "WJBF",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Hurricane Trudy weakens off Mexico and Typhoon Champi moves away from land",
+   "note": "Hurricane Trudy weakens off Mexico and Typhoon Champi moves away."
+  }
+ ],
+ "digest": "- Commercial truck crash settlement costs continue to surge due to increasing severity and a rising frequency of nuclear verdicts exceeding $10 million, reinforcing the need for Nirvana's telematics underwriting to mitigate severe loss exposures [11]."
+}
