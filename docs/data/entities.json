@@ -883,5 +883,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-24T16:58:23Z"
+ },
+ "Kemper": {
+  "name": "Kemper",
+  "first_seen": "2026-10-25T06:57:50Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_bbcf798ab77e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-25T06:57:50Z"
  }
 }

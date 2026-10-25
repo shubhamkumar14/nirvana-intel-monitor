@@ -1,0 +1,1239 @@
+{
+ "run_id": "2026-10-25T06-57-50Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/40170984564",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-25",
+ "started": "2026-10-25T06:57:50Z",
+ "duration_s": 524.6,
+ "baseline": false,
+ "previous_run": "2026-10-24T16-58-23Z",
+ "previous_started": "2026-10-24T16:58:23Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 362,
+  "unique": 347,
+  "known_skipped": 308,
+  "attached_existing": 1,
+  "prefiltered_out": 5,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 33,
+  "irrelevant": 28,
+  "quarantined": 0,
+  "new_events": 5,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.9,
+  "dedup_ratio": 0.905,
+  "relevance_rate": 0.152
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 447
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 408
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 115
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 232
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 488
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 39
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 89
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 240
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 309
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 249
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 258
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 484
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 194
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 236
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 220
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 155
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 162
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 176
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 396
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 261
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 253
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 245
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 70
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 65
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1246
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 372
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 857
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 387
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 105
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 761
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 774
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 9544,
+  "output_tokens": 6068,
+  "calls": 5,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 2,
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_7ad5a1f6b7a0",
+   "title": "UPS Stock Is Down 57% From Its Record. Is It a Buy Before Its Oct. 27 Report?",
+   "url": "https://www.fool.com/investing/2026/10/24/ups-stock-is-down-57-from-its-record-is-it-a-buy-before-its-oct-27-report/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "UPS shares dropped sharply following an agreement to decrease package volume from its largest customer by more than half by late 2026.",
+   "evidence_quote": "UPS said it had reached an agreement in principle with its biggest customer to cut that customer's volume by over 50%",
+   "companies": [
+    "UPS"
+   ],
+   "implication": "Large volume shifts between carriers may alter fleet sizes and exposure for independent contractors and couriers. Track delivery contract migration.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-24T17:18:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T06:57:50Z",
+   "first_run": "2026-10-25T06-57-50Z",
+   "last_seen": "2026-10-25T06:57:50Z",
+   "last_updated_run": "2026-10-25T06-57-50Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "7ad5a1f6b7a0"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fool.com/investing/2026/10/24/ups-stock-is-down-57-from-its-record-is-it-a-buy-before-its-oct-27-report/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-10-24T17:18:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 52.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9f67d64be930",
+   "title": "Instacart in Talks With DoorDash and Uber for Sale, the Information Reports",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-23/instacart-in-talks-for-sale-the-information-reports",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Reports indicate Instacart held discussions regarding potential sales to delivery platforms like DoorDash or Uber.",
+   "evidence_quote": "Instacart in Talks With DoorDash and Uber for Sale",
+   "companies": [
+    "Instacart",
+    "DoorDash",
+    "Uber"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-23T09:07:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T06:57:50Z",
+   "first_run": "2026-10-25T06-57-50Z",
+   "last_seen": "2026-10-25T06:57:50Z",
+   "last_updated_run": "2026-10-25T06-57-50Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9f67d64be930"
+   ],
+   "sources": [
+    {
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-23/instacart-in-talks-for-sale-the-information-reports",
+     "publisher": "U.S. News Money",
+     "publisher_key": "u.s. news money",
+     "published": "2026-10-23T09:07:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.9,
+   "age_days": 1.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.83,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_d0c7f9cec219",
+   "title": "AMZ Prep Releases 2026 Peak Season Outlook on E-Commerce Fulfillment and Shipping Constraints",
+   "url": "https://www.usatoday.com/press-release/story/52023/amz-prep-releases-2026-peak-season-outlook-on-e-commerce-fulfillment-and-shipping-constraints/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "A third-party logistics provider released an outlook on e-commerce fulfillment and shipping constraints for the peak season.",
+   "evidence_quote": "AMZ Prep Releases 2026 Peak Season Outlook on E-Commerce Fulfillment",
+   "companies": [
+    "AMZ Prep Inc."
+   ],
+   "implication": "Higher peak shipping volumes mean increased fleet activity for delivery clients, requiring careful telematics monitoring for seasonal driver fatigue.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-22T01:54:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T06:57:50Z",
+   "first_run": "2026-10-25T06-57-50Z",
+   "last_seen": "2026-10-25T06:57:50Z",
+   "last_updated_run": "2026-10-25T06-57-50Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "d0c7f9cec219"
+   ],
+   "sources": [
+    {
+     "url": "https://www.usatoday.com/press-release/story/52023/amz-prep-releases-2026-peak-season-outlook-on-e-commerce-fulfillment-and-shipping-constraints/",
+     "publisher": "USA TODAY",
+     "publisher_key": "usa today",
+     "published": "2026-10-22T01:54:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.4,
+   "age_days": 3.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.73,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_bbcf798ab77e",
+   "title": "KMPR Q2 Deep Dive: Profitability Initiatives Dominate Amid Revenue Decline and Leadership Realignment",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/KMPR-N/pressreleases/3700716/kmpr-q2-deep-dive-profitability-initiatives-dominate-amid-revenue-decline-and-leadership-realignment/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Kemper reported Q2 revenue declines and focused on profitability initiatives amid leadership changes.",
+   "evidence_quote": "KMPR Q2 Deep Dive: Profitability Initiatives Dominate Amid Revenue Decline",
+   "companies": [
+    "Kemper"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-24T13:25:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T06:57:50Z",
+   "first_run": "2026-10-25T06-57-50Z",
+   "last_seen": "2026-10-25T06:57:50Z",
+   "last_updated_run": "2026-10-25T06-57-50Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "bbcf798ab77e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theglobeandmail.com/investing/markets/stocks/KMPR-N/pressreleases/3700716/kmpr-q2-deep-dive-profitability-initiatives-dominate-amid-revenue-decline-and-leadership-realignment/",
+     "publisher": "The Globe and Mail",
+     "publisher_key": "the globe and mail",
+     "published": "2026-10-24T13:25:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a228c7beeec5",
+   "title": "What SMEs should check before letting staff drive their own cars for work",
+   "url": "https://www.uknewsgroup.co.uk/what-smes-should-check-before-letting-staff-drive-their-own-cars-for-work/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Federal data reports a significant number of American worker fatalities resulting from transportation incidents.",
+   "evidence_quote": "Federal data show transportation incidents killed 1,937 American workers in 2024",
+   "companies": [],
+   "implication": "Reinforces the severity of commercial driving risks, supporting Nirvana's telematics-based safety coaching value proposition.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-22T00:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T06:57:50Z",
+   "first_run": "2026-10-25T06-57-50Z",
+   "last_seen": "2026-10-25T06:57:50Z",
+   "last_updated_run": "2026-10-25T06-57-50Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "a228c7beeec5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.uknewsgroup.co.uk/what-smes-should-check-before-letting-staff-drive-their-own-cars-for-work/",
+     "publisher": "uknewsgroup",
+     "publisher_key": "uknewsgroup",
+     "published": "2026-10-22T00:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.4,
+   "age_days": 3.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.72,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_0c495af17f61",
+   "title": "KKR to Sell Infinity Transportation to Ares for $2.9 Billion",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/kkr-sell-infinity-transportation-ares-105000070.html",
+   "lane": "market_driver",
+   "event_type": "m_and_a",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "KKR signed an agreement to sell Infinity Transportation to Ares Management for $2.9 billion.",
+   "evidence_quote": "KKR will sell Infinity Transportation (\"Infinity\" or the \"Company\"),",
+   "companies": [],
+   "implication": "Context only. Large transportation infrastructure transaction; no direct linkage to last-mile commercial auto underwriting or courier fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-19T03:50:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-20T06:42:13Z",
+   "first_run": "2026-10-20T06-42-13Z",
+   "last_seen": "2026-10-25T06:57:50Z",
+   "last_updated_run": "2026-10-25T06-57-50Z",
+   "update_note": "New corroborating source: Seeking Alpha",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "0c495af17f61",
+    "df6ae6e0c2ec"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/kkr-sell-infinity-transportation-ares-105000070.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-19T03:50:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"Asero\" insurance transportation"
+    },
+    {
+     "url": "https://seekingalpha.com/news/4654156-kkr-to-sell-infinity-transportation-to-ares-for-2_9b",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-10-19T05:27:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"Asero\" insurance transportation"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.7,
+   "age_days": 6.1,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.54,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "LPG distributors' unions oppose strike, seek dialogue for commission hike",
+   "url": "https://www.business-standard.com/india-news/lpg-distributors-unions-oppose-strike-seek-dialogue-for-commission-hike-126102500123_1.html",
+   "publisher": "Business Standard",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Federation of LPG Distributors of India and All India LPG Distributors Federation have distanced themselves from the proposed protest",
+   "note": "Indian LPG distributor federations distanced themselves from a planned strike and protest over commissions initiated by a splinter group."
+  },
+  {
+   "title": "Devdutt Padikkal, Sai Sudharsan hit back after KL Rahul, Yashasvi Jaiswal failures",
+   "url": "https://www.msn.com/en-ca/news/other/devdutt-padikkal-sai-sudharsan-hit-back-after-kl-rahul-yashasvi-jaiswal-failures/ar-AA2g0qrW",
+   "publisher": "The Times of India on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "India A struggled initially but found stability through an unbeaten partnership between Devdutt Padikkal and Sai Sudharsan.",
+   "note": "Devdutt Padikkal and Sai Sudharsan formed an unbeaten cricket partnership to recover India A's innings after top-order dismissals."
+  },
+  {
+   "title": "First Citizens: A Growth Bank Wearing a Value-Bank Price Tag",
+   "url": "https://www.ainvest.com/news/citizens-growth-bank-wearing-bank-price-tag-2610/",
+   "publisher": "ainvest",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "First Citizens (FCNCA) reported Q3 earnings and revenue beats, raising full-year guidance amid 4.1% loan growth",
+   "note": "First Citizens reported quarterly earnings and revenue beats, driven by loan growth and increased deposits, raising its full-year outlook."
+  },
+  {
+   "title": "India A vs New Zealand A: Devdutt Padikkal, Sai Sudharsan dig their heels in after KL Rahul and Yashasvi Jaiswal fall cheaply",
+   "url": "https://www.msn.com/en-in/sports/cricket/india-a-vs-new-zealand-a-devdutt-padikkal-sai-sudharsan-dig-their-heels-in-after-kl-rahul-and-yashasvi-jaiswal-fall-cheaply/ar-AA2g0liD",
+   "publisher": "Hindustan Times on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "KL Rahul and Yashasvi Jaiswal registered single digit scores in the second innings of the first unofficial Test.",
+   "note": "India A batsmen stabilized their innings against New Zealand A after low scores from openers Rahul and Jaiswal."
+  },
+  {
+   "title": "76ers' Brown claims no beef but says Tatum has 'hell of a PR team'",
+   "url": "https://www.msn.com/en-us/sports/basketball/76ers-brown-claims-no-beef-but-says-tatum-has-hell-of-a-pr-team/ar-AA2g0OKS",
+   "publisher": "ESPN on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Jaylen Brown said Jayson Tatum should \"stay ready at all time\" while denying the two have beef.",
+   "note": "NBA player Jaylen Brown commented on former teammate Jayson Tatum while clarifying there is no personal animosity between them."
+  },
+  {
+   "title": "Melania Trump Cornered on Stealing Ceasefire Credit From Pope Leo",
+   "url": "https://www.yahoo.com/news/politics/articles/melania-trump-cornered-stealing-ceasefire-024111483.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Melania Trump is considering a trip to war-torn Ukraine after triumphantly announcing on Friday that she had personally brokered a localized ceasefire",
+   "note": "Melania Trump announced she negotiated a ceasefire in Ukraine and is considering visiting the region."
+  },
+  {
+   "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+   "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "here's a look at the AI projects that shut down or missed expectations.",
+   "note": "TechCrunch compiled a list detailing failed AI initiatives, delayed projects, and shuttered startups across the technology sector."
+  },
+  {
+   "title": "Giants Should Consider Reliever Hoby Milner With One Clear Role in Mind",
+   "url": "https://sports.yahoo.com/articles/giants-consider-reliever-hoby-milner-020001288.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Hoby Milner could give the Giants a useful left-handed bullpen option, but his limited strikeout production should shape any free-agent offer.",
+   "note": "Analysis suggests the San Francisco Giants evaluate relief pitcher Hoby Milner for a bullpen role based on specific performance traits."
+  },
+  {
+   "title": "Old Republic International Balances Growth With Margin Pressures",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/ORI/pressreleases/8431618/old-republic-international-balances-growth-with-margin-pressures/",
+   "publisher": "The Globe and Mail",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Detailed price information for Old Republic International Corp (ORI-N) from The Globe and Mail including charting and trades.",
+   "note": "The Globe and Mail provided price charts, trading data, and financial performance tracking for commercial insurer Old Republic International Corp."
+  },
+  {
+   "title": "UPS Stock Is Down 57% From Its Record. Is It a Buy Before Its Oct. 27 Report?",
+   "url": "https://www.fool.com/investing/2026/10/24/ups-stock-is-down-57-from-its-record-is-it-a-buy-before-its-oct-27-report/",
+   "publisher": "The Motley Fool",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UPS said it had reached an agreement in principle with its biggest customer to cut that customer's volume by over 50%",
+   "note": "Large volume shifts between carriers may alter fleet sizes and exposure for independent contractors and couriers. Track delivery contract migration."
+  },
+  {
+   "title": "UIW dominates McNeese in 38-6 win",
+   "url": "https://www.ksat.com/sports/2026/10/25/uiw-dominates-mcneese-in-38-6-win/",
+   "publisher": "KSAT",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UIW dominates McNeese in 38-6 win",
+   "note": "College football game score report."
+  },
+  {
+   "title": "Obama Blasts Trump Allies Over 'Cruelty' and Rising Costs as Democrats Rally Ahead of US Midterms",
+   "url": "https://www.inkl.com/news/obama-blasts-trump-allies-over-cruelty-and-rising-costs-as-democrats-rally-ahead-of-us-midterms",
+   "publisher": "inkl",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Obama Blasts Trump Allies Over 'Cruelty' and Rising Costs as Democrats Rally Ahead of US Midterms",
+   "note": "Political campaign news regarding midterms and living costs."
+  },
+  {
+   "title": "Fast-fashion giant to pay $100 million after customer complaints",
+   "url": "https://www.thestreet.com/retail/fast-fashion-giant-to-pay-100-million-after-customer-complaints",
+   "publisher": "TheStreet",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Fast-fashion giant to pay $100 million after customer complaints",
+   "note": "Shein settles an FTC probe over delivery issues."
+  },
+  {
+   "title": "Mike Brown calls out Knicks’ lack of physicality amid ugly 0-2 start",
+   "url": "https://nypost.com/2026/10/24/sports/mike-brown-calls-out-knicks-lack-of-physicality-amid-ugly-0-2-start/",
+   "publisher": "New York Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Mike Brown calls out Knicks’ lack of physicality amid ugly 0-2 start",
+   "note": "Basketball coach comments on team performance."
+  },
+  {
+   "title": "NFL scout compares Miami’s Malachi Toney to 7-time Pro Bowl WR",
+   "url": "https://www.msn.com/en-us/news/other/nfl-scout-compares-miami-s-malachi-toney-to-7-time-pro-bowl-wr/ar-AA2fZD4I",
+   "publisher": "Newsweek on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NFL scout compares Miami’s Malachi Toney to 7-time Pro Bowl WR",
+   "note": "College football player profile comparison."
+  },
+  {
+   "title": "KMPR Q2 Deep Dive: Profitability Initiatives Dominate Amid Revenue Decline and Leadership Realignment",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/KMPR-N/pressreleases/3700716/kmpr-q2-deep-dive-profitability-initiatives-dominate-amid-revenue-decline-and-leadership-realignment/",
+   "publisher": "The Globe and Mail",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "KMPR Q2 Deep Dive: Profitability Initiatives Dominate Amid Revenue Decline",
+   "note": "Context only"
+  },
+  {
+   "title": "Big Tech Is Pouring $700 Billion Into AI. An AI App Alone Can’t Qualify Her for Medicare Home Health",
+   "url": "https://247wallst.com/personal-finance/2026/10/24/big-tech-is-pouring-700-billion-into-ai-an-ai-app-alone-cant-qualify-her-for-medicare-home-health/",
+   "publisher": "24/7 Wall St.",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Big Tech Is Pouring $700 Billion Into AI.",
+   "note": "Discussion of AI spending and home healthcare coverage."
+  },
+  {
+   "title": "This $6 Billion Investment Could Open a Relief Valve for America’s AI and Power-Grid Boom",
+   "url": "https://247wallst.com/investing/2026/10/24/this-6-billion-investment-could-open-a-relief-valve-for-americas-ai-and-power-grid-boom/",
+   "publisher": "24/7 Wall St.",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "This $6 Billion Investment Could Open a Relief Valve for America’s AI",
+   "note": "Investment in Arizona copper processing infrastructure."
+  },
+  {
+   "title": "Instacart in Talks With DoorDash and Uber for Sale, the Information Reports",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-23/instacart-in-talks-for-sale-the-information-reports",
+   "publisher": "U.S. News Money",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Instacart in Talks With DoorDash and Uber for Sale",
+   "note": "Context only"
+  },
+  {
+   "title": "Mara Sattei, dal coraggio delle emozioni al ritorno nei club: “E’ la dimensione che amo”",
+   "url": "https://www.sardegnareporter.it/2026/10/mara-sattei-dal-coraggio-delle-emozioni-al-ritorno-nei-club-e-la-dimensione-che-amo/786588/",
+   "publisher": "Sardegna Reporter",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Mara Sattei, dal coraggio delle emozioni al ritorno nei club",
+   "note": "Foreign language music artist interview."
+  },
+  {
+   "title": "Melania Trump Brokers a Ceasefire Deal in Russian-Occupied Ukrainian City to Get Relief Aid In",
+   "url": "https://www.usnews.com/news/politics/articles/2026-10-23/melania-trump-helps-forge-ceasefire-deal-in-russian-occupied-oleshky-the-white-house-says",
+   "publisher": "U.S. News & World Report",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Melania Trump Brokers a Ceasefire Deal in Russian-Occupied Ukrainian City",
+   "note": "Geopolitical news about international diplomacy involving Ukraine and Russia."
+  },
+  {
+   "title": "Judge orders Trump must sit for a deposition in his defamation lawsuit against the BBC",
+   "url": "https://www.wdbj7.com/2026/10/22/judge-orders-trump-must-sit-deposition-his-defamation-lawsuit-against-bbc/",
+   "publisher": "WDBJ",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Judge orders Trump must sit for a deposition in his defamation lawsuit",
+   "note": "Legal proceedings regarding a defamation lawsuit involving political figures and media."
+  },
+  {
+   "title": "IND vs NZ 1st T20I 2026 result, highlights and scorecard as Sanju Samson & Naman Dhir set up a 4-wicket win",
+   "url": "https://sports.yahoo.com/articles/ind-vs-nz-1st-t20i-064218637.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "IND vs NZ 1st T20I 2026 result",
+   "note": "Cricket match results and scorecard updates."
+  },
+  {
+   "title": "AMZ Prep Releases 2026 Peak Season Outlook on E-Commerce Fulfillment and Shipping Constraints",
+   "url": "https://www.usatoday.com/press-release/story/52023/amz-prep-releases-2026-peak-season-outlook-on-e-commerce-fulfillment-and-shipping-constraints/",
+   "publisher": "USA TODAY",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AMZ Prep Releases 2026 Peak Season Outlook on E-Commerce Fulfillment",
+   "note": "Higher peak shipping volumes mean increased fleet activity for delivery clients, requiring careful telematics monitoring for seasonal driver fatigue."
+  },
+  {
+   "title": "What SMEs should check before letting staff drive their own cars for work",
+   "url": "https://www.uknewsgroup.co.uk/what-smes-should-check-before-letting-staff-drive-their-own-cars-for-work/",
+   "publisher": "uknewsgroup",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Federal data show transportation incidents killed 1,937 American workers in 2024",
+   "note": "Reinforces the severity of commercial driving risks, supporting Nirvana's telematics-based safety coaching value proposition."
+  },
+  {
+   "title": "Neon EVM",
+   "url": "https://mx.investing.com/crypto/neon",
+   "publisher": "Investing.com México",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Neon EVM",
+   "note": "Financial pricing and charts for a crypto token."
+  },
+  {
+   "title": "Making progress count for every home",
+   "url": "https://www.msn.com/en-xl/africa/nigeria/making-progress-count-for-every-home/ar-AA2fIPyR",
+   "publisher": "Tribune Online on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Making progress count for every home",
+   "note": "A state governor's inauguration speech transcript."
+  },
+  {
+   "title": "Johannes B. Kerner schwärmt vor Preisverleihung in München von seiner Ehefrau",
+   "url": "https://www.soester-anzeiger.de/stars/johannes-kerner-spricht-ueber-seine-ehefrau-und-bayern-zr-94550567.html",
+   "publisher": "Soester Anzeiger",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Johannes B. Kerner schwärmt vor Preisverleihung",
+   "note": "Entertainment news and interviews regarding a German media personality."
+  },
+  {
+   "title": "Ścieżki nordic walking do 90.2 km od Głogowa. Pomysły na odrobinę ruchu - weekend 24 - 25 października",
+   "url": "https://glogow.naszemiasto.pl/sciezki-nordic-walking-do-90-2-km-od-glogowa-pomysly-na-odrobine-ruchu-weekend-24-25-pazdziernika/ar/c7p1-22318947",
+   "publisher": "Głogów Nasze Miasto",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ścieżki nordic walking do 90.2 km od Głogowa",
+   "note": "Local weekend weather and walking trail guides in Poland."
+  },
+  {
+   "title": "10 Paris souvenirs travelers find beyond tourist shops",
+   "url": "https://www.msn.com/en-us/news/other/10-paris-souvenirs-travelers-find-beyond-tourist-shops/vi-AA1XUPHV",
+   "publisher": "Les Frenchies on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "10 Paris souvenirs travelers find beyond tourist shops",
+   "note": "Travel guide for finding local souvenirs in Paris."
+  },
+  {
+   "title": "موعد صرف تكافل وكرامة نوفمبر 2026 وأماكن الحصول على المستحقات",
+   "url": "https://www.christian-dogma.com/2303249",
+   "publisher": "الحق والضلال",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "موعد صرف تكافل وكرامة نوفمبر 2026",
+   "note": "Social welfare payment schedules in international markets."
+  },
+  {
+   "title": "Amazon India",
+   "url": "https://economictimes.indiatimes.com/small-biz/amazon-india",
+   "publisher": "The Economic Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon India",
+   "note": "Shopping trends ahead of a festival in the Indian retail market."
+  },
+  {
+   "title": "Amelia Earhart Search Hits Setback as New Expedition Rules Out Key Theory",
+   "url": "https://www.newsweek.com/amelia-earhart-search-setback-expedition-rules-out-taraia-object-theory-12586588",
+   "publisher": "Newsweek",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amelia Earhart Search Hits Setback as New Expedition Rules Out Key Theory",
+   "note": "An expedition update searching for historical aircraft wreckage."
+  }
+ ],
+ "digest": "- UPS shares dropped sharply after agreeing to decrease package volume from its largest customer by over half by late 2026, which may alter fleet sizes and exposure for independent couriers [1].\n- AMZ Prep released a 2026 peak season outlook highlighting shipping constraints, meaning higher peak shipping volumes will increase fleet activity and require careful telematics monitoring for seasonal driver fatigue [3].\n- Federal data reporting high American worker transportation fatalities reinforces commercial driving risk severity, directly supporting Nirvana's telematics-based safety coaching value proposition [5]."
+}
