@@ -933,5 +933,88 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-25T17:13:37Z"
+ },
+ "CopperPoint Insurance Company": {
+  "name": "CopperPoint Insurance Company",
+  "first_seen": "2026-10-26T19:34:22Z",
+  "mentions": 2,
+  "event_ids": [
+   "ev_1535151eeba5",
+   "ev_dc0187161c17"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-26T19:34:22Z"
+ },
+ "General Indemnity Group": {
+  "name": "General Indemnity Group",
+  "first_seen": "2026-10-26T19:34:22Z",
+  "mentions": 3,
+  "event_ids": [
+   "ev_1535151eeba5",
+   "ev_8fad8e730e06",
+   "ev_dc0187161c17"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-26T19:34:22Z"
+ },
+ "Boston Omaha Corporation": {
+  "name": "Boston Omaha Corporation",
+  "first_seen": "2026-10-26T19:34:22Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_1535151eeba5"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-26T19:34:22Z"
+ },
+ "Falvey Insurance Group": {
+  "name": "Falvey Insurance Group",
+  "first_seen": "2026-10-26T19:34:22Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e7053cd5769a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-26T19:34:22Z"
+ },
+ "CopperPoint Insurance Co.": {
+  "name": "CopperPoint Insurance Co.",
+  "first_seen": "2026-10-26T19:34:22Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_8fad8e730e06"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-26T19:34:22Z"
+ },
+ "Jaguar Risk": {
+  "name": "Jaguar Risk",
+  "first_seen": "2026-10-26T19:34:22Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f7dbc7fa3873"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-26T19:34:22Z"
+ },
+ "Algorithmic Insurance Services, Inc.": {
+  "name": "Algorithmic Insurance Services, Inc.",
+  "first_seen": "2026-10-26T19:34:22Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f7dbc7fa3873"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-26T19:34:22Z"
+ },
+ "Sproutr": {
+  "name": "Sproutr",
+  "first_seen": "2026-10-26T19:34:22Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_c2ff24d92f07"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-26T19:34:22Z"
  }
 }
