@@ -1,0 +1,1667 @@
+{
+ "run_id": "2026-10-26T07-03-03Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/40283404444",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-26",
+ "started": "2026-10-26T07:03:03Z",
+ "duration_s": 585.8,
+ "baseline": false,
+ "previous_run": "2026-10-25T17-13-37Z",
+ "previous_started": "2026-10-25T17:13:37Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 364,
+  "unique": 349,
+  "known_skipped": 290,
+  "attached_existing": 1,
+  "prefiltered_out": 13,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 45,
+  "irrelevant": 35,
+  "quarantined": 0,
+  "new_events": 10,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.95,
+  "dedup_ratio": 0.871,
+  "relevance_rate": 0.222
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 273
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 219
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 430
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 359
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 144
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 146
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 303
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 764
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 360
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 374
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 250
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 264
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 181
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 229
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 259
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 245
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 277
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 331
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 263
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 219
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 279
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 279
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 322
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 270
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 257
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 270
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 406
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 201
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 143
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 170
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1524
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1341
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 348
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 807
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 218
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 758
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2893
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 8526,
+  "output_tokens": 6570,
+  "calls": 4,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 4
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_ff3c180175b3",
+   "title": "National Urban League warns NYC delivery bill could hurt Black-owned businesses",
+   "url": "https://www.bkreader.com/local-voices/national-urban-league-warns-nyc-delivery-bill-could-hurt-black-owned-businesses-12931237",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.8,
+   "summary": "The National Urban League opposes a proposed New York City delivery bill arguing it could negatively impact local delivery workers and Black-owned businesses.",
+   "evidence_quote": "National Urban League warns NYC delivery bill could hurt Black-owned businesses",
+   "companies": [
+    "National Urban League"
+   ],
+   "implication": "Track municipal legislative shifts in major urban markets like NYC that target last-mile delivery operations, as regulatory friction impacts fleet cost structures and risk profiles.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-23T07:29:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "ff3c180175b3"
+   ],
+   "sources": [
+    {
+     "url": "https://www.bkreader.com/local-voices/national-urban-league-warns-nyc-delivery-bill-could-hurt-black-owned-businesses-12931237",
+     "publisher": "BKReader",
+     "publisher_key": "bkreader",
+     "published": "2026-10-23T07:29:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"One80\" last mile delivery insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 68.7,
+   "age_days": 3.0,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.74,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_954d0be6e80d",
+   "title": "3,200 Chinese-built EVs landed in LA for Waymo's robotaxis — the same cars Americans can't buy. Is it legal?",
+   "url": "https://www.msn.com/en-us/technology/tech-companies/3-200-chinese-built-evs-landed-in-la-for-waymo-s-robotaxis-the-same-cars-americans-can-t-buy-is-it-legal/ar-AA2g1LvE",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "Waymo has imported thousands of Chinese-built Zeekr vehicles into Los Angeles for its robotaxi fleet operations.",
+   "evidence_quote": "Waymo has imported 3,200 Zeekr cars from China since 2024 through the Port of Los Angeles.",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Monitor robotaxi fleet deployments and autonomous hardware import trends, as autonomous platforms could eventually intersect with last-mile delivery use cases.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-25T09:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "954d0be6e80d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/technology/tech-companies/3-200-chinese-built-evs-landed-in-la-for-waymo-s-robotaxis-the-same-cars-americans-can-t-buy-is-it-legal/ar-AA2g1LvE",
+     "publisher": "Moneywise on MSN",
+     "publisher_key": "moneywise on msn",
+     "published": "2026-10-25T09:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 59.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e622f9f552ba",
+   "title": "Maryland – Insurer Cancellation Requirements for Motor Vehicle Liability Coverage",
+   "url": "https://www.propertycasualty360.com/fcs/2026/10/22/maryland-insurer-cancellation-requirements-for-motor-vehicle-liability-coverage/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "The Maryland Insurance Administration published a bulletin concerning statutory motor vehicle liability coverage cancellation requirements.",
+   "evidence_quote": "Maryland – Insurer Cancellation Requirements for Motor Vehicle Liability Coverage",
+   "companies": [
+    "Maryland Insurance Administration"
+   ],
+   "implication": "Keep track of state-level regulatory updates governing commercial auto policy cancellations to ensure underwriting workflows remain compliant.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-22T07:45:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "e622f9f552ba"
+   ],
+   "sources": [
+    {
+     "url": "https://www.propertycasualty360.com/fcs/2026/10/22/maryland-insurer-cancellation-requirements-for-motor-vehicle-liability-coverage/",
+     "publisher": "PropertyCasualty360",
+     "publisher_key": "propertycasualty360",
+     "published": "2026-10-22T07:45:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 2,
+   "score": 58.4,
+   "age_days": 4.0,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.67,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_2ea97f7899eb",
+   "title": "Instacart Stock What Health Benefits Deal And $5 Million Settlement Mean",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/instacart-stock-health-benefits-deal-140832542.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Instacart parent Maplebear agreed to a settlement with US authorities regarding hiring practices and partnered for health benefits.",
+   "evidence_quote": "Instacart parent Maplebear has agreed to a US$5,000,000 settlement with U.S. authorities over past PERM hiring practices",
+   "companies": [
+    "Instacart",
+    "Maplebear",
+    "True Rx Health Strategists"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-25T07:08:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "2ea97f7899eb"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/instacart-stock-health-benefits-deal-140832542.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-25T07:08:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.1,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3f2ec3c4c675",
+   "title": "Selective Insurance Balances Strong Returns With Growth Pressures",
+   "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/8447062/selective-insurance-balances-strong-returns-with-growth-pressures/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Selective Insurance discussed balancing strong returns with ongoing growth pressures during its Q3 earnings call.",
+   "evidence_quote": "Selective Insurance Balances Strong Returns With Growth Pressures",
+   "companies": [
+    "Selective Insurance"
+   ],
+   "implication": "Context only on commercial lines insurer appetite and underwriting discipline.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-25T19:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "3f2ec3c4c675"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/8447062/selective-insurance-balances-strong-returns-with-growth-pressures/",
+     "publisher": "The Globe and Mail",
+     "publisher_key": "the globe and mail",
+     "published": "2026-10-25T19:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_fde82d989ca9",
+   "title": "Old Republic International: 3 key takeaways for long-term investors",
+   "url": "https://www.msn.com/en-us/news/other/old-republic-international-3-key-takeaways-for-long-term-investors/ar-AA2g2BwP",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Old Republic International highlights warranty partnerships, title agency growth, and pricing discipline to protect margins in a soft market.",
+   "evidence_quote": "pricing discipline protects margins in a soft market",
+   "companies": [
+    "Old Republic International"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-25T12:54:06Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "fde82d989ca9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/old-republic-international-3-key-takeaways-for-long-term-investors/ar-AA2g2BwP",
+     "publisher": "The Motley Fool on MSN",
+     "publisher_key": "the motley fool on msn",
+     "published": "2026-10-25T12:54:06Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_537ba9e81022",
+   "title": "How Do I Check My Car Insurance Claims History?",
+   "url": "https://www.marketwatch.com/insurance-services/auto-insurance/how-do-i-check-my-car-insurance-claim-history/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "MarketWatch examines how consumers can check their auto insurance claims history across major national and regional insurers.",
+   "evidence_quote": "How Do I Check My Car Insurance Claims History?",
+   "companies": [
+    "USAA",
+    "Travelers",
+    "State Farm",
+    "Erie Insurance"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-21T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "537ba9e81022"
+   ],
+   "sources": [
+    {
+     "url": "https://www.marketwatch.com/insurance-services/auto-insurance/how-do-i-check-my-car-insurance-claim-history/",
+     "publisher": "MarketWatch",
+     "publisher_key": "marketwatch",
+     "published": "2026-10-21T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.0,
+   "age_days": 4.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.64,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_22c46b750404",
+   "title": "Car insurance adjuster warns: 7 models with shockingly high repair claims",
+   "url": "https://www.msn.com/en-us/news/other/car-insurance-adjuster-warns-7-models-with-shockingly-high-repair-claims/ar-AA2fBOam",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "An adjuster warns about vehicle models with high repair claims impacting insurance premiums.",
+   "evidence_quote": "Car insurance adjuster warns: 7 models with shockingly high repair claims",
+   "companies": [
+    "MoneyLion"
+   ],
+   "implication": "Context only regarding general auto repair cost inflation affecting commercial fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-19T14:00:15Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "22c46b750404"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/car-insurance-adjuster-warns-7-models-with-shockingly-high-repair-claims/ar-AA2fBOam",
+     "publisher": "MoneyLion on MSN",
+     "publisher_key": "moneylion on msn",
+     "published": "2026-10-19T14:00:15Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 43.2,
+   "age_days": 6.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.51,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_570ef33d40bd",
+   "title": "US Tariffs Push New Zealand Dairy Exporters to Diversify Markets",
+   "url": "https://dairynews.today/news/us_tariffs_push_new_zealand_dairy_exporters_to_diversify_markets_6932451.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "United States tariffs are pushing New Zealand dairy exporters to diversify into other markets.",
+   "evidence_quote": "US Tariffs Push New Zealand Dairy Exporters to Diversify Markets",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-25T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "570ef33d40bd"
+   ],
+   "sources": [
+    {
+     "url": "https://dairynews.today/news/us_tariffs_push_new_zealand_dairy_exporters_to_diversify_markets_6932451.html",
+     "publisher": "DairyNews",
+     "publisher_key": "dairynews",
+     "published": "2026-10-25T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3f6b7b5c4ede",
+   "title": "Halloween Candy Costs Rise Four Times Faster Than Inflation, New Report Finds",
+   "url": "https://wowo.com/halloween-candy-costs-rise-four-times-faster-than-inflation-new-report-finds/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Halloween candy prices have surged significantly faster than general consumer price inflation.",
+   "evidence_quote": "Halloween Candy Costs Rise Four Times Faster Than Inflation, New Report Finds",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-25T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T07:03:03Z",
+   "first_run": "2026-10-26T07-03-03Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "3f6b7b5c4ede"
+   ],
+   "sources": [
+    {
+     "url": "https://wowo.com/halloween-candy-costs-rise-four-times-faster-than-inflation-new-report-finds/",
+     "publisher": "WOWO",
+     "publisher_key": "wowo",
+     "published": "2026-10-25T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_9f67d64be930",
+   "title": "Instacart in Talks With DoorDash and Uber for Sale, the Information Reports",
+   "url": "https://money.usnews.com/investing/news/articles/2026-10-23/instacart-in-talks-for-sale-the-information-reports",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Reports indicate Instacart held discussions regarding potential sales to delivery platforms like DoorDash or Uber.",
+   "evidence_quote": "Instacart in Talks With DoorDash and Uber for Sale",
+   "companies": [
+    "Instacart",
+    "DoorDash",
+    "Uber"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-23T09:07:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-25T06:57:50Z",
+   "first_run": "2026-10-25T06-57-50Z",
+   "last_seen": "2026-10-26T07:03:03Z",
+   "last_updated_run": "2026-10-26T07-03-03Z",
+   "update_note": "New corroborating source: Reuters on MSN",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9f67d64be930"
+   ],
+   "sources": [
+    {
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-23/instacart-in-talks-for-sale-the-information-reports",
+     "publisher": "U.S. News Money",
+     "publisher_key": "u.s. news money",
+     "published": "2026-10-23T09:07:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    },
+    {
+     "url": "https://www.msn.com/en-us/money/companies/instacart-in-talks-with-doordash-and-uber-for-sale-the-information-reports/ar-AA2fWDvu",
+     "publisher": "Reuters on MSN",
+     "publisher_key": "reuters on msn",
+     "published": "2026-10-23T15:06:32Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.7,
+   "age_days": 2.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.75,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Economic Calendar - German Ifo index, Middle East escalation, and Wall Street giants' earnings",
+   "url": "https://www.xtb.com/int/market-analysis/news-and-research/economic-calendar-german-ifo-index-middle-east-escalation-and-wall-street-giants-earnings",
+   "publisher": "XTB",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Economic Calendar - German Ifo index, Middle East escalation, and Wall Street giants' earnings",
+   "note": "Global markets experience volatility due to geopolitical tensions in the Middle East and upcoming economic data."
+  },
+  {
+   "title": "Why AU Small Finance Bank shares slumped post Q2 FY27 earnings",
+   "url": "https://www.msn.com/en-in/money/other/why-au-small-finance-bank-shares-slumped-post-q2-fy27-earnings/ar-AA2g46zu",
+   "publisher": "Business Today on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Why AU Small Finance Bank shares slumped post Q2 FY27 earnings",
+   "note": "AU Small Finance Bank shares slumped following Q2 FY27 earnings results and valuation concerns."
+  },
+  {
+   "title": "How purchases of sanctioned Iranian jet fuel were disguised by Myanmar",
+   "url": "https://www.msn.com/en-my/money/economy/how-purchases-of-sanctioned-iranian-jet-fuel-were-disguised-by-myanmar/ar-AA2g3JXQ",
+   "publisher": "The Jerusalem Post on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How purchases of sanctioned Iranian jet fuel were disguised by Myanmar",
+   "note": "Reports detail how Myanmar allegedly disguised purchases of sanctioned Iranian jet fuel using shipping vessels."
+  },
+  {
+   "title": "LGE 2026: From promises to plans - who can fix Cape Town's housing crisis?",
+   "url": "https://www.ewn.co.za/2026/10/26/lge-2026-from-promises-to-plans-who-can-fix-cape-towns-housing-crisis",
+   "publisher": "EWN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "LGE 2026: From promises to plans - who can fix Cape Town's housing crisis?",
+   "note": "Local government elections in Cape Town focus on addressing affordable housing shortages."
+  },
+  {
+   "title": "BharatNet Opens to Private ISPs With ₹12,900 Subsidy",
+   "url": "https://www.whalesbook.com/news/English/telecom/BharatNet-Opens-to-Private-ISPs-With-indian-rupee12900-Subsidy/6adea0914fc30694db4be186",
+   "publisher": "whalesbook",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "BharatNet Opens to Private ISPs With ₹12,900 Subsidy",
+   "note": "BharatNet opens its rural broadband network to private ISPs with revenue retention models and subsidies."
+  },
+  {
+   "title": "DOCS Investors Have Opportunity to Lead Doximity, Inc. Securities Fraud Lawsuit with SBS Law",
+   "url": "https://www.aol.com/articles/docs-investors-opportunity-lead-doximity-060300000.html",
+   "publisher": "AOL",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DOCS Investors Have Opportunity to Lead Doximity, Inc. Securities Fraud Lawsuit",
+   "note": "A shareholder rights firm announces a securities class action lawsuit against Doximity, Inc."
+  },
+  {
+   "title": "Three Somali electricity companies raise tariffs by 5 cents amid rising fuel costs",
+   "url": "https://hiiraan.com/news4/2026/Oct/206616/three_somali_electricity_companies_raise_tariffs_by_5_cents_amid_rising_fuel_costs.aspx",
+   "publisher": "Hiiraan",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Three Somali electricity companies raise tariffs by 5 cents amid rising fuel costs",
+   "note": "Somali electricity companies raised their power tariffs due to increasing fuel costs."
+  },
+  {
+   "title": "GoldPro Token",
+   "url": "https://mx.investing.com/crypto/ipmb",
+   "publisher": "Investing",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "GoldPro Token",
+   "note": "General informational overview explaining cryptocurrency concepts and digital tokens."
+  },
+  {
+   "title": "Selective Insurance Balances Strong Returns With Growth Pressures",
+   "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/8447062/selective-insurance-balances-strong-returns-with-growth-pressures/",
+   "publisher": "The Globe and Mail",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Selective Insurance Balances Strong Returns With Growth Pressures",
+   "note": "Context only on commercial lines insurer appetite and underwriting discipline."
+  },
+  {
+   "title": "7 Frozen Cheese Pizzas, Ranked Worst To Best",
+   "url": "https://www.yahoo.com/lifestyle/articles/7-frozen-cheese-pizzas-ranked-002000837.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "7 Frozen Cheese Pizzas, Ranked Worst To Best",
+   "note": "A ranking of seven frozen cheese pizzas based on flavor, texture, and overall value."
+  },
+  {
+   "title": "Raleek Brown Just Gave Texas a Reason to Rethink Its Running Back Rotation",
+   "url": "https://sports.yahoo.com/articles/raleek-brown-just-gave-texas-005701122.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Raleek Brown Just Gave Texas a Reason to Rethink Its Running Back Rotation",
+   "note": "College football commentary regarding the running back rotation for the Texas Longhorns."
+  },
+  {
+   "title": "6 49ers Whose Stock Plummeted After Falcons Loss",
+   "url": "https://www.si.com/nfl/49ers/onsi/6-49ers-whose-stock-plummeted-after-falcons-loss",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "6 49ers Whose Stock Plummeted After Falcons Loss",
+   "note": "Sports commentary analyzing player performances following a San Francisco 49ers loss."
+  },
+  {
+   "title": "PM Modi inaugurates RBI data centre, in Odisha",
+   "url": "https://www.communicationstoday.co.in/pm-modi-inaugurates-rbi-data-centre-in-odisha/",
+   "publisher": "Communications Today",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "PM Modi inaugurates RBI data centre, in Odisha",
+   "note": "Indian Prime Minister inaugurated a new RBI data centre in Odisha."
+  },
+  {
+   "title": "PM Modi inaugurates RBI data centre, Cybersecurity Training Institute in Odisha",
+   "url": "https://www.communicationstoday.co.in/pm-modi-inaugurates-rbi-data-centre-cybersecurity-training-institute-in-odisha/",
+   "publisher": "Communications Today",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "PM Modi inaugurates RBI data centre, Cybersecurity Training Institute in Odisha",
+   "note": "An official inauguration event was held for a new RBI data centre and Cybersecurity Training Institute."
+  },
+  {
+   "title": "Mail deliveries 'down to once a week' in parts of the Highlands",
+   "url": "https://www.bbc.co.uk/news/articles/c68jzr2ye2yeo",
+   "publisher": "BBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Mail deliveries 'down to once a week' in parts of the Highlands",
+   "note": "Household postal deliveries by Royal Mail have dropped to once a week in parts of the Scottish Highlands."
+  },
+  {
+   "title": "Food-Delivery Firm Meituan Aims to Raise $1 Billion in Bond Sale",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-26/food-delivery-firm-meituan-aims-1-billion-bond-sale-dim-sum-debt",
+   "publisher": "Bloomberg",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Food-Delivery Firm Meituan Aims to Raise $1 Billion in Bond Sale",
+   "note": "Chinese food-delivery firm Meituan is seeking to raise $1 billion through an offshore yuan bond sale."
+  },
+  {
+   "title": "Devdutt Padikkal left fuming after controversial umpiring decision ends his knock on 199 vs New Zealand A",
+   "url": "https://sports.yahoo.com/articles/devdutt-padikkal-left-fuming-controversial-052541216.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Devdutt Padikkal left fuming after controversial umpiring decision ends his knock on 199",
+   "note": "Cricket match report detailing a controversial umpiring decision involving Devdutt Padikkal."
+  },
+  {
+   "title": "Chennai–Ranong Shipping Service Proposal Advances in TCI Seaways Talks",
+   "url": "https://www.maritimegateway.com/chennai-ranong-shipping-service-proposal-advances-in-tci-seaways-talks/",
+   "publisher": "Maritime Gateway",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Chennai–Ranong Shipping Service Proposal Advances in TCI Seaways Talks",
+   "note": "TCI Seaways is exploring a new dedicated shipping service between Chennai and Thailand's Ranong port."
+  },
+  {
+   "title": "US Tariffs Push New Zealand Dairy Exporters to Diversify Markets",
+   "url": "https://dairynews.today/news/us_tariffs_push_new_zealand_dairy_exporters_to_diversify_markets_6932451.html",
+   "publisher": "DairyNews",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "US Tariffs Push New Zealand Dairy Exporters to Diversify Markets",
+   "note": "Context only."
+  },
+  {
+   "title": "Halloween Candy Costs Rise Four Times Faster Than Inflation, New Report Finds",
+   "url": "https://wowo.com/halloween-candy-costs-rise-four-times-faster-than-inflation-new-report-finds/",
+   "publisher": "WOWO",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Halloween Candy Costs Rise Four Times Faster Than Inflation, New Report Finds",
+   "note": "Context only."
+  },
+  {
+   "title": "Hollis v Vabu Pty Ltd: employee or contractor in general protections and unfair dismissal cases",
+   "url": "https://onnotice.com.au/news/hollis-v-vabu-crisis-couriers-liable-for-bicycle-rider/",
+   "publisher": "onnotice.com.au",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Hollis v Vabu Pty Ltd: contractor or employee",
+   "note": "Australian court case discusses employee versus contractor status in unfair dismissal cases."
+  },
+  {
+   "title": "Shuffling of U.S. tariffs will offer little relief to Canada, experts say",
+   "url": "https://www.theglobeandmail.com/canada/article-canada-us-tariffs-trade-october-25/",
+   "publisher": "The Globe and Mail",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Shuffling of U.S. tariffs will offer little relief to Canada, experts say",
+   "note": "Experts discuss how US tariff adjustments offer little relief to Canada."
+  },
+  {
+   "title": "Ravens linebacker Roquan Smith injured vs Bengals in NFL Week 7",
+   "url": "https://www.cincinnati.com/story/sports/nfl/bengals/2026/10/25/roquan-smith-injury-bengals-ravens/92431512007/",
+   "publisher": "The Cincinnati Enquirer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ravens linebacker Roquan Smith injured vs Bengals in NFL Week 7",
+   "note": "A football player sustained an injury during an NFL game."
+  },
+  {
+   "title": "Gunfire erupts near Jackson County Fair on its last night; suspects still on the loose",
+   "url": "https://www.msn.com/en-us/news/other/gunfire-erupts-near-jackson-county-fair-on-its-last-night-suspects-still-on-the-loose/ar-AA2g2bBn",
+   "publisher": "WLOX on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Gunfire erupts near Jackson County Fair on its last night",
+   "note": "Gunfire outside a fairgrounds forced an early closure."
+  },
+  {
+   "title": "Former 25-Home Run Hitter Still A Free Agent After New York Yankees Release",
+   "url": "https://heavy.com/sports/mlb/new-york-yankees/brown-still-a-free-agent-oct-25/",
+   "publisher": "Heavy",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Former 25-Home Run Hitter Still A Free Agent After New York Yankees Release",
+   "note": "A former home run hitter remains a free agent following release."
+  },
+  {
+   "title": "Joe Burrow, Boye Mafe Among 4 Winners and 2 Losers in Bengals' 35-13 Win Over Ravens",
+   "url": "https://sports.yahoo.com/articles/joe-burrow-boye-mafe-among-201609970.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Joe Burrow, Boye Mafe Among 4 Winners and 2 Losers in Bengals' 35-13 Win Over Ravens",
+   "note": "Game recap of an NFL matchup between the Bengals and Ravens."
+  },
+  {
+   "title": "Old Republic International: 3 key takeaways for long-term investors",
+   "url": "https://www.msn.com/en-us/news/other/old-republic-international-3-key-takeaways-for-long-term-investors/ar-AA2g2BwP",
+   "publisher": "The Motley Fool on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "pricing discipline protects margins in a soft market",
+   "note": "Context only"
+  },
+  {
+   "title": "What Does Trump’s Declining Latino Support Mean for Florida?",
+   "url": "https://time.com/article/2026/10/25/what-does-trump-s-declining-latino-support-mean-for-florida-/",
+   "publisher": "TIME",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "What Does Trump’s Declining Latino Support Mean for Florida?",
+   "note": "Article examines declining Latino support for Trump and political implications for Florida."
+  },
+  {
+   "title": "Trump’s Canada tariffs turn into a Republican election problem as 67% of Michigan voters oppose them",
+   "url": "https://www.msn.com/en-ca/news/other/trump-s-canada-tariffs-turn-into-a-republican-election-problem-as-67-of-michigan-voters-oppose-them/ar-AA2g2Ncc",
+   "publisher": "Trendonomist on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Trump’s Canada tariffs turn into a Republican election problem as 67% of Michigan voters oppose them",
+   "note": "Michigan voters oppose Trump tariff strategy due to close economic ties with Canada."
+  },
+  {
+   "title": "The Fed, inflation, Verizon, Boeing, Alphabet, GE Vernova, Amazon, and many more stocks to watch this week",
+   "url": "https://www.msn.com/en-us/money/top-stocks/the-fed-inflation-verizon-boeing-alphabet-ge-vernova-amazon-and-many-more-stocks-to-watch-this-week/ar-AA2g2bbN",
+   "publisher": "Barron's on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Fed, inflation, Verizon, Boeing, Alphabet, GE Vernova, Amazon, and many more stocks to watch this week",
+   "note": "Earnings reports and economic data slated for release during a busy corporate week."
+  },
+  {
+   "title": "华宝中证A50ETF（159596）2026年10月26日申赎清单调整：航发动力增持居前，中国建筑减持居前",
+   "url": "https://finance.sina.com.cn/money/fund/aiassistant/etfssqd/2026-10-26/doc-iniwnzcz9326805.shtml",
+   "publisher": "新浪财经",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "华宝中证A50ETF（159596）2026年10月26日申赎清单调整",
+   "note": "Index ETF publishes creation and redemption list adjustments."
+  },
+  {
+   "title": "Stars 6-3 Islanders (Oct 25, 2026) Game Recap - ESPN",
+   "url": "https://www.espn.com/nhl/recap?gameId=401892579",
+   "publisher": "ESPN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Stars 6-3 Islanders (Oct 25, 2026) Game Recap - ESPN",
+   "note": "Game recap of an NHL game between the Dallas Stars and New York Islanders."
+  },
+  {
+   "title": "3,200 Chinese-built EVs landed in LA for Waymo's robotaxis — the same cars Americans can't buy. Is it legal?",
+   "url": "https://www.msn.com/en-us/technology/tech-companies/3-200-chinese-built-evs-landed-in-la-for-waymo-s-robotaxis-the-same-cars-americans-can-t-buy-is-it-legal/ar-AA2g1LvE",
+   "publisher": "Moneywise on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Waymo has imported 3,200 Zeekr cars from China since 2024 through the Port of Los Angeles.",
+   "note": "Monitor robotaxi fleet deployments and autonomous hardware import trends, as autonomous platforms could eventually intersect with last-mile delivery use cases."
+  },
+  {
+   "title": "Instacart Stock What Health Benefits Deal And $5 Million Settlement Mean",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/instacart-stock-health-benefits-deal-140832542.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Instacart parent Maplebear has agreed to a US$5,000,000 settlement with U.S. authorities over past PERM hiring practices",
+   "note": "Context only"
+  },
+  {
+   "title": "Their surging student-loan payments are pushing them to slash their budgets and delay life milestones",
+   "url": "https://www.businessinsider.com/student-loan-borrowers-cutting-back-higher-bills-debt-repayment-trump-2026-10",
+   "publisher": "Insider",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Their surging student-loan payments are pushing them to slash their budgets and delay life milestones",
+   "note": "Student loan borrowers modify budgets and delay milestones due to high payments."
+  },
+  {
+   "title": "Brown below cut-line, perplexed by costly slump",
+   "url": "https://www.supercars.com/news/supercars-news-2026-will-brown-triple-eight-gold-coast-500-slump-result-finals-reaction-broc-feeney",
+   "publisher": "Supercars",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Brown below cut-line, perplexed by costly slump",
+   "note": "Racing driver Broc Brown discusses his slump and recent challenge win."
+  },
+  {
+   "title": "National Urban League warns NYC delivery bill could hurt Black-owned businesses",
+   "url": "https://www.bkreader.com/local-voices/national-urban-league-warns-nyc-delivery-bill-could-hurt-black-owned-businesses-12931237",
+   "publisher": "BKReader",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "National Urban League warns NYC delivery bill could hurt Black-owned businesses",
+   "note": "Track municipal legislative shifts in major urban markets like NYC that target last-mile delivery operations, as regulatory friction impacts fleet cost structures and risk profiles."
+  },
+  {
+   "title": "Codename: Asero",
+   "url": "https://www.gmanetwork.com/entertainment/showbiznews/codename-asero/4039/",
+   "publisher": "GMA Network",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Codename: Asero",
+   "note": "Television production commentary for a network series titled Codename: Asero."
+  },
+  {
+   "title": "Maryland – Insurer Cancellation Requirements for Motor Vehicle Liability Coverage",
+   "url": "https://www.propertycasualty360.com/fcs/2026/10/22/maryland-insurer-cancellation-requirements-for-motor-vehicle-liability-coverage/",
+   "publisher": "PropertyCasualty360",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Maryland – Insurer Cancellation Requirements for Motor Vehicle Liability Coverage",
+   "note": "Keep track of state-level regulatory updates governing commercial auto policy cancellations to ensure underwriting workflows remain compliant."
+  },
+  {
+   "title": "How Do I Check My Car Insurance Claims History?",
+   "url": "https://www.marketwatch.com/insurance-services/auto-insurance/how-do-i-check-my-car-insurance-claim-history/",
+   "publisher": "MarketWatch",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How Do I Check My Car Insurance Claims History?",
+   "note": "Context only"
+  },
+  {
+   "title": "Gjobë rekord prej 25 mld dollarësh për kompaninë Meta, akuzohet se mashtroi përdoruesit për mbrojtjen e të dhënave",
+   "url": "https://dosja.al/gjobe-rekord-prej-25-mld-dollaresh-per-kompanine-meta-akuzohet-se-mashtroi-perdoruesit-per-mbrojtjen-e-te-dhenave-i521066",
+   "publisher": "Dosja",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "kompaninë Meta të paguajë 25 miliardë dollarë gjobë",
+   "note": "A New Mexico court ordered Meta to pay a $25 billion fine over data privacy practices."
+  },
+  {
+   "title": "Raj Thackeray : पुढच्या २-४ महिन्यात देशात काहीतरी मोठी घडामोड घडणार, राज ...",
+   "url": "https://saamtv.esakal.com/mumbai-pune/mns-raj-thackeray-predicts-major-political-developments-in-india-over-next-3-4-months-says-people-may-take-to-streets-nck90",
+   "publisher": "साम टीव्ही",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "पुढील ३-४ महिन्यात देशात काहीतरी मोठी गडबड होईल",
+   "note": "Political commentary regarding potential unrest in India within the next few months."
+  },
+  {
+   "title": "Carolyn Aronson",
+   "url": "https://finance.yahoo.com/small-business/articles/carolyn-aronson-172429052.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Carolyn Aronson joins ¡HOLA! Américas' Latina Powerhouse 100",
+   "note": "Carolyn Aronson was recognized in a Latina Powerhouse list for her beauty business."
+  },
+  {
+   "title": "[장중수급포착] 글로벌테크놀로지, 외국인/기관 동시 순매수… 주가 +15.06%",
+   "url": "https://www.newspim.com/news/view/20261021000602",
+   "publisher": "뉴스핌",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "글로벌테크놀로지(486510)는 외국인과 기관이 각각 26.12 만 주, 0.70 만 주 순매수",
+   "note": "Stock trading report for Global Technology showing an increase driven by institutional buying."
+  },
+  {
+   "title": "Car insurance adjuster warns: 7 models with shockingly high repair claims",
+   "url": "https://www.msn.com/en-us/news/other/car-insurance-adjuster-warns-7-models-with-shockingly-high-repair-claims/ar-AA2fBOam",
+   "publisher": "MoneyLion on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Car insurance adjuster warns: 7 models with shockingly high repair claims",
+   "note": "Context only regarding general auto repair cost inflation affecting commercial fleets."
+  }
+ ],
+ "digest": "- The National Urban League opposed a proposed New York City delivery bill, signaling that urban legislative shifts could create regulatory friction and alter fleet cost structures and risk profiles [1].\n- Waymo imported thousands of Chinese-built Zeekr vehicles into Los Angeles for robotaxis, pointing to autonomous fleet deployment trends that may eventually intersect with last-mile delivery operations [2].\n- The Maryland Insurance Administration published a bulletin on statutory motor vehicle liability coverage cancellations, requiring us to monitor state-level regulatory updates to keep underwriting workflows compliant [3]."
+}
