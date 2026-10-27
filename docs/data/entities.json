@@ -1016,5 +1016,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-26T19:34:22Z"
+ },
+ "Slingshot Insurance": {
+  "name": "Slingshot Insurance",
+  "first_seen": "2026-10-27T06:52:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0afd86d4f66d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-27T06:52:26Z"
  }
 }
