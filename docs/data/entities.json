@@ -1139,5 +1139,35 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-28T07:30:24Z"
+ },
+ "Verisk": {
+  "name": "Verisk",
+  "first_seen": "2026-10-28T19:07:04Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b27ee57b27b0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-28T19:07:04Z"
+ },
+ "Baldwin": {
+  "name": "Baldwin",
+  "first_seen": "2026-10-28T19:07:04Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3bb4b82c04f8"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-28T19:07:04Z"
+ },
+ "Truenorth Community Services": {
+  "name": "Truenorth Community Services",
+  "first_seen": "2026-10-28T19:07:04Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_95979ab48579"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-28T19:07:04Z"
  }
 }
