@@ -480,13 +480,14 @@
  "Corgi Insurance": {
   "name": "Corgi Insurance",
   "first_seen": "2026-10-17T06:16:02Z",
-  "mentions": 2,
+  "mentions": 3,
   "event_ids": [
    "ev_38d65b7e5dbc",
-   "ev_6f75294dc13b"
+   "ev_6f75294dc13b",
+   "ev_dd7451f4eee7"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-27T18:58:56Z"
+  "last_seen": "2026-10-28T07:30:24Z"
  },
  "Inrix": {
   "name": "Inrix",
@@ -1098,5 +1099,45 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-27T18:58:56Z"
+ },
+ "The Hartford": {
+  "name": "The Hartford",
+  "first_seen": "2026-10-28T07:30:24Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b6467d403538"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-28T07:30:24Z"
+ },
+ "Hartford Funds": {
+  "name": "Hartford Funds",
+  "first_seen": "2026-10-28T07:30:24Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b6467d403538"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-28T07:30:24Z"
+ },
+ "Cincinnati Financial": {
+  "name": "Cincinnati Financial",
+  "first_seen": "2026-10-28T07:30:24Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9af943234024"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-28T07:30:24Z"
+ },
+ "Lemonade": {
+  "name": "Lemonade",
+  "first_seen": "2026-10-28T07:30:24Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b3c80b037084"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-28T07:30:24Z"
  }
 }
