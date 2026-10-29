@@ -920,12 +920,13 @@
  "RXO": {
   "name": "RXO",
   "first_seen": "2026-10-25T17:13:37Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_78a133f4e334"
+   "ev_78a133f4e334",
+   "ev_8cddfd3787c4"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-25T17:13:37Z"
+  "last_seen": "2026-10-29T19:13:33Z"
  },
  "W. R. Berkley": {
   "name": "W. R. Berkley",
@@ -1189,5 +1190,35 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-29T07:41:28Z"
+ },
+ "Rainier Partners": {
+  "name": "Rainier Partners",
+  "first_seen": "2026-10-29T19:13:33Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_47a1ac7ef939"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-29T19:13:33Z"
+ },
+ "Apex Insurance Services": {
+  "name": "Apex Insurance Services",
+  "first_seen": "2026-10-29T19:13:33Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_47a1ac7ef939"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-29T19:13:33Z"
+ },
+ "Landmark Global": {
+  "name": "Landmark Global",
+  "first_seen": "2026-10-29T19:13:33Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3f813505da19"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-29T19:13:33Z"
  }
 }
