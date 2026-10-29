@@ -1169,5 +1169,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-28T19:07:04Z"
+ },
+ "Aon": {
+  "name": "Aon",
+  "first_seen": "2026-10-29T07:41:28Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_58c34dd39c34"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-29T07:41:28Z"
+ },
+ "Altea": {
+  "name": "Altea",
+  "first_seen": "2026-10-29T07:41:28Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e3f86b4d50a9"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-29T07:41:28Z"
  }
 }
