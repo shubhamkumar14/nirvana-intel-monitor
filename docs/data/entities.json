@@ -1281,5 +1281,55 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-30T07:44:49Z"
+ },
+ "Asero Insurance Services": {
+  "name": "Asero Insurance Services",
+  "first_seen": "2026-10-30T18:52:19Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7b5d12ac7fce"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T18:52:19Z"
+ },
+ "Hadron": {
+  "name": "Hadron",
+  "first_seen": "2026-10-30T18:52:19Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_730dedc4abf3"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T18:52:19Z"
+ },
+ "Hippo": {
+  "name": "Hippo",
+  "first_seen": "2026-10-30T18:52:19Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b58b3378e060"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T18:52:19Z"
+ },
+ "Ryan Specialty": {
+  "name": "Ryan Specialty",
+  "first_seen": "2026-10-30T18:52:19Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_00b7fd7cbb11"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T18:52:19Z"
+ },
+ "Delhivery": {
+  "name": "Delhivery",
+  "first_seen": "2026-10-30T18:52:19Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_12c25b7fe3e6"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T18:52:19Z"
  }
 }
