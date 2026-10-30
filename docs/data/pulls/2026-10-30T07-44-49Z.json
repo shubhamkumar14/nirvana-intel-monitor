@@ -1,0 +1,2522 @@
+{
+ "run_id": "2026-10-30T07-44-49Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/41021959023",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-30",
+ "started": "2026-10-30T07:44:49Z",
+ "duration_s": 840.2,
+ "baseline": false,
+ "previous_run": "2026-10-29T19-13-33Z",
+ "previous_started": "2026-10-29T19:13:33Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest",
+ "counts": {
+  "raw": 350,
+  "unique": 336,
+  "known_skipped": 248,
+  "attached_existing": 6,
+  "prefiltered_out": 36,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 46,
+  "irrelevant": 26,
+  "quarantined": 1,
+  "new_events": 19,
+  "updated_events": 6,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 0.95,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.7,
+  "dedup_ratio": 0.863,
+  "relevance_rate": 0.413
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 416
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 447
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 132
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 291
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 88
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 157
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 148
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 260
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 205
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 194
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 188
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 183
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 163
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 169
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 151
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 189
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 178
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 209
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 238
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 186
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1762
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 544
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 814
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 260
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 689
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 927
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 12709,
+  "output_tokens": 10873,
+  "calls": 6,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 6
+  }
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_cd21d2e336cc",
+   "title": "Amazon battles freight inflation as shipping costs jump 11% in Q3",
+   "url": "https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Amazon absorbed higher fuel and linehaul costs as shipping expenses increased 11% in Q3, while delivering over 1.5 billion same-day or overnight packages.",
+   "evidence_quote": "Amazon battles freight inflation as shipping costs jump 11% in Q3",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Rising shipping costs increase margin pressure across Amazon logistics networks, heightening DSP appetite for cost-effective telematics-based commercial auto insurance policies.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T23:26:52Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "cd21d2e336cc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-29T23:26:52Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 67.7,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.97,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_750c7fbefa8e",
+   "title": "Amazon, Uber and Instacart Challenge NYC Delivery Worker Protections in Federal Court",
+   "url": "https://www.pymnts.com/cpi-posts/amazon-uber-and-instacart-challenge-nyc-delivery-worker-protections-in-federal-court/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Amazon, Uber, and Instacart filed a federal lawsuit challenging New York City worker protection rules affecting delivery personnel.",
+   "evidence_quote": "Amazon.com, Uber Technologies and Instacart have joined forces in a federal lawsuit seeking to overturn a New York City law that would limit their ability",
+   "companies": [
+    "Amazon.com",
+    "Uber Technologies",
+    "Instacart"
+   ],
+   "implication": "Legal battles over delivery driver labor rules impact platform risk exposure and fleet contractor dynamics, relevant for underwriting on-demand delivery.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T13:23:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "750c7fbefa8e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.pymnts.com/cpi-posts/amazon-uber-and-instacart-challenge-nyc-delivery-worker-protections-in-federal-court/",
+     "publisher": "PYMNTS.com",
+     "publisher_key": "pymnts.com",
+     "published": "2026-10-29T13:23:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_dc5892d3b3f5",
+   "title": "'We cannot hold out long': Surprise Motus reclassification threatens small Illinois flatbedder",
+   "url": "https://www.ccjdigital.com/regulations/safety-compliance/article/16050529/we-cannot-hold-out-long-surprise-motus-reclassification-threatens-small-illinois-flatbedder",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "Around 6,000 motor carriers face involuntary suspensions via Motus due to BIPD coverage requirements shifting from $750,000 to $1 million or above.",
+   "evidence_quote": "Roughly 6,000 motor carriers have seen involuntary suspensions this week through Motus with BIPD changes from $750,000 or below to $1 million and above.",
+   "companies": [
+    "Motus"
+   ],
+   "implication": "Rising required BIPD insurance limits across small fleets drive demand for competitive primary liability coverage, expanding Nirvana's potential market reach.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T16:41:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "dc5892d3b3f5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.ccjdigital.com/regulations/safety-compliance/article/16050529/we-cannot-hold-out-long-surprise-motus-reclassification-threatens-small-illinois-flatbedder",
+     "publisher": "Commercial Carrier Journal",
+     "publisher_key": "commercial carrier journal",
+     "published": "2026-10-29T16:41:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 2,
+   "score": 63.3,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.94,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_ffe028a16623",
+   "title": "DoorDash plans to buy Instacart for $17 billion, creating a delivery powerhouse",
+   "url": "https://www.msn.com/en-us/news/other/doordash-plans-to-buy-instacart-for-17-billion-creating-a-delivery-powerhouse/ar-AA2gkGkG",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "DoorDash agreed to acquire Instacart for $17 billion, creating an expanded delivery platform to rival Uber and Amazon in grocery delivery.",
+   "evidence_quote": "The $17 billion deal will give DoorDash a leg up over Uber and Amazon in the world of grocery delivery.",
+   "companies": [
+    "DoorDash",
+    "Instacart",
+    "Uber",
+    "Amazon"
+   ],
+   "implication": "A massive combined grocery/food delivery entity shifts courier fleet distribution and on-demand risk volume, impacting gig-economy insurance demand.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T05:34:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "ffe028a16623"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/doordash-plans-to-buy-instacart-for-17-billion-creating-a-delivery-powerhouse/ar-AA2gkGkG",
+     "publisher": "Insider on MSN",
+     "publisher_key": "insider on msn",
+     "published": "2026-10-29T05:34:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.0,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9538f528bd77",
+   "title": "DoorDash makes Instacart bid; $17B deal feeds antitrust worries",
+   "url": "https://www.arkansasonline.com/news/2026/oct/30/doordash-makes-instacart-bid-17b-deal-feeds/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "DoorDash offered $17 billion to acquire Instacart, potentially consolidating major grocery and on-demand delivery platforms in the United States.",
+   "evidence_quote": "DoorDash is offering $17 billion to buy Instacart in a deal that raises the prospect of grocery-delivery consolidation",
+   "companies": [
+    "DoorDash",
+    "Instacart"
+   ],
+   "implication": "Platform consolidation could concentrate gig and courier delivery volume under single master insurance programs, potentially shifting commercial auto opportunities.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T19:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9538f528bd77"
+   ],
+   "sources": [
+    {
+     "url": "https://www.arkansasonline.com/news/2026/oct/30/doordash-makes-instacart-bid-17b-deal-feeds/",
+     "publisher": "Arkansas Democrat-Gazette",
+     "publisher_key": "arkansas democrat-gazette",
+     "published": "2026-10-29T19:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 61.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_0121eedad8e9",
+   "title": "Why Did United Parcel Service (NYSE:UPS) Raise Guidance Despite Falling Volume?",
+   "url": "https://kalkinemedia.com/us/stocks/industrial/why-did-united-parcel-service-nyseups-raise-guidance-despite-falling-volume",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "UPS raised guidance despite falling package volumes, generating revenue growth across all segments along with an impairment charge.",
+   "evidence_quote": "reported latest-quarter results with revenue growth in all segments, raised guidance and an impairment charge.",
+   "companies": [
+    "United Parcel Service"
+   ],
+   "implication": "Declining parcel delivery volume signals possible delivery route contractions, which could soften fleet growth and mileage-based insurance premiums.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-27T18:21:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "0121eedad8e9"
+   ],
+   "sources": [
+    {
+     "url": "https://kalkinemedia.com/us/stocks/industrial/why-did-united-parcel-service-nyseups-raise-guidance-despite-falling-volume",
+     "publisher": "Kalkine Media",
+     "publisher_key": "kalkine media",
+     "published": "2026-10-27T18:21:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 60.1,
+   "age_days": 2.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.78,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9ad525425fb1",
+   "title": "FedEx cashes in on premium logistics services, fuel surcharges",
+   "url": "https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "FedEx reported positive Q3 financial results driven by volume growth and improved pricing, anticipating a strong upcoming peak delivery season.",
+   "evidence_quote": "FedEx posted positive third quarter results on volume growth and better pricing and anticipates a strong peak season.",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Higher FedEx delivery volumes directly support FedEx ISP fleet utilization and revenue, expanding the insurable exposure base for last-mile commercial auto products.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T19:49:41Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "9ad525425fb1"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-29T19:49:41Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 55.5,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.95,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_9d008646d1a6",
+   "title": "Mamdani Warns $17B DoorDash-Instacart Deal Risks Higher Costs for Customers",
+   "url": "https://www.newsweek.com/mamdani-doordash-instacart-deal-higher-prices-customers-12636352",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.7,
+   "summary": "NYC Mayor warns that DoorDash's proposed $17 billion takeover of Instacart risks higher customer costs due to market consolidation.",
+   "evidence_quote": "New York City Mayor Zohran Mamdani warns that DoorDash’s proposed $17 billion acquisition of Instacart could raise consumer prices",
+   "companies": [
+    "DoorDash",
+    "Instacart"
+   ],
+   "implication": "Consolidation of gig delivery platforms could concentrate fleet insurance purchasing and change risk profiles across on-demand grocery and food couriers.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T10:02:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9d008646d1a6"
+   ],
+   "sources": [
+    {
+     "url": "https://www.newsweek.com/mamdani-doordash-instacart-deal-higher-prices-customers-12636352",
+     "publisher": "Newsweek",
+     "publisher_key": "newsweek",
+     "published": "2026-10-29T10:02:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 54.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_11d2ecfb1025",
+   "title": "FedEx Freight sees volumes stabilize, eyes Q4 margin improvement",
+   "url": "https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "FedEx Freight reported volume stabilization and projected stronger operating leverage next year supported by new business wins and improved freight mix.",
+   "evidence_quote": "FedEx Freight reported Thursday that volumes continue to stabilize, and it anticipates stronger operating leverage next year",
+   "companies": [
+    "FedEx Freight"
+   ],
+   "implication": "Volume stabilization at FedEx Freight provides macro trucking context, though FedEx Freight represents LTL operations rather than last-mile FedEx ISP delivery fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-30T00:44:55Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "11d2ecfb1025"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-10-30T00:44:55Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 53.8,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.97,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_619463c03497",
+   "title": "Competition Bureau ‘reviewing’ $17B DoorDash deal to acquire Instacart",
+   "url": "https://www.msn.com/en-us/news/other/competition-bureau-reviewing-17b-doordash-deal-to-acquire-instacart/ar-AA2gmmSH",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "Canada's Competition Bureau initiated a review into DoorDash's planned $17 billion acquisition of Instacart.",
+   "evidence_quote": "Canada's Competition Bureau says it's reviewing a recently announced merger deal that would see DoorDash acquire rival Instacart for US$17 billion.",
+   "companies": [
+    "DoorDash",
+    "Instacart"
+   ],
+   "implication": "Regulatory scrutiny on delivery platform consolidation provides background on platform scale, though non-US regulatory actions have minimal direct US insurance impact.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T06:41:27Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "619463c03497"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/competition-bureau-reviewing-17b-doordash-deal-to-acquire-instacart/ar-AA2gmmSH",
+     "publisher": "Global News on MSN",
+     "publisher_key": "global news on msn",
+     "published": "2026-10-29T06:41:27Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.0,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3a4e08ef6397",
+   "title": "Gallagher’s 5% organic growth looks modest - until you compare it with the competition",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/gallaghers-5-organic-growth-looks-modest--until-you-compare-it-with-the-competition-595591.aspx",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Gallagher posted 5% organic growth, standing out among the top five insurance brokerages by maintaining pure focus on its core model.",
+   "evidence_quote": "With results now in from all five top brokerages, Gallagher is the only one that stayed purely focused on what it does",
+   "companies": [
+    "Gallagher"
+   ],
+   "implication": "Context only. Solid retail broker health supports distribution partner stability, but lacks specific last-mile commercial auto details.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T17:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "3a4e08ef6397"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/gallaghers-5-organic-growth-looks-modest--until-you-compare-it-with-the-competition-595591.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-10-29T17:01:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.4,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.94,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_1917af7f5d8d",
+   "title": "Gallagher sees buyers increasing limits as property rates fall",
+   "url": "https://www.businessinsurance.com/gallagher-sees-buyers-increasing-limits-as-property-rates-fall/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Arthur J. Gallagher reports commercial insurance buyers are utilizing savings from declining property rates to restore coverage limits across commercial programs.",
+   "evidence_quote": "Commercial insurance buyers are using savings from falling property rates to restore coverage and increase limits, Arthur J. Gallagher & Co.’s top executive said Thursday",
+   "companies": [
+    "Arthur J. Gallagher & Co."
+   ],
+   "implication": "Clients with newly freed insurance budgets may be more willing to purchase higher liability limits from retail brokers partnering with Nirvana.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T15:55:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1917af7f5d8d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.businessinsurance.com/gallagher-sees-buyers-increasing-limits-as-property-rates-fall/",
+     "publisher": "Business Insurance",
+     "publisher_key": "business insurance",
+     "published": "2026-10-29T15:55:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.6,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_86f2d970ae5a",
+   "title": "The Hartford Downgraded To Neutral Despite Q3 Earnings Beat, Remaining A Dividend Idea",
+   "url": "https://seekingalpha.com/article/4959624-the-hartford-downgraded-despite-q3-earnings-beat-remaining-a-dividend-idea",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "The Hartford was downgraded to Neutral due to increased earnings volatility despite beating Q3 earnings projections.",
+   "evidence_quote": "The Hartford Insurance is downgraded to Hold even after a Q3 earnings beat, reflecting increased earnings volatility.",
+   "companies": [
+    "The Hartford"
+   ],
+   "implication": "Earnings volatility at major incumbent commercial lines competitors could indicate tightening underwriting appetite in auto books.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T13:48:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "86f2d970ae5a"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/article/4959624-the-hartford-downgraded-despite-q3-earnings-beat-remaining-a-dividend-idea",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-10-29T13:48:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_c5b3ff5c575b",
+   "title": "Earnings call transcript: Ryan Specialty posts mixed Q3 2026 results as stock slips",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-ryan-specialty-posts-mixed-q3-2026-results-as-stock-slips-93CH-5666166",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Wholesale broker Ryan Specialty reported mixed Q3 2026 earnings, beating adjusted earnings estimates while narrowly missing revenue expectations.",
+   "evidence_quote": "Ryan Specialty Holdings posted mixed third-quarter results on Thursday, beating adjusted earnings expectations but narrowly missing revenue forecasts",
+   "companies": [
+    "Ryan Specialty Holdings"
+   ],
+   "implication": "Wholesale market intermediary financial health provides baseline context for E&S distribution pipelines.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T15:09:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "research",
+   "fingerprints": [
+    "c5b3ff5c575b"
+   ],
+   "sources": [
+    {
+     "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-ryan-specialty-posts-mixed-q3-2026-results-as-stock-slips-93CH-5666166",
+     "publisher": "Investing.com India",
+     "publisher_key": "investing.com india",
+     "published": "2026-10-29T15:09:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4cfa9cbb0626",
+   "title": "Brown & Brown, Inc. Certified™ by Great Place to Work® for the eighth consecutive year; included on the 2026 Fortune Best Workplaces for Women™ and Best Workplaces in ...",
+   "url": "https://markets.businessinsider.com/news/stocks/brown-brown-inc-certified-by-great-place-to-work-for-the-eighth-consecutive-year-included-on-the-2026-fortune-best-workplaces-for-women-and-best-workplaces-in-financial-services-1036687867",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Brown & Brown announced certification from Great Place to Work for the eighth straight year.",
+   "evidence_quote": "Powell Brown, president and chief executive officer, and Julie Turpin, chief people officer, are proud to announce that Brown & Brown, Inc.",
+   "companies": [
+    "Brown & Brown, Inc."
+   ],
+   "implication": "Context only. Duplicate broker workplace recognition release.",
+   "action": "context",
+   "watchlist_companies": [
+    "Risk Strategies / Brown & Brown"
+   ],
+   "published": "2026-10-29T09:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "4cfa9cbb0626"
+   ],
+   "sources": [
+    {
+     "url": "https://markets.businessinsider.com/news/stocks/brown-brown-inc-certified-by-great-place-to-work-for-the-eighth-consecutive-year-included-on-the-2026-fortune-best-workplaces-for-women-and-best-workplaces-in-financial-services-1036687867",
+     "publisher": "Markets Insider",
+     "publisher_key": "markets insider",
+     "published": "2026-10-29T09:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.75,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5bf9fd61df37",
+   "title": "Driver Safety Data Meets Fleet Maintenance in TRUCE-Fleetio Partnership",
+   "url": "https://www.fleetequipmentmag.com/truce-fleetio-partnership-driver-safety-maintenance/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "TRUCE Software and Fleetio partnered to link driver safety and performance data with vehicle maintenance, inspection, operating cost, and utilization tracking.",
+   "evidence_quote": "TRUCE Software and Fleetio partnered to connect employee driving performance and safety insights with vehicle maintenance, inspections, operating costs, and utilization.",
+   "companies": [
+    "TRUCE Software",
+    "Fleetio"
+   ],
+   "implication": "Nirvana should track Fleetio integrations as potential telematics and maintenance data partners for underwriting and risk management in delivery fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-25T07:45:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "5bf9fd61df37"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fleetequipmentmag.com/truce-fleetio-partnership-driver-safety-maintenance/",
+     "publisher": "Fleet Equipment Magazine",
+     "publisher_key": "fleet equipment magazine",
+     "published": "2026-10-25T07:45:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 44.6,
+   "age_days": 5.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.61,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5205018d732d",
+   "title": "US port says Trump’s Canada tariff war cost it more than $1 million in potential revenue as Schumer demands reversal",
+   "url": "https://www.msn.com/en-ca/news/other/us-port-says-trump-s-canada-tariff-war-cost-it-more-than-1-million-in-potential-revenue-as-schumer-demands-reversal/ar-AA2go6S7",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "A US port reported over $1 million in lost potential revenue due to tariffs on trade with Canada.",
+   "evidence_quote": "The economic fallout from President Donald Trump’s trade war with Canada is becoming increasingly visible on the American side of",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T20:53:13Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "5205018d732d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-ca/news/other/us-port-says-trump-s-canada-tariff-war-cost-it-more-than-1-million-in-potential-revenue-as-schumer-demands-reversal/ar-AA2go6S7",
+     "publisher": "Trendonomist on MSN",
+     "publisher_key": "trendonomist on msn",
+     "published": "2026-10-29T20:53:13Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_36a015fedd5d",
+   "title": "Trump's tariffs fail to cut US trade deficit, IW report shows",
+   "url": "https://www.miamiherald.com/news/nation-world/national/article317844743.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "A study by the German Economic Institute found US tariffs stimulated investment and economic growth but failed to reduce the trade deficit.",
+   "evidence_quote": "Trump's tariffs fail to cut US trade deficit, IW report shows",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T20:21:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "36a015fedd5d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.miamiherald.com/news/nation-world/national/article317844743.html",
+     "publisher": "Miami Herald",
+     "publisher_key": "miami herald",
+     "published": "2026-10-29T20:21:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_eb0c08bd8051",
+   "title": "Wtw targets ~30% adjusted operating margin in 2028 as 2026 BD&O outlook shifts to roughly flat",
+   "url": "https://seekingalpha.com/news/4660653-wtw-targets-30-percent-adjusted-operating-margin-in-2028-as-2026-bd-and-o-outlook-shifts-to",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Broker WTW targets an approximate 30% operating margin by 2028 as near-term outlook adjustments emerge.",
+   "evidence_quote": "Versus last quarter, management maintained confidence in Propel and the 2028 margin goal",
+   "companies": [
+    "WTW"
+   ],
+   "implication": "Context only. Macro financial guidance from a global retail broker without specific commercial auto implications.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T12:49:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-30T07:44:49Z",
+   "first_run": "2026-10-30T07-44-49Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "eb0c08bd8051"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/news/4660653-wtw-targets-30-percent-adjusted-operating-margin-in-2028-as-2026-bd-and-o-outlook-shifts-to",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-10-29T12:49:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_41be12c081da",
+   "title": "DoorDash offers $17 billion for Instacart in what would be a big consolidation for grocery delivery",
+   "url": "https://www.boston.com/news/business/2026/10/29/doordash-17-billion-instacart-consolidation-grocery-delivery/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 4,
+   "last_mile_fit": 0.7,
+   "summary": "DoorDash offered $17 billion to acquire Instacart, consolidating the grocery delivery sector.",
+   "evidence_quote": "DoorDash offers $17 billion for Instacart in what would be a big consolidation",
+   "companies": [
+    "DoorDash",
+    "Instacart"
+   ],
+   "implication": "Context only. Larger consolidated entities may centralize insurance procurement.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T06:46:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-29T19:13:33Z",
+   "first_run": "2026-10-29T19-13-33Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": "New corroborating source: News4JAX",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "41be12c081da"
+   ],
+   "sources": [
+    {
+     "url": "https://www.boston.com/news/business/2026/10/29/doordash-17-billion-instacart-consolidation-grocery-delivery/",
+     "publisher": "Boston.com",
+     "publisher_key": "boston.com",
+     "published": "2026-10-29T06:46:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-agrees-buy-instacart-17-120450374.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-29T05:04:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    },
+    {
+     "url": "https://www.news4jax.com/business/2026/10/29/doordash-to-buy-instacart-for-17-billion-in-big-consolidation-for-grocery-delivery/",
+     "publisher": "News4JAX",
+     "publisher_key": "news4jax",
+     "published": "2026-10-29T08:38:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.0,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 3 independent publishers"
+  },
+  {
+   "id": "ev_df2ac6c8e061",
+   "title": "DoorDash Is Buying Instacart for $17 Billion",
+   "url": "https://gizmodo.com/doordash-is-buying-instacart-for-17-billion-2000832403",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 4,
+   "last_mile_fit": 0.7,
+   "summary": "DoorDash announced an agreement to purchase Instacart in a $17 billion deal.",
+   "evidence_quote": "DoorDash Is Buying Instacart for $17 Billion",
+   "companies": [
+    "DoorDash"
+   ],
+   "implication": "Context only. Major platform consolidation may shift risk management strategies for gig delivery drivers.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T06:57:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-29T19:13:33Z",
+   "first_run": "2026-10-29T19-13-33Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": "New corroborating source: Los Angeles Times",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "df2ac6c8e061",
+    "0491ed63b2b6"
+   ],
+   "sources": [
+    {
+     "url": "https://gizmodo.com/doordash-is-buying-instacart-for-17-billion-2000832403",
+     "publisher": "Gizmodo",
+     "publisher_key": "gizmodo",
+     "published": "2026-10-29T06:57:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    },
+    {
+     "url": "https://www.latimes.com/business/story/2026-10-29/doordash-to-buy-instacart-for-17-billion",
+     "publisher": "Los Angeles Times",
+     "publisher_key": "los angeles times",
+     "published": "2026-10-29T13:53:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.0,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_25740bdd9804",
+   "title": "FedEx Lifts 2026 Guidance, Expects Pricing to Offset Tepid Peak Volume",
+   "url": "https://www.msn.com/en-us/money/general/fedex-lifts-2026-guidance-expects-pricing-to-offset-tepid-peak-volume/ar-AA2gm8AM",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "FedEx raised its 2026 guidance, anticipating high-single-digit domestic revenue growth during the fourth quarter.",
+   "evidence_quote": "FedEx Lifts 2026 Guidance, Expects Pricing to Offset Tepid Peak Volume",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Positive demand signal for last-mile delivery volume, indicating active fleets needing commercial auto coverage.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T09:30:53Z",
+   "date_known": true,
+   "first_seen": "2026-10-29T19:13:33Z",
+   "first_run": "2026-10-29T19-13-33Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": "New corroborating source: Women's Wear Daily on MSN",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "25740bdd9804"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/general/fedex-lifts-2026-guidance-expects-pricing-to-offset-tepid-peak-volume/ar-AA2gm8AM",
+     "publisher": "Sourcing Journal on MSN",
+     "publisher_key": "sourcing journal on msn",
+     "published": "2026-10-29T09:30:53Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    },
+    {
+     "url": "https://www.msn.com/en-us/news/other/fedex-lifts-2026-guidance-expects-pricing-to-offset-tepid-peak-volume/ar-AA2gm8AM",
+     "publisher": "Women's Wear Daily on MSN",
+     "publisher_key": "women's wear daily on msn",
+     "published": "2026-10-29T09:30:53Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 66.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_edb891fc1e6c",
+   "title": "Commentary: A legitimate independent contractor should actually be independent",
+   "url": "https://www.yahoo.com/news/politics/articles/commentary-legitimate-independent-contractor-actually-102755689.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "Commentary discusses independent contractor definitions and argues true independence requires more than paperwork.",
+   "evidence_quote": "Commentary: A legitimate independent contractor should actually be independent",
+   "companies": [],
+   "implication": "Monitor worker classification rules as they impact gig and commercial delivery fleet structures.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T03:28:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-29T19:13:33Z",
+   "first_run": "2026-10-29T19-13-33Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": "New corroborating source: News From The States",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "edb891fc1e6c",
+    "c02716ef772f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/politics/articles/commentary-legitimate-independent-contractor-actually-102755689.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-10-29T03:28:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    },
+    {
+     "url": "https://www.newsfromthestates.com/article/legitimate-independent-contractor-should-actually-be-independent",
+     "publisher": "News From The States",
+     "publisher_key": "news from the states",
+     "published": "2026-10-29T04:27:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.8,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_d578f36edb4f",
+   "title": "GM to pay $220 million to settle allegations it violated drivers' privacy",
+   "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "General Motors agreed to pay $220 million to settle allegations regarding the unauthorized sale of driver behavior and location data.",
+   "evidence_quote": "GM to pay $220 million to settle allegations it violated drivers' privacy",
+   "companies": [
+    "General Motors"
+   ],
+   "implication": "Context only. Highlights growing regulatory and legal scrutiny on driving telemetry data collection practices relevant to telematics providers.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T09:28:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-29T19:13:33Z",
+   "first_run": "2026-10-29T19-13-33Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": "New corroborating source: USA TODAY",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "d578f36edb4f",
+    "e231a530b1ea"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
+     "publisher": "Reuters",
+     "publisher_key": "reuters",
+     "published": "2026-10-29T09:28:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    },
+    {
+     "url": "https://www.usatoday.com/story/money/cars/general-motors/2026/10/29/gm-to-pay-220m-to-settle-allegations-it-violated-drivers-privacy/92500873007/",
+     "publisher": "USA TODAY",
+     "publisher_key": "usa today",
+     "published": "2026-10-29T13:43:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 62.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_db09a5afe5e6",
+   "title": "Tariffs, diesel and computer chips are driving up costs for automakers",
+   "url": "https://www.npr.org/2026/10/29/nx-s1-6008066/automakers-inflation-tariffs-chips-diesel-earnings",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Automakers face rising costs for key components like computer chips, steel, copper, and fuel.",
+   "evidence_quote": "Tariffs, diesel and computer chips are driving up costs for automakers",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T02:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-29T19:13:33Z",
+   "first_run": "2026-10-29T19-13-33Z",
+   "last_seen": "2026-10-30T07:44:49Z",
+   "last_updated_run": "2026-10-30T07-44-49Z",
+   "update_note": "New corroborating source: KACU 89.5",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "db09a5afe5e6"
+   ],
+   "sources": [
+    {
+     "url": "https://www.npr.org/2026/10/29/nx-s1-6008066/automakers-inflation-tariffs-chips-diesel-earnings",
+     "publisher": "NPR",
+     "publisher_key": "npr",
+     "published": "2026-10-29T02:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://www.kacu.org/2026-10-29/tariffs-diesel-and-computer-chips-are-driving-up-costs-for-automakers",
+     "publisher": "KACU 89.5",
+     "publisher_key": "kacu 89.5",
+     "published": "2026-10-29T02:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 52.8,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [
+  {
+   "title": "Brown & Brown, Inc. Certified™ by Great Place to Work® for the eighth consecutive year; included on the 2026 Fortune Best Workplaces for Women™ and Best Workplaces in ...",
+   "url": "https://finance.yahoo.com/small-business/articles/brown-brown-inc-certified-great-203000324.html",
+   "claimed_quote": "Brown & Brown, Inc. (NYSE: BRO) (“Brown & Brown”) and our team of U.S. companies has been",
+   "lane": "competitor_move"
+  }
+ ],
+ "decisions": [
+  {
+   "title": "Felippe Astrachan appointed AvlaRe CEO, André Bertolino to lead Avla Brazil",
+   "url": "https://www.reinsurancene.ws/felippe-astrachan-appointed-avlare-ceo-andre-bertolino-to-lead-avla-brazil/",
+   "publisher": "Reinsurance News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Felippe Astrachan appointed AvlaRe CEO, André Bertolino to lead Avla Brazil",
+   "note": "Latin American financial lines insurer Avla appointed Felippe Astrachan as CEO of AvlaRe and named André Bertolino to lead its Brazilian operations."
+  },
+  {
+   "title": "FedEx Freight sees volumes stabilize, eyes Q4 margin improvement",
+   "url": "https://www.freightwaves.com/news/fedex-freight-sees-volumes-stabilize-eyes-q4-margin-improvement",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "FedEx Freight reported Thursday that volumes continue to stabilize, and it anticipates stronger operating leverage next year",
+   "note": "Volume stabilization at FedEx Freight provides macro trucking context, though FedEx Freight represents LTL operations rather than last-mile FedEx ISP delivery fleets."
+  },
+  {
+   "title": "Capgemini raises 2026 guidance as AI push brings work to IT consultants",
+   "url": "https://www.msn.com/en-us/money/economy/capgemini-raises-2026-guidance-as-ai-push-brings-work-to-it-consultants/ar-AA2goxa0",
+   "publisher": "Reuters on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "French IT consulting firm Capgemini raised its 2026 guidance for the second time this year",
+   "note": "Capgemini raised its 2026 financial guidance following strong third-quarter revenue growth fueled by enterprise artificial intelligence consulting demand."
+  },
+  {
+   "title": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
+   "url": "https://techcrunch.com/2026/10/29/andy-jassy-says-prime-video-is-on-track-to-earn-tens-of-billions-of-dollars/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Andy Jassy says Prime Video is on track to earn ‘tens of billions of dollars’",
+   "note": "Amazon CEO Andy Jassy projected that Prime Video is on track to generate tens of billions in earnings."
+  },
+  {
+   "title": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+   "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "AWS will be a $1T business, Jassy says — but first, it will spend big",
+   "note": "Amazon reported plans to continue heavy capital expenditures to expand AWS cloud computing and artificial intelligence capabilities."
+  },
+  {
+   "title": "Amazon battles freight inflation as shipping costs jump 11% in Q3",
+   "url": "https://www.freightwaves.com/news/amazon-battles-freight-inflation-as-shipping-costs-jump-11-in-q3",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon battles freight inflation as shipping costs jump 11% in Q3",
+   "note": "Rising shipping costs increase margin pressure across Amazon logistics networks, heightening DSP appetite for cost-effective telematics-based commercial auto insurance policies."
+  },
+  {
+   "title": "Coupang unions escalate membership race as disputes over dashcam audio intensify",
+   "url": "https://biz.chosun.com/en/en-retail/2026/10/30/7V2GWERHCZEFFEG2HPETF5XHDQ/",
+   "publisher": "Chosunbiz",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Coupang unions escalate membership race as disputes over dashcam audio intensify",
+   "note": "Labor unions at South Korean delivery giant Coupang are clashing over vehicle dashcam audio policies amid competing recruitment efforts."
+  },
+  {
+   "title": "Amazon reported booming cloud revenue but otherwise missed expectations",
+   "url": "https://techcrunch.com/2026/10/29/amazon-reported-booming-cloud-revenue-but-otherwise-missed-expectations/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The biggest ouch of the report was its negative free cash flow of $2.4 billion.",
+   "note": "Amazon posted negative free cash flow of $2.4 billion despite reported growth in its cloud division."
+  },
+  {
+   "title": "US port says Trump’s Canada tariff war cost it more than $1 million in potential revenue as Schumer demands reversal",
+   "url": "https://www.msn.com/en-ca/news/other/us-port-says-trump-s-canada-tariff-war-cost-it-more-than-1-million-in-potential-revenue-as-schumer-demands-reversal/ar-AA2go6S7",
+   "publisher": "Trendonomist on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The economic fallout from President Donald Trump’s trade war with Canada is becoming increasingly visible on the American side of",
+   "note": "Context only."
+  },
+  {
+   "title": "Trump's tariffs fail to cut US trade deficit, IW report shows",
+   "url": "https://www.miamiherald.com/news/nation-world/national/article317844743.html",
+   "publisher": "Miami Herald",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Trump's tariffs fail to cut US trade deficit, IW report shows",
+   "note": "Context only."
+  },
+  {
+   "title": "FedEx cashes in on premium logistics services, fuel surcharges",
+   "url": "https://www.freightwaves.com/news/fedex-cashes-in-on-premium-logistics-services-fuel-surcharges",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "FedEx posted positive third quarter results on volume growth and better pricing and anticipates a strong peak season.",
+   "note": "Higher FedEx delivery volumes directly support FedEx ISP fleet utilization and revenue, expanding the insurable exposure base for last-mile commercial auto products."
+  },
+  {
+   "title": "Yemen's Houthis Deny Launching Drone After Coalition Reports Interception in Mecca Region",
+   "url": "https://www.usnews.com/news/world/articles/2026-10-30/yemens-houthis-deny-launching-drone-after-coalition-reports-interception-in-mecca-region",
+   "publisher": "U.S. News & World Report",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Yemen's Houthis Deny Launching Drone After Coalition Reports Interception in Mecca Region",
+   "note": "Yemen's Houthis denied launching a drone after a coalition reported an interception in the Mecca region."
+  },
+  {
+   "title": "DoorDash makes Instacart bid; $17B deal feeds antitrust worries",
+   "url": "https://www.arkansasonline.com/news/2026/oct/30/doordash-makes-instacart-bid-17b-deal-feeds/",
+   "publisher": "Arkansas Democrat-Gazette",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "DoorDash is offering $17 billion to buy Instacart in a deal that raises the prospect of grocery-delivery consolidation",
+   "note": "Platform consolidation could concentrate gig and courier delivery volume under single master insurance programs, potentially shifting commercial auto opportunities."
+  },
+  {
+   "title": "Former Razorback Tag Ridings hoping to hear more Hog Calls again at Simmons Bank Championship",
+   "url": "https://sports.yahoo.com/articles/former-razorback-tag-ridings-hoping-005432383.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Central Arkansas is once again playing host to some of the biggest names in senior golf",
+   "note": "Former Razorback golfer Tag Ridings is competing at the Simmons Bank Championship senior golf tournament in Arkansas."
+  },
+  {
+   "title": "Red Baron worker from Michigan 'blown away' after prank sparks fundraiser",
+   "url": "https://www.msn.com/en-us/news/other/red-baron-worker-from-michigan-blown-away-after-prank-sparks-fundraiser/ar-AA2gnoEa",
+   "publisher": "The Detroit News on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A Michigan father of four receives an outpouring of support after a prankster's stunt",
+   "note": "A Michigan delivery worker received financial support through a community fundraiser following an internet prank."
+  },
+  {
+   "title": "Gallagher’s 5% organic growth looks modest - until you compare it with the competition",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/gallaghers-5-organic-growth-looks-modest--until-you-compare-it-with-the-competition-595591.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "With results now in from all five top brokerages, Gallagher is the only one that stayed purely focused on what it does",
+   "note": "Context only. Solid retail broker health supports distribution partner stability, but lacks specific last-mile commercial auto details."
+  },
+  {
+   "title": "Winona State University students head to the polls for on-campus early voting event",
+   "url": "https://www.kttc.com/2026/10/30/winona-state-university-students-head-polls-on-campus-early-voting-event/",
+   "publisher": "KTTC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Winona State University students head to the polls for on-campus early voting event",
+   "note": "Winona State University students participated in on-campus early voting ahead of upcoming elections."
+  },
+  {
+   "title": "Montra Electric Brings 15-Minute Rapid Charging to SUPER AUTO FX with Exponent Energy",
+   "url": "https://www.indianweb2.com/2026/10/montra-electric-brings-15-minute-rapid.html",
+   "publisher": "IndianWeb2",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Montra Electric introduces 15-minute rapid charging for SUPER AUTO FX with Exponent Energy",
+   "note": "Montra Electric partnered with Exponent Energy to launch 15-minute rapid charging for commercial auto-rickshaws in India."
+  },
+  {
+   "title": "‘Final Album, Final Tour’: Ministry’s Al Jourgensen Talks ‘Hate to Go’",
+   "url": "https://www.billboard.com/music/rock/ministry-al-jourgensen-interview-hate-to-go-1236370718/",
+   "publisher": "Billboard",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Ministry does not pull a single punch on \"Hate To Go,\" which castigates social media, AI and the current political leadership",
+   "note": "Industrial band Ministry discussed their final tour and album, which addresses modern political leadership and technology."
+  },
+  {
+   "title": "Why Drone Delayed Panthers-Packers TNF Game",
+   "url": "https://sports.yahoo.com/articles/why-drone-delayed-panthers-packers-051345053.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Why Drone Delayed Panthers-Packers TNF Game",
+   "note": "A drone intrusion caused a temporary delay during an NFL game between the Panthers and Packers."
+  },
+  {
+   "title": "'We cannot hold out long': Surprise Motus reclassification threatens small Illinois flatbedder",
+   "url": "https://www.ccjdigital.com/regulations/safety-compliance/article/16050529/we-cannot-hold-out-long-surprise-motus-reclassification-threatens-small-illinois-flatbedder",
+   "publisher": "Commercial Carrier Journal",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Roughly 6,000 motor carriers have seen involuntary suspensions this week through Motus with BIPD changes from $750,000 or below to $1 million and above.",
+   "note": "Rising required BIPD insurance limits across small fleets drive demand for competitive primary liability coverage, expanding Nirvana's potential market reach."
+  },
+  {
+   "title": "Americans Keep Spending",
+   "url": "https://www.nytimes.com/2026/10/29/briefing/us-gdp-patrick-stewart.html",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The strong spending and growth contrast with widespread economic discontent, a top issue heading into next week’s midterm elections.",
+   "note": "Americans continue spending amid broader economic discontent and upcoming midterm elections."
+  },
+  {
+   "title": "Gallagher sees buyers increasing limits as property rates fall",
+   "url": "https://www.businessinsurance.com/gallagher-sees-buyers-increasing-limits-as-property-rates-fall/",
+   "publisher": "Business Insurance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Commercial insurance buyers are using savings from falling property rates to restore coverage and increase limits, Arthur J. Gallagher & Co.’s top executive said Thursday",
+   "note": "Clients with newly freed insurance budgets may be more willing to purchase higher liability limits from retail brokers partnering with Nirvana."
+  },
+  {
+   "title": "Ukraine reserve charge cuts Hamilton’s underwriting profit as casualty reinsurance push grows",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/ukraine-reserve-charge-cuts-hamiltons-underwriting-profit-as-casualty-reinsurance-push-grows-595572.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The NYSE-listed specialty insurer and reinsurer added $47 million to Ukraine-related reserves, lifting its combined ratio to 97.3%.",
+   "note": "Hamilton added $47 million to Ukraine-related reserves, impacting underwriting profits and increasing its combined ratio to 97.3%."
+  },
+  {
+   "title": "U.S. targets alleged migrant caravan organizers with visa restrictions",
+   "url": "https://www.upi.com/Top_News/US/2026/10/29/latam-us-migrant-caravan-visa-restrictions/7941793325232/",
+   "publisher": "UPI",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The State Department said it has taken steps to impose visa restrictions on more than 15 people allegedly involved in migrant caravans.",
+   "note": "The US State Department imposed visa restrictions on individuals allegedly tied to migrant caravans."
+  },
+  {
+   "title": "Earnings call transcript: Ryan Specialty posts mixed Q3 2026 results as stock slips",
+   "url": "https://in.investing.com/news/stock-market-news/earnings-call-transcript-ryan-specialty-posts-mixed-q3-2026-results-as-stock-slips-93CH-5666166",
+   "publisher": "Investing.com India",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Ryan Specialty Holdings posted mixed third-quarter results on Thursday, beating adjusted earnings expectations but narrowly missing revenue forecasts",
+   "note": "Wholesale market intermediary financial health provides baseline context for E&S distribution pipelines."
+  },
+  {
+   "title": "AJ Brown injury update throws Patriots' receiver plans for Dolphins game into question",
+   "url": "https://www.msn.com/en-us/sports/football/aj-brown-injury-update-throws-patriots-receiver-plans-for-dolphins-game-into-question/ar-AA2gnlfh",
+   "publisher": "Yardbarker on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The New England Patriots got more injury news on A.J. Brown on Thursday ahead of Sunday's road game",
+   "note": "NFL wide receiver AJ Brown's injury update creates uncertainty for the Patriots' upcoming game."
+  },
+  {
+   "title": "The Hartford Downgraded To Neutral Despite Q3 Earnings Beat, Remaining A Dividend Idea",
+   "url": "https://seekingalpha.com/article/4959624-the-hartford-downgraded-despite-q3-earnings-beat-remaining-a-dividend-idea",
+   "publisher": "Seeking Alpha",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The Hartford Insurance is downgraded to Hold even after a Q3 earnings beat, reflecting increased earnings volatility.",
+   "note": "Earnings volatility at major incumbent commercial lines competitors could indicate tightening underwriting appetite in auto books."
+  },
+  {
+   "title": "Brown & Brown, Inc. Certified™ by Great Place to Work® for the eighth consecutive year; included on the 2026 Fortune Best Workplaces for Women™ and Best Workplaces in ...",
+   "url": "https://finance.yahoo.com/small-business/articles/brown-brown-inc-certified-great-203000324.html",
+   "publisher": "Yahoo Finance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "quarantined: evidence not in source",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Brown & Brown, Inc. (NYSE: BRO) (“Brown & Brown”) and our team of U.S. companies has been",
+   "note": "Quoted text was not found in the fetched title/snippet"
+  },
+  {
+   "title": "Amazon, Uber and Instacart Challenge NYC Delivery Worker Protections in Federal Court",
+   "url": "https://www.pymnts.com/cpi-posts/amazon-uber-and-instacart-challenge-nyc-delivery-worker-protections-in-federal-court/",
+   "publisher": "PYMNTS.com",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon.com, Uber Technologies and Instacart have joined forces in a federal lawsuit seeking to overturn a New York City law that would limit their ability",
+   "note": "Legal battles over delivery driver labor rules impact platform risk exposure and fleet contractor dynamics, relevant for underwriting on-demand delivery."
+  },
+  {
+   "title": "‘A Few Good Men’ Broadway Review: Bradley Whitford And Tom Blyth Manhandle The Truth",
+   "url": "https://deadline.com/2026/10/a-few-good-men-broadway-review-1237206959/",
+   "publisher": "Deadline",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Blyth fares better, understandable since his character has the most notable (if entirely expected) arc",
+   "note": "A theater review assesses performances in a Broadway revival of A Few Good Men."
+  },
+  {
+   "title": "Wtw targets ~30% adjusted operating margin in 2028 as 2026 BD&O outlook shifts to roughly flat",
+   "url": "https://seekingalpha.com/news/4660653-wtw-targets-30-percent-adjusted-operating-margin-in-2028-as-2026-bd-and-o-outlook-shifts-to",
+   "publisher": "Seeking Alpha",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Versus last quarter, management maintained confidence in Propel and the 2028 margin goal",
+   "note": "Context only. Macro financial guidance from a global retail broker without specific commercial auto implications."
+  },
+  {
+   "title": "Jon Husted vs. Sherrod Brown Ohio race may come down to third-party voters",
+   "url": "https://www.msn.com/en-us/news/other/jon-husted-vs-sherrod-brown-ohio-race-may-come-down-to-third-party-voters/ar-AA2gmn4G",
+   "publisher": "Newsweek on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Ohio's U.S. Senate race between Jon Husted and Sherrod Brown is shaping up to be one of the closest contests",
+   "note": "The Ohio US Senate contest between Jon Husted and Sherrod Brown could hinge on third-party voting."
+  },
+  {
+   "title": "Mamdani Warns $17B DoorDash-Instacart Deal Risks Higher Costs for Customers",
+   "url": "https://www.newsweek.com/mamdani-doordash-instacart-deal-higher-prices-customers-12636352",
+   "publisher": "Newsweek",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "New York City Mayor Zohran Mamdani warns that DoorDash’s proposed $17 billion acquisition of Instacart could raise consumer prices",
+   "note": "Consolidation of gig delivery platforms could concentrate fleet insurance purchasing and change risk profiles across on-demand grocery and food couriers."
+  },
+  {
+   "title": "Brown & Brown, Inc. Certified™ by Great Place to Work® for the eighth consecutive year; included on the 2026 Fortune Best Workplaces for Women™ and Best Workplaces in ...",
+   "url": "https://markets.businessinsider.com/news/stocks/brown-brown-inc-certified-by-great-place-to-work-for-the-eighth-consecutive-year-included-on-the-2026-fortune-best-workplaces-for-women-and-best-workplaces-in-financial-services-1036687867",
+   "publisher": "Markets Insider",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Powell Brown, president and chief executive officer, and Julie Turpin, chief people officer, are proud to announce that Brown & Brown, Inc.",
+   "note": "Context only. Duplicate broker workplace recognition release."
+  },
+  {
+   "title": "Gators’ standout WR trio aims to shine vs. Georgia after injury setbacks",
+   "url": "https://www.orlandosentinel.com/2026/10/29/florida-gators-football-jon-sumrall-sec-georgia-bulldogs-kirby-smart-eric-singleton-jr-vernell-brown-iii-dallas-wilson/",
+   "publisher": "Orlando Sentinel",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "could give Gators a major boost against Georgia if all three are healthy at the same time.",
+   "note": "Florida Gators receivers prepare to return from injuries for a college football game against Georgia."
+  },
+  {
+   "title": "Competition Bureau ‘reviewing’ $17B DoorDash deal to acquire Instacart",
+   "url": "https://www.msn.com/en-us/news/other/competition-bureau-reviewing-17b-doordash-deal-to-acquire-instacart/ar-AA2gmmSH",
+   "publisher": "Global News on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Canada's Competition Bureau says it's reviewing a recently announced merger deal that would see DoorDash acquire rival Instacart for US$17 billion.",
+   "note": "Regulatory scrutiny on delivery platform consolidation provides background on platform scale, though non-US regulatory actions have minimal direct US insurance impact."
+  },
+  {
+   "title": "DoorDash plans to buy Instacart for $17 billion, creating a delivery powerhouse",
+   "url": "https://www.msn.com/en-us/news/other/doordash-plans-to-buy-instacart-for-17-billion-creating-a-delivery-powerhouse/ar-AA2gkGkG",
+   "publisher": "Insider on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The $17 billion deal will give DoorDash a leg up over Uber and Amazon in the world of grocery delivery.",
+   "note": "A massive combined grocery/food delivery entity shifts courier fleet distribution and on-demand risk volume, impacting gig-economy insurance demand."
+  },
+  {
+   "title": "Diese relativ unbekannten Orte gehören zu den ältesten Städten der Welt",
+   "url": "https://www.msn.com/de-de/nachrichten/other/diese-relativ-unbekannten-orte-geh%C3%B6ren-zu-den-%C3%A4ltesten-st%C3%A4dten-der-welt/ar-AA2geRER",
+   "publisher": "Ostsee Zeitung on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "In etlichen Städten auf der Welt leben bereits seit Tausenden von Jahren Menschen",
+   "note": "A German-language article covers historically significant ancient cities around the world."
+  },
+  {
+   "title": "Why Did United Parcel Service (NYSE:UPS) Raise Guidance Despite Falling Volume?",
+   "url": "https://kalkinemedia.com/us/stocks/industrial/why-did-united-parcel-service-nyseups-raise-guidance-despite-falling-volume",
+   "publisher": "Kalkine Media",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "reported latest-quarter results with revenue growth in all segments, raised guidance and an impairment charge.",
+   "note": "Declining parcel delivery volume signals possible delivery route contractions, which could soften fleet growth and mileage-based insurance premiums."
+  },
+  {
+   "title": "Register: Risky Future AI Tools for Fraud Detection & Compliance ‘Demo Day’ on October 28",
+   "url": "https://www.claimsjournal.com/news/national/2026/10/27/340922.htm",
+   "publisher": "Claims Journal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Insurance Journal's Risky Future series is hosting the \"AI Tools for Fraud Detection and Compliance\" Demo Day",
+   "note": "Claims Journal is hosting a virtual demo day featuring AI tools for fraud detection and compliance across the insurance industry."
+  },
+  {
+   "title": "Ravens, optimistas con el regreso del QB Lamar Jackson en la Semana 8 vs. Bills",
+   "url": "https://www.espn.com.mx/futbol-americano/nota/_/id/17436055/nfl-ravens-optimistas-vuelta-lamar-jackson-vs-bills-s8",
+   "publisher": "ESPN México",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Jackson se ha perdido los últimos tres encuentros debido a un esguince de tobillo",
+   "note": "ESPN reports on Baltimore Ravens quarterback Lamar Jackson's potential return from an ankle injury against the Buffalo Bills."
+  },
+  {
+   "title": "Best E-Commerce Insurance",
+   "url": "https://www.forbes.com/advisor/business-insurance/best-ecommerce-insurance/",
+   "publisher": "Forbes",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "As a former claims handler and fraud investigator, Jason Metz has worked on a multitude of complex and multifaceted claims.",
+   "note": "Forbes published a guide reviewing e-commerce business insurance, written by a former claims investigator."
+  },
+  {
+   "title": "Memphis meets Army in AAC action",
+   "url": "https://ca.sports.yahoo.com/news/memphis-meets-army-aac-action-194338548.html",
+   "publisher": "Yahoo Sports Canada",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Memphis meets Army in AAC action",
+   "note": "Yahoo Sports details game odds and preview statistics for an upcoming college football matchup between Memphis and Army."
+  },
+  {
+   "title": "Driver Safety Data Meets Fleet Maintenance in TRUCE-Fleetio Partnership",
+   "url": "https://www.fleetequipmentmag.com/truce-fleetio-partnership-driver-safety-maintenance/",
+   "publisher": "Fleet Equipment Magazine",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "TRUCE Software and Fleetio partnered to connect employee driving performance and safety insights with vehicle maintenance, inspections, operating costs, and utilization.",
+   "note": "Nirvana should track Fleetio integrations as potential telematics and maintenance data partners for underwriting and risk management in delivery fleets."
+  },
+  {
+   "title": "US Auto Insurance Rates by States in 2026",
+   "url": "https://beinsure.com/us-auto-insurance-rates-states/",
+   "publisher": "beinsure",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "US Auto insurance rate for full coverage car insurance in 2026 is $2,637 and $682 for min coverage",
+   "note": "Beinsure published 2026 average US personal auto insurance premium rates across states for full and minimum coverage."
+  }
+ ],
+ "digest": "- Amazon’s shipping costs rose 11% in Q3 amid 1.5 billion rapid deliveries, squeezing delivery service partner margins and boosting"
+}

@@ -15082,5 +15082,489 @@
    ]
   },
   "llm_errors": []
+ },
+ {
+  "run_id": "2026-10-30T07-44-49Z",
+  "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/41021959023",
+  "trigger": "schedule",
+  "repo": "shubhamkumar14/nirvana-intel-monitor",
+  "date": "2026-10-30",
+  "started": "2026-10-30T07:44:49Z",
+  "duration_s": 840.2,
+  "baseline": false,
+  "previous_run": "2026-10-29T19-13-33Z",
+  "previous_started": "2026-10-29T19:13:33Z",
+  "classifier": "llm",
+  "model": "gemini:gemini-flash-latest",
+  "counts": {
+   "raw": 350,
+   "unique": 336,
+   "known_skipped": 248,
+   "attached_existing": 6,
+   "prefiltered_out": 36,
+   "too_old": 0,
+   "deferred": 0,
+   "classified": 46,
+   "irrelevant": 26,
+   "quarantined": 1,
+   "new_events": 19,
+   "updated_events": 6,
+   "late_discoveries": 0,
+   "classifier_errors": 0,
+   "new_source_baseline": 0
+  },
+  "evals": {
+   "source_success_rate": 0.958,
+   "verification_pass_rate": 0.95,
+   "date_coverage": 1.0,
+   "median_age_days_new": 0.7,
+   "dedup_ratio": 0.863,
+   "relevance_rate": 0.413
+  },
+  "health": [
+   {
+    "source_id": "insurancejournal",
+    "name": "Insurance Journal",
+    "kind": "rss",
+    "status": "ok",
+    "items": 30,
+    "error": null,
+    "ms": 416
+   },
+   {
+    "source_id": "carriermanagement",
+    "name": "Carrier Management",
+    "kind": "rss",
+    "status": "ok",
+    "items": 10,
+    "error": null,
+    "ms": 447
+   },
+   {
+    "source_id": "supplychaindive",
+    "name": "Supply Chain Dive",
+    "kind": "rss",
+    "status": "ok",
+    "items": 10,
+    "error": null,
+    "ms": 149
+   },
+   {
+    "source_id": "freightwaves",
+    "name": "FreightWaves",
+    "kind": "rss",
+    "status": "ok",
+    "items": 56,
+    "error": null,
+    "ms": 132
+   },
+   {
+    "source_id": "prn_insurance",
+    "name": "PR Newswire - Insurance",
+    "kind": "rss",
+    "status": "ok",
+    "items": 20,
+    "error": null,
+    "ms": 291
+   },
+   {
+    "source_id": "techcrunch",
+    "name": "TechCrunch",
+    "kind": "rss",
+    "status": "ok",
+    "items": 20,
+    "error": null,
+    "ms": 88
+   },
+   {
+    "source_id": "reinsurancenews",
+    "name": "Reinsurance News",
+    "kind": "rss",
+    "status": "ok",
+    "items": 10,
+    "error": null,
+    "ms": 225
+   },
+   {
+    "source_id": "repairerdriven",
+    "name": "Repairer Driven News",
+    "kind": "rss",
+    "status": "ok",
+    "items": 10,
+    "error": null,
+    "ms": 157
+   },
+   {
+    "source_id": "artemis",
+    "name": "Artemis",
+    "kind": "rss",
+    "status": "ok",
+    "items": 10,
+    "error": null,
+    "ms": 148
+   },
+   {
+    "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+    "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+    "kind": "search",
+    "status": "ok",
+    "items": 8,
+    "error": null,
+    "ms": 230
+   },
+   {
+    "source_id": "bing:Progressive \"commercial auto\"",
+    "name": "Bing News: Progressive \"commercial auto\"",
+    "kind": "search",
+    "status": "ok",
+    "items": 7,
+    "error": null,
+    "ms": 185
+   },
+   {
+    "source_id": "bing:\"One80\" last mile delivery insurance",
+    "name": "Bing News: \"One80\" last mile delivery insurance",
+    "kind": "search",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 177
+   },
+   {
+    "source_id": "bing:\"Specialty Program Group\" transportation",
+    "name": "Bing News: \"Specialty Program Group\" transportation",
+    "kind": "search",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 167
+   },
+   {
+    "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+    "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+    "kind": "search",
+    "status": "ok",
+    "items": 12,
+    "error": null,
+    "ms": 260
+   },
+   {
+    "source_id": "bing:\"HDVI\" insurance",
+    "name": "Bing News: \"HDVI\" insurance",
+    "kind": "search",
+    "status": "ok",
+    "items": 1,
+    "error": null,
+    "ms": 177
+   },
+   {
+    "source_id": "bing:\"Cover Whale\"",
+    "name": "Bing News: \"Cover Whale\"",
+    "kind": "search",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 228
+   },
+   {
+    "source_id": "bing:\"InShare\" insurance delivery",
+    "name": "Bing News: \"InShare\" insurance delivery",
+    "kind": "search",
+    "status": "ok",
+    "items": 3,
+    "error": null,
+    "ms": 205
+   },
+   {
+    "source_id": "bing:\"TrueNorth\" final mile insurance",
+    "name": "Bing News: \"TrueNorth\" final mile insurance",
+    "kind": "search",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 222
+   },
+   {
+    "source_id": "bing:\"Asero\" insurance transportation",
+    "name": "Bing News: \"Asero\" insurance transportation",
+    "kind": "search",
+    "status": "ok",
+    "items": 2,
+    "error": null,
+    "ms": 194
+   },
+   {
+    "source_id": "bing:Amazon \"delivery service partner\" insurance",
+    "name": "Bing News: Amazon \"delivery service partner\" insurance",
+    "kind": "search",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 188
+   },
+   {
+    "source_id": "bing:\"last-mile delivery\" insurance",
+    "name": "Bing News: \"last-mile delivery\" insurance",
+    "kind": "search",
+    "status": "ok",
+    "items": 11,
+    "error": null,
+    "ms": 183
+   },
+   {
+    "source_id": "bing:\"delivery fleet\" insurance launch",
+    "name": "Bing News: \"delivery fleet\" insurance launch",
+    "kind": "search",
+    "status": "ok",
+    "items": 2,
+    "error": null,
+    "ms": 179
+   },
+   {
+    "source_id": "bing:\"delivery service partner\" insurance",
+    "name": "Bing News: \"delivery service partner\" insurance",
+    "kind": "search",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 163
+   },
+   {
+    "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+    "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+    "kind": "search",
+    "status": "ok",
+    "items": 3,
+    "error": null,
+    "ms": 169
+   },
+   {
+    "source_id": "bing:insurtech \"commercial auto\" funding",
+    "name": "Bing News: insurtech \"commercial auto\" funding",
+    "kind": "search",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 228
+   },
+   {
+    "source_id": "bing:telematics insurance fleet MGA",
+    "name": "Bing News: telematics insurance fleet MGA",
+    "kind": "search",
+    "status": "ok",
+    "items": 5,
+    "error": null,
+    "ms": 179
+   },
+   {
+    "source_id": "bing:\"commercial auto\" insurance rates",
+    "name": "Bing News: \"commercial auto\" insurance rates",
+    "kind": "search",
+    "status": "ok",
+    "items": 12,
+    "error": null,
+    "ms": 179
+   },
+   {
+    "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+    "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+    "kind": "search",
+    "status": "ok",
+    "items": 12,
+    "error": null,
+    "ms": 151
+   },
+   {
+    "source_id": "bing:\"tort reform\" trucking OR delivery",
+    "name": "Bing News: \"tort reform\" trucking OR delivery",
+    "kind": "search",
+    "status": "ok",
+    "items": 12,
+    "error": null,
+    "ms": 195
+   },
+   {
+    "source_id": "bing:Amazon DSP delivery contractors",
+    "name": "Bing News: Amazon DSP delivery contractors",
+    "kind": "search",
+    "status": "ok",
+    "items": 1,
+    "error": null,
+    "ms": 164
+   },
+   {
+    "source_id": "bing:parcel delivery volumes",
+    "name": "Bing News: parcel delivery volumes",
+    "kind": "search",
+    "status": "ok",
+    "items": 11,
+    "error": null,
+    "ms": 202
+   },
+   {
+    "source_id": "bing:\"commercial auto\" market outlook report",
+    "name": "Bing News: \"commercial auto\" market outlook report",
+    "kind": "search",
+    "status": "ok",
+    "items": 9,
+    "error": null,
+    "ms": 189
+   },
+   {
+    "source_id": "bing:last-mile delivery market report",
+    "name": "Bing News: last-mile delivery market report",
+    "kind": "search",
+    "status": "ok",
+    "items": 11,
+    "error": null,
+    "ms": 178
+   },
+   {
+    "source_id": "bing:tariffs freight trucking costs",
+    "name": "Bing News: tariffs freight trucking costs",
+    "kind": "search",
+    "status": "ok",
+    "items": 9,
+    "error": null,
+    "ms": 209
+   },
+   {
+    "source_id": "bing:FMCSA insurance minimum",
+    "name": "Bing News: FMCSA insurance minimum",
+    "kind": "search",
+    "status": "ok",
+    "items": 12,
+    "error": null,
+    "ms": 238
+   },
+   {
+    "source_id": "bing:delivery driver independent contractor law",
+    "name": "Bing News: delivery driver independent contractor law",
+    "kind": "search",
+    "status": "ok",
+    "items": 12,
+    "error": null,
+    "ms": 186
+   },
+   {
+    "source_id": "fedreg:motor carrier insurance",
+    "name": "Federal Register: motor carrier insurance",
+    "kind": "api",
+    "status": "ok",
+    "items": 4,
+    "error": null,
+    "ms": 242
+   },
+   {
+    "source_id": "fedreg:financial responsibility motor carriers",
+    "name": "Federal Register: financial responsibility motor carriers",
+    "kind": "api",
+    "status": "ok",
+    "items": 5,
+    "error": null,
+    "ms": 243
+   },
+   {
+    "source_id": "fedreg:FMCSA delivery",
+    "name": "Federal Register: FMCSA delivery",
+    "kind": "api",
+    "status": "ok",
+    "items": 9,
+    "error": null,
+    "ms": 225
+   },
+   {
+    "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+    "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+    "kind": "api",
+    "status": "error",
+    "items": 0,
+    "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+    "ms": 0
+   },
+   {
+    "source_id": "sec:\"delivery service partners\" insurance",
+    "name": "SEC EDGAR: \"delivery service partners\" insurance",
+    "kind": "api",
+    "status": "error",
+    "items": 0,
+    "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+    "ms": 0
+   },
+   {
+    "source_id": "page:one80_lastmile",
+    "name": "Page watch: One80 Last Mile Delivery program",
+    "kind": "page",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 1762
+   },
+   {
+    "source_id": "page:progressive_proview",
+    "name": "Page watch: Progressive Snapshot ProView",
+    "kind": "page",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 544
+   },
+   {
+    "source_id": "page:bbrown_lastmile",
+    "name": "Page watch: Brown & Brown last/final-mile page",
+    "kind": "page",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 230
+   },
+   {
+    "source_id": "page:truenorth_finalmile",
+    "name": "Page watch: TrueNorth Final Mile",
+    "kind": "page",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 814
+   },
+   {
+    "source_id": "page:asero_transport",
+    "name": "Page watch: Asero Transportation programs",
+    "kind": "page",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 260
+   },
+   {
+    "source_id": "page:marsh_dsp",
+    "name": "Page watch: Marsh Amazon DSP insurance",
+    "kind": "page",
+    "status": "ok",
+    "items": 0,
+    "error": null,
+    "ms": 689
+   },
+   {
+    "source_id": "page:inshare_geotab",
+    "name": "Page watch: InShare on Geotab Marketplace",
+    "kind": "page",
+    "status": "ok",
+    "items": 1,
+    "error": null,
+    "ms": 927
+   }
+  ],
+  "llm_usage": {
+   "input_tokens": 12709,
+   "output_tokens": 10873,
+   "calls": 6,
+   "errors": 0,
+   "provider": "gemini",
+   "by_model": {
+    "gemini-flash-latest": 6
+   }
+  },
+  "llm_errors": []
  }
 ]

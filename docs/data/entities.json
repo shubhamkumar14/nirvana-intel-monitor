@@ -1104,12 +1104,13 @@
  "The Hartford": {
   "name": "The Hartford",
   "first_seen": "2026-10-28T07:30:24Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_b6467d403538"
+   "ev_b6467d403538",
+   "ev_86f2d970ae5a"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-28T07:30:24Z"
+  "last_seen": "2026-10-30T07:44:49Z"
  },
  "Hartford Funds": {
   "name": "Hartford Funds",
@@ -1220,5 +1221,65 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-29T19:13:33Z"
+ },
+ "Arthur J. Gallagher & Co.": {
+  "name": "Arthur J. Gallagher & Co.",
+  "first_seen": "2026-10-30T07:44:49Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_1917af7f5d8d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T07:44:49Z"
+ },
+ "Ryan Specialty Holdings": {
+  "name": "Ryan Specialty Holdings",
+  "first_seen": "2026-10-30T07:44:49Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_c5b3ff5c575b"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T07:44:49Z"
+ },
+ "WTW": {
+  "name": "WTW",
+  "first_seen": "2026-10-30T07:44:49Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_eb0c08bd8051"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T07:44:49Z"
+ },
+ "Brown & Brown, Inc.": {
+  "name": "Brown & Brown, Inc.",
+  "first_seen": "2026-10-30T07:44:49Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_4cfa9cbb0626"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T07:44:49Z"
+ },
+ "TRUCE Software": {
+  "name": "TRUCE Software",
+  "first_seen": "2026-10-30T07:44:49Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_5bf9fd61df37"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T07:44:49Z"
+ },
+ "Fleetio": {
+  "name": "Fleetio",
+  "first_seen": "2026-10-30T07:44:49Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_5bf9fd61df37"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-30T07:44:49Z"
  }
 }
