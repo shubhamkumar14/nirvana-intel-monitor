@@ -42,13 +42,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 34.8,
-  "age_days": 14.6,
+  "score": 34.6,
+  "age_days": 15.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -97,13 +97,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 44.8,
-  "age_days": 14.7,
+  "score": 44.6,
+  "age_days": 15.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -165,13 +165,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 59.7,
-  "age_days": 14.8,
+  "score": 59.6,
+  "age_days": 15.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.8
   },
   "verification": "Corroborated",
@@ -218,13 +218,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 43.7,
-  "age_days": 14.8,
+  "score": 43.6,
+  "age_days": 15.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -277,13 +277,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.9,
-  "age_days": 14.9,
+  "score": 42.8,
+  "age_days": 15.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -332,13 +332,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.9,
-  "age_days": 14.9,
+  "score": 51.8,
+  "age_days": 15.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -387,13 +387,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.9,
-  "age_days": 14.9,
+  "score": 38.8,
+  "age_days": 15.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -442,13 +442,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.9,
-  "age_days": 14.9,
+  "score": 42.8,
+  "age_days": 15.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -497,13 +497,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.9,
-  "age_days": 14.9,
+  "score": 38.8,
+  "age_days": 15.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -553,13 +553,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.9,
-  "age_days": 14.9,
+  "score": 51.8,
+  "age_days": 15.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -626,13 +626,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.9,
-  "age_days": 15.0,
+  "score": 41.8,
+  "age_days": 15.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.2
   },
   "verification": "Corroborated",
@@ -679,13 +679,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.9,
-  "age_days": 15.1,
+  "score": 51.7,
+  "age_days": 15.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -732,13 +732,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 41.6,
-  "age_days": 15.1,
+  "score": 41.5,
+  "age_days": 15.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -787,13 +787,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.9,
-  "age_days": 15.1,
+  "score": 39.7,
+  "age_days": 15.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -840,13 +840,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.8,
-  "age_days": 15.2,
+  "score": 50.7,
+  "age_days": 15.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -893,13 +893,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 51.5,
-  "age_days": 15.5,
+  "score": 51.4,
+  "age_days": 15.9,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -946,13 +946,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.4,
-  "age_days": 15.7,
+  "score": 54.3,
+  "age_days": 16.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -999,13 +999,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.5,
-  "age_days": 16.1,
+  "score": 61.4,
+  "age_days": 16.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -1052,13 +1052,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 43.2,
-  "age_days": 16.5,
+  "score": 43.1,
+  "age_days": 16.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -1116,8 +1116,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.4,
-  "age_days": 16.6,
+  "score": 46.3,
+  "age_days": 17.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -1178,13 +1178,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 57.1,
-  "age_days": 16.8,
+  "score": 57.0,
+  "age_days": 17.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.19,
+   "recency": 0.18,
    "last_mile_fit": 0.6
   },
   "verification": "Corroborated",
@@ -1234,13 +1234,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 55.1,
-  "age_days": 16.8,
+  "score": 55.0,
+  "age_days": 17.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.19,
+   "recency": 0.18,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -1289,13 +1289,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.3,
-  "age_days": 16.9,
+  "score": 36.2,
+  "age_days": 17.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.19,
+   "recency": 0.18,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -1344,13 +1344,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.3,
-  "age_days": 17.0,
+  "score": 42.2,
+  "age_days": 17.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.19,
+   "recency": 0.18,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -1417,8 +1417,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.3,
-  "age_days": 17.1,
+  "score": 39.1,
+  "age_days": 17.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
@@ -1470,13 +1470,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.2,
-  "age_days": 17.4,
+  "score": 40.1,
+  "age_days": 17.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.18,
+   "recency": 0.17,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -1525,8 +1525,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.1,
-  "age_days": 17.6,
+  "score": 50.0,
+  "age_days": 18.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
@@ -1584,8 +1584,8 @@
    }
   ],
   "best_tier": 2,
-  "score": 62.9,
-  "age_days": 17.7,
+  "score": 62.8,
+  "age_days": 18.1,
   "score_parts": {
    "materiality": 4,
    "priority": 0.7,
@@ -1669,13 +1669,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 56.1,
-  "age_days": 17.8,
+  "score": 56.0,
+  "age_days": 18.2,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.17,
+   "recency": 0.16,
    "last_mile_fit": 0.3
   },
   "verification": "Corroborated",
@@ -1724,13 +1724,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.1,
-  "age_days": 17.8,
+  "score": 46.0,
+  "age_days": 18.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.17,
+   "recency": 0.16,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -1789,13 +1789,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.0,
-  "age_days": 18.1,
+  "score": 41.9,
+  "age_days": 18.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.17,
+   "recency": 0.16,
    "last_mile_fit": 0.5
   },
   "verification": "Corroborated",
@@ -1842,8 +1842,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.8,
-  "age_days": 18.9,
+  "score": 45.7,
+  "age_days": 19.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -1897,13 +1897,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.8,
-  "age_days": 19.1,
+  "score": 35.7,
+  "age_days": 19.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.15,
+   "recency": 0.14,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -1952,13 +1952,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.4,
-  "age_days": 20.7,
+  "score": 50.3,
+  "age_days": 21.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.13,
+   "recency": 0.12,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -2005,8 +2005,8 @@
    }
   ],
   "best_tier": 1,
-  "score": 54.5,
-  "age_days": 23.3,
+  "score": 54.4,
+  "age_days": 23.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -2059,8 +2059,8 @@
    }
   ],
   "best_tier": 1,
-  "score": 54.4,
-  "age_days": 24.3,
+  "score": 54.3,
+  "age_days": 24.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -2115,13 +2115,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 45.7,
-  "age_days": 31.3,
+  "score": 45.6,
+  "age_days": 31.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 1,
-   "recency": 0.05,
+   "recency": 0.04,
    "last_mile_fit": 0.4
   },
   "verification": "Confirmed (primary source)",
@@ -2171,13 +2171,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 34.7,
-  "age_days": 31.3,
+  "score": 34.6,
+  "age_days": 31.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 1,
-   "recency": 0.05,
+   "recency": 0.04,
    "last_mile_fit": 0.1
   },
   "verification": "Confirmed (primary source)",
@@ -2226,8 +2226,8 @@
    }
   ],
   "best_tier": 1,
-  "score": 34.6,
-  "age_days": 33.3,
+  "score": 34.5,
+  "age_days": 33.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
@@ -2281,8 +2281,8 @@
    }
   ],
   "best_tier": 1,
-  "score": 35.6,
-  "age_days": 33.3,
+  "score": 35.5,
+  "age_days": 33.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
@@ -2337,7 +2337,7 @@
   ],
   "best_tier": 1,
   "score": 34.4,
-  "age_days": 36.3,
+  "age_days": 36.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
@@ -2392,13 +2392,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.9,
-  "age_days": 14.9,
+  "score": 51.8,
+  "age_days": 15.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -2446,8 +2446,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.9,
-  "age_days": 15.1,
+  "score": 41.7,
+  "age_days": 15.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -2502,13 +2502,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 40.5,
-  "age_days": 15.3,
+  "score": 40.4,
+  "age_days": 15.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -2558,8 +2558,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 52.7,
-  "age_days": 15.5,
+  "score": 52.6,
+  "age_days": 16.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -2614,13 +2614,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.7,
-  "age_days": 15.6,
+  "score": 50.6,
+  "age_days": 16.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -2668,13 +2668,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.7,
-  "age_days": 15.7,
+  "score": 47.5,
+  "age_days": 16.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -2726,13 +2726,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 39.4,
-  "age_days": 15.7,
+  "score": 39.3,
+  "age_days": 16.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -2783,13 +2783,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 62.4,
-  "age_days": 15.7,
+  "score": 62.3,
+  "age_days": 16.2,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -2837,13 +2837,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 30.6,
-  "age_days": 15.8,
+  "score": 30.5,
+  "age_days": 16.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -2893,13 +2893,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.6,
-  "age_days": 15.9,
+  "score": 35.5,
+  "age_days": 16.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -2949,13 +2949,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 39.3,
-  "age_days": 16.2,
+  "score": 39.1,
+  "age_days": 16.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -3006,13 +3006,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.5,
-  "age_days": 16.2,
+  "score": 35.4,
+  "age_days": 16.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -3062,13 +3062,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 26.5,
-  "age_days": 16.3,
+  "score": 26.4,
+  "age_days": 16.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -3125,8 +3125,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.4,
-  "age_days": 16.6,
+  "score": 41.3,
+  "age_days": 17.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -3179,8 +3179,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.3,
-  "age_days": 17.1,
+  "score": 39.2,
+  "age_days": 17.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -3233,8 +3233,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.3,
-  "age_days": 17.1,
+  "score": 38.2,
+  "age_days": 17.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -3289,8 +3289,8 @@
    }
   ],
   "best_tier": 2,
-  "score": 42.0,
-  "age_days": 17.1,
+  "score": 41.9,
+  "age_days": 17.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -3345,13 +3345,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 60.1,
-  "age_days": 17.6,
+  "score": 60.0,
+  "age_days": 18.0,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.18,
+   "recency": 0.17,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -3399,8 +3399,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.1,
-  "age_days": 17.7,
+  "score": 38.0,
+  "age_days": 18.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -3453,8 +3453,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.1,
-  "age_days": 17.7,
+  "score": 44.0,
+  "age_days": 18.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -3509,13 +3509,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 53.1,
-  "age_days": 17.9,
+  "score": 53.0,
+  "age_days": 18.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.17,
+   "recency": 0.16,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -3565,13 +3565,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 38.8,
-  "age_days": 18.0,
+  "score": 38.7,
+  "age_days": 18.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.17,
+   "recency": 0.16,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -3621,13 +3621,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 52.0,
-  "age_days": 18.1,
+  "score": 51.9,
+  "age_days": 18.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.17,
+   "recency": 0.16,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -3675,13 +3675,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.0,
-  "age_days": 18.1,
+  "score": 48.9,
+  "age_days": 18.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.17,
+   "recency": 0.16,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -3731,13 +3731,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.7,
-  "age_days": 19.2,
+  "score": 47.6,
+  "age_days": 19.6,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.15,
+   "recency": 0.14,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -3785,8 +3785,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.5,
-  "age_days": 20.3,
+  "score": 40.4,
+  "age_days": 20.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -3843,12 +3843,12 @@
   ],
   "best_tier": 3,
   "score": 51.2,
-  "age_days": 21.8,
+  "age_days": 22.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.12,
+   "recency": 0.11,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -3899,13 +3899,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.9,
-  "age_days": 14.9,
+  "score": 39.8,
+  "age_days": 15.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -3963,13 +3963,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.9,
-  "age_days": 15.0,
+  "score": 41.7,
+  "age_days": 15.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.2
   },
   "verification": "Corroborated",
@@ -4017,13 +4017,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.9,
-  "age_days": 15.1,
+  "score": 47.7,
+  "age_days": 15.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -4071,13 +4071,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.9,
-  "age_days": 15.1,
+  "score": 38.7,
+  "age_days": 15.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -4136,13 +4136,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.8,
-  "age_days": 15.2,
+  "score": 42.7,
+  "age_days": 15.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.3
   },
   "verification": "Corroborated",
@@ -4190,13 +4190,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.7,
-  "age_days": 15.6,
+  "score": 61.6,
+  "age_days": 16.0,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -4246,13 +4246,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.7,
-  "age_days": 15.7,
+  "score": 36.5,
+  "age_days": 16.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -4303,13 +4303,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 53.6,
-  "age_days": 15.9,
+  "score": 53.5,
+  "age_days": 16.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -4359,13 +4359,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.6,
-  "age_days": 15.9,
+  "score": 48.5,
+  "age_days": 16.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -4422,13 +4422,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.6,
-  "age_days": 16.0,
+  "score": 42.5,
+  "age_days": 16.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.3
   },
   "verification": "Corroborated",
@@ -4476,8 +4476,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.6,
-  "age_days": 16.0,
+  "score": 41.4,
+  "age_days": 16.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -4530,13 +4530,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.5,
-  "age_days": 16.1,
+  "score": 43.4,
+  "age_days": 16.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -4584,13 +4584,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.5,
-  "age_days": 16.2,
+  "score": 39.4,
+  "age_days": 16.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -4665,13 +4665,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.5,
-  "age_days": 16.3,
+  "score": 42.4,
+  "age_days": 16.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.3
   },
   "verification": "Corroborated",
@@ -4724,8 +4724,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 69.4,
-  "age_days": 16.6,
+  "score": 69.3,
+  "age_days": 17.0,
   "score_parts": {
    "materiality": 4,
    "priority": 0.9,
@@ -4780,8 +4780,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.4,
-  "age_days": 16.6,
+  "score": 50.3,
+  "age_days": 17.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -4834,8 +4834,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.4,
-  "age_days": 16.6,
+  "score": 38.3,
+  "age_days": 17.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -4890,13 +4890,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.3,
-  "age_days": 16.9,
+  "score": 61.2,
+  "age_days": 17.3,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.19,
+   "recency": 0.18,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -4956,13 +4956,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.3,
-  "age_days": 16.9,
+  "score": 42.2,
+  "age_days": 17.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.19,
+   "recency": 0.18,
    "last_mile_fit": 0.3
   },
   "verification": "Corroborated",
@@ -5010,13 +5010,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.3,
-  "age_days": 16.9,
+  "score": 49.2,
+  "age_days": 17.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.19,
+   "recency": 0.18,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -5066,13 +5066,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.7,
-  "age_days": 19.2,
+  "score": 48.6,
+  "age_days": 19.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.15,
+   "recency": 0.14,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -5120,13 +5120,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.6,
-  "age_days": 19.9,
+  "score": 38.5,
+  "age_days": 20.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.14,
+   "recency": 0.13,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -5176,8 +5176,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.5,
-  "age_days": 20.5,
+  "score": 39.4,
+  "age_days": 20.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -5233,13 +5233,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.9,
-  "age_days": 14.9,
+  "score": 36.8,
+  "age_days": 15.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -5290,8 +5290,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.0,
-  "age_days": 18.2,
+  "score": 33.9,
+  "age_days": 18.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
@@ -5346,8 +5346,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.9,
-  "age_days": 18.3,
+  "score": 39.8,
+  "age_days": 18.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -5402,13 +5402,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.4,
-  "age_days": 20.8,
+  "score": 37.3,
+  "age_days": 21.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.13,
+   "recency": 0.12,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -5456,8 +5456,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.4,
-  "age_days": 21.1,
+  "score": 36.3,
+  "age_days": 21.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -5512,13 +5512,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 30.3,
-  "age_days": 21.5,
+  "score": 30.2,
+  "age_days": 21.9,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.12,
+   "recency": 0.11,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -5569,13 +5569,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.9,
-  "age_days": 15.0,
+  "score": 41.7,
+  "age_days": 15.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -5634,13 +5634,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 63.9,
-  "age_days": 14.3,
+  "score": 63.7,
+  "age_days": 14.7,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.24,
+   "recency": 0.23,
    "last_mile_fit": 0.4
   },
   "verification": "Corroborated",
@@ -5695,13 +5695,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.1,
-  "age_days": 14.4,
+  "score": 43.9,
+  "age_days": 14.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.24,
+   "recency": 0.23,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -5751,13 +5751,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 43.6,
-  "age_days": 14.5,
+  "score": 43.4,
+  "age_days": 15.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 1,
-   "recency": 0.24,
+   "recency": 0.23,
    "last_mile_fit": 0.1
   },
   "verification": "Confirmed (primary source)",
@@ -5807,13 +5807,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.0,
-  "age_days": 14.7,
+  "score": 48.9,
+  "age_days": 15.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -5863,13 +5863,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.0,
-  "age_days": 14.8,
+  "score": 37.8,
+  "age_days": 15.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -5919,13 +5919,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 53.0,
-  "age_days": 14.8,
+  "score": 52.8,
+  "age_days": 15.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -5973,13 +5973,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 29.0,
-  "age_days": 14.8,
+  "score": 28.8,
+  "age_days": 15.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -6029,13 +6029,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.9,
-  "age_days": 14.9,
+  "score": 51.8,
+  "age_days": 15.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -6083,13 +6083,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.9,
-  "age_days": 14.9,
+  "score": 40.8,
+  "age_days": 15.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -6139,13 +6139,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 43.6,
-  "age_days": 15.0,
+  "score": 43.5,
+  "age_days": 15.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -6197,13 +6197,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.9,
-  "age_days": 15.1,
+  "score": 55.7,
+  "age_days": 15.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -6253,8 +6253,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.9,
-  "age_days": 15.1,
+  "score": 39.7,
+  "age_days": 15.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -6309,13 +6309,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.7,
-  "age_days": 15.7,
+  "score": 35.5,
+  "age_days": 16.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -6365,13 +6365,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.7,
-  "age_days": 15.7,
+  "score": 35.5,
+  "age_days": 16.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -6421,8 +6421,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 31.1,
-  "age_days": 17.6,
+  "score": 31.0,
+  "age_days": 18.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
@@ -6477,13 +6477,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.3,
-  "age_days": 13.9,
+  "score": 40.1,
+  "age_days": 14.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.25,
+   "recency": 0.24,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -6531,13 +6531,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 29.3,
-  "age_days": 14.0,
+  "score": 29.1,
+  "age_days": 14.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.25,
+   "recency": 0.24,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -6585,13 +6585,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 29.2,
-  "age_days": 14.2,
+  "score": 29.0,
+  "age_days": 14.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.24,
+   "recency": 0.23,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -6639,13 +6639,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.1,
-  "age_days": 14.3,
+  "score": 39.0,
+  "age_days": 14.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.24,
+   "recency": 0.23,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -6696,13 +6696,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.9,
-  "age_days": 15.1,
+  "score": 35.7,
+  "age_days": 15.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -6750,13 +6750,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.0,
-  "age_days": 18.1,
+  "score": 36.9,
+  "age_days": 18.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.17,
+   "recency": 0.16,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -6804,8 +6804,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.8,
-  "age_days": 19.0,
+  "score": 37.7,
+  "age_days": 19.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
@@ -6860,13 +6860,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.6,
-  "age_days": 13.2,
+  "score": 39.4,
+  "age_days": 13.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.27,
+   "recency": 0.26,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -6916,13 +6916,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.3,
-  "age_days": 13.9,
+  "score": 38.1,
+  "age_days": 14.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.25,
+   "recency": 0.24,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -6970,13 +6970,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.8,
-  "age_days": 15.2,
+  "score": 43.7,
+  "age_days": 15.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.22,
+   "recency": 0.21,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -7027,13 +7027,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.2,
-  "age_days": 17.3,
+  "score": 37.1,
+  "age_days": 17.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.18,
+   "recency": 0.17,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -7083,13 +7083,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.9,
-  "age_days": 12.4,
+  "score": 41.7,
+  "age_days": 12.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.29,
+   "recency": 0.28,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -7139,13 +7139,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 62.9,
-  "age_days": 12.4,
+  "score": 62.7,
+  "age_days": 12.9,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.29,
+   "recency": 0.28,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -7195,13 +7195,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.8,
-  "age_days": 12.6,
+  "score": 43.6,
+  "age_days": 13.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.29,
+   "recency": 0.27,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -7249,13 +7249,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 43.6,
-  "age_days": 12.6,
+  "score": 43.4,
+  "age_days": 13.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.29,
+   "recency": 0.27,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -7303,13 +7303,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.6,
-  "age_days": 13.0,
+  "score": 38.4,
+  "age_days": 13.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.27,
+   "recency": 0.26,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -7369,13 +7369,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 56.5,
-  "age_days": 13.2,
+  "score": 56.4,
+  "age_days": 13.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.27,
+   "recency": 0.26,
    "last_mile_fit": 0.8
   },
   "verification": "Corroborated",
@@ -7423,13 +7423,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 55.1,
-  "age_days": 13.6,
+  "score": 55.0,
+  "age_days": 14.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.26,
+   "recency": 0.25,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -7477,13 +7477,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.0,
-  "age_days": 14.8,
+  "score": 39.8,
+  "age_days": 15.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.23,
+   "recency": 0.22,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -7533,13 +7533,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.7,
-  "age_days": 15.7,
+  "score": 35.5,
+  "age_days": 16.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -7589,13 +7589,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.7,
-  "age_days": 15.7,
+  "score": 35.5,
+  "age_days": 16.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.21,
+   "recency": 0.2,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -7643,8 +7643,8 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.4,
-  "age_days": 16.6,
+  "score": 48.3,
+  "age_days": 17.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
@@ -7699,13 +7699,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.9,
-  "age_days": 18.6,
+  "score": 47.8,
+  "age_days": 19.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.16,
+   "recency": 0.15,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -7756,13 +7756,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 40.0,
-  "age_days": 11.7,
+  "score": 39.8,
+  "age_days": 12.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.31,
+   "recency": 0.3,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -7814,13 +7814,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 48.0,
-  "age_days": 11.7,
+  "score": 47.8,
+  "age_days": 12.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.31,
+   "recency": 0.3,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -7872,13 +7872,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 57.9,
-  "age_days": 11.7,
+  "score": 57.7,
+  "age_days": 12.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.31,
+   "recency": 0.3,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -7928,13 +7928,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 63.2,
-  "age_days": 11.8,
+  "score": 63.0,
+  "age_days": 12.3,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.31,
+   "recency": 0.3,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -7982,13 +7982,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.1,
-  "age_days": 11.9,
+  "score": 41.9,
+  "age_days": 12.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.31,
+   "recency": 0.3,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -8038,13 +8038,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.1,
-  "age_days": 11.9,
+  "score": 48.9,
+  "age_days": 12.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.31,
+   "recency": 0.29,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -8092,13 +8092,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.1,
-  "age_days": 12.0,
+  "score": 39.9,
+  "age_days": 12.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.31,
+   "recency": 0.29,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -8148,13 +8148,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.1,
-  "age_days": 12.0,
+  "score": 40.9,
+  "age_days": 12.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -8202,13 +8202,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 33.0,
-  "age_days": 12.1,
+  "score": 32.9,
+  "age_days": 12.5,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -8276,13 +8276,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 64.0,
-  "age_days": 12.1,
+  "score": 63.8,
+  "age_days": 12.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.7
   },
   "verification": "Corroborated",
@@ -8332,13 +8332,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.0,
-  "age_days": 12.1,
+  "score": 41.8,
+  "age_days": 12.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -8386,13 +8386,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 31.0,
-  "age_days": 12.2,
+  "score": 30.8,
+  "age_days": 12.6,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -8440,13 +8440,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.0,
-  "age_days": 12.2,
+  "score": 41.8,
+  "age_days": 12.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -8496,13 +8496,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 64.7,
-  "age_days": 12.2,
+  "score": 64.5,
+  "age_days": 12.6,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -8553,13 +8553,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 42.7,
-  "age_days": 12.2,
+  "score": 42.5,
+  "age_days": 12.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -8609,13 +8609,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.0,
-  "age_days": 12.3,
+  "score": 38.8,
+  "age_days": 12.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.28,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -8663,13 +8663,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 43.6,
-  "age_days": 12.6,
+  "score": 43.4,
+  "age_days": 13.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.29,
+   "recency": 0.27,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -8717,13 +8717,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 43.6,
-  "age_days": 12.6,
+  "score": 43.4,
+  "age_days": 13.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.29,
+   "recency": 0.27,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -8771,13 +8771,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 53.6,
-  "age_days": 12.6,
+  "score": 53.4,
+  "age_days": 13.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.29,
+   "recency": 0.27,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -8825,13 +8825,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.1,
-  "age_days": 11.4,
+  "score": 53.9,
+  "age_days": 11.8,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.32,
+   "recency": 0.31,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -8879,13 +8879,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.3,
-  "age_days": 11.4,
+  "score": 39.1,
+  "age_days": 11.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.31,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -8945,13 +8945,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 11.6,
+  "score": 43.1,
+  "age_days": 12.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.3,
    "last_mile_fit": 0.2
   },
   "verification": "Corroborated",
@@ -9001,13 +9001,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.2,
-  "age_days": 11.8,
+  "score": 42.0,
+  "age_days": 12.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.31,
+   "recency": 0.3,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -9065,13 +9065,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.0,
-  "age_days": 12.2,
+  "score": 41.8,
+  "age_days": 12.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.1
   },
   "verification": "Corroborated",
@@ -9121,13 +9121,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 45.2,
-  "age_days": 10.7,
+  "score": 45.0,
+  "age_days": 11.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 1,
-   "recency": 0.35,
+   "recency": 0.33,
    "last_mile_fit": 0.1
   },
   "verification": "Confirmed (primary source)",
@@ -9178,13 +9178,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 32.4,
-  "age_days": 10.7,
+  "score": 32.2,
+  "age_days": 11.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.35,
+   "recency": 0.33,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -9232,13 +9232,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.6,
-  "age_days": 10.9,
+  "score": 51.4,
+  "age_days": 11.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.32,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -9288,13 +9288,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.6,
-  "age_days": 11.0,
+  "score": 61.4,
+  "age_days": 11.4,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.32,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -9344,13 +9344,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.5,
-  "age_days": 11.0,
+  "score": 42.3,
+  "age_days": 11.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.32,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -9400,13 +9400,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.5,
-  "age_days": 11.0,
+  "score": 50.3,
+  "age_days": 11.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.32,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -9454,13 +9454,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 33.5,
-  "age_days": 11.0,
+  "score": 33.3,
+  "age_days": 11.5,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.32,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -9510,13 +9510,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.5,
-  "age_days": 11.0,
+  "score": 38.3,
+  "age_days": 11.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -9564,13 +9564,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.5,
-  "age_days": 11.1,
+  "score": 39.3,
+  "age_days": 11.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -9620,13 +9620,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 60.5,
-  "age_days": 11.1,
+  "score": 60.3,
+  "age_days": 11.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -9677,13 +9677,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 53.5,
-  "age_days": 11.1,
+  "score": 53.3,
+  "age_days": 11.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -9733,13 +9733,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.5,
-  "age_days": 11.2,
+  "score": 40.3,
+  "age_days": 11.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -9787,13 +9787,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.5,
-  "age_days": 11.2,
+  "score": 40.2,
+  "age_days": 11.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -9841,13 +9841,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 44.2,
-  "age_days": 11.2,
+  "score": 44.0,
+  "age_days": 11.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -9897,13 +9897,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.4,
-  "age_days": 11.3,
+  "score": 55.2,
+  "age_days": 11.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.33,
+   "recency": 0.31,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -9954,13 +9954,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 59.9,
-  "age_days": 11.3,
+  "score": 59.7,
+  "age_days": 11.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 1,
-   "recency": 0.33,
+   "recency": 0.31,
    "last_mile_fit": 0.6
   },
   "verification": "Confirmed (primary source)",
@@ -10010,13 +10010,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 42.1,
-  "age_days": 11.4,
+  "score": 41.9,
+  "age_days": 11.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.32,
+   "recency": 0.31,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -10066,13 +10066,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.3,
-  "age_days": 11.6,
+  "score": 32.1,
+  "age_days": 12.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.3,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -10122,13 +10122,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 11.6,
+  "score": 43.1,
+  "age_days": 12.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.3,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -10176,13 +10176,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 33.3,
-  "age_days": 11.6,
+  "score": 33.1,
+  "age_days": 12.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.3,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -10242,13 +10242,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.3,
-  "age_days": 11.6,
+  "score": 55.1,
+  "age_days": 12.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.3,
    "last_mile_fit": 0.6
   },
   "verification": "Corroborated",
@@ -10296,13 +10296,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.3,
-  "age_days": 11.6,
+  "score": 50.1,
+  "age_days": 12.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.3,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -10350,13 +10350,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.2,
-  "age_days": 11.8,
+  "score": 48.0,
+  "age_days": 12.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.31,
+   "recency": 0.3,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -10406,13 +10406,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 40.8,
-  "age_days": 12.1,
+  "score": 40.6,
+  "age_days": 12.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -10460,13 +10460,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.8,
-  "age_days": 12.6,
+  "score": 40.6,
+  "age_days": 13.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.29,
+   "recency": 0.27,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -10514,13 +10514,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 43.6,
-  "age_days": 12.6,
+  "score": 43.4,
+  "age_days": 13.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.29,
+   "recency": 0.27,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -10570,13 +10570,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 50.7,
-  "age_days": 10.3,
+  "score": 50.4,
+  "age_days": 10.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.36,
+   "recency": 0.35,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -10624,13 +10624,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 51.4,
-  "age_days": 10.3,
+  "score": 51.2,
+  "age_days": 10.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 1,
-   "recency": 0.36,
+   "recency": 0.35,
    "last_mile_fit": 0.5
   },
   "verification": "Confirmed (primary source)",
@@ -10678,13 +10678,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.9,
-  "age_days": 10.4,
+  "score": 41.6,
+  "age_days": 10.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.36,
+   "recency": 0.34,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -10732,13 +10732,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.8,
-  "age_days": 10.4,
+  "score": 42.6,
+  "age_days": 10.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.36,
+   "recency": 0.34,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -10786,13 +10786,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 30.8,
-  "age_days": 10.5,
+  "score": 30.6,
+  "age_days": 10.9,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.35,
+   "recency": 0.34,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -10840,13 +10840,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.8,
-  "age_days": 10.5,
+  "score": 41.6,
+  "age_days": 11.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.35,
+   "recency": 0.34,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -10894,13 +10894,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 53.8,
-  "age_days": 10.5,
+  "score": 53.6,
+  "age_days": 11.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.35,
+   "recency": 0.34,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -10950,13 +10950,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 72.5,
-  "age_days": 10.6,
+  "score": 72.3,
+  "age_days": 11.0,
   "score_parts": {
    "materiality": 5,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.35,
+   "recency": 0.34,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -11004,13 +11004,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.7,
-  "age_days": 10.7,
+  "score": 42.5,
+  "age_days": 11.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.35,
+   "recency": 0.33,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -11060,13 +11060,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.7,
-  "age_days": 10.7,
+  "score": 46.5,
+  "age_days": 11.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.35,
+   "recency": 0.33,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -11114,13 +11114,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.5,
-  "age_days": 10.7,
+  "score": 54.2,
+  "age_days": 11.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.35,
+   "recency": 0.33,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -11168,13 +11168,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 31.6,
-  "age_days": 10.8,
+  "score": 31.4,
+  "age_days": 11.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.33,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -11231,13 +11231,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.6,
-  "age_days": 10.8,
+  "score": 49.4,
+  "age_days": 11.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.33,
    "last_mile_fit": 0.8
   },
   "verification": "Corroborated",
@@ -11285,13 +11285,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 63.4,
-  "age_days": 10.9,
+  "score": 63.2,
+  "age_days": 11.3,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.34,
+   "recency": 0.33,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -11342,13 +11342,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 42.4,
-  "age_days": 10.9,
+  "score": 42.2,
+  "age_days": 11.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.34,
+   "recency": 0.33,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -11396,13 +11396,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.6,
-  "age_days": 10.9,
+  "score": 49.4,
+  "age_days": 11.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.32,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -11450,13 +11450,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.5,
-  "age_days": 11.0,
+  "score": 41.3,
+  "age_days": 11.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.32,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -11504,13 +11504,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.5,
-  "age_days": 11.0,
+  "score": 44.3,
+  "age_days": 11.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.34,
+   "recency": 0.32,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -11560,13 +11560,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 46.0,
-  "age_days": 11.1,
+  "score": 45.8,
+  "age_days": 11.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 1,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.2
   },
   "verification": "Confirmed (primary source)",
@@ -11614,13 +11614,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.3,
-  "age_days": 11.6,
+  "score": 49.1,
+  "age_days": 12.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.3,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -11668,13 +11668,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.6,
-  "age_days": 12.6,
+  "score": 54.4,
+  "age_days": 13.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.29,
+   "recency": 0.27,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -11724,13 +11724,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 29.3,
-  "age_days": 13.8,
+  "score": 29.2,
+  "age_days": 14.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.25,
+   "recency": 0.24,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -11781,13 +11781,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.5,
-  "age_days": 16.2,
+  "score": 40.4,
+  "age_days": 16.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -11837,13 +11837,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 9.6,
+  "score": 43.1,
+  "age_days": 10.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -11893,13 +11893,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 45.0,
-  "age_days": 9.6,
+  "score": 44.8,
+  "age_days": 10.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -11949,13 +11949,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 34.0,
-  "age_days": 9.6,
+  "score": 33.8,
+  "age_days": 10.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.38,
+   "recency": 0.37,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -12005,13 +12005,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 67.0,
-  "age_days": 9.7,
+  "score": 66.8,
+  "age_days": 10.1,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.38,
+   "recency": 0.37,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -12059,13 +12059,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 56.1,
-  "age_days": 9.9,
+  "score": 55.9,
+  "age_days": 10.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.37,
+   "recency": 0.36,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -12115,13 +12115,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 30.1,
-  "age_days": 10.0,
+  "score": 29.9,
+  "age_days": 10.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.37,
+   "recency": 0.36,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -12171,13 +12171,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.1,
-  "age_days": 10.0,
+  "score": 45.9,
+  "age_days": 10.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.37,
+   "recency": 0.36,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -12227,13 +12227,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.0,
-  "age_days": 10.1,
+  "score": 44.8,
+  "age_days": 10.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.37,
+   "recency": 0.35,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -12281,13 +12281,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 44.8,
-  "age_days": 10.1,
+  "score": 44.5,
+  "age_days": 10.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.37,
+   "recency": 0.35,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -12335,13 +12335,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 30.9,
-  "age_days": 10.2,
+  "score": 30.7,
+  "age_days": 10.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.36,
+   "recency": 0.35,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -12389,13 +12389,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.7,
-  "age_days": 10.6,
+  "score": 49.5,
+  "age_days": 11.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.35,
+   "recency": 0.34,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -12446,13 +12446,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 41.5,
-  "age_days": 10.7,
+  "score": 41.2,
+  "age_days": 11.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.35,
+   "recency": 0.33,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -12502,13 +12502,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.0,
-  "age_days": 12.2,
+  "score": 38.8,
+  "age_days": 12.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.3,
+   "recency": 0.29,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -12560,13 +12560,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.5,
-  "age_days": 13.3,
+  "score": 42.3,
+  "age_days": 13.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.6,
    "tier": 3,
-   "recency": 0.27,
+   "recency": 0.26,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -12614,13 +12614,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.5,
-  "age_days": 16.2,
+  "score": 61.4,
+  "age_days": 16.6,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.2,
+   "recency": 0.19,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -12672,13 +12672,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 60.1,
-  "age_days": 9.0,
+  "score": 59.9,
+  "age_days": 9.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.75,
    "tier": 1,
-   "recency": 0.41,
+   "recency": 0.39,
    "last_mile_fit": 0.8
   },
   "verification": "Confirmed (primary source)",
@@ -12726,13 +12726,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.3,
-  "age_days": 9.1,
+  "score": 54.1,
+  "age_days": 9.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.41,
+   "recency": 0.39,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -12782,13 +12782,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 37.1,
-  "age_days": 9.4,
+  "score": 36.9,
+  "age_days": 9.9,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.39,
+   "recency": 0.38,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -12838,13 +12838,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 49.1,
-  "age_days": 9.4,
+  "score": 48.9,
+  "age_days": 9.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.39,
+   "recency": 0.38,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -12895,13 +12895,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.4,
-  "age_days": 9.5,
+  "score": 34.1,
+  "age_days": 9.9,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -12951,13 +12951,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 9.6,
+  "score": 43.1,
+  "age_days": 10.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -13005,13 +13005,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.3,
-  "age_days": 9.6,
+  "score": 32.1,
+  "age_days": 10.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -13061,13 +13061,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.3,
-  "age_days": 9.6,
+  "score": 45.0,
+  "age_days": 10.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -13115,13 +13115,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.3,
-  "age_days": 9.6,
+  "score": 32.0,
+  "age_days": 10.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.38,
+   "recency": 0.37,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -13171,13 +13171,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.3,
-  "age_days": 9.7,
+  "score": 35.0,
+  "age_days": 10.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.38,
+   "recency": 0.37,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -13225,13 +13225,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.2,
-  "age_days": 9.8,
+  "score": 54.9,
+  "age_days": 10.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.38,
+   "recency": 0.36,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -13281,13 +13281,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.2,
-  "age_days": 9.8,
+  "score": 44.9,
+  "age_days": 10.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.38,
+   "recency": 0.36,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -13337,13 +13337,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.1,
-  "age_days": 10.0,
+  "score": 49.8,
+  "age_days": 10.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.37,
+   "recency": 0.36,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -13393,13 +13393,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.5,
-  "age_days": 11.1,
+  "score": 32.3,
+  "age_days": 11.6,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.33,
+   "recency": 0.32,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -13447,13 +13447,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 48.1,
-  "age_days": 8.6,
+  "score": 47.9,
+  "age_days": 9.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.43,
+   "recency": 0.41,
    "last_mile_fit": 0.45
   },
   "verification": "Reported",
@@ -13512,13 +13512,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 52.6,
-  "age_days": 8.7,
+  "score": 52.3,
+  "age_days": 9.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.42,
+   "recency": 0.41,
    "last_mile_fit": 0.6
   },
   "verification": "Corroborated",
@@ -13568,13 +13568,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 34.6,
-  "age_days": 8.7,
+  "score": 34.3,
+  "age_days": 9.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -13622,13 +13622,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 66.5,
-  "age_days": 8.8,
+  "score": 66.3,
+  "age_days": 9.2,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -13676,13 +13676,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 60.0,
-  "age_days": 8.9,
+  "score": 59.7,
+  "age_days": 9.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.85
   },
   "verification": "Reported",
@@ -13732,13 +13732,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 34.4,
-  "age_days": 9.0,
+  "score": 34.2,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.41,
+   "recency": 0.39,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -13786,13 +13786,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 48.0,
-  "age_days": 9.7,
+  "score": 47.7,
+  "age_days": 10.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.38,
+   "recency": 0.37,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -13842,13 +13842,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 55.0,
-  "age_days": 8.1,
+  "score": 54.7,
+  "age_days": 8.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -13896,13 +13896,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 41.6,
-  "age_days": 8.3,
+  "score": 41.3,
+  "age_days": 8.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 1,
-   "recency": 0.44,
+   "recency": 0.42,
    "last_mile_fit": 0.2
   },
   "verification": "Confirmed (primary source)",
@@ -13950,13 +13950,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 45.7,
-  "age_days": 8.5,
+  "score": 45.4,
+  "age_days": 9.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.43,
+   "recency": 0.41,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -14007,13 +14007,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 42.6,
-  "age_days": 8.6,
+  "score": 42.4,
+  "age_days": 9.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.43,
+   "recency": 0.41,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -14063,13 +14063,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 64.9,
-  "age_days": 8.7,
+  "score": 64.6,
+  "age_days": 9.1,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.41,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -14119,13 +14119,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.8,
-  "age_days": 8.7,
+  "score": 39.6,
+  "age_days": 9.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.41,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -14175,13 +14175,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.8,
-  "age_days": 8.7,
+  "score": 55.6,
+  "age_days": 9.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -14240,13 +14240,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.8,
-  "age_days": 8.8,
+  "score": 42.5,
+  "age_days": 9.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.2
   },
   "verification": "Corroborated",
@@ -14296,13 +14296,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.8,
-  "age_days": 8.8,
+  "score": 34.5,
+  "age_days": 9.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -14353,13 +14353,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.5,
-  "age_days": 8.8,
+  "score": 54.2,
+  "age_days": 9.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -14409,13 +14409,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.7,
-  "age_days": 8.9,
+  "score": 41.5,
+  "age_days": 9.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -14465,13 +14465,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 54.7,
-  "age_days": 8.9,
+  "score": 54.5,
+  "age_days": 9.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -14519,13 +14519,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.7,
-  "age_days": 8.9,
+  "score": 55.5,
+  "age_days": 9.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -14573,13 +14573,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.7,
-  "age_days": 8.9,
+  "score": 61.5,
+  "age_days": 9.3,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.4,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -14629,13 +14629,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.7,
-  "age_days": 8.9,
+  "score": 43.5,
+  "age_days": 9.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.4,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -14719,13 +14719,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 65.7,
-  "age_days": 8.9,
+  "score": 65.4,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.4,
    "last_mile_fit": 0.7
   },
   "verification": "Corroborated",
@@ -14773,13 +14773,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.7,
-  "age_days": 8.9,
+  "score": 32.4,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.4,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -14830,13 +14830,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 33.7,
-  "age_days": 8.9,
+  "score": 33.4,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.4,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -14888,13 +14888,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.7,
-  "age_days": 8.9,
+  "score": 40.4,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.4,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -14942,13 +14942,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.7,
-  "age_days": 8.9,
+  "score": 61.4,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.4,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -14998,13 +14998,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.7,
-  "age_days": 9.0,
+  "score": 39.4,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.39,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -15052,13 +15052,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.6,
-  "age_days": 9.1,
+  "score": 44.4,
+  "age_days": 9.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.39,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -15108,13 +15108,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.6,
-  "age_days": 9.1,
+  "score": 39.3,
+  "age_days": 9.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.4,
+   "recency": 0.39,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -15164,13 +15164,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 44.3,
-  "age_days": 9.2,
+  "score": 44.0,
+  "age_days": 9.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.4,
+   "recency": 0.39,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -15220,13 +15220,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.5,
-  "age_days": 9.3,
+  "score": 46.2,
+  "age_days": 9.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.4,
+   "recency": 0.38,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -15274,13 +15274,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 52.4,
-  "age_days": 9.3,
+  "score": 52.2,
+  "age_days": 9.8,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.4,
+   "recency": 0.38,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -15328,13 +15328,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.0,
-  "age_days": 10.2,
+  "score": 40.7,
+  "age_days": 10.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.36,
+   "recency": 0.35,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -15382,13 +15382,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 63.7,
-  "age_days": 10.7,
+  "score": 63.5,
+  "age_days": 11.1,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.35,
+   "recency": 0.33,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -15436,13 +15436,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 47.3,
-  "age_days": 7.6,
+  "score": 47.0,
+  "age_days": 8.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.47,
+   "recency": 0.45,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -15490,13 +15490,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 36.3,
-  "age_days": 7.7,
+  "score": 36.0,
+  "age_days": 8.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.47,
+   "recency": 0.45,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -15546,13 +15546,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 37.3,
-  "age_days": 7.7,
+  "score": 37.0,
+  "age_days": 8.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.47,
+   "recency": 0.45,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -15602,13 +15602,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 48.2,
-  "age_days": 7.7,
+  "score": 47.9,
+  "age_days": 8.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.47,
+   "recency": 0.45,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -15658,13 +15658,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 46.2,
-  "age_days": 7.8,
+  "score": 45.9,
+  "age_days": 8.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -15712,13 +15712,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 36.2,
-  "age_days": 7.8,
+  "score": 35.9,
+  "age_days": 8.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -15766,13 +15766,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.4,
-  "age_days": 7.9,
+  "score": 43.1,
+  "age_days": 8.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -15820,13 +15820,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 33.4,
-  "age_days": 7.9,
+  "score": 33.1,
+  "age_days": 8.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -15876,13 +15876,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.4,
-  "age_days": 7.9,
+  "score": 40.1,
+  "age_days": 8.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -15932,13 +15932,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.4,
-  "age_days": 7.9,
+  "score": 40.1,
+  "age_days": 8.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -15986,13 +15986,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.3,
-  "age_days": 7.9,
+  "score": 32.1,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -16043,13 +16043,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.3,
-  "age_days": 7.9,
+  "score": 50.0,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -16097,13 +16097,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.3,
-  "age_days": 7.9,
+  "score": 32.0,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -16151,13 +16151,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.3,
-  "age_days": 8.0,
+  "score": 42.0,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.44,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -16205,13 +16205,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.3,
-  "age_days": 8.0,
+  "score": 34.0,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -16261,13 +16261,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.3,
-  "age_days": 8.0,
+  "score": 55.0,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -16317,13 +16317,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.3,
-  "age_days": 8.0,
+  "score": 40.0,
+  "age_days": 8.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -16382,13 +16382,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 8.0,
+  "score": 43.0,
+  "age_days": 8.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.2
   },
   "verification": "Corroborated",
@@ -16438,13 +16438,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.3,
-  "age_days": 8.0,
+  "score": 34.0,
+  "age_days": 8.5,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -16492,13 +16492,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 56.3,
-  "age_days": 8.0,
+  "score": 56.0,
+  "age_days": 8.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -16546,13 +16546,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 41.7,
-  "age_days": 8.1,
+  "score": 41.4,
+  "age_days": 8.5,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 1,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.2
   },
   "verification": "Confirmed (primary source)",
@@ -16602,13 +16602,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.2,
-  "age_days": 8.1,
+  "score": 45.9,
+  "age_days": 8.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -16658,13 +16658,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.2,
-  "age_days": 8.2,
+  "score": 42.9,
+  "age_days": 8.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -16712,13 +16712,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.2,
-  "age_days": 8.2,
+  "score": 41.9,
+  "age_days": 8.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.44,
+   "recency": 0.43,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -16768,13 +16768,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.8,
-  "age_days": 8.3,
+  "score": 54.6,
+  "age_days": 8.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.44,
+   "recency": 0.42,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -16825,13 +16825,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.8,
-  "age_days": 8.8,
+  "score": 45.5,
+  "age_days": 9.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -16879,13 +16879,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 50.9,
-  "age_days": 5.3,
+  "score": 50.5,
+  "age_days": 5.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 1,
-   "recency": 0.59,
+   "recency": 0.57,
    "last_mile_fit": 0.1
   },
   "verification": "Confirmed (primary source)",
@@ -16937,13 +16937,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 53.5,
-  "age_days": 7.7,
+  "score": 53.2,
+  "age_days": 8.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.47,
+   "recency": 0.45,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -16995,13 +16995,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.5,
-  "age_days": 7.7,
+  "score": 45.2,
+  "age_days": 8.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.45,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -17049,13 +17049,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 7.9,
+  "score": 43.1,
+  "age_days": 8.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -17103,13 +17103,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.3,
-  "age_days": 8.1,
+  "score": 46.0,
+  "age_days": 8.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -17161,13 +17161,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 44.8,
-  "age_days": 8.4,
+  "score": 44.5,
+  "age_days": 8.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.44,
+   "recency": 0.42,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -17217,13 +17217,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 45.7,
-  "age_days": 8.6,
+  "score": 45.4,
+  "age_days": 9.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.43,
+   "recency": 0.41,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -17271,13 +17271,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.6,
-  "age_days": 9.0,
+  "score": 40.4,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.41,
+   "recency": 0.39,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -17325,13 +17325,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.3,
-  "age_days": 9.6,
+  "score": 42.0,
+  "age_days": 10.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -17383,13 +17383,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 52.3,
-  "age_days": 6.6,
+  "score": 52.0,
+  "age_days": 7.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.52,
+   "recency": 0.5,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -17439,13 +17439,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.7,
-  "age_days": 7.4,
+  "score": 42.4,
+  "age_days": 7.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.48,
+   "recency": 0.46,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -17493,13 +17493,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.5,
-  "age_days": 7.7,
+  "score": 32.2,
+  "age_days": 8.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.45,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -17547,13 +17547,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.4,
-  "age_days": 7.9,
+  "score": 32.1,
+  "age_days": 8.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -17604,13 +17604,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 42.2,
-  "age_days": 11.3,
+  "score": 42.0,
+  "age_days": 11.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.33,
+   "recency": 0.31,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -17662,13 +17662,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 51.2,
-  "age_days": 11.3,
+  "score": 51.0,
+  "age_days": 11.7,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.33,
+   "recency": 0.31,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -17718,13 +17718,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.3,
-  "age_days": 6.6,
+  "score": 46.0,
+  "age_days": 7.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.52,
+   "recency": 0.5,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -17774,13 +17774,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.2,
-  "age_days": 6.8,
+  "score": 40.9,
+  "age_days": 7.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.51,
+   "recency": 0.49,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -17841,13 +17841,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.3,
-  "age_days": 7.9,
+  "score": 47.1,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.4
   },
   "verification": "Corroborated",
@@ -17897,13 +17897,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.5,
-  "age_days": 9.2,
+  "score": 43.3,
+  "age_days": 9.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.4,
+   "recency": 0.38,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -17951,13 +17951,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.5,
-  "age_days": 9.3,
+  "score": 42.2,
+  "age_days": 9.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.4,
+   "recency": 0.38,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -18005,13 +18005,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.9,
-  "age_days": 5.9,
+  "score": 34.5,
+  "age_days": 6.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.56,
+   "recency": 0.53,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -18059,13 +18059,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.8,
-  "age_days": 6.0,
+  "score": 44.5,
+  "age_days": 6.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.55,
+   "recency": 0.53,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -18115,13 +18115,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.6,
-  "age_days": 6.2,
+  "score": 35.3,
+  "age_days": 6.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.54,
+   "recency": 0.52,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -18171,13 +18171,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.3,
-  "age_days": 6.6,
+  "score": 39.0,
+  "age_days": 7.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.52,
+   "recency": 0.5,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -18225,13 +18225,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 6.6,
+  "score": 43.0,
+  "age_days": 7.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.52,
+   "recency": 0.5,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -18282,13 +18282,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.0,
-  "age_days": 7.0,
+  "score": 40.7,
+  "age_days": 7.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.5,
+   "recency": 0.48,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -18338,13 +18338,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.9,
-  "age_days": 7.1,
+  "score": 43.6,
+  "age_days": 7.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.5,
+   "recency": 0.48,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -18392,13 +18392,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.4,
-  "age_days": 7.8,
+  "score": 42.1,
+  "age_days": 8.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.46,
+   "recency": 0.44,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -18446,13 +18446,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.3,
-  "age_days": 11.5,
+  "score": 39.1,
+  "age_days": 11.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.31,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -18502,13 +18502,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.2,
-  "age_days": 11.6,
+  "score": 36.0,
+  "age_days": 12.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.32,
+   "recency": 0.3,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -18558,13 +18558,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.2,
-  "age_days": 5.5,
+  "score": 43.8,
+  "age_days": 6.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.58,
+   "recency": 0.55,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -18612,13 +18612,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.1,
-  "age_days": 5.6,
+  "score": 33.7,
+  "age_days": 6.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.57,
+   "recency": 0.55,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -18666,13 +18666,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.1,
-  "age_days": 5.6,
+  "score": 33.7,
+  "age_days": 6.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.57,
+   "recency": 0.55,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -18722,13 +18722,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.0,
-  "age_days": 5.8,
+  "score": 43.6,
+  "age_days": 6.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.56,
+   "recency": 0.54,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -18778,13 +18778,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 53.8,
-  "age_days": 5.9,
+  "score": 53.5,
+  "age_days": 6.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.56,
+   "recency": 0.53,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -18836,13 +18836,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.8,
-  "age_days": 6.0,
+  "score": 44.4,
+  "age_days": 6.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.55,
+   "recency": 0.53,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -18892,13 +18892,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 64.3,
-  "age_days": 8.0,
+  "score": 64.0,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -18948,13 +18948,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.4,
-  "age_days": 9.0,
+  "score": 54.1,
+  "age_days": 9.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.41,
+   "recency": 0.39,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -19007,13 +19007,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.3,
-  "age_days": 9.6,
+  "score": 41.1,
+  "age_days": 10.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -19063,13 +19063,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.2,
-  "age_days": 11.7,
+  "score": 40.0,
+  "age_days": 12.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.31,
+   "recency": 0.3,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -19126,13 +19126,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 55.8,
-  "age_days": 4.5,
+  "score": 55.4,
+  "age_days": 4.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.64,
+   "recency": 0.61,
    "last_mile_fit": 0.6
   },
   "verification": "Corroborated",
@@ -19184,13 +19184,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 45.7,
-  "age_days": 4.6,
+  "score": 45.3,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -19238,13 +19238,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 41.7,
-  "age_days": 4.6,
+  "score": 41.3,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -19296,13 +19296,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 53.7,
-  "age_days": 4.6,
+  "score": 53.3,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.75,
    "tier": 2,
-   "recency": 0.63,
+   "recency": 0.6,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -19350,13 +19350,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 49.7,
-  "age_days": 4.7,
+  "score": 49.3,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.63,
+   "recency": 0.6,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -19406,13 +19406,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 52.7,
-  "age_days": 4.7,
+  "score": 52.3,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.63,
+   "recency": 0.6,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -19462,13 +19462,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 41.4,
-  "age_days": 4.7,
+  "score": 41.0,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 1,
-   "recency": 0.63,
+   "recency": 0.6,
    "last_mile_fit": 0.1
   },
   "verification": "Confirmed (primary source)",
@@ -19519,13 +19519,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 61.7,
-  "age_days": 4.7,
+  "score": 61.3,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.63,
+   "recency": 0.6,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -19575,13 +19575,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 49.6,
-  "age_days": 4.7,
+  "score": 49.2,
+  "age_days": 5.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.63,
+   "recency": 0.6,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -19632,13 +19632,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 45.6,
-  "age_days": 4.8,
+  "score": 45.2,
+  "age_days": 5.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.62,
+   "recency": 0.6,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -19689,13 +19689,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 37.6,
-  "age_days": 4.8,
+  "score": 37.2,
+  "age_days": 5.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.62,
+   "recency": 0.6,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -19746,13 +19746,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 49.3,
-  "age_days": 4.8,
+  "score": 48.9,
+  "age_days": 5.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 1,
-   "recency": 0.62,
+   "recency": 0.6,
    "last_mile_fit": 0.1
   },
   "verification": "Confirmed (primary source)",
@@ -19819,13 +19819,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.8,
-  "age_days": 4.8,
+  "score": 49.4,
+  "age_days": 5.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.6,
    "last_mile_fit": 0.4
   },
   "verification": "Corroborated",
@@ -19873,13 +19873,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 65.8,
-  "age_days": 4.8,
+  "score": 65.4,
+  "age_days": 5.2,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.6,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -19946,13 +19946,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.8,
-  "age_days": 4.8,
+  "score": 61.4,
+  "age_days": 5.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.59,
    "last_mile_fit": 0.8
   },
   "verification": "Corroborated",
@@ -20002,13 +20002,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.8,
-  "age_days": 4.8,
+  "score": 34.4,
+  "age_days": 5.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.59,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -20056,13 +20056,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.8,
-  "age_days": 4.9,
+  "score": 49.4,
+  "age_days": 5.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.59,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -20110,13 +20110,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.7,
-  "age_days": 4.9,
+  "score": 47.3,
+  "age_days": 5.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.59,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -20166,13 +20166,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.7,
-  "age_days": 4.9,
+  "score": 49.3,
+  "age_days": 5.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.61,
+   "recency": 0.59,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -20229,13 +20229,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.7,
-  "age_days": 4.9,
+  "score": 61.3,
+  "age_days": 5.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.61,
+   "recency": 0.59,
    "last_mile_fit": 0.8
   },
   "verification": "Corroborated",
@@ -20285,13 +20285,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 63.4,
-  "age_days": 4.9,
+  "score": 63.1,
+  "age_days": 5.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.61,
+   "recency": 0.59,
    "last_mile_fit": 0.9
   },
   "verification": "Reported",
@@ -20339,13 +20339,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.7,
-  "age_days": 4.9,
+  "score": 45.3,
+  "age_days": 5.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.61,
+   "recency": 0.59,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -20393,13 +20393,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.6,
-  "age_days": 5.0,
+  "score": 48.2,
+  "age_days": 5.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.61,
+   "recency": 0.58,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -20447,13 +20447,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 54.6,
-  "age_days": 5.0,
+  "score": 54.2,
+  "age_days": 5.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.61,
+   "recency": 0.58,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -20501,13 +20501,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.6,
-  "age_days": 5.1,
+  "score": 44.2,
+  "age_days": 5.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.61,
+   "recency": 0.58,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -20555,13 +20555,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.6,
-  "age_days": 5.1,
+  "score": 44.2,
+  "age_days": 5.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.58,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -20609,13 +20609,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.5,
-  "age_days": 5.1,
+  "score": 35.2,
+  "age_days": 5.5,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.58,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -20663,13 +20663,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.5,
-  "age_days": 5.1,
+  "score": 45.1,
+  "age_days": 5.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.58,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -20726,13 +20726,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.5,
-  "age_days": 5.2,
+  "score": 50.1,
+  "age_days": 5.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.57,
    "last_mile_fit": 0.5
   },
   "verification": "Corroborated",
@@ -20780,13 +20780,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 54.5,
-  "age_days": 5.2,
+  "score": 54.1,
+  "age_days": 5.6,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.57,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -20834,13 +20834,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 58.5,
-  "age_days": 5.2,
+  "score": 58.1,
+  "age_days": 5.6,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.57,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -20888,13 +20888,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.5,
-  "age_days": 5.2,
+  "score": 55.1,
+  "age_days": 5.6,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.57,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -20942,13 +20942,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.5,
-  "age_days": 5.2,
+  "score": 36.1,
+  "age_days": 5.6,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.57,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -20998,13 +20998,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.4,
-  "age_days": 5.3,
+  "score": 42.0,
+  "age_days": 5.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.59,
+   "recency": 0.57,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -21052,13 +21052,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 47.1,
-  "age_days": 5.3,
+  "score": 46.8,
+  "age_days": 5.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.59,
+   "recency": 0.57,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -21106,13 +21106,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 5.4,
+  "score": 42.9,
+  "age_days": 5.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.58,
+   "recency": 0.56,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -21160,13 +21160,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.1,
-  "age_days": 5.6,
+  "score": 33.7,
+  "age_days": 6.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.57,
+   "recency": 0.55,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -21217,13 +21217,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.9,
-  "age_days": 5.8,
+  "score": 34.6,
+  "age_days": 6.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.56,
+   "recency": 0.54,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -21282,13 +21282,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 66.2,
-  "age_days": 6.8,
+  "score": 65.9,
+  "age_days": 7.2,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.51,
+   "recency": 0.49,
    "last_mile_fit": 0.6
   },
   "verification": "Corroborated",
@@ -21338,13 +21338,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.7,
-  "age_days": 7.4,
+  "score": 42.4,
+  "age_days": 7.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.48,
+   "recency": 0.46,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -21394,13 +21394,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.3,
-  "age_days": 8.0,
+  "score": 42.0,
+  "age_days": 8.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.44,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -21450,13 +21450,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 55.2,
-  "age_days": 4.1,
+  "score": 54.8,
+  "age_days": 4.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -21504,13 +21504,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 54.8,
-  "age_days": 4.3,
+  "score": 54.4,
+  "age_days": 4.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 1,
-   "recency": 0.65,
+   "recency": 0.62,
    "last_mile_fit": 0.4
   },
   "verification": "Confirmed (primary source)",
@@ -21558,13 +21558,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.3,
-  "age_days": 4.3,
+  "score": 37.9,
+  "age_days": 4.8,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.65,
+   "recency": 0.62,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -21612,13 +21612,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 50.0,
-  "age_days": 4.4,
+  "score": 49.6,
+  "age_days": 4.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.65,
+   "recency": 0.62,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -21668,13 +21668,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.1,
-  "age_days": 4.5,
+  "score": 35.7,
+  "age_days": 4.9,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.64,
+   "recency": 0.62,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -21725,13 +21725,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 63.1,
-  "age_days": 4.5,
+  "score": 62.7,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.64,
+   "recency": 0.61,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -21782,13 +21782,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 63.0,
-  "age_days": 4.6,
+  "score": 62.6,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -21840,13 +21840,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 64.8,
-  "age_days": 4.6,
+  "score": 64.4,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.75,
    "tier": 2,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -21896,13 +21896,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.0,
-  "age_days": 4.6,
+  "score": 49.6,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -21950,13 +21950,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.9,
-  "age_days": 4.7,
+  "score": 36.5,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.63,
+   "recency": 0.6,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -22006,13 +22006,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 52.9,
-  "age_days": 4.7,
+  "score": 52.5,
+  "age_days": 5.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.63,
+   "recency": 0.6,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -22063,13 +22063,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 58.9,
-  "age_days": 4.7,
+  "score": 58.5,
+  "age_days": 5.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.6,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -22117,13 +22117,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.9,
-  "age_days": 4.8,
+  "score": 46.5,
+  "age_days": 5.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.6,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -22171,13 +22171,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.8,
-  "age_days": 4.8,
+  "score": 36.4,
+  "age_days": 5.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.59,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -22236,13 +22236,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 59.8,
-  "age_days": 4.9,
+  "score": 59.4,
+  "age_days": 5.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.59,
    "last_mile_fit": 0.6
   },
   "verification": "Corroborated",
@@ -22293,13 +22293,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.7,
-  "age_days": 4.9,
+  "score": 47.3,
+  "age_days": 5.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.62,
+   "recency": 0.59,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -22349,13 +22349,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.6,
-  "age_days": 5.0,
+  "score": 55.2,
+  "age_days": 5.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.61,
+   "recency": 0.58,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -22403,13 +22403,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 47.2,
-  "age_days": 5.2,
+  "score": 46.8,
+  "age_days": 5.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.6,
+   "recency": 0.57,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -22460,13 +22460,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.5,
-  "age_days": 6.4,
+  "score": 45.1,
+  "age_days": 6.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.53,
+   "recency": 0.51,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -22516,13 +22516,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 6.6,
+  "score": 43.0,
+  "age_days": 7.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.52,
+   "recency": 0.5,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -22572,13 +22572,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 55.6,
-  "age_days": 8.6,
+  "score": 55.4,
+  "age_days": 9.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.43,
+   "recency": 0.41,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -22628,13 +22628,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.8,
-  "age_days": 8.7,
+  "score": 32.6,
+  "age_days": 9.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -22682,13 +22682,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 32.7,
-  "age_days": 8.9,
+  "score": 32.5,
+  "age_days": 9.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.42,
+   "recency": 0.4,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -22736,13 +22736,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 49.8,
-  "age_days": 3.6,
+  "score": 49.4,
+  "age_days": 4.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.7,
+   "recency": 0.67,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -22793,13 +22793,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 62.7,
-  "age_days": 3.6,
+  "score": 62.3,
+  "age_days": 4.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.7,
+   "recency": 0.67,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -22850,13 +22850,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 51.4,
-  "age_days": 3.7,
+  "score": 51.0,
+  "age_days": 4.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 1,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.2
   },
   "verification": "Confirmed (primary source)",
@@ -22908,13 +22908,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 45.6,
-  "age_days": 3.8,
+  "score": 45.2,
+  "age_days": 4.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.75,
    "tier": 2,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -22966,13 +22966,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.7,
-  "age_days": 3.9,
+  "score": 49.3,
+  "age_days": 4.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -23022,13 +23022,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.7,
-  "age_days": 3.9,
+  "score": 47.3,
+  "age_days": 4.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -23078,13 +23078,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.7,
-  "age_days": 3.9,
+  "score": 37.3,
+  "age_days": 4.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -23136,13 +23136,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.7,
-  "age_days": 3.9,
+  "score": 49.3,
+  "age_days": 4.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -23192,13 +23192,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.7,
-  "age_days": 3.9,
+  "score": 49.3,
+  "age_days": 4.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -23248,13 +23248,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.7,
-  "age_days": 3.9,
+  "score": 49.3,
+  "age_days": 4.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -23304,13 +23304,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.4,
-  "age_days": 3.9,
+  "score": 54.0,
+  "age_days": 4.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -23360,13 +23360,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 48.4,
-  "age_days": 3.9,
+  "score": 48.0,
+  "age_days": 4.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -23394,7 +23394,7 @@
   "date_known": true,
   "first_seen": "2026-10-27T18:58:56Z",
   "first_run": "2026-10-27T18-58-56Z",
-  "last_seen": "2026-10-28T07:30:24Z",
+  "last_seen": "2026-10-31T17:55:38Z",
   "last_updated_run": "2026-10-27T18-58-56Z",
   "update_note": null,
   "late_discovery": false,
@@ -23416,13 +23416,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.6,
-  "age_days": 4.0,
+  "score": 49.2,
+  "age_days": 4.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -23474,13 +23474,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.6,
-  "age_days": 4.0,
+  "score": 50.2,
+  "age_days": 4.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.65,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -23532,13 +23532,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 59.6,
-  "age_days": 4.0,
+  "score": 59.2,
+  "age_days": 4.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -23588,13 +23588,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.6,
-  "age_days": 4.0,
+  "score": 49.1,
+  "age_days": 4.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -23642,13 +23642,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.5,
-  "age_days": 4.1,
+  "score": 37.1,
+  "age_days": 4.5,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -23696,13 +23696,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 64.5,
-  "age_days": 4.1,
+  "score": 64.1,
+  "age_days": 4.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -23752,13 +23752,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.5,
-  "age_days": 4.1,
+  "score": 46.1,
+  "age_days": 4.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -23808,13 +23808,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.5,
-  "age_days": 4.1,
+  "score": 50.1,
+  "age_days": 4.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -23866,13 +23866,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.4,
-  "age_days": 4.2,
+  "score": 55.0,
+  "age_days": 4.6,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.66,
+   "recency": 0.63,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -23920,13 +23920,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.4,
-  "age_days": 4.2,
+  "score": 38.0,
+  "age_days": 4.6,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.66,
+   "recency": 0.63,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -23974,13 +23974,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.4,
-  "age_days": 4.2,
+  "score": 45.0,
+  "age_days": 4.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.66,
+   "recency": 0.63,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -24028,13 +24028,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 35.4,
-  "age_days": 4.2,
+  "score": 35.0,
+  "age_days": 4.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.66,
+   "recency": 0.63,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -24084,13 +24084,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 42.3,
-  "age_days": 4.2,
+  "score": 41.9,
+  "age_days": 4.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.66,
+   "recency": 0.63,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -24142,13 +24142,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.2,
-  "age_days": 4.4,
+  "score": 48.8,
+  "age_days": 4.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.65,
+   "recency": 0.62,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -24196,13 +24196,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.2,
-  "age_days": 4.4,
+  "score": 43.8,
+  "age_days": 4.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.65,
+   "recency": 0.62,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -24253,13 +24253,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 44.9,
-  "age_days": 4.4,
+  "score": 44.5,
+  "age_days": 4.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.65,
+   "recency": 0.62,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -24307,13 +24307,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 38.9,
-  "age_days": 4.4,
+  "score": 38.5,
+  "age_days": 4.8,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.65,
+   "recency": 0.62,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -24363,13 +24363,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.1,
-  "age_days": 4.5,
+  "score": 43.7,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.64,
+   "recency": 0.61,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -24419,13 +24419,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.0,
-  "age_days": 4.6,
+  "score": 43.6,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -24473,13 +24473,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 65.0,
-  "age_days": 4.6,
+  "score": 64.6,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -24528,13 +24528,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 53.6,
-  "age_days": 5.1,
+  "score": 53.2,
+  "age_days": 5.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.61,
+   "recency": 0.58,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -24582,13 +24582,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.1,
-  "age_days": 5.6,
+  "score": 35.7,
+  "age_days": 6.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.57,
+   "recency": 0.55,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -24636,13 +24636,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 57.1,
-  "age_days": 5.6,
+  "score": 56.7,
+  "age_days": 6.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.57,
+   "recency": 0.55,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -24692,13 +24692,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 71.9,
-  "age_days": 3.3,
+  "score": 71.4,
+  "age_days": 3.7,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 1,
-   "recency": 0.72,
+   "recency": 0.69,
    "last_mile_fit": 0.6
   },
   "verification": "Confirmed (primary source)",
@@ -24749,13 +24749,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.3,
-  "age_days": 3.3,
+  "score": 47.8,
+  "age_days": 3.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.72,
+   "recency": 0.69,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -24814,13 +24814,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 62.3,
-  "age_days": 3.3,
+  "score": 61.8,
+  "age_days": 3.8,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.72,
+   "recency": 0.69,
    "last_mile_fit": 0.7
   },
   "verification": "Corroborated",
@@ -24879,13 +24879,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 68.3,
-  "age_days": 3.4,
+  "score": 67.8,
+  "age_days": 3.8,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.72,
+   "recency": 0.69,
    "last_mile_fit": 0.5
   },
   "verification": "Corroborated",
@@ -24935,13 +24935,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.0,
-  "age_days": 3.6,
+  "score": 46.6,
+  "age_days": 4.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.7,
+   "recency": 0.67,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -24992,13 +24992,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.9,
-  "age_days": 3.7,
+  "score": 43.5,
+  "age_days": 4.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -25048,13 +25048,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.9,
-  "age_days": 3.7,
+  "score": 43.4,
+  "age_days": 4.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -25104,13 +25104,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.9,
-  "age_days": 3.7,
+  "score": 46.4,
+  "age_days": 4.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -25160,13 +25160,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 58.9,
-  "age_days": 3.7,
+  "score": 58.4,
+  "age_days": 4.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -25216,13 +25216,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.8,
-  "age_days": 3.8,
+  "score": 34.4,
+  "age_days": 4.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -25272,13 +25272,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 58.8,
-  "age_days": 3.8,
+  "score": 58.4,
+  "age_days": 4.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -25326,13 +25326,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.8,
-  "age_days": 3.8,
+  "score": 38.3,
+  "age_days": 4.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -25380,13 +25380,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.7,
-  "age_days": 3.9,
+  "score": 55.3,
+  "age_days": 4.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -25436,13 +25436,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.6,
-  "age_days": 4.0,
+  "score": 48.2,
+  "age_days": 4.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -25492,13 +25492,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.6,
-  "age_days": 4.0,
+  "score": 36.2,
+  "age_days": 4.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.68,
+   "recency": 0.65,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -25546,13 +25546,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 36.5,
-  "age_days": 4.1,
+  "score": 36.1,
+  "age_days": 4.5,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -25602,13 +25602,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.5,
-  "age_days": 4.1,
+  "score": 47.1,
+  "age_days": 4.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.67,
+   "recency": 0.64,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -25658,13 +25658,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 58.0,
-  "age_days": 4.6,
+  "score": 57.6,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -25714,13 +25714,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 47.8,
-  "age_days": 2.7,
+  "score": 47.3,
+  "age_days": 3.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.77,
+   "recency": 0.74,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -25770,13 +25770,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 41.7,
-  "age_days": 2.7,
+  "score": 41.3,
+  "age_days": 3.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.77,
+   "recency": 0.73,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -25826,13 +25826,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 60.7,
-  "age_days": 2.7,
+  "score": 60.2,
+  "age_days": 3.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.76,
+   "recency": 0.73,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -25880,13 +25880,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 41.7,
-  "age_days": 2.7,
+  "score": 41.2,
+  "age_days": 3.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.76,
+   "recency": 0.73,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -25934,13 +25934,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.8,
-  "age_days": 2.8,
+  "score": 47.4,
+  "age_days": 3.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.76,
+   "recency": 0.72,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -25988,13 +25988,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 59.5,
-  "age_days": 2.9,
+  "score": 59.0,
+  "age_days": 3.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.75,
+   "recency": 0.72,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -26046,13 +26046,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.7,
-  "age_days": 2.9,
+  "score": 50.3,
+  "age_days": 3.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.75,
+   "recency": 0.72,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -26100,13 +26100,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.7,
-  "age_days": 2.9,
+  "score": 46.3,
+  "age_days": 3.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.75,
+   "recency": 0.72,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -26154,13 +26154,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.7,
-  "age_days": 3.0,
+  "score": 48.2,
+  "age_days": 3.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.74,
+   "recency": 0.71,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -26208,13 +26208,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 59.3,
-  "age_days": 3.1,
+  "score": 58.9,
+  "age_days": 3.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.74,
+   "recency": 0.71,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -26264,13 +26264,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 55.5,
-  "age_days": 3.1,
+  "score": 55.1,
+  "age_days": 3.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.74,
+   "recency": 0.7,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -26318,13 +26318,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 59.5,
-  "age_days": 3.1,
+  "score": 59.1,
+  "age_days": 3.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.74,
+   "recency": 0.7,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -26375,13 +26375,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 68.5,
-  "age_days": 3.1,
+  "score": 68.0,
+  "age_days": 3.6,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.73,
+   "recency": 0.7,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -26431,13 +26431,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 56.5,
-  "age_days": 3.1,
+  "score": 56.0,
+  "age_days": 3.6,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.73,
+   "recency": 0.7,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -26487,13 +26487,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 48.1,
-  "age_days": 3.3,
+  "score": 47.6,
+  "age_days": 3.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.72,
+   "recency": 0.69,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -26545,13 +26545,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 34.3,
-  "age_days": 9.6,
+  "score": 34.1,
+  "age_days": 10.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.6,
    "tier": 3,
-   "recency": 0.39,
+   "recency": 0.37,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -26602,13 +26602,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.4,
-  "age_days": 2.3,
+  "score": 46.9,
+  "age_days": 2.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.79,
+   "recency": 0.76,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -26658,13 +26658,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.3,
-  "age_days": 2.4,
+  "score": 45.8,
+  "age_days": 2.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.79,
+   "recency": 0.76,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -26715,13 +26715,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.0,
-  "age_days": 2.7,
+  "score": 46.5,
+  "age_days": 3.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.77,
+   "recency": 0.74,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -26781,13 +26781,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.0,
-  "age_days": 2.7,
+  "score": 49.5,
+  "age_days": 3.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.77,
+   "recency": 0.73,
    "last_mile_fit": 0.2
   },
   "verification": "Corroborated",
@@ -26839,13 +26839,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.0,
-  "age_days": 2.7,
+  "score": 47.5,
+  "age_days": 3.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.76,
+   "recency": 0.73,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -26895,13 +26895,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 60.7,
-  "age_days": 2.7,
+  "score": 60.2,
+  "age_days": 3.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.76,
+   "recency": 0.73,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -26951,13 +26951,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 41.7,
-  "age_days": 2.7,
+  "score": 41.2,
+  "age_days": 3.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.76,
+   "recency": 0.73,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -27007,13 +27007,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 64.9,
-  "age_days": 2.7,
+  "score": 64.4,
+  "age_days": 3.2,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.76,
+   "recency": 0.73,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -27063,13 +27063,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.8,
-  "age_days": 2.8,
+  "score": 45.4,
+  "age_days": 3.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.76,
+   "recency": 0.72,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -27119,13 +27119,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 38.1,
-  "age_days": 3.3,
+  "score": 37.7,
+  "age_days": 3.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.72,
+   "recency": 0.69,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -27175,13 +27175,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 58.8,
-  "age_days": 3.8,
+  "score": 58.4,
+  "age_days": 4.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.69,
+   "recency": 0.66,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -27229,13 +27229,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 44.4,
-  "age_days": 5.2,
+  "score": 44.1,
+  "age_days": 5.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.6,
+   "recency": 0.57,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -27285,13 +27285,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.0,
-  "age_days": 1.6,
+  "score": 53.5,
+  "age_days": 2.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.85,
+   "recency": 0.82,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -27342,13 +27342,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 49.0,
-  "age_days": 1.6,
+  "score": 48.5,
+  "age_days": 2.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.85,
+   "recency": 0.82,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -27396,13 +27396,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 42.0,
-  "age_days": 1.7,
+  "score": 41.5,
+  "age_days": 2.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.85,
+   "recency": 0.81,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -27452,13 +27452,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 56.0,
-  "age_days": 1.7,
+  "score": 55.4,
+  "age_days": 2.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.85,
+   "recency": 0.81,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -27509,13 +27509,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 62.1,
-  "age_days": 1.7,
+  "score": 61.6,
+  "age_days": 2.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.84,
+   "recency": 0.81,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -27563,13 +27563,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 52.8,
-  "age_days": 1.8,
+  "score": 52.3,
+  "age_days": 2.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.84,
+   "recency": 0.8,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -27619,13 +27619,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 64.7,
-  "age_days": 1.9,
+  "score": 64.2,
+  "age_days": 2.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.83,
+   "recency": 0.8,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -27675,13 +27675,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.0,
-  "age_days": 1.9,
+  "score": 38.5,
+  "age_days": 2.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.83,
+   "recency": 0.8,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -27732,13 +27732,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 62.0,
-  "age_days": 1.9,
+  "score": 61.4,
+  "age_days": 2.3,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.83,
+   "recency": 0.8,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -27786,13 +27786,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.9,
-  "age_days": 1.9,
+  "score": 46.4,
+  "age_days": 2.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.83,
+   "recency": 0.79,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -27851,13 +27851,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 64.9,
-  "age_days": 1.9,
+  "score": 64.4,
+  "age_days": 2.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.83,
+   "recency": 0.79,
    "last_mile_fit": 0.8
   },
   "verification": "Corroborated",
@@ -27917,13 +27917,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 60.9,
-  "age_days": 1.9,
+  "score": 60.4,
+  "age_days": 2.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.83,
+   "recency": 0.79,
    "last_mile_fit": 0.4
   },
   "verification": "Corroborated",
@@ -27974,13 +27974,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 66.8,
-  "age_days": 2.0,
+  "score": 66.3,
+  "age_days": 2.4,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.79,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -28028,13 +28028,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.8,
-  "age_days": 2.0,
+  "score": 46.3,
+  "age_days": 2.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.79,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -28085,13 +28085,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.8,
-  "age_days": 2.0,
+  "score": 47.3,
+  "age_days": 2.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -28141,13 +28141,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.8,
-  "age_days": 2.0,
+  "score": 46.3,
+  "age_days": 2.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -28197,13 +28197,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 56.8,
-  "age_days": 2.0,
+  "score": 56.3,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -28263,13 +28263,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 69.8,
-  "age_days": 2.0,
+  "score": 69.3,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.7
   },
   "verification": "Corroborated",
@@ -28320,13 +28320,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 66.8,
-  "age_days": 2.0,
+  "score": 66.3,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -28395,13 +28395,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 69.8,
-  "age_days": 2.0,
+  "score": 69.3,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.7
   },
   "verification": "Corroborated",
@@ -28449,13 +28449,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 69.8,
-  "age_days": 2.0,
+  "score": 69.2,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -28503,13 +28503,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.7,
-  "age_days": 2.0,
+  "score": 47.2,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -28559,13 +28559,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 66.7,
-  "age_days": 2.1,
+  "score": 66.2,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.81,
+   "recency": 0.78,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -28615,13 +28615,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.6,
-  "age_days": 2.2,
+  "score": 48.1,
+  "age_days": 2.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.81,
+   "recency": 0.77,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -28671,13 +28671,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.6,
-  "age_days": 2.2,
+  "score": 47.1,
+  "age_days": 2.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.81,
+   "recency": 0.77,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -28735,13 +28735,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 62.6,
-  "age_days": 2.2,
+  "score": 62.1,
+  "age_days": 2.6,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.81,
+   "recency": 0.77,
    "last_mile_fit": 0.6
   },
   "verification": "Corroborated",
@@ -28798,13 +28798,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.6,
-  "age_days": 2.2,
+  "score": 51.1,
+  "age_days": 2.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.8,
+   "recency": 0.77,
    "last_mile_fit": 0.3
   },
   "verification": "Corroborated",
@@ -28854,13 +28854,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.5,
-  "age_days": 2.2,
+  "score": 38.0,
+  "age_days": 2.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.8,
+   "recency": 0.77,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -28911,13 +28911,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.4,
-  "age_days": 2.3,
+  "score": 38.9,
+  "age_days": 2.7,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.8,
+   "recency": 0.76,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -28967,13 +28967,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 51.2,
-  "age_days": 2.3,
+  "score": 50.7,
+  "age_days": 2.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.79,
+   "recency": 0.76,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -29024,13 +29024,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.4,
-  "age_days": 2.4,
+  "score": 47.9,
+  "age_days": 2.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.79,
+   "recency": 0.76,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -29080,13 +29080,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.3,
-  "age_days": 2.4,
+  "score": 49.9,
+  "age_days": 2.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.79,
+   "recency": 0.76,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -29136,13 +29136,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.1,
-  "age_days": 2.6,
+  "score": 37.6,
+  "age_days": 3.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.77,
+   "recency": 0.74,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -29192,13 +29192,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 56.7,
-  "age_days": 2.9,
+  "score": 56.3,
+  "age_days": 3.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.75,
+   "recency": 0.72,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -29246,13 +29246,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 60.1,
-  "age_days": 3.5,
+  "score": 59.7,
+  "age_days": 3.9,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.71,
+   "recency": 0.68,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -29302,13 +29302,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.4,
-  "age_days": 4.2,
+  "score": 45.0,
+  "age_days": 4.6,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.66,
+   "recency": 0.63,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -29358,13 +29358,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.0,
-  "age_days": 4.6,
+  "score": 46.6,
+  "age_days": 5.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.63,
+   "recency": 0.61,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -29412,13 +29412,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.3,
-  "age_days": 8.0,
+  "score": 43.0,
+  "age_days": 8.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.45,
+   "recency": 0.43,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -29468,13 +29468,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 52.5,
-  "age_days": 1.3,
+  "score": 51.9,
+  "age_days": 1.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.88,
+   "recency": 0.84,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -29524,13 +29524,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 66.4,
-  "age_days": 1.3,
+  "score": 65.8,
+  "age_days": 1.8,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.88,
+   "recency": 0.84,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -29578,13 +29578,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.5,
-  "age_days": 1.4,
+  "score": 38.0,
+  "age_days": 1.9,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.87,
+   "recency": 0.83,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -29632,13 +29632,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 38.5,
-  "age_days": 1.5,
+  "score": 37.9,
+  "age_days": 1.9,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.86,
+   "recency": 0.83,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -29688,13 +29688,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 54.2,
-  "age_days": 1.5,
+  "score": 53.7,
+  "age_days": 1.9,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.86,
+   "recency": 0.83,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -29745,13 +29745,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 60.4,
-  "age_days": 1.5,
+  "score": 59.9,
+  "age_days": 2.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.86,
+   "recency": 0.82,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -29801,13 +29801,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 51.0,
-  "age_days": 1.6,
+  "score": 50.5,
+  "age_days": 2.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.85,
+   "recency": 0.82,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -29857,13 +29857,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 62.0,
-  "age_days": 1.6,
+  "score": 61.5,
+  "age_days": 2.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.85,
+   "recency": 0.82,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -29913,13 +29913,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.2,
-  "age_days": 1.7,
+  "score": 45.7,
+  "age_days": 2.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.85,
+   "recency": 0.81,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -29969,13 +29969,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.2,
-  "age_days": 1.7,
+  "score": 44.7,
+  "age_days": 2.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.85,
+   "recency": 0.81,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -30025,13 +30025,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.1,
-  "age_days": 1.7,
+  "score": 45.6,
+  "age_days": 2.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.84,
+   "recency": 0.81,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -30083,13 +30083,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 62.1,
-  "age_days": 1.8,
+  "score": 61.6,
+  "age_days": 2.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.84,
+   "recency": 0.81,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -30139,13 +30139,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.1,
-  "age_days": 1.8,
+  "score": 36.5,
+  "age_days": 2.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.84,
+   "recency": 0.8,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -30196,13 +30196,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 52.9,
-  "age_days": 1.9,
+  "score": 52.4,
+  "age_days": 2.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.83,
+   "recency": 0.79,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -30254,13 +30254,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.9,
-  "age_days": 1.9,
+  "score": 43.4,
+  "age_days": 2.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.83,
+   "recency": 0.79,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -30311,13 +30311,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.8,
-  "age_days": 2.0,
+  "score": 51.2,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.82,
+   "recency": 0.78,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -30370,13 +30370,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.7,
-  "age_days": 2.1,
+  "score": 61.2,
+  "age_days": 2.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.81,
+   "recency": 0.78,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -30426,13 +30426,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 59.1,
-  "age_days": 3.6,
+  "score": 58.6,
+  "age_days": 4.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.7,
+   "recency": 0.67,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -30483,13 +30483,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 43.8,
-  "age_days": 6.0,
+  "score": 43.4,
+  "age_days": 6.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.55,
+   "recency": 0.53,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -30541,13 +30541,13 @@
    }
   ],
   "best_tier": 1,
-  "score": 60.2,
-  "age_days": 0.5,
+  "score": 59.6,
+  "age_days": 1.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.6,
    "tier": 1,
-   "recency": 0.95,
+   "recency": 0.91,
    "last_mile_fit": 0.3
   },
   "verification": "Confirmed (primary source)",
@@ -30598,13 +30598,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 45.5,
-  "age_days": 0.5,
+  "score": 44.9,
+  "age_days": 1.0,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.95,
+   "recency": 0.91,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -30654,13 +30654,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 63.3,
-  "age_days": 0.7,
+  "score": 62.7,
+  "age_days": 1.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.94,
+   "recency": 0.9,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -30710,13 +30710,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 50.3,
-  "age_days": 0.7,
+  "score": 49.7,
+  "age_days": 1.1,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.94,
+   "recency": 0.9,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -30764,13 +30764,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 64.3,
-  "age_days": 0.7,
+  "score": 63.7,
+  "age_days": 1.1,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.94,
+   "recency": 0.9,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -30820,13 +30820,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 46.2,
-  "age_days": 0.7,
+  "score": 45.7,
+  "age_days": 1.1,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.93,
+   "recency": 0.89,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -30876,13 +30876,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 41.4,
-  "age_days": 0.7,
+  "score": 40.9,
+  "age_days": 1.2,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.93,
+   "recency": 0.89,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -30932,13 +30932,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 50.2,
-  "age_days": 0.8,
+  "score": 49.6,
+  "age_days": 1.2,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 2,
-   "recency": 0.93,
+   "recency": 0.89,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -30986,13 +30986,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 40.3,
-  "age_days": 0.8,
+  "score": 39.7,
+  "age_days": 1.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.92,
+   "recency": 0.88,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -31040,13 +31040,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.2,
-  "age_days": 0.9,
+  "score": 60.6,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.91,
+   "recency": 0.87,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -31094,13 +31094,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.2,
-  "age_days": 0.9,
+  "score": 46.6,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.91,
+   "recency": 0.87,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -31148,13 +31148,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 52.1,
-  "age_days": 1.0,
+  "score": 51.5,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.91,
+   "recency": 0.87,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -31202,13 +31202,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.1,
-  "age_days": 1.0,
+  "score": 38.5,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.91,
+   "recency": 0.87,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -31258,13 +31258,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 46.1,
-  "age_days": 1.0,
+  "score": 45.5,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.91,
+   "recency": 0.87,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -31314,13 +31314,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 62.1,
-  "age_days": 1.0,
+  "score": 61.5,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.9,
+   "recency": 0.87,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -31368,13 +31368,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.0,
-  "age_days": 1.1,
+  "score": 49.4,
+  "age_days": 1.5,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.9,
+   "recency": 0.86,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -31424,13 +31424,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 60.9,
-  "age_days": 1.1,
+  "score": 60.4,
+  "age_days": 1.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.9,
+   "recency": 0.86,
    "last_mile_fit": 0.8
   },
   "verification": "Reported",
@@ -31489,13 +31489,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 69.9,
-  "age_days": 1.1,
+  "score": 69.4,
+  "age_days": 1.5,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.9,
+   "recency": 0.86,
    "last_mile_fit": 0.4
   },
   "verification": "Corroborated",
@@ -31546,13 +31546,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 59.9,
-  "age_days": 1.1,
+  "score": 59.4,
+  "age_days": 1.6,
   "score_parts": {
    "materiality": 3,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.89,
+   "recency": 0.86,
    "last_mile_fit": 0.7
   },
   "verification": "Reported",
@@ -31600,13 +31600,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 67.9,
-  "age_days": 1.2,
+  "score": 67.3,
+  "age_days": 1.6,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.89,
+   "recency": 0.85,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -31673,13 +31673,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 54.7,
-  "age_days": 1.3,
+  "score": 54.1,
+  "age_days": 1.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.88,
+   "recency": 0.84,
    "last_mile_fit": 0.5
   },
   "verification": "Corroborated",
@@ -31729,13 +31729,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 45.9,
-  "age_days": 0.4,
+  "score": 45.3,
+  "age_days": 0.8,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.96,
+   "recency": 0.92,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -31783,13 +31783,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 50.9,
-  "age_days": 0.4,
+  "score": 50.3,
+  "age_days": 0.8,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.96,
+   "recency": 0.92,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -31841,13 +31841,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 63.6,
-  "age_days": 0.6,
+  "score": 63.0,
+  "age_days": 1.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.75,
    "tier": 3,
-   "recency": 0.94,
+   "recency": 0.9,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -31897,13 +31897,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 47.6,
-  "age_days": 0.6,
+  "score": 47.0,
+  "age_days": 1.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.94,
+   "recency": 0.9,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -31953,13 +31953,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 61.6,
-  "age_days": 0.6,
+  "score": 61.0,
+  "age_days": 1.0,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.94,
+   "recency": 0.9,
    "last_mile_fit": 0.6
   },
   "verification": "Reported",
@@ -32007,13 +32007,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.6,
-  "age_days": 0.6,
+  "score": 49.0,
+  "age_days": 1.0,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.94,
+   "recency": 0.9,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -32063,13 +32063,13 @@
    }
   ],
   "best_tier": 2,
-  "score": 72.2,
-  "age_days": 0.7,
+  "score": 71.6,
+  "age_days": 1.2,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 2,
-   "recency": 0.93,
+   "recency": 0.89,
    "last_mile_fit": 0.5
   },
   "verification": "Reported",
@@ -32117,13 +32117,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 51.3,
-  "age_days": 0.8,
+  "score": 50.8,
+  "age_days": 1.3,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.92,
+   "recency": 0.88,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -32171,13 +32171,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 39.3,
-  "age_days": 0.9,
+  "score": 38.7,
+  "age_days": 1.3,
   "score_parts": {
    "materiality": 1,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.92,
+   "recency": 0.88,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -32228,13 +32228,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 48.2,
-  "age_days": 0.9,
+  "score": 47.6,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.91,
+   "recency": 0.87,
    "last_mile_fit": 0.1
   },
   "verification": "Reported",
@@ -32284,13 +32284,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.1,
-  "age_days": 1.0,
+  "score": 36.5,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.91,
+   "recency": 0.87,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -32340,13 +32340,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 37.1,
-  "age_days": 1.0,
+  "score": 36.5,
+  "age_days": 1.4,
   "score_parts": {
    "materiality": 1,
    "priority": 0.4,
    "tier": 3,
-   "recency": 0.91,
+   "recency": 0.87,
    "last_mile_fit": 0.0
   },
   "verification": "Reported",
@@ -32396,13 +32396,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 57.0,
-  "age_days": 1.1,
+  "score": 56.4,
+  "age_days": 1.5,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.9,
+   "recency": 0.86,
    "last_mile_fit": 0.2
   },
   "verification": "Reported",
@@ -32450,13 +32450,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 49.7,
-  "age_days": 1.3,
+  "score": 49.1,
+  "age_days": 1.7,
   "score_parts": {
    "materiality": 2,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.88,
+   "recency": 0.84,
    "last_mile_fit": 0.3
   },
   "verification": "Reported",
@@ -32508,13 +32508,13 @@
    }
   ],
   "best_tier": 3,
-  "score": 56.9,
-  "age_days": 2.7,
+  "score": 56.5,
+  "age_days": 3.2,
   "score_parts": {
    "materiality": 3,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.76,
+   "recency": 0.73,
    "last_mile_fit": 0.4
   },
   "verification": "Reported",
@@ -32564,14 +32564,238 @@
    }
   ],
   "best_tier": 3,
-  "score": 67.4,
-  "age_days": 4.2,
+  "score": 67.0,
+  "age_days": 4.6,
   "score_parts": {
    "materiality": 4,
    "priority": 0.5,
    "tier": 3,
-   "recency": 0.66,
+   "recency": 0.63,
    "last_mile_fit": 0.8
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_8681e87213f4": {
+  "id": "ev_8681e87213f4",
+  "title": "Progressive stock enters November with filing and investor call ahead",
+  "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/progressive-stock-enters-november-with-filing-and-investor-call-ahead/70438238",
+  "lane": "competitor_move",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 3,
+  "last_mile_fit": 0.2,
+  "summary": "Progressive prepares for its upcoming investor events and Form 10-Q filing.",
+  "evidence_quote": "Progressive stock enters November with filing and investor call ahead",
+  "companies": [
+   "Progressive"
+  ],
+  "implication": "Monitor Progressive's reporting for commercial auto performance trends and market pricing shifts.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-31T03:27:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-31T17:55:38Z",
+  "first_run": "2026-10-31T17-55-38Z",
+  "last_seen": "2026-10-31T17:55:38Z",
+  "last_updated_run": "2026-10-31T17-55-38Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "8681e87213f4"
+  ],
+  "sources": [
+   {
+    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/progressive-stock-enters-november-with-filing-and-investor-call-ahead/70438238",
+    "publisher": "Ad Hoc News",
+    "publisher_key": "ad hoc news",
+    "published": "2026-10-31T03:27:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "Progressive \"commercial auto\""
+   }
+  ],
+  "best_tier": 3,
+  "score": 55.6,
+  "age_days": 0.6,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.4,
+   "tier": 3,
+   "recency": 0.94,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_f86ebe6a1d92": {
+  "id": "ev_f86ebe6a1d92",
+  "title": "US casualty insurers hold the line on limits and handle difficult claims sooner: Gallagher Re",
+  "url": "https://www.intelligentinsurer.com/apcia-today/us-casualty-insurers-hold-the-line-on-limits-and-handle-difficult-claims-sooner-gallagher-re",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 3,
+  "last_mile_fit": 0.3,
+  "summary": "Gallagher Re reports that US casualty insurers are maintaining discipline on policy limits and accelerating claims handling.",
+  "evidence_quote": "US casualty insurers hold the line on limits and handle difficult claims sooner: Gallagher Re",
+  "companies": [
+   "Gallagher Re"
+  ],
+  "implication": "Stricter casualty reinsurance conditions support disciplined primary pricing, aligning with Nirvana's telematics-led risk selection.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-31T00:48:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-31T17:55:38Z",
+  "first_run": "2026-10-31T17-55-38Z",
+  "last_seen": "2026-10-31T17:55:38Z",
+  "last_updated_run": "2026-10-31T17-55-38Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "f86ebe6a1d92"
+  ],
+  "sources": [
+   {
+    "url": "https://www.intelligentinsurer.com/apcia-today/us-casualty-insurers-hold-the-line-on-limits-and-handle-difficult-claims-sooner-gallagher-re",
+    "publisher": "Intelligent Insurer",
+    "publisher_key": "intelligent insurer",
+    "published": "2026-10-31T00:48:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"commercial auto\" insurance rates"
+   }
+  ],
+  "best_tier": 3,
+  "score": 58.5,
+  "age_days": 0.7,
+  "score_parts": {
+   "materiality": 3,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.93,
+   "last_mile_fit": 0.3
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_004534f8089a": {
+  "id": "ev_004534f8089a",
+  "title": "Arthur J. Gallagher & Co. (AJG) Q3 2026 Earnings Call Transcript",
+  "url": "https://seekingalpha.com/article/4959864-arthur-j-gallagher-and-co-ajg-q3-2026-earnings-call-transcript",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "neutral",
+  "materiality": 2,
+  "last_mile_fit": 0.2,
+  "summary": "Arthur J. Gallagher & Co. hosted its Q3 2026 earnings conference call.",
+  "evidence_quote": "Arthur J. Gallagher & Co. (AJG) Q3 2026 Earnings Call Transcript",
+  "companies": [
+   "Arthur J. Gallagher & Co."
+  ],
+  "implication": "Review brokerage commentary on commercial lines pricing and commission trends for last-mile distribution insights.",
+  "action": "watch",
+  "watchlist_companies": [],
+  "published": "2026-10-30T06:08:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-31T17:55:38Z",
+  "first_run": "2026-10-31T17-55-38Z",
+  "last_seen": "2026-10-31T17:55:38Z",
+  "last_updated_run": "2026-10-31T17-55-38Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "market_driver",
+  "fingerprints": [
+   "004534f8089a"
+  ],
+  "sources": [
+   {
+    "url": "https://seekingalpha.com/article/4959864-arthur-j-gallagher-and-co-ajg-q3-2026-earnings-call-transcript",
+    "publisher": "Seeking Alpha",
+    "publisher_key": "seeking alpha",
+    "published": "2026-10-30T06:08:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"commercial auto\" insurance rates"
+   }
+  ],
+  "best_tier": 3,
+  "score": 48.4,
+  "age_days": 1.5,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.86,
+   "last_mile_fit": 0.2
+  },
+  "verification": "Reported",
+  "confidence": "Low",
+  "confidence_reason": "general news, single source"
+ },
+ "ev_814a18b2968c": {
+  "id": "ev_814a18b2968c",
+  "title": "This Car Rental Company Is Betting That Tesla’s Self-Driving Software Will Make People Safer",
+  "url": "https://www.inc.com/connor-jewiss/this-car-rental-company-is-betting-that-teslas-self-driving-software-will-make-people-safer/91426084",
+  "lane": "market_driver",
+  "event_type": "other",
+  "direction": "tailwind",
+  "materiality": 2,
+  "last_mile_fit": 0.1,
+  "summary": "Car rental platform Turo explores using Tesla's self-driving software features to enhance safety.",
+  "evidence_quote": "This Car Rental Company Is Betting That Tesla’s Self-Driving Software Will Make People Safer",
+  "companies": [
+   "Turo"
+  ],
+  "implication": "Context only",
+  "action": "context",
+  "watchlist_companies": [],
+  "published": "2026-10-28T03:00:00Z",
+  "date_known": true,
+  "first_seen": "2026-10-31T17:55:38Z",
+  "first_run": "2026-10-31T17-55-38Z",
+  "last_seen": "2026-10-31T17:55:38Z",
+  "last_updated_run": "2026-10-31T17-55-38Z",
+  "update_note": null,
+  "late_discovery": false,
+  "source_baseline": false,
+  "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+  "lane_hint": "competitor_move",
+  "fingerprints": [
+   "814a18b2968c"
+  ],
+  "sources": [
+   {
+    "url": "https://www.inc.com/connor-jewiss/this-car-rental-company-is-betting-that-teslas-self-driving-software-will-make-people-safer/91426084",
+    "publisher": "Inc.com",
+    "publisher_key": "inc.com",
+    "published": "2026-10-28T03:00:00Z",
+    "tier": 3,
+    "source_id": "bing_news",
+    "query": "\"Asero\" insurance transportation"
+   }
+  ],
+  "best_tier": 3,
+  "score": 45.0,
+  "age_days": 3.6,
+  "score_parts": {
+   "materiality": 2,
+   "priority": 0.5,
+   "tier": 3,
+   "recency": 0.7,
+   "last_mile_fit": 0.1
   },
   "verification": "Reported",
   "confidence": "Low",

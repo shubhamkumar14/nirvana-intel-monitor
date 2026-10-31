@@ -666,12 +666,13 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_6d171a959d11"
+   "ev_6d171a959d11",
+   "ev_8681e87213f4"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-21T18:16:06Z"
+  "last_seen": "2026-10-31T17:55:38Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",

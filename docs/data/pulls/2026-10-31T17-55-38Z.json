@@ -1,0 +1,864 @@
+{
+ "run_id": "2026-10-31T17-55-38Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/41226870733",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-10-31",
+ "started": "2026-10-31T17:55:38Z",
+ "duration_s": 345.8,
+ "baseline": false,
+ "previous_run": "2026-10-31T07-33-26Z",
+ "previous_started": "2026-10-31T07:33:26Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 240,
+  "unique": 237,
+  "known_skipped": 221,
+  "attached_existing": 0,
+  "prefiltered_out": 3,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 12,
+  "irrelevant": 8,
+  "quarantined": 0,
+  "new_events": 4,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.583,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.1,
+  "dedup_ratio": 0.949,
+  "relevance_rate": 0.333
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 266
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 404
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 273
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 384
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 307
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "error",
+   "items": 0,
+   "error": "HTTP 503",
+   "ms": 9489
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 218
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 415
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 282
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 403
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 261
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 342
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 157
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 296
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 201
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 227
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 355
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 144
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 154
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 172
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 363
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 195
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 201
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 401
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 233
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 202
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 205
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 300
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 254
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 213
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 282
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 185
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 268
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 116
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 127
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1555
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 625
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 774
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 497
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 797
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2250
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 2560,
+  "output_tokens": 1744,
+  "calls": 2,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 2
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_f86ebe6a1d92",
+   "title": "US casualty insurers hold the line on limits and handle difficult claims sooner: Gallagher Re",
+   "url": "https://www.intelligentinsurer.com/apcia-today/us-casualty-insurers-hold-the-line-on-limits-and-handle-difficult-claims-sooner-gallagher-re",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "Gallagher Re reports that US casualty insurers are maintaining discipline on policy limits and accelerating claims handling.",
+   "evidence_quote": "US casualty insurers hold the line on limits and handle difficult claims sooner: Gallagher Re",
+   "companies": [
+    "Gallagher Re"
+   ],
+   "implication": "Stricter casualty reinsurance conditions support disciplined primary pricing, aligning with Nirvana's telematics-led risk selection.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-31T00:48:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-31T17:55:38Z",
+   "first_run": "2026-10-31T17-55-38Z",
+   "last_seen": "2026-10-31T17:55:38Z",
+   "last_updated_run": "2026-10-31T17-55-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f86ebe6a1d92"
+   ],
+   "sources": [
+    {
+     "url": "https://www.intelligentinsurer.com/apcia-today/us-casualty-insurers-hold-the-line-on-limits-and-handle-difficult-claims-sooner-gallagher-re",
+     "publisher": "Intelligent Insurer",
+     "publisher_key": "intelligent insurer",
+     "published": "2026-10-31T00:48:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_8681e87213f4",
+   "title": "Progressive stock enters November with filing and investor call ahead",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/progressive-stock-enters-november-with-filing-and-investor-call-ahead/70438238",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.2,
+   "summary": "Progressive prepares for its upcoming investor events and Form 10-Q filing.",
+   "evidence_quote": "Progressive stock enters November with filing and investor call ahead",
+   "companies": [
+    "Progressive"
+   ],
+   "implication": "Monitor Progressive's reporting for commercial auto performance trends and market pricing shifts.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-31T03:27:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-31T17:55:38Z",
+   "first_run": "2026-10-31T17-55-38Z",
+   "last_seen": "2026-10-31T17:55:38Z",
+   "last_updated_run": "2026-10-31T17-55-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "8681e87213f4"
+   ],
+   "sources": [
+    {
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/progressive-stock-enters-november-with-filing-and-investor-call-ahead/70438238",
+     "publisher": "Ad Hoc News",
+     "publisher_key": "ad hoc news",
+     "published": "2026-10-31T03:27:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 55.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_004534f8089a",
+   "title": "Arthur J. Gallagher & Co. (AJG) Q3 2026 Earnings Call Transcript",
+   "url": "https://seekingalpha.com/article/4959864-arthur-j-gallagher-and-co-ajg-q3-2026-earnings-call-transcript",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Arthur J. Gallagher & Co. hosted its Q3 2026 earnings conference call.",
+   "evidence_quote": "Arthur J. Gallagher & Co. (AJG) Q3 2026 Earnings Call Transcript",
+   "companies": [
+    "Arthur J. Gallagher & Co."
+   ],
+   "implication": "Review brokerage commentary on commercial lines pricing and commission trends for last-mile distribution insights.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-30T06:08:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-31T17:55:38Z",
+   "first_run": "2026-10-31T17-55-38Z",
+   "last_seen": "2026-10-31T17:55:38Z",
+   "last_updated_run": "2026-10-31T17-55-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "004534f8089a"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/article/4959864-arthur-j-gallagher-and-co-ajg-q3-2026-earnings-call-transcript",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-10-30T06:08:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.4,
+   "age_days": 1.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.86,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_814a18b2968c",
+   "title": "This Car Rental Company Is Betting That Tesla’s Self-Driving Software Will Make People Safer",
+   "url": "https://www.inc.com/connor-jewiss/this-car-rental-company-is-betting-that-teslas-self-driving-software-will-make-people-safer/91426084",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Car rental platform Turo explores using Tesla's self-driving software features to enhance safety.",
+   "evidence_quote": "This Car Rental Company Is Betting That Tesla’s Self-Driving Software Will Make People Safer",
+   "companies": [
+    "Turo"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-28T03:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-31T17:55:38Z",
+   "first_run": "2026-10-31T17-55-38Z",
+   "last_seen": "2026-10-31T17:55:38Z",
+   "last_updated_run": "2026-10-31T17-55-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "814a18b2968c"
+   ],
+   "sources": [
+    {
+     "url": "https://www.inc.com/connor-jewiss/this-car-rental-company-is-betting-that-teslas-self-driving-software-will-make-people-safer/91426084",
+     "publisher": "Inc.com",
+     "publisher_key": "inc.com",
+     "published": "2026-10-28T03:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"Asero\" insurance transportation"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.0,
+   "age_days": 3.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.7,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Ole Miss football vs Auburn live updates, score, highlights in Week 9",
+   "url": "https://www.msn.com/en-us/news/other/ole-miss-football-vs-auburn-live-updates-score-highlights-in-week-9/ar-AA2gsFje",
+   "publisher": "The Clarion Ledger on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ole Miss football vs Auburn live updates, score, highlights in Week 9",
+   "note": "College football sports news about an Ole Miss versus Auburn game."
+  },
+  {
+   "title": "AJ Brown injury update: Patriots need more than 3x Pro Bowler to fix offense",
+   "url": "https://www.msn.com/en-us/sports/football/aj-brown-injury-update-patriots-need-more-than-3x-pro-bowler-to-fix-offense/ar-AA2gty6A",
+   "publisher": "LWOSports on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AJ Brown injury update: Patriots need more than 3x Pro Bowler to fix offense",
+   "note": "Sports reporting regarding an NFL player injury and trade performance."
+  },
+  {
+   "title": "Stocks making big moves this week: Watsco, Universal Display, Chipotle, Teladoc, and ServiceNow",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-week-145929462.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Stocks making big moves this week",
+   "note": "General stock market movements and quarterly earnings updates for consumer electronics companies."
+  },
+  {
+   "title": "Could LSU Tigers Be Deploying Lamar Brown Along Offensive Line?",
+   "url": "https://sports.yahoo.com/articles/could-lsu-tigers-deploying-lamar-130042899.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Could LSU Tigers Be Deploying Lamar Brown Along Offensive Line?",
+   "note": "College football player position change speculation."
+  },
+  {
+   "title": "After years waiting, Pebble Hills' Gael Ochoa makes Rice history",
+   "url": "https://www.star-telegram.com/sports/article317864063.html",
+   "publisher": "Fort Worth Star-Telegram",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "After years waiting, Pebble Hills' Gael Ochoa makes Rice history",
+   "note": "College football quarterback milestone achievement."
+  },
+  {
+   "title": "Progressive stock enters November with filing and investor call ahead",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/progressive-stock-enters-november-with-filing-and-investor-call-ahead/70438238",
+   "publisher": "Ad Hoc News",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Progressive stock enters November with filing and investor call ahead",
+   "note": "Monitor Progressive's reporting for commercial auto performance trends and market pricing shifts."
+  },
+  {
+   "title": "Indian Railways to Launch Door-to-Door Parcel Services in 8 Cities Through ‘Ghar Se Ghar Tak’",
+   "url": "https://lapaasvoice.com/indian-railways-to-launch-door-to-door-parcel-services-in-8-cities-through-ghar-se-ghar-tak/",
+   "publisher": "lapaasvoice.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Indian Railways to Launch Door-to-Door Parcel Services in 8 Cities Through ‘Ghar Se Ghar Tak’",
+   "note": "Indian Railways launches a new door-to-door parcel delivery service across eight cities in India."
+  },
+  {
+   "title": "US casualty insurers hold the line on limits and handle difficult claims sooner: Gallagher Re",
+   "url": "https://www.intelligentinsurer.com/apcia-today/us-casualty-insurers-hold-the-line-on-limits-and-handle-difficult-claims-sooner-gallagher-re",
+   "publisher": "Intelligent Insurer",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "US casualty insurers hold the line on limits and handle difficult claims sooner: Gallagher Re",
+   "note": "Stricter casualty reinsurance conditions support disciplined primary pricing, aligning with Nirvana's telematics-led risk selection."
+  },
+  {
+   "title": "San Diego Food Truck Owner Says $85,000 Dream Turned Into Two-Year Nightmare Of Delays, Defects And Disputed Payments",
+   "url": "https://www.sandiegoville.com/2026/10/san-diego-food-truck-owner-says-85000.html",
+   "publisher": "sandiegoville",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "San Diego Food Truck Owner Says $85,000 Dream Turned Into Two-Year Nightmare",
+   "note": "A food truck owner in San Diego experiences conversion delays and disputes."
+  },
+  {
+   "title": "Arthur J. Gallagher & Co. (AJG) Q3 2026 Earnings Call Transcript",
+   "url": "https://seekingalpha.com/article/4959864-arthur-j-gallagher-and-co-ajg-q3-2026-earnings-call-transcript",
+   "publisher": "Seeking Alpha",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Arthur J. Gallagher & Co. (AJG) Q3 2026 Earnings Call Transcript",
+   "note": "Review brokerage commentary on commercial lines pricing and commission trends for last-mile distribution insights."
+  },
+  {
+   "title": "Asero Andales, Japanese foe make weight for OPBF title fight",
+   "url": "https://cebudailynews.inquirer.net/779748/asero-andales-japanese-foe-make-weight-for-opbf-title-fight",
+   "publisher": "Philippine Daily Inquirer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Asero Andales, Japanese foe make weight for OPBF title fight",
+   "note": "Professional boxing weigh-in news from Cebu City, Philippines."
+  },
+  {
+   "title": "This Car Rental Company Is Betting That Tesla’s Self-Driving Software Will Make People Safer",
+   "url": "https://www.inc.com/connor-jewiss/this-car-rental-company-is-betting-that-teslas-self-driving-software-will-make-people-safer/91426084",
+   "publisher": "Inc.com",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "This Car Rental Company Is Betting That Tesla’s Self-Driving Software Will Make People Safer",
+   "note": "Context only"
+  }
+ ],
+ "digest": "- US casualty insurers are maintaining discipline on policy limits and accelerating claims handling, supporting disciplined primary pricing that aligns with Nirvana's telematics-led risk selection [1]."
+}
