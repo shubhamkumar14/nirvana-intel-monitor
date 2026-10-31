@@ -1315,12 +1315,13 @@
  "Ryan Specialty": {
   "name": "Ryan Specialty",
   "first_seen": "2026-10-30T18:52:19Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_00b7fd7cbb11"
+   "ev_00b7fd7cbb11",
+   "ev_ff62cef345bd"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-30T18:52:19Z"
+  "last_seen": "2026-10-31T07:33:26Z"
  },
  "Delhivery": {
   "name": "Delhivery",
@@ -1331,5 +1332,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-30T18:52:19Z"
+ },
+ "Patria Re (US), Inc.": {
+  "name": "Patria Re (US), Inc.",
+  "first_seen": "2026-10-31T07:33:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_372e4bc488b7"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-31T07:33:26Z"
+ },
+ "Seguros e Inversiones, S.A.": {
+  "name": "Seguros e Inversiones, S.A.",
+  "first_seen": "2026-10-31T07:33:26Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_515e6cc92afa"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-10-31T07:33:26Z"
  }
 }
