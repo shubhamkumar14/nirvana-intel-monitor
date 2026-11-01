@@ -1045,12 +1045,13 @@
  "Guidewire": {
   "name": "Guidewire",
   "first_seen": "2026-10-27T18:58:56Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_13bfc49a1384"
+   "ev_13bfc49a1384",
+   "ev_232f0b3623c5"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-27T18:58:56Z"
+  "last_seen": "2026-11-01T08:12:32Z"
  },
  "InPost": {
   "name": "InPost",
@@ -1353,5 +1354,35 @@
   ],
   "status": "proposed",
   "last_seen": "2026-10-31T07:33:26Z"
+ },
+ "United Parcel Service": {
+  "name": "United Parcel Service",
+  "first_seen": "2026-11-01T08:12:32Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_56a831a4ea4b"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-01T08:12:32Z"
+ },
+ "Hanover": {
+  "name": "Hanover",
+  "first_seen": "2026-11-01T08:12:32Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0ba0c5f218c9"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-01T08:12:32Z"
+ },
+ "hx": {
+  "name": "hx",
+  "first_seen": "2026-11-01T08:12:32Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_232f0b3623c5"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-01T08:12:32Z"
  }
 }
