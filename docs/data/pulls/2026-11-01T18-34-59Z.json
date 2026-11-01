@@ -1,0 +1,1345 @@
+{
+ "run_id": "2026-11-01T18-34-59Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/41337351831",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-01",
+ "started": "2026-11-01T18:34:59Z",
+ "duration_s": 449.3,
+ "baseline": false,
+ "previous_run": "2026-11-01T08-12-32Z",
+ "previous_started": "2026-11-01T08:12:32Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 290,
+  "unique": 280,
+  "known_skipped": 249,
+  "attached_existing": 1,
+  "prefiltered_out": 7,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 23,
+  "irrelevant": 14,
+  "quarantined": 0,
+  "new_events": 9,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.667,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.6,
+  "dedup_ratio": 0.918,
+  "relevance_rate": 0.391
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 4591
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 434
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 236
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 306
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 89
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 341
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 257
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 150
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 110
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 67
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 55
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 155
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 162
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 233
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 133
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 68
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 57
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 85
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 66
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 62
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 233
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 88
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 181
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 203
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 54
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 193
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 49
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 144
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 121
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 197
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 94
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1369
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 459
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 687
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 697
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2244
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5245,
+  "output_tokens": 3430,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_0fd08a0e3603",
+   "title": "GM Sold Your Braking Habits to Insurers, Then Paid $220 Million — Michigan Takes $7.2 Million, Drivers Get No Check",
+   "url": "https://finance.yahoo.com/technology/articles/gm-sold-braking-habits-insurers-145821445.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.5,
+   "summary": "General Motors settles with 36 state attorneys general for $220 million over selling driver braking behavior data to insurers.",
+   "evidence_quote": "GM Sold Your Braking Habits to Insurers, Then Paid $220 Million",
+   "companies": [
+    "GM"
+   ],
+   "implication": "Critical compliance context for telematics data collection practices; underscores regulatory risks surrounding connected vehicle data sharing and consumer privacy disclosures.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-30T07:58:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "0fd08a0e3603"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/technology/articles/gm-sold-braking-habits-insurers-145821445.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-30T07:58:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 66.3,
+   "age_days": 2.4,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.79,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1e56a695c3a0",
+   "title": "P&C CEOs’ dissatisfaction with market conditions grows in Q3",
+   "url": "https://www.theinsurer.com/ti/analysis/pc-ceos-dissatisfaction-with-market-conditions-grows-in-q3-2026-11-01/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "P&C CEOs express growing dissatisfaction with commercial insurance market conditions during Q3 earnings calls.",
+   "evidence_quote": "P&C CEOs’ dissatisfaction with market conditions grows in Q3",
+   "companies": [],
+   "implication": "Context only. Broader commercial P&C market friction supports disciplined underwriting and rate adequacy efforts for specialized MGAs.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-01T07:16:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1e56a695c3a0"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theinsurer.com/ti/analysis/pc-ceos-dissatisfaction-with-market-conditions-grows-in-q3-2026-11-01/",
+     "publisher": "The Insurer",
+     "publisher_key": "the insurer",
+     "published": "2026-11-01T07:16:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 2,
+   "score": 62.6,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.95,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_b5cc66819c2c",
+   "title": "GM to pay $220 million after selling customer Smart Driver data",
+   "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "GM settled with the FTC regarding the sale of customer Smart Driver data, highlighting growing regulatory scrutiny over connected vehicle data practices.",
+   "evidence_quote": "GM to pay $220 million after selling customer Smart Driver data",
+   "companies": [
+    "GM",
+    "OnStar",
+    "FTC"
+   ],
+   "implication": "Context only regarding telematics data compliance and consumer privacy risks.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T23:53:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "b5cc66819c2c"
+   ],
+   "sources": [
+    {
+     "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+     "publisher": "Ars Technica",
+     "publisher_key": "ars technica",
+     "published": "2026-10-29T23:53:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 55.9,
+   "age_days": 2.8,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.76,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_82c468744437",
+   "title": "Rivian Earnings Don’t Mask Stock Collapse",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rivian-earnings-don-t-mask-162654296.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Rivian beats earnings expectations but faces ongoing stock valuation and financial viability concerns.",
+   "evidence_quote": "Rivian Earnings Don’t Mask Stock Collapse",
+   "companies": [
+    "Rivian"
+   ],
+   "implication": "Context only. Fleet electrification timelines depend on EV maker financial health, impacting commercial fleet vehicle adoption.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-01T08:26:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "82c468744437"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/rivian-earnings-don-t-mask-162654296.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-01T08:26:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_95c865d216ac",
+   "title": "Canada's trucking industry at a crossroads as safety and compliance concerns grow",
+   "url": "https://www.msn.com/en-ca/news/other/canada-s-trucking-industry-at-a-crossroads-as-safety-and-compliance-concerns-grow/ar-AA2gvRfS",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Canada's trucking sector faces growing scrutiny over safety and compliance regulations.",
+   "evidence_quote": "Canada's trucking industry at a crossroads as safety and compliance concerns grow",
+   "companies": [],
+   "implication": "Context only. Reinforces cross-border focus on fleet safety and compliance, though primarily centered on Canadian operations.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-01T03:00:09Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "95c865d216ac"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-ca/news/other/canada-s-trucking-industry-at-a-crossroads-as-safety-and-compliance-concerns-grow/ar-AA2gvRfS",
+     "publisher": "The Canadian Press on MSN",
+     "publisher_key": "the canadian press on msn",
+     "published": "2026-11-01T03:00:09Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9b55414bf24b",
+   "title": "The Basics of the One-Third Rule: A Quick Guide—Relaxing Delivery Deadlines in a 515-Company Survey, and Reviewing Business Practices to Connect Food Loss with Logistics ...",
+   "url": "https://note.com/aominant/n/n803a41b2c825?hl=en",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "A survey of 515 companies explores the impacts of relaxing food delivery deadlines to reduce logistics food loss.",
+   "evidence_quote": "Relaxing Delivery Deadlines in a 515-Company Survey, and Reviewing Business Practices",
+   "companies": [],
+   "implication": "Context only. Highlights delivery schedule pressures in supply chains, though focused on food logistics practices.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-31T20:29:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9b55414bf24b"
+   ],
+   "sources": [
+    {
+     "url": "https://note.com/aominant/n/n803a41b2c825?hl=en",
+     "publisher": "note",
+     "publisher_key": "note",
+     "published": "2026-10-31T20:29:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_23b0895a0714",
+   "title": "Lawless e-bike riders turn NYC’s Central Park into danger zone as fed-up locals push for a ban",
+   "url": "https://nypost.com/2026/11/01/us-news/lawless-e-bike-riders-turn-nycs-central-park-into-danger-zone-as-fed-up-locals-push-for-a-ban/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Locals and safety advocates in New York City are pushing for a ban on e-bikes in public parks following collisions.",
+   "evidence_quote": "Lawless e-bike riders turn NYC’s Central Park into danger zone as fed-up locals push for a ban",
+   "companies": [],
+   "implication": "Context only regarding urban micro-mobility risks, though Nirvana focuses on larger commercial delivery vehicles like cargo vans and box trucks.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-01T10:25:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "23b0895a0714"
+   ],
+   "sources": [
+    {
+     "url": "https://nypost.com/2026/11/01/us-news/lawless-e-bike-riders-turn-nycs-central-park-into-danger-zone-as-fed-up-locals-push-for-a-ban/",
+     "publisher": "New York Post",
+     "publisher_key": "new york post",
+     "published": "2026-11-01T10:25:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.0,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4363791bdaa3",
+   "title": "Dodge's electric Charger costs 9% more than the gas model but over twice as much to lease",
+   "url": "https://www.thecooldown.com/green-business/dodge-electric-charger-lease-cost-comparison/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Dodge prices its new electric Charger slightly higher than the gas model, but leasing costs significantly more.",
+   "evidence_quote": "Dodge's electric Charger costs 9% more than the gas model",
+   "companies": [
+    "Dodge"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-01T08:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "4363791bdaa3"
+   ],
+   "sources": [
+    {
+     "url": "https://www.thecooldown.com/green-business/dodge-electric-charger-lease-cost-comparison/",
+     "publisher": "The Cool Down",
+     "publisher_key": "the cool down",
+     "published": "2026-11-01T08:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_ad717dd87073",
+   "title": "How much car insurance do you need? Balancing cost and coverage",
+   "url": "https://www.msn.com/en-us/autos/general/how-much-car-insurance-do-you-need-balancing-cost-and-coverage/ar-AA2gqmB3",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "General consumer advice guide on balancing car insurance costs and necessary coverage levels.",
+   "evidence_quote": "How much car insurance do you need? Balancing cost and coverage",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-30T05:49:59Z",
+   "date_known": true,
+   "first_seen": "2026-11-01T18:34:59Z",
+   "first_run": "2026-11-01T18-34-59Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "ad717dd87073"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/autos/general/how-much-car-insurance-do-you-need-balancing-cost-and-coverage/ar-AA2gqmB3",
+     "publisher": "The Wall Street Journal on MSN",
+     "publisher_key": "the wall street journal on msn",
+     "published": "2026-10-30T05:49:59Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.2,
+   "age_days": 2.5,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.78,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_d578f36edb4f",
+   "title": "GM to pay $220 million to settle allegations it violated drivers' privacy",
+   "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "General Motors agreed to pay $220 million to settle allegations regarding the unauthorized sale of driver behavior and location data.",
+   "evidence_quote": "GM to pay $220 million to settle allegations it violated drivers' privacy",
+   "companies": [
+    "General Motors"
+   ],
+   "implication": "Context only. Highlights growing regulatory and legal scrutiny on driving telemetry data collection practices relevant to telematics providers.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T09:28:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-29T19:13:33Z",
+   "first_run": "2026-10-29T19-13-33Z",
+   "last_seen": "2026-11-01T18:34:59Z",
+   "last_updated_run": "2026-11-01T18-34-59Z",
+   "update_note": "New corroborating source: U.S. News Money",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "d578f36edb4f",
+    "e231a530b1ea"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
+     "publisher": "Reuters",
+     "publisher_key": "reuters",
+     "published": "2026-10-29T09:28:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    },
+    {
+     "url": "https://www.usatoday.com/story/money/cars/general-motors/2026/10/29/gm-to-pay-220m-to-settle-allegations-it-violated-drivers-privacy/92500873007/",
+     "publisher": "USA TODAY",
+     "publisher_key": "usa today",
+     "published": "2026-10-29T13:43:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    },
+    {
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-29/gm-to-pay-220-million-to-settle-allegations-it-violated-consumers-privacy",
+     "publisher": "U.S. News Money",
+     "publisher_key": "u.s. news money",
+     "published": "2026-10-29T05:28:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 59.2,
+   "age_days": 3.4,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.72,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 3 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Lawless e-bike riders turn NYC’s Central Park into danger zone as fed-up locals push for a ban",
+   "url": "https://nypost.com/2026/11/01/us-news/lawless-e-bike-riders-turn-nycs-central-park-into-danger-zone-as-fed-up-locals-push-for-a-ban/",
+   "publisher": "New York Post",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Lawless e-bike riders turn NYC’s Central Park into danger zone as fed-up locals push for a ban",
+   "note": "Context only regarding urban micro-mobility risks, though Nirvana focuses on larger commercial delivery vehicles like cargo vans and box trucks."
+  },
+  {
+   "title": "Seminole among Florida counties seeing vote-by-mail delays",
+   "url": "https://www.orlandosentinel.com/2026/11/01/seminole-among-florida-counties-seeing-vote-by-mail-delays/",
+   "publisher": "Orlando Sentinel",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Seminole among Florida counties seeing vote-by-mail delays",
+   "note": "Seminole County in Florida experiences vote-by-mail delays, requiring replacement ballots."
+  },
+  {
+   "title": "Porter Moser’s ‘best team on paper’ ready to turn around his tenure with OU basketball",
+   "url": "https://sports.yahoo.com/articles/porter-moser-best-team-paper-173300952.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Porter Moser’s ‘best team on paper’ ready to turn around his tenure with OU basketball",
+   "note": "Preview of Oklahoma men's basketball team entering its sixth season under Porter Moser."
+  },
+  {
+   "title": "Breeders' Cup: Brown's smaller contingent does OK",
+   "url": "https://www.drf.com/news/breeders-cup-browns-smaller-contingent-does-ok",
+   "publisher": "Daily Racing Form",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Breeders' Cup: Brown's smaller contingent does OK",
+   "note": "Trainer Chad Brown competes with a smaller contingent of horses at the Breeders' Cup."
+  },
+  {
+   "title": "NFL Week 8's best arrivals, led by Vikings' Kyler Murray",
+   "url": "https://www.espn.com/nfl/story/_/id/50323084/nfl-week-8-fashion",
+   "publisher": "ESPN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NFL Week 8's best arrivals, led by Vikings' Kyler Murray",
+   "note": "NFL players' pre-game arrivals and fashion choices for Week 8."
+  },
+  {
+   "title": "Rivian Earnings Don’t Mask Stock Collapse",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/rivian-earnings-don-t-mask-162654296.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Rivian Earnings Don’t Mask Stock Collapse",
+   "note": "Context only. Fleet electrification timelines depend on EV maker financial health, impacting commercial fleet vehicle adoption."
+  },
+  {
+   "title": "Dodge's electric Charger costs 9% more than the gas model but over twice as much to lease",
+   "url": "https://www.thecooldown.com/green-business/dodge-electric-charger-lease-cost-comparison/",
+   "publisher": "The Cool Down",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Dodge's electric Charger costs 9% more than the gas model",
+   "note": "Context only."
+  },
+  {
+   "title": "Anfernee Simons has been more vital for the Sixers than Jaylen Brown",
+   "url": "https://hardwoodhoudini.com/anfernee-simons-has-been-more-vital-for-sixers-jaylen-brown",
+   "publisher": "Hardwood Houdini",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Anfernee Simons has been more vital for the Sixers than Jaylen Brown",
+   "note": "Anfernee Simons performance impact for the Philadelphia 76ers."
+  },
+  {
+   "title": "P&C CEOs’ dissatisfaction with market conditions grows in Q3",
+   "url": "https://www.theinsurer.com/ti/analysis/pc-ceos-dissatisfaction-with-market-conditions-grows-in-q3-2026-11-01/",
+   "publisher": "The Insurer",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "P&C CEOs’ dissatisfaction with market conditions grows in Q3",
+   "note": "Context only. Broader commercial P&C market friction supports disciplined underwriting and rate adequacy efforts for specialized MGAs."
+  },
+  {
+   "title": "Wall Street Brunch: Midterms, Jobs And Apple",
+   "url": "https://seekingalpha.com/article/4960724-wall-street-brunch-midterms-jobs-and-apple",
+   "publisher": "Seeking Alpha",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Wall Street Brunch: Midterms, Jobs And Apple",
+   "note": "Financial market roundup covering upcoming midterms, jobs reports, and tech earnings."
+  },
+  {
+   "title": "A Thief Tried To Rob Hayden Christensen, but Returned Everything After Recognizing Him",
+   "url": "https://www.yahoo.com/entertainment/celebrity/articles/thief-tried-rob-hayden-christensen-142459989.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A Thief Tried To Rob Hayden Christensen",
+   "note": "Actor Hayden Christensen recounts an incident where a would-be robber recognized him and returned stolen items."
+  },
+  {
+   "title": "A Surprising Mealtime Habit Could Lower Blood Pressure, Study Shows",
+   "url": "https://www.verywellhealth.com/eating-habit-could-lower-blood-pressure-12173710",
+   "publisher": "Verywell Health",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A Surprising Mealtime Habit Could Lower Blood Pressure, Study Shows",
+   "note": "Health study highlights how mindful eating habits might lower blood pressure."
+  },
+  {
+   "title": "Jon Sumrall reveals the setback that kept Vernell Brown III out against Georgia",
+   "url": "https://www.msn.com/en-us/sports/general/jon-sumrall-reveals-the-setback-that-kept-vernell-brown-iii-out-against-georgia/ar-AA2gwtkW",
+   "publisher": "Hail Florida Hail on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Jon Sumrall reveals the setback that kept Vernell Brown III out",
+   "note": "Jon Sumrall discusses player injury status for Florida college football."
+  },
+  {
+   "title": "Sudan’s Power Grid Nears Collapse as Drone Strikes Blamed on RSF Target Electric Stations",
+   "url": "https://www.usnews.com/news/world/articles/2026-11-01/sudans-power-grid-nears-collapse-as-drone-strikes-blamed-on-rsf-target-electric-stations",
+   "publisher": "U.S. News & World Report",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Sudan’s Power Grid Nears Collapse as Drone Strikes Blamed on RSF",
+   "note": "Sudan's power grid faces collapse following drone strikes targeting electricity stations."
+  },
+  {
+   "title": "Asset Goals: How Many Years of Living Expenses Rather Than 100 Million Yen | 100 Million Yen Can Mean 10 Years or 30 Years [Audio Delivery]",
+   "url": "https://note.com/hanatsuburepaguo/n/n2c665e25f906?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Asset Goals: How Many Years of Living Expenses Rather Than 100 Million Yen",
+   "note": "Personal finance discussion on setting asset goals based on living expense coverage years."
+  },
+  {
+   "title": "Canada's trucking industry at a crossroads as safety and compliance concerns grow",
+   "url": "https://www.msn.com/en-ca/news/other/canada-s-trucking-industry-at-a-crossroads-as-safety-and-compliance-concerns-grow/ar-AA2gvRfS",
+   "publisher": "The Canadian Press on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Canada's trucking industry at a crossroads as safety and compliance concerns grow",
+   "note": "Context only. Reinforces cross-border focus on fleet safety and compliance, though primarily centered on Canadian operations."
+  },
+  {
+   "title": "I stopped trusting USB C dock power ratings after testing them against my laptop",
+   "url": "https://www.xda-developers.com/stopped-trusting-usb-c-dock-power-ratings-after-testing-against-laptop/",
+   "publisher": "XDA Developers",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "I stopped trusting USB C dock power ratings after testing them",
+   "note": "Review and critique of USB-C dock power ratings and performance."
+  },
+  {
+   "title": "The Basics of the One-Third Rule: A Quick Guide—Relaxing Delivery Deadlines in a 515-Company Survey, and Reviewing Business Practices to Connect Food Loss with Logistics ...",
+   "url": "https://note.com/aominant/n/n803a41b2c825?hl=en",
+   "publisher": "note",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Relaxing Delivery Deadlines in a 515-Company Survey, and Reviewing Business Practices",
+   "note": "Context only. Highlights delivery schedule pressures in supply chains, though focused on food logistics practices."
+  },
+  {
+   "title": "GM Sold Your Braking Habits to Insurers, Then Paid $220 Million — Michigan Takes $7.2 Million, Drivers Get No Check",
+   "url": "https://finance.yahoo.com/technology/articles/gm-sold-braking-habits-insurers-145821445.html",
+   "publisher": "Yahoo Finance",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "GM Sold Your Braking Habits to Insurers, Then Paid $220 Million",
+   "note": "Critical compliance context for telematics data collection practices; underscores regulatory risks surrounding connected vehicle data sharing and consumer privacy disclosures."
+  },
+  {
+   "title": "How much car insurance do you need? Balancing cost and coverage",
+   "url": "https://www.msn.com/en-us/autos/general/how-much-car-insurance-do-you-need-balancing-cost-and-coverage/ar-AA2gqmB3",
+   "publisher": "The Wall Street Journal on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How much car insurance do you need? Balancing cost and coverage",
+   "note": "Context only."
+  },
+  {
+   "title": "GM to pay $220 million after selling customer Smart Driver data",
+   "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+   "publisher": "Ars Technica",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "GM to pay $220 million after selling customer Smart Driver data",
+   "note": "Context only regarding telematics data compliance and consumer privacy risks."
+  },
+  {
+   "title": "How the law protecting Americans from surprise medical bills is driving up healthcare costs",
+   "url": "https://theconversation.com/how-the-law-protecting-americans-from-surprise-medical-bills-is-driving-up-healthcare-costs-293441",
+   "publisher": "The Conversation",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How the law protecting Americans from surprise medical bills is driving up healthcare costs",
+   "note": "An analysis discusses how the No Surprises Act impacts healthcare costs."
+  },
+  {
+   "title": "The best car insurance for seniors of November 2026",
+   "url": "https://www.cnbc.com/select/best-car-insurance-seniors/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The best car insurance for seniors of November 2026",
+   "note": "A consumer guide outlines car insurance options for senior drivers."
+  }
+ ],
+ "digest": "- General Motors agreed to a $220 million settlement with 36 state attorneys general and the FTC for selling driver braking and location data without proper authorization. This highlights critical regulatory risks and compliance standards for telematics data collection. [1, 3, 10]\n- P&C CEOs expressed growing dissatisfaction with commercial insurance market conditions during Q3 earnings calls. This broader market friction supports disciplined underwriting and rate adequacy efforts for specialized MGAs entering last-mile delivery. [2]"
+}
