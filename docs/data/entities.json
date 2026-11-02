@@ -1386,5 +1386,35 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-01T08:12:32Z"
+ },
+ "Sinistar": {
+  "name": "Sinistar",
+  "first_seen": "2026-11-02T22:28:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_81da575cf552"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-02T22:28:13Z"
+ },
+ "Progressive Corporation": {
+  "name": "Progressive Corporation",
+  "first_seen": "2026-11-02T22:28:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3c1957ad8caa"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-02T22:28:13Z"
+ },
+ "PGR": {
+  "name": "PGR",
+  "first_seen": "2026-11-02T22:28:13Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3c1957ad8caa"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-02T22:28:13Z"
  }
 }
