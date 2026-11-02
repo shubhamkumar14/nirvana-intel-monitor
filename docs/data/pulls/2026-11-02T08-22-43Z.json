@@ -1,0 +1,995 @@
+{
+ "run_id": "2026-11-02T08-22-43Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/41412603548",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-02",
+ "started": "2026-11-02T08:22:43Z",
+ "duration_s": 346.0,
+ "baseline": false,
+ "previous_run": "2026-11-01T18-34-59Z",
+ "previous_started": "2026-11-01T18:34:59Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 272,
+  "unique": 266,
+  "known_skipped": 233,
+  "attached_existing": 1,
+  "prefiltered_out": 19,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 13,
+  "irrelevant": 8,
+  "quarantined": 0,
+  "new_events": 5,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.646,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 4.6,
+  "dedup_ratio": 0.951,
+  "relevance_rate": 0.385
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 271
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 287
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 233
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 251
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 321
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 192
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1011
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 332
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 304
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 231
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 259
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 152
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 221
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 178
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 233
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 221
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 163
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 301
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 156
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 201
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 171
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 205
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 131
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 148
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 313
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 192
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 143
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 197
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 268
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 119
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 134
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 118
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1613
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 740
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 738
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 309
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 689
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1042
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 3034,
+  "output_tokens": 1956,
+  "calls": 2,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 2
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_ba67b8f37d84",
+   "title": "FedEx posts 12% annual revenue growth in Q3",
+   "url": "https://www.logisticsmgmt.com/article/fedex_posts_12_annual_revenue_growth_in_q3",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "FedEx posted 12% annual revenue growth in Q3, demonstrating strong parcel delivery volume expansion.",
+   "evidence_quote": "FedEx posts 12% annual revenue growth in Q3",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Strong parcel volumes for major network partners like FedEx indicate healthy operational activity for underlying contractor fleets (ISPs), supporting commercial auto exposure growth.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-28T17:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-02T08:22:43Z",
+   "first_run": "2026-11-02T08-22-43Z",
+   "last_seen": "2026-11-02T08:22:43Z",
+   "last_updated_run": "2026-11-02T08-22-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "ba67b8f37d84"
+   ],
+   "sources": [
+    {
+     "url": "https://www.logisticsmgmt.com/article/fedex_posts_12_annual_revenue_growth_in_q3",
+     "publisher": "Logistics Management",
+     "publisher_key": "logistics management",
+     "published": "2026-10-28T17:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.0,
+   "age_days": 4.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.63,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_2825dd9cc824",
+   "title": "Corgi Insurance names First Insurance co-founder Josh LaRiccia as Head of Distribution",
+   "url": "https://www.reinsurancene.ws/corgi-insurance-names-first-insurance-co-founder-josh-lariccia-as-head-of-distribution/",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Corgi Insurance appointed a new Head of Distribution to expand its US presence and build partnerships with MGAs and wholesalers.",
+   "evidence_quote": "Corgi Insurance names First Insurance co-founder Josh LaRiccia as Head of Distribution",
+   "companies": [
+    "Corgi Insurance",
+    "First Insurance"
+   ],
+   "implication": "Context only as Corgi expands MGA distribution channels in the US commercial insurance space.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-02T07:30:49Z",
+   "date_known": true,
+   "first_seen": "2026-11-02T08:22:43Z",
+   "first_run": "2026-11-02T08-22-43Z",
+   "last_seen": "2026-11-02T08:22:43Z",
+   "last_updated_run": "2026-11-02T08-22-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "2825dd9cc824"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reinsurancene.ws/corgi-insurance-names-first-insurance-co-founder-josh-lariccia-as-head-of-distribution/",
+     "publisher": "Reinsurance News",
+     "publisher_key": "reinsurance news",
+     "published": "2026-11-02T07:30:49Z",
+     "tier": 2,
+     "source_id": "reinsurancenews",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.2,
+   "age_days": 0.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 1.0,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_d9b3be535e35",
+   "title": "DoorDash: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.msn.com/en-us/money/general/doordash-3-key-takeaways-for-long-term-investors/ar-AA2gnEPn",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "DoorDash focuses on reinvesting in product and logistics infrastructure to drive long-term returns.",
+   "evidence_quote": "DoorDash: 3 Key Takeaways for Long-Term Investors",
+   "companies": [
+    "DoorDash"
+   ],
+   "implication": "Context only on gig economy delivery platform reinvestment strategies.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T19:58:24Z",
+   "date_known": true,
+   "first_seen": "2026-11-02T08:22:43Z",
+   "first_run": "2026-11-02T08-22-43Z",
+   "last_seen": "2026-11-02T08:22:43Z",
+   "last_updated_run": "2026-11-02T08-22-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "d9b3be535e35"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/general/doordash-3-key-takeaways-for-long-term-investors/ar-AA2gnEPn",
+     "publisher": "The Motley Fool on MSN",
+     "publisher_key": "the motley fool on msn",
+     "published": "2026-10-29T19:58:24Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.1,
+   "age_days": 3.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.71,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_cca0fae2a165",
+   "title": "Global UAV (Drone) Market Size, Share, and Forecast to 2031 | USD 83.51 Billion Opportunity Driven by AI-Enabled Autonomy, Defense Modernization, and Drone Logistics",
+   "url": "https://finance.yahoo.com/technology/ai/articles/global-uav-drone-market-size-150300871.html",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Global UAV and drone market report highlights growth driven by autonomy and logistics applications.",
+   "evidence_quote": "Global UAV (Drone) Market Size, Share, and Forecast to 2031",
+   "companies": [],
+   "implication": "Context only regarding long-term autonomous delivery trends affecting traditional last-mile fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-27T08:03:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-02T08:22:43Z",
+   "first_run": "2026-11-02T08-22-43Z",
+   "last_seen": "2026-11-02T08:22:43Z",
+   "last_updated_run": "2026-11-02T08-22-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "cca0fae2a165"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/global-uav-drone-market-size-150300871.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-27T08:03:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 44.8,
+   "age_days": 6.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.55,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1b1a07172f8e",
+   "title": "Why AI Belongs In The First Mile Of A Purchase, Not The Last",
+   "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/28/why-ai-belongs-in-the-first-mile-of-a-purchase-not-the-last/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Commentary on the role of AI and human agents in insurance shopping.",
+   "evidence_quote": "Why AI Belongs In The First Mile Of A Purchase, Not The Last",
+   "companies": [],
+   "implication": "Context only on general AI insurance shopping trends.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-27T21:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-02T08:22:43Z",
+   "first_run": "2026-11-02T08-22-43Z",
+   "last_seen": "2026-11-02T08:22:43Z",
+   "last_updated_run": "2026-11-02T08-22-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "1b1a07172f8e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/28/why-ai-belongs-in-the-first-mile-of-a-purchase-not-the-last/",
+     "publisher": "Forbes",
+     "publisher_key": "forbes",
+     "published": "2026-10-27T21:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"TrueNorth\" final mile insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 35.2,
+   "age_days": 5.5,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.58,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_baf2b1ba67b6",
+   "title": "SIGI Q3 deep dive: underwriting discipline and investment gains offset top-line softness",
+   "url": "https://stockstory.org/us/stocks/nasdaq/sigi/news/earnings-call/sigi-q3-deep-dive-underwriting-discipline-and-investment-gains-offset-top-line-softness",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Selective Insurance Group posted Q3 2026 revenue below Wall Street expectations while prioritizing underwriting discipline.",
+   "evidence_quote": "Property and casualty insurer Selective Insurance Group (NASDAQ:SIGI) missed Wall Street’s revenue expectations in Q3 2026",
+   "companies": [
+    "Selective Insurance Group"
+   ],
+   "implication": "Context only regarding broader P&C financial performance trends.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-23T08:20:00Z",
+   "date_known": true,
+   "first_seen": "2026-10-26T19:34:22Z",
+   "first_run": "2026-10-26T19-34-22Z",
+   "last_seen": "2026-11-02T08:22:43Z",
+   "last_updated_run": "2026-11-02T08-22-43Z",
+   "update_note": "New corroborating source: Yahoo Finance",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "baf2b1ba67b6"
+   ],
+   "sources": [
+    {
+     "url": "https://stockstory.org/us/stocks/nasdaq/sigi/news/earnings-call/sigi-q3-deep-dive-underwriting-discipline-and-investment-gains-offset-top-line-softness",
+     "publisher": "stockstory",
+     "publisher_key": "stockstory",
+     "published": "2026-10-23T08:20:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/sigi-q3-deep-dive-underwriting-164647184.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-26T09:46:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 44.1,
+   "age_days": 10.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.37,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Corgi Insurance names First Insurance co-founder Josh LaRiccia as Head of Distribution",
+   "url": "https://www.reinsurancene.ws/corgi-insurance-names-first-insurance-co-founder-josh-lariccia-as-head-of-distribution/",
+   "publisher": "Reinsurance News",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Corgi Insurance names First Insurance co-founder Josh LaRiccia as Head of Distribution",
+   "note": "Context only as Corgi expands MGA distribution channels in the US commercial insurance space."
+  },
+  {
+   "title": "In 1917, a Utah businessman found that transporting bricks by road was too expensive; he sent them through the postal system instead, until the sheer volume forced the US ...",
+   "url": "https://timesofindia.indiatimes.com/world/us/in-1917-a-utah-businessman-found-that-transporting-bricks-by-road-was-too-expensive-he-sent-them-through-the-postal-system-instead-until-the-sheer-volume-forced-the-us-government-to-intervene/articleshow/135447099.cms",
+   "publisher": "The Times of India",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "In 1917, a Utah businessman found that transporting bricks by road was too expensive",
+   "note": "Historical trivia regarding parcel post transport in 1917 Utah."
+  },
+  {
+   "title": "From warehouses to last-mile delivery: How India’s logistics companies are handling festive e-commerce rush",
+   "url": "https://www.msn.com/en-in/news/other/from-warehouses-to-last-mile-delivery-how-india-s-logistics-companies-are-handling-festive-e-commerce-rush/ar-AA2gz0qU",
+   "publisher": "Mint on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "From warehouses to last-mile delivery: How India’s logistics companies are handling festive e-commerce rush",
+   "note": "Indian logistics companies are managing festive e-commerce demand by scaling capacity and technology."
+  },
+  {
+   "title": "Президент Трамп хоче бачити Стівенс у Республіканській партії — The Hill",
+   "url": "https://ua.news/ua/world/prezident-tramp-khoche-bachiti-stivens-u-respublikanskii-partiyi-the-hill",
+   "publisher": "UA.NEWS",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Президент Трамп хоче бачити Стівенс у Республіканській партії",
+   "note": "Political news regarding US congressional representation."
+  },
+  {
+   "title": "Practical reforms to stabilize LPG prices and supply",
+   "url": "https://mettisglobal.news/Practical-reforms-to-stabilize-LPG-prices-and-supply-64717",
+   "publisher": "Mettis Global News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Practical reforms to stabilize LPG prices and supply",
+   "note": "Government committee formed to review LPG policy and prices in Pakistan."
+  },
+  {
+   "title": "Dubai Airport Freezone, Forbes Middle East to host Future Growth Nexus Summit on November 23",
+   "url": "https://www.msn.com/en-ae/news/other/dubai-airport-freezone-forbes-middle-east-to-host-future-growth-nexus-summit-on-november-23/ar-AA2gvQUA",
+   "publisher": "Emirates News Agency on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Dubai Airport Freezone, Forbes Middle East to host Future Growth Nexus Summit on November 23",
+   "note": "Announcement of a business summit hosted in Dubai."
+  },
+  {
+   "title": "DoorDash: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.msn.com/en-us/money/general/doordash-3-key-takeaways-for-long-term-investors/ar-AA2gnEPn",
+   "publisher": "The Motley Fool on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DoorDash: 3 Key Takeaways for Long-Term Investors",
+   "note": "Context only on gig economy delivery platform reinvestment strategies."
+  },
+  {
+   "title": "Packers wide receiver Matthew Golden active for game against Panthers",
+   "url": "https://www.msn.com/en-us/news/other/packers-wide-receiver-matthew-golden-active-for-game-against-panthers/ar-AA2gmYYh",
+   "publisher": "Midland Reporter-Telegram on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Packers wide receiver Matthew Golden active for game against Panthers",
+   "note": "Sports news regarding an NFL player's game status."
+  },
+  {
+   "title": "UK employers review third party harassment risks as new duties take effect",
+   "url": "https://www.pinsentmasons.com/out-law/news/uk-gov-reviews-harassment-risks",
+   "publisher": "Pinsent Masons",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UK employers review third party harassment risks as new duties take effect",
+   "note": "UK employers review third-party harassment risks ahead of new laws."
+  },
+  {
+   "title": "FedEx posts 12% annual revenue growth in Q3",
+   "url": "https://www.logisticsmgmt.com/article/fedex_posts_12_annual_revenue_growth_in_q3",
+   "publisher": "Logistics Management",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FedEx posts 12% annual revenue growth in Q3",
+   "note": "Strong parcel volumes for major network partners like FedEx indicate healthy operational activity for underlying contractor fleets (ISPs), supporting commercial auto exposure growth."
+  },
+  {
+   "title": "Informe de resultados de Heineken: ventas del Q3 2026 suben y acciones avanzan",
+   "url": "https://es.investing.com/news/transcripts/informe-de-resultados-de-heineken-ventas-del-q3-2026-suben-y-acciones-avanzan-93CH-3894188",
+   "publisher": "Investing.com Español",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Informe de resultados de Heineken: ventas del Q3 2026 suben y acciones avanzan",
+   "note": "Heineken reported Q3 2026 financial results showing regional sales growth."
+  },
+  {
+   "title": "Why AI Belongs In The First Mile Of A Purchase, Not The Last",
+   "url": "https://www.forbes.com/councils/forbestechcouncil/2026/10/28/why-ai-belongs-in-the-first-mile-of-a-purchase-not-the-last/",
+   "publisher": "Forbes",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Why AI Belongs In The First Mile Of A Purchase, Not The Last",
+   "note": "Context only on general AI insurance shopping trends."
+  },
+  {
+   "title": "Global UAV (Drone) Market Size, Share, and Forecast to 2031 | USD 83.51 Billion Opportunity Driven by AI-Enabled Autonomy, Defense Modernization, and Drone Logistics",
+   "url": "https://finance.yahoo.com/technology/ai/articles/global-uav-drone-market-size-150300871.html",
+   "publisher": "Yahoo Finance",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Global UAV (Drone) Market Size, Share, and Forecast to 2031",
+   "note": "Context only regarding long-term autonomous delivery trends affecting traditional last-mile fleets."
+  }
+ ],
+ "digest": "- FedEx reported 12% annual revenue growth in Q3, signaling strong parcel volume expansion that supports healthy operational activity and commercial auto exposure growth for underlying contractor fleets [1].\n- Corgi Insurance appointed Josh LaRiccia as Head of Distribution to expand its US presence and build partnerships with MGAs and wholesalers, marking a new channel competitor move [2]."
+}

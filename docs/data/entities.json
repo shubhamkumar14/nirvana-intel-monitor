@@ -480,14 +480,15 @@
  "Corgi Insurance": {
   "name": "Corgi Insurance",
   "first_seen": "2026-10-17T06:16:02Z",
-  "mentions": 3,
+  "mentions": 4,
   "event_ids": [
    "ev_38d65b7e5dbc",
    "ev_6f75294dc13b",
-   "ev_dd7451f4eee7"
+   "ev_dd7451f4eee7",
+   "ev_2825dd9cc824"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-28T07:30:24Z"
+  "last_seen": "2026-11-02T08:22:43Z"
  },
  "Inrix": {
   "name": "Inrix",
@@ -1035,12 +1036,13 @@
  "First Insurance": {
   "name": "First Insurance",
   "first_seen": "2026-10-27T18:58:56Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_6f75294dc13b"
+   "ev_6f75294dc13b",
+   "ev_2825dd9cc824"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-27T18:58:56Z"
+  "last_seen": "2026-11-02T08:22:43Z"
  },
  "Guidewire": {
   "name": "Guidewire",
