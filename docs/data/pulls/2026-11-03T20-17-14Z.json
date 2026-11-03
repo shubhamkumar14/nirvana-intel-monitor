@@ -1,0 +1,840 @@
+{
+ "run_id": "2026-11-03T20-17-14Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/41711121886",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-03",
+ "started": "2026-11-03T20:17:14Z",
+ "duration_s": 406.5,
+ "baseline": false,
+ "previous_run": "2026-11-03T08-38-10Z",
+ "previous_started": "2026-11-03T08:38:10Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 206,
+  "unique": 203,
+  "known_skipped": 117,
+  "attached_existing": 0,
+  "prefiltered_out": 75,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 10,
+  "irrelevant": 6,
+  "quarantined": 0,
+  "new_events": 4,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.2,
+  "dedup_ratio": 0.951,
+  "relevance_rate": 0.4
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 633
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 501
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 304
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 520
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 516
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 245
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 280
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 500
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 279
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 330
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 345
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 270
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 321
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 284
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 304
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 249
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 326
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 220
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 265
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 356
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 286
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 347
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 377
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 274
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 334
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 233
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 295
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 263
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 293
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 398
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 260
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 265
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 280
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 239
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1785
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 628
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 584
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 919
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 285
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 997
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2187
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 2271,
+  "output_tokens": 1507,
+  "calls": 2,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 2
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_63a6e4926fb7",
+   "title": "Delivery AI should earn its authority one segment at a time",
+   "url": "https://www.freightwaves.com/news/burq-earned-autonomy-delivery-ai",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "Burq CEO discusses scaling delivery automation gradually to build trust with retailers.",
+   "evidence_quote": "Delivery AI should earn its authority one segment at a time",
+   "companies": [
+    "Burq"
+   ],
+   "implication": "Context only",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-03T12:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-03T20:17:14Z",
+   "first_run": "2026-11-03T20-17-14Z",
+   "last_seen": "2026-11-03T20:17:14Z",
+   "last_updated_run": "2026-11-03T20-17-14Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "63a6e4926fb7"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/burq-earned-autonomy-delivery-ai",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-03T12:00:00Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 65.7,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.97,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_a1c3aa493d51",
+   "title": "FedEx Network 2.0 headed to Los Angeles, other markets post-holidays",
+   "url": "https://www.supplychaindive.com/news/fedex-network-20-headed-to-los-angeles-other-markets-post-holidays/873453/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "FedEx Network 2.0 integration is expanding to Los Angeles and other markets following the holidays.",
+   "evidence_quote": "FedEx Network 2.0 headed to Los Angeles, other markets post-holidays",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Context only",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-03T15:08:40Z",
+   "date_known": true,
+   "first_seen": "2026-11-03T20:17:14Z",
+   "first_run": "2026-11-03T20-17-14Z",
+   "last_seen": "2026-11-03T20:17:14Z",
+   "last_updated_run": "2026-11-03T20-17-14Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "a1c3aa493d51"
+   ],
+   "sources": [
+    {
+     "url": "https://www.supplychaindive.com/news/fedex-network-20-headed-to-los-angeles-other-markets-post-holidays/873453/",
+     "publisher": "Supply Chain Dive",
+     "publisher_key": "supply chain dive",
+     "published": "2026-11-03T15:08:40Z",
+     "tier": 2,
+     "source_id": "supplychaindive",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 63.9,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.98,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_648b215f2a2f",
+   "title": "Vertafore's New Velocity Change Request Agent Brings Speed and Insight to Drive MGA Growth",
+   "url": "https://www.prnewswire.com/news-releases/vertafores-new-velocity-change-request-agent-brings-speed-and-insight-to-drive-mga-growth-302928053.html",
+   "lane": "market_driver",
+   "event_type": "product_launch",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Vertafore launched an AI change request agent designed to accelerate MGA processing and underwriting capacity.",
+   "evidence_quote": "Vertafore's New Velocity Change Request Agent Brings Speed and Insight to Drive MGA Growth",
+   "companies": [
+    "Vertafore"
+   ],
+   "implication": "Context only",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-03T15:57:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-03T20:17:14Z",
+   "first_run": "2026-11-03T20-17-14Z",
+   "last_seen": "2026-11-03T20:17:14Z",
+   "last_updated_run": "2026-11-03T20-17-14Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "648b215f2a2f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/vertafores-new-velocity-change-request-agent-brings-speed-and-insight-to-drive-mga-growth-302928053.html",
+     "publisher": "PR Newswire - Insurance",
+     "publisher_key": "pr newswire - insurance",
+     "published": "2026-11-03T15:57:00Z",
+     "tier": 1,
+     "source_id": "prn_insurance",
+     "query": null
+    }
+   ],
+   "best_tier": 1,
+   "score": 57.7,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 0.98,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_03eb318b4161",
+   "title": "FedEx uses dedicated logistics teams to win aerospace, automotive business",
+   "url": "https://www.freightwaves.com/news/fedex-uses-dedicated-logistics-teams-to-win-aerospace-automotive-business",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "FedEx is using dedicated logistics teams to secure aerospace and automotive contracts.",
+   "evidence_quote": "FedEx uses dedicated logistics teams to win aerospace, automotive business",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-03T16:56:02Z",
+   "date_known": true,
+   "first_seen": "2026-11-03T20:17:14Z",
+   "first_run": "2026-11-03T20-17-14Z",
+   "last_seen": "2026-11-03T20:17:14Z",
+   "last_updated_run": "2026-11-03T20-17-14Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "03eb318b4161"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/fedex-uses-dedicated-logistics-teams-to-win-aerospace-automotive-business",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-03T16:56:02Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 54.0,
+   "age_days": 0.1,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.99,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Latam Cargo airlifts armored vehicles to Peru for Pope Leo visit",
+   "url": "https://www.freightwaves.com/news/latam-cargo-airlifts-armored-vehicles-to-peru-for-pope-leo-visit",
+   "publisher": "FreightWaves",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Latam Cargo airlifts armored vehicles to Peru for Pope Leo visit",
+   "note": "Latam Cargo transported two armored vehicles to Peru."
+  },
+  {
+   "title": "CrowdStrike to shell out nearly $500M for 2 AI security startups as the market for securing agents takes off",
+   "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "CrowdStrike to shell out nearly $500M for 2 AI security startups",
+   "note": "CrowdStrike is acquiring two AI security startups, Fiddler AI and Dreadnode, for nearly $500 million."
+  },
+  {
+   "title": "FedEx uses dedicated logistics teams to win aerospace, automotive business",
+   "url": "https://www.freightwaves.com/news/fedex-uses-dedicated-logistics-teams-to-win-aerospace-automotive-business",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FedEx uses dedicated logistics teams to win aerospace, automotive business",
+   "note": "Context only"
+  },
+  {
+   "title": "People Moves: Specialty Program Group Adds Dearing as SVP of SPG ExecuPro",
+   "url": "https://www.insurancejournal.com/news/midwest/2026/11/03/891357.htm",
+   "publisher": "Insurance Journal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Specialty Program Group Adds Dearing as SVP of SPG ExecuPro",
+   "note": "Specialty Program Group added Victoria Dearing as senior vice president."
+  },
+  {
+   "title": "Vertafore's New Velocity Change Request Agent Brings Speed and Insight to Drive MGA Growth",
+   "url": "https://www.prnewswire.com/news-releases/vertafores-new-velocity-change-request-agent-brings-speed-and-insight-to-drive-mga-growth-302928053.html",
+   "publisher": "PR Newswire - Insurance",
+   "lane": "market_driver",
+   "event_type": "product_launch",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Vertafore's New Velocity Change Request Agent Brings Speed and Insight to Drive MGA Growth",
+   "note": "Context only"
+  },
+  {
+   "title": "FedEx Network 2.0 headed to Los Angeles, other markets post-holidays",
+   "url": "https://www.supplychaindive.com/news/fedex-network-20-headed-to-los-angeles-other-markets-post-holidays/873453/",
+   "publisher": "Supply Chain Dive",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FedEx Network 2.0 headed to Los Angeles, other markets post-holidays",
+   "note": "Context only"
+  },
+  {
+   "title": "Specialty Program Group Strengthens Wholesale Professional Liability Expertise with Appointment of Victoria Dearing",
+   "url": "https://www.prnewswire.com/news-releases/specialty-program-group-strengthens-wholesale-professional-liability-expertise-with-appointment-of-victoria-dearing-302927065.html",
+   "publisher": "PR Newswire - Insurance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Specialty Program Group Strengthens Wholesale Professional Liability Expertise",
+   "note": "Specialty Program Group appointed Victoria Dearing to expand professional liability expertise."
+  },
+  {
+   "title": "Delivery AI should earn its authority one segment at a time",
+   "url": "https://www.freightwaves.com/news/burq-earned-autonomy-delivery-ai",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Delivery AI should earn its authority one segment at a time",
+   "note": "Context only"
+  },
+  {
+   "title": "Best Luxury Car Insurance Companies Of 2026",
+   "url": "https://www.forbes.com/advisor/car-insurance/best-luxury-car-insurance/",
+   "publisher": "Forbes",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Best Luxury Car Insurance Companies Of 2026",
+   "note": "Forbes published a guide on luxury car insurance companies for 2026."
+  },
+  {
+   "title": "Best Short-Term Health Insurance Companies Of 2026",
+   "url": "https://www.forbes.com/advisor/health-insurance/best-short-term-health-insurance/",
+   "publisher": "Forbes",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Best Short-Term Health Insurance Companies Of 2026",
+   "note": "Forbes published a guide regarding short-term health insurance options."
+  }
+ ],
+ "digest": "- Vertafore launched an AI change request agent designed to accelerate MGA processing and underwriting capacity [3]. This matters because it directly supports our operational scaling and underwriting speed as a telematics-based commercial auto MGA entering the market [3]."
+}
