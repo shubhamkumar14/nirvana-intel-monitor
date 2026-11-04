@@ -388,13 +388,14 @@
  "Vertafore": {
   "name": "Vertafore",
   "first_seen": "2026-10-16T18:03:58Z",
-  "mentions": 2,
+  "mentions": 3,
   "event_ids": [
    "ev_e3a0f92aa34a",
-   "ev_790254fd3ac5"
+   "ev_790254fd3ac5",
+   "ev_019f86091c61"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-20T18:06:58Z"
+  "last_seen": "2026-11-04T20:33:03Z"
  },
  "Evri": {
   "name": "Evri",
@@ -1108,13 +1109,14 @@
  "The Hartford": {
   "name": "The Hartford",
   "first_seen": "2026-10-28T07:30:24Z",
-  "mentions": 2,
+  "mentions": 3,
   "event_ids": [
    "ev_b6467d403538",
-   "ev_86f2d970ae5a"
+   "ev_86f2d970ae5a",
+   "ev_c7d3c83c341e"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-30T07:44:49Z"
+  "last_seen": "2026-11-04T20:33:03Z"
  },
  "Hartford Funds": {
   "name": "Hartford Funds",
@@ -1239,12 +1241,13 @@
  "Ryan Specialty Holdings": {
   "name": "Ryan Specialty Holdings",
   "first_seen": "2026-10-30T07:44:49Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_c5b3ff5c575b"
+   "ev_c5b3ff5c575b",
+   "ev_61a705c55b06"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-30T07:44:49Z"
+  "last_seen": "2026-11-04T20:33:03Z"
  },
  "WTW": {
   "name": "WTW",
@@ -1416,5 +1419,35 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-02T22:28:13Z"
+ },
+ "Keynova Group": {
+  "name": "Keynova Group",
+  "first_seen": "2026-11-04T20:33:03Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_c7d3c83c341e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-04T20:33:03Z"
+ },
+ "United Fire Gr": {
+  "name": "United Fire Gr",
+  "first_seen": "2026-11-04T20:33:03Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_58e6eb057d51"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-04T20:33:03Z"
+ },
+ "Anchor General Insurance Company": {
+  "name": "Anchor General Insurance Company",
+  "first_seen": "2026-11-04T20:33:03Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_fbb150230d2e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-04T20:33:03Z"
  }
 }
