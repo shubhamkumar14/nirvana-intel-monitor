@@ -1449,5 +1449,65 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-04T20:33:03Z"
+ },
+ "UFG": {
+  "name": "UFG",
+  "first_seen": "2026-11-05T08:34:16Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_a49655126757"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-05T08:34:16Z"
+ },
+ "UFCS": {
+  "name": "UFCS",
+  "first_seen": "2026-11-05T08:34:16Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_a49655126757"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-05T08:34:16Z"
+ },
+ "HDI Global": {
+  "name": "HDI Global",
+  "first_seen": "2026-11-05T08:34:16Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9b00eb655377"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-05T08:34:16Z"
+ },
+ "HIVE Underwriters": {
+  "name": "HIVE Underwriters",
+  "first_seen": "2026-11-05T08:34:16Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9b00eb655377"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-05T08:34:16Z"
+ },
+ "Folgate Underwriting": {
+  "name": "Folgate Underwriting",
+  "first_seen": "2026-11-05T08:34:16Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9b00eb655377"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-05T08:34:16Z"
+ },
+ "American Financial": {
+  "name": "American Financial",
+  "first_seen": "2026-11-05T08:34:16Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_5dfda64a7302"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-05T08:34:16Z"
  }
 }

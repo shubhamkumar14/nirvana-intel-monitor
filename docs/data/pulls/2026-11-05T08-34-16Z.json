@@ -1,0 +1,2070 @@
+{
+ "run_id": "2026-11-05T08-34-16Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/41995479549",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-05",
+ "started": "2026-11-05T08:34:16Z",
+ "duration_s": 347.9,
+ "baseline": false,
+ "previous_run": "2026-11-04T20-33-03Z",
+ "previous_started": "2026-11-04T20:33:03Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 360,
+  "unique": 347,
+  "known_skipped": 263,
+  "attached_existing": 2,
+  "prefiltered_out": 41,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 41,
+  "irrelevant": 22,
+  "quarantined": 0,
+  "new_events": 18,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.7,
+  "dedup_ratio": 0.882,
+  "relevance_rate": 0.439
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 481
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 440
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 99
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 131
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 258
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 39
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 182
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 114
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 89
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 513
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 162
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 197
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 165
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 133
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 147
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 151
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 221
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 161
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 176
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 200
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 143
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 169
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 176
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 171
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 252
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 166
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 178
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 45
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 213
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1229
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 676
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 369
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 107
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 747
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2530
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 8414,
+  "output_tokens": 6063,
+  "calls": 4,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 4
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_cedc8afbc0c1",
+   "title": "Threat or benefit: Why NYC’s Delivery Protection Act has people taking sides",
+   "url": "https://amsterdamnews.com/news/2026/11/05/why-nycs-delivery-protection-act-has-people-taking-sides/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.8,
+   "summary": "New York City's proposed Delivery Protection Act generates debate among stakeholders regarding delivery workers.",
+   "evidence_quote": "Threat or benefit: Why NYC’s Delivery Protection Act has people taking sides",
+   "companies": [],
+   "implication": "Monitor municipal delivery worker legislation for potential impacts on courier operating models and commercial auto exposures in key urban markets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-04T15:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "cedc8afbc0c1"
+   ],
+   "sources": [
+    {
+     "url": "https://amsterdamnews.com/news/2026/11/05/why-nycs-delivery-protection-act-has-people-taking-sides/",
+     "publisher": "Amsterdam News",
+     "publisher_key": "amsterdam news",
+     "published": "2026-11-04T15:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon DSP delivery contractors"
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_6da6aeafafa2",
+   "title": "Correos Express is looking for a new logistics warehouse in Alicante to handle 28.000 shipments daily.",
+   "url": "https://diariodealicante.net/en/Correos-Express-new-logistics-warehouse-Alicante/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Correos Express is seeking a new logistics warehouse in Alicante to handle high daily shipment volumes.",
+   "evidence_quote": "Correos Express is looking for a new logistics warehouse in Alicante to handle 28.000 shipments daily.",
+   "companies": [
+    "Correos Express"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-03T02:06:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "6da6aeafafa2"
+   ],
+   "sources": [
+    {
+     "url": "https://diariodealicante.net/en/Correos-Express-new-logistics-warehouse-Alicante/",
+     "publisher": "Diario de Alicante",
+     "publisher_key": "diario de alicante",
+     "published": "2026-11-03T02:06:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 61.5,
+   "age_days": 2.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.8,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_bf493fb39696",
+   "title": "AIG “a little worried” about MGA – insurer alignment. Sees reinsurance opportunities: CEO Andersen",
+   "url": "https://www.artemis.bm/news/aig-a-little-worried-about-mga-insurer-alignment-sees-reinsurance-opportunities-ceo-andersen/?utm_source=rss&utm_medium=rss&utm_campaign=aig-a-little-worried-about-mga-insurer-alignment-sees-reinsurance-opportunities-ceo-andersen",
+   "lane": "market_driver",
+   "event_type": "leadership",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.1,
+   "summary": "AIG CEO Eric Andersen expressed concern regarding insurer-MGA alignment as excess and surplus lines become more competitive.",
+   "evidence_quote": "AIG “a little worried” about MGA – insurer alignment. Sees reinsurance opportunities",
+   "companies": [
+    "AIG"
+   ],
+   "implication": "Reinforces the importance of strong carrier-MGA alignment for capacity partners supporting Nirvana's last-mile commercial auto products.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-04T16:10:28Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "bf493fb39696"
+   ],
+   "sources": [
+    {
+     "url": "https://www.artemis.bm/news/aig-a-little-worried-about-mga-insurer-alignment-sees-reinsurance-opportunities-ceo-andersen/?utm_source=rss&utm_medium=rss&utm_campaign=aig-a-little-worried-about-mga-insurer-alignment-sees-reinsurance-opportunities-ceo-andersen",
+     "publisher": "Artemis",
+     "publisher_key": "artemis",
+     "published": "2026-11-04T16:10:28Z",
+     "tier": 2,
+     "source_id": "artemis",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 60.3,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.93,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_bbf3afb6eb95",
+   "title": "Transportation committee in House set for overhaul post-election",
+   "url": "https://www.freightwaves.com/news/transportation-committee-in-house-set-for-overhaul-post-election",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Post-election shifts in the House transportation committee will influence federal trucking rules and highway legislation.",
+   "evidence_quote": "Transportation committee in House set for overhaul post-election",
+   "companies": [],
+   "implication": "Context only regarding federal regulatory shifts for commercial transport.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-05T00:29:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "bbf3afb6eb95"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/transportation-committee-in-house-set-for-overhaul-post-election",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-05T00:29:00Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    },
+    {
+     "url": "https://www.yahoo.com/news/politics/articles/transportation-committee-house-set-overhaul-002900933.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-11-04T16:29:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 2,
+   "score": 56.8,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.97,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "trade press, 2 independent publishers"
+  },
+  {
+   "id": "ev_355948de254a",
+   "title": "Brown & Brown: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.fool.com/earnings/takeaways/2026/11/04/brown-brown-3-key-takeaways-for-long-term-investors/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Brown & Brown faces organic growth pressures as admitted carriers enter specialty lines.",
+   "evidence_quote": "Brown & Brown: 3 Key Takeaways for Long-Term Investors",
+   "companies": [
+    "Brown & Brown"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [
+    "Risk Strategies / Brown & Brown"
+   ],
+   "published": "2026-11-04T14:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "355948de254a"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fool.com/earnings/takeaways/2026/11/04/brown-brown-3-key-takeaways-for-long-term-investors/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-11-04T14:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 54.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.75,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9f4e0526608a",
+   "title": "DoorDash’s Instacart Deal Pushes Delivery Platforms Further Into Commerce",
+   "url": "https://wersm.com/doordash-instacart-deal-delivery-platforms-commerce/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "DoorDash is expanding further into grocery and logistics through a reported major acquisition.",
+   "evidence_quote": "DoorDash’s Instacart Deal Pushes Delivery Platforms Further Into Commerce",
+   "companies": [
+    "DoorDash",
+    "Instacart"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T15:18:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "9f4e0526608a"
+   ],
+   "sources": [
+    {
+     "url": "https://wersm.com/doordash-instacart-deal-delivery-platforms-commerce/",
+     "publisher": "wersm",
+     "publisher_key": "wersm",
+     "published": "2026-11-04T15:18:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_656f1865a7d8",
+   "title": "Aon lifts client treaty share to 35% as follow facilities expand",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/aon-lifts-client-treaty-share-to-35-as-follow-facilities-expand-596239.aspx",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Aon has expanded its reinsurance facility share, increasing specialty placement capacity.",
+   "evidence_quote": "Aon lifts client treaty share to 35% as follow facilities expand",
+   "companies": [
+    "Aon",
+    "QBE"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T14:12:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "656f1865a7d8"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/aon-lifts-client-treaty-share-to-35-as-follow-facilities-expand-596239.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-04T14:12:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.2,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.93,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_9b00eb655377",
+   "title": "Insurance moves: HDI Global, HIVE Underwriters, Folgate Underwriting and others",
+   "url": "https://www.insurancebusinessmag.com/uk/news/breaking-news/insurance-moves-hdi-global-hive-underwriters-folgate-underwriting-and-others-596234.aspx",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Insurance industry appointments cover transactional risk broking, political violence underwriting, and MGA property capacity.",
+   "evidence_quote": "Insurance moves: HDI Global, HIVE Underwriters, Folgate Underwriting and others",
+   "companies": [
+    "HDI Global",
+    "HIVE Underwriters",
+    "Folgate Underwriting"
+   ],
+   "implication": "Context only regarding broader MGA executive talent movements.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T15:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "9b00eb655377"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/uk/news/breaking-news/insurance-moves-hdi-global-hive-underwriters-folgate-underwriting-and-others-596234.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-04T15:59:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 2,
+   "score": 50.3,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.93,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_1fe895f419e6",
+   "title": "Kemper stock: Q3 profit outlook leaves auto recovery unfinished",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kemper-stock-q3-profit-outlook-leaves-auto-recovery-unfinished/70460482",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Kemper projects a return to profit, but Specialty Auto still posted an underlying underwriting loss.",
+   "evidence_quote": "Kemper stock: Q3 profit outlook leaves auto recovery unfinished",
+   "companies": [
+    "Kemper"
+   ],
+   "implication": "Highlights ongoing profitability pressures in specialty auto lines that can affect commercial auto risk appetite.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-04T19:27:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "1fe895f419e6"
+   ],
+   "sources": [
+    {
+     "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kemper-stock-q3-profit-outlook-leaves-auto-recovery-unfinished/70460482",
+     "publisher": "Ad Hoc News",
+     "publisher_key": "ad hoc news",
+     "published": "2026-11-04T19:27:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_d7f042dda9e7",
+   "title": "United Fire Group outlines ~10% growth pace as it sees ~0.5-point expense ratio improvement potential",
+   "url": "https://seekingalpha.com/news/4665996-united-fire-group-outlines-10-percent-growth-pace-as-it-sees-0_5-point-expense-ratio",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "United Fire Group outlines growth pace and potential expense ratio improvements.",
+   "evidence_quote": "United Fire Group outlines ~10% growth pace as it sees ~0.5-point expense ratio improvement potential",
+   "companies": [
+    "United Fire Group"
+   ],
+   "implication": "Context only for commercial lines pricing trends.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T15:55:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "d7f042dda9e7"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/news/4665996-united-fire-group-outlines-10-percent-growth-pace-as-it-sees-0_5-point-expense-ratio",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-11-04T15:55:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_67ea44de5395",
+   "title": "It’s the economy, stupid: Gas prices, tariffs, the Iran war... Trump ignored Americans’ real pain. Now he’s paid the price",
+   "url": "https://www.yahoo.com/news/politics/articles/economy-stupid-gas-prices-tariffs-225220533.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "US voters express frustration over soaring gas prices, inflation, and tariffs.",
+   "evidence_quote": "Gas prices, tariffs, the Iran war",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T14:52:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "67ea44de5395"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/politics/articles/economy-stupid-gas-prices-tariffs-225220533.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-11-04T14:52:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f896d18a6b52",
+   "title": "U.S. Midterm Results Show Economy, Such as Shoe Prices, is Top of Mind",
+   "url": "https://www.msn.com/en-us/news/other/us-midterm-results-show-economy-such-as-shoe-prices-is-top-of-mind/ar-AA2gLECl",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "US midterm election results highlight consumer concerns over inflation and tariffs raising basics costs.",
+   "evidence_quote": "U.S. 2026 midterm election results show that consumers remained focused on the economy",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T12:19:26Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "f896d18a6b52"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/us-midterm-results-show-economy-such-as-shoe-prices-is-top-of-mind/ar-AA2gLECl",
+     "publisher": "Footwear News on MSN",
+     "publisher_key": "footwear news on msn",
+     "published": "2026-11-04T12:19:26Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.3,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a49655126757",
+   "title": "UFG保险 (UFCS) 2026年第三季度业绩电话会: 保费增长与94.6%综合成本率",
+   "url": "https://www.tradingkey.com/zh-hans/news/transcripts/262280215-",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "UFG reported core commercial insurance premium growth and tighter risk underwriting frameworks.",
+   "evidence_quote": "UFG保险 (UFCS) 2026年第三季度业绩电话会: 保费增长与94.6%综合成本率",
+   "companies": [
+    "UFG",
+    "UFCS"
+   ],
+   "implication": "Context only regarding traditional commercial lines underwriting tightening.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T16:19:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "a49655126757"
+   ],
+   "sources": [
+    {
+     "url": "https://www.tradingkey.com/zh-hans/news/transcripts/262280215-",
+     "publisher": "tradingkey",
+     "publisher_key": "tradingkey",
+     "published": "2026-11-04T16:19:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_375bea2d7aa1",
+   "title": "DoorDash Plans to Buy Instacart for $17B: What That Means for Consumers, Grocers and Delivery Workers",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-plans-buy-instacart-17b-154930089.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "DoorDash is reportedly offering to acquire Instacart for $17 billion, potentially consolidating major last-mile delivery and gig platforms.",
+   "evidence_quote": "DoorDash Plans to Buy Instacart for $17B: What That Means for Consumers, Grocers and Delivery Workers",
+   "companies": [
+    "DoorDash",
+    "Instacart"
+   ],
+   "implication": "Platform consolidation could affect delivery volume concentrations and risk profiles for gig and courier segments; monitor for integration changes impacting commercial auto coverage needs.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-10-29T08:49:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "375bea2d7aa1"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-plans-buy-instacart-17b-154930089.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-10-29T08:49:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 43.0,
+   "age_days": 7.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.5,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_98ede240ca32",
+   "title": "China ties U.S. farm import increase to reciprocal tariff cuts",
+   "url": "https://tradersunion.com/news/geopolitics-trade/show/4105604-china-us-farm-import-tariffs/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "China ties U.S. farm import increases to reciprocal tariff cuts.",
+   "evidence_quote": "China ties U.S. farm import increase to reciprocal tariff cuts",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T15:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "98ede240ca32"
+   ],
+   "sources": [
+    {
+     "url": "https://tradersunion.com/news/geopolitics-trade/show/4105604-china-us-farm-import-tariffs/",
+     "publisher": "tradersunion",
+     "publisher_key": "tradersunion",
+     "published": "2026-11-04T15:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_92b693d18114",
+   "title": "Kinaxis Inc. Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026",
+   "url": "https://www.marketscreener.com/news/kinaxis-inc-reports-earnings-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-ce785fdfd08ff421",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Kinaxis reported financial results for the third quarter of 2026.",
+   "evidence_quote": "Kinaxis Inc. Reports Earnings Results for the Third Quarter",
+   "companies": [
+    "Kinaxis Inc."
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T01:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "92b693d18114"
+   ],
+   "sources": [
+    {
+     "url": "https://www.marketscreener.com/news/kinaxis-inc-reports-earnings-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-ce785fdfd08ff421",
+     "publisher": "MarketScreener",
+     "publisher_key": "marketscreener",
+     "published": "2026-11-04T01:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.7,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_921a54e4716c",
+   "title": "Frustrated Trump is looking for a target – and Iran tops the list (again)",
+   "url": "https://inews.co.uk/news/world/frustrated-trump-looking-target-iran-tops-list-4871831?ico=in-line_link",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Political commentary regarding US policy options concerning Iran following midterms.",
+   "evidence_quote": "Frustrated Trump is looking for a target – and Iran tops the list",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-03T22:43:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "921a54e4716c"
+   ],
+   "sources": [
+    {
+     "url": "https://inews.co.uk/news/world/frustrated-trump-looking-target-iran-tops-list-4871831?ico=in-line_link",
+     "publisher": "inews.co.uk",
+     "publisher_key": "inews.co.uk",
+     "published": "2026-11-03T22:43:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.5,
+   "age_days": 1.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.87,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5dfda64a7302",
+   "title": "American Financial (AFG) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-afg-q3-2026-210325868.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "American Financial Group held its Q3 2026 earnings call.",
+   "evidence_quote": "American Financial (AFG) Q3 2026 Earnings Call Transcript",
+   "companies": [
+    "American Financial"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T13:02:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-05T08:34:16Z",
+   "first_run": "2026-11-05T08-34-16Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "5dfda64a7302"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-afg-q3-2026-210325868.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-04T13:02:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.3,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_d9b3be535e35",
+   "title": "DoorDash: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.msn.com/en-us/money/general/doordash-3-key-takeaways-for-long-term-investors/ar-AA2gnEPn",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "DoorDash focuses on reinvesting in product and logistics infrastructure to drive long-term returns.",
+   "evidence_quote": "DoorDash: 3 Key Takeaways for Long-Term Investors",
+   "companies": [
+    "DoorDash"
+   ],
+   "implication": "Context only on gig economy delivery platform reinvestment strategies.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-10-29T19:58:24Z",
+   "date_known": true,
+   "first_seen": "2026-11-02T08:22:43Z",
+   "first_run": "2026-11-02T08-22-43Z",
+   "last_seen": "2026-11-05T08:34:16Z",
+   "last_updated_run": "2026-11-05T08-34-16Z",
+   "update_note": "New corroborating source: The Motley Fool",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "d9b3be535e35",
+    "dd7eb367c7e8"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/general/doordash-3-key-takeaways-for-long-term-investors/ar-AA2gnEPn",
+     "publisher": "The Motley Fool on MSN",
+     "publisher_key": "the motley fool on msn",
+     "published": "2026-10-29T19:58:24Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    },
+    {
+     "url": "https://www.fool.com/earnings/takeaways/2026/11/04/coupang-3-key-takeaways-for-long-term-investors/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-11-03T20:08:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.4,
+   "age_days": 6.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.52,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Is the personal information of users who have withdrawn still remaining? 12 data deletion and isolation measures that Web service operating companies should review",
+   "url": "https://note.com/selvanakayama/n/n7f2457e6afa8?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Is the personal information of users who have withdrawn still remaining? 12 data deletion and isolation measures that Web service operating companies should review",
+   "note": "Article discusses data deletion and isolation measures for Web service companies following information leaks."
+  },
+  {
+   "title": "Transportation committee in House set for overhaul post-election",
+   "url": "https://www.freightwaves.com/news/transportation-committee-in-house-set-for-overhaul-post-election",
+   "publisher": "FreightWaves",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Transportation committee in House set for overhaul post-election",
+   "note": "Context only regarding federal regulatory shifts for commercial transport."
+  },
+  {
+   "title": "Autohome Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/autohome-q3-earnings-call-highlights-081422898.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Autohome Q3 Earnings Call Highlights",
+   "note": "Autohome reported Q3 2026 revenue with lower operating profit and adjusted net income."
+  },
+  {
+   "title": "Luckin Coffee Q3 2026: Why I'm Staying On The Sidelines Despite A Strong Beat",
+   "url": "https://seekingalpha.com/article/4962779-luckin-coffee-q3-2026-why-im-staying-on-the-sidelines-despite-a-strong-beat",
+   "publisher": "Seeking Alpha",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Luckin Coffee Q3 2026: Why I'm Staying On The Sidelines Despite A Strong Beat",
+   "note": "Luckin Coffee reported Q3 2026 results with in-line revenue and a non-GAAP EPS beat."
+  },
+  {
+   "title": "Elections 2026 | Mandla Msibi’s SDP threatens to dethrone ANC in Victor Khanye",
+   "url": "https://sundayworld.co.za/news/elections-2026-mandla-msibis-sdp-threatens-to-dethrone-anc-in-victor-khanye/",
+   "publisher": "Sunday World",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Elections 2026 | Mandla Msibi’s SDP threatens to dethrone ANC in Victor Khanye",
+   "note": "Local municipal election updates in South Africa involving Mandla Msibi's Service Delivery Party."
+  },
+  {
+   "title": "An Post announce final dates for deliveries ahead of Christmas 2026",
+   "url": "https://www.msn.com/en-ie/news/other/an-post-announce-final-dates-for-deliveries-ahead-of-christmas-2026/ar-AA2gNbCK",
+   "publisher": "Dublin Live on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "An Post announce final dates for deliveries ahead of Christmas 2026",
+   "note": "An Post announces final delivery dates for Christmas 2026 in Ireland."
+  },
+  {
+   "title": "Russia attacks energy infrastructure and delivery service warehouse in Odesa Oblast",
+   "url": "https://www.yahoo.com/news/world/articles/russia-attacks-energy-infrastructure-delivery-073200498.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Russia attacks energy infrastructure and delivery service warehouse in Odesa Oblast",
+   "note": "Russian attacks target energy infrastructure and a delivery service warehouse in Odesa Oblast."
+  },
+  {
+   "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+   "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+   "note": "Review of AI industry PAC spending in the 2026 midterms."
+  },
+  {
+   "title": "Remitly Global Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/remitly-global-q3-earnings-call-051449138.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Remitly Global Q3 Earnings Call Highlights",
+   "note": "Remitly Global reported record Q3 revenue and adjusted earnings."
+  },
+  {
+   "title": "Alaskans wait for more votes in US Senate and governor’s races, with both still undecided",
+   "url": "https://www.chicagotribune.com/2026/11/04/alaska-senate-governor-races/",
+   "publisher": "Chicago Tribune",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Alaskans wait for more votes in US Senate and governor’s races, with both still undecided",
+   "note": "Alaska awaits election results for U.S. Senate and governor races."
+  },
+  {
+   "title": "Kemper stock: Q3 profit outlook leaves auto recovery unfinished",
+   "url": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/kemper-stock-q3-profit-outlook-leaves-auto-recovery-unfinished/70460482",
+   "publisher": "Ad Hoc News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kemper stock: Q3 profit outlook leaves auto recovery unfinished",
+   "note": "Highlights ongoing profitability pressures in specialty auto lines that can affect commercial auto risk appetite."
+  },
+  {
+   "title": "Transportation committee in House set for overhaul post-election",
+   "url": "https://www.yahoo.com/news/politics/articles/transportation-committee-house-set-overhaul-002900933.html",
+   "publisher": "Yahoo",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "merged into existing event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Transportation committee in House set for overhaul post-election",
+   "note": "ev_bbf3afb6eb95"
+  },
+  {
+   "title": "UFG保险 (UFCS) 2026年第三季度业绩电话会: 保费增长与94.6%综合成本率",
+   "url": "https://www.tradingkey.com/zh-hans/news/transcripts/262280215-",
+   "publisher": "tradingkey",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UFG保险 (UFCS) 2026年第三季度业绩电话会: 保费增长与94.6%综合成本率",
+   "note": "Context only regarding traditional commercial lines underwriting tightening."
+  },
+  {
+   "title": "AIG “a little worried” about MGA – insurer alignment. Sees reinsurance opportunities: CEO Andersen",
+   "url": "https://www.artemis.bm/news/aig-a-little-worried-about-mga-insurer-alignment-sees-reinsurance-opportunities-ceo-andersen/?utm_source=rss&utm_medium=rss&utm_campaign=aig-a-little-worried-about-mga-insurer-alignment-sees-reinsurance-opportunities-ceo-andersen",
+   "publisher": "Artemis",
+   "lane": "market_driver",
+   "event_type": "leadership",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AIG “a little worried” about MGA – insurer alignment. Sees reinsurance opportunities",
+   "note": "Reinforces the importance of strong carrier-MGA alignment for capacity partners supporting Nirvana's last-mile commercial auto products."
+  },
+  {
+   "title": "JONATHAN GOLDBERG | Redeploy before you retrench",
+   "url": "https://www.businessday.co.za/opinion/2026-11-05-jonathan-goldberg-redeploy-before-you-retrench/",
+   "publisher": "Sasfin Bank",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "JONATHAN GOLDBERG | Redeploy before you retrench",
+   "note": "Commentary on employment law and AI-driven job cuts in South Africa."
+  },
+  {
+   "title": "Insurance moves: HDI Global, HIVE Underwriters, Folgate Underwriting and others",
+   "url": "https://www.insurancebusinessmag.com/uk/news/breaking-news/insurance-moves-hdi-global-hive-underwriters-folgate-underwriting-and-others-596234.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Insurance moves: HDI Global, HIVE Underwriters, Folgate Underwriting and others",
+   "note": "Context only regarding broader MGA executive talent movements."
+  },
+  {
+   "title": "‘Most unlikely no ball I've ever seen’: Cricket fans stunned as super over denied in 'brutal' finish to Renegades-Hurricanes WBBL clash",
+   "url": "https://sports.yahoo.com/articles/most-unlikely-no-ball-ive-003000612.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "‘Most unlikely no ball I've ever seen’",
+   "note": "Cricket match finish results in a win for the Melbourne Renegades."
+  },
+  {
+   "title": "Threat or benefit: Why NYC’s Delivery Protection Act has people taking sides",
+   "url": "https://amsterdamnews.com/news/2026/11/05/why-nycs-delivery-protection-act-has-people-taking-sides/",
+   "publisher": "Amsterdam News",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Threat or benefit: Why NYC’s Delivery Protection Act has people taking sides",
+   "note": "Monitor municipal delivery worker legislation for potential impacts on courier operating models and commercial auto exposures in key urban markets."
+  },
+  {
+   "title": "China ties U.S. farm import increase to reciprocal tariff cuts",
+   "url": "https://tradersunion.com/news/geopolitics-trade/show/4105604-china-us-farm-import-tariffs/",
+   "publisher": "tradersunion",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "China ties U.S. farm import increase to reciprocal tariff cuts",
+   "note": "Context only."
+  },
+  {
+   "title": "United Fire Group outlines ~10% growth pace as it sees ~0.5-point expense ratio improvement potential",
+   "url": "https://seekingalpha.com/news/4665996-united-fire-group-outlines-10-percent-growth-pace-as-it-sees-0_5-point-expense-ratio",
+   "publisher": "Seeking Alpha",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "United Fire Group outlines ~10% growth pace as it sees ~0.5-point expense ratio improvement potential",
+   "note": "Context only for commercial lines pricing trends."
+  },
+  {
+   "title": "DoorDash’s Instacart Deal Pushes Delivery Platforms Further Into Commerce",
+   "url": "https://wersm.com/doordash-instacart-deal-delivery-platforms-commerce/",
+   "publisher": "wersm",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DoorDash’s Instacart Deal Pushes Delivery Platforms Further Into Commerce",
+   "note": "Context only."
+  },
+  {
+   "title": "It’s the economy, stupid: Gas prices, tariffs, the Iran war... Trump ignored Americans’ real pain. Now he’s paid the price",
+   "url": "https://www.yahoo.com/news/politics/articles/economy-stupid-gas-prices-tariffs-225220533.html",
+   "publisher": "Yahoo",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Gas prices, tariffs, the Iran war",
+   "note": "Context only."
+  },
+  {
+   "title": "Aon lifts client treaty share to 35% as follow facilities expand",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/aon-lifts-client-treaty-share-to-35-as-follow-facilities-expand-596239.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Aon lifts client treaty share to 35% as follow facilities expand",
+   "note": "Context only."
+  },
+  {
+   "title": "Brown & Brown: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.fool.com/earnings/takeaways/2026/11/04/brown-brown-3-key-takeaways-for-long-term-investors/",
+   "publisher": "The Motley Fool",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Brown & Brown: 3 Key Takeaways for Long-Term Investors",
+   "note": "Context only."
+  },
+  {
+   "title": "American Financial (AFG) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/american-financial-afg-q3-2026-210325868.html",
+   "publisher": "Yahoo Finance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "American Financial (AFG) Q3 2026 Earnings Call Transcript",
+   "note": "Context only."
+  },
+  {
+   "title": "U.S. Midterm Results Show Economy, Such as Shoe Prices, is Top of Mind",
+   "url": "https://www.msn.com/en-us/news/other/us-midterm-results-show-economy-such-as-shoe-prices-is-top-of-mind/ar-AA2gLECl",
+   "publisher": "Footwear News on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "U.S. 2026 midterm election results show that consumers remained focused on the economy",
+   "note": "Context only."
+  },
+  {
+   "title": "Variety’s 10 Comics to Watch for 2026",
+   "url": "https://variety.com/lists/variety-10-comics-to-watch-2026/",
+   "publisher": "Variety",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Variety’s 10 Comics to Watch for 2026",
+   "note": "Variety magazine published its list of comics to watch for 2026."
+  },
+  {
+   "title": "The best ride-share insurance companies of 2026",
+   "url": "https://www.cnbc.com/select/best-rideshare-insurance-companies/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The best ride-share insurance companies of 2026",
+   "note": "Review of the best ride-share insurance options for drivers facing high gas prices."
+  },
+  {
+   "title": "Syracuse Football: notes from Fran Brown’s weekly press conference",
+   "url": "https://sports.yahoo.com/articles/syracuse-football-notes-fran-brown-170000294.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Syracuse Football: notes from Fran Brown’s weekly press conference",
+   "note": "Syracuse football press conference notes following a game win."
+  },
+  {
+   "title": "LeBron James reveals the biggest difference between scouting him now and in his prime: \"I don't have to force the action\"",
+   "url": "https://sports.yahoo.com/articles/lebron-james-reveals-biggest-difference-144900805.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "LeBron James reveals the biggest difference between scouting him now and in his prime",
+   "note": "LeBron James comments on his role with the Philadelphia 76ers."
+  },
+  {
+   "title": "TrueNorth IT",
+   "url": "https://github.com/TrueNorthIT",
+   "publisher": "GitHub",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "TrueNorth IT",
+   "note": "GitHub repository listing for an Azure DevOps extension called TrueNorth IT."
+  },
+  {
+   "title": "Kinaxis Inc. Reports Earnings Results for the Third Quarter and Nine Months Ended September 30, 2026",
+   "url": "https://www.marketscreener.com/news/kinaxis-inc-reports-earnings-results-for-the-third-quarter-and-nine-months-ended-september-30-2026-ce785fdfd08ff421",
+   "publisher": "MarketScreener",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kinaxis Inc. Reports Earnings Results for the Third Quarter",
+   "note": "Context only."
+  },
+  {
+   "title": "Frustrated Trump is looking for a target – and Iran tops the list (again)",
+   "url": "https://inews.co.uk/news/world/frustrated-trump-looking-target-iran-tops-list-4871831?ico=in-line_link",
+   "publisher": "inews.co.uk",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Frustrated Trump is looking for a target – and Iran tops the list",
+   "note": "Context only."
+  },
+  {
+   "title": "Acumen Pharmaceuticals: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.fool.com/earnings/takeaways/2026/11/04/acumen-pharmaceuticals-3-key-takeaways-for-long-term-investors/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Acumen Pharmaceuticals: 3 Key Takeaways for Long-Term Investors",
+   "note": "Financial and clinical trial takeaways for Acumen Pharmaceuticals."
+  },
+  {
+   "title": "The Best Infrared Heaters of 2026, Tested and Reviewed",
+   "url": "https://shopping.yahoo.com/home-garden/home-improvement/articles/best-infrared-heaters-2026-tested-140000293.html",
+   "publisher": "YAHOO!",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Best Infrared Heaters of 2026, Tested and Reviewed",
+   "note": "Product review roundup of infrared heaters for 2026."
+  },
+  {
+   "title": "My-ECC /skills /carrier-relationship-management",
+   "url": "https://github.com/Sleeping12138/My-ECC/blob/main/skills/carrier-relationship-management/SKILL.md",
+   "publisher": "GitHub",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "My-ECC /skills /carrier-relationship-management",
+   "note": "GitHub repository documentation outlining carrier relationship management tools."
+  },
+  {
+   "title": "Correos Express is looking for a new logistics warehouse in Alicante to handle 28.000 shipments daily.",
+   "url": "https://diariodealicante.net/en/Correos-Express-new-logistics-warehouse-Alicante/",
+   "publisher": "Diario de Alicante",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Correos Express is looking for a new logistics warehouse in Alicante to handle 28.000 shipments daily.",
+   "note": "Context only."
+  },
+  {
+   "title": "Best Family Life Insurance Companies",
+   "url": "https://www.forbes.com/advisor/life-insurance/best-family-life-insurance-companies/",
+   "publisher": "Forbes",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Best Family Life Insurance Companies",
+   "note": "Forbes comparison and pricing review of family life insurance companies."
+  },
+  {
+   "title": "Cheap Car Insurance for November 2026",
+   "url": "https://www.nerdwallet.com/insurance/auto/cheapest-car-insurance",
+   "publisher": "NerdWallet",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Cheap Car Insurance for November 2026",
+   "note": "NerdWallet guide providing cheap car insurance estimates for November 2026."
+  },
+  {
+   "title": "Week 9 Football Preview: Senior Night at Morrilton and Bigelow; Perryville on the road",
+   "url": "https://www.kvom.com/week-9-football-preview-senior-night-at-morrilton-and-bigelow-perryville-on-the-road/",
+   "publisher": "KVOM",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Week 9 Football Preview: Senior Night at Morrilton and Bigelow",
+   "note": "Local high school football game preview."
+  },
+  {
+   "title": "DoorDash Plans to Buy Instacart for $17B: What That Means for Consumers, Grocers and Delivery Workers",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/doordash-plans-buy-instacart-17b-154930089.html",
+   "publisher": "Yahoo Finance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DoorDash Plans to Buy Instacart for $17B: What That Means for Consumers, Grocers and Delivery Workers",
+   "note": "Platform consolidation could affect delivery volume concentrations and risk profiles for gig and courier segments; monitor for integration changes impacting commercial auto coverage needs."
+  }
+ ],
+ "digest": "- AIG CEO Eric Andersen voiced concerns regarding insurer-MGA alignment as excess and surplus lines become more competitive, reinforcing the need for strong capacity partner relationships supporting Nirvana's last-mile commercial auto products [3].\n- DoorDash is reportedly planning a $17 billion acquisition of Instacart, consolidating major last-mile delivery platforms and potentially altering courier volume concentrations and commercial auto exposure profiles [14].\n- New York City proposed the Delivery Protection Act, prompting stakeholders to debate delivery worker rules and signaling that municipal courier regulations require close monitoring for urban commercial auto risks [1].\n- Kemper projected a return to profit while noting that Specialty Auto still posted an underlying underwriting loss, highlighting ongoing profitability pressures in specialty auto sectors relevant to last-mile underwriting [9]."
+}
