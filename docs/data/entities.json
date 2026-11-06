@@ -1134,13 +1134,14 @@
  "Cincinnati Financial": {
   "name": "Cincinnati Financial",
   "first_seen": "2026-10-28T07:30:24Z",
-  "mentions": 2,
+  "mentions": 3,
   "event_ids": [
    "ev_9af943234024",
-   "ev_512c9aa334f0"
+   "ev_512c9aa334f0",
+   "ev_8917adc929d0"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-06T08:32:02Z"
+  "last_seen": "2026-11-06T20:05:46Z"
  },
  "Lemonade": {
   "name": "Lemonade",
@@ -1613,5 +1614,35 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "Root Inc.": {
+  "name": "Root Inc.",
+  "first_seen": "2026-11-06T20:05:46Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f1031b04446d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T20:05:46Z"
+ },
+ "Root Insurance": {
+  "name": "Root Insurance",
+  "first_seen": "2026-11-06T20:05:46Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f1031b04446d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T20:05:46Z"
+ },
+ "UFG Insurance": {
+  "name": "UFG Insurance",
+  "first_seen": "2026-11-06T20:05:46Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b36a0ffcb05b"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T20:05:46Z"
  }
 }
