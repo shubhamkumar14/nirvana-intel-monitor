@@ -153,14 +153,15 @@
  "The Progressive Corporation": {
   "name": "The Progressive Corporation",
   "first_seen": "2026-10-16T17:40:26Z",
-  "mentions": 3,
+  "mentions": 4,
   "event_ids": [
    "ev_7eafcd491076",
    "ev_48b0254d66e4",
-   "ev_2b7a1bcba2f6"
+   "ev_2b7a1bcba2f6",
+   "ev_6e9cbfb03e1e"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-27T18:58:56Z"
+  "last_seen": "2026-11-06T08:32:02Z"
  },
  "nuVizz": {
   "name": "nuVizz",
@@ -668,13 +669,15 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 2,
+  "mentions": 4,
   "event_ids": [
    "ev_6d171a959d11",
-   "ev_8681e87213f4"
+   "ev_8681e87213f4",
+   "ev_765980d0d3f6",
+   "ev_6e9cbfb03e1e"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-31T17:55:38Z"
+  "last_seen": "2026-11-06T08:32:02Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -1131,12 +1134,13 @@
  "Cincinnati Financial": {
   "name": "Cincinnati Financial",
   "first_seen": "2026-10-28T07:30:24Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_9af943234024"
+   "ev_9af943234024",
+   "ev_512c9aa334f0"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-28T07:30:24Z"
+  "last_seen": "2026-11-06T08:32:02Z"
  },
  "Lemonade": {
   "name": "Lemonade",
@@ -1509,5 +1513,105 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-05T08:34:16Z"
+ },
+ "IA Capital Group": {
+  "name": "IA Capital Group",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d2a3099b2b52"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "Inter-Atlantic Opportunity Fund I": {
+  "name": "Inter-Atlantic Opportunity Fund I",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d2a3099b2b52"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "QBE Insurance Group": {
+  "name": "QBE Insurance Group",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d2a3099b2b52"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "QBE Ventures": {
+  "name": "QBE Ventures",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d2a3099b2b52"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "CVS Health Corporation": {
+  "name": "CVS Health Corporation",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_05bf3555de97"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "Aetna Inc.": {
+  "name": "Aetna Inc.",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_05bf3555de97"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "AM Best": {
+  "name": "AM Best",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_05bf3555de97"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "MetLife": {
+  "name": "MetLife",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_931149a7b96f"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "TWFG": {
+  "name": "TWFG",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_2719d2aad6f0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
+ },
+ "American Financial Group": {
+  "name": "American Financial Group",
+  "first_seen": "2026-11-06T08:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d32253ec51f1"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-06T08:32:02Z"
  }
 }
