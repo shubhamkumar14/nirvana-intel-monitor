@@ -505,12 +505,13 @@
  "Allstate": {
   "name": "Allstate",
   "first_seen": "2026-10-17T06:16:02Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_4a220a8b871f"
+   "ev_4a220a8b871f",
+   "ev_302d1c8dc844"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-17T06:16:02Z"
+  "last_seen": "2026-11-07T07:49:44Z"
  },
  "트래블러스 컴퍼니": {
   "name": "트래블러스 컴퍼니",
@@ -1644,5 +1645,55 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-06T20:05:46Z"
+ },
+ "Trisura Group Ltd": {
+  "name": "Trisura Group Ltd",
+  "first_seen": "2026-11-07T07:49:44Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_85755ac2226a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-07T07:49:44Z"
+ },
+ "Skyward Specialty Insurance Group, Inc.": {
+  "name": "Skyward Specialty Insurance Group, Inc.",
+  "first_seen": "2026-11-07T07:49:44Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e276bf34072b"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-07T07:49:44Z"
+ },
+ "Liberty Mutual": {
+  "name": "Liberty Mutual",
+  "first_seen": "2026-11-07T07:49:44Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d790ea917f9c"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-07T07:49:44Z"
+ },
+ "Allianz Commercial": {
+  "name": "Allianz Commercial",
+  "first_seen": "2026-11-07T07:49:44Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_35f00aae1570"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-07T07:49:44Z"
+ },
+ "Lloyd’s": {
+  "name": "Lloyd’s",
+  "first_seen": "2026-11-07T07:49:44Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_35f00aae1570"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-07T07:49:44Z"
  }
 }
