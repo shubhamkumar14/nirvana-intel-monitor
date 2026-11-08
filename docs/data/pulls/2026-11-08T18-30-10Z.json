@@ -1,0 +1,1162 @@
+{
+ "run_id": "2026-11-08T18-30-10Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/42510302584",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-08",
+ "started": "2026-11-08T18:30:10Z",
+ "duration_s": 471.4,
+ "baseline": false,
+ "previous_run": "2026-11-08T08-01-36Z",
+ "previous_started": "2026-11-08T08:01:36Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 352,
+  "unique": 339,
+  "known_skipped": 304,
+  "attached_existing": 0,
+  "prefiltered_out": 6,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 28,
+  "irrelevant": 22,
+  "quarantined": 0,
+  "new_events": 6,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.917,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.1,
+  "dedup_ratio": 0.917,
+  "relevance_rate": 0.214
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 229
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 317
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 337
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 353
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 104
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 307
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 351
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 276
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 366
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 375
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 186
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 201
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 255
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 256
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 217
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 446
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 137
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 236
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 253
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 194
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 200
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 322
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 223
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 100
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 223
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 213
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 192
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 232
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 234
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 128
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 138
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 113
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1481
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 579
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 404
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 960
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 331
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 491
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1042
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5246,
+  "output_tokens": 4215,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 2
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_69b1a33319ea",
+   "title": "Trisura shares fall 30% after Q3 Canadian fronting revenue drop and potential DryStone bankruptcy exposure",
+   "url": "https://www.theinsurer.com/program-manager/news/trisura-shares-fall-30-after-q3-canadian-fronting-revenue-drop-and-potential-2026-11-06/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Trisura shares fell 30% after reporting a Canadian fronting revenue drop and potential bankruptcy exposure.",
+   "evidence_quote": "Trisura shares fall 30% after Q3 Canadian fronting revenue drop",
+   "companies": [
+    "Trisura Group",
+    "DryStone"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-06T14:25:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T18:30:10Z",
+   "first_run": "2026-11-08T18-30-10Z",
+   "last_seen": "2026-11-08T18:30:10Z",
+   "last_updated_run": "2026-11-08T18-30-10Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "69b1a33319ea"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theinsurer.com/program-manager/news/trisura-shares-fall-30-after-q3-canadian-fronting-revenue-drop-and-potential-2026-11-06/",
+     "publisher": "The Insurer",
+     "publisher_key": "the insurer",
+     "published": "2026-11-06T14:25:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 2,
+   "score": 48.3,
+   "age_days": 2.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.81,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_f714c83e7683",
+   "title": "The Overlooked Competitive Advantage Sitting On Your Customer’s Doorstep",
+   "url": "https://www.forbes.com/sites/shephyken/2026/11/08/the-overlooked-competitive-advantage-sitting-on-your-customers-doorstep/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 1,
+   "last_mile_fit": 0.3,
+   "summary": "Forbes article highlights doorstep delivery and shipping reliability as critical drivers of customer retention and competitive differentiation.",
+   "evidence_quote": "Delivery's more than logistics. It's about how reliable shipping, customer delivery options, and keeping promises can improve customer experience",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-08T04:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T18:30:10Z",
+   "first_run": "2026-11-08T18-30-10Z",
+   "last_seen": "2026-11-08T18:30:10Z",
+   "last_updated_run": "2026-11-08T18-30-10Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f714c83e7683"
+   ],
+   "sources": [
+    {
+     "url": "https://www.forbes.com/sites/shephyken/2026/11/08/the-overlooked-competitive-advantage-sitting-on-your-customers-doorstep/",
+     "publisher": "Forbes",
+     "publisher_key": "forbes",
+     "published": "2026-11-08T04:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 42.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_09bf2f9bbdf9",
+   "title": "How These 4 Transportation Stocks Move the Economy",
+   "url": "https://www.fool.com/investing/2026/11/08/these-4-transportation-stocks-move-the-economy/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "Earnings reports highlight that railroads and delivery corporations supported broader economic activity this year.",
+   "evidence_quote": "Railroads and delivery giants did the heavy lifting for the economy this year.",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-08T06:45:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T18:30:10Z",
+   "first_run": "2026-11-08T18-30-10Z",
+   "last_seen": "2026-11-08T18:30:10Z",
+   "last_updated_run": "2026-11-08T18-30-10Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "09bf2f9bbdf9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fool.com/investing/2026/11/08/these-4-transportation-stocks-move-the-economy/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-11-08T06:45:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 41.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_fd150f45e920",
+   "title": "Blue wave won’t end tariff chaos, warns California’s port king",
+   "url": "https://finance.yahoo.com/economy/policy/articles/blue-wave-won-t-end-090000744.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "A California port leader warns that recent midterm elections will not resolve ongoing tariff issues and trade disruptions.",
+   "evidence_quote": "Donald Trump’s rout in the US midterm elections is unlikely to end tariff turmoil and the dislocation of world trade",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-08T01:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T18:30:10Z",
+   "first_run": "2026-11-08T18-30-10Z",
+   "last_seen": "2026-11-08T18:30:10Z",
+   "last_updated_run": "2026-11-08T18-30-10Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "fd150f45e920"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/blue-wave-won-t-end-090000744.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-08T01:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1b54fd248f85",
+   "title": "Canada–US freight report shows 24% jump in northbound truck loads as southbound shipments fall 12%",
+   "url": "https://www.msn.com/en-ca/news/other/canada-us-freight-report-shows-24-jump-in-northbound-truck-loads-as-southbound-shipments-fall-12/ar-AA2gX25T",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Northbound cross-border truckloads increased 24% while southbound shipments declined 12% between the US and Canada.",
+   "evidence_quote": "Canada–US freight report shows 24% jump in northbound truck loads as southbound shipments fall 12%",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-07T06:42:01Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T18:30:10Z",
+   "first_run": "2026-11-08T18-30-10Z",
+   "last_seen": "2026-11-08T18:30:10Z",
+   "last_updated_run": "2026-11-08T18-30-10Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "1b54fd248f85"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-ca/news/other/canada-us-freight-report-shows-24-jump-in-northbound-truck-loads-as-southbound-shipments-fall-12/ar-AA2gX25T",
+     "publisher": "#Investing on MSN",
+     "publisher_key": "#investing on msn",
+     "published": "2026-11-07T06:42:01Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.4,
+   "age_days": 1.5,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.86,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_de5f922ba647",
+   "title": "Geico plans permanent layoffs for 114 in Florida starting Dec. 31",
+   "url": "https://www.theledger.com/story/business/2026/11/04/geico-announces-114-job-cuts-in-lakeland/92615142007/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Geico is executing permanent layoffs for 114 employees in Florida.",
+   "evidence_quote": "Geico plans permanent layoffs for 114 in Florida starting Dec. 31",
+   "companies": [
+    "Geico"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T08:09:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T18:30:10Z",
+   "first_run": "2026-11-08T18-30-10Z",
+   "last_seen": "2026-11-08T18:30:10Z",
+   "last_updated_run": "2026-11-08T18-30-10Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "de5f922ba647"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theledger.com/story/business/2026/11/04/geico-announces-114-job-cuts-in-lakeland/92615142007/",
+     "publisher": "The Ledger",
+     "publisher_key": "the ledger",
+     "published": "2026-11-04T08:09:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 35.2,
+   "age_days": 4.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.64,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Ramaphosa urges parties to put communities first after 2026 local election",
+   "url": "https://www.msn.com/en-za/news/other/ramaphosa-urges-parties-to-put-communities-first-after-2026-local-election/ar-AA2h09l4",
+   "publisher": "Sunday Tribune on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "President Cyril Ramaphosa has urged political parties and newly elected councillors to work together",
+   "note": "South African President Cyril Ramaphosa called for political cooperation among newly elected councillors following the 2026 local elections."
+  },
+  {
+   "title": "SGR vehicle freight is progress, not a threat to livelihoods",
+   "url": "https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/sgr-vehicle-freight-is-progress-not-a-threat-to-livelihoods--5663490",
+   "publisher": "Business Daily Africa",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "introduction of dedicated standard gauge railway (SGR) vehicle freight services between Mombasa and Nairobi",
+   "note": "Standard gauge railway vehicle freight services between Mombasa and Nairobi spark debate over casual vehicle driving jobs in Kenya."
+  },
+  {
+   "title": "Just In: South Africa’s ANC slumps to 30.76 per cent of votes in worst-ever election result",
+   "url": "https://clubofmozambique.com/news/just-in-south-africas-anc-slumps-to-30-76-per-cent-of-votes-in-worst-ever-election-result/",
+   "publisher": "Club of Mozambique",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "South Africa’s ANC slumps to 30.76 per cent of votes in worst-ever election result",
+   "note": "South Africa's ANC achieved its worst-ever election result, capturing only 30.76 percent of the vote."
+  },
+  {
+   "title": "A Look Back at Health Care SPACtivity of 2020-2021",
+   "url": "https://www.ajmc.com/view/a-look-back-at-health-care-spactivity-of-2020-2021",
+   "publisher": "The American Journal of Managed Care",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Health care special purpose acquisition companies in 2020-2021 represented a temporary market inefficiency",
+   "note": "Retrospective article reviews the 2020-2021 healthcare SPAC boom and subsequent market inefficiencies."
+  },
+  {
+   "title": "Billionaire Bill Ackman has been all-in on Uber. Is now the time to buy the stock?",
+   "url": "https://www.msn.com/en-us/money/top-stocks/billionaire-bill-ackman-has-been-all-in-on-uber-is-now-the-time-to-buy-the-stock/ar-AA2h0Dv6",
+   "publisher": "The Motley Fool on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Uber is Bill Ackman's largest position.",
+   "note": "Financial commentary discusses Bill Ackman's substantial investment position in Uber Technologies."
+  },
+  {
+   "title": "Disco fries at 2 a.m.: What N.J. lost when the diners went dark | Opinion",
+   "url": "https://www.yahoo.com/lifestyle/articles/disco-fries-2-m-n-160118514.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "What N.J. lost when the diners went dark",
+   "note": "Opinion piece reflects on the decline of late-night diners in New Jersey."
+  },
+  {
+   "title": "Toronto diesel prices forecast to hit $2.40 a litre as drivers face 77-cent gap with gasoline",
+   "url": "https://www.msn.com/en-ca/news/other/toronto-diesel-prices-forecast-to-hit-240-a-litre-as-drivers-face-77-cent-gap-with-gasoline/ar-AA2h0jEL",
+   "publisher": "Get CyberTrucked on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Toronto diesel prices forecast to hit $2.40 a litre as drivers face 77-cent gap with gasoline",
+   "note": "Diesel prices in Toronto are forecast to rise significantly above gasoline prices."
+  },
+  {
+   "title": "Billionaire Bill Ackman Has Been All-In on Uber. Is Now the Time to Buy the Stock?",
+   "url": "https://www.fool.com/investing/2026/11/08/billionaire-bill-ackman-has-been-all-in-on-uber-is/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "He went all in on Uber Technologies (UBER-0.28%) at the start of 2025",
+   "note": "Investor Bill Ackman expanded his investment position in Uber Technologies during 2025."
+  },
+  {
+   "title": "How These 4 Transportation Stocks Move the Economy",
+   "url": "https://www.fool.com/investing/2026/11/08/these-4-transportation-stocks-move-the-economy/",
+   "publisher": "The Motley Fool",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Railroads and delivery giants did the heavy lifting for the economy this year.",
+   "note": "Context only."
+  },
+  {
+   "title": "Third Olympia Farmers Market vendor shares concerns, and the board responds",
+   "url": "https://www.yahoo.com/news/articles/third-olympia-farmers-market-vendor-130000194.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A third Olympia Farmers Market vendor has emerged to share her concerns",
+   "note": "A vendor at Olympia Farmers Market raised operational concerns with market leadership."
+  },
+  {
+   "title": "The Overlooked Competitive Advantage Sitting On Your Customer’s Doorstep",
+   "url": "https://www.forbes.com/sites/shephyken/2026/11/08/the-overlooked-competitive-advantage-sitting-on-your-customers-doorstep/",
+   "publisher": "Forbes",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Delivery's more than logistics. It's about how reliable shipping, customer delivery options, and keeping promises can improve customer experience",
+   "note": "Context only."
+  },
+  {
+   "title": "The billionaire tax looks likely to fail. Here's how many millions were spent to defeat it",
+   "url": "https://www.msn.com/en-us/news/other/the-billionaire-tax-looks-likely-to-fail-heres-how-many-millions-were-spent-to-defeat-it/ar-AA2gZGuQ",
+   "publisher": "San Francisco Chronicle on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Opponents of California's billionaire tax, Prop 40, raised the largest amount of money collected to defeat one of the state's propositions",
+   "note": "Opponents of California's Proposition 40 billionaire tax raised record campaign funding to defeat the ballot initiative."
+  },
+  {
+   "title": "In Maine, a new approach to practicing medicine in the sky",
+   "url": "https://www.npr.org/2026/11/08/nx-s1-6017801/air-ambulance-service-rural-healthcare-staffing",
+   "publisher": "NPR",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Air medical service comes with high risks, high costs, and staffing struggles.",
+   "note": "LifeFlight of Maine focuses on healthcare worker support to tackle high costs and turnover in air medical services."
+  },
+  {
+   "title": "Blue wave won’t end tariff chaos, warns California’s port king",
+   "url": "https://finance.yahoo.com/economy/policy/articles/blue-wave-won-t-end-090000744.html",
+   "publisher": "Yahoo Finance",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Donald Trump’s rout in the US midterm elections is unlikely to end tariff turmoil and the dislocation of world trade",
+   "note": "Context only."
+  },
+  {
+   "title": "Experience, influence and a ticking clock: What Sherrod Brown’s Senate return means for Ohio",
+   "url": "https://www.cleveland.com/open/2026/11/experience-influence-and-a-ticking-clock-what-sherrod-browns-senate-return-means-for-ohio.html",
+   "publisher": "cleveland.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Democrat Sherrod Brown won the remainder of JD Vance's term",
+   "note": "Sherrod Brown secured election to complete JD Vance's Senate term representing Ohio."
+  },
+  {
+   "title": "Alex Golesh continues to lean on Byrum Brown as he establishes his culture at Auburn",
+   "url": "https://www.al.com/auburnfootball/2026/11/alex-golesh-continues-to-lean-on-byrum-brown-as-he-establishes-his-culture-at-auburn.html",
+   "publisher": "al.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Alex Golesh continues to lean on Byrum Brown as he establishes his culture at Auburn",
+   "note": "Auburn coach Alex Golesh maintains support for quarterback Byrum Brown."
+  },
+  {
+   "title": "Brown: Elimination is where we deserve to be",
+   "url": "https://www.supercars.com/news/supercars-news-2026-will-brown-finals-elimination-reaction-triple-eight-red-bull-ampol-racing-sandown",
+   "publisher": "Supercars",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Will Brown was doing his level best to hide his disappointment at being knocked out of the Repco Supercars Finals Series",
+   "note": "Driver Will Brown addresses elimination from the Repco Supercars Finals Series."
+  },
+  {
+   "title": "Canada–US freight report shows 24% jump in northbound truck loads as southbound shipments fall 12%",
+   "url": "https://www.msn.com/en-ca/news/other/canada-us-freight-report-shows-24-jump-in-northbound-truck-loads-as-southbound-shipments-fall-12/ar-AA2gX25T",
+   "publisher": "#Investing on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Canada–US freight report shows 24% jump in northbound truck loads as southbound shipments fall 12%",
+   "note": "Context only."
+  },
+  {
+   "title": "From high-flying AI stocks to tariff-hit alcohol companies, the midterms shook up Wall Street",
+   "url": "https://www.dcnewsnow.com/news/business/ap-business/ap-from-high-flying-ai-stocks-to-tariff-hit-alcohol-companies-the-midterms-shook-up-wall-street/",
+   "publisher": "DC News Now",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "From high-flying AI stocks to tariff-hit alcohol companies, the midterms shook up Wall Street",
+   "note": "US midterm election results impacted financial markets across AI equities and tariff-exposed industries."
+  },
+  {
+   "title": "How to Determine Shipping Deadlines for Christmas 2026: 4 Steps to Calculate Backwards from Delivery Time",
+   "url": "https://note.com/kokusai_sakura/n/n7306f2620672?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How to Determine Shipping Deadlines for Christmas 2026: 4 Steps to Calculate Backwards from Delivery Time",
+   "note": "An international logistics guide outlines steps for customers calculating holiday shipping cutoff dates."
+  },
+  {
+   "title": "LGE 2026: UDM thanks voters and campaign teams following LGE 2026",
+   "url": "https://www.politicsweb.co.za/news/lge-2026-udm-thanks-voters-and-campaign-teams-following-lge-2026",
+   "publisher": "Politicsweb",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "LGE 2026: UDM thanks voters and campaign teams following LGE 2026",
+   "note": "South African political party thanks voters following local government elections."
+  },
+  {
+   "title": "Trisura shares fall 30% after Q3 Canadian fronting revenue drop and potential DryStone bankruptcy exposure",
+   "url": "https://www.theinsurer.com/program-manager/news/trisura-shares-fall-30-after-q3-canadian-fronting-revenue-drop-and-potential-2026-11-06/",
+   "publisher": "The Insurer",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Trisura shares fall 30% after Q3 Canadian fronting revenue drop",
+   "note": "Context only."
+  },
+  {
+   "title": "Are you a true movie buff? See if you can identify 30 iconic films from just a single image",
+   "url": "https://www.msn.com/en-us/news/other/are-you-a-true-movie-buff-see-if-you-can-identify-30-iconic-films-from-just-a-single-image/ar-AA2gTQwx",
+   "publisher": "Stacker on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Are you a true movie buff? See if you can identify 30 iconic films",
+   "note": "A movie trivia quiz from Stacker."
+  },
+  {
+   "title": "Die Bergretter sind zurück: Dann läuft Staffel 18 im ZDF",
+   "url": "https://www.sol.de/unterhaltung/die-bergretter-kehren-zurueck-dann-startet-staffel-18-im-zdf-re-32,773262.html",
+   "publisher": "SOL.DE",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Die Bergretter sind zurück: Dann läuft Staffel 18 im ZDF",
+   "note": "German television series news regarding season 18 of Die Bergretter."
+  },
+  {
+   "title": "Best Homeowners Insurance in Indiana for 2026",
+   "url": "https://www.usnews.com/insurance/homeowners-insurance/local/indiana",
+   "publisher": "U.S. News & World Report",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Best Homeowners Insurance in Indiana for 2026",
+   "note": "U.S. News & World Report ranks homeowners insurance providers in Indiana."
+  },
+  {
+   "title": "Salvatore Asero on X: \"Ferrari, e se per il 2027 la risposta alla Mercedes fosse nell’aerodinamica? https://t.co/IOLKePRn6x\"",
+   "url": "https://x.com/Graftechweb/status/2118326863613309006",
+   "publisher": "x",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ferrari, e se per il 2027 la risposta alla Mercedes fosse nell’aerodinamica?",
+   "note": "Formula 1 social media post discussing Ferrari and Mercedes aerodynamics."
+  },
+  {
+   "title": "Liberia: Ducor Proposes Inland Container Depot as Shipping Delays Draw Senate Scrutiny",
+   "url": "https://www.ecofinagency.com/news-infrastructures/0511-60502-liberia-ducor-proposes-inland-container-depot-as-shipping-delays-draw-senate-scrutiny",
+   "publisher": "Ecofin Agency",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Liberia: Ducor Proposes Inland Container Depot as Shipping Delays Draw Senate Scrutiny",
+   "note": "Liberian Senate inquiry proposed regarding shipping delays and port charges at Freeport."
+  },
+  {
+   "title": "Geico plans permanent layoffs for 114 in Florida starting Dec. 31",
+   "url": "https://www.theledger.com/story/business/2026/11/04/geico-announces-114-job-cuts-in-lakeland/92615142007/",
+   "publisher": "The Ledger",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Geico plans permanent layoffs for 114 in Florida starting Dec. 31",
+   "note": "Context only."
+  }
+ ],
+ "digest": "- Trisura shares plummeted 30% following a Canadian fronting revenue drop and potential bankruptcy exposure, signaling instability in fronting partnerships that could impact capacity providers [1].\n- Forbes highlighted doorstep delivery and shipping reliability as critical drivers of customer retention, reinforcing the growing economic focus on last-mile logistics operations [2].\n- Major delivery corporations and railroads supported broader economic activity through their earnings reports, demonstrating ongoing resilience in the broader transportation sector [3].\n- Geico announced permanent layoffs for 114 employees in Florida, reflecting ongoing structural adjustments and workforce reductions within major personal and commercial auto insurers [6]."
+}

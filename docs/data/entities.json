@@ -1715,5 +1715,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-08T08:01:36Z"
+ },
+ "Trisura Group": {
+  "name": "Trisura Group",
+  "first_seen": "2026-11-08T18:30:10Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_69b1a33319ea"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-08T18:30:10Z"
+ },
+ "DryStone": {
+  "name": "DryStone",
+  "first_seen": "2026-11-08T18:30:10Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_69b1a33319ea"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-08T18:30:10Z"
  }
 }
