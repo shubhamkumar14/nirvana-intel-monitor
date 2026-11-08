@@ -1,0 +1,1094 @@
+{
+ "run_id": "2026-11-08T08-01-36Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/42461146517",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-08",
+ "started": "2026-11-08T08:01:36Z",
+ "duration_s": 314.2,
+ "baseline": false,
+ "previous_run": "2026-11-07T18-19-02Z",
+ "previous_started": "2026-11-07T18:19:02Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 360,
+  "unique": 345,
+  "known_skipped": 309,
+  "attached_existing": 0,
+  "prefiltered_out": 4,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 31,
+  "irrelevant": 27,
+  "quarantined": 0,
+  "new_events": 4,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.1,
+  "dedup_ratio": 0.91,
+  "relevance_rate": 0.129
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 320
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 349
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 303
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 648
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 218
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 256
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 305
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 453
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 245
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 240
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 234
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 251
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 235
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 226
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 248
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 258
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 251
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 262
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 235
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 292
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 292
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 240
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 263
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 265
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 241
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 295
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 607
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 294
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 168
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 157
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1768
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 769
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 281
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1080
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 407
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 650
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 938
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5481,
+  "output_tokens": 4340,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_8e54a20c9dab",
+   "title": "North Sewickley Township police looking for missing man last seen in Monaca",
+   "url": "https://www.wtae.com/article/north-sewickley-township-police-missing-man-door-dash-driver/74366870",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Police are searching for a missing man who was delivering for DoorDash shortly before he disappeared.",
+   "evidence_quote": "delivering for DoorDash shortly before he disappeared",
+   "companies": [
+    "DoorDash"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-07T20:34:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T08:01:36Z",
+   "first_run": "2026-11-08T08-01-36Z",
+   "last_seen": "2026-11-08T08:01:36Z",
+   "last_updated_run": "2026-11-08T08-01-36Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "8e54a20c9dab"
+   ],
+   "sources": [
+    {
+     "url": "https://www.wtae.com/article/north-sewickley-township-police-missing-man-door-dash-driver/74366870",
+     "publisher": "WTAE-TV Pittsburgh Action News 4",
+     "publisher_key": "wtae-tv pittsburgh action news 4",
+     "published": "2026-11-07T20:34:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_0d1438afc0d7",
+   "title": "Berkshire Hathaway Q3 Earnings Miss On Insurance, Not On Strategy",
+   "url": "https://www.forbes.com/sites/bill_stone/2026/11/07/berkshire-hathaway-q3-earnings-miss-on-insurance-not-on-strategy/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Berkshire Hathaway reported a 5.8% drop in Q3 operating earnings due to weaker insurance results.",
+   "evidence_quote": "Berkshire Hathaway Q3 Earnings Miss On Insurance",
+   "companies": [
+    "Berkshire Hathaway"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-06T21:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T08:01:36Z",
+   "first_run": "2026-11-08T08-01-36Z",
+   "last_seen": "2026-11-08T08:01:36Z",
+   "last_updated_run": "2026-11-08T08-01-36Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "0d1438afc0d7"
+   ],
+   "sources": [
+    {
+     "url": "https://www.forbes.com/sites/bill_stone/2026/11/07/berkshire-hathaway-q3-earnings-miss-on-insurance-not-on-strategy/",
+     "publisher": "Forbes",
+     "publisher_key": "forbes",
+     "published": "2026-11-06T21:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.5,
+   "age_days": 1.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.87,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_fe8fc66a77f1",
+   "title": "Top LTL Carriers See Q3 Revenue Surge on Fuel, Capacity, Rates",
+   "url": "https://www.msn.com/en-us/news/other/top-ltl-carriers-see-q3-revenue-surge-on-fuel-capacity-rates/ar-AA2gBsWL",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Top LTL carriers reported third-quarter revenue surges driven by higher fuel surcharges, improved capacity, and rising rates.",
+   "evidence_quote": "Top LTL Carriers See Q3 Revenue Surge on Fuel, Capacity, Rates",
+   "companies": [
+    "XPO",
+    "Saia",
+    "Old Dominion",
+    "FedEx Freight"
+   ],
+   "implication": "Context only.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-02T08:53:55Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T08:01:36Z",
+   "first_run": "2026-11-08T08-01-36Z",
+   "last_seen": "2026-11-08T08:01:36Z",
+   "last_updated_run": "2026-11-08T08-01-36Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "fe8fc66a77f1"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/top-ltl-carriers-see-q3-revenue-surge-on-fuel-capacity-rates/ar-AA2gBsWL",
+     "publisher": "Sourcing Journal on MSN",
+     "publisher_key": "sourcing journal on msn",
+     "published": "2026-11-02T08:53:55Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 44.8,
+   "age_days": 6.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.55,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_cde45ae2fa61",
+   "title": "Jujuy’s Broken Roads and Delayed Rail Are Mining’s Hidden Cost",
+   "url": "https://discoveryalert.com/analysis/argentina-mining-infrastructure-jujuy-lithium-logistics-november-2026/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "Road damage in Jujuy caused by heavy mining loads impacts regional transit.",
+   "evidence_quote": "Jujuy’s Broken Roads and Delayed Rail Are Mining’s Hidden Cost",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-07T15:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-08T08:01:36Z",
+   "first_run": "2026-11-08T08-01-36Z",
+   "last_seen": "2026-11-08T08:01:36Z",
+   "last_updated_run": "2026-11-08T08-01-36Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "cde45ae2fa61"
+   ],
+   "sources": [
+    {
+     "url": "https://discoveryalert.com/analysis/argentina-mining-infrastructure-jujuy-lithium-logistics-november-2026/",
+     "publisher": "discoveryalert.com",
+     "publisher_key": "discoveryalert.com",
+     "published": "2026-11-07T15:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 41.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Muhurat trading 2026 on Diwali: From trade settlement to delivery, key rules investors should know about special trade",
+   "url": "https://www.msn.com/en-in/money/top-stocks/muhurat-trading-2026-on-diwali-from-trade-settlement-to-delivery-key-rules-investors-should-know-about-special-trade/ar-AA2gZHoA",
+   "publisher": "Mint on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Muhurat trading 2026 on Diwali: From trade settlement to delivery",
+   "note": "Indian stock markets will hold a special one-hour Muhurat Trading session for Samvat 2083."
+  },
+  {
+   "title": "Stroke remains among leading causes of death in Philippines",
+   "url": "https://www.msn.com/en-ph/health/diseases-and-conditions/stroke-remains-among-leading-causes-of-death-in-philippines/ar-AA2gZzIt",
+   "publisher": "Philstar.com on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Stroke remains among leading causes of death in Philippines",
+   "note": "Stroke remains one of the leading causes of death in the Philippines."
+  },
+  {
+   "title": "What Vishay Intertechnology (VSH) Said on Its Q3 Earnings Call",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/vishay-intertechnology-vsh-said-q3-061408642.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "What Vishay Intertechnology (VSH) Said on Its Q3 Earnings Call",
+   "note": "Vishay Intertechnology reported record third-quarter 2026 revenue of $979 million driven by component demand."
+  },
+  {
+   "title": "Likes, dislikes from Iowa football's win over Northwestern",
+   "url": "https://gatorswire.usatoday.com/story/sports/college/iowa/football/2026/11/07/iowa-football-northwestern-hawkeyes-analysis-big-ten/92561133007/",
+   "publisher": "Gators Wire",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Likes, dislikes from Iowa football's win over Northwestern",
+   "note": "Iowa football defeated Northwestern 24-10 to improve to 7-2 overall."
+  },
+  {
+   "title": "Arkansas falls 26-23 at Auburn",
+   "url": "https://www.uatrav.com/sports/arkansas-falls-26-23-at-auburn/article_652b89d7-f7cf-447d-9318-33ca200ee070.html",
+   "publisher": "uatrav.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Arkansas falls 26-23 at Auburn",
+   "note": "Arkansas lost 26-23 to Auburn in college football."
+  },
+  {
+   "title": "North Sewickley Township police looking for missing man last seen in Monaca",
+   "url": "https://www.wtae.com/article/north-sewickley-township-police-missing-man-door-dash-driver/74366870",
+   "publisher": "WTAE-TV Pittsburgh Action News 4",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "delivering for DoorDash shortly before he disappeared",
+   "note": "Context only"
+  },
+  {
+   "title": "AP SSC exam fee dates: ఏపీ పదో తరగతి పరీక్షల ఫీజు షెడ్యూల్ విడుదల - చెల్లింపు ...",
+   "url": "https://www.msn.com/te-in/money/economy/ap-ssc-exam-fee-dates-%E0%B0%8F%E0%B0%AA%E0%B1%80-%E0%B0%AA%E0%B0%A6%E0%B1%8B-%E0%B0%A4%E0%B0%B0%E0%B0%97%E0%B0%A4%E0%B0%BF-%E0%B0%AA%E0%B0%B0%E0%B1%80%E0%B0%95%E0%B1%8D%E0%B0%B7%E0%B0%B2-%E0%B0%AB%E0%B1%80%E0%B0%9C-%E0%B0%B7%E0%B1%86%E0%B0%A1%E0%B1%8D%E0%B0%AF-%E0%B0%B2%E0%B1%8D-%E0%B0%B5%E0%B0%BF%E0%B0%A1-%E0%B0%A6%E0%B0%B2-%E0%B0%9A%E0%B1%86%E0%B0%B2%E0%B1%8D%E0%B0%B2%E0%B0%BF-%E0%B0%AA-%E0%B0%A4%E0%B1%87%E0%B0%A6%E0%B1%80%E0%B0%B2%E0%B0%BF%E0%B0%B5%E0%B1%87/ar-AA2gYLx6",
+   "publisher": "Hindustan Times on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AP SSC exam fee dates",
+   "note": "AP Class 10 exam fee schedule has been released by the government."
+  },
+  {
+   "title": "St. Joseph’s field hockey is NCAA tournament-bound after capturing its sixth-straight A-10 title",
+   "url": "https://www.inquirer.com/college-sports/st-joes/sju-field-hockey-atlantic-10-title-ncaa-20261107.html",
+   "publisher": "The Philadelphia Inquirer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "St. Joseph’s field hockey is NCAA tournament-bound",
+   "note": "St. Joseph's field hockey won its sixth-straight A-10 title."
+  },
+  {
+   "title": "The Kremlin hopes the US election shake-up won’t shift Trump’s negotiations on Ukraine",
+   "url": "https://www.bostonglobe.com/2026/11/08/world/kremlin-us-election-shake-up-trump-negotiations-ukraine/",
+   "publisher": "The Boston Globe",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Kremlin hopes the US election shake-up",
+   "note": "Russian observers react to US midterm election results regarding Ukraine policy."
+  },
+  {
+   "title": "Late release, upright seam, heavy ball: Decoding Mohammed Shami's sorcery",
+   "url": "https://sports.yahoo.com/articles/release-upright-seam-heavy-ball-060000470.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Late release, upright seam, heavy ball",
+   "note": "Mohammed Shami retires from Test cricket after 64 matches."
+  },
+  {
+   "title": "Norwegian Air Shuttle (OB:NAS) Wins A Barclays Upgrade, Is The Stock Still Undervalued?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/norwegian-air-shuttle-ob-nas-061555748.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Norwegian Air Shuttle (OB:NAS) Wins A Barclays Upgrade",
+   "note": "Norwegian Air Shuttle received a Barclays stock upgrade based on lower fuel prices."
+  },
+  {
+   "title": "Jujuy’s Broken Roads and Delayed Rail Are Mining’s Hidden Cost",
+   "url": "https://discoveryalert.com/analysis/argentina-mining-infrastructure-jujuy-lithium-logistics-november-2026/",
+   "publisher": "discoveryalert.com",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Jujuy’s Broken Roads and Delayed Rail Are Mining’s Hidden Cost",
+   "note": "Context only"
+  },
+  {
+   "title": "Auburn football edges Arkansas behind second-half comeback recap",
+   "url": "https://www.msn.com/en-us/sports/athletics/auburn-football-edges-arkansas-behind-second-half-comeback-recap/ar-AA2gXaAn",
+   "publisher": "Auburn Wire on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Auburn football edges Arkansas behind second-half comeback",
+   "note": "Auburn football outscored Arkansas in a second-half comeback win."
+  },
+  {
+   "title": "Auburn Rallies Past Arkansas as Byrum Brown, Young Defensive Stars Fuel Second-Half Comeback",
+   "url": "https://sports.yahoo.com/articles/auburn-rallies-past-arkansas-byrum-220956634.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Auburn Rallies Past Arkansas as Byrum Brown",
+   "note": "Auburn rallied past Arkansas 26-23 in college football action."
+  },
+  {
+   "title": "Arthur Brown reveals he was threatened by Charles Manson’s followers",
+   "url": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/arthur-brown-reveals-threatened-charles-210000164.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Arthur Brown reveals he was threatened",
+   "note": "Arthur Brown discussed being threatened by Charles Manson's followers."
+  },
+  {
+   "title": "Europe’s Bomb Threats Raise Fears of Hybrid Warfare",
+   "url": "https://time.com/article/2026/11/07/europe-bomb-threats-raise-fear-new-warfare/",
+   "publisher": "TIME",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Europe’s Bomb Threats Raise Fears of Hybrid Warfare",
+   "note": "European bomb threats raise concerns regarding hybrid warfare tactics."
+  },
+  {
+   "title": "No. 10 Texas scores three unanswered TDs in the second half to rally past No. 19 Missouri, 34-20",
+   "url": "https://www.msn.com/en-us/sports/college-sports/no-10-texas-scores-three-unanswered-tds-in-the-second-half-to-rally-past-no-19-missouri-34-20/ar-AA2gYz0D",
+   "publisher": "Associated Press News on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "No. 10 Texas scores three unanswered TDs",
+   "note": "Texas rallied past Missouri 34-20 behind Arch Manning's passing performance."
+  },
+  {
+   "title": "Drone and missile attacks wound 9 as Ukraine prepares for talks with Russia and the US",
+   "url": "https://www.pressdemocrat.com/2026/11/07/drone-and-missile-attacks-wound-9-as-ukraine-prepares-for-talks-with-russia-and-the-us/",
+   "publisher": "The Press Democrat",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Drone and missile attacks wound 9",
+   "note": "Drone and missile attacks wound 9 as diplomatic talks are prepared."
+  },
+  {
+   "title": "Inside how Trump's migrant detention warehouse plan fell apart",
+   "url": "https://www.usatoday.com/story/news/nation/2026/11/07/ice-warehouse-detention-trump-administration/90836371007/",
+   "publisher": "USA TODAY",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Inside how Trump's migrant detention warehouse plan fell apart",
+   "note": "Plans for federal migrant detention warehouses encountered operational hurdles."
+  },
+  {
+   "title": "Berkshire Hathaway Q3 Earnings Miss On Insurance, Not On Strategy",
+   "url": "https://www.forbes.com/sites/bill_stone/2026/11/07/berkshire-hathaway-q3-earnings-miss-on-insurance-not-on-strategy/",
+   "publisher": "Forbes",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Berkshire Hathaway Q3 Earnings Miss On Insurance",
+   "note": "Context only"
+  },
+  {
+   "title": "Skyward (SKWD) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/skyward-skwd-q3-2026-earnings-000152660.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Skyward (SKWD) Q3 2026 Earnings Call Transcript",
+   "note": "Skyward Group held its Q3 2026 earnings conference call."
+  },
+  {
+   "title": "In 2016, Kevin Durant invested $1 million in Postmates; four years later, Uber’s $2.65 billion buyout of the startup turned his stake into $15 million",
+   "url": "https://athlonsports.com/nba/houston-rockets/in-2016-kevin-durant-invested-1-million-in-postmates-four-years-later-ubers-2-65-billion-buyout-of-the-startup-turned-his-stake-into-15-million",
+   "publisher": "Athlon Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "In 2016, Kevin Durant invested $1 million in Postmates; four years later, Uber’s $2.65 billion buyout of the startup turned his stake into $15 million",
+   "note": "Historical retrospective on Kevin Durant's early investment in Postmates and its subsequent acquisition by Uber."
+  },
+  {
+   "title": "CONCACAF changes the Gold Cup format to 2 groups of 8 teams starting in 2027",
+   "url": "https://www.the-messenger.com/sports/national/article_0d355ae1-5a68-5ab4-ac4c-234bd26c618b.html",
+   "publisher": "The Messenger",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "CONCACAF changes the Gold Cup format to 2 groups of 8 teams starting in 2027",
+   "note": "CONCACAF changed the Gold Cup tournament format starting in 2027."
+  },
+  {
+   "title": "AtkinsRéalis Group Inc Q3 2026 earnings call transcript",
+   "url": "https://www.msn.com/en-us/news/other/atkinsr%C3%A9alis-group-inc-q3-2026-earnings-call-transcript/ar-AA2gPQrD",
+   "publisher": "Benzinga on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AtkinsRéalis Group Inc Q3 2026 earnings call transcript",
+   "note": "AtkinsRéalis Group reported its third-quarter financial results."
+  },
+  {
+   "title": "Starlink Low-Earth Orbit Satellite Connectivity and How State Agencies Can Write Smarter RFPs",
+   "url": "https://statetechmagazine.com/article/2026/11/starlink-low-earth-orbit-satellite-connectivity-and-how-state-agencies-can-write-smarter-rfps",
+   "publisher": "StateTech Magazine",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Starlink Low-Earth Orbit Satellite Connectivity and How State Agencies Can Write Smarter RFPs",
+   "note": "State agencies can improve procurement frameworks for Starlink low-earth orbit satellite connectivity."
+  },
+  {
+   "title": "Business Insurance News",
+   "url": "https://www.insurancejournal.com/business-insurance/",
+   "publisher": "Insurance Journal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Business Insurance News",
+   "note": "General property and casualty insurance insights and breaking news from Insurance Journal."
+  },
+  {
+   "title": "Kreuzung in Breitenfurt Ost an B 13 und L 2102 saniert",
+   "url": "https://nachrichten.jetzt/2026/11/kreuzung-in-breitenfurt-ost-an-b-13-und-l-2102-saniert/",
+   "publisher": "nachrichten.jetzt",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kreuzung in Breitenfurt Ost an B 13 und L 2102 saniert",
+   "note": "Local road intersection in Breitenfurt Ost was renovated, with costs covered by Lower Austria."
+  },
+  {
+   "title": "Iran’s war threats now reach Europe, from Cyprus to Britain",
+   "url": "https://www.iranintl.com/en/202611036564",
+   "publisher": "Iran International",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Iran’s war threats now reach Europe, from Cyprus to Britain",
+   "note": "Iranian officials warned that potential conflict with the United States could extend to Europe."
+  },
+  {
+   "title": "Top LTL Carriers See Q3 Revenue Surge on Fuel, Capacity, Rates",
+   "url": "https://www.msn.com/en-us/news/other/top-ltl-carriers-see-q3-revenue-surge-on-fuel-capacity-rates/ar-AA2gBsWL",
+   "publisher": "Sourcing Journal on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Top LTL Carriers See Q3 Revenue Surge on Fuel, Capacity, Rates",
+   "note": "Context only."
+  },
+  {
+   "title": "Ti udlændinge identificeres som ofre for togulykke i Spanien",
+   "url": "https://tidende.dk/ind-og-udland/udland/ti-udlaendinge-identificeres-som-ofre-for-togulykke-i-spanien/408425",
+   "publisher": "Tidende",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ti udlændinge identificeres som ofre for togulykke i Spanien",
+   "note": "Foreign nationals identified among victims of a train accident in Spain."
+  },
+  {
+   "title": "9 killed in plane crash in US Florida",
+   "url": "https://dailynewnation.com/news/867562",
+   "publisher": "dailynewnation",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "9 killed in plane crash in US Florida",
+   "note": "Plane crash in Lake Worth Beach, Florida results in fatalities."
+  }
+ ],
+ "digest": "- Berkshire Hathaway reported a 5.8% drop in Q3 operating earnings due to weaker insurance results, signaling potential underwriting headwinds for major industry players that could impact market capacity and pricing [2].\n- Top LTL carriers saw a Q3 revenue surge driven by higher fuel surcharges, improved capacity, and rising rates, indicating strong transport sector demand relevant to commercial auto exposure [3]."
+}

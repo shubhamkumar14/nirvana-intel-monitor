@@ -1705,5 +1705,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-07T18:19:02Z"
+ },
+ "Berkshire Hathaway": {
+  "name": "Berkshire Hathaway",
+  "first_seen": "2026-11-08T08:01:36Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0d1438afc0d7"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-08T08:01:36Z"
  }
 }
