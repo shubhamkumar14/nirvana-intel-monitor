@@ -1755,5 +1755,95 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-09T08:42:21Z"
+ },
+ "MSIG UK": {
+  "name": "MSIG UK",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_131d1d96a5a7"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "MSIG": {
+  "name": "MSIG",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_131d1d96a5a7"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "James River Group Holdings, Inc.": {
+  "name": "James River Group Holdings, Inc.",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_2e8405edeb3f"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "Insurance Journal": {
+  "name": "Insurance Journal",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b060523668c6"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "Motive": {
+  "name": "Motive",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_ce7bdfc54cb0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "James River Group Holdings": {
+  "name": "James River Group Holdings",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_443ecc8b07ea"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "InsurGrid": {
+  "name": "InsurGrid",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_669e9746e3cd"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "NI Holdings, Inc.": {
+  "name": "NI Holdings, Inc.",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f702e950ce04"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "Trisura Group Ltd.": {
+  "name": "Trisura Group Ltd.",
+  "first_seen": "2026-11-09T23:09:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e2ff19866c2a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T23:09:40Z"
  }
 }
