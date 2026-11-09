@@ -1735,5 +1735,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-08T18:30:10Z"
+ },
+ "Antler India": {
+  "name": "Antler India",
+  "first_seen": "2026-11-09T08:42:21Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_5c7536d17b40"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T08:42:21Z"
+ },
+ "Dispatch Network": {
+  "name": "Dispatch Network",
+  "first_seen": "2026-11-09T08:42:21Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_5c7536d17b40"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-09T08:42:21Z"
  }
 }
