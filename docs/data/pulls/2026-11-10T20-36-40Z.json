@@ -1,0 +1,3338 @@
+{
+ "run_id": "2026-11-10T20-36-40Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/42896973146",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-10",
+ "started": "2026-11-10T20:36:40Z",
+ "duration_s": 374.1,
+ "baseline": false,
+ "previous_run": "2026-11-10T08-51-36Z",
+ "previous_started": "2026-11-10T08:51:36Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 355,
+  "unique": 340,
+  "known_skipped": 186,
+  "attached_existing": 4,
+  "prefiltered_out": 90,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 62,
+  "irrelevant": 23,
+  "quarantined": 0,
+  "new_events": 36,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.6,
+  "dedup_ratio": 0.818,
+  "relevance_rate": 0.581
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 387
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 471
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 69
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 168
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 92
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 134
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 125
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 95
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 178
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 170
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 157
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 171
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 194
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 200
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 182
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 141
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 136
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 165
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 181
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 151
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 153
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 183
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 204
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 151
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 52
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 44
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1246
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 415
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 271
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 485
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 502
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 489
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2079
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 11898,
+  "output_tokens": 9466,
+  "calls": 5,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 5
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_4e1decef5c99",
+   "title": "Progressive Insurance® Unifies Commercial Telematics with New Snapshot Pro℠ Program",
+   "url": "https://www.prnewswire.com/news-releases/progressive-insurance-unifies-commercial-telematics-with-new-snapshot-pro-program-302935136.html",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "headwind",
+   "materiality": 5,
+   "last_mile_fit": 0.9,
+   "summary": "Progressive completed its rollout of the new Snapshot Pro program, combining commercial telematics platforms Snapshot ProView and Smart Haul.",
+   "evidence_quote": "Progressive Insurance® Unifies Commercial Telematics with New Snapshot Pro℠ Program",
+   "companies": [
+    "Progressive"
+   ],
+   "implication": "Progressive is strengthening its commercial telematics footprint. Nirvana must lean into superior fleet-specific coaching and real-time risk visibility to win DSPs.",
+   "action": "respond",
+   "watchlist_companies": [
+    "Progressive Commercial"
+   ],
+   "published": "2026-11-10T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "4e1decef5c99"
+   ],
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/progressive-insurance-unifies-commercial-telematics-with-new-snapshot-pro-program-302935136.html",
+     "publisher": "PR Newswire - Insurance",
+     "publisher_key": "pr newswire - insurance",
+     "published": "2026-11-10T16:00:00Z",
+     "tier": 1,
+     "source_id": "prn_insurance",
+     "query": null
+    },
+    {
+     "url": "https://finance.yahoo.com/small-business/articles/progressive-insurance-unifies-commercial-telematics-160000979.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-10T05:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 1,
+   "score": 100.0,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 5,
+    "priority": 0.95,
+    "tier": 1,
+    "recency": 0.98,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "primary source, 2 independent publishers"
+  },
+  {
+   "id": "ev_236c81000db6",
+   "title": "Amazon, alternative carriers gained parcel volume in 2026’s first half",
+   "url": "https://www.supplychaindive.com/news/amazon-alternative-carriers-gained-parcel-volume-in-2026s-first-half/873932/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 4,
+   "last_mile_fit": 0.9,
+   "summary": "Amazon and alternative parcel carriers continued to expand market share and parcel volume during the first half of 2026.",
+   "evidence_quote": "Amazon, alternative carriers gained parcel volume in 2026’s first half",
+   "companies": [],
+   "implication": "Growing Amazon DSP and alternative parcel volumes expand our immediate addressable market for last-mile commercial auto insurance.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-10T14:27:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "236c81000db6"
+   ],
+   "sources": [
+    {
+     "url": "https://www.supplychaindive.com/news/amazon-alternative-carriers-gained-parcel-volume-in-2026s-first-half/873932/",
+     "publisher": "Supply Chain Dive",
+     "publisher_key": "supply chain dive",
+     "published": "2026-11-10T14:27:00Z",
+     "tier": 2,
+     "source_id": "supplychaindive",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 76.9,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.97,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_0e9572dffc79",
+   "title": "Zipline Raises $1.5B at $21.5B Valuation, Adds 300 Walmart Drone Sites",
+   "url": "https://www.msn.com/en-us/news/other/zipline-raises-15b-at-215b-valuation-adds-300-walmart-drone-sites/ar-AA2gUQn6",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 4,
+   "last_mile_fit": 0.8,
+   "summary": "Zipline raised $1.5 billion at a $21.5 billion valuation and added 300 Walmart drone delivery sites.",
+   "evidence_quote": "Zipline Raises $1.5B at $21.5B Valuation, Adds 300 Walmart Drone Sites",
+   "companies": [
+    "Zipline",
+    "Walmart"
+   ],
+   "implication": "Context only.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-06T12:06:13Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "0e9572dffc79"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/zipline-raises-15b-at-215b-valuation-adds-300-walmart-drone-sites/ar-AA2gUQn6",
+     "publisher": "Women's Wear Daily on MSN",
+     "publisher_key": "women's wear daily on msn",
+     "published": "2026-11-06T12:06:13Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 65.2,
+   "age_days": 4.4,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.65,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e4c60301c025",
+   "title": "GOFO research explores the future of U.S. last mile delivery",
+   "url": "https://postandparcel.info/163275/news/e-commerce/gofo-research-explores-the-future-of-u-s-last-mile-delivery/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "GOFO released a white paper highlighting a structural shift in the US parcel delivery market.",
+   "evidence_quote": "GOFO research explores the future of U.S. last mile delivery",
+   "companies": [
+    "GOFO"
+   ],
+   "implication": "Context only.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-09T22:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "e4c60301c025"
+   ],
+   "sources": [
+    {
+     "url": "https://postandparcel.info/163275/news/e-commerce/gofo-research-explores-the-future-of-u-s-last-mile-delivery/",
+     "publisher": "Post & Parcel",
+     "publisher_key": "post & parcel",
+     "published": "2026-11-09T22:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_b5511c2e4032",
+   "title": "Behind Kemper’s Q3 swing to profit, the auto book still isn’t breaking even",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/behind-kempers-q3-swing-to-profit-the-auto-book-still-isnt-breaking-even-596825.aspx",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.2,
+   "summary": "Kemper reported Q3 profit, but its auto insurance book remains near breakeven with an underlying combined ratio over 100%.",
+   "evidence_quote": "Behind Kemper’s Q3 swing to profit, the auto book still isn’t breaking even",
+   "companies": [
+    "Kemper"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-09T20:44:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "b5511c2e4032"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/behind-kempers-q3-swing-to-profit-the-auto-book-still-isnt-breaking-even-596825.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-09T20:44:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 2,
+   "score": 60.8,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.91,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_c877f96ef9d5",
+   "title": "AI saved air cargo? Rates up 30% YOY",
+   "url": "https://www.freightwaves.com/news/ai-saved-air-cargo-rates-up-30-yoy",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Air cargo rates and volumes are rising, while drone delivery leaders expand partnerships with major retailers like Walmart.",
+   "evidence_quote": "drone delivery leaders like Wing and Zipline are expanding partnerships with Walmart",
+   "companies": [
+    "Wing",
+    "Zipline",
+    "Walmart"
+   ],
+   "implication": "Context only regarding non-ground delivery expansion.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T19:41:16Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "c877f96ef9d5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/ai-saved-air-cargo-rates-up-30-yoy",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-10T19:41:16Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    },
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/ai-saved-air-cargo-rates-194116140.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-10T11:41:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 2,
+   "score": 59.2,
+   "age_days": 0.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 1.0,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "trade press, 2 independent publishers"
+  },
+  {
+   "id": "ev_a83e83cf52be",
+   "title": "After Uber, where the Tax Office may look next: Your client’s website",
+   "url": "https://www.accountingtimes.com.au/profession/after-uber-where-the-tax-office-may-look-next-your-client-s-website",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "Following an Uber legal decision, tax authorities and accountants are closely scrutinizing independent contractor agreements and business front operations.",
+   "evidence_quote": "Following the High Court’s Uber decision, accountants need to look beyond service agreements",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-09T23:03:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "a83e83cf52be"
+   ],
+   "sources": [
+    {
+     "url": "https://www.accountingtimes.com.au/profession/after-uber-where-the-tax-office-may-look-next-your-client-s-website",
+     "publisher": "Accounting Times",
+     "publisher_key": "accounting times",
+     "published": "2026-11-09T23:03:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 59.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_62f721b29cb6",
+   "title": "KMPR Q3 2026 deep dive: margin recovery continues as Kemper prioritizes profit over growth",
+   "url": "https://stockstory.org/us/stocks/nyse/kmpr/news/earnings-call/kmpr-q3-2026-deep-dive-margin-recovery-continues-as-kemper-prioritizes-profit-over-growth",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "Kemper reported its Q3 2026 results, emphasizing margin recovery and prioritizing underwriting profit over growth, with sales falling 12%.",
+   "evidence_quote": "KMPR Q3 2026 deep dive: margin recovery continues as Kemper prioritizes profit over growth",
+   "companies": [
+    "Kemper"
+   ],
+   "implication": "Context only; indicates traditional commercial auto insurers remain focused on rate adequacy and margin recovery over top-line expansion.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T07:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "62f721b29cb6"
+   ],
+   "sources": [
+    {
+     "url": "https://stockstory.org/us/stocks/nyse/kmpr/news/earnings-call/kmpr-q3-2026-deep-dive-margin-recovery-continues-as-kemper-prioritizes-profit-over-growth",
+     "publisher": "stockstory",
+     "publisher_key": "stockstory",
+     "published": "2026-11-10T07:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4bea476c6cf9",
+   "title": "Arizona Proposition 141, Prohibit Taxes or Fees on Miles Traveled in Motor Vehicle Amendment (2026)",
+   "url": "https://ballotpedia.org/Arizona_Proposition_141,_Prohibit_Taxes_or_Fees_on_Miles_Traveled_in_Motor_Vehicle_Amendment_(2026)",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.5,
+   "summary": "Arizona Proposition 141 proposes to prohibit state and local governments from imposing taxes or fees based on vehicle miles traveled.",
+   "evidence_quote": "Prohibit Taxes or Fees on Miles Traveled in Motor Vehicle Amendment",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-08T00:15:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "4bea476c6cf9"
+   ],
+   "sources": [
+    {
+     "url": "https://ballotpedia.org/Arizona_Proposition_141,_Prohibit_Taxes_or_Fees_on_Miles_Traveled_in_Motor_Vehicle_Amendment_(2026)",
+     "publisher": "Proposition 206",
+     "publisher_key": "proposition 206",
+     "published": "2026-11-08T00:15:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 57.8,
+   "age_days": 2.8,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.75,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_8b03b244c04d",
+   "title": "Freightos Launches Next-Generation Forwarder Platform, Advancing from Digital Workflows to an AI-Native Freight Orchestration Network",
+   "url": "https://www.prnewswire.com/news-releases/freightos-launches-next-generation-forwarder-platform-advancing-from-digital-workflows-to-an-ai-native-freight-orchestration-network-302934752.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Freightos launched its next-generation forwarder platform, advancing into an AI-native freight orchestration network.",
+   "evidence_quote": "Freightos Launches Next-Generation Forwarder Platform, Advancing from Digital Workflows to an AI-Native Freight Orchestration Network",
+   "companies": [
+    "Freightos"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T04:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "8b03b244c04d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/freightos-launches-next-generation-forwarder-platform-advancing-from-digital-workflows-to-an-ai-native-freight-orchestration-network-302934752.html",
+     "publisher": "PR Newswire",
+     "publisher_key": "pr newswire",
+     "published": "2026-11-10T04:01:00Z",
+     "tier": 1,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 1,
+   "score": 55.0,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 1,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_6a51dcd722cc",
+   "title": "Where Trucking Capacity Sits Right Now, And What The Fleet-Size Split Might Be Signaling",
+   "url": "https://www.freightwaves.com/news/where-trucking-capacity-sits-right-now-and-what-the-fleet-size-split-might-be-signaling",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Trucking capacity conditions vary significantly depending on whether fleets are owner-operators, mid-sized, or large carriers.",
+   "evidence_quote": "Where Trucking Capacity Sits Right Now, And What The Fleet-Size Split Might Be Signaling",
+   "companies": [],
+   "implication": "Context only regarding general carrier capacity dynamics.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T15:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "6a51dcd722cc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/where-trucking-capacity-sits-right-now-and-what-the-fleet-size-split-might-be-signaling",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-10T15:05:00Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 54.9,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.98,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_3226d242a7de",
+   "title": "New footage released in search for missing DoorDash driver as cops unpack timeline of Zachariah Schuck’s movements",
+   "url": "https://nypost.com/2026/11/10/us-news/new-footage-released-in-search-for-missing-doordash-driver-as-cops-unpack-timeline-of-zachariah-schucks-movements/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "Police released new surveillance footage and a timeline in the search for a missing DoorDash driver.",
+   "evidence_quote": "New footage released in search for missing DoorDash driver as cops unpack timeline of Zachariah Schuck’s movements",
+   "companies": [
+    "DoorDash"
+   ],
+   "implication": "Context only; highlights driver safety and security risks inherent in gig and last-mile delivery operations.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T06:43:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "3226d242a7de"
+   ],
+   "sources": [
+    {
+     "url": "https://nypost.com/2026/11/10/us-news/new-footage-released-in-search-for-missing-doordash-driver-as-cops-unpack-timeline-of-zachariah-schucks-movements/",
+     "publisher": "New York Post",
+     "publisher_key": "new york post",
+     "published": "2026-11-10T06:43:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e5c26b1e0c3c",
+   "title": "Tech Transformation: ShipStation Global’s AI Overhauls Freight Operations",
+   "url": "https://www.freightwaves.com/news/tech-transformation-shipstation-globals-ai-overhauls-freight-operations",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "ShipStation Global rolled out an AI-powered platform to automate freight quoting, booking, and security operations.",
+   "evidence_quote": "ShipStation Global’s AI Overhauls Freight Operations",
+   "companies": [
+    "ShipStation Global"
+   ],
+   "implication": "Context only on broader logistics software automation.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T19:32:49Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "e5c26b1e0c3c"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/tech-transformation-shipstation-globals-ai-overhauls-freight-operations",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-10T19:32:49Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 53.2,
+   "age_days": 0.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 1.0,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_b96ec195ceea",
+   "title": "Wing to invest $125M in drone manufacturing plant",
+   "url": "https://www.freightwaves.com/news/wing-to-invest-125m-in-drone-manufacturing-plant",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Drone delivery firm Wing is investing $125 million in a new aircraft manufacturing plant to support customer demand.",
+   "evidence_quote": "Wing to invest $125M in drone manufacturing plant",
+   "companies": [
+    "Wing",
+    "Walmart"
+   ],
+   "implication": "Context only on drone fulfillment alternatives.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T14:06:41Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "b96ec195ceea"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/wing-to-invest-125m-in-drone-manufacturing-plant",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-10T14:06:41Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.9,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.97,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_ca6cce04ba68",
+   "title": "McDonald's Expands Uber Partnership: Can It Drive More Growth?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-expands-uber-partnership-drive-182800462.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "McDonald's is expanding its delivery partnership with Uber across 14 global markets to increase digital orders and sales growth.",
+   "evidence_quote": "McDonald's Expands Uber Partnership: Can It Drive More Growth?",
+   "companies": [
+    "McDonald's",
+    "Uber"
+   ],
+   "implication": "Context only; indicates ongoing strength in food delivery volume that drives demand for gig and courier commercial auto coverage.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T10:28:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "ca6cce04ba68"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-expands-uber-partnership-drive-182800462.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-10T10:28:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 52.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4253a62496ad",
+   "title": "US Postal Service seeks $2 billion from Congress to avoid cuts",
+   "url": "https://www.sacbee.com/news/nation-world/national/article318013703.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "The US Postal Service requested $2 billion from Congress to avoid significant retail and operational cuts.",
+   "evidence_quote": "US Postal Service seeks $2 billion from Congress to avoid cuts",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T02:55:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "4253a62496ad"
+   ],
+   "sources": [
+    {
+     "url": "https://www.sacbee.com/news/nation-world/national/article318013703.html",
+     "publisher": "The Sacramento Bee",
+     "publisher_key": "the sacramento bee",
+     "published": "2026-11-10T02:55:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1c547f2c0538",
+   "title": "Rising Inventory Costs Push Small Business Owners to Cover Holiday Expenses With Savings",
+   "url": "https://finance.yahoo.com/small-business/articles/rising-inventory-costs-push-small-135500606.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "A survey by Flute reveals that 58% of small business owners must rely on personal savings or credit to cover rising inventory costs for the holidays.",
+   "evidence_quote": "Rising Inventory Costs Push Small Business Owners to Cover Holiday Expenses With Savings",
+   "companies": [
+    "Flute"
+   ],
+   "implication": "Context only; indicates small fleet and delivery business owners face cash flow tightness, making insurance premium affordability critical.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T05:55:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "1c547f2c0538"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/small-business/articles/rising-inventory-costs-push-small-135500606.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-10T05:55:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_36b730cf8c13",
+   "title": "European road freight rates steady at record highs",
+   "url": "https://www.iru.org/news-resources/newsroom/european-road-freight-rates-steady-record-highs",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "European road freight rates leveled off at record highs in the third quarter of 2026.",
+   "evidence_quote": "European road freight rates steady at record highs",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T04:16:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "36b730cf8c13"
+   ],
+   "sources": [
+    {
+     "url": "https://www.iru.org/news-resources/newsroom/european-road-freight-rates-steady-record-highs",
+     "publisher": "International Road Transport Union",
+     "publisher_key": "international road transport union",
+     "published": "2026-11-10T04:16:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_d47989fc9c56",
+   "title": "Shadowfax vs Delhivery: Which logistics stock is better positioned for growth after Q2FY27 results?",
+   "url": "https://www.msn.com/en-in/news/other/shadowfax-vs-delhivery-which-logistics-stock-is-better-positioned-for-growth-after-q2fy27-results/ar-AA2h7Cm7",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "Indian logistics companies Shadowfax and Delhivery are experiencing high e-commerce and quick commerce demand after Q2FY27 results.",
+   "evidence_quote": "The logistics industry of India is experiencing increasing demand from e-commerce",
+   "companies": [
+    "Shadowfax",
+    "Delhivery"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-08T07:26:18Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "d47989fc9c56"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-in/news/other/shadowfax-vs-delhivery-which-logistics-stock-is-better-positioned-for-growth-after-q2fy27-results/ar-AA2h7Cm7",
+     "publisher": "Trade Brains on MSN",
+     "publisher_key": "trade brains on msn",
+     "published": "2026-11-08T07:26:18Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.2,
+   "age_days": 2.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.78,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3a0536c1e177",
+   "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+   "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Amazon-owned Ring launched a home security drone and an enterprise security robot.",
+   "evidence_quote": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone",
+   "companies": [
+    "Ring"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T13:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "3a0536c1e177"
+   ],
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+     "publisher": "TechCrunch",
+     "publisher_key": "techcrunch",
+     "published": "2026-11-10T13:30:00Z",
+     "tier": 3,
+     "source_id": "techcrunch",
+     "query": null
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.1,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_93e983f1367a",
+   "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of December 27, 2026 in Everest ...",
+   "url": "https://www.gazettextra.com/news/nation_world/suewallst-reminds-shareholders-of-a-lead-plaintiff-deadline-of-december-27-2026-in-everest/article_061fc3e5-c98c-524c-9e08-a0596cef3138.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Shareholders are notified of a lead plaintiff deadline in a securities lawsuit involving Everest Group and its former insurance head.",
+   "evidence_quote": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of December 27, 2026 in Everest ...",
+   "companies": [
+    "Everest Group, Ltd."
+   ],
+   "implication": "Context only; highlights executive turnover and legal exposure at a commercial property-casualty competitor.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T09:26:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "93e983f1367a",
+    "e1ac215fc5d3"
+   ],
+   "sources": [
+    {
+     "url": "https://www.gazettextra.com/news/nation_world/suewallst-reminds-shareholders-of-a-lead-plaintiff-deadline-of-december-27-2026-in-everest/article_061fc3e5-c98c-524c-9e08-a0596cef3138.html",
+     "publisher": "GazetteXtra",
+     "publisher_key": "gazettextra",
+     "published": "2026-11-10T09:26:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    },
+    {
+     "url": "https://markets.chroniclejournal.com/chroniclejournal/article/gnwcq-2026-11-10-suewallst-reminds-shareholders-of-a-lead-plaintiff-deadline-of-december-27-2026-in-everest-group-ltd-lawsuit",
+     "publisher": "markets.chroniclejournal",
+     "publisher_key": "markets.chroniclejournal",
+     "published": "2026-11-10T09:22:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_a849594d78d7",
+   "title": "GEICO Philanthropic Foundation Donates $100,000 to Expand Collision Repair Technician Pipeline",
+   "url": "https://www.rutlandherald.com/news/business/geico-philanthropic-foundation-donates-100-000-to-expand-collision-repair-technician-pipeline/article_6f4a76f5-23b9-5f2a-9d70-16a07dab95ee.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "The GEICO Philanthropic Foundation donated $100,000 to the Collision Engineering Career Alliance to expand the collision repair technician pipeline.",
+   "evidence_quote": "GEICO Philanthropic Foundation Donates $100,000 to Expand Collision Repair Technician Pipeline",
+   "companies": [
+    "GEICO"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T04:02:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "a849594d78d7"
+   ],
+   "sources": [
+    {
+     "url": "https://www.rutlandherald.com/news/business/geico-philanthropic-foundation-donates-100-000-to-expand-collision-repair-technician-pipeline/article_6f4a76f5-23b9-5f2a-9d70-16a07dab95ee.html",
+     "publisher": "Rutland Herald",
+     "publisher_key": "rutland herald",
+     "published": "2026-11-10T04:02:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_2fdd86956280",
+   "title": "Reinsurance renewal discussions shaped by abundant capital, loss concerns",
+   "url": "https://www.businessinsurance.com/reinsurance-renewal-discussions-shaped-by-abundant-capital-loss-concerns/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Property reinsurance rates are expected to fall at January renewals due to abundant capital and increased competition.",
+   "evidence_quote": "Property reinsurance rates are expected to fall again at Jan. 1 renewals",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T04:55:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "2fdd86956280"
+   ],
+   "sources": [
+    {
+     "url": "https://www.businessinsurance.com/reinsurance-renewal-discussions-shaped-by-abundant-capital-loss-concerns/",
+     "publisher": "Business Insurance",
+     "publisher_key": "business insurance",
+     "published": "2026-11-10T04:55:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.6,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3bb73cc1f442",
+   "title": "Octave Specialty Group Q3 2026 earnings call transcript",
+   "url": "https://www.msn.com/en-us/news/other/octave-specialty-group-q3-2026-earnings-call-transcript/ar-AA2h9jL6",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Octave Specialty Group released its Q3 2026 financial results via an earnings call transcript.",
+   "evidence_quote": "Octave Specialty Group Q3 2026 earnings call transcript",
+   "companies": [
+    "Octave Specialty Group"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T06:15:39Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "3bb73cc1f442"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/octave-specialty-group-q3-2026-earnings-call-transcript/ar-AA2h9jL6",
+     "publisher": "Benzinga on MSN",
+     "publisher_key": "benzinga on msn",
+     "published": "2026-11-10T06:15:39Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f195e4c9ab56",
+   "title": "Kemper Q3 2026 earnings call transcript",
+   "url": "https://www.msn.com/en-us/money/economy/kemper-q3-2026-earnings-call-transcript/ar-AA2h92xI",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Kemper published its Q3 2026 earnings call transcript detailing margin trends.",
+   "evidence_quote": "Kemper Q3 2026 earnings call transcript",
+   "companies": [
+    "Kemper"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T06:01:54Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f195e4c9ab56"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/economy/kemper-q3-2026-earnings-call-transcript/ar-AA2h92xI",
+     "publisher": "Benzinga on MSN",
+     "publisher_key": "benzinga on msn",
+     "published": "2026-11-10T06:01:54Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_8e736079f16b",
+   "title": "LFL Releases Third Quarter Financial Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lfl-releases-third-quarter-financial-213000745.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Leon's Furniture Limited released financial results for the third quarter ended September 30, 2026.",
+   "evidence_quote": "LFL Releases Third Quarter Financial Results",
+   "companies": [
+    "Leon's Furniture Limited",
+    "LFL"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-05T05:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "8e736079f16b"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/lfl-releases-third-quarter-financial-213000745.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-05T05:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.1,
+   "age_days": 5.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.57,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_645b1a7ec26a",
+   "title": "Insurtech Lemonade Posts $43.7M Loss for Q3",
+   "url": "https://www.insurancejournal.com/news/national/2026/11/10/892242.htm",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Lemonade reported a net loss of $43.7 million for the third quarter of 2026.",
+   "evidence_quote": "Insurtech Lemonade Posts $43.7M Loss for Q3",
+   "companies": [
+    "Lemonade"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T15:44:04Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "645b1a7ec26a"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancejournal.com/news/national/2026/11/10/892242.htm",
+     "publisher": "Insurance Journal",
+     "publisher_key": "insurance journal",
+     "published": "2026-11-10T15:44:04Z",
+     "tier": 2,
+     "source_id": "insurancejournal",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 44.0,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.98,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_aaa4e746da09",
+   "title": "MS Transverse names Grippa as new Chief Commercial Officer",
+   "url": "https://www.reinsurancene.ws/ms-transverse-names-grippa-as-new-chief-commercial-officer/",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "MS Transverse appointed Anthony Grippa as Chief Commercial Officer.",
+   "evidence_quote": "MS Transverse names Grippa as new Chief Commercial Officer",
+   "companies": [
+    "MS Transverse"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T16:30:44Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "aaa4e746da09"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reinsurancene.ws/ms-transverse-names-grippa-as-new-chief-commercial-officer/",
+     "publisher": "Reinsurance News",
+     "publisher_key": "reinsurance news",
+     "published": "2026-11-10T16:30:44Z",
+     "tier": 2,
+     "source_id": "reinsurancenews",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 43.0,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.98,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_221c8065784e",
+   "title": "Baker appointed Chairman and Walls Global Head of Marine, Cargo, and Logistics at Marsh Risk",
+   "url": "https://www.reinsurancene.ws/baker-appointed-chairman-and-walls-global-head-of-marine-cargo-and-logistics-at-marsh-risk/",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Marsh Risk announced leadership changes in its marine, cargo, and logistics division.",
+   "evidence_quote": "Baker appointed Chairman and Walls Global Head of Marine, Cargo, and Logistics at Marsh Risk",
+   "companies": [
+    "Marsh"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T15:30:16Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "221c8065784e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reinsurancene.ws/baker-appointed-chairman-and-walls-global-head-of-marine-cargo-and-logistics-at-marsh-risk/",
+     "publisher": "Reinsurance News",
+     "publisher_key": "reinsurance news",
+     "published": "2026-11-10T15:30:16Z",
+     "tier": 2,
+     "source_id": "reinsurancenews",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 42.9,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.98,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_f61daae2bf27",
+   "title": "Aon appoints Mona Gupta as Global Head of Risk Capital Client Delivery",
+   "url": "https://www.reinsurancene.ws/aon-appoints-mona-gupta-as-global-head-of-risk-capital-client-delivery/",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Aon appointed Mona Gupta as Global Head of Risk Capital Client Delivery.",
+   "evidence_quote": "Aon appoints Mona Gupta as Global Head of Risk Capital Client Delivery",
+   "companies": [
+    "Aon"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T14:30:31Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "f61daae2bf27"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reinsurancene.ws/aon-appoints-mona-gupta-as-global-head-of-risk-capital-client-delivery/",
+     "publisher": "Reinsurance News",
+     "publisher_key": "reinsurance news",
+     "published": "2026-11-10T14:30:31Z",
+     "tier": 2,
+     "source_id": "reinsurancenews",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 41.9,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.98,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_254406889fa3",
+   "title": "Hapag-Lloyd raises North Europe tariffs to Ennore, Chittagong and Colombo",
+   "url": "https://container-mag.com/update/hapag-lloyd-raises-north-europe-tariffs-to-ennore-chittagong-and-colombo",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Hapag-Lloyd has raised tariffs for shipping dry boxes from North Europe to select South Asian ports.",
+   "evidence_quote": "Hapag-Lloyd raises North Europe tariffs to Ennore, Chittagong and Colombo",
+   "companies": [
+    "Hapag-Lloyd"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T07:02:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "254406889fa3"
+   ],
+   "sources": [
+    {
+     "url": "https://container-mag.com/update/hapag-lloyd-raises-north-europe-tariffs-to-ennore-chittagong-and-colombo",
+     "publisher": "Container Management",
+     "publisher_key": "container management",
+     "published": "2026-11-10T07:02:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_bb52f2063786",
+   "title": "Murmansk Port Resumes Pig Iron Exports with 10-Day Longer Routes and Double Freight Costs",
+   "url": "https://english.pravda.ru/news/business/172148-murmansk-pig-iron-exports-arctic-route-costs/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Murmansk Port resumed pig iron exports using longer Arctic routes that double freight costs.",
+   "evidence_quote": "Murmansk Port Resumes Pig Iron Exports with 10-Day Longer Routes and Double Freight Costs",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T05:44:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "bb52f2063786"
+   ],
+   "sources": [
+    {
+     "url": "https://english.pravda.ru/news/business/172148-murmansk-pig-iron-exports-arctic-route-costs/",
+     "publisher": "PravdaReport",
+     "publisher_key": "pravdareport",
+     "published": "2026-11-10T05:44:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a19ee87bd1d9",
+   "title": "Nebraska Medical Cannabis Commission pushes back on testing timeline, offers no new estimate",
+   "url": "https://www.yahoo.com/news/politics/articles/nebraska-medical-cannabis-commission-pushes-195738516.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "The Nebraska Medical Cannabis Commission delayed testing timelines without providing a new estimate.",
+   "evidence_quote": "Nebraska Medical Cannabis Commission pushes back on testing timeline",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T11:57:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "a19ee87bd1d9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/politics/articles/nebraska-medical-cannabis-commission-pushes-195738516.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-11-10T11:57:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_cc65dfc98de0",
+   "title": "Global oil prices are dropping fast and could keep falling. What it means for inflation.",
+   "url": "https://www.msn.com/en-us/money/economy/global-oil-prices-are-dropping-fast-and-could-keep-falling-what-it-means-for-inflation/ar-AA2h9NaG",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Global oil prices are dropping quickly, which may impact general inflation trends.",
+   "evidence_quote": "Global oil prices are dropping fast and could keep falling. What it means for inflation.",
+   "companies": [],
+   "implication": "Context only; lower fuel costs marginally ease operating expenses for last-mile fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T10:22:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "cc65dfc98de0"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/economy/global-oil-prices-are-dropping-fast-and-could-keep-falling-what-it-means-for-inflation/ar-AA2h9NaG",
+     "publisher": "Barron's on MSN",
+     "publisher_key": "barron's on msn",
+     "published": "2026-11-10T10:22:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_fa9c28667048",
+   "title": "AM Best Revises Issuer Credit Rating Outlook to Stable for Members of Texas Farm Bureau Insurance Group",
+   "url": "https://news.ambest.com/newscontent.aspx?refnum=278742",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "AM Best revised the issuer credit rating outlook to stable for members of Texas Farm Bureau Insurance Group.",
+   "evidence_quote": "AM Best Revises Issuer Credit Rating Outlook to Stable for Members of Texas Farm Bureau Insurance Group",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T02:39:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "fa9c28667048"
+   ],
+   "sources": [
+    {
+     "url": "https://news.ambest.com/newscontent.aspx?refnum=278742",
+     "publisher": "news.ambest",
+     "publisher_key": "news.ambest",
+     "published": "2026-11-10T02:39:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1f942f70bf9f",
+   "title": "Kemper outlines path to personal auto underwriting profit, targets sub-100 combined ratio in 2027",
+   "url": "https://seekingalpha.com/news/4670067-kemper-outlines-path-to-personal-auto-underwriting-profit-targets-subminus-100-combined-ratio",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Kemper outlined its path to personal auto underwriting profit and targeted a sub-100 combined ratio.",
+   "evidence_quote": "Kemper outlines path to personal auto underwriting profit",
+   "companies": [
+    "Kemper"
+   ],
+   "implication": "Context only (personal auto).",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T12:02:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1f942f70bf9f"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/news/4670067-kemper-outlines-path-to-personal-auto-underwriting-profit-targets-subminus-100-combined-ratio",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-11-10T12:02:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_ae658653d2b4",
+   "title": "Holiday Shipping Costs Nearly Doubled for This Small Retailer. But the Higher Price Isn’t the Real Problem",
+   "url": "https://www.inc.com/moses-jeanfrancois/holiday-shipping-costs-doubled-retailer-higher-price-isnt-real-problem/91432591",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Smaller retailers face rising shipping costs, squeezing profit margins and forcing them to prioritize expenses during the holiday season.",
+   "evidence_quote": "Holiday Shipping Costs Nearly Doubled for This Small Retailer.",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-09T06:46:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-09T23:09:40Z",
+   "first_run": "2026-11-09T23-09-40Z",
+   "last_seen": "2026-11-10T20:36:40Z",
+   "last_updated_run": "2026-11-10T20-36-40Z",
+   "update_note": "New corroborating source: Inc.com on MSN",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "ae658653d2b4"
+   ],
+   "sources": [
+    {
+     "url": "https://www.inc.com/moses-jeanfrancois/holiday-shipping-costs-doubled-retailer-higher-price-isnt-real-problem/91432591",
+     "publisher": "Inc.com",
+     "publisher_key": "inc.com",
+     "published": "2026-11-09T06:46:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://www.msn.com/en-us/money/economy/holiday-shipping-costs-nearly-doubled-for-this-small-retailer-but-the-higher-price-isn-t-the-real-problem/ar-AA2h9fBL",
+     "publisher": "Inc.com on MSN",
+     "publisher_key": "inc.com on msn",
+     "published": "2026-11-09T06:46:45Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.3,
+   "age_days": 1.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.86,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "AI saved air cargo? Rates up 30% YOY",
+   "url": "https://www.freightwaves.com/news/ai-saved-air-cargo-rates-up-30-yoy",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "drone delivery leaders like Wing and Zipline are expanding partnerships with Walmart",
+   "note": "Context only regarding non-ground delivery expansion."
+  },
+  {
+   "title": "Tech Transformation: ShipStation Global’s AI Overhauls Freight Operations",
+   "url": "https://www.freightwaves.com/news/tech-transformation-shipstation-globals-ai-overhauls-freight-operations",
+   "publisher": "FreightWaves",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ShipStation Global’s AI Overhauls Freight Operations",
+   "note": "Context only on broader logistics software automation."
+  },
+  {
+   "title": "MS Transverse names Grippa as new Chief Commercial Officer",
+   "url": "https://www.reinsurancene.ws/ms-transverse-names-grippa-as-new-chief-commercial-officer/",
+   "publisher": "Reinsurance News",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "MS Transverse names Grippa as new Chief Commercial Officer",
+   "note": "Context only."
+  },
+  {
+   "title": "Progressive Insurance® Unifies Commercial Telematics with New Snapshot Pro℠ Program",
+   "url": "https://www.prnewswire.com/news-releases/progressive-insurance-unifies-commercial-telematics-with-new-snapshot-pro-program-302935136.html",
+   "publisher": "PR Newswire - Insurance",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "materiality": 5,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Progressive Insurance® Unifies Commercial Telematics with New Snapshot Pro℠ Program",
+   "note": "Progressive is strengthening its commercial telematics footprint. Nirvana must lean into superior fleet-specific coaching and real-time risk visibility to win DSPs."
+  },
+  {
+   "title": "Insurtech Lemonade Posts $43.7M Loss for Q3",
+   "url": "https://www.insurancejournal.com/news/national/2026/11/10/892242.htm",
+   "publisher": "Insurance Journal",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Insurtech Lemonade Posts $43.7M Loss for Q3",
+   "note": "Context only."
+  },
+  {
+   "title": "Baker appointed Chairman and Walls Global Head of Marine, Cargo, and Logistics at Marsh Risk",
+   "url": "https://www.reinsurancene.ws/baker-appointed-chairman-and-walls-global-head-of-marine-cargo-and-logistics-at-marsh-risk/",
+   "publisher": "Reinsurance News",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Baker appointed Chairman and Walls Global Head of Marine, Cargo, and Logistics at Marsh Risk",
+   "note": "Context only."
+  },
+  {
+   "title": "Where Trucking Capacity Sits Right Now, And What The Fleet-Size Split Might Be Signaling",
+   "url": "https://www.freightwaves.com/news/where-trucking-capacity-sits-right-now-and-what-the-fleet-size-split-might-be-signaling",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Where Trucking Capacity Sits Right Now, And What The Fleet-Size Split Might Be Signaling",
+   "note": "Context only regarding general carrier capacity dynamics."
+  },
+  {
+   "title": "Aon appoints Mona Gupta as Global Head of Risk Capital Client Delivery",
+   "url": "https://www.reinsurancene.ws/aon-appoints-mona-gupta-as-global-head-of-risk-capital-client-delivery/",
+   "publisher": "Reinsurance News",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Aon appoints Mona Gupta as Global Head of Risk Capital Client Delivery",
+   "note": "Context only."
+  },
+  {
+   "title": "Amazon, alternative carriers gained parcel volume in 2026’s first half",
+   "url": "https://www.supplychaindive.com/news/amazon-alternative-carriers-gained-parcel-volume-in-2026s-first-half/873932/",
+   "publisher": "Supply Chain Dive",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon, alternative carriers gained parcel volume in 2026’s first half",
+   "note": "Growing Amazon DSP and alternative parcel volumes expand our immediate addressable market for last-mile commercial auto insurance."
+  },
+  {
+   "title": "Wing to invest $125M in drone manufacturing plant",
+   "url": "https://www.freightwaves.com/news/wing-to-invest-125m-in-drone-manufacturing-plant",
+   "publisher": "FreightWaves",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Wing to invest $125M in drone manufacturing plant",
+   "note": "Context only on drone fulfillment alternatives."
+  },
+  {
+   "title": "Progressive Awards over 100 Vehicles to Veterans and Military Families Through 14th Annual Keys to Progress® Program",
+   "url": "https://www.prnewswire.com/news-releases/progressive-awards-over-100-vehicles-to-veterans-and-military-families-through-14th-annual-keys-to-progress-program-302934435.html",
+   "publisher": "PR Newswire - Insurance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Progressive Awards over 100 Vehicles to Veterans and Military Families",
+   "note": "Progressive awarded vehicles to veterans and military families through its annual program."
+  },
+  {
+   "title": "Ring, known for its doorbell cameras, launches a home security drone and an enterprise security robot",
+   "url": "https://techcrunch.com/2026/11/10/ring-known-for-its-doorbell-cameras-launches-a-home-security-drone-and-an-enterprise-security-robot/",
+   "publisher": "TechCrunch",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon-owned Ring is pushing into robotics with the launch of a home security drone",
+   "note": "Context only."
+  },
+  {
+   "title": "Veterans Day is Wednesday. Here’s where veterans eat free",
+   "url": "https://www.msn.com/en-us/news/money/veterans-day-is-wednesday-here-s-where-veterans-eat-free/ar-AA2h3t1o",
+   "publisher": "USA TODAY on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Veterans Day is Wednesday. Here’s where veterans eat free",
+   "note": "List of restaurant deals available for veterans on Veterans Day."
+  },
+  {
+   "title": "Kemper outlines path to personal auto underwriting profit, targets sub-100 combined ratio in 2027",
+   "url": "https://seekingalpha.com/news/4670067-kemper-outlines-path-to-personal-auto-underwriting-profit-targets-subminus-100-combined-ratio",
+   "publisher": "Seeking Alpha",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kemper outlines path to personal auto underwriting profit",
+   "note": "Context only (personal auto)."
+  },
+  {
+   "title": "Aviation Capital Group Delivers Airbus A321neo to Wizz Air",
+   "url": "https://finance.yahoo.com/technology/articles/aviation-capital-group-delivers-airbus-200000666.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Aviation Capital Group Delivers Airbus A321neo to Wizz Air",
+   "note": "Aviation Capital Group delivered an Airbus A321neo to Wizz Air."
+  },
+  {
+   "title": "Nebraska Medical Cannabis Commission pushes back on testing timeline, offers no new estimate",
+   "url": "https://www.yahoo.com/news/politics/articles/nebraska-medical-cannabis-commission-pushes-195738516.html",
+   "publisher": "Yahoo",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Nebraska Medical Cannabis Commission pushes back on testing timeline",
+   "note": "Context only."
+  },
+  {
+   "title": "AI saved air cargo? Rates up 30% YOY",
+   "url": "https://finance.yahoo.com/technology/ai/articles/ai-saved-air-cargo-rates-194116140.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "merged into existing event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AI saved air cargo? Rates up 30% YOY",
+   "note": "ev_c877f96ef9d5"
+  },
+  {
+   "title": "Rackspace (RXT) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/rackspace-rxt-q3-2026-earnings-call-transcript/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Rackspace (RXT) Q3 2026 Earnings Call Transcript",
+   "note": "Rackspace held its Q3 2026 earnings conference call."
+  },
+  {
+   "title": "It's Official: Airbus A350-1000ULR Breaks Distance Record",
+   "url": "https://www.yahoo.com/news/science/articles/official-airbus-a350-1000ulr-breaks-185025185.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "It's Official: Airbus A350-1000ULR Breaks Distance Record",
+   "note": "Airbus announced that its A350-1000ULR broke distance records during testing."
+  },
+  {
+   "title": "Ken Roczen to Defend #1 Plate on Suzuki RM-Z450",
+   "url": "https://motorsportsnewswire.com/2026/11/10/ken-roczen-to-defend-1-plate-on-suzuki-rm-z450/",
+   "publisher": "Motor Sports NewsWire",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ken Roczen to Defend #1 Plate on Suzuki RM-Z450",
+   "note": "Ken Roczen will defend his AMA Supercross Championship on a Suzuki."
+  },
+  {
+   "title": "McDonald's Expands Uber Partnership: Can It Drive More Growth?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/mcdonalds-expands-uber-partnership-drive-182800462.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "McDonald's Expands Uber Partnership: Can It Drive More Growth?",
+   "note": "Context only; indicates ongoing strength in food delivery volume that drives demand for gig and courier commercial auto coverage."
+  },
+  {
+   "title": "Global oil prices are dropping fast and could keep falling. What it means for inflation.",
+   "url": "https://www.msn.com/en-us/money/economy/global-oil-prices-are-dropping-fast-and-could-keep-falling-what-it-means-for-inflation/ar-AA2h9NaG",
+   "publisher": "Barron's on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Global oil prices are dropping fast and could keep falling. What it means for inflation.",
+   "note": "Context only; lower fuel costs marginally ease operating expenses for last-mile fleets."
+  },
+  {
+   "title": "San Francisco 49ers Trade Pitch Lands Former 1,000-Yard WR From Eagles",
+   "url": "https://sports.yahoo.com/articles/san-francisco-49ers-trade-pitch-182200854.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "San Francisco 49ers Trade Pitch Lands Former 1,000-Yard WR From Eagles",
+   "note": "Sports trade rumors regarding the San Francisco 49ers and wide receiver Hollywood Brown."
+  },
+  {
+   "title": "California to require ID for creatine, fitness supplements starting in 2027",
+   "url": "https://www.ktvu.com/news/california-minors-banned-from-buying-creatine-fitness-supplments-2027",
+   "publisher": "KTVU FOX 2",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "California to require ID for creatine, fitness supplements starting in 2027",
+   "note": "California is implementing a new law requiring ID for purchasing creatine and fitness supplements starting in 2027."
+  },
+  {
+   "title": "Workers Would Take a 10 Percent Pay Cut for Housing Benefits. Only 4 Percent of Employers Offer Them",
+   "url": "https://www.inc.com/bruce-crumley/workers-would-take-a-10-percent-pay-cut-for-housing-benefits-only-4-percent-of-employers-offer-them/91433933",
+   "publisher": "Inc.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Workers Would Take a 10 Percent Pay Cut for Housing Benefits. Only 4 Percent of Employers Offer Them",
+   "note": "A report indicates workers would trade a pay cut for housing benefits, though few employers offer them."
+  },
+  {
+   "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of December 27, 2026 in Everest ...",
+   "url": "https://www.gazettextra.com/news/nation_world/suewallst-reminds-shareholders-of-a-lead-plaintiff-deadline-of-december-27-2026-in-everest/article_061fc3e5-c98c-524c-9e08-a0596cef3138.html",
+   "publisher": "GazetteXtra",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of December 27, 2026 in Everest ...",
+   "note": "Context only; highlights executive turnover and legal exposure at a commercial property-casualty competitor."
+  },
+  {
+   "title": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of December 27, 2026 in Everest Group, Ltd. Lawsuit",
+   "url": "https://markets.chroniclejournal.com/chroniclejournal/article/gnwcq-2026-11-10-suewallst-reminds-shareholders-of-a-lead-plaintiff-deadline-of-december-27-2026-in-everest-group-ltd-lawsuit",
+   "publisher": "markets.chroniclejournal",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "merged into existing event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "SueWallSt Reminds Shareholders of a Lead Plaintiff Deadline of December 27, 2026 in Everest Group, Ltd. Lawsuit",
+   "note": "ev_93e983f1367a"
+  },
+  {
+   "title": "15 Warm Brown Thanksgiving Nail Ideas for a Cozy Holiday Manicure",
+   "url": "https://shopping.yahoo.com/beauty/nails/articles/15-warm-brown-thanksgiving-nail-170000345.html",
+   "publisher": "YAHOO!",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "15 Warm Brown Thanksgiving Nail Ideas for a Cozy Holiday Manicure",
+   "note": "Lifestyle article suggesting Thanksgiving nail ideas in warm brown tones."
+  },
+  {
+   "title": "Celtics showed extreme disrespect to Jaylen Brown with 76ers trade — now he could make them pay",
+   "url": "https://www.msn.com/en-us/sports/basketball/celtics-showed-extreme-disrespect-to-jaylen-brown-with-76ers-trade-now-he-could-make-them-pay/ar-AA2h9C5d",
+   "publisher": "Yardbarker on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Celtics showed extreme disrespect to Jaylen Brown with 76ers trade — now he could make them pay",
+   "note": "Commentary on NBA player tensions between Jaylen Brown and the Boston Celtics."
+  },
+  {
+   "title": "Do you lead by design or default?",
+   "url": "https://www.fastcompany.com/91637842/do-you-lead-by-design-or-default",
+   "publisher": "Fast Company",
+   "lane": "irrelevant",
+   "event_type": "leadership",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Do you lead by design or default?",
+   "note": "Opinion piece discussing effective business leadership habits."
+  },
+  {
+   "title": "KMPR Q3 2026 deep dive: margin recovery continues as Kemper prioritizes profit over growth",
+   "url": "https://stockstory.org/us/stocks/nyse/kmpr/news/earnings-call/kmpr-q3-2026-deep-dive-margin-recovery-continues-as-kemper-prioritizes-profit-over-growth",
+   "publisher": "stockstory",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "KMPR Q3 2026 deep dive: margin recovery continues as Kemper prioritizes profit over growth",
+   "note": "Context only; indicates traditional commercial auto insurers remain focused on rate adequacy and margin recovery over top-line expansion."
+  },
+  {
+   "title": "Hapag-Lloyd raises North Europe tariffs to Ennore, Chittagong and Colombo",
+   "url": "https://container-mag.com/update/hapag-lloyd-raises-north-europe-tariffs-to-ennore-chittagong-and-colombo",
+   "publisher": "Container Management",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Hapag-Lloyd raises North Europe tariffs to Ennore, Chittagong and Colombo",
+   "note": "Context only."
+  },
+  {
+   "title": "New footage released in search for missing DoorDash driver as cops unpack timeline of Zachariah Schuck’s movements",
+   "url": "https://nypost.com/2026/11/10/us-news/new-footage-released-in-search-for-missing-doordash-driver-as-cops-unpack-timeline-of-zachariah-schucks-movements/",
+   "publisher": "New York Post",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "New footage released in search for missing DoorDash driver as cops unpack timeline of Zachariah Schuck’s movements",
+   "note": "Context only; highlights driver safety and security risks inherent in gig and last-mile delivery operations."
+  },
+  {
+   "title": "Kyle Shanahan Reveals Plans for 49ers' Starting Three Safeties",
+   "url": "https://www.si.com/nfl/49ers/onsi/kyle-shanahan-reveals-plans-49ers-starting-three-safeties",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kyle Shanahan Reveals Plans for 49ers' Starting Three Safeties",
+   "note": "NFL coaching strategies for the San Francisco 49ers safety rotation."
+  },
+  {
+   "title": "Octave Specialty Group Q3 2026 earnings call transcript",
+   "url": "https://www.msn.com/en-us/news/other/octave-specialty-group-q3-2026-earnings-call-transcript/ar-AA2h9jL6",
+   "publisher": "Benzinga on MSN",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Octave Specialty Group Q3 2026 earnings call transcript",
+   "note": "Context only."
+  },
+  {
+   "title": "Kemper Q3 2026 earnings call transcript",
+   "url": "https://www.msn.com/en-us/money/economy/kemper-q3-2026-earnings-call-transcript/ar-AA2h92xI",
+   "publisher": "Benzinga on MSN",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kemper Q3 2026 earnings call transcript",
+   "note": "Context only."
+  },
+  {
+   "title": "Rising Inventory Costs Push Small Business Owners to Cover Holiday Expenses With Savings",
+   "url": "https://finance.yahoo.com/small-business/articles/rising-inventory-costs-push-small-135500606.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Rising Inventory Costs Push Small Business Owners to Cover Holiday Expenses With Savings",
+   "note": "Context only; indicates small fleet and delivery business owners face cash flow tightness, making insurance premium affordability critical."
+  },
+  {
+   "title": "British comedian and children's author David Walliams accused of sexual misconduct",
+   "url": "https://www.clickorlando.com/news/2026/11/10/british-childrens-author-david-walliams-accused-of-sexual-misconduct/",
+   "publisher": "ClickOrlando",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "British comedian and children's author David Walliams accused of sexual misconduct",
+   "note": "Allegations of sexual misconduct against British comedian David Walliams."
+  },
+  {
+   "title": "Murmansk Port Resumes Pig Iron Exports with 10-Day Longer Routes and Double Freight Costs",
+   "url": "https://english.pravda.ru/news/business/172148-murmansk-pig-iron-exports-arctic-route-costs/",
+   "publisher": "PravdaReport",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Murmansk Port Resumes Pig Iron Exports with 10-Day Longer Routes and Double Freight Costs",
+   "note": "Context only."
+  },
+  {
+   "title": "Progressive Insurance® Unifies Commercial Telematics with New Snapshot Pro℠ Program",
+   "url": "https://finance.yahoo.com/small-business/articles/progressive-insurance-unifies-commercial-telematics-160000979.html",
+   "publisher": "Yahoo Finance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 5,
+   "outcome": "merged into existing event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Progressive Insurance® Unifies Commercial Telematics with New Snapshot Pro℠ Program",
+   "note": "ev_4e1decef5c99"
+  },
+  {
+   "title": "Predicting final score, top performers for 76ers vs. Celtics",
+   "url": "https://www.msn.com/en-us/sports/basketball/predicting-final-score-top-performers-for-76ers-vs-celtics/ar-AA2h8uNN",
+   "publisher": "Sports Illustrated on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Predicting final score, top performers for 76ers vs. Celtics",
+   "note": "Sports preview for an upcoming basketball game between the Philadelphia 76ers and Boston Celtics."
+  },
+  {
+   "title": "El adiós de Novaya Gazeta, el histórico diario independiente ruso",
+   "url": "https://www.msn.com/es-cl/noticias/other/el-adi%C3%B3s-de-novaya-gazeta-el-hist%C3%B3rico-diario-independiente-ruso/ar-AA2h8jWb",
+   "publisher": "La Tercera on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "El adiós de Novaya Gazeta, el histórico diario independiente ruso",
+   "note": "Russian independent newspaper Novaya Gazeta has closed after 33 years under pressure from the Kremlin."
+  },
+  {
+   "title": "Reinsurance renewal discussions shaped by abundant capital, loss concerns",
+   "url": "https://www.businessinsurance.com/reinsurance-renewal-discussions-shaped-by-abundant-capital-loss-concerns/",
+   "publisher": "Business Insurance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Property reinsurance rates are expected to fall again at Jan. 1 renewals",
+   "note": "Context only."
+  },
+  {
+   "title": "European road freight rates steady at record highs",
+   "url": "https://www.iru.org/news-resources/newsroom/european-road-freight-rates-steady-record-highs",
+   "publisher": "International Road Transport Union",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "European road freight rates steady at record highs",
+   "note": "Context only."
+  },
+  {
+   "title": "GEICO Philanthropic Foundation Donates $100,000 to Expand Collision Repair Technician Pipeline",
+   "url": "https://www.rutlandherald.com/news/business/geico-philanthropic-foundation-donates-100-000-to-expand-collision-repair-technician-pipeline/article_6f4a76f5-23b9-5f2a-9d70-16a07dab95ee.html",
+   "publisher": "Rutland Herald",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "GEICO Philanthropic Foundation Donates $100,000 to Expand Collision Repair Technician Pipeline",
+   "note": "Context only."
+  },
+  {
+   "title": "Freightos Launches Next-Generation Forwarder Platform, Advancing from Digital Workflows to an AI-Native Freight Orchestration Network",
+   "url": "https://www.prnewswire.com/news-releases/freightos-launches-next-generation-forwarder-platform-advancing-from-digital-workflows-to-an-ai-native-freight-orchestration-network-302934752.html",
+   "publisher": "PR Newswire",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Freightos Launches Next-Generation Forwarder Platform, Advancing from Digital Workflows to an AI-Native Freight Orchestration Network",
+   "note": "Context only."
+  },
+  {
+   "title": "US Postal Service seeks $2 billion from Congress to avoid cuts",
+   "url": "https://www.sacbee.com/news/nation-world/national/article318013703.html",
+   "publisher": "The Sacramento Bee",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "US Postal Service seeks $2 billion from Congress to avoid cuts",
+   "note": "Context only."
+  },
+  {
+   "title": "AM Best Revises Issuer Credit Rating Outlook to Stable for Members of Texas Farm Bureau Insurance Group",
+   "url": "https://news.ambest.com/newscontent.aspx?refnum=278742",
+   "publisher": "news.ambest",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AM Best Revises Issuer Credit Rating Outlook to Stable for Members of Texas Farm Bureau Insurance Group",
+   "note": "Context only."
+  },
+  {
+   "title": "Jaylen Brown was traded in part because of his advanced stats. These numbers show his worth to the Sixers so far.",
+   "url": "https://www.inquirer.com/sixers/76ers-jaylen-brown-jayson-tatum-boston-celtics-vj-edgecombe-lebron-james-20261110.html",
+   "publisher": "The Philadelphia Inquirer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Jaylen Brown was traded in part because of his advanced stats.",
+   "note": "Analysis of basketball player Jaylen Brown's performance metrics with the Philadelphia 76ers."
+  },
+  {
+   "title": "National team, Zaniolo leaves training camp for personal reasons: what happened",
+   "url": "https://jen.jiji.com/jc/eng_agt?g=adnkronos&k=20261111KRONOS-202611121642227616_eng",
+   "publisher": "jen.jiji",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "National team, Zaniolo leaves training camp for personal reasons",
+   "note": "Soccer player Nicolò Zaniolo left the national team training camp for personal reasons."
+  },
+  {
+   "title": "After Uber, where the Tax Office may look next: Your client’s website",
+   "url": "https://www.accountingtimes.com.au/profession/after-uber-where-the-tax-office-may-look-next-your-client-s-website",
+   "publisher": "Accounting Times",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Following the High Court’s Uber decision, accountants need to look beyond service agreements",
+   "note": "Context only."
+  },
+  {
+   "title": "GOFO research explores the future of U.S. last mile delivery",
+   "url": "https://postandparcel.info/163275/news/e-commerce/gofo-research-explores-the-future-of-u-s-last-mile-delivery/",
+   "publisher": "Post & Parcel",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "GOFO research explores the future of U.S. last mile delivery",
+   "note": "Context only."
+  },
+  {
+   "title": "Behind Kemper’s Q3 swing to profit, the auto book still isn’t breaking even",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/behind-kempers-q3-swing-to-profit-the-auto-book-still-isnt-breaking-even-596825.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Behind Kemper’s Q3 swing to profit, the auto book still isn’t breaking even",
+   "note": "Context only."
+  },
+  {
+   "title": "Trump comienza a negar la derrota: arremete contra máquinas y 'procesos fraudulentos' de votación",
+   "url": "https://es-us.noticias.yahoo.com/trump-comienza-negar-derrota-arremete-170859510.html",
+   "publisher": "Yahoo Noticias en Español",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Trump comienza a negar la derrota",
+   "note": "Political commentary regarding election results and voting machines."
+  },
+  {
+   "title": "Shadowfax vs Delhivery: Which logistics stock is better positioned for growth after Q2FY27 results?",
+   "url": "https://www.msn.com/en-in/news/other/shadowfax-vs-delhivery-which-logistics-stock-is-better-positioned-for-growth-after-q2fy27-results/ar-AA2h7Cm7",
+   "publisher": "Trade Brains on MSN",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The logistics industry of India is experiencing increasing demand from e-commerce",
+   "note": "Context only."
+  },
+  {
+   "title": "Your job-based insurance cut GLP-1 coverage. Here are some options",
+   "url": "https://www.msn.com/en-us/news/money/your-job-based-insurance-cut-glp-1-coverage-here-are-some-options/ar-AA2gZQ1I",
+   "publisher": "USA TODAY on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Your job-based insurance cut GLP-1 coverage. Here are some options",
+   "note": "Companies are reducing health insurance coverage for weight-loss drugs like Wegovy and Zepbound."
+  },
+  {
+   "title": "Arizona Proposition 141, Prohibit Taxes or Fees on Miles Traveled in Motor Vehicle Amendment (2026)",
+   "url": "https://ballotpedia.org/Arizona_Proposition_141,_Prohibit_Taxes_or_Fees_on_Miles_Traveled_in_Motor_Vehicle_Amendment_(2026)",
+   "publisher": "Proposition 206",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Prohibit Taxes or Fees on Miles Traveled in Motor Vehicle Amendment",
+   "note": "Context only."
+  },
+  {
+   "title": "Zipline Raises $1.5B at $21.5B Valuation, Adds 300 Walmart Drone Sites",
+   "url": "https://www.msn.com/en-us/news/other/zipline-raises-15b-at-215b-valuation-adds-300-walmart-drone-sites/ar-AA2gUQn6",
+   "publisher": "Women's Wear Daily on MSN",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Zipline Raises $1.5B at $21.5B Valuation, Adds 300 Walmart Drone Sites",
+   "note": "Context only."
+  },
+  {
+   "title": "Cheapest Car Insurance Options in Alaska 2026",
+   "url": "https://www.wsj.com/buyside/personal-finance/auto-insurance/cheap-car-insurance-alaska",
+   "publisher": "Wall Street Journal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Cheapest Car Insurance Options in Alaska 2026",
+   "note": "Commercial guide on finding the cheapest car insurance options in Alaska for 2026."
+  },
+  {
+   "title": "LFL Releases Third Quarter Financial Results",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/lfl-releases-third-quarter-financial-213000745.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "LFL Releases Third Quarter Financial Results",
+   "note": "Context only."
+  },
+  {
+   "title": "ProjectLeo, the First Private AI Health Platform to Declare Independence From Big Tech",
+   "url": "https://finance.yahoo.com/healthcare/articles/projectleo-first-private-ai-health-120400501.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "product_launch",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ProjectLeo, the First Private AI Health Platform to Declare Independence From Big Tech",
+   "note": "ProjectLeo launched a multilingual health AI platform independent of Big Tech."
+  },
+  {
+   "title": "Seres Therapeutics: Q3 Earnings Snapshot",
+   "url": "https://www.lmtonline.com/business/article/seres-therapeutics-q3-earnings-snapshot-22511472.php",
+   "publisher": "Laredo Morning Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Seres Therapeutics Inc. (MCRB) on Wednesday reported a loss of $16.3 million in its third quarter.",
+   "note": "Seres Therapeutics reported a third-quarter financial loss."
+  }
+ ],
+ "digest": "- Progressive completed its rollout of the Snapshot Pro program, combining its commercial telematics platforms Snapshot ProView and Smart Haul [1]. This strengthens Progressive's telematics footprint, requiring Nirvana to lean into superior fleet coaching and real-time risk visibility to win DSPs [1].\n- Amazon and alternative parcel carriers continued to expand market share and parcel volume during the first half of 2026 [2]. This growth expands Nirvana's immediate addressable market for last-mile commercial auto insurance [2]."
+}

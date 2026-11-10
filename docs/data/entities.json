@@ -313,13 +313,14 @@
  "Marsh": {
   "name": "Marsh",
   "first_seen": "2026-10-16T17:51:13Z",
-  "mentions": 2,
+  "mentions": 3,
   "event_ids": [
    "ev_512aefee1a8b",
-   "ev_cde3078cf60e"
+   "ev_cde3078cf60e",
+   "ev_221c8065784e"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-22T18:10:19Z"
+  "last_seen": "2026-11-10T20:36:40Z"
  },
  "Chubb": {
   "name": "Chubb",
@@ -670,15 +671,16 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 4,
+  "mentions": 5,
   "event_ids": [
    "ev_6d171a959d11",
    "ev_8681e87213f4",
    "ev_765980d0d3f6",
-   "ev_6e9cbfb03e1e"
+   "ev_6e9cbfb03e1e",
+   "ev_4e1decef5c99"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-06T08:32:02Z"
+  "last_seen": "2026-11-10T20:36:40Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -897,12 +899,14 @@
  "Kemper": {
   "name": "Kemper",
   "first_seen": "2026-10-25T06:57:50Z",
-  "mentions": 1,
+  "mentions": 3,
   "event_ids": [
-   "ev_bbcf798ab77e"
+   "ev_bbcf798ab77e",
+   "ev_1f942f70bf9f",
+   "ev_f195e4c9ab56"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-25T06:57:50Z"
+  "last_seen": "2026-11-10T20:36:40Z"
  },
  "Kinsale Capital Group Inc": {
   "name": "Kinsale Capital Group Inc",
@@ -1187,12 +1191,13 @@
  "Aon": {
   "name": "Aon",
   "first_seen": "2026-10-29T07:41:28Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_58c34dd39c34"
+   "ev_58c34dd39c34",
+   "ev_f61daae2bf27"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-29T07:41:28Z"
+  "last_seen": "2026-11-10T20:36:40Z"
  },
  "Altea": {
   "name": "Altea",
@@ -1845,5 +1850,85 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-09T23:09:40Z"
+ },
+ "ShipStation Global": {
+  "name": "ShipStation Global",
+  "first_seen": "2026-11-10T20:36:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e5c26b1e0c3c"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-10T20:36:40Z"
+ },
+ "MS Transverse": {
+  "name": "MS Transverse",
+  "first_seen": "2026-11-10T20:36:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_aaa4e746da09"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-10T20:36:40Z"
+ },
+ "Wing": {
+  "name": "Wing",
+  "first_seen": "2026-11-10T20:36:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_b96ec195ceea"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-10T20:36:40Z"
+ },
+ "Ring": {
+  "name": "Ring",
+  "first_seen": "2026-11-10T20:36:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3a0536c1e177"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-10T20:36:40Z"
+ },
+ "Everest Group, Ltd.": {
+  "name": "Everest Group, Ltd.",
+  "first_seen": "2026-11-10T20:36:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_93e983f1367a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-10T20:36:40Z"
+ },
+ "Octave Specialty Group": {
+  "name": "Octave Specialty Group",
+  "first_seen": "2026-11-10T20:36:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3bb73cc1f442"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-10T20:36:40Z"
+ },
+ "Freightos": {
+  "name": "Freightos",
+  "first_seen": "2026-11-10T20:36:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_8b03b244c04d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-10T20:36:40Z"
+ },
+ "Zipline": {
+  "name": "Zipline",
+  "first_seen": "2026-11-10T20:36:40Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0e9572dffc79"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-10T20:36:40Z"
  }
 }
