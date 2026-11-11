@@ -1930,5 +1930,45 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-10T20:36:40Z"
+ },
+ "Howlett Logistics": {
+  "name": "Howlett Logistics",
+  "first_seen": "2026-11-11T08:26:57Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_a0d3e2f835a9"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-11T08:26:57Z"
+ },
+ "Kinetic Insurance": {
+  "name": "Kinetic Insurance",
+  "first_seen": "2026-11-11T08:26:57Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_a0d3e2f835a9"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-11T08:26:57Z"
+ },
+ "Kodiak AI": {
+  "name": "Kodiak AI",
+  "first_seen": "2026-11-11T08:26:57Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7b27b413a62a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-11T08:26:57Z"
+ },
+ "DTL Transport": {
+  "name": "DTL Transport",
+  "first_seen": "2026-11-11T08:26:57Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7b27b413a62a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-11T08:26:57Z"
  }
 }
