@@ -671,16 +671,17 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 5,
+  "mentions": 6,
   "event_ids": [
    "ev_6d171a959d11",
    "ev_8681e87213f4",
    "ev_765980d0d3f6",
    "ev_6e9cbfb03e1e",
-   "ev_4e1decef5c99"
+   "ev_4e1decef5c99",
+   "ev_69d76db95349"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-10T20:36:40Z"
+  "last_seen": "2026-11-12T08:52:11Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -1273,12 +1274,13 @@
  "Brown & Brown, Inc.": {
   "name": "Brown & Brown, Inc.",
   "first_seen": "2026-10-30T07:44:49Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_4cfa9cbb0626"
+   "ev_4cfa9cbb0626",
+   "ev_4846a22686b4"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-30T07:44:49Z"
+  "last_seen": "2026-11-12T08:52:11Z"
  },
  "TRUCE Software": {
   "name": "TRUCE Software",
@@ -1724,12 +1726,13 @@
  "Trisura Group": {
   "name": "Trisura Group",
   "first_seen": "2026-11-08T18:30:10Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_69b1a33319ea"
+   "ev_69b1a33319ea",
+   "ev_c026bc253551"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-08T18:30:10Z"
+  "last_seen": "2026-11-12T08:52:11Z"
  },
  "DryStone": {
   "name": "DryStone",
@@ -1970,5 +1973,65 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-11T08:26:57Z"
+ },
+ "Fortegra": {
+  "name": "Fortegra",
+  "first_seen": "2026-11-12T08:52:11Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_6262b7be7007"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T08:52:11Z"
+ },
+ "insurMO": {
+  "name": "insurMO",
+  "first_seen": "2026-11-12T08:52:11Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_6262b7be7007"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T08:52:11Z"
+ },
+ "Cartrack": {
+  "name": "Cartrack",
+  "first_seen": "2026-11-12T08:52:11Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_ad4fe2f661a0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T08:52:11Z"
+ },
+ "Karooooo": {
+  "name": "Karooooo",
+  "first_seen": "2026-11-12T08:52:11Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_ad4fe2f661a0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T08:52:11Z"
+ },
+ "Serve Robotics": {
+  "name": "Serve Robotics",
+  "first_seen": "2026-11-12T08:52:11Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_64ca15b8e7c8"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T08:52:11Z"
+ },
+ "Leidos": {
+  "name": "Leidos",
+  "first_seen": "2026-11-12T08:52:11Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_a751a6d4e03a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T08:52:11Z"
  }
 }
