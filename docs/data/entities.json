@@ -671,17 +671,19 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 6,
+  "mentions": 8,
   "event_ids": [
    "ev_6d171a959d11",
    "ev_8681e87213f4",
    "ev_765980d0d3f6",
    "ev_6e9cbfb03e1e",
    "ev_4e1decef5c99",
-   "ev_69d76db95349"
+   "ev_69d76db95349",
+   "ev_748e9383b930",
+   "ev_135ff384a405"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-12T08:52:11Z"
+  "last_seen": "2026-11-12T21:06:15Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -2033,5 +2035,45 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-12T08:52:11Z"
+ },
+ "Progressive Advantage Agency, Inc.": {
+  "name": "Progressive Advantage Agency, Inc.",
+  "first_seen": "2026-11-12T21:06:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_748e9383b930"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T21:06:15Z"
+ },
+ "DispatchTrack": {
+  "name": "DispatchTrack",
+  "first_seen": "2026-11-12T21:06:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_f13f369debc4"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T21:06:15Z"
+ },
+ "Federato": {
+  "name": "Federato",
+  "first_seen": "2026-11-12T21:06:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0fe1447e1062"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T21:06:15Z"
+ },
+ "Mapfre": {
+  "name": "Mapfre",
+  "first_seen": "2026-11-12T21:06:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_ef62bb0ba836"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-12T21:06:15Z"
  }
 }
