@@ -822,12 +822,13 @@
  "GEICO": {
   "name": "GEICO",
   "first_seen": "2026-10-23T06:33:40Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_87f7a2310df1"
+   "ev_87f7a2310df1",
+   "ev_45465549df5c"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-23T06:33:40Z"
+  "last_seen": "2026-11-13T20:39:22Z"
  },
  "Selective Insurance": {
   "name": "Selective Insurance",
@@ -1155,12 +1156,13 @@
  "Lemonade": {
   "name": "Lemonade",
   "first_seen": "2026-10-28T07:30:24Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_b3c80b037084"
+   "ev_b3c80b037084",
+   "ev_7997e49df568"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-28T07:30:24Z"
+  "last_seen": "2026-11-13T20:39:22Z"
  },
  "Verisk": {
   "name": "Verisk",
@@ -1930,12 +1932,13 @@
  "Zipline": {
   "name": "Zipline",
   "first_seen": "2026-11-10T20:36:40Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_0e9572dffc79"
+   "ev_0e9572dffc79",
+   "ev_b91a302ee493"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-10T20:36:40Z"
+  "last_seen": "2026-11-13T20:39:22Z"
  },
  "Howlett Logistics": {
   "name": "Howlett Logistics",
@@ -2096,5 +2099,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-13T08:48:12Z"
+ },
+ "Root": {
+  "name": "Root",
+  "first_seen": "2026-11-13T20:39:22Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7997e49df568"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-13T20:39:22Z"
+ },
+ "Pinion Insurance": {
+  "name": "Pinion Insurance",
+  "first_seen": "2026-11-13T20:39:22Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_8fe88902fea1"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-13T20:39:22Z"
  }
 }
