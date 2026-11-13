@@ -1,0 +1,1384 @@
+{
+ "run_id": "2026-11-13T08-48-12Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/43396068927",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-13",
+ "started": "2026-11-13T08:48:12Z",
+ "duration_s": 199.9,
+ "baseline": false,
+ "previous_run": "2026-11-12T21-06-15Z",
+ "previous_started": "2026-11-12T21:06:15Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 331,
+  "unique": 316,
+  "known_skipped": 272,
+  "attached_existing": 4,
+  "prefiltered_out": 16,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 23,
+  "irrelevant": 17,
+  "quarantined": 0,
+  "new_events": 6,
+  "updated_events": 4,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.938,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.8,
+  "dedup_ratio": 0.927,
+  "relevance_rate": 0.261
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 161
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 213
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 641
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 156
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 266
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 991
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 229
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 357
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 223
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 249
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 221
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 258
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 237
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 219
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 220
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 226
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 239
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 179
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 234
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 260
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 236
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 235
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 229
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 156
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 142
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 198
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1943
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 694
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 267
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 978
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 265
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 689
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 856
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5126,
+  "output_tokens": 3446,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_70ca87adefb5",
+   "title": "Progressive (PGR) Finishes Snapshot Pro Rollout For Commercial Auto Customers",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/progressive-pgr-finishes-snapshot-pro-221046509.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 5,
+   "last_mile_fit": 0.7,
+   "summary": "Progressive has completed the rollout of Snapshot Pro, a unified telematics program for commercial auto policyholders.",
+   "evidence_quote": "Progressive (PGR) Finishes Snapshot Pro Rollout For Commercial Auto Customers",
+   "companies": [
+    "Progressive"
+   ],
+   "implication": "A major competitor is streamlining its commercial telematics footprint, increasing pressure on Nirvana to prove superior ROI and driver safety features.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-12T14:11:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-13T08:48:12Z",
+   "first_run": "2026-11-13T08-48-12Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "70ca87adefb5"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/progressive-pgr-finishes-snapshot-pro-221046509.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-12T14:11:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 76.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 5,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e876325cd1bc",
+   "title": "Inflation and legal system abuse cost liability insurers up to $337 billion in past decade: Triple-I",
+   "url": "https://www.theinsurer.com/ti/news/inflation-and-legal-system-abuse-cost-liability-insurers-up-to-337-billion-in-2026-11-12/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.6,
+   "summary": "Triple-I reports that inflation and legal system abuse cost liability insurers up to $337 billion over the past decade.",
+   "evidence_quote": "Inflation and legal system abuse cost liability insurers up to $337 billion",
+   "companies": [],
+   "implication": "Reinforces the severity of social inflation and litigation trends impacting commercial auto margins, underscoring the necessity of real-time telematics risk mitigation.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-12T13:53:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-13T08:48:12Z",
+   "first_run": "2026-11-13T08-48-12Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "e876325cd1bc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theinsurer.com/ti/news/inflation-and-legal-system-abuse-cost-liability-insurers-up-to-337-billion-in-2026-11-12/",
+     "publisher": "The Insurer",
+     "publisher_key": "the insurer",
+     "published": "2026-11-12T13:53:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 2,
+   "score": 73.1,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.92,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_e143dd58f426",
+   "title": "FedEx’s 30.5% fuel surcharge comes with a holiday surprise",
+   "url": "https://www.thestreet.com/economy/fedexs-30-5-fuel-surcharge-comes-with-a-holiday-surprise",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "FedEx has increased its fuel surcharge schedule to 30.5% heading into the holiday season.",
+   "evidence_quote": "FedEx’s 30.5% fuel surcharge comes with a holiday surprise",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Operating cost pressures on delivery networks (like FedEx ISPs) can tighten fleet budgets, potentially impacting insurance spend and risk priorities.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-12T12:17:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-13T08:48:12Z",
+   "first_run": "2026-11-13T08-48-12Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "e143dd58f426"
+   ],
+   "sources": [
+    {
+     "url": "https://www.thestreet.com/economy/fedexs-30-5-fuel-surcharge-comes-with-a-holiday-surprise",
+     "publisher": "TheStreet",
+     "publisher_key": "thestreet",
+     "published": "2026-11-12T12:17:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.3,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1a19a775b8c8",
+   "title": "Accelerant’s $4bn sale puts specialty capacity terms under scrutiny",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/accelerants-4bn-sale-puts-specialty-capacity-terms-under-scrutiny-597289.aspx",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "Thoma Bravo's acquisition of Accelerant raises questions regarding specialty capacity terms and underwriting continuity for brokers.",
+   "evidence_quote": "Accelerant’s $4bn sale puts specialty capacity terms under scrutiny",
+   "companies": [
+    "Accelerant",
+    "Thoma Bravo"
+   ],
+   "implication": "Monitor capacity shifts among MGA partners and reinsurers that could affect commercial auto reinsurance availability.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-12T19:08:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-13T08:48:12Z",
+   "first_run": "2026-11-13T08-48-12Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "1a19a775b8c8"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/accelerants-4bn-sale-puts-specialty-capacity-terms-under-scrutiny-597289.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-12T19:08:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 2,
+   "score": 60.4,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.95,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_d69ddc708bcb",
+   "title": "When a Trucking Client Shuts Down: 8 Accounts That Do Not Close Themselves",
+   "url": "https://www.cpapracticeadvisor.com/2026/11/12/when-a-trucking-client-shuts-down-8-accounts-that-do-not-close-themselves/193816/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Administrative steps required when shutting down a trucking client account.",
+   "evidence_quote": "When a Trucking Client Shuts Down: 8 Accounts That Do Not Close Themselves",
+   "companies": [],
+   "implication": "Understand fleet churn patterns and compliance account closures for commercial auto policies.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-12T14:35:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-13T08:48:12Z",
+   "first_run": "2026-11-13T08-48-12Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "d69ddc708bcb"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cpapracticeadvisor.com/2026/11/12/when-a-trucking-client-shuts-down-8-accounts-that-do-not-close-themselves/193816/",
+     "publisher": "CPA Practice Advisor",
+     "publisher_key": "cpa practice advisor",
+     "published": "2026-11-12T14:35:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_b7c05b987750",
+   "title": "San Diego case accusing USAA of overcharging enlisted clients bound for California Supreme Court",
+   "url": "https://timesofsandiego.com/military/2026/11/12/san-diego-lawsuit-usaa-overcharges-california-supreme-court/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "A San Diego class-action lawsuit accusing USAA of overcharging enlisted clients is heading to the California Supreme Court.",
+   "evidence_quote": "San Diego case accusing USAA of overcharging enlisted clients bound for California Supreme Court",
+   "companies": [
+    "USAA"
+   ],
+   "implication": "Context only regarding insurance class action litigation trends.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-12T06:47:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-13T08:48:12Z",
+   "first_run": "2026-11-13T08-48-12Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "b7c05b987750"
+   ],
+   "sources": [
+    {
+     "url": "https://timesofsandiego.com/military/2026/11/12/san-diego-lawsuit-usaa-overcharges-california-supreme-court/",
+     "publisher": "Times of San Diego",
+     "publisher_key": "times of san diego",
+     "published": "2026-11-12T06:47:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.0,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_135ff384a405",
+   "title": "Can Snapshot Pro Boost Progressive's Commercial Auto Profitability?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/snapshot-pro-boost-progressives-commercial-151900800.html",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.7,
+   "summary": "Progressive utilizes Snapshot Pro telematics insights and pricing incentives to improve commercial auto risk selection and profitability.",
+   "evidence_quote": "PGR's Snapshot Pro combines telematics insights and savings incentives to sharpen commercial auto underwriting",
+   "companies": [
+    "Progressive"
+   ],
+   "implication": "Direct commercial auto competitor is leveraging telematics to sharpen fleet underwriting; Nirvana must differentiate its telematics platform and broker value proposition against Progressive.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-12T07:19:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-12T21:06:15Z",
+   "first_run": "2026-11-12T21-06-15Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": "New corroborating source: Yahoo Finance UK",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "135ff384a405"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/snapshot-pro-boost-progressives-commercial-151900800.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-12T07:19:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    },
+    {
+     "url": "https://uk.finance.yahoo.com/news/snapshot-pro-boost-progressives-commercial-151900800.html",
+     "publisher": "Yahoo Finance UK",
+     "publisher_key": "yahoo finance uk",
+     "published": "2026-11-12T02:19:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.0,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_62f721b29cb6",
+   "title": "KMPR Q3 2026 deep dive: margin recovery continues as Kemper prioritizes profit over growth",
+   "url": "https://stockstory.org/us/stocks/nyse/kmpr/news/earnings-call/kmpr-q3-2026-deep-dive-margin-recovery-continues-as-kemper-prioritizes-profit-over-growth",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "Kemper reported its Q3 2026 results, emphasizing margin recovery and prioritizing underwriting profit over growth, with sales falling 12%.",
+   "evidence_quote": "KMPR Q3 2026 deep dive: margin recovery continues as Kemper prioritizes profit over growth",
+   "companies": [
+    "Kemper"
+   ],
+   "implication": "Context only; indicates traditional commercial auto insurers remain focused on rate adequacy and margin recovery over top-line expansion.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T07:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-10T20:36:40Z",
+   "first_run": "2026-11-10T20-36-40Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": "New corroborating source: StockStory.org on MSN",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "62f721b29cb6"
+   ],
+   "sources": [
+    {
+     "url": "https://stockstory.org/us/stocks/nyse/kmpr/news/earnings-call/kmpr-q3-2026-deep-dive-margin-recovery-continues-as-kemper-prioritizes-profit-over-growth",
+     "publisher": "stockstory",
+     "publisher_key": "stockstory",
+     "published": "2026-11-10T07:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    },
+    {
+     "url": "https://www.msn.com/en-us/money/top-stocks/kmpr-q3-2026-deep-dive-margin-recovery-continues-as-kemper-prioritizes-profit-over-growth/ar-AA2ha1LU",
+     "publisher": "StockStory.org on MSN",
+     "publisher_key": "stockstory.org on msn",
+     "published": "2026-11-10T07:05:45Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.6,
+   "age_days": 3.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.74,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_147767cc5ad5",
+   "title": "AIG Group (AIG) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/aig-group-aig-q3-2026-180034041.html",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "AIG held its third-quarter 2026 financial results conference call to discuss ongoing performance metrics.",
+   "evidence_quote": "AIG Group (AIG) Q3 2026 Earnings Call Transcript",
+   "companies": [
+    "AIG"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-04T10:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-04T20:33:03Z",
+   "first_run": "2026-11-04T20-33-03Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": "New corroborating source: The Motley Fool",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "147767cc5ad5",
+    "bef451986e36"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/aig-group-aig-q3-2026-180034041.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-04T10:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    },
+    {
+     "url": "https://www.fool.com/earnings/call-transcripts/2026/11/13/amplitech-group-ampg-q3-2026-earnings-call-transcript/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-11-12T22:53:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 43.7,
+   "age_days": 8.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.41,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_20a65b37c6ad",
+   "title": "Pritzker calls on Congress to bring tariff relief to consumers",
+   "url": "https://chargerswire.usatoday.com/story/news/politics/state/2026/11/09/gov-jb-pritzker-pushes-for-tariff-relief-for-illinois-residents/92632017007/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "State leadership called on Congress to pass tariff refund legislation for consumers.",
+   "evidence_quote": "Pritzker calls on Congress to bring tariff relief",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-09T01:51:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-11T08:26:57Z",
+   "first_run": "2026-11-11T08-26-57Z",
+   "last_seen": "2026-11-13T08:48:12Z",
+   "last_updated_run": "2026-11-13T08-48-12Z",
+   "update_note": "New corroborating source: WolverinesWire",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "20a65b37c6ad"
+   ],
+   "sources": [
+    {
+     "url": "https://chargerswire.usatoday.com/story/news/politics/state/2026/11/09/gov-jb-pritzker-pushes-for-tariff-relief-for-illinois-residents/92632017007/",
+     "publisher": "Chargers Wire",
+     "publisher_key": "chargers wire",
+     "published": "2026-11-09T01:51:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://mmajunkie.usatoday.com/story/news/politics/state/2026/11/09/gov-jb-pritzker-pushes-for-tariff-relief-for-illinois-residents/92632017007/",
+     "publisher": "MMA Junkie",
+     "publisher_key": "mma junkie",
+     "published": "2026-11-09T01:51:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://draftwire.usatoday.com/story/news/politics/state/2026/11/09/gov-jb-pritzker-pushes-for-tariff-relief-for-illinois-residents/92632017007/",
+     "publisher": "The Draft Wire",
+     "publisher_key": "the draft wire",
+     "published": "2026-11-09T01:51:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://wolverineswire.usatoday.com/story/news/politics/state/2026/11/09/gov-jb-pritzker-pushes-for-tariff-relief-for-illinois-residents/92632017007/",
+     "publisher": "WolverinesWire",
+     "publisher_key": "wolverineswire",
+     "published": "2026-11-09T01:51:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.3,
+   "age_days": 4.3,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.65,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 4 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "ANC election collapse: A new political era in South Africa?",
+   "url": "https://www.dw.com/en/after-suffering-its-worst-election-result-whats-next-for-the-anc-and-for-south-africa/a-79929902",
+   "publisher": "DW",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ANC election collapse: A new political era in South Africa?",
+   "note": "Local elections in South Africa reflect voter frustration over service delivery failures."
+  },
+  {
+   "title": "Sensus Healthcare (SRTS) Q3 2026 Earnings Call Transcript",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/sensus-healthcare-srts-q3-2026-073104020.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Sensus Healthcare (SRTS) Q3 2026 Earnings Call Transcript",
+   "note": "Sensus Healthcare released its Q3 2026 financial results."
+  },
+  {
+   "title": "What we know about the Microsoft outage",
+   "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o",
+   "publisher": "BBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "What we know about the Microsoft outage",
+   "note": "Microsoft reports on an ongoing technology outage issue."
+  },
+  {
+   "title": "The 'engine of the housing market' have paused buying after base rate rise | Money blog",
+   "url": "https://news.sky.com/story/money-personal-finance-consumer-pension-mortgage-inheritance-tax-live-latest-13040934",
+   "publisher": "Sky News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The 'engine of the housing market' have paused buying after base rate rise",
+   "note": "UK housing market buyers pause following anticipated base interest rate rises."
+  },
+  {
+   "title": "How Spanish media reacted to Tottenham star Pedro Porro's display vs Czechia",
+   "url": "https://sports.yahoo.com/articles/spanish-media-reacted-tottenham-star-070000304.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How Spanish media reacted to Tottenham star Pedro Porro's display vs Czechia",
+   "note": "Spanish media reaction to a soccer player's performance in the Nations League."
+  },
+  {
+   "title": "NextPlat (NXPL) Q3 2026 Earnings Call Transcript",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/13/nextplat-nxpl-q3-2026-earnings-call-transcript/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NextPlat (NXPL) Q3 2026 Earnings Call Transcript",
+   "note": "NextPlat posted Q3 2026 earnings transcripts mentioning solar-powered IoT tracking devices."
+  },
+  {
+   "title": "FBI Left St. Thomas Airport Without Questioning Women After Epstein Intervened, Congressional Report Reveals",
+   "url": "https://viconsortium.com/vi-federal/virgin-islands-fbi-left-st--thomas-airport-without-questioning-women-after-epstein-intervened--congressional-report-reveals",
+   "publisher": "The Virgin Islands Consortium",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FBI Left St. Thomas Airport Without Questioning Women",
+   "note": "Congressional report reveals details regarding an FBI intervention involving Epstein."
+  },
+  {
+   "title": "Accelerant’s $4bn sale puts specialty capacity terms under scrutiny",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/accelerants-4bn-sale-puts-specialty-capacity-terms-under-scrutiny-597289.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Accelerant’s $4bn sale puts specialty capacity terms under scrutiny",
+   "note": "Monitor capacity shifts among MGA partners and reinsurers that could affect commercial auto reinsurance availability."
+  },
+  {
+   "title": "Microsoft struggles to get M365 services back online after widespread outage",
+   "url": "https://www.computerworld.com/article/4248253/microsoft-struggles-to-get-m365-services-back-online-after-widespread-outage-2.html",
+   "publisher": "Computerworld",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Microsoft struggles to get M365 services back online",
+   "note": "Microsoft struggles to restore M365 services after a widespread outage."
+  },
+  {
+   "title": "Urban Meyer makes ridiculous assertion that Miami couldn't survive an SEC schedule",
+   "url": "https://www.msn.com/en-us/news/other/urban-meyer-makes-ridiculous-assertion-that-miami-couldnt-survive-an-sec-schedule/ar-AA2hkIp1",
+   "publisher": "Canes Warning on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Urban Meyer makes ridiculous assertion that Miami couldn't survive an SEC schedule",
+   "note": "Commentary discussing college football schedules."
+  },
+  {
+   "title": "Public and Private Construction Projects in Tabriz Experience Divergent Delay Patterns",
+   "url": "https://bioengineer.org/public-and-private-construction-projects-in-tabriz-experience-divergent-delay-patterns/",
+   "publisher": "BIOENGINEER",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Public and Private Construction Projects in Tabriz Experience Divergent Delay Patterns",
+   "note": "Survey reveals delay patterns in public and private construction projects in Tabriz."
+  },
+  {
+   "title": "When a Trucking Client Shuts Down: 8 Accounts That Do Not Close Themselves",
+   "url": "https://www.cpapracticeadvisor.com/2026/11/12/when-a-trucking-client-shuts-down-8-accounts-that-do-not-close-themselves/193816/",
+   "publisher": "CPA Practice Advisor",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "When a Trucking Client Shuts Down: 8 Accounts That Do Not Close Themselves",
+   "note": "Understand fleet churn patterns and compliance account closures for commercial auto policies."
+  },
+  {
+   "title": "Progressive (PGR) Finishes Snapshot Pro Rollout For Commercial Auto Customers",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/progressive-pgr-finishes-snapshot-pro-221046509.html",
+   "publisher": "Yahoo Finance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 5,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Progressive (PGR) Finishes Snapshot Pro Rollout For Commercial Auto Customers",
+   "note": "A major competitor is streamlining its commercial telematics footprint, increasing pressure on Nirvana to prove superior ROI and driver safety features."
+  },
+  {
+   "title": "Inflation and legal system abuse cost liability insurers up to $337 billion in past decade: Triple-I",
+   "url": "https://www.theinsurer.com/ti/news/inflation-and-legal-system-abuse-cost-liability-insurers-up-to-337-billion-in-2026-11-12/",
+   "publisher": "The Insurer",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Inflation and legal system abuse cost liability insurers up to $337 billion",
+   "note": "Reinforces the severity of social inflation and litigation trends impacting commercial auto margins, underscoring the necessity of real-time telematics risk mitigation."
+  },
+  {
+   "title": "Blades Brown shows no hangover with opening 65 in Austin, one week after breakthrough PGA Tour win",
+   "url": "https://www.pgatour.com/article/news/latest/2026/11/12/blades-brown-miles-russell-round-1-austin-championship-recap-leaderboard",
+   "publisher": "PGA Tour",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Blades Brown shows no hangover with opening 65 in Austin",
+   "note": "PGA Tour golf tournament reporting."
+  },
+  {
+   "title": "FedEx’s 30.5% fuel surcharge comes with a holiday surprise",
+   "url": "https://www.thestreet.com/economy/fedexs-30-5-fuel-surcharge-comes-with-a-holiday-surprise",
+   "publisher": "TheStreet",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FedEx’s 30.5% fuel surcharge comes with a holiday surprise",
+   "note": "Operating cost pressures on delivery networks (like FedEx ISPs) can tighten fleet budgets, potentially impacting insurance spend and risk priorities."
+  },
+  {
+   "title": "‘A.J. Green Had a Better Career Than Him’ — Former Eagles LB Warns A.J. Brown Must ‘Salvage His Legacy’ Amid Mounting Injury Concerns",
+   "url": "https://sports.yahoo.com/articles/j-green-had-better-career-170101132.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "‘A.J. Green Had a Better Career Than Him’ — Former Eagles LB Warns A.J. Brown",
+   "note": "Football commentary regarding player career legacy and injuries."
+  },
+  {
+   "title": "“We were miserable” – Paul Pierce said he and Kobe Bryant both considered leaving before reviving Lakers-Celtics rivalry",
+   "url": "https://sports.yahoo.com/articles/were-miserable-paul-pierce-said-155200666.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "“We were miserable” – Paul Pierce said he and Kobe Bryant both considered leaving",
+   "note": "Historical sports rivalry commentary."
+  },
+  {
+   "title": "San Diego case accusing USAA of overcharging enlisted clients bound for California Supreme Court",
+   "url": "https://timesofsandiego.com/military/2026/11/12/san-diego-lawsuit-usaa-overcharges-california-supreme-court/",
+   "publisher": "Times of San Diego",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "San Diego case accusing USAA of overcharging enlisted clients bound for California Supreme Court",
+   "note": "Context only regarding insurance class action litigation trends."
+  },
+  {
+   "title": "What Emerald Resources' (ASX:EMR) Record FY26 Profit Means for Its Move From One Mine to Several",
+   "url": "https://kalkine.com.au/news/mining/what-emerald-resources-asxemr-record-fy26-profit-means-for-its-move-from-one-mine-to-several",
+   "publisher": "kalkine",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "What Emerald Resources' (ASX:EMR) Record FY26 Profit Means",
+   "note": "Emerald Resources reports record FY26 profit."
+  },
+  {
+   "title": "Controversial private credit lender winding down pair of funds",
+   "url": "https://therealdeal.com/new-york/2026/11/10/controversial-private-credit-lender-winding-down-two-funds/",
+   "publisher": "The Real Deal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Controversial private credit lender winding down pair of funds",
+   "note": "A private credit lender is winding down a pair of funds amid an ongoing federal lawsuit."
+  },
+  {
+   "title": "Mit Kärntner Liedern um die Welt: Chor erlebt unvergessliche Chinareise",
+   "url": "https://www.msn.com/de-at/unterhaltung/allgemein/mit-k%C3%A4rntner-liedern-um-die-welt-chor-erlebt-unvergessliche-chinareise/ar-AA2h8onp",
+   "publisher": "5 Minuten on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Mit Kärntner Liedern um die Welt: Chor erlebt unvergessliche Chinareise",
+   "note": "A choir group from Carinthia traveled to China to perform traditional songs."
+  },
+  {
+   "title": "How many seconds from speaking until a creature grows on the monster? | How to make the AI Art Grand Prix Excellence Award winner 'Pulse'",
+   "url": "https://note.com/hikoza2045/n/ne566ddbf5e3d?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How many seconds from speaking until a creature grows on the monster?",
+   "note": "An AI art piece won an excellence award at the 5th AI Art Grand Prix."
+  }
+ ],
+ "digest": "- Progressive completed its Snapshot Pro commercial auto rollout, using telematics insights to sharpen risk selection and profitability, increasing pressure on Nirvana to prove superior driver safety features and broker value [1, 7].\n- Triple-I reported that inflation and legal system abuse cost liability insurers up to $337 billion over the past decade, reinforcing the severe litigation trends making real-time telematics risk mitigation essential for margins [2].\n- FedEx increased its fuel surcharge to 30.5% for the holiday season, creating operating cost pressures on delivery networks that can tighten last-mile fleet budgets and impact insurance spend [3]."
+}
