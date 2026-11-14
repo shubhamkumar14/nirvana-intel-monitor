@@ -671,9 +671,8 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 10,
+  "mentions": 11,
   "event_ids": [
-   "ev_6d171a959d11",
    "ev_8681e87213f4",
    "ev_765980d0d3f6",
    "ev_6e9cbfb03e1e",
@@ -682,10 +681,11 @@
    "ev_748e9383b930",
    "ev_135ff384a405",
    "ev_70ca87adefb5",
-   "ev_66a74181a37f"
+   "ev_66a74181a37f",
+   "ev_dfd0740c1eca"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-14T08:06:08Z"
+  "last_seen": "2026-11-14T18:51:52Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -2130,5 +2130,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-14T08:06:08Z"
+ },
+ "project44": {
+  "name": "project44",
+  "first_seen": "2026-11-14T18:51:52Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_90bf39571bbf"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-14T18:51:52Z"
  }
 }
