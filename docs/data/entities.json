@@ -671,7 +671,7 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 9,
+  "mentions": 10,
   "event_ids": [
    "ev_6d171a959d11",
    "ev_8681e87213f4",
@@ -681,10 +681,11 @@
    "ev_69d76db95349",
    "ev_748e9383b930",
    "ev_135ff384a405",
-   "ev_70ca87adefb5"
+   "ev_70ca87adefb5",
+   "ev_66a74181a37f"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-13T08:48:12Z"
+  "last_seen": "2026-11-14T08:06:08Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -2119,5 +2120,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-13T20:39:22Z"
+ },
+ "The Ride Platform": {
+  "name": "The Ride Platform",
+  "first_seen": "2026-11-14T08:06:08Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_782226cb69fe"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-14T08:06:08Z"
  }
 }

@@ -1,0 +1,1692 @@
+{
+ "run_id": "2026-11-14T08-06-08Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/43574170336",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-14",
+ "started": "2026-11-14T08:06:08Z",
+ "duration_s": 458.9,
+ "baseline": false,
+ "previous_run": "2026-11-13T20-39-22Z",
+ "previous_started": "2026-11-13T20:39:22Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 342,
+  "unique": 323,
+  "known_skipped": 281,
+  "attached_existing": 1,
+  "prefiltered_out": 5,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 35,
+  "irrelevant": 22,
+  "quarantined": 0,
+  "new_events": 13,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.8,
+  "dedup_ratio": 0.892,
+  "relevance_rate": 0.371
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 592
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 520
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 153
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 566
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 113
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 209
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1005
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 161
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 351
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 260
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 194
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 186
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 227
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 186
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 211
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 209
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 211
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 194
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 162
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 188
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 281
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 275
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 264
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1897
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 542
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 877
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 360
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1227
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 953
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 6978,
+  "output_tokens": 5146,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_66a74181a37f",
+   "title": "Progressive (PGR) Just Gave Investors Something To Think About",
+   "url": "https://uk.finance.yahoo.com/news/progressive-pgr-just-gave-investors-232554826.html",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.6,
+   "summary": "Progressive rolled out Snapshot Pro, a unified telematics program linking commercial driving behavior to policy pricing.",
+   "evidence_quote": "Progressive (PGR) Just Gave Investors Something To Think About",
+   "companies": [
+    "Progressive"
+   ],
+   "implication": "Major incumbent expanding telematics underwriting in commercial auto increases pricing pressure for Nirvana's DSP and fleet targets; monitor adoption.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-12T02:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "66a74181a37f"
+   ],
+   "sources": [
+    {
+     "url": "https://uk.finance.yahoo.com/news/progressive-pgr-just-gave-investors-232554826.html",
+     "publisher": "Yahoo Finance UK",
+     "publisher_key": "yahoo finance uk",
+     "published": "2026-11-12T02:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 65.5,
+   "age_days": 2.3,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.8,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a966c5cc9879",
+   "title": "AI cargo thefts top $150 million from June 2025 to June 2026",
+   "url": "https://www.freightwaves.com/news/ai-cargo-thefts-top-150-million-from-june-2025-to-june-2026",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "AI cargo thefts exceeded $150 million, heavily driven by fraudulent carrier identities and falsified shipping documents.",
+   "evidence_quote": "AI cargo thefts top $150 million from June 2025 to June 2026",
+   "companies": [],
+   "implication": "Highlights cargo theft risks and carrier identity fraud, reinforcing the value of robust onboarding and identity verification in last-mile fleet underwriting.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-13T21:11:42Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "a966c5cc9879"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/ai-cargo-thefts-top-150-million-from-june-2025-to-june-2026",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-13T21:11:42Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 62.6,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.96,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_782226cb69fe",
+   "title": "The Ride Platform Expands Wheelbase as Insurance Distribution Channel",
+   "url": "https://iireporter.com/the-ride-platform-expands-wheelbase-as-insurance-distribution-channel/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.5,
+   "summary": "The Ride Platform launched Wheelbase 2.0, expanding its fleet management platform and creating an insurance distribution channel via an App Exchange.",
+   "evidence_quote": "The Ride Platform Expands Wheelbase as Insurance Distribution Channel",
+   "companies": [
+    "The Ride Platform"
+   ],
+   "implication": "Fleet management platforms embedding insurance distribution represent emerging alternative channels that could compete with or distribute Nirvana's MGA product.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-10T02:58:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "782226cb69fe"
+   ],
+   "sources": [
+    {
+     "url": "https://iireporter.com/the-ride-platform-expands-wheelbase-as-insurance-distribution-channel/",
+     "publisher": "iireporter.com",
+     "publisher_key": "iireporter.com",
+     "published": "2026-11-10T02:58:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 3,
+   "score": 54.4,
+   "age_days": 4.2,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.66,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_13d2621a5b7c",
+   "title": "For insurers, the AI bill gets bigger after the pilot",
+   "url": "https://www.insurancebusinessmag.com/us/news/technology/for-insurers-the-ai-bill-gets-bigger-after-the-pilot-597348.aspx",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Rising costs of securing and overseeing artificial intelligence projects make insurers more selective about scaling deployments.",
+   "evidence_quote": "For insurers, the AI bill gets bigger after the pilot",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-13T02:28:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "13d2621a5b7c"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/technology/for-insurers-the-ai-bill-gets-bigger-after-the-pilot-597348.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-13T02:28:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 51.5,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.88,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_9d3752ec5945",
+   "title": "Posten Bring: Revenue is stable",
+   "url": "https://postandparcel.info/163314/news/e-commerce/posten-bring-revenue-is-stable/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Posten Bring reports stable third-quarter revenue and an increase in adjusted operating profit.",
+   "evidence_quote": "Posten Bring: Revenue is stable",
+   "companies": [],
+   "implication": "Indicates steady parcel delivery volumes internationally, supporting healthy operational demand for logistics fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-13T12:08:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9d3752ec5945"
+   ],
+   "sources": [
+    {
+     "url": "https://postandparcel.info/163314/news/e-commerce/posten-bring-revenue-is-stable/",
+     "publisher": "Post & Parcel",
+     "publisher_key": "post & parcel",
+     "published": "2026-11-13T12:08:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.3,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_2d6efc5a11bc",
+   "title": "PostNL explores ways to spread peak parcel volumes more evenly",
+   "url": "https://postandparcel.info/163322/news/e-commerce/postnl-explores-ways-to-spread-peak-parcel-volumes-more-evenly/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "PostNL explores strategies to distribute peak parcel delivery volumes more evenly across the season.",
+   "evidence_quote": "PostNL explores ways to spread peak parcel volumes more evenly",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-12T21:26:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "2d6efc5a11bc"
+   ],
+   "sources": [
+    {
+     "url": "https://postandparcel.info/163322/news/e-commerce/postnl-explores-ways-to-spread-peak-parcel-volumes-more-evenly/",
+     "publisher": "Post & Parcel",
+     "publisher_key": "post & parcel",
+     "published": "2026-11-12T21:26:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.5,
+   "age_days": 1.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.87,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_d9e9fa80f8da",
+   "title": "Smith & Marjanovic Law Highlights Complex Multi-State Trucking Liability Across I-25 and I-40 Corridors",
+   "url": "https://www.reuters.com/press-releases/smith-marjanovic-law-multi-state-trucking-liability-i25-i40-2026-11-13/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Legal advisory firm highlights multi-state commercial trucking liability, electronic logging data preservation, and forum selection along transit corridors.",
+   "evidence_quote": "Smith & Marjanovic Law Highlights Complex Multi-State Trucking Liability Across I-25 and I-40 Corridors",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-13T08:48:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "d9e9fa80f8da"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reuters.com/press-releases/smith-marjanovic-law-multi-state-trucking-liability-i25-i40-2026-11-13/",
+     "publisher": "Reuters",
+     "publisher_key": "reuters",
+     "published": "2026-11-13T08:48:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.1,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f7b475cb2765",
+   "title": "FAA lifts ground stop as U.S. airports grapple with thousands of canceled flights",
+   "url": "https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "The FAA imposed a nationwide ground stop affecting U.S. airports, causing widespread flight cancellations.",
+   "evidence_quote": "FAA lifts ground stop as U.S. airports grapple with thousands of canceled flights",
+   "companies": [],
+   "implication": "Temporary air travel disruptions can drive spikes in expedited ground cargo and parcel delivery demand, indirectly impacting local delivery fleet utilization.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-13T14:20:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f7b475cb2765"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268",
+     "publisher": "NBC News",
+     "publisher_key": "nbc news",
+     "published": "2026-11-13T14:20:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_6a82167229a0",
+   "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
+   "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "The FAA lifted its nationwide ground stop after four hours, though flight cancellations persist.",
+   "evidence_quote": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-13T13:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "6a82167229a0"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+     "publisher": "CNBC",
+     "publisher_key": "cnbc",
+     "published": "2026-11-13T13:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_c077895153f4",
+   "title": "MSC announces Revised FAK Freight Rates from Far East to Europe, Mediterranean and Black Sea from December 1",
+   "url": "https://indiashippingnews.com/container-shipping/msc-announces-revised-fak-freight-rates-from-far-east-to-europe-mediterranean-and-black-sea-from-december-1/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "MSC announced revised Freight All Kinds rates from the Far East to Europe, Mediterranean, and Black Sea.",
+   "evidence_quote": "MSC announces Revised FAK Freight Rates from Far East to Europe, Mediterranean and Black Sea from December 1",
+   "companies": [
+    "Mediterranean Shipping Company"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-13T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "c077895153f4"
+   ],
+   "sources": [
+    {
+     "url": "https://indiashippingnews.com/container-shipping/msc-announces-revised-fak-freight-rates-from-far-east-to-europe-mediterranean-and-black-sea-from-december-1/",
+     "publisher": "India Shipping News",
+     "publisher_key": "india shipping news",
+     "published": "2026-11-13T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5153555e51c2",
+   "title": "Are wildfires making the future uninsurable?",
+   "url": "https://www.npr.org/2026/11/13/nx-s1-6040434/california-wildfires-home-insurance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Catastrophic wildfires are challenging the foundational mathematics of property and casualty insurance.",
+   "evidence_quote": "Are wildfires making the future uninsurable?",
+   "companies": [],
+   "implication": "Reflects broader property/casualty insurance capacity stress, but has limited direct read-through to commercial auto liability for last-mile delivery fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-13T15:49:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "5153555e51c2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.npr.org/2026/11/13/nx-s1-6040434/california-wildfires-home-insurance",
+     "publisher": "NPR",
+     "publisher_key": "npr",
+     "published": "2026-11-13T15:49:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_cc31e3946a48",
+   "title": "‘We’re not the United Nations’: Rubio blasts global elite in speech",
+   "url": "https://www.politico.com/news/2026/11/13/were-not-the-united-nations-rubio-blasts-global-order-in-speech-01166264",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Secretary of State Marco Rubio criticized international legal orders and activist courts in a post-midterm speech.",
+   "evidence_quote": "‘We’re not the United Nations’: Rubio blasts global elite in speech",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-13T16:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "cc31e3946a48"
+   ],
+   "sources": [
+    {
+     "url": "https://www.politico.com/news/2026/11/13/were-not-the-united-nations-rubio-blasts-global-order-in-speech-01166264",
+     "publisher": "Politico",
+     "publisher_key": "politico",
+     "published": "2026-11-13T16:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.6,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_645978989891",
+   "title": "Nonprofits sue Anthropic, Google, and other tech giants to freeze the AI arms race",
+   "url": "https://www.politico.com/news/2026/11/12/nonprofits-sue-ai-companies-over-existential-risk-01161965",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Nonprofits file a lawsuit in San Francisco against major tech companies to halt advanced AI model development.",
+   "evidence_quote": "Nonprofits sue Anthropic, Google, and other tech giants to freeze the AI arms race",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-12T14:24:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-14T08:06:08Z",
+   "first_run": "2026-11-14T08-06-08Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "645978989891"
+   ],
+   "sources": [
+    {
+     "url": "https://www.politico.com/news/2026/11/12/nonprofits-sue-ai-companies-over-existential-risk-01161965",
+     "publisher": "Politico",
+     "publisher_key": "politico",
+     "published": "2026-11-12T14:24:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.1,
+   "age_days": 1.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.84,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_4cf04a3f3d0b",
+   "title": "United Parcel Service (UPS) Opens $80 Million Philippines Air Hub As Asia Trade Shifts",
+   "url": "https://uk.finance.yahoo.com/news/united-parcel-ups-opens-80-171545684.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "UPS is investing over $80 million in a new air hub in the Philippines to scale its Asian logistics network.",
+   "evidence_quote": "United Parcel Service (UPS) Opens $80 Million Philippines Air Hub As Asia Trade Shifts",
+   "companies": [
+    "United Parcel Service",
+    "UPS"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-10T22:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-12T08:52:11Z",
+   "first_run": "2026-11-12T08-52-11Z",
+   "last_seen": "2026-11-14T08:06:08Z",
+   "last_updated_run": "2026-11-14T08-06-08Z",
+   "update_note": "New corroborating source: Yahoo Finance",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "4cf04a3f3d0b"
+   ],
+   "sources": [
+    {
+     "url": "https://uk.finance.yahoo.com/news/united-parcel-ups-opens-80-171545684.html",
+     "publisher": "Yahoo Finance UK",
+     "publisher_key": "yahoo finance uk",
+     "published": "2026-11-10T22:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/united-parcel-ups-opens-80-171545684.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-11T09:15:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.2,
+   "age_days": 3.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.72,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Microsoft outage latest: 'Continued recovery progress across affected regions'",
+   "url": "https://www.msn.com/en-nz/news/other/microsoft-outage-latest-continued-recovery-progress-across-affected-regions/ar-AA2hjXU9",
+   "publisher": "Euronews on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Microsoft outage latest: 'Continued recovery progress across affected regions'",
+   "note": "Microsoft experiences a global server outage affecting 365 services with ongoing recovery efforts."
+  },
+  {
+   "title": "The Joy Of 'Just Because': Why Are Indians Buying Gifts Beyond Weddings, Birthdays And Festivals",
+   "url": "https://www.ndtv.com/business-news/the-joy-of-just-because-why-are-indians-buying-gifts-beyond-weddings-birthdays-and-festivals-12321600",
+   "publisher": "NDTV",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Joy Of 'Just Because': Why Are Indians Buying Gifts Beyond Weddings, Birthdays And Festivals",
+   "note": "Consumers in India are increasingly purchasing gifts for non-traditional occasions."
+  },
+  {
+   "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+   "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+   "note": "Amazon launches a lighter, thinner Kindle Colorsoft e-reader with an edge-to-edge display."
+  },
+  {
+   "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+   "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+   "note": "Jensen Huang's departure leads to concerns about reduced funding and lower valuations for AI startups."
+  },
+  {
+   "title": "Embraer Q3: Strong Operating Result With Better Outlook Ahead",
+   "url": "https://seekingalpha.com/article/4968132-embraer-q3-strong-operating-result-with-better-outlook-ahead",
+   "publisher": "Seeking Alpha",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Embraer Q3: Strong Operating Result With Better Outlook Ahead",
+   "note": "Embraer reports strong third-quarter operating results and beats expectations."
+  },
+  {
+   "title": "AI cargo thefts top $150 million from June 2025 to June 2026",
+   "url": "https://www.freightwaves.com/news/ai-cargo-thefts-top-150-million-from-june-2025-to-june-2026",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "AI cargo thefts top $150 million from June 2025 to June 2026",
+   "note": "Highlights cargo theft risks and carrier identity fraud, reinforcing the value of robust onboarding and identity verification in last-mile fleet underwriting."
+  },
+  {
+   "title": "Man charged with attempted murder after Sydney CBD hostel stabbing",
+   "url": "https://www.smh.com.au/national/man-charged-with-attempted-murder-after-sydney-cbd-hostel-stabbing-20261114-p61e65.html",
+   "publisher": "The Sydney Morning Herald",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Man charged with attempted murder after Sydney CBD hostel stabbing",
+   "note": "A man is charged with attempted murder after a Sydney CBD hostel stabbing."
+  },
+  {
+   "title": "Louisville WR commit Ja'Hyde Brown is closing in on a national receiving record",
+   "url": "https://www.on3.com/sites/cardinal-sports/news/louisville-football-wr-commit-jahyde-brown-is-closing-in-on-a-national-receiving-record/",
+   "publisher": "On3",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Louisville WR commit Ja'Hyde Brown is closing in on a national receiving record",
+   "note": "Louisville football wide receiver commit Ja'Hyde Brown is closing in on a national receiving record."
+  },
+  {
+   "title": "There's a ton of need out there: Energy Outreach Colorado explains application pause for utility payment assistance",
+   "url": "https://www.msn.com/en-us/news/other/theres-a-ton-of-need-out-there-energy-outreach-colorado-explains-application-pause-for-utility-payment-assistance/ar-AA2hpsmO",
+   "publisher": "KKTV on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "There's a ton of need out there: Energy Outreach Colorado explains application pause for utility payment assistance",
+   "note": "Energy Outreach Colorado pauses applications for utility payment assistance until the end of the year."
+  },
+  {
+   "title": "‘We’re not the United Nations’: Rubio blasts global elite in speech",
+   "url": "https://www.politico.com/news/2026/11/13/were-not-the-united-nations-rubio-blasts-global-order-in-speech-01166264",
+   "publisher": "Politico",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "‘We’re not the United Nations’: Rubio blasts global elite in speech",
+   "note": "Context only."
+  },
+  {
+   "title": "Asante Reports Q3 2026 Operating & Financial Results and Issues Clarification Regarding November 12, 2026 Press Release",
+   "url": "https://markets.businessinsider.com/news/stocks/asante-reports-q3-2026-operating-financial-results-and-issues-clarification-regarding-november-12-2026-press-release-1036763778",
+   "publisher": "Markets Insider",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Asante Reports Q3 2026 Operating & Financial Results and Issues Clarification Regarding November 12, 2026 Press Release",
+   "note": "Asante reports third-quarter operating and financial results alongside gold production metrics."
+  },
+  {
+   "title": "MSC announces Revised FAK Freight Rates from Far East to Europe, Mediterranean and Black Sea from December 1",
+   "url": "https://indiashippingnews.com/container-shipping/msc-announces-revised-fak-freight-rates-from-far-east-to-europe-mediterranean-and-black-sea-from-december-1/",
+   "publisher": "India Shipping News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "MSC announces Revised FAK Freight Rates from Far East to Europe, Mediterranean and Black Sea from December 1",
+   "note": "Context only."
+  },
+  {
+   "title": "Are wildfires making the future uninsurable?",
+   "url": "https://www.npr.org/2026/11/13/nx-s1-6040434/california-wildfires-home-insurance",
+   "publisher": "NPR",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Are wildfires making the future uninsurable?",
+   "note": "Reflects broader property/casualty insurance capacity stress, but has limited direct read-through to commercial auto liability for last-mile delivery fleets."
+  },
+  {
+   "title": "It’s a Nice Day for a Billy Idol Day as rebel yell rocker takes over LA City Hall",
+   "url": "https://nypost.com/2026/11/13/us-news/its-a-nice-day-for-a-billy-idol-day-as-rebel-yell-rocker-takes-over-la-city-hall/",
+   "publisher": "New York Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "It’s a Nice Day for a Billy Idol Day as rebel yell rocker takes over LA City Hall",
+   "note": "Los Angeles declares November 13 Billy Idol Day to honor the rock icon."
+  },
+  {
+   "title": "FAA lifts ground stop as U.S. airports grapple with thousands of canceled flights",
+   "url": "https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268",
+   "publisher": "NBC News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FAA lifts ground stop as U.S. airports grapple with thousands of canceled flights",
+   "note": "Temporary air travel disruptions can drive spikes in expedited ground cargo and parcel delivery demand, indirectly impacting local delivery fleet utilization."
+  },
+  {
+   "title": "Browns vs. Texans: 3 Matchups That Could Decide Sunday's Game",
+   "url": "https://sports.yahoo.com/articles/browns-vs-texans-3-matchups-213002594.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Browns vs. Texans: 3 Matchups That Could Decide Sunday's Game",
+   "note": "An upcoming NFL matchup features the Cleveland Browns against the Houston Texans."
+  },
+  {
+   "title": "Designers Swear These 7 Unexpected Color Pairings Make Olive Green Shine",
+   "url": "https://www.yahoo.com/lifestyle/articles/designers-swear-7-unexpected-color-212225647.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Designers Swear These 7 Unexpected Color Pairings Make Olive Green Shine",
+   "note": "Designers share unexpected color pairings that complement olive green."
+  },
+  {
+   "title": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
+   "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+   "publisher": "CNBC",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FAA lifts ground stop after more than four hours, but flight cancellations will stretch into the weekend",
+   "note": "Context only."
+  },
+  {
+   "title": "Posten Bring: Revenue is stable",
+   "url": "https://postandparcel.info/163314/news/e-commerce/posten-bring-revenue-is-stable/",
+   "publisher": "Post & Parcel",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Posten Bring: Revenue is stable",
+   "note": "Indicates steady parcel delivery volumes internationally, supporting healthy operational demand for logistics fleets."
+  },
+  {
+   "title": "Right- and left-leaning media both put Trump at the center of Nvidia scandal, but for different reasons",
+   "url": "https://www.msn.com/en-us/tv/news/right-and-left-leaning-media-both-put-trump-at-the-center-of-nvidia-scandal-but-for-different-reasons/ar-AA2hnYik",
+   "publisher": "Mediaite on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Right- and left-leaning media both put Trump at the center of Nvidia scandal, but for different reasons",
+   "note": "Media outlets focus on President Donald Trust in connection with the Nvidia scandal."
+  },
+  {
+   "title": "The best car insurance for teens and young drivers in November 2026",
+   "url": "https://www.cnbc.com/select/best-car-insurance-young-adults/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The best car insurance for teens and young drivers in November 2026",
+   "note": "Personal auto insurance pricing and trends for teen and young drivers in late 2026."
+  },
+  {
+   "title": "The Latest: FAA Lifts Nationwide Ground Stop on Flights That Halted Travel Across the US",
+   "url": "https://www.usnews.com/news/us/articles/2026-11-13/the-latest-faa-grounds-all-flights-nationwide-due-to-communications-problems",
+   "publisher": "U.S. News & World Report",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Latest: FAA Lifts Nationwide Ground Stop on Flights That Halted Travel Across the US",
+   "note": "The FAA lifted a nationwide ground stop on flights caused by air traffic control communication problems."
+  },
+  {
+   "title": "Smith & Marjanovic Law Highlights Complex Multi-State Trucking Liability Across I-25 and I-40 Corridors",
+   "url": "https://www.reuters.com/press-releases/smith-marjanovic-law-multi-state-trucking-liability-i25-i40-2026-11-13/",
+   "publisher": "Reuters",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Smith & Marjanovic Law Highlights Complex Multi-State Trucking Liability Across I-25 and I-40 Corridors",
+   "note": "Context only."
+  },
+  {
+   "title": "NFLSU rookie check-in: Week 10",
+   "url": "https://sports.yahoo.com/articles/nflsu-rookie-check-week-10-160000873.html",
+   "publisher": "Yahoo! Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NFLSU rookie check-in: Week 10",
+   "note": "NFL rookie performance check-in for Week 10 by Yahoo Sports."
+  },
+  {
+   "title": "The Twisted Logic of the Death Penalty Is Losing Its Power",
+   "url": "https://www.nytimes.com/2026/11/13/opinion/sunday/gavin-newsom-clemency-california.html",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Twisted Logic of the Death Penalty Is Losing Its Power",
+   "note": "An opinion piece on the use and changing perception of the death penalty."
+  },
+  {
+   "title": "Microsoft seeing continued recovery amid major worldwide outage",
+   "url": "https://www.msn.com/en-us/news/other/microsoft-seeing-continued-recovery-amid-major-worldwide-outage/ar-AA2hmrDJ",
+   "publisher": "CBS News on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Microsoft seeing continued recovery amid major worldwide outage",
+   "note": "Microsoft experiences a worldwide outage affecting services like Outlook and Teams."
+  },
+  {
+   "title": "For insurers, the AI bill gets bigger after the pilot",
+   "url": "https://www.insurancebusinessmag.com/us/news/technology/for-insurers-the-ai-bill-gets-bigger-after-the-pilot-597348.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "For insurers, the AI bill gets bigger after the pilot",
+   "note": "Context only."
+  },
+  {
+   "title": "PostNL explores ways to spread peak parcel volumes more evenly",
+   "url": "https://postandparcel.info/163322/news/e-commerce/postnl-explores-ways-to-spread-peak-parcel-volumes-more-evenly/",
+   "publisher": "Post & Parcel",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "PostNL explores ways to spread peak parcel volumes more evenly",
+   "note": "Context only."
+  },
+  {
+   "title": "Nonprofits sue Anthropic, Google, and other tech giants to freeze the AI arms race",
+   "url": "https://www.politico.com/news/2026/11/12/nonprofits-sue-ai-companies-over-existential-risk-01161965",
+   "publisher": "Politico",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Nonprofits sue Anthropic, Google, and other tech giants to freeze the AI arms race",
+   "note": "Context only."
+  },
+  {
+   "title": "Best life insurance companies for seniors of November 2026",
+   "url": "https://www.cnbc.com/select/best-life-insurance-seniors/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Best life insurance companies for seniors of November 2026",
+   "note": "Overview of life insurance options for seniors in November 2026."
+  },
+  {
+   "title": "He Wants AI to Pick Winning Stocks for His $200,000 401(k). A 0.75% Fee Could Cost Him $1,400 More a Year Than a Low-Cost Fund. He’ll Pay the Extra Fees Even if AI Picks Losers",
+   "url": "https://247wallst.com/personal-finance/2026/11/12/he-wants-ai-to-pick-winning-stocks-for-his-200000-401k-a-0-75-fee-could-cost-him-1400-more-a-year-than-a-low-cost-fund-hell-pay-the-extra-fees-even-if-ai-picks-losers/",
+   "publisher": "24/7 Wall St.",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "He Wants AI to Pick Winning Stocks for His $200,000 401(k).",
+   "note": "Financial commentary on retail investor fees for AI-driven stock picking funds."
+  },
+  {
+   "title": "Progressive (PGR) Just Gave Investors Something To Think About",
+   "url": "https://uk.finance.yahoo.com/news/progressive-pgr-just-gave-investors-232554826.html",
+   "publisher": "Yahoo Finance UK",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Progressive (PGR) Just Gave Investors Something To Think About",
+   "note": "Major incumbent expanding telematics underwriting in commercial auto increases pricing pressure for Nirvana's DSP and fleet targets; monitor adoption."
+  },
+  {
+   "title": "Cómo ponerse en forma antes de que termine el año: combinar fuerza y cardio y entrenar acompañado, claves para el éxito",
+   "url": "https://www.abc.es/summum/living/salud-fitness/ponerse-forma-termine-ano-combinar-fuerza-cardio-20261112091322-nt.html",
+   "publisher": "ABC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Cómo ponerse en forma antes de que termine el año",
+   "note": "Fitness advice on combining strength and cardio training before year end."
+  },
+  {
+   "title": "Frau auf „MSC Seascape“ tot aufgefunden: Mutmaßlichem Täter droht lebenslange Haft",
+   "url": "https://www.msn.com/de-de/nachrichten/other/frau-auf-msc-seascape-tot-aufgefunden-mutma%C3%9Flichem-t%C3%A4ter-droht-lebenslange-haft/ar-AA2hd0UI",
+   "publisher": "Schaumburger Zeitung on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Frau auf „MSC Seascape“ tot aufgefunden",
+   "note": "A criminal case following an incident on a cruise ship."
+  },
+  {
+   "title": "The Ride Platform Expands Wheelbase as Insurance Distribution Channel",
+   "url": "https://iireporter.com/the-ride-platform-expands-wheelbase-as-insurance-distribution-channel/",
+   "publisher": "iireporter.com",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Ride Platform Expands Wheelbase as Insurance Distribution Channel",
+   "note": "Fleet management platforms embedding insurance distribution represent emerging alternative channels that could compete with or distribute Nirvana's MGA product."
+  }
+ ],
+ "digest": "- Progressive rolled out Snapshot Pro, a unified telematics program linking commercial driving behavior to policy pricing. This increases pricing pressure for Nirvana's DSP and fleet targets, requiring close monitoring of incumbent adoption [1].\n- AI cargo thefts exceeded $150 million, driven by fraudulent carrier identities and falsified shipping documents. This reinforces the critical value of robust onboarding and identity verification in last-mile fleet underwriting [2].\n- The Ride Platform launched Wheelbase 2.0, expanding its fleet management platform and creating an insurance distribution channel via an App Exchange. This represents an emerging alternative channel that could compete with or distribute Nirvana's MGA product [3]."
+}
