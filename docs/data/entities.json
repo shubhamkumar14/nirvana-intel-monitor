@@ -2151,5 +2151,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-15T08:28:32Z"
+ },
+ "Serve Robotics Inc.": {
+  "name": "Serve Robotics Inc.",
+  "first_seen": "2026-11-15T19:27:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_762fd0b9dd7a"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-15T19:27:53Z"
  }
 }
