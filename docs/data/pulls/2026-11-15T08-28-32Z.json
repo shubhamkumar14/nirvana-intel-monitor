@@ -1,0 +1,1409 @@
+{
+ "run_id": "2026-11-15T08-28-32Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/43694664462",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-15",
+ "started": "2026-11-15T08:28:32Z",
+ "duration_s": 443.5,
+ "baseline": false,
+ "previous_run": "2026-11-14T18-51-52Z",
+ "previous_started": "2026-11-14T18:51:52Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 336,
+  "unique": 321,
+  "known_skipped": 287,
+  "attached_existing": 0,
+  "prefiltered_out": 4,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 30,
+  "irrelevant": 20,
+  "quarantined": 0,
+  "new_events": 10,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.938,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.8,
+  "dedup_ratio": 0.907,
+  "relevance_rate": 0.333
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 296
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 218
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 393
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 119
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 284
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 953
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 264
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 180
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 166
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 155
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 176
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 245
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 210
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 170
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 169
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 189
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 379
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 227
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 193
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 171
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 219
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 200
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 186
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 235
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 239
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 113
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 219
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 268
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 421
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 262
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 193
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1713
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 390
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 209
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 726
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 263
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 854
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2194
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 6081,
+  "output_tokens": 4445,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_9c7744524ec2",
+   "title": "Temu's Uruguay launch helped trigger a 170% parcel surge — and a new $10 million airport terminal",
+   "url": "https://www.msn.com/en-us/money/general/temu-s-uruguay-launch-helped-trigger-a-170-parcel-surge-and-a-new-10-million-airport-terminal/ar-AA2hrL6m",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "Temu's launch in Uruguay drove a 170% parcel volume surge, prompting a new cargo terminal development.",
+   "evidence_quote": "Temu's Uruguay launch helped trigger a 170% parcel surge",
+   "companies": [],
+   "implication": "Context only as this relates to international and Latin American logistics, though rising parcel volumes generally support last-mile delivery demand.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-14T20:02:21Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9c7744524ec2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/general/temu-s-uruguay-launch-helped-trigger-a-170-parcel-surge-and-a-new-10-million-airport-terminal/ar-AA2hrL6m",
+     "publisher": "Latin Times on MSN",
+     "publisher_key": "latin times on msn",
+     "published": "2026-11-14T20:02:21Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 61.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_021515d076b9",
+   "title": "Trump Admin Dealt Legal Blow Over Immigrant Truckers",
+   "url": "https://www.newsweek.com/trump-admin-dealt-legal-blow-over-immigrant-truckers-12715618",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "A court rejected the Trump administration's attempt to withhold highway funds from New York over immigrant commercial driver's licenses.",
+   "evidence_quote": "Trump Admin Dealt Legal Blow Over Immigrant Truckers",
+   "companies": [],
+   "implication": "Context only. CDL and commercial driver regulatory battles affect broader trucking labor supply, but have limited direct impact on last-mile box truck/van fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-14T09:33:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "021515d076b9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.newsweek.com/trump-admin-dealt-legal-blow-over-immigrant-truckers-12715618",
+     "publisher": "Newsweek",
+     "publisher_key": "newsweek",
+     "published": "2026-11-14T09:33:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 59.1,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f54c7666099c",
+   "title": "US MGA insurance premiums reach $109 bn as Munich Re urges underwriting discipline",
+   "url": "https://beinsure.com/news/us-mga-insurance-premiums-reach-109bn/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "US MGA premiums reached $109 billion in 2025 as Munich Re Specialty emphasized underwriting discipline, specialization, and portfolio data.",
+   "evidence_quote": "US MGA insurance premiums reach $109 bn as Munich Re urges underwriting discipline",
+   "companies": [
+    "Munich Re Specialty"
+   ],
+   "implication": "Highlights strong MGA market growth and reinsurers' focus on data and discipline, reinforcing Nirvana's telematics-first underwriting approach for last-mile fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-08T04:47:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "f54c7666099c"
+   ],
+   "sources": [
+    {
+     "url": "https://beinsure.com/news/us-mga-insurance-premiums-reach-109bn/",
+     "publisher": "beinsure",
+     "publisher_key": "beinsure",
+     "published": "2026-11-08T04:47:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.9,
+   "age_days": 7.2,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.49,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_d45cf9212484",
+   "title": "Gig Workers in India: Are App ‘Partners’ Really Partners?",
+   "url": "https://www.news9live.com/opinion-analysis/gig-workers-india-app-partners-social-security-ratings-your-india-3024758",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Examination of app-based gig worker classification and partnership models in India's gig economy.",
+   "evidence_quote": "Gig Workers in India: Are App ‘Partners’ Really Partners?",
+   "companies": [],
+   "implication": "Context only due to geographic focus on India; highlights global scrutiny of independent contractor delivery models.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-14T15:42:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "d45cf9212484"
+   ],
+   "sources": [
+    {
+     "url": "https://www.news9live.com/opinion-analysis/gig-workers-india-app-partners-social-security-ratings-your-india-3024758",
+     "publisher": "News9Live",
+     "publisher_key": "news9live",
+     "published": "2026-11-14T15:42:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_67dc0338f372",
+   "title": "‘Rolling billboards’: Big Rig Partners sees ads, QR codes on trucks as path to carrier revenue",
+   "url": "https://www.timesfreepress.com/news/2026/nov/14/rolling-billboards-big-rig-partners-sees-ads-qr-codes-on-trucks-as-path-to-carrier-revenue/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Big Rig Partners is using truck ads and QR codes to help carriers generate extra revenue.",
+   "evidence_quote": "‘Rolling billboards’: Big Rig Partners sees ads, QR codes on trucks",
+   "companies": [
+    "Big Rig Partners"
+   ],
+   "implication": "Context only. Alternative revenue streams for commercial vehicle operators do not directly impact Nirvana's telematics risk scoring.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-14T15:34:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "67dc0338f372"
+   ],
+   "sources": [
+    {
+     "url": "https://www.timesfreepress.com/news/2026/nov/14/rolling-billboards-big-rig-partners-sees-ads-qr-codes-on-trucks-as-path-to-carrier-revenue/",
+     "publisher": "Chattanooga Times Free Press",
+     "publisher_key": "chattanooga times free press",
+     "published": "2026-11-14T15:34:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_09828f3106de",
+   "title": "uParcel Expands Malaysian Operations Beyond Delivery, Opens New Petaling Jaya Ecommerce Fulfilment Centre in KlangValley",
+   "url": "https://www.freep.com/press-release/story/272699/uparcel-expands-malaysian-operations-beyond-delivery-opens-new-petaling-jaya-ecommerce-fulfilment-centre-in-klangvalley/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "uParcel is expanding its Malaysian operations by opening a new ecommerce fulfillment center in Petaling Jaya.",
+   "evidence_quote": "uParcel Expands Malaysian Operations Beyond Delivery, Opens New Petaling Jaya",
+   "companies": [
+    "uParcel"
+   ],
+   "implication": "Context only. International courier expansion has no direct impact on Nirvana's US commercial auto insurance operations.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-14T12:33:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "09828f3106de"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freep.com/press-release/story/272699/uparcel-expands-malaysian-operations-beyond-delivery-opens-new-petaling-jaya-ecommerce-fulfilment-centre-in-klangvalley/",
+     "publisher": "Detroit Free Press",
+     "publisher_key": "detroit free press",
+     "published": "2026-11-14T12:33:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.3,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_09fab7c5a3b5",
+   "title": "Tesla is inviting select customers to buy a Cybercab for personal use at $29,990 plus a $299-a-month autonomy subscription, with first deliveries listed for Austin and no ...",
+   "url": "https://maketecheasier.com/tesla-cybercab-personal-orders-price/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Tesla is inviting select customers in Austin to purchase a personal Cybercab with an autonomy subscription.",
+   "evidence_quote": "Tesla is inviting select customers to buy a Cybercab for personal use",
+   "companies": [
+    "Tesla"
+   ],
+   "implication": "Context only. Monitor consumer robotaxi deployments for potential long-term commercial delivery adaptation.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-14T19:29:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "09fab7c5a3b5"
+   ],
+   "sources": [
+    {
+     "url": "https://maketecheasier.com/tesla-cybercab-personal-orders-price/",
+     "publisher": "Make Tech Easier",
+     "publisher_key": "make tech easier",
+     "published": "2026-11-14T19:29:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f540bafb3c5f",
+   "title": "Tesla Cybercab for Sale at $29,990: What Buyers Get and What It Means for Tesla Stock",
+   "url": "https://admiralmarkets.com/education/articles/shares/tesla-cybercab-price-orders-tsla",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Tesla Cybercab orders opened for invited buyers with monthly subscription fees.",
+   "evidence_quote": "Tesla Cybercab for Sale at $29,990: What Buyers Get and What It Means for Tesla Stock",
+   "companies": [
+    "Tesla"
+   ],
+   "implication": "Context only. Keep track of autonomous vehicle pricing models for long-term commercial fleet underwriting considerations.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-14T11:18:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "f540bafb3c5f"
+   ],
+   "sources": [
+    {
+     "url": "https://admiralmarkets.com/education/articles/shares/tesla-cybercab-price-orders-tsla",
+     "publisher": "Admiral Markets",
+     "publisher_key": "admiral markets",
+     "published": "2026-11-14T11:18:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e25bf1d11ce0",
+   "title": "American Financial Earnings Call Highlights Record Growth",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/AFG/pressreleases/8812083/american-financial-earnings-call-highlights-record-growth/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "American Financial Group highlighted record growth during its earnings call, though specific commercial auto lines were not detailed in the snippet.",
+   "evidence_quote": "American Financial Earnings Call Highlights Record Growth",
+   "companies": [
+    "American Financial Group"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-12T16:18:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "e25bf1d11ce0"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theglobeandmail.com/investing/markets/stocks/AFG/pressreleases/8812083/american-financial-earnings-call-highlights-record-growth/",
+     "publisher": "The Globe and Mail",
+     "publisher_key": "the globe and mail",
+     "published": "2026-11-12T16:18:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 44.0,
+   "age_days": 2.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.77,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f087c2ec3e2b",
+   "title": "Air Traffic Control Systems Are Outdated. What’s Being Done to Prevent Another Outage?",
+   "url": "https://time.com/article/2026/11/14/air-traffic-control-systems-are-outdated-what-s-being-done-to-prevent-another-outage-/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Discussion regarding aging technology and upgrades within FAA air traffic control systems.",
+   "evidence_quote": "Air Traffic Control Systems Are Outdated. What’s Being Done to Prevent Another Outage?",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-14T12:14:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-15T08:28:32Z",
+   "first_run": "2026-11-15T08-28-32Z",
+   "last_seen": "2026-11-15T08:28:32Z",
+   "last_updated_run": "2026-11-15T08-28-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f087c2ec3e2b"
+   ],
+   "sources": [
+    {
+     "url": "https://time.com/article/2026/11/14/air-traffic-control-systems-are-outdated-what-s-being-done-to-prevent-another-outage-/",
+     "publisher": "TIME",
+     "publisher_key": "time",
+     "published": "2026-11-14T12:14:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.3,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Pakistan fans were chanting Sehwag, Sehwag: Aaryavir's big revelation after Asia Cup",
+   "url": "https://www.msn.com/en-in/sports/cricket/pakistan-fans-were-chanting-sehwag-sehwag-aaryavir-s-big-revelation-after-asia-cup/ar-AA2ht4sr",
+   "publisher": "The Times of India on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Pakistan fans were chanting Sehwag, Sehwag: Aaryavir's big revelation after Asia Cup",
+   "note": "Cricket match report about an Under-19 Asia Cup final between India and Pakistan."
+  },
+  {
+   "title": "Criminals will have nowhere to hide with enhanced forensics",
+   "url": "https://www.msn.com/en-in/news/other/criminals-will-have-nowhere-to-hide-with-enhanced-forensics/ar-AA2hrSw9",
+   "publisher": "Mid-Day on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Criminals will have nowhere to hide with enhanced forensics",
+   "note": "News piece regarding the enhancement of forensic science in policing in Maharashtra, India."
+  },
+  {
+   "title": "3 Recommended Lucky Bags and Osechi to Buy in 2027",
+   "url": "https://note.com/fancy_ram6303/n/n45854ddd4644?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "3 Recommended Lucky Bags and Osechi to Buy in 2027",
+   "note": "Recommendations for Japanese New Year lucky bags and Osechi for 2027."
+  },
+  {
+   "title": "Temu's Uruguay launch helped trigger a 170% parcel surge — and a new $10 million airport terminal",
+   "url": "https://www.msn.com/en-us/money/general/temu-s-uruguay-launch-helped-trigger-a-170-parcel-surge-and-a-new-10-million-airport-terminal/ar-AA2hrL6m",
+   "publisher": "Latin Times on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Temu's Uruguay launch helped trigger a 170% parcel surge",
+   "note": "Context only as this relates to international and Latin American logistics, though rising parcel volumes generally support last-mile delivery demand."
+  },
+  {
+   "title": "Tesla is inviting select customers to buy a Cybercab for personal use at $29,990 plus a $299-a-month autonomy subscription, with first deliveries listed for Austin and no ...",
+   "url": "https://maketecheasier.com/tesla-cybercab-personal-orders-price/",
+   "publisher": "Make Tech Easier",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tesla is inviting select customers to buy a Cybercab for personal use",
+   "note": "Context only. Monitor consumer robotaxi deployments for potential long-term commercial delivery adaptation."
+  },
+  {
+   "title": "'Indian cricket is in safe hands': Karthik, Irfan, Sehwag hail India U19 after dramatic Asia Cup final win",
+   "url": "https://sports.yahoo.com/articles/indian-cricket-safe-hands-karthik-063000743.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "'Indian cricket is in safe hands': Karthik, Irfan, Sehwag hail India U19",
+   "note": "Reactions from former cricketers to India's U19 Asia Cup win."
+  },
+  {
+   "title": "Tempers flare as Lincoln Riley breaks up heated postgame clash between USC and Indiana",
+   "url": "https://sports.yahoo.com/articles/tempers-flare-lincoln-riley-breaks-063210148.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tempers flare as Lincoln Riley breaks up heated postgame clash",
+   "note": "Postgame college football confrontation between USC and Indiana."
+  },
+  {
+   "title": "Bugiri leaders seek to boost local revenue amid funding shortfalls",
+   "url": "https://www.monitor.co.ug/uganda/news/national/bugiri-leaders-seek-to-boost-local-revenue-amid-funding-shortfalls-5671350",
+   "publisher": "Monitor",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Bugiri leaders seek to boost local revenue amid funding shortfalls",
+   "note": "Bugiri District local leaders discussing revenue shortfalls in Uganda."
+  },
+  {
+   "title": "Gig Workers in India: Are App ‘Partners’ Really Partners?",
+   "url": "https://www.news9live.com/opinion-analysis/gig-workers-india-app-partners-social-security-ratings-your-india-3024758",
+   "publisher": "News9Live",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Gig Workers in India: Are App ‘Partners’ Really Partners?",
+   "note": "Context only due to geographic focus on India; highlights global scrutiny of independent contractor delivery models."
+  },
+  {
+   "title": "‘Rolling billboards’: Big Rig Partners sees ads, QR codes on trucks as path to carrier revenue",
+   "url": "https://www.timesfreepress.com/news/2026/nov/14/rolling-billboards-big-rig-partners-sees-ads-qr-codes-on-trucks-as-path-to-carrier-revenue/",
+   "publisher": "Chattanooga Times Free Press",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "‘Rolling billboards’: Big Rig Partners sees ads, QR codes on trucks",
+   "note": "Context only. Alternative revenue streams for commercial vehicle operators do not directly impact Nirvana's telematics risk scoring."
+  },
+  {
+   "title": "Tyrese Maxey gets a little help from a friend at his Thanksgiving event: Jaylen Brown",
+   "url": "https://www.inquirer.com/sixers/tyrese-maxey-jaylen-brown-thanksgiving-foundation-community-20261114.html",
+   "publisher": "The Philadelphia Inquirer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tyrese Maxey gets a little help from a friend at his Thanksgiving event: Jaylen Brown",
+   "note": "Tyrese Maxey and Jaylen Brown hosted a holiday turkey giveaway in Philadelphia."
+  },
+  {
+   "title": "Eastern University finishes atop the conference, advances to Division III football playoffs",
+   "url": "https://www.inquirer.com/college-sports/eastern-university-football-division-three-playoffs-20261114.html",
+   "publisher": "The Philadelphia Inquirer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Eastern University finishes atop the conference, advances to Division III football playoffs",
+   "note": "Eastern University football team advancing to Division III playoffs."
+  },
+  {
+   "title": "uParcel Expands Malaysian Operations Beyond Delivery, Opens New Petaling Jaya Ecommerce Fulfilment Centre in KlangValley",
+   "url": "https://www.freep.com/press-release/story/272699/uparcel-expands-malaysian-operations-beyond-delivery-opens-new-petaling-jaya-ecommerce-fulfilment-centre-in-klangvalley/",
+   "publisher": "Detroit Free Press",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "uParcel Expands Malaysian Operations Beyond Delivery, Opens New Petaling Jaya",
+   "note": "Context only. International courier expansion has no direct impact on Nirvana's US commercial auto insurance operations."
+  },
+  {
+   "title": "Auburn Football's Keys to Victory Against Mississippi State",
+   "url": "https://sports.yahoo.com/articles/auburn-footballs-keys-victory-against-202410663.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Auburn Football's Keys to Victory Against Mississippi State",
+   "note": "Preview of an Auburn football game against Mississippi State."
+  },
+  {
+   "title": "Air Traffic Control Systems Are Outdated. What’s Being Done to Prevent Another Outage?",
+   "url": "https://time.com/article/2026/11/14/air-traffic-control-systems-are-outdated-what-s-being-done-to-prevent-another-outage-/",
+   "publisher": "TIME",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Air Traffic Control Systems Are Outdated. What’s Being Done to Prevent Another Outage?",
+   "note": "Context only."
+  },
+  {
+   "title": "Xilect Raises RMB 500 Million: What the MetaX and UBTech Robot-Chip Venture Means for the Stocks",
+   "url": "https://admiralmarkets.com/education/articles/shares/xilect-metax-ubtech-robot-chips",
+   "publisher": "Admiral Markets",
+   "lane": "irrelevant",
+   "event_type": "funding",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Xilect Raises RMB 500 Million: What the MetaX and UBTech Robot-Chip Venture Means",
+   "note": "Xilect raised RMB 500 million in a funding round led by GGV and Matrix."
+  },
+  {
+   "title": "Plumbing companies brace for busy 'Brown Friday' after Thanksgiving",
+   "url": "https://www.msn.com/en-us/news/other/plumbing-companies-brace-for-busy-brown-friday-after-thanksgiving/ar-AA2hrhAZ",
+   "publisher": "Scripps News on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Plumbing companies brace for busy 'Brown Friday' after Thanksgiving",
+   "note": "Plumbers preparing for increased service calls on 'Brown Friday' following Thanksgiving."
+  },
+  {
+   "title": "Tesla Cybercab for Sale at $29,990: What Buyers Get and What It Means for Tesla Stock",
+   "url": "https://admiralmarkets.com/education/articles/shares/tesla-cybercab-price-orders-tsla",
+   "publisher": "Admiral Markets",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tesla Cybercab for Sale at $29,990: What Buyers Get and What It Means for Tesla Stock",
+   "note": "Context only. Keep track of autonomous vehicle pricing models for long-term commercial fleet underwriting considerations."
+  },
+  {
+   "title": "Rutgers Prep saves its best for last, storms past DePaul for Non-Public B girls volleyball title",
+   "url": "https://www.nj.com/highschoolsports/2026/11/rutgers-prep-saves-its-best-for-last-storms-past-depaul-for-non-public-b-girls-volleyball-title.html",
+   "publisher": "NJ.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Rutgers Prep saves its best for last, storms past DePaul for Non-Public B girls volleyball title",
+   "note": "High school volleyball championship match won by Rutgers Prep."
+  },
+  {
+   "title": "Trump Admin Dealt Legal Blow Over Immigrant Truckers",
+   "url": "https://www.newsweek.com/trump-admin-dealt-legal-blow-over-immigrant-truckers-12715618",
+   "publisher": "Newsweek",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Trump Admin Dealt Legal Blow Over Immigrant Truckers",
+   "note": "Context only. CDL and commercial driver regulatory battles affect broader trucking labor supply, but have limited direct impact on last-mile box truck/van fleets."
+  },
+  {
+   "title": "Honeywell Aerospace: 3 Key Takeaways for Long-Term Investors",
+   "url": "https://www.fool.com/earnings/takeaways/2026/11/14/honeywell-aerospace-3-key-takeaways-for-long-term-investors/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Honeywell Aerospace: 3 Key Takeaways for Long-Term Investors",
+   "note": "Honeywell Aerospace reported a record backlog and dividend confidence, but the report is unrelated to commercial auto insurance or delivery fleets."
+  },
+  {
+   "title": "LSU falters in another fourth quarter to lose to Texas in final seconds",
+   "url": "https://crescentcitysports.com/lsu-falters-in-another-fourth-quarter-to-lose-to-texas-in-final-seconds/",
+   "publisher": "Crescent City Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "LSU falters in another fourth quarter to lose to Texas in final seconds",
+   "note": "Texas defeated LSU in a college football game with a late touchdown pass."
+  },
+  {
+   "title": "American Financial Earnings Call Highlights Record Growth",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/AFG/pressreleases/8812083/american-financial-earnings-call-highlights-record-growth/",
+   "publisher": "The Globe and Mail",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "American Financial Earnings Call Highlights Record Growth",
+   "note": "Context only."
+  },
+  {
+   "title": "Best high-risk car insurance of November 2026",
+   "url": "https://www.cnbc.com/select/best-car-insurance-high-risk-drivers/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Best high-risk car insurance of November 2026",
+   "note": "A personal auto insurance overview detailing how traffic violations and DUIs raise rates for individual drivers."
+  },
+  {
+   "title": "Pet Insurance",
+   "url": "https://www.consumerreports.org/money/pet-insurance/",
+   "publisher": "Consumer Reports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Pet Insurance",
+   "note": "Consumer Reports is offering reviews and ratings for pet insurance products."
+  },
+  {
+   "title": "James Harden ends his slow start to the season with 32 points in a throwback game to beat Knicks",
+   "url": "https://wtop.com/sports/2026/11/james-harden-ends-his-slow-start-to-the-season-with-32-points-in-a-throwback-game-to-beat-knicks/",
+   "publisher": "WTOP",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "James Harden ends his slow start to the season with 32 points in a throwback game to beat Knicks",
+   "note": "James Harden scored 32 points in an NBA game to help his team beat the Knicks."
+  },
+  {
+   "title": "Agenda mundial: Legisladores de 45 parlamentos advierten sobre la influencia china",
+   "url": "https://realpolitik.com.ar/nota/75220/agenda-mundial-legisladores-de-45-parlamentos-advierten-sobre-la-influencia-china/",
+   "publisher": "REALPOLITIK",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Agenda mundial: Legisladores de 45 parlamentos advierten sobre la influencia china",
+   "note": "Legislators from 45 parliaments warned about Chinese influence."
+  },
+  {
+   "title": "Kementerian Kebudayaan siapkan pendanaan koproduksi film Rp20 miliar",
+   "url": "https://www.antaranews.com/berita/5847647/kementerian-kebudayaan-siapkan-pendanaan-koproduksi-film-rp20-miliar",
+   "publisher": "ANTARA News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kementerian Kebudayaan siapkan pendanaan koproduksi film Rp20 miliar",
+   "note": "The Indonesian Ministry of Culture prepared film co-production funding."
+  },
+  {
+   "title": "DIY hanger hack for organizing and storing tape",
+   "url": "https://www.msn.com/en-us/news/other/diy-hanger-hack-for-organizing-and-storing-tape/vi-AA2h6JuM",
+   "publisher": "Blake Kinsman on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DIY hanger hack for organizing and storing tape",
+   "note": "A DIY life hack on converting a clothes hanger into a tape organizer."
+  },
+  {
+   "title": "US MGA insurance premiums reach $109 bn as Munich Re urges underwriting discipline",
+   "url": "https://beinsure.com/news/us-mga-insurance-premiums-reach-109bn/",
+   "publisher": "beinsure",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "US MGA insurance premiums reach $109 bn as Munich Re urges underwriting discipline",
+   "note": "Highlights strong MGA market growth and reinsurers' focus on data and discipline, reinforcing Nirvana's telematics-first underwriting approach for last-mile fleets."
+  }
+ ],
+ "digest": "- US MGA insurance premiums hit $109 billion as Munich Re Specialty urged underwriting discipline, specialization, and portfolio data, reinforcing Nirvana's telematics-first underwriting model [3]."
+}

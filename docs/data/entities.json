@@ -1622,12 +1622,13 @@
  "American Financial Group": {
   "name": "American Financial Group",
   "first_seen": "2026-11-06T08:32:02Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_d32253ec51f1"
+   "ev_d32253ec51f1",
+   "ev_e25bf1d11ce0"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-06T08:32:02Z"
+  "last_seen": "2026-11-15T08:28:32Z"
  },
  "Root Inc.": {
   "name": "Root Inc.",
@@ -2140,5 +2141,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-14T18:51:52Z"
+ },
+ "uParcel": {
+  "name": "uParcel",
+  "first_seen": "2026-11-15T08:28:32Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_09828f3106de"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-15T08:28:32Z"
  }
 }
