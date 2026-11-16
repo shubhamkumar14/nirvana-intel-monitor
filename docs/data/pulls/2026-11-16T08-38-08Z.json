@@ -1,0 +1,1294 @@
+{
+ "run_id": "2026-11-16T08-38-08Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/43832812552",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-16",
+ "started": "2026-11-16T08:38:08Z",
+ "duration_s": 326.9,
+ "baseline": false,
+ "previous_run": "2026-11-15T19-27-53Z",
+ "previous_started": "2026-11-15T19:27:53Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 305,
+  "unique": 296,
+  "known_skipped": 248,
+  "attached_existing": 1,
+  "prefiltered_out": 20,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 25,
+  "irrelevant": 17,
+  "quarantined": 0,
+  "new_events": 8,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.812,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.8,
+  "dedup_ratio": 0.916,
+  "relevance_rate": 0.32
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 2177
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 331
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 154
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 160
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 160
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 329
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 892
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 391
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 137
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 74
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 193
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 219
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 162
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 170
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 86
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 74
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 281
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 91
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 182
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 67
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 204
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 176
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 73
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 220
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 266
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 204
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 136
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 127
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 130
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1428
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 502
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 288
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 829
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 264
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1077
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1145
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5195,
+  "output_tokens": 3351,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_509b95f13b94",
+   "title": "Fake delivery driver pulls gun on N.J. homeowner. It was a BB pistol, cops say.",
+   "url": "https://www.yahoo.com/news/articles/fake-delivery-driver-pulls-gun-173117865.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.7,
+   "summary": "A robbery suspect disguised as a delivery driver confronted a New Jersey homeowner.",
+   "evidence_quote": "Fake delivery driver pulls gun on N.J. homeowner",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-15T09:31:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T08:38:08Z",
+   "first_run": "2026-11-16T08-38-08Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "509b95f13b94"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/articles/fake-delivery-driver-pulls-gun-173117865.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-11-15T09:31:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 54.1,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e43d5f1ceb51",
+   "title": "What a Delivery Truck Accident Lawyer Does to Help Crash Victims",
+   "url": "https://bnonews.com/index.php/2026/11/what-a-delivery-truck-accident-lawyer-does-to-help-crash-victims/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "Discussion of delivery truck accident legal representation in transportation hubs.",
+   "evidence_quote": "What a Delivery Truck Accident Lawyer Does to Help Crash Victims",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-15T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T08:38:08Z",
+   "first_run": "2026-11-16T08-38-08Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "e43d5f1ceb51"
+   ],
+   "sources": [
+    {
+     "url": "https://bnonews.com/index.php/2026/11/what-a-delivery-truck-accident-lawyer-does-to-help-crash-victims/",
+     "publisher": "BNO News",
+     "publisher_key": "bno news",
+     "published": "2026-11-15T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e2860d3b7b5d",
+   "title": "$700 Shipping Surcharge Threatens 45% Yuletide Cargo Growth, Importers Warn",
+   "url": "https://leadership.ng/700-shipping-surcharge-threatens-45-yuletide-cargo-growth-importers-warn/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Shipping surcharges threaten cargo import growth and increase landed costs.",
+   "evidence_quote": "$700 Shipping Surcharge Threatens 45% Yuletide Cargo Growth",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-15T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T08:38:08Z",
+   "first_run": "2026-11-16T08-38-08Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "e2860d3b7b5d"
+   ],
+   "sources": [
+    {
+     "url": "https://leadership.ng/700-shipping-surcharge-threatens-45-yuletide-cargo-growth-importers-warn/",
+     "publisher": "Leadership",
+     "publisher_key": "leadership",
+     "published": "2026-11-15T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f44562acaee7",
+   "title": "Three prerequisites for private fleets considering third-party freight operations",
+   "url": "https://www.fleetowner.com/perspectives/ideaxchange/blog/55418148/how-private-fleets-can-meet-fmcsa-requirements-and-assess-costs-before-hauling-third-party-freight",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Private fleets expanding into third-party freight must evaluate safety ratings, insurance coverage, cost per mile, and market lane rates.",
+   "evidence_quote": "Expanding into third-party freight requires private fleets to assess safety ratings, insurance coverage, cost per mile, and market lane rates.",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-11T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T08:38:08Z",
+   "first_run": "2026-11-16T08-38-08Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "f44562acaee7"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fleetowner.com/perspectives/ideaxchange/blog/55418148/how-private-fleets-can-meet-fmcsa-requirements-and-assess-costs-before-hauling-third-party-freight",
+     "publisher": "FleetOwner",
+     "publisher_key": "fleetowner",
+     "published": "2026-11-11T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.9,
+   "age_days": 4.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.63,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1b0d6e9ba11d",
+   "title": "How Much Does It Cost to Ship a Car in 2026? Real Quotes, Hidden Costs and How to Compare Them",
+   "url": "https://finchannel.com/how-much-does-it-cost-to-ship-a-car-in-2026-real-quotes-hidden-costs-and-how-to-compare-them/141676/americas/america/2026/11/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Review of car shipping costs for open and enclosed trailers in late 2026.",
+   "evidence_quote": "How Much Does It Cost to Ship a Car in 2026?",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-16T00:09:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T08:38:08Z",
+   "first_run": "2026-11-16T08-38-08Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "1b0d6e9ba11d"
+   ],
+   "sources": [
+    {
+     "url": "https://finchannel.com/how-much-does-it-cost-to-ship-a-car-in-2026-real-quotes-hidden-costs-and-how-to-compare-them/141676/americas/america/2026/11/",
+     "publisher": "FINCHANNEL",
+     "publisher_key": "finchannel",
+     "published": "2026-11-16T00:09:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 41.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_ecf03bbe09f1",
+   "title": "Thanksgiving Travel Expected to Dip Slightly Compared to Last Year",
+   "url": "https://newsroom.aaa.com/2026/11/aaa-thanksgiving-holiday-travel-forecast/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "AAA reports that Thanksgiving travel is expected to dip slightly.",
+   "evidence_quote": "Thanksgiving Travel Expected to Dip Slightly Compared to Last Year",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-15T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T08:38:08Z",
+   "first_run": "2026-11-16T08-38-08Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "ecf03bbe09f1"
+   ],
+   "sources": [
+    {
+     "url": "https://newsroom.aaa.com/2026/11/aaa-thanksgiving-holiday-travel-forecast/",
+     "publisher": "AAA Newsroom",
+     "publisher_key": "aaa newsroom",
+     "published": "2026-11-15T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4171ceb885be",
+   "title": "Transcript: Transportation Secretary Sean Duffy on \"Face the Nation with Margaret Brennan,\" Nov. 15, 2026",
+   "url": "https://www.cbsnews.com/news/sean-duffy-transportation-secretary-face-the-nation-transcript-11-15-2026/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Transcript of an interview featuring Transportation Secretary Sean Duffy.",
+   "evidence_quote": "Transcript: Transportation Secretary Sean Duffy",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-15T10:17:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T08:38:08Z",
+   "first_run": "2026-11-16T08-38-08Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "4171ceb885be"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cbsnews.com/news/sean-duffy-transportation-secretary-face-the-nation-transcript-11-15-2026/",
+     "publisher": "CBS News",
+     "publisher_key": "cbs news",
+     "published": "2026-11-15T10:17:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.2,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_400ed07b585c",
+   "title": "Russian diesel under Trump deal struggles to reach US market amid legal fears and criticism",
+   "url": "https://www.cnn.com/2026/11/15/politics/russia-diesel-trump-deal-oil-tankers",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Russian diesel imports face legal and political hurdles entering the US market.",
+   "evidence_quote": "Russian diesel under Trump deal struggles to reach US market",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-15T09:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T08:38:08Z",
+   "first_run": "2026-11-16T08-38-08Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "400ed07b585c"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cnn.com/2026/11/15/politics/russia-diesel-trump-deal-oil-tankers",
+     "publisher": "CNN",
+     "publisher_key": "cnn",
+     "published": "2026-11-15T09:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.1,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.91,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_6f61ce7e77c0",
+   "title": "Risky Future Summit to Explore Emerging Threats, Technology and Risk Management Strategies for Insurance Industry",
+   "url": "https://www.insurancejournal.com/news/national/2026/11/12/892477.htm",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "A virtual insurance summit will examine major industry risks including escalating commercial auto verdicts, cyber threats, and natural catastrophes.",
+   "evidence_quote": "escalating commercial auto verdicts to geopolitical instability and increasingly costly natural catastrophes",
+   "companies": [],
+   "implication": "Reinforces ongoing pressure from severe commercial auto litigation, supporting the demand for telematics-driven underwriting to identify and avoid high-risk fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-12T17:45:37Z",
+   "date_known": true,
+   "first_seen": "2026-11-12T21:06:15Z",
+   "first_run": "2026-11-12T21-06-15Z",
+   "last_seen": "2026-11-16T08:38:08Z",
+   "last_updated_run": "2026-11-16T08-38-08Z",
+   "update_note": "New corroborating source: Carrier Management",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "6f61ce7e77c0",
+    "62ac579145ac"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancejournal.com/news/national/2026/11/12/892477.htm",
+     "publisher": "Insurance Journal",
+     "publisher_key": "insurance journal",
+     "published": "2026-11-12T17:45:37Z",
+     "tier": 2,
+     "source_id": "insurancejournal",
+     "query": null
+    },
+    {
+     "url": "https://www.carriermanagement.com/news/2026/11/15/294144.htm",
+     "publisher": "Carrier Management",
+     "publisher_key": "carrier management",
+     "published": "2026-11-16T02:06:05Z",
+     "tier": 2,
+     "source_id": "carriermanagement",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 53.7,
+   "age_days": 3.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.7,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "trade press, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Cargo Ship Strikes Bridge Between New Jersey and Philadelphia",
+   "url": "https://www.insurancejournal.com/news/east/2026/11/16/892660.htm",
+   "publisher": "Insurance Journal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Cargo Ship Strikes Bridge Between New Jersey and Philadelphia",
+   "note": "A cargo ship struck a bridge in New Jersey, disrupting local traffic."
+  },
+  {
+   "title": "How Much Does It Cost to Ship a Car in 2026? Real Quotes, Hidden Costs and How to Compare Them",
+   "url": "https://finchannel.com/how-much-does-it-cost-to-ship-a-car-in-2026-real-quotes-hidden-costs-and-how-to-compare-them/141676/americas/america/2026/11/",
+   "publisher": "FINCHANNEL",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How Much Does It Cost to Ship a Car in 2026?",
+   "note": "Context only"
+  },
+  {
+   "title": "Vince Maristela sets new PR in hybrid fitness race in South Korea",
+   "url": "https://www.msn.com/en-ph/health/fitness-and-exercise/vince-maristela-sets-new-pr-in-hybrid-fitness-race-in-south-korea/ar-AA2hwqPc",
+   "publisher": "GMA Network on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Vince Maristela sets new PR in hybrid fitness race",
+   "note": "An athlete set a new personal record in a hybrid fitness race."
+  },
+  {
+   "title": "Alibaba launches Qwen4-Max AI model, claims it beats GPT-6.1-Sol and Claude Opus 5.5 in coding",
+   "url": "https://www.msn.com/en-in/news/other/alibaba-launches-qwen4-max-ai-model-claims-it-beats-gpt-61-sol-and-claude-opus-55-in-coding/ar-AA2hwvTq",
+   "publisher": "Mint on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Alibaba launches Qwen4-Max AI model",
+   "note": "Alibaba launched a new AI model for coding benchmarks."
+  },
+  {
+   "title": "OvO TV Officially Initiates NASDAQ Listing Preparation: Reshaping the Track with Interactive Drama to Become the First U.S.-Listed Short-Drama Company",
+   "url": "https://finance.yahoo.com/technology/ai/articles/ovo-tv-officially-initiates-nasdaq-074000204.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "OvO TV Officially Initiates NASDAQ Listing Preparation",
+   "note": "A short-drama company initiated NASDAQ listing preparations."
+  },
+  {
+   "title": "A right royal pairing! Kate hails 'wonderful' return to Mumbai as she enjoys game of street cricket with William after couple arrive in India for first joint tour in four years",
+   "url": "https://www.dailymail.com/news/article-16295623/William-Kate-game-street-cricket-arriving-India-joint-tour.html",
+   "publisher": "Daily Mail",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A right royal pairing!",
+   "note": "Royal visit to India involving a street cricket game."
+  },
+  {
+   "title": "DiaMedica Therapeutics: Maintaining 'Buy' DM199 FGR Data November 2026 And AIS Advancement",
+   "url": "https://seekingalpha.com/article/4968462-diamedica-stock-maintaining-buy-dm199-fgr-data-november-2026-and-ais-advancement",
+   "publisher": "Seeking Alpha",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DiaMedica Therapeutics: Maintaining 'Buy' DM199 FGR Data",
+   "note": "Financial and clinical updates for DiaMedica Therapeutics trials."
+  },
+  {
+   "title": "Meals on Wheels: Keeping the wheels turning",
+   "url": "https://www.yahoo.com/lifestyle/articles/meals-wheels-keeping-wheels-turning-040500736.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Meals on Wheels: Keeping the wheels turning",
+   "note": "A podcast conversation discussing Meals on Wheels operations."
+  },
+  {
+   "title": "Octave Specialty Group Earnings Call Signals Stronger Growth",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/OSG/pressreleases/8846278/octave-specialty-group-earnings-call-signals-stronger-growth/",
+   "publisher": "The Globe and Mail",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Octave Specialty Group Earnings Call Signals Stronger Growth",
+   "note": "Octave Specialty Group released earnings call details."
+  },
+  {
+   "title": "Thanksgiving Travel Expected to Dip Slightly Compared to Last Year",
+   "url": "https://newsroom.aaa.com/2026/11/aaa-thanksgiving-holiday-travel-forecast/",
+   "publisher": "AAA Newsroom",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Thanksgiving Travel Expected to Dip Slightly Compared to Last Year",
+   "note": "Context only"
+  },
+  {
+   "title": "Govt raises alarm over false statistics in public projects",
+   "url": "https://www.monitor.co.ug/uganda/news/national/govt-raises-alarm-over-false-statistics-in-public-projects-5672380",
+   "publisher": "Monitor",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Govt raises alarm over false statistics in public projects",
+   "note": "Government warnings issued against false statistics in public projects."
+  },
+  {
+   "title": "$700 Shipping Surcharge Threatens 45% Yuletide Cargo Growth, Importers Warn",
+   "url": "https://leadership.ng/700-shipping-surcharge-threatens-45-yuletide-cargo-growth-importers-warn/",
+   "publisher": "Leadership",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "$700 Shipping Surcharge Threatens 45% Yuletide Cargo Growth",
+   "note": "Context only"
+  },
+  {
+   "title": "What a Delivery Truck Accident Lawyer Does to Help Crash Victims",
+   "url": "https://bnonews.com/index.php/2026/11/what-a-delivery-truck-accident-lawyer-does-to-help-crash-victims/",
+   "publisher": "BNO News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "What a Delivery Truck Accident Lawyer Does to Help Crash Victims",
+   "note": "Context only"
+  },
+  {
+   "title": "Flyers focused on putting together ‘60-minute, consistent effort’ coming off a long road trip swing",
+   "url": "https://www.inquirer.com/flyers/flyers-road-trip-momentum-edmonton-oilers-20261115.html",
+   "publisher": "The Philadelphia Inquirer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Flyers focused on putting together ‘60-minute, consistent effort’",
+   "note": "Philadelphia Flyers hockey team road trip recap."
+  },
+  {
+   "title": "Patriots lose Maye to injury, game to Lions in rout, 35-10",
+   "url": "https://www.courant.com/2026/11/15/best-and-worst-what-we-learned-with-drake-maye-out-in-35-10-loss-to-lions/",
+   "publisher": "Hartford Courant",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Patriots lose Maye to injury, game to Lions in rout",
+   "note": "New England Patriots game and injury updates."
+  },
+  {
+   "title": "With Salt, Oil, And A 600-Degree Cast Iron Skillet, You Can Make Filet Mignon Like Alton Brown",
+   "url": "https://www.yahoo.com/lifestyle/articles/salt-oil-600-degree-cast-201000937.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "With Salt, Oil, And A 600-Degree Cast Iron Skillet",
+   "note": "Culinary instructions for cooking steak."
+  },
+  {
+   "title": "Trump’s Golf Course Plans Hit a Legal Obstacle: His Own Social Media Posts",
+   "url": "https://time.com/article/2026/11/15/trumps-social-media-posts-evidence-against-his-administration/",
+   "publisher": "TIME",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Trump’s Golf Course Plans Hit a Legal Obstacle",
+   "note": "Federal judge blocks public golf course closure."
+  },
+  {
+   "title": "Transcript: Transportation Secretary Sean Duffy on \"Face the Nation with Margaret Brennan,\" Nov. 15, 2026",
+   "url": "https://www.cbsnews.com/news/sean-duffy-transportation-secretary-face-the-nation-transcript-11-15-2026/",
+   "publisher": "CBS News",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Transcript: Transportation Secretary Sean Duffy",
+   "note": "Context only"
+  },
+  {
+   "title": "Fake delivery driver pulls gun on N.J. homeowner. It was a BB pistol, cops say.",
+   "url": "https://www.yahoo.com/news/articles/fake-delivery-driver-pulls-gun-173117865.html",
+   "publisher": "Yahoo",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Fake delivery driver pulls gun on N.J. homeowner",
+   "note": "Context only"
+  },
+  {
+   "title": "Russian diesel under Trump deal struggles to reach US market amid legal fears and criticism",
+   "url": "https://www.cnn.com/2026/11/15/politics/russia-diesel-trump-deal-oil-tankers",
+   "publisher": "CNN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Russian diesel under Trump deal struggles to reach US market",
+   "note": "Context only"
+  },
+  {
+   "title": "Patriots-Lions inactives: AJ Brown, Rhamondre Stevenson playing through injuries",
+   "url": "https://www.msn.com/en-us/sports/football/patriots-lions-inactives-aj-brown-rhamondre-stevenson-playing-through-injuries/ar-AA2htteb",
+   "publisher": "Boston Herald on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Patriots-Lions inactives: AJ Brown, Rhamondre Stevenson playing through injuries",
+   "note": "Sports news about NFL player injury statuses and game rosters."
+  },
+  {
+   "title": "Kwame Evans Jr.’s double-double leads Villanova to a 99-62 blowout of Rider",
+   "url": "https://www.inquirer.com/college-sports/villanova/basketball-rider-score-kwame-evans-devin-royal-injuries-20261115.html",
+   "publisher": "The Philadelphia Inquirer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kwame Evans Jr.’s double-double leads Villanova to a 99-62 blowout of Rider",
+   "note": "College basketball game results and player statistics."
+  },
+  {
+   "title": "Adani Cement Dealership: Entry From Rs 2 Lakh and Three Formats Across India",
+   "url": "https://www.indianretailer.com/franchisetv/archives/article/adani-cement-dealership-entry-rs-2-lakh-and-three-formats-across-india",
+   "publisher": "Indian Retailer",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Adani Cement Dealership: Entry From Rs 2 Lakh and Three Formats Across India",
+   "note": "Adani Cement announces dealership formats and entry requirements across India."
+  },
+  {
+   "title": "Japan Post Insurance Sees Lower First-Half Profit on In-Force Policy Decline",
+   "url": "https://news.ambest.com/newscontent.aspx?refnum=278910",
+   "publisher": "news.ambest",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Japan Post Insurance Sees Lower First-Half Profit on In-Force Policy Decline",
+   "note": "Japan Post Insurance reports lower first-half profit driven by an in-force policy decline."
+  },
+  {
+   "title": "Three prerequisites for private fleets considering third-party freight operations",
+   "url": "https://www.fleetowner.com/perspectives/ideaxchange/blog/55418148/how-private-fleets-can-meet-fmcsa-requirements-and-assess-costs-before-hauling-third-party-freight",
+   "publisher": "FleetOwner",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Expanding into third-party freight requires private fleets to assess safety ratings, insurance coverage, cost per mile, and market lane rates.",
+   "note": "Context only."
+  }
+ ],
+ "digest": "- An upcoming virtual insurance summit will examine escalating commercial auto verdicts, cyber threats, and natural catastrophes [9]. For Nirvana, this reinforces ongoing pressure from severe litigation, supporting the demand for telematics-driven underwriting to identify and avoid high-risk fleets [9]."
+}
