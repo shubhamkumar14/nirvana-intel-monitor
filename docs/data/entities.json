@@ -221,12 +221,13 @@
  "Tesla": {
   "name": "Tesla",
   "first_seen": "2026-10-16T17:40:26Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_f555e967d765"
+   "ev_f555e967d765",
+   "ev_4ea172799990"
   ],
   "status": "proposed",
-  "last_seen": "2026-10-16T17:40:26Z"
+  "last_seen": "2026-11-16T23:01:58Z"
  },
  "Arrive AI": {
   "name": "Arrive AI",
@@ -671,9 +672,8 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 11,
+  "mentions": 12,
   "event_ids": [
-   "ev_8681e87213f4",
    "ev_765980d0d3f6",
    "ev_6e9cbfb03e1e",
    "ev_4e1decef5c99",
@@ -682,10 +682,11 @@
    "ev_135ff384a405",
    "ev_70ca87adefb5",
    "ev_66a74181a37f",
-   "ev_dfd0740c1eca"
+   "ev_dfd0740c1eca",
+   "ev_7bc80e4f1076"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-14T18:51:52Z"
+  "last_seen": "2026-11-16T23:01:58Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -2161,5 +2162,75 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-15T19:27:53Z"
+ },
+ "STG Logistics": {
+  "name": "STG Logistics",
+  "first_seen": "2026-11-16T23:01:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_8af330693b38"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-16T23:01:58Z"
+ },
+ "UniUni": {
+  "name": "UniUni",
+  "first_seen": "2026-11-16T23:01:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_553579ae1d93"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-16T23:01:58Z"
+ },
+ "Gofo": {
+  "name": "Gofo",
+  "first_seen": "2026-11-16T23:01:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_553579ae1d93"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-16T23:01:58Z"
+ },
+ "Roadzen": {
+  "name": "Roadzen",
+  "first_seen": "2026-11-16T23:01:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7d3b20a22ce0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-16T23:01:58Z"
+ },
+ "State Farm": {
+  "name": "State Farm",
+  "first_seen": "2026-11-16T23:01:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_886e15db8efb"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-16T23:01:58Z"
+ },
+ "State Farm Fire and Casualty Co.": {
+  "name": "State Farm Fire and Casualty Co.",
+  "first_seen": "2026-11-16T23:01:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_886e15db8efb"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-16T23:01:58Z"
+ },
+ "Slice Insurance": {
+  "name": "Slice Insurance",
+  "first_seen": "2026-11-16T23:01:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_5b992ec29d7e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-16T23:01:58Z"
  }
 }

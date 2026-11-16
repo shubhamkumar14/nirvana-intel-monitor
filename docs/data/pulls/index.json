@@ -830,5 +830,18 @@
   "sources_ok": 0.812,
   "scanned": 296,
   "file": "pulls/2026-11-16T08-38-08Z.json"
+ },
+ {
+  "run_id": "2026-11-16T23-01-58Z",
+  "date": "2026-11-16",
+  "started": "2026-11-16T23:01:58Z",
+  "new": 39,
+  "updated": 0,
+  "baseline": false,
+  "trigger": "schedule",
+  "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/43975586936",
+  "sources_ok": 0.958,
+  "scanned": 330,
+  "file": "pulls/2026-11-16T23-01-58Z.json"
  }
 ]
