@@ -2263,5 +2263,125 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-17T09:45:02Z"
+ },
+ "SmartKargo": {
+  "name": "SmartKargo",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_83fef2ad32f0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Burns & Wilcox": {
+  "name": "Burns & Wilcox",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_aa31855188ef"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Mercury Underwriters": {
+  "name": "Mercury Underwriters",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_aa31855188ef"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Transamerica": {
+  "name": "Transamerica",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0feebd7a40fa"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Amazon Web Services": {
+  "name": "Amazon Web Services",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0feebd7a40fa"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "BirdsEyeView": {
+  "name": "BirdsEyeView",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d7144facf483"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "JBA Risk Management": {
+  "name": "JBA Risk Management",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_d7144facf483"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Kinsale Capital": {
+  "name": "Kinsale Capital",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_808331b66d56"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Zurich Insurance Group Ltd.": {
+  "name": "Zurich Insurance Group Ltd.",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_8f97f2f4288d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Beazley": {
+  "name": "Beazley",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_8f97f2f4288d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "PEMCO": {
+  "name": "PEMCO",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_347fec11fa67"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Geotab": {
+  "name": "Geotab",
+  "first_seen": "2026-11-17T21:54:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_fa30cbe86cd3"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-17T21:54:15Z"
  }
 }
