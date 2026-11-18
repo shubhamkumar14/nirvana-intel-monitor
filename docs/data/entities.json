@@ -153,15 +153,16 @@
  "The Progressive Corporation": {
   "name": "The Progressive Corporation",
   "first_seen": "2026-10-16T17:40:26Z",
-  "mentions": 4,
+  "mentions": 5,
   "event_ids": [
    "ev_7eafcd491076",
    "ev_48b0254d66e4",
    "ev_2b7a1bcba2f6",
-   "ev_6e9cbfb03e1e"
+   "ev_6e9cbfb03e1e",
+   "ev_71240b0a914a"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-06T08:32:02Z"
+  "last_seen": "2026-11-18T21:36:09Z"
  },
  "nuVizz": {
   "name": "nuVizz",
@@ -1199,14 +1200,15 @@
  "Aon": {
   "name": "Aon",
   "first_seen": "2026-10-29T07:41:28Z",
-  "mentions": 3,
+  "mentions": 4,
   "event_ids": [
    "ev_58c34dd39c34",
    "ev_f61daae2bf27",
-   "ev_3f8d0a681d14"
+   "ev_3f8d0a681d14",
+   "ev_bfdac687c678"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-17T09:45:02Z"
+  "last_seen": "2026-11-18T21:36:09Z"
  },
  "Altea": {
   "name": "Altea",
@@ -1534,12 +1536,13 @@
  "IA Capital Group": {
   "name": "IA Capital Group",
   "first_seen": "2026-11-06T08:32:02Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_d2a3099b2b52"
+   "ev_d2a3099b2b52",
+   "ev_3a907fb276cb"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-06T08:32:02Z"
+  "last_seen": "2026-11-18T21:36:09Z"
  },
  "Inter-Atlantic Opportunity Fund I": {
   "name": "Inter-Atlantic Opportunity Fund I",
@@ -2247,12 +2250,13 @@
  "USI Insurance Services": {
   "name": "USI Insurance Services",
   "first_seen": "2026-11-17T09:45:02Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_3f8d0a681d14"
+   "ev_3f8d0a681d14",
+   "ev_bfdac687c678"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-17T09:45:02Z"
+  "last_seen": "2026-11-18T21:36:09Z"
  },
  "Cowbell": {
   "name": "Cowbell",
@@ -2393,5 +2397,145 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-18T09:14:49Z"
+ },
+ "DHL Group": {
+  "name": "DHL Group",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_582e86b2cadd"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Boost Insurance Holdings, Inc.": {
+  "name": "Boost Insurance Holdings, Inc.",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9d3c0058b178"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Atrium": {
+  "name": "Atrium",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9d3c0058b178"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "MS Amlin": {
+  "name": "MS Amlin",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9d3c0058b178"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Argenta": {
+  "name": "Argenta",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9d3c0058b178"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Envelop Risk": {
+  "name": "Envelop Risk",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9d3c0058b178"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Dale": {
+  "name": "Dale",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9d3c0058b178"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Peak Re": {
+  "name": "Peak Re",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9d3c0058b178"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "RenaissanceRe": {
+  "name": "RenaissanceRe",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9d3c0058b178"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Bobcat Re": {
+  "name": "Bobcat Re",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_9cf520e7f773"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Aurora": {
+  "name": "Aurora",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3a907fb276cb"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Felicis": {
+  "name": "Felicis",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_40e720272af6"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Unsiloed AI": {
+  "name": "Unsiloed AI",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_40e720272af6"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Smartways Logistics": {
+  "name": "Smartways Logistics",
+  "first_seen": "2026-11-18T21:36:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_c136b0854d1e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T21:36:09Z"
  }
 }
