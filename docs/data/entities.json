@@ -672,9 +672,8 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 12,
+  "mentions": 13,
   "event_ids": [
-   "ev_765980d0d3f6",
    "ev_6e9cbfb03e1e",
    "ev_4e1decef5c99",
    "ev_69d76db95349",
@@ -683,10 +682,11 @@
    "ev_70ca87adefb5",
    "ev_66a74181a37f",
    "ev_dfd0740c1eca",
-   "ev_7bc80e4f1076"
+   "ev_7bc80e4f1076",
+   "ev_63cf43525fc1"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-16T23:01:58Z"
+  "last_seen": "2026-11-18T09:14:49Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -2383,5 +2383,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-17T21:54:15Z"
+ },
+ "Smartway Logistics": {
+  "name": "Smartway Logistics",
+  "first_seen": "2026-11-18T09:14:49Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_789638f6def6"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-18T09:14:49Z"
  }
 }

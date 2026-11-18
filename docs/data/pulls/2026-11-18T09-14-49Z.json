@@ -1,0 +1,1863 @@
+{
+ "run_id": "2026-11-18T09-14-49Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/44274095615",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-18",
+ "started": "2026-11-18T09:14:49Z",
+ "duration_s": 486.1,
+ "baseline": false,
+ "previous_run": "2026-11-17T21-54-15Z",
+ "previous_started": "2026-11-17T21:54:15Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 344,
+  "unique": 330,
+  "known_skipped": 266,
+  "attached_existing": 1,
+  "prefiltered_out": 27,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 34,
+  "irrelevant": 18,
+  "quarantined": 0,
+  "new_events": 16,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.75,
+  "dedup_ratio": 0.897,
+  "relevance_rate": 0.471
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 421
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 455
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 253
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 85
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 295
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 176
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 127
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 283
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 169
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 148
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 227
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 244
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 266
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 512
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 493
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 176
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 444
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 316
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 1649
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 236
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 333
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 218
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 119
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 84
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 70
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1499
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 510
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 283
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 577
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 936
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 775
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 7243,
+  "output_tokens": 5369,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_63cf43525fc1",
+   "title": "Snapshot Pro Rollout Might Change The Case For Investing In Progressive (PGR)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/snapshot-pro-rollout-might-change-011552268.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.4,
+   "summary": "Progressive completes rollout of Snapshot Pro, uniting commercial telematics programs and tying driving behavior to rates.",
+   "evidence_quote": "Snapshot Pro Rollout Might Change The Case For Investing In Progressive",
+   "companies": [
+    "Progressive"
+   ],
+   "implication": "Progressive is doubling down on commercial telematics pricing. Nirvana must emphasize its real-time coaching and last-mile workflow integration to win DSPs.",
+   "action": "watch",
+   "watchlist_companies": [
+    "Progressive Commercial"
+   ],
+   "published": "2026-11-12T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "63cf43525fc1"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/snapshot-pro-rollout-might-change-011552268.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-12T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.0,
+   "age_days": 5.7,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.95,
+    "tier": 3,
+    "recency": 0.57,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_bf80d49e18ff",
+   "title": "ZTO signals 2026 parcel volume growth of 6%–10% as market share reaches 20.1%",
+   "url": "https://seekingalpha.com/news/4673985-zto-signals-2026-parcel-volume-growth-of-6-percent-10-percent-as-market-share-reaches-20_1",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "ZTO Express reports Q3 revenue growth and guides for 2026 parcel volume growth of 6% to 10%.",
+   "evidence_quote": "ZTO signals 2026 parcel volume growth of 6%–10%",
+   "companies": [
+    "ZTO Express"
+   ],
+   "implication": "Strong parcel volume projections indicate robust delivery fleet activity, supporting continued commercial auto insurance exposure growth.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-17T20:23:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "bf80d49e18ff"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/news/4673985-zto-signals-2026-parcel-volume-growth-of-6-percent-10-percent-as-market-share-reaches-20_1",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-11-17T20:23:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 62.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_dd75ebdd9363",
+   "title": "ZTO Express (Cayman) Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zto-express-cayman-q3-earnings-031226024.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "ZTO Express reported higher Q3 revenue and operating profit due to parcel volumes growing faster than the broader industry.",
+   "evidence_quote": "ZTO Express (Cayman) Q3 Earnings Call Highlights",
+   "companies": [
+    "ZTO Express (Cayman)"
+   ],
+   "implication": "Continues to signal high parcel delivery volumes, supporting commercial auto exposure for last-mile fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-17T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "dd75ebdd9363"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/zto-express-cayman-q3-earnings-031226024.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-17T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 62.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1ed45f06f896",
+   "title": "ZTO Express Q3 2026: Pricing recovery and a $1.1B buyback signal confidence",
+   "url": "https://247wallst.com/cards/zto-express-q3-2026-earnings-zto-01m7nrqerbdw46yt0zvc95vd54",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "ZTO Express reports that price wars in Chinese parcel delivery are cooling with core express pricing up 13.7%.",
+   "evidence_quote": "ZTO Express Q3 2026: Pricing recovery and a $1.1B buyback signal confidence",
+   "companies": [
+    "ZTO Express"
+   ],
+   "implication": "Pricing stabilization in delivery logistics supports healthier unit economics for delivery fleets and stable insurance buying capacity.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-17T14:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1ed45f06f896"
+   ],
+   "sources": [
+    {
+     "url": "https://247wallst.com/cards/zto-express-q3-2026-earnings-zto-01m7nrqerbdw46yt0zvc95vd54",
+     "publisher": "24/7 Wall St.",
+     "publisher_key": "24/7 wall st.",
+     "published": "2026-11-17T14:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 62.4,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_bf964a4137ea",
+   "title": "Insurance fraud AI tools surge across US claims and cargo",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/insurance-fraud-ai-tools-surge-across-us-claims-and-cargo-597671.aspx",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "Use of AI tools in fraudulent US insurance claims and cargo surged significantly through mid-2026.",
+   "evidence_quote": "Insurance fraud AI tools surge across US claims and cargo",
+   "companies": [],
+   "implication": "Highlighting the need for Nirvana's telematics data to detect staged accidents and fraudulent cargo claims in commercial fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-16T19:57:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "bf964a4137ea"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/insurance-fraud-ai-tools-surge-across-us-claims-and-cargo-597671.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-16T19:57:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 2,
+   "score": 61.1,
+   "age_days": 1.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.86,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_c0eac02917e2",
+   "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption From Safety Vision, LLC",
+   "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23410/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-safety-vision-llc",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "FMCSA seeks public comments on Safety Vision's exemption application for camera monitor systems as an alternative to rear-vision mirrors.",
+   "evidence_quote": "Application for Exemption From Safety Vision, LLC",
+   "companies": [
+    "Safety Vision, LLC"
+   ],
+   "implication": "Adoption of advanced camera monitor systems aids telematics and visibility, supporting risk profiling for commercial vans and box trucks.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-18T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "c0eac02917e2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23410/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-safety-vision-llc",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-18T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "FMCSA delivery"
+    }
+   ],
+   "best_tier": 1,
+   "score": 59.4,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 0.96,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_d18f8af67770",
+   "title": "2026 in Review: Three Key Developments in Wage-and-Hour Class and Collective Actions",
+   "url": "https://www.jdsupra.com/legalnews/2026-in-review-three-key-developments-3673561/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "Wage-and-hour class and collective actions continue to present severe legal risks for employers.",
+   "evidence_quote": "2026 in Review: Three Key Developments in Wage-and-Hour Class and Collective Actions",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-16T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "d18f8af67770"
+   ],
+   "sources": [
+    {
+     "url": "https://www.jdsupra.com/legalnews/2026-in-review-three-key-developments-3673561/",
+     "publisher": "JD Supra",
+     "publisher_key": "jd supra",
+     "published": "2026-11-16T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.2,
+   "age_days": 1.7,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.84,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4ac0814c155f",
+   "title": "Commercial Driver's License: Saia LTL Freight; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23409/commercial-drivers-license-saia-ltl-freight-application-for-exemption",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "FMCSA seeks comments on Saia LTL Freight's exemption application allowing certain driver training program participants to operate double trailers without a specific CDL endorsement.",
+   "evidence_quote": "Commercial Driver's License: Saia LTL Freight; Application for Exemption",
+   "companies": [
+    "Saia LTL Freight"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-18T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "4ac0814c155f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23409/commercial-drivers-license-saia-ltl-freight-application-for-exemption",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-18T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "FMCSA delivery"
+    }
+   ],
+   "best_tier": 1,
+   "score": 57.4,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 0.96,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_c2e98c272b36",
+   "title": "Workhorse Group Inc (WKHS) Q3 2026 Earnings Call Highlights: Revenue Jumps 72% as Deliveries ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/workhorse-group-inc-wkhs-q3-010107473.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "Workhorse Group reported a 72% jump in Q3 revenue alongside increased vehicle deliveries.",
+   "evidence_quote": "Workhorse Group Inc (WKHS) Q3 2026 Earnings Call Highlights: Revenue Jumps 72% as Deliveries",
+   "companies": [
+    "Workhorse Group Inc"
+   ],
+   "implication": "Increased electric commercial delivery vehicle production signals fleet fleet electrification trends relevant to telematics risk profiles.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-17T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "c2e98c272b36"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/workhorse-group-inc-wkhs-q3-010107473.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-17T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_789638f6def6",
+   "title": "UPS to acquire Australian healthcare specialist Smartway Logistics",
+   "url": "https://www.freightwaves.com/news/ups-to-acquire-australian-healthcare-specialist-smartway-logistics",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "UPS is acquiring Australian healthcare logistics provider Smartway Logistics.",
+   "evidence_quote": "UPS to acquire Australian healthcare specialist Smartway Logistics",
+   "companies": [
+    "UPS",
+    "Smartway Logistics"
+   ],
+   "implication": "Context only regarding international logistics M&A activity.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T22:43:37Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "789638f6def6"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/ups-to-acquire-australian-healthcare-specialist-smartway-logistics",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-17T22:43:37Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.6,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.96,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_21e6347f1fc2",
+   "title": "Grab vs. Uber Technologies: Which Gig Economy Stock Is a Better Buy for 2027?",
+   "url": "https://www.fool.com/coverage/better-buy/2026/11/18/grab-vs-uber-technologies-which-gig-economy-stock-is-a-better-buy-for-2027/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "An analysis evaluates Grab and Uber Technologies as gig economy investments for 2027.",
+   "evidence_quote": "Grab vs. Uber Technologies: Which Gig Economy Stock Is a Better Buy for 2027?",
+   "companies": [
+    "Grab",
+    "Uber Technologies"
+   ],
+   "implication": "Reflects broader gig economy and on-demand delivery platform health, relevant for gig-delivery insurance segments.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-17T21:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "21e6347f1fc2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fool.com/coverage/better-buy/2026/11/18/grab-vs-uber-technologies-which-gig-economy-stock-is-a-better-buy-for-2027/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-11-17T21:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_86766cee344d",
+   "title": "ZTO Express Inc. Reiterates Production Guidance for the Fiscal Year 2026",
+   "url": "https://www.marketscreener.com/news/zto-express-inc-reiterates-production-guidance-for-the-fiscal-year-2026-ce785edcd18df127",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "ZTO Express reiterates positive parcel volume production guidance for fiscal year 2026.",
+   "evidence_quote": "ZTO Express Inc. Reiterates Production Guidance for the Fiscal Year 2026",
+   "companies": [
+    "ZTO Express Inc."
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T01:03:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "86766cee344d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.marketscreener.com/news/zto-express-inc-reiterates-production-guidance-for-the-fiscal-year-2026-ce785edcd18df127",
+     "publisher": "MarketScreener",
+     "publisher_key": "marketscreener",
+     "published": "2026-11-17T01:03:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.6,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9b68ced9e6a3",
+   "title": "Waymo pauses all robotaxi rides on U.S. freeways after California ban",
+   "url": "https://www.nbcnews.com/news/us-news/waymo-robotaxis-banned-california-freeways-rcna609917",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "California banned Waymo robotaxis from state freeways, prompting the company to pause freeway rides.",
+   "evidence_quote": "Waymo pauses all robotaxi rides on U.S. freeways after California ban",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Context only regarding autonomous vehicle regulatory hurdles; limited direct impact on human-driven last-mile delivery fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T15:24:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "9b68ced9e6a3"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nbcnews.com/news/us-news/waymo-robotaxis-banned-california-freeways-rcna609917",
+     "publisher": "NBC News",
+     "publisher_key": "nbc news",
+     "published": "2026-11-17T15:24:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9ea413bffcb2",
+   "title": "Waymo Suspends All Driverless Taxi Rides on Freeways After Ban in California",
+   "url": "https://www.usnews.com/news/us/articles/2026-11-17/california-bans-waymo-autonomous-vehicles-from-state-freeways-saying-they-pose-an-imminent-hazard",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "California DMV bans Waymo autonomous vehicles from state freeways following safety incidents.",
+   "evidence_quote": "Waymo Suspends All Driverless Taxi Rides on Freeways After Ban in California",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T08:06:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "9ea413bffcb2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.usnews.com/news/us/articles/2026-11-17/california-bans-waymo-autonomous-vehicles-from-state-freeways-saying-they-pose-an-imminent-hazard",
+     "publisher": "U.S. News & World Report",
+     "publisher_key": "u.s. news & world report",
+     "published": "2026-11-17T08:06:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.0,
+   "age_days": 1.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_719741ea8cea",
+   "title": "Rising Costs Squeeze Potato and Onion Grower-Shippers",
+   "url": "https://www.thepacker.com/news/rising-costs-squeeze-potato-and-onion-grower-shippers",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Rising diesel fuel, packaging tariffs, and labor expenses drive up agricultural production and transport costs.",
+   "evidence_quote": "Rising Costs Squeeze Potato and Onion Grower-Shippers",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T08:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "719741ea8cea"
+   ],
+   "sources": [
+    {
+     "url": "https://www.thepacker.com/news/rising-costs-squeeze-potato-and-onion-grower-shippers",
+     "publisher": "The Packer",
+     "publisher_key": "the packer",
+     "published": "2026-11-17T08:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.0,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_d67109444ac5",
+   "title": "Shoe prices can't escape inflation, tariffs, price of oil",
+   "url": "https://www.msn.com/en-us/news/other/shoe-prices-cant-escape-inflation-tariffs-price-of-oil/ar-AA2hCKXa",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "US shoe prices hit record highs due to converging inflation, energy costs, and tariffs.",
+   "evidence_quote": "Shoe prices can't escape inflation, tariffs, price of oil",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T03:37:54Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "d67109444ac5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/shoe-prices-cant-escape-inflation-tariffs-price-of-oil/ar-AA2hCKXa",
+     "publisher": "Newser on MSN",
+     "publisher_key": "newser on msn",
+     "published": "2026-11-17T03:37:54Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.8,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_c66bcd58eb1a",
+   "title": "Why some small businesses need proof of insurance just to get hired",
+   "url": "https://www.kansascity.com/news/business/article318121824.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "Small businesses increasingly require proof of insurance to secure jobs, shifting liability to vendors.",
+   "evidence_quote": "small businesses need proof of insurance just to get hired",
+   "companies": [
+    "Thimble"
+   ],
+   "implication": "Highlights increasing demand for certificates of insurance (COI) among smaller courier fleets and gig contractors; ensure fast COI generation in broker portals.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-17T04:46:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-17T21:54:15Z",
+   "first_run": "2026-11-17T21-54-15Z",
+   "last_seen": "2026-11-18T09:14:49Z",
+   "last_updated_run": "2026-11-18T09-14-49Z",
+   "update_note": "New corroborating source: KESQ",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "c66bcd58eb1a"
+   ],
+   "sources": [
+    {
+     "url": "https://www.kansascity.com/news/business/article318121824.html",
+     "publisher": "The Kansas City Star",
+     "publisher_key": "the kansas city star",
+     "published": "2026-11-17T04:46:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "gig delivery drivers \"commercial auto\" insurance"
+    },
+    {
+     "url": "https://kesq.com/stacker-small-business/2026/11/17/why-some-small-businesses-need-proof-of-insurance-just-to-get-hired/",
+     "publisher": "KESQ",
+     "publisher_key": "kesq",
+     "published": "2026-11-16T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 55.8,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "CDE warns Johannesburg needs decisive mayor to rescue city from deepening crisis",
+   "url": "https://www.msn.com/en-za/money/economy/cde-warns-johannesburg-needs-decisive-mayor-to-rescue-city-from-deepening-crisis/ar-AA2hGnWa",
+   "publisher": "IOL on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "CDE warns Johannesburg needs decisive mayor to rescue city from deepening crisis",
+   "note": "The CDE urges Johannesburg's next mayor to tackle financial recovery and political instability."
+  },
+  {
+   "title": "ISG Presents 2026 Star of Excellence™ Awards to HCLTech, Hexaware, Persistent Systems",
+   "url": "https://finance.yahoo.com/technology/articles/isg-presents-2026-star-excellence-090000112.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ISG Presents 2026 Star of Excellence™ Awards to HCLTech, Hexaware, Persistent Systems",
+   "note": "ISG presented its 2026 Star of Excellence Awards to several technology firms."
+  },
+  {
+   "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption From Safety Vision, LLC",
+   "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23410/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-safety-vision-llc",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Application for Exemption From Safety Vision, LLC",
+   "note": "Adoption of advanced camera monitor systems aids telematics and visibility, supporting risk profiling for commercial vans and box trucks."
+  },
+  {
+   "title": "Commercial Driver's License: Saia LTL Freight; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/18/2026-23409/commercial-drivers-license-saia-ltl-freight-application-for-exemption",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Commercial Driver's License: Saia LTL Freight; Application for Exemption",
+   "note": "Context only"
+  },
+  {
+   "title": "UnitedHealth Is Targeting 13% to 16% Long-Term Earnings Growth. Where Will the Stock Be in 5 Years?",
+   "url": "https://www.fool.com/investing/2026/11/18/unitedhealth-is-targeting-13-to-16-long-term-earni/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UnitedHealth Is Targeting 13% to 16% Long-Term Earnings Growth",
+   "note": "UnitedHealth targets 13% to 16% long-term earnings growth."
+  },
+  {
+   "title": "UPS to acquire Australian healthcare specialist Smartway Logistics",
+   "url": "https://www.freightwaves.com/news/ups-to-acquire-australian-healthcare-specialist-smartway-logistics",
+   "publisher": "FreightWaves",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UPS to acquire Australian healthcare specialist Smartway Logistics",
+   "note": "Context only regarding international logistics M&A activity."
+  },
+  {
+   "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+   "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon and Google will together own nearly 30% of Anthropic",
+   "note": "Amazon and Google will hold significant stakes in Anthropic following its IPO."
+  },
+  {
+   "title": "Grab vs. Uber Technologies: Which Gig Economy Stock Is a Better Buy for 2027?",
+   "url": "https://www.fool.com/coverage/better-buy/2026/11/18/grab-vs-uber-technologies-which-gig-economy-stock-is-a-better-buy-for-2027/",
+   "publisher": "The Motley Fool",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Grab vs. Uber Technologies: Which Gig Economy Stock Is a Better Buy for 2027?",
+   "note": "Reflects broader gig economy and on-demand delivery platform health, relevant for gig-delivery insurance segments."
+  },
+  {
+   "title": "ZTO signals 2026 parcel volume growth of 6%–10% as market share reaches 20.1%",
+   "url": "https://seekingalpha.com/news/4673985-zto-signals-2026-parcel-volume-growth-of-6-percent-10-percent-as-market-share-reaches-20_1",
+   "publisher": "Seeking Alpha",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ZTO signals 2026 parcel volume growth of 6%–10%",
+   "note": "Strong parcel volume projections indicate robust delivery fleet activity, supporting continued commercial auto insurance exposure growth."
+  },
+  {
+   "title": "Askbnef: Shipping’s Perfect Storm Could Shape Fuel Transition for Decades",
+   "url": "https://www.bloomberg.com/professional/insights/webinar/askbnef-shippings-perfect-storm-could-shape-fuel-transition-for-decades/",
+   "publisher": "Bloomberg",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Shipping’s Perfect Storm Could Shape Fuel Transition for Decades",
+   "note": "Global shipping markets remain strong despite tariffs and trade restrictions."
+  },
+  {
+   "title": "Workhorse Group Inc (WKHS) Q3 2026 Earnings Call Highlights: Revenue Jumps 72% as Deliveries ...",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/workhorse-group-inc-wkhs-q3-010107473.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Workhorse Group Inc (WKHS) Q3 2026 Earnings Call Highlights: Revenue Jumps 72% as Deliveries",
+   "note": "Increased electric commercial delivery vehicle production signals fleet fleet electrification trends relevant to telematics risk profiles."
+  },
+  {
+   "title": "Tyson & Mendes Leaders Named to San Diego Business Journal’s 2026 Most Influential People",
+   "url": "https://www.northjersey.com/press-release/story/268849/tyson-mendes-leaders-named-to-san-diego-business-journals-2026-most-influential-people/",
+   "publisher": "NorthJersey.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tyson & Mendes Leaders Named to San Diego Business Journal’s 2026 Most Influential People",
+   "note": "Tyson & Mendes leadership named to regional business journal's influential list."
+  },
+  {
+   "title": "ZTO Express (Cayman) Q3 Earnings Call Highlights",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/zto-express-cayman-q3-earnings-031226024.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ZTO Express (Cayman) Q3 Earnings Call Highlights",
+   "note": "Continues to signal high parcel delivery volumes, supporting commercial auto exposure for last-mile fleets."
+  },
+  {
+   "title": "Waymo pauses all robotaxi rides on U.S. freeways after California ban",
+   "url": "https://www.nbcnews.com/news/us-news/waymo-robotaxis-banned-california-freeways-rcna609917",
+   "publisher": "NBC News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Waymo pauses all robotaxi rides on U.S. freeways after California ban",
+   "note": "Context only regarding autonomous vehicle regulatory hurdles; limited direct impact on human-driven last-mile delivery fleets."
+  },
+  {
+   "title": "Oakland produce wholesaler navigates rising costs",
+   "url": "https://eastbayexpress.com/oakland-produce-wholesaler-navigates-rising-costs/",
+   "publisher": "East Bay Express",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Oakland produce wholesaler navigates rising costs",
+   "note": "An Oakland produce wholesaler navigates rising operating costs."
+  },
+  {
+   "title": "Illegal Indian migrant learns fate for $7M SoCal cargo theft scheme",
+   "url": "https://nypost.com/2026/11/17/us-news/illegal-immigrant-sentenced-for-7-2m-socal-cargo-theft/",
+   "publisher": "New York Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Illegal Indian migrant learns fate for $7M SoCal cargo theft scheme",
+   "note": "An individual was sentenced for participating in a Southern California cargo theft scheme."
+  },
+  {
+   "title": "Transformer transport for Hobart data center stopped by Porter County over county road use",
+   "url": "https://www.chicagotribune.com/2026/11/17/transformer-transport-hobart-data-center-stopped/",
+   "publisher": "Chicago Tribune",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Transformer transport for Hobart data center stopped by Porter County",
+   "note": "Transformer transport for an Amazon Web Services data center was halted due to a denied county road permit."
+  },
+  {
+   "title": "ZTO Express Q3 2026: Pricing recovery and a $1.1B buyback signal confidence",
+   "url": "https://247wallst.com/cards/zto-express-q3-2026-earnings-zto-01m7nrqerbdw46yt0zvc95vd54",
+   "publisher": "24/7 Wall St.",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ZTO Express Q3 2026: Pricing recovery and a $1.1B buyback signal confidence",
+   "note": "Pricing stabilization in delivery logistics supports healthier unit economics for delivery fleets and stable insurance buying capacity."
+  },
+  {
+   "title": "11:11 Systems Appoints Marc Beder as Executive General Manager, EMEA",
+   "url": "https://markets.businessinsider.com/news/stocks/11-11-systems-appoints-marc-beder-as-executive-general-manager-emea-1036778088",
+   "publisher": "Markets Insider",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "11:11 Systems Appoints Marc Beder as Executive General Manager, EMEA",
+   "note": "11:11 Systems appointed Marc Beder as Executive General Manager, EMEA."
+  },
+  {
+   "title": "JoyLogistics co-hosts Cross-Border E-Commerce Development Forum in Hanoi",
+   "url": "https://vir.com.vn/joylogistics-co-hosts-cross-border-e-commerce-development-forum-in-hanoi-165295.html",
+   "publisher": "Vietnam Investment Review",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "JoyLogistics co-hosts Cross-Border E-Commerce Development Forum in Hanoi",
+   "note": "JoyLogistics co-hosted a cross-border e-commerce development forum in Hanoi."
+  },
+  {
+   "title": "Insurance considerations when buying another business",
+   "url": "https://www.msn.com/en-us/news/other/insurance-considerations-when-buying-another-business/ar-AA23Gj4y",
+   "publisher": "Business.com on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Insurance considerations when buying another business",
+   "note": "General guide explaining insurance considerations when acquiring another business."
+  },
+  {
+   "title": "She should be ashamed jury misconduct stymies murder trial of alleged Cleveland gangster",
+   "url": "https://www.msn.com/en-us/news/other/she-should-be-ashamed-jury-misconduct-stymies-murder-trial-of-alleged-cleveland-gangster/ar-AA2hDTqG",
+   "publisher": "cleveland.com on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "She should be ashamed jury misconduct stymies murder trial",
+   "note": "A murder trial in Cleveland experiences complications due to alleged jury misconduct."
+  },
+  {
+   "title": "Waymo Suspends All Driverless Taxi Rides on Freeways After Ban in California",
+   "url": "https://www.usnews.com/news/us/articles/2026-11-17/california-bans-waymo-autonomous-vehicles-from-state-freeways-saying-they-pose-an-imminent-hazard",
+   "publisher": "U.S. News & World Report",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Waymo Suspends All Driverless Taxi Rides on Freeways After Ban in California",
+   "note": "Context only."
+  },
+  {
+   "title": "Rising Costs Squeeze Potato and Onion Grower-Shippers",
+   "url": "https://www.thepacker.com/news/rising-costs-squeeze-potato-and-onion-grower-shippers",
+   "publisher": "The Packer",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Rising Costs Squeeze Potato and Onion Grower-Shippers",
+   "note": "Context only."
+  },
+  {
+   "title": "New migrant caravan leaves Honduras for United States",
+   "url": "https://www.upi.com/Top_News/World-News/2026/11/17/latam-honduras-migrant-caravan/1491794937480/",
+   "publisher": "UPI",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "New migrant caravan leaves Honduras for United States",
+   "note": "A new migrant caravan leaves Honduras heading toward the United States."
+  },
+  {
+   "title": "Shoe prices can't escape inflation, tariffs, price of oil",
+   "url": "https://www.msn.com/en-us/news/other/shoe-prices-cant-escape-inflation-tariffs-price-of-oil/ar-AA2hCKXa",
+   "publisher": "Newser on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Shoe prices can't escape inflation, tariffs, price of oil",
+   "note": "Context only."
+  },
+  {
+   "title": "‘I Don’t Even Wanna Say It,’ ‘It’s Been a Disappointment’ — Rob Gronkowski Gets Brutally Honest on Patriots’ RoI on A.J. Brown Trade",
+   "url": "https://sports.yahoo.com/articles/don-t-even-wanna-disappointment-111804117.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "‘I Don’t Even Wanna Say It,’ ‘It’s Been a Disappointment’",
+   "note": "Sports commentary discussing the New England Patriots and a player trade."
+  },
+  {
+   "title": "ZTO Express Inc. Reiterates Production Guidance for the Fiscal Year 2026",
+   "url": "https://www.marketscreener.com/news/zto-express-inc-reiterates-production-guidance-for-the-fiscal-year-2026-ce785edcd18df127",
+   "publisher": "MarketScreener",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ZTO Express Inc. Reiterates Production Guidance for the Fiscal Year 2026",
+   "note": "Context only."
+  },
+  {
+   "title": "Construction Practice 001: Scandal at Aso Concrete Industry—JIS Certification Revoked, What Is the Impact on Approximately 190 Sites?",
+   "url": "https://note.com/take_architect/n/n700975f1759c?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Construction Practice 001: Scandal at Aso Concrete Industry",
+   "note": "Construction certification issue involving Aso Concrete Industry in Japan."
+  },
+  {
+   "title": "Insurance fraud AI tools surge across US claims and cargo",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/insurance-fraud-ai-tools-surge-across-us-claims-and-cargo-597671.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Insurance fraud AI tools surge across US claims and cargo",
+   "note": "Highlighting the need for Nirvana's telematics data to detect staged accidents and fraudulent cargo claims in commercial fleets."
+  },
+  {
+   "title": "2026 in Review: Three Key Developments in Wage-and-Hour Class and Collective Actions",
+   "url": "https://www.jdsupra.com/legalnews/2026-in-review-three-key-developments-3673561/",
+   "publisher": "JD Supra",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "2026 in Review: Three Key Developments in Wage-and-Hour Class and Collective Actions",
+   "note": "Context only."
+  },
+  {
+   "title": "Ethos life insurance review: Term and guaranteed acceptance policies that can be bought easily online",
+   "url": "https://www.cnbc.com/select/ethos-life-insurance-review/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ethos life insurance review: Term and guaranteed acceptance policies",
+   "note": "Review of Ethos term and guaranteed acceptance life insurance policies bought online."
+  },
+  {
+   "title": "Homeowner’s massive 60,000-light Christmas display dubbed a safety hazard by HOA",
+   "url": "https://nypost.com/2026/11/14/real-estate/homeowners-massive-60000-light-christmas-display-dubbed-a-safety-hazard-by-hoa/",
+   "publisher": "New York Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Homeowner’s massive 60,000-light Christmas display dubbed a safety hazard",
+   "note": "A homeowner's massive Christmas display is deemed a safety hazard by their HOA."
+  },
+  {
+   "title": "Snapshot Pro Rollout Might Change The Case For Investing In Progressive (PGR)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/snapshot-pro-rollout-might-change-011552268.html",
+   "publisher": "Yahoo Finance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Snapshot Pro Rollout Might Change The Case For Investing In Progressive",
+   "note": "Progressive is doubling down on commercial telematics pricing. Nirvana must emphasize its real-time coaching and last-mile workflow integration to win DSPs."
+  }
+ ],
+ "digest": "- Progressive completed its Snapshot Pro rollout, uniting commercial telematics programs to tie driving behavior directly to rates [1]. This intensifies pricing competition, requiring Nirvana to aggressively highlight its real-time coaching and last-mile workflow integrations to win delivery service partners [1].\n- The use of AI tools in fraudulent US insurance claims and cargo surged significantly [5]. This increases fraud risks for commercial fleets, validating the need for Nirvana to leverage telematics data to detect staged accidents and fraudulent claims [5].\n- ZTO Express reported strong Q3 parcel volumes and guided for 2026 parcel growth of 6% to 10% alongside cooling price wars [2, 3, 4]. This signals robust delivery fleet activity and healthier unit economics, supporting continued commercial auto insurance exposure growth for last-mile fleets [2, 3, 4].\n- FMCSA sought comments on Safety Vision's exemption application for camera monitor systems as mirror alternatives [6]. Adoption of these systems aids fleet visibility and telematics, supporting improved risk profiling for commercial vans and box trucks [6]."
+}
