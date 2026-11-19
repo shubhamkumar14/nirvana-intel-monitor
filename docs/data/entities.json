@@ -673,9 +673,8 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 13,
+  "mentions": 14,
   "event_ids": [
-   "ev_6e9cbfb03e1e",
    "ev_4e1decef5c99",
    "ev_69d76db95349",
    "ev_748e9383b930",
@@ -684,10 +683,11 @@
    "ev_66a74181a37f",
    "ev_dfd0740c1eca",
    "ev_7bc80e4f1076",
-   "ev_63cf43525fc1"
+   "ev_63cf43525fc1",
+   "ev_b50c706fe9ac"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-18T09:14:49Z"
+  "last_seen": "2026-11-19T09:32:02Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -2537,5 +2537,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-18T21:36:09Z"
+ },
+ "Boost Insurance Holdings": {
+  "name": "Boost Insurance Holdings",
+  "first_seen": "2026-11-19T09:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_859405f6cb45"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-19T09:32:02Z"
+ },
+ "Kaizen Management Solutions": {
+  "name": "Kaizen Management Solutions",
+  "first_seen": "2026-11-19T09:32:02Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3c180381a0a4"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-19T09:32:02Z"
  }
 }
