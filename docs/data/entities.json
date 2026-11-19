@@ -1939,13 +1939,14 @@
  "Zipline": {
   "name": "Zipline",
   "first_seen": "2026-11-10T20:36:40Z",
-  "mentions": 2,
+  "mentions": 3,
   "event_ids": [
    "ev_0e9572dffc79",
-   "ev_b91a302ee493"
+   "ev_b91a302ee493",
+   "ev_7abf5d0fca67"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-13T20:39:22Z"
+  "last_seen": "2026-11-19T21:48:36Z"
  },
  "Howlett Logistics": {
   "name": "Howlett Logistics",
@@ -2557,5 +2558,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-19T09:32:02Z"
+ },
+ "mea Platform": {
+  "name": "mea Platform",
+  "first_seen": "2026-11-19T21:48:36Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_03434121fea0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-19T21:48:36Z"
  }
 }
