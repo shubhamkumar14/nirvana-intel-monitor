@@ -1597,12 +1597,13 @@
  "AM Best": {
   "name": "AM Best",
   "first_seen": "2026-11-06T08:32:02Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_05bf3555de97"
+   "ev_05bf3555de97",
+   "ev_381c1b994526"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-06T08:32:02Z"
+  "last_seen": "2026-11-20T21:31:59Z"
  },
  "MetLife": {
   "name": "MetLife",
@@ -2569,5 +2570,55 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-19T21:48:36Z"
+ },
+ "Forge Insurance Company": {
+  "name": "Forge Insurance Company",
+  "first_seen": "2026-11-20T21:31:59Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e8736fd233a3"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-20T21:31:59Z"
+ },
+ "ePayPolicy": {
+  "name": "ePayPolicy",
+  "first_seen": "2026-11-20T21:31:59Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e8736fd233a3"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-20T21:31:59Z"
+ },
+ "Majesco": {
+  "name": "Majesco",
+  "first_seen": "2026-11-20T21:31:59Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_e8736fd233a3"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-20T21:31:59Z"
+ },
+ "CNA Financial": {
+  "name": "CNA Financial",
+  "first_seen": "2026-11-20T21:31:59Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_02c3b85d081b"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-20T21:31:59Z"
+ },
+ "Auto-Owners Insurance Group": {
+  "name": "Auto-Owners Insurance Group",
+  "first_seen": "2026-11-20T21:31:59Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_381c1b994526"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-20T21:31:59Z"
  }
 }
