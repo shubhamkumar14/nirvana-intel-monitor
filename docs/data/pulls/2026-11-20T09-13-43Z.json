@@ -1,0 +1,1787 @@
+{
+ "run_id": "2026-11-20T09-13-43Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/44708904734",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-20",
+ "started": "2026-11-20T09:13:43Z",
+ "duration_s": 379.5,
+ "baseline": false,
+ "previous_run": "2026-11-19T21-48-36Z",
+ "previous_started": "2026-11-19T21:48:36Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 363,
+  "unique": 334,
+  "known_skipped": 281,
+  "attached_existing": 1,
+  "prefiltered_out": 23,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 28,
+  "irrelevant": 12,
+  "quarantined": 0,
+  "new_events": 16,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.1,
+  "dedup_ratio": 0.916,
+  "relevance_rate": 0.571
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 615
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 564
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 180
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 519
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 82
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1367
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 244
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 171
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 192
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 168
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 109
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 160
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 115
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 162
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 255
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 187
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 186
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 210
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 204
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 276
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 360
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 182
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 282
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 266
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 247
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 2542
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 774
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 349
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1455
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 218
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 716
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 2256
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 6224,
+  "output_tokens": 4259,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_1e3cf03951f0",
+   "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+   "url": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.9,
+   "summary": "Amazon fights the Delivery Protection Act via homepage banners and in-app pop-ups in response to local labor proposals.",
+   "evidence_quote": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Heightened friction between municipal lawmakers and Amazon over delivery labor laws can impact DSP operating models and exposure footprints.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-19T06:16:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1e3cf03951f0"
+   ],
+   "sources": [
+    {
+     "url": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
+     "publisher": "Ars Technica",
+     "publisher_key": "ars technica",
+     "published": "2026-11-19T06:16:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon DSP delivery contractors"
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.9,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a71ba22c313f",
+   "title": "Amazon warns of $5 delivery hike if NYC bill passes. ‘See through the BS,' lawmaker urges",
+   "url": "https://www.nbcnewyork.com/new-york-city/amazon-warns-delivery-hike-nyc-bill-passes/6574665/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.8,
+   "summary": "Amazon warns of delivery fee hikes due to a proposed NYC bill requiring third-party delivery companies to be directly employed.",
+   "evidence_quote": "Amazon warns of $5 delivery hike if NYC bill passes",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Changes in employment classification models for delivery drivers impact contractor stability and risk profiles for DSPs in urban markets like NYC.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-19T20:52:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "a71ba22c313f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nbcnewyork.com/new-york-city/amazon-warns-delivery-hike-nyc-bill-passes/6574665/",
+     "publisher": "NBC New York",
+     "publisher_key": "nbc new york",
+     "published": "2026-11-19T20:52:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_d6effb0695fb",
+   "title": "New York City Council, Amazon clash over proposed labor bill",
+   "url": "https://www.cbsnews.com/newyork/news/new-york-city-council-amazon-delivery-proposed-bill/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "The New York City Council and Amazon clash over proposed local labor legislation affecting delivery operations.",
+   "evidence_quote": "New York City Council, Amazon clash over proposed labor bill",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Regulatory scrutiny on delivery contractor models increases operational complexity for Amazon DSPs.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-19T20:23:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "d6effb0695fb"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cbsnews.com/newyork/news/new-york-city-council-amazon-delivery-proposed-bill/",
+     "publisher": "CBS News",
+     "publisher_key": "cbs news",
+     "published": "2026-11-19T20:23:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9ad7afabd75b",
+   "title": "In new campaign, Amazon warns NYC customers they face price hikes up to $5 for every order if delivery bill is passed",
+   "url": "https://www.msn.com/en-us/money/economy/in-new-campaign-amazon-warns-nyc-customers-they-face-price-hikes-up-to-5-for-every-order-if-delivery-bill-is-passed/ar-AA2hLrbH",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Amazon warns New York City customers of potential $5 price hikes if a bill targeting last-mile delivery employment practices passes.",
+   "evidence_quote": "Amazon warns NYC customers they face price hikes up to $5 for every order",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Local regulatory pressures on last-mile operations could squeeze DSP margins. Monitor how municipal labor bills impact fleet financial health and risk profiles.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-19T03:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "9ad7afabd75b"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/economy/in-new-campaign-amazon-warns-nyc-customers-they-face-price-hikes-up-to-5-for-every-order-if-delivery-bill-is-passed/ar-AA2hLrbH",
+     "publisher": "New York Post on MSN",
+     "publisher_key": "new york post on msn",
+     "published": "2026-11-19T03:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 62.7,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e722570a59bc",
+   "title": "Missouri targets not-at-fault surcharges in auto rate overhaul",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/missouri-targets-notatfault-surcharges-in-auto-rate-overhaul-598119.aspx",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.1,
+   "summary": "Missouri publishes proposed auto rules banning insurers from raising premiums based on not-at-fault accidents.",
+   "evidence_quote": "Missouri targets not-at-fault surcharges in auto rate overhaul",
+   "companies": [],
+   "implication": "Broad state-level restrictions on rating factors can constrain underwriting flexibility if extended to commercial auto lines.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-19T19:48:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "e722570a59bc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/missouri-targets-notatfault-surcharges-in-auto-rate-overhaul-598119.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-19T19:48:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 2,
+   "score": 60.4,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.95,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_6726dc4df200",
+   "title": "NYC Teamsters Rally for E-Bike Drivers Terminated by Amazon",
+   "url": "https://www.laborpress.org/nyc-teamsters-rally-for-e-bike-drivers-terminated-by-amazon/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "Teamsters and allies rallied in Manhattan to support recently terminated Amazon electric bike delivery drivers.",
+   "evidence_quote": "NYC Teamsters Rally for E-Bike Drivers Terminated by Amazon",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Labor friction and unionization efforts around Amazon delivery contractors increase operational volatility and potential liability risks for fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-17T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "6726dc4df200"
+   ],
+   "sources": [
+    {
+     "url": "https://www.laborpress.org/nyc-teamsters-rally-for-e-bike-drivers-terminated-by-amazon/",
+     "publisher": "LaborPress",
+     "publisher_key": "laborpress",
+     "published": "2026-11-17T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon DSP delivery contractors"
+    }
+   ],
+   "best_tier": 3,
+   "score": 60.0,
+   "age_days": 2.7,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.76,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9574df2aafde",
+   "title": "Progressive's October Earnings Decline Y/Y on Escalating Expenses",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/progressives-october-earnings-decline-y-143500707.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.2,
+   "summary": "Progressive reports declining October earnings due to escalating expenses despite vehicle policy growth.",
+   "evidence_quote": "Progressive's October Earnings Decline Y/Y on Escalating Expenses",
+   "companies": [
+    "Progressive"
+   ],
+   "implication": "Rising expenses across major commercial auto writers validate the ongoing claims and operating cost pressures in vehicle insurance markets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-19T06:35:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "9574df2aafde"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/progressives-october-earnings-decline-y-143500707.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-19T06:35:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 56.9,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_773211fa0007",
+   "title": "Hours of Service (HOS) of Drivers; American Pyrotechnics Association (APA); Request To Include an Additional Member Company to Current APA HOS Exemptions",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23715/hours-of-service-hos-of-drivers-american-pyrotechnics-association-apa-request-to-include-an",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "FMCSA grants an hours-of-service exemption to a member company of the American Pyrotechnics Association.",
+   "evidence_quote": "Hours of Service (HOS) of Drivers; American Pyrotechnics Association",
+   "companies": [
+    "American Pyrotechnics Association",
+    "North Star Fireworks LLC"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "773211fa0007"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23715/hours-of-service-hos-of-drivers-american-pyrotechnics-association-apa-request-to-include-an",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-20T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "motor carrier insurance"
+    }
+   ],
+   "best_tier": 1,
+   "score": 56.4,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 0.96,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_e70d242c8bd4",
+   "title": "The legal standard that could help rein in AI",
+   "url": "https://www.fastcompany.com/91644224/strict-liability-legal-standard-ai",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.0,
+   "summary": "Discussion of strict liability legal standards applied to AI software.",
+   "evidence_quote": "The legal standard that could help rein in AI",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T01:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "e70d242c8bd4"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fastcompany.com/91644224/strict-liability-legal-standard-ai",
+     "publisher": "Fast Company",
+     "publisher_key": "fast company",
+     "published": "2026-11-20T01:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.0,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3c16df7fc51d",
+   "title": "Agency Information Collection Activities; Renewal of an Approved Information Collection: Generic Clearance of Customer Satisfaction Surveys",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23716/agency-information-collection-activities-renewal-of-an-approved-information-collection-generic",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "FMCSA plans to submit a customer satisfaction survey information collection request to OMB.",
+   "evidence_quote": "Agency Information Collection Activities; Renewal of an Approved Information Collection",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "3c16df7fc51d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23716/agency-information-collection-activities-renewal-of-an-approved-information-collection-generic",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-20T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "FMCSA delivery"
+    }
+   ],
+   "best_tier": 1,
+   "score": 47.4,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 0.96,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_1ff0c27f6d5d",
+   "title": "Waymos Banned on the Freeway in California After Multiple Incidents",
+   "url": "https://gizmodo.com/waymos-banned-on-the-freeway-in-california-after-multiple-incidents-2000841324",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "California bans Waymo robotaxis from freeways after multiple safety incidents, prompting similar suspensions.",
+   "evidence_quote": "Waymos Banned on the Freeway in California After Multiple Incidents",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T13:54:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "1ff0c27f6d5d"
+   ],
+   "sources": [
+    {
+     "url": "https://gizmodo.com/waymos-banned-on-the-freeway-in-california-after-multiple-incidents-2000841324",
+     "publisher": "Gizmodo",
+     "publisher_key": "gizmodo",
+     "published": "2026-11-17T13:54:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.9,
+   "age_days": 2.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.76,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_311487bac18e",
+   "title": "Waymo Pulls Its Driverless Taxis From All U.S. Freeways Temporarily",
+   "url": "https://www.nytimes.com/2026/11/17/us/waymo-ban-california-freeway.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Waymo temporarily pulls driverless taxis from all U.S. freeways following California DMV orders citing safety hazards.",
+   "evidence_quote": "Waymo Pulls Its Driverless Taxis From All U.S. Freeways Temporarily",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T13:43:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "311487bac18e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nytimes.com/2026/11/17/us/waymo-ban-california-freeway.html",
+     "publisher": "The New York Times",
+     "publisher_key": "the new york times",
+     "published": "2026-11-17T13:43:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.9,
+   "age_days": 2.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.76,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_957b9cb251be",
+   "title": "DHL Is Raising Rates for Packages from Germany to Ukraine Starting in 2027",
+   "url": "https://visitukraine.today/blog/9986/dhl-is-raising-rates-for-packages-from-germany-to-ukraine-starting-in-2027",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "DHL is raising international shipping rates from Germany to Ukraine starting in 2027.",
+   "evidence_quote": "DHL Is Raising Rates for Packages from Germany to Ukraine Starting in 2027",
+   "companies": [
+    "DHL"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-19T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "957b9cb251be"
+   ],
+   "sources": [
+    {
+     "url": "https://visitukraine.today/blog/9986/dhl-is-raising-rates-for-packages-from-germany-to-ukraine-starting-in-2027",
+     "publisher": "Visit Ukraine",
+     "publisher_key": "visit ukraine",
+     "published": "2026-11-19T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 41.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_61f40fefdb26",
+   "title": "Why Efficient Fleet Management Matters for Your Business?",
+   "url": "https://www.trickyenough.com/why-efficient-fleet-management-matters-for-your-business/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.3,
+   "summary": "Generic overview of why efficient fleet management reduces operating costs and improves productivity.",
+   "evidence_quote": "Why Efficient Fleet Management Matters for Your Business?",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-18T11:38:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "61f40fefdb26"
+   ],
+   "sources": [
+    {
+     "url": "https://www.trickyenough.com/why-efficient-fleet-management-matters-for-your-business/",
+     "publisher": "Tricky Enough",
+     "publisher_key": "tricky enough",
+     "published": "2026-11-18T11:38:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.9,
+   "age_days": 1.9,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.83,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9b6b2d2ace0b",
+   "title": "Federal CRUSH Rules Targeting Fraud Across Health Insurance Programs",
+   "url": "https://news.ambest.com/NewsContent.aspx?refnum=279058",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Federal rules targeting health insurance fraud programs.",
+   "evidence_quote": "Federal CRUSH Rules Targeting Fraud Across Health Insurance Programs",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-19T06:49:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "9b6b2d2ace0b"
+   ],
+   "sources": [
+    {
+     "url": "https://news.ambest.com/NewsContent.aspx?refnum=279058",
+     "publisher": "news.ambest",
+     "publisher_key": "news.ambest",
+     "published": "2026-11-19T06:49:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.0,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_49b63cf7e443",
+   "title": "UPS agrees to buy Smartways Logistics to grow healthcare delivery in Australia and New Zealand",
+   "url": "https://propnewstime.com/latestnewsstories/NDA1Nzk=/ups-agrees-to-buy-smartways-logistics-to-grow-healthcare-delivery-in-australia-and-new-zealand",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "UPS agrees to acquire Smartways Logistics to expand healthcare delivery in Australia and New Zealand.",
+   "evidence_quote": "UPS agrees to buy Smartways Logistics to grow healthcare delivery",
+   "companies": [
+    "UPS",
+    "Smartways Logistics"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T09:13:43Z",
+   "first_run": "2026-11-20T09-13-43Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "49b63cf7e443"
+   ],
+   "sources": [
+    {
+     "url": "https://propnewstime.com/latestnewsstories/NDA1Nzk=/ups-agrees-to-buy-smartways-logistics-to-grow-healthcare-delivery-in-australia-and-new-zealand",
+     "publisher": "Prop News Time",
+     "publisher_key": "prop news time",
+     "published": "2026-11-17T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 37.0,
+   "age_days": 2.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.76,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_7bc80e4f1076",
+   "title": "Progressive Stock: Is Wall Street Bullish or Bearish?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/progressive-stock-wall-street-bullish-131024371.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Progressive has underperformed the broader market despite improving underwriting performance, with moderately bullish analyst sentiment.",
+   "evidence_quote": "Progressive Stock: Is Wall Street Bullish or Bearish?",
+   "companies": [
+    "Progressive"
+   ],
+   "implication": "Context only. Monitor Progressive's commercial auto appetite and pricing as a market benchmark.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-16T05:10:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T23:01:58Z",
+   "first_run": "2026-11-16T23-01-58Z",
+   "last_seen": "2026-11-20T09:13:43Z",
+   "last_updated_run": "2026-11-20T09-13-43Z",
+   "update_note": "New corroborating source: Barchart on MSN",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "7bc80e4f1076"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/progressive-stock-wall-street-bullish-131024371.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-16T05:10:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    },
+    {
+     "url": "https://www.msn.com/en-us/money/top-stocks/progressive-stock-is-wall-street-bullish-or-bearish/ar-AA2hy01F",
+     "publisher": "Barchart on MSN",
+     "publisher_key": "barchart on msn",
+     "published": "2026-11-16T05:10:24Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.4,
+   "age_days": 4.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.66,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Yashasvi Jaiswal achieves major WTC milestone, goes past Virat Kohli on elite list",
+   "url": "https://www.moneycontrol.com/sports/cricket/yashasvi-jaiswal-achieves-major-wtc-milestone-goes-past-virat-kohli-on-elite-list-article-14085662.html",
+   "publisher": "Moneycontrol",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Yashasvi Jaiswal achieves major WTC milestone, goes past Virat Kohli on elite list",
+   "note": "Cricket news regarding Yashasvi Jaiswal surpassing Virat Kohli."
+  },
+  {
+   "title": "The legal standard that could help rein in AI",
+   "url": "https://www.fastcompany.com/91644224/strict-liability-legal-standard-ai",
+   "publisher": "Fast Company",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The legal standard that could help rein in AI",
+   "note": "Context only"
+  },
+  {
+   "title": "Services, software lines are blurring as clients demand outcomes, says HCLSoftware president",
+   "url": "https://www.moneycontrol.com/news/business/information-technology/services-software-lines-are-blurring-as-clients-demand-outcomes-says-hclsoftware-president-14085647.html",
+   "publisher": "Moneycontrol",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Services, software lines are blurring as clients demand outcomes",
+   "note": "HCLSoftware reports ARR growth and business model shifts."
+  },
+  {
+   "title": "EU Chips Act Unlocks €33B in Semiconductor Investments: What’s Being Built?",
+   "url": "https://www.techrepublic.com/article/news-eu-chips-act-33-billion-semiconductor-investments-emea/",
+   "publisher": "TechRepublic",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "EU Chips Act Unlocks €33B in Semiconductor Investments",
+   "note": "The EU Chips Act unlocks substantial semiconductor investments."
+  },
+  {
+   "title": "Familiar Dangers Drive a Rise in Fire Deaths in New York City Buildings",
+   "url": "https://www.nytimes.com/2026/11/20/nyregion/nyc-fire-deaths-city-council-hearing.html",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Familiar Dangers Drive a Rise in Fire Deaths in New York City Buildings",
+   "note": "Report on rising fire deaths in older New York City buildings."
+  },
+  {
+   "title": "Hours of Service (HOS) of Drivers; American Pyrotechnics Association (APA); Request To Include an Additional Member Company to Current APA HOS Exemptions",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23715/hours-of-service-hos-of-drivers-american-pyrotechnics-association-apa-request-to-include-an",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Hours of Service (HOS) of Drivers; American Pyrotechnics Association",
+   "note": "Context only"
+  },
+  {
+   "title": "Agency Information Collection Activities; Renewal of an Approved Information Collection: Generic Clearance of Customer Satisfaction Surveys",
+   "url": "https://www.federalregister.gov/documents/2026/11/20/2026-23716/agency-information-collection-activities-renewal-of-an-approved-information-collection-generic",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Agency Information Collection Activities; Renewal of an Approved Information Collection",
+   "note": "Context only"
+  },
+  {
+   "title": "Allianz: A 20% Return on Equity Priced as Permanent",
+   "url": "https://www.ainvest.com/news/allianz-20-return-equity-priced-permanent-2611/",
+   "publisher": "ainvest",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Allianz: A 20% Return on Equity Priced as Permanent",
+   "note": "Allianz reports strong nine-month operating profit and raises guidance."
+  },
+  {
+   "title": "Amazon warns of $5 delivery hike if NYC bill passes. ‘See through the BS,' lawmaker urges",
+   "url": "https://www.nbcnewyork.com/new-york-city/amazon-warns-delivery-hike-nyc-bill-passes/6574665/",
+   "publisher": "NBC New York",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon warns of $5 delivery hike if NYC bill passes",
+   "note": "Changes in employment classification models for delivery drivers impact contractor stability and risk profiles for DSPs in urban markets like NYC."
+  },
+  {
+   "title": "New York City Council, Amazon clash over proposed labor bill",
+   "url": "https://www.cbsnews.com/newyork/news/new-york-city-council-amazon-delivery-proposed-bill/",
+   "publisher": "CBS News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "New York City Council, Amazon clash over proposed labor bill",
+   "note": "Regulatory scrutiny on delivery contractor models increases operational complexity for Amazon DSPs."
+  },
+  {
+   "title": "Missouri targets not-at-fault surcharges in auto rate overhaul",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/missouri-targets-notatfault-surcharges-in-auto-rate-overhaul-598119.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Missouri targets not-at-fault surcharges in auto rate overhaul",
+   "note": "Broad state-level restrictions on rating factors can constrain underwriting flexibility if extended to commercial auto lines."
+  },
+  {
+   "title": "Winn-Dixie Changes Course and Closes All of Its Stores in Georgia",
+   "url": "https://www.newsweek.com/winn-dixie-closes-all-its-stores-in-state-as-retail-apocalypse-continues-12743718",
+   "publisher": "Newsweek",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Winn-Dixie Changes Course and Closes All of Its Stores in Georgia",
+   "note": "Winn-Dixie is closing remaining stores in Georgia to reopen under Food Lion."
+  },
+  {
+   "title": "University of Michigan wide receiver Andrew Marsh charged with indecent exposure",
+   "url": "https://sports.yahoo.com/articles/university-michigan-wide-receiver-andrew-025624073.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "University of Michigan wide receiver Andrew Marsh charged with indecent exposure",
+   "note": "A college football player was charged with an offense involving a delivery driver."
+  },
+  {
+   "title": "Top 10 General Purpose Silicone Sealant Brands: Ranked Comparison",
+   "url": "https://www.detroitnews.com/press-release/story/203369/top-10-general-purpose-silicone-sealant-brands-ranked-comparison/",
+   "publisher": "The Detroit News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Top 10 General Purpose Silicone Sealant Brands: Ranked Comparison",
+   "note": "Ranking of general purpose silicone sealant brands."
+  },
+  {
+   "title": "DHL Is Raising Rates for Packages from Germany to Ukraine Starting in 2027",
+   "url": "https://visitukraine.today/blog/9986/dhl-is-raising-rates-for-packages-from-germany-to-ukraine-starting-in-2027",
+   "publisher": "Visit Ukraine",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DHL Is Raising Rates for Packages from Germany to Ukraine Starting in 2027",
+   "note": "Context only"
+  },
+  {
+   "title": "Jeeno Thitikul birdies the last 5 holes to share the lead in LPGA Tour season finale",
+   "url": "https://www.wavy.com/sports/ap-jeeno-thitikul-birdies-the-last-5-holes-to-share-the-lead-in-lpga-tour-season-finale/",
+   "publisher": "WAVY.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Jeeno Thitikul birdies the last 5 holes to share the lead in LPGA Tour season finale",
+   "note": "LPGA Tour season finale updates on Jeeno Thitikul and Karis Davidson."
+  },
+  {
+   "title": "Saiqa Mullick is bridging the gap between HIV research and real-world impact",
+   "url": "https://www.msn.com/en-za/health/general/saiqa-mullick-is-bridging-the-gap-between-hiv-research-and-real-world-impact/ar-AA2hQ9N5",
+   "publisher": "Daily Maverick on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Saiqa Mullick is bridging the gap between HIV research and real-world impact",
+   "note": "Article profiles HIV prevention research and deployment challenges."
+  },
+  {
+   "title": "Federal CRUSH Rules Targeting Fraud Across Health Insurance Programs",
+   "url": "https://news.ambest.com/NewsContent.aspx?refnum=279058",
+   "publisher": "news.ambest",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Federal CRUSH Rules Targeting Fraud Across Health Insurance Programs",
+   "note": "Context only"
+  },
+  {
+   "title": "Progressive's October Earnings Decline Y/Y on Escalating Expenses",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/progressives-october-earnings-decline-y-143500707.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Progressive's October Earnings Decline Y/Y on Escalating Expenses",
+   "note": "Rising expenses across major commercial auto writers validate the ongoing claims and operating cost pressures in vehicle insurance markets."
+  },
+  {
+   "title": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+   "url": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/",
+   "publisher": "Ars Technica",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+   "note": "Heightened friction between municipal lawmakers and Amazon over delivery labor laws can impact DSP operating models and exposure footprints."
+  },
+  {
+   "title": "In new campaign, Amazon warns NYC customers they face price hikes up to $5 for every order if delivery bill is passed",
+   "url": "https://www.msn.com/en-us/money/economy/in-new-campaign-amazon-warns-nyc-customers-they-face-price-hikes-up-to-5-for-every-order-if-delivery-bill-is-passed/ar-AA2hLrbH",
+   "publisher": "New York Post on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon warns NYC customers they face price hikes up to $5 for every order",
+   "note": "Local regulatory pressures on last-mile operations could squeeze DSP margins. Monitor how municipal labor bills impact fleet financial health and risk profiles."
+  },
+  {
+   "title": "Car Shipping Cost Calculator: How To Figure Out How Much Your Car Will Cost To Ship",
+   "url": "https://www.forbes.com/advisor/homeowners-insurance/moving-services/car-shipping-cost-calculator/",
+   "publisher": "Forbes",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Car Shipping Cost Calculator: How To Figure Out How Much Your Car Will Cost To Ship",
+   "note": "Guide on calculating car shipping costs for everyday customers using open transporters."
+  },
+  {
+   "title": "Why Efficient Fleet Management Matters for Your Business?",
+   "url": "https://www.trickyenough.com/why-efficient-fleet-management-matters-for-your-business/",
+   "publisher": "Tricky Enough",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Why Efficient Fleet Management Matters for Your Business?",
+   "note": "Context only."
+  },
+  {
+   "title": "NYC Teamsters Rally for E-Bike Drivers Terminated by Amazon",
+   "url": "https://www.laborpress.org/nyc-teamsters-rally-for-e-bike-drivers-terminated-by-amazon/",
+   "publisher": "LaborPress",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NYC Teamsters Rally for E-Bike Drivers Terminated by Amazon",
+   "note": "Labor friction and unionization efforts around Amazon delivery contractors increase operational volatility and potential liability risks for fleets."
+  },
+  {
+   "title": "UPS agrees to buy Smartways Logistics to grow healthcare delivery in Australia and New Zealand",
+   "url": "https://propnewstime.com/latestnewsstories/NDA1Nzk=/ups-agrees-to-buy-smartways-logistics-to-grow-healthcare-delivery-in-australia-and-new-zealand",
+   "publisher": "Prop News Time",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UPS agrees to buy Smartways Logistics to grow healthcare delivery",
+   "note": "Context only."
+  },
+  {
+   "title": "Waymos Banned on the Freeway in California After Multiple Incidents",
+   "url": "https://gizmodo.com/waymos-banned-on-the-freeway-in-california-after-multiple-incidents-2000841324",
+   "publisher": "Gizmodo",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Waymos Banned on the Freeway in California After Multiple Incidents",
+   "note": "Context only."
+  },
+  {
+   "title": "Waymo Pulls Its Driverless Taxis From All U.S. Freeways Temporarily",
+   "url": "https://www.nytimes.com/2026/11/17/us/waymo-ban-california-freeway.html",
+   "publisher": "The New York Times",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Waymo Pulls Its Driverless Taxis From All U.S. Freeways Temporarily",
+   "note": "Context only."
+  },
+  {
+   "title": "Peacock Officially Replaces 'Suits' With a Legal Drama That Can't Be Beat",
+   "url": "https://collider.com/the-rainmaker-suits-replacement-legal-drama/",
+   "publisher": "Collider",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Peacock Officially Replaces 'Suits' With a Legal Drama That Can't Be Beat",
+   "note": "Entertainment news regarding streaming content on Peacock."
+  }
+ ],
+ "digest": "- Amazon is publicly fighting proposed NYC labor bills and the Delivery Protection Act via homepage banners and customer warnings, which increases operational complexity and squeeze margins for last-mile DSPs [1, 2, 3, 4].\n- NYC Teamsters rallied to support terminated Amazon e-bike drivers, signaling rising labor friction and unionization efforts that elevate operational volatility and potential liability risks for last-mile fleets [6].\n- Missouri proposed auto rules banning premium hikes for not-at-fault accidents, which could constrain underwriting flexibility and rating factors if similar restrictions spread to commercial auto lines [5].\n- Progressive reported declining October earnings due to escalating expenses, validating ongoing claims and operating cost pressures across the commercial auto insurance market [7]."
+}
