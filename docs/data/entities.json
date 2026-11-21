@@ -2620,5 +2620,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-20T21:31:59Z"
+ },
+ "Highway": {
+  "name": "Highway",
+  "first_seen": "2026-11-21T08:51:03Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_638df0343f06"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-21T08:51:03Z"
  }
 }
