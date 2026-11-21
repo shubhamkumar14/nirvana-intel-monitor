@@ -1,0 +1,1301 @@
+{
+ "run_id": "2026-11-21T20-15-06Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/44945263428",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-21",
+ "started": "2026-11-21T20:15:06Z",
+ "duration_s": 492.4,
+ "baseline": false,
+ "previous_run": "2026-11-21T08-51-03Z",
+ "previous_started": "2026-11-21T08:51:03Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest",
+ "counts": {
+  "raw": 384,
+  "unique": 358,
+  "known_skipped": 321,
+  "attached_existing": 0,
+  "prefiltered_out": 6,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 30,
+  "irrelevant": 22,
+  "quarantined": 0,
+  "new_events": 8,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.4,
+  "dedup_ratio": 0.916,
+  "relevance_rate": 0.267
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 425
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 416
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 120
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 145
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 116
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 205
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 153
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 148
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 320
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 193
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 189
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 198
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 140
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 241
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 189
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 152
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 238
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 157
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 170
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 114
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 238
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 182
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 189
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 160
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 220
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 109
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1248
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 585
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 451
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 142
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 401
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 893
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5804,
+  "output_tokens": 4519,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 3
+  }
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_71d0d45a7244",
+   "title": "Amazon Warns New Yorkers of Higher Delivery Costs if Driver Payroll Bill Passes",
+   "url": "https://www.technobezz.com/news/amazon-warns-new-yorkers-higher-delivery-costs",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 5,
+   "last_mile_fit": 1.0,
+   "summary": "A proposed NYC bill would require Amazon delivery station drivers to become direct employees rather than independent contractors or DSP staff.",
+   "evidence_quote": "The bill would require drivers serving its local delivery stations to become direct",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Direct employment mandates could upend the Amazon DSP model in NYC, altering who buys commercial auto coverage and policy structure.",
+   "action": "respond",
+   "watchlist_companies": [],
+   "published": "2026-11-21T10:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T20:15:06Z",
+   "first_run": "2026-11-21T20-15-06Z",
+   "last_seen": "2026-11-21T20:15:06Z",
+   "last_updated_run": "2026-11-21T20-15-06Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "71d0d45a7244"
+   ],
+   "sources": [
+    {
+     "url": "https://www.technobezz.com/news/amazon-warns-new-yorkers-higher-delivery-costs",
+     "publisher": "Technobezz",
+     "publisher_key": "technobezz",
+     "published": "2026-11-21T10:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon \"delivery service partner\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 81.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 5,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 1.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_104d93c05d63",
+   "title": "Amazon tells NYC shoppers a Mamdani-backed delivery bill could cost them up to $664 a year per household",
+   "url": "https://finance.yahoo.com/economy/policy/articles/amazon-tells-nyc-shoppers-mamdani-193000343.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.9,
+   "summary": "The proposed Delivery Protection Act in NYC aims to expand protections for Amazon delivery workers, which Amazon claims will raise customer costs.",
+   "evidence_quote": "Supporters of the Delivery Protection Act bill say that it would give Amazon delivery workers the same protections that other workers receive.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Reclassifying or mandating broader protections for delivery drivers could alter DSP liability structures and workers' comp or auto liability exposure.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-21T11:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T20:15:06Z",
+   "first_run": "2026-11-21T20-15-06Z",
+   "last_seen": "2026-11-21T20:15:06Z",
+   "last_updated_run": "2026-11-21T20-15-06Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "104d93c05d63"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/amazon-tells-nyc-shoppers-mamdani-193000343.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-21T11:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 73.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4dcf75018828",
+   "title": "Amazon warns NYC shoppers a Mamdani-backed bill could add up to $5 per order — and $664/year per household",
+   "url": "https://www.aol.com/articles/amazon-warns-nyc-shoppers-mamdani-193000000.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.9,
+   "summary": "Amazon warns NYC customers that the Delivery Protection Act legislation could add $5 per order or $664 annually.",
+   "evidence_quote": "Supporters of the Delivery Protection Act bill say that it would give Amazon delivery workers the same protections that other workers receive.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Watch NYC labor rules closely; changes to delivery driver classification or benefits directly impact DSP operational costs and insurance profiles.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-21T11:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T20:15:06Z",
+   "first_run": "2026-11-21T20-15-06Z",
+   "last_seen": "2026-11-21T20:15:06Z",
+   "last_updated_run": "2026-11-21T20-15-06Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "4dcf75018828"
+   ],
+   "sources": [
+    {
+     "url": "https://www.aol.com/articles/amazon-warns-nyc-shoppers-mamdani-193000000.html",
+     "publisher": "AOL",
+     "publisher_key": "aol",
+     "published": "2026-11-21T11:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 73.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_86776f50a649",
+   "title": "Amazon goes nuclear with pop-ups in shameless campaign to stop planned $5 delivery tax",
+   "url": "https://www.msn.com/en-au/news/other/amazon-goes-nuclear-with-pop-ups-in-shameless-campaign-to-stop-planned-5-delivery-tax/ar-AA2hV2Qh",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Amazon opposes a proposed NYC $5 delivery fee backed by local officials, threatening to pass the fee onto consumers.",
+   "evidence_quote": "Amazon is urging New York City residents to call their local officials as it threatens to impose a $5 delivery fee",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Delivery fees could suppress urban e-commerce order volumes in NYC, indirectly affecting delivery fleet miles and insurance demand.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-21T11:49:13Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T20:15:06Z",
+   "first_run": "2026-11-21T20-15-06Z",
+   "last_seen": "2026-11-21T20:15:06Z",
+   "last_updated_run": "2026-11-21T20-15-06Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "86776f50a649"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-au/news/other/amazon-goes-nuclear-with-pop-ups-in-shameless-campaign-to-stop-planned-5-delivery-tax/ar-AA2hV2Qh",
+     "publisher": "Daily Mail on MSN",
+     "publisher_key": "daily mail on msn",
+     "published": "2026-11-21T11:49:13Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 64.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_ce8d562038e4",
+   "title": "Amazon urges NYC residents to call their officials as $3T company threatens to impose $5 delivery fees in the Big Apple as fight with Mamdani escalates",
+   "url": "https://www.dailymail.com/news/article-16311545/amazon-nyc-delivery-protection-act-fees-officials.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Amazon campaigns against a proposed $5 delivery fee in New York City amid ongoing political disputes.",
+   "evidence_quote": "Amazon is urging New York City residents to call their local officials as it threatens to impose a $5 delivery fee",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Urban delivery surcharges could dampen parcel volumes and DSP fleet utilization in metro New York.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-21T10:40:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T20:15:06Z",
+   "first_run": "2026-11-21T20-15-06Z",
+   "last_seen": "2026-11-21T20:15:06Z",
+   "last_updated_run": "2026-11-21T20-15-06Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "ce8d562038e4"
+   ],
+   "sources": [
+    {
+     "url": "https://www.dailymail.com/news/article-16311545/amazon-nyc-delivery-protection-act-fees-officials.html",
+     "publisher": "Daily Mail",
+     "publisher_key": "daily mail",
+     "published": "2026-11-21T10:40:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5baef0de284f",
+   "title": "Is Amazon Flex unprofitable? Is Delivery Provider recommended for stable earnings?",
+   "url": "https://note.com/bandai_trans/n/n0ae356f069e1?hl=en",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "An article discusses whether driving for Amazon Flex is profitable for light cargo drivers seeking steady income.",
+   "evidence_quote": "\"Is it true that Amazon Flex is not profitable?\"",
+   "companies": [
+    "Amazon",
+    "Amazon Flex"
+   ],
+   "implication": "Gig courier economic viability challenges reinforce the appeal of underwriting structured Amazon DSP fleets over independent gig drivers. Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-19T23:09:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T20:15:06Z",
+   "first_run": "2026-11-21T20-15-06Z",
+   "last_seen": "2026-11-21T20:15:06Z",
+   "last_updated_run": "2026-11-21T20-15-06Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "5baef0de284f"
+   ],
+   "sources": [
+    {
+     "url": "https://note.com/bandai_trans/n/n0ae356f069e1?hl=en",
+     "publisher": "note",
+     "publisher_key": "note",
+     "published": "2026-11-19T23:09:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon \"delivery service partner\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 52.0,
+   "age_days": 1.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.83,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_291a39bf29b0",
+   "title": "Brinks beats “secret insurance” claim in jewelry transport fight",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/brinks-beats-secret-insurance-claim-in-jewelry-transport-fight-598267.aspx",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Brinks successfully defended against a claim concerning insurance terms in its valuables transport shipping contracts.",
+   "evidence_quote": "The dispute involved Brinks’ “Door to Door” service for shipping valuables.",
+   "companies": [
+    "Brinks"
+   ],
+   "implication": "Specialized transit liability disputes illustrate cargo coverage complexities, though armored transport is tangential to core parcel delivery fleets. Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T01:52:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T20:15:06Z",
+   "first_run": "2026-11-21T20-15-06Z",
+   "last_seen": "2026-11-21T20:15:06Z",
+   "last_updated_run": "2026-11-21T20-15-06Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "291a39bf29b0"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/brinks-beats-secret-insurance-claim-in-jewelry-transport-fight-598267.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-20T01:52:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 49.8,
+   "age_days": 1.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.84,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_7105a659441c",
+   "title": "Skyward Specialty Earnings Call Shows Broad-Based Growth",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/SKWD/pressreleases/8746165/skyward-specialty-earnings-call-shows-broad-based-growth/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Skyward Specialty reported broad-based growth across specialty lines during its quarterly earnings call.",
+   "evidence_quote": "Skyward Specialty Earnings Call Shows Broad-Based Growth",
+   "companies": [
+    "Skyward Specialty Insurance Group Inc"
+   ],
+   "implication": "Context only. Skyward is a specialty commercial carrier to track generally, but no specific last-mile commercial auto details are provided.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-21T11:09:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T20:15:06Z",
+   "first_run": "2026-11-21T20-15-06Z",
+   "last_seen": "2026-11-21T20:15:06Z",
+   "last_updated_run": "2026-11-21T20-15-06Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "7105a659441c"
+   ],
+   "sources": [
+    {
+     "url": "https://www.theglobeandmail.com/investing/markets/stocks/SKWD/pressreleases/8746165/skyward-specialty-earnings-call-shows-broad-based-growth/",
+     "publisher": "The Globe and Mail",
+     "publisher_key": "the globe and mail",
+     "published": "2026-11-21T11:09:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Antonio Brown tells Steelers how to fix their wide receiver problem",
+   "url": "https://www.msn.com/en-us/news/other/antonio-brown-tells-steelers-how-to-fix-their-wide-receiver-problem/ar-AA2hVEOI",
+   "publisher": "Athlon Sports on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Antonio Brown wants the Steelers to find the next franchise receiver.",
+   "note": "Former NFL player Antonio Brown shares opinions on the Pittsburgh Steelers' wide receiver needs and upcoming draft."
+  },
+  {
+   "title": "Amazon goes nuclear with pop-ups in shameless campaign to stop planned $5 delivery tax",
+   "url": "https://www.msn.com/en-au/news/other/amazon-goes-nuclear-with-pop-ups-in-shameless-campaign-to-stop-planned-5-delivery-tax/ar-AA2hV2Qh",
+   "publisher": "Daily Mail on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon is urging New York City residents to call their local officials as it threatens to impose a $5 delivery fee",
+   "note": "Delivery fees could suppress urban e-commerce order volumes in NYC, indirectly affecting delivery fleet miles and insurance demand."
+  },
+  {
+   "title": "Amazon tells NYC shoppers a Mamdani-backed delivery bill could cost them up to $664 a year per household",
+   "url": "https://finance.yahoo.com/economy/policy/articles/amazon-tells-nyc-shoppers-mamdani-193000343.html",
+   "publisher": "Yahoo Finance",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Supporters of the Delivery Protection Act bill say that it would give Amazon delivery workers the same protections that other workers receive.",
+   "note": "Reclassifying or mandating broader protections for delivery drivers could alter DSP liability structures and workers' comp or auto liability exposure."
+  },
+  {
+   "title": "Amazon warns NYC shoppers a Mamdani-backed bill could add up to $5 per order — and $664/year per household",
+   "url": "https://www.aol.com/articles/amazon-warns-nyc-shoppers-mamdani-193000000.html",
+   "publisher": "AOL",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Supporters of the Delivery Protection Act bill say that it would give Amazon delivery workers the same protections that other workers receive.",
+   "note": "Watch NYC labor rules closely; changes to delivery driver classification or benefits directly impact DSP operational costs and insurance profiles."
+  },
+  {
+   "title": "Airbnb vs. DoorDash: Which Stock Is a Better Buy?",
+   "url": "https://www.fool.com/coverage/better-buy/2026/11/21/airbnb-vs-doordash-which-stock-is-a-better-buy/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Airbnb appears more attractive based on future earnings estimates, while DoorDash carries a lower valuation",
+   "note": "The Motley Fool compares stock valuations and financial outlooks of Airbnb versus DoorDash."
+  },
+  {
+   "title": "Cathie Wood and 10 Other Big Funds Sold Alibaba Last Quarter, While 14 Bought. Who’s Right?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-10-other-big-192027207.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "14 bought Alibaba and 11 sold it, with Cathie Wood’s ARK Invest among the sellers.",
+   "note": "Institutional funds traded shares of Alibaba during the third quarter, with ARK Invest divesting its position."
+  },
+  {
+   "title": "Skyward Specialty Earnings Call Shows Broad-Based Growth",
+   "url": "https://www.theglobeandmail.com/investing/markets/stocks/SKWD/pressreleases/8746165/skyward-specialty-earnings-call-shows-broad-based-growth/",
+   "publisher": "The Globe and Mail",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Skyward Specialty Earnings Call Shows Broad-Based Growth",
+   "note": "Context only. Skyward is a specialty commercial carrier to track generally, but no specific last-mile commercial auto details are provided."
+  },
+  {
+   "title": "California’s AG is ready to go it alone on antitrust and AI",
+   "url": "https://www.yahoo.com/news/politics/articles/california-ag-ready-alone-antitrust-190000821.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "California is doing its own due diligence to examine mergers, corporate securities and AI regulation.",
+   "note": "California Attorney General Rob Bonta discusses state scrutiny of corporate mergers, securities, and AI regulations."
+  },
+  {
+   "title": "Michigan Makes Official Andrew Marsh Decision Following Troubling Week",
+   "url": "https://sports.yahoo.com/articles/michigan-makes-official-andrew-marsh-184206339.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Michigan announces Andrew Marsh is out against UCLA.",
+   "note": "Michigan football player Andrew Marsh will miss the game against UCLA along with several teammates."
+  },
+  {
+   "title": "Amazon urges NYC residents to call their officials as $3T company threatens to impose $5 delivery fees in the Big Apple as fight with Mamdani escalates",
+   "url": "https://www.dailymail.com/news/article-16311545/amazon-nyc-delivery-protection-act-fees-officials.html",
+   "publisher": "Daily Mail",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon is urging New York City residents to call their local officials as it threatens to impose a $5 delivery fee",
+   "note": "Urban delivery surcharges could dampen parcel volumes and DSP fleet utilization in metro New York."
+  },
+  {
+   "title": "Michigan football injury report: Multiple starters out vs. UCLA",
+   "url": "https://wolverineswire.usatoday.com/story/sports/college/wolverines/football/2026/11/21/michigan-football-faces-ucla-with-depleted-roster-key-players-questionable/92899222007/",
+   "publisher": "WolverinesWire",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Michigan will be shorthanded for Senior Day against undefeated UCLA",
+   "note": "Michigan football reports multiple starting players injured ahead of their matchup against UCLA."
+  },
+  {
+   "title": "Illinois basketball dominates EIU in stellar offensive performance",
+   "url": "https://armchairillini.com/illinois-basketball-dominates-eiu-in-stellar-offensive-performance/",
+   "publisher": "armchairillini.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "There was a banner being raised at State Farm Center Friday night, but Illinois basketball gave its fans plenty of reasons",
+   "note": "Illinois men's basketball defeated Eastern Illinois University in a home regular-season game."
+  },
+  {
+   "title": "Amazon Warns New Yorkers of Higher Delivery Costs if Driver Payroll Bill Passes",
+   "url": "https://www.technobezz.com/news/amazon-warns-new-yorkers-higher-delivery-costs",
+   "publisher": "Technobezz",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 5,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The bill would require drivers serving its local delivery stations to become direct",
+   "note": "Direct employment mandates could upend the Amazon DSP model in NYC, altering who buys commercial auto coverage and policy structure."
+  },
+  {
+   "title": "The Best Morning Drink for Inflammation, According to a Dietitian",
+   "url": "https://www.verywellhealth.com/best-morning-drink-choice-for-inflammation-12197547",
+   "publisher": "Verywell Health",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A dietitian explains how it may reduce inflammation and offers antioxidant properties.",
+   "note": "A dietitian discusses the antioxidant properties and anti-inflammatory health benefits of dandelion tea."
+  },
+  {
+   "title": "How 2 yard worker boys helped bust alleged Rochester human trafficker",
+   "url": "https://www.freep.com/story/news/local/michigan/oakland/2026/11/21/paul-dilisio-human-trafficking-meth-charges-rochester/92882028007/",
+   "publisher": "Detroit Free Press",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Two teen boys working in a Rochester man's yard gave investigators crucial information",
+   "note": "Two yard workers in Rochester provided information that helped law enforcement arrest a human trafficking suspect."
+  },
+  {
+   "title": "Nikhil Chaudhary shines as Australia beat England in thrilling first T20I to take 1-0 lead",
+   "url": "https://sports.yahoo.com/articles/nikhil-chaudhary-shines-australia-beat-173700444.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "In an electrifying start to the T20I series, Australia triumphed over England at the MCG.",
+   "note": "Australia defeated England in a T20 cricket match at the Melbourne Cricket Ground."
+  },
+  {
+   "title": "Out With White and In With Warmth – These are the Kitchen Color Swaps Designers are Making Right Now",
+   "url": "https://shopping.yahoo.com/home-garden/kitchen/articles/white-warmth-kitchen-color-swaps-150000977.html",
+   "publisher": "YAHOO!",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "These are the kitchen color swaps designers are making right now for warmer, more lived-in kitchens.",
+   "note": "Interior designers discuss transitioning kitchen color schemes from stark white to warmer color palettes."
+  },
+  {
+   "title": "Usher & Chris Brown Fans Wait Hours After Tickets Fail To Load",
+   "url": "https://allhiphop.com/news/usher-chris-brown-fans-wait-hours-after-tickets-fail-to-load/",
+   "publisher": "AllHipHop",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Usher and Chris Brown fans waited hours outside the Superdome after some Ticketmaster tickets failed to load",
+   "note": "Concert attendees experienced extensive delays outside the Superdome due to Ticketmaster technical ticketing errors."
+  },
+  {
+   "title": "3 potential X-factors on the Bills offense at Dolphins in Week 11",
+   "url": "https://www.msn.com/en-us/sports/football/3-potential-x-factors-on-the-bills-offense-at-dolphins-in-week-11/ar-AA2hVcwe",
+   "publisher": "Bills Wire on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Naming 3 potential X-factors for the Bills offense in Week 11 against the Dolphins.",
+   "note": "Bills Wire previews three offensive keys for the Buffalo Bills game against the Miami Dolphins."
+  },
+  {
+   "title": "Man who fought with GISH students after walkout gets 30 days' jail, probation",
+   "url": "https://omaha.com/news/state-regional/nebraska/article_0d7403f6-06a4-5c9e-8da0-54069fa99419.html",
+   "publisher": "Omaha World-Herald",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "In addition to a $200 fine, Michael Brown will pay a $225 probation fee.",
+   "note": "A Nebraska man was sentenced to jail and probation following an altercation with students."
+  },
+  {
+   "title": "61 Years Ago Today, We Lost the Classically Trained Violinist Who Helped Shape Western Swing and Recorded With Elvis Presley and Patsy Cline",
+   "url": "https://americansongwriter.com/61-years-ago-today-we-lost-the-classically-trained-violinist-who-helped-shape-western-swing-and-recorded-with-elvis-presley-and-patsy-cline/",
+   "publisher": "American Songwriter",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Cecil Brower, the renowned Western swing fiddler who played with Loretta Lynn and Patsy Cline, died on this day in 1965.",
+   "note": "Historical retrospective commemorating the passing of Western swing fiddler Cecil Brower in 1965."
+  },
+  {
+   "title": "‘Jalen Brunson wants…’ – Ex-WNBA star details why New York Knicks are struggling this season",
+   "url": "https://sports.yahoo.com/articles/jalen-brunson-wants-ex-wnba-104913454.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Former WNBA player Chiney Ogwumike names the biggest problem for the New York Knicks.",
+   "note": "Sports commentary analyzing the performance issues facing the New York Knicks."
+  },
+  {
+   "title": "Court approves $7.25 billion Bayer settlement over claims Roundup weed killer caused cancer",
+   "url": "https://www.pbs.org/newshour/nation/court-approves-7-25-billion-bayer-settlement-over-claims-roundup-weed-killer-caused-cancer",
+   "publisher": "Public Broadcasting Service (PBS)",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Agrochemical maker Bayer will pay up to $7.25 billion over two decades to resolve thousands of claims from U.S. cancer patients",
+   "note": "Bayer will pay up to $7.25 billion to settle thousands of U.S. cancer lawsuits over Roundup weed killer."
+  },
+  {
+   "title": "Comment: Indonesia draws closer to Russia, but on Jakarta's terms - Riddle",
+   "url": "https://www.msn.com/en-us/news/other/comment-indonesia-draws-closer-to-russia-but-on-jakarta-s-terms-riddle/ar-AA2hQWi1",
+   "publisher": "bne IntelliNews on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Indonesia has warmed to Russia on its own terms while Moscow has failed to deliver the big projects",
+   "note": "Commentary on diplomatic and economic relations between Indonesia and Russia."
+  },
+  {
+   "title": "Brinks beats “secret insurance” claim in jewelry transport fight",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/brinks-beats-secret-insurance-claim-in-jewelry-transport-fight-598267.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The dispute involved Brinks’ “Door to Door” service for shipping valuables.",
+   "note": "Specialized transit liability disputes illustrate cargo coverage complexities, though armored transport is tangential to core parcel delivery fleets. Context only."
+  },
+  {
+   "title": "Is Amazon Flex unprofitable? Is Delivery Provider recommended for stable earnings?",
+   "url": "https://note.com/bandai_trans/n/n0ae356f069e1?hl=en",
+   "publisher": "note",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "\"Is it true that Amazon Flex is not profitable?\"",
+   "note": "Gig courier economic viability challenges reinforce the appeal of underwriting structured Amazon DSP fleets over independent gig drivers. Context only."
+  },
+  {
+   "title": "Judge Approves $7 Billion Settlement Over Claims That Roundup Caused Cancer",
+   "url": "https://www.nytimes.com/2026/11/20/business/bayer-settlement-roundup-cancer.html",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The ruling, in a nationwide class-action suit, is expected to end tens of thousands of lawsuits",
+   "note": "A court approved a $7 billion settlement resolving product liability claims involving Roundup weed killer."
+  },
+  {
+   "title": "Q3 2026 U.S. Retail Scorecard – Update November 19, 2026",
+   "url": "https://lipperalpha.refinitiv.com/2026/11/q3-2026-u-s-retail-scorecard-update-november-19-2026/",
+   "publisher": "lipperalpha.refinitiv",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "To date, 149 of the 183 companies in our LSEG Retail/Restaurant Index have reported their EPS results",
+   "note": "LSEG report tracks quarterly earnings results across U.S. retail and restaurant companies."
+  },
+  {
+   "title": "Your 2027 federal benefits could cost you more. Here's what to check now",
+   "url": "https://www.govexec.com/pay-benefits/2026/11/2027-federal-benefits-cost-more-check-now/417334/",
+   "publisher": "Government Executive",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A new FSA card, higher Medicare costs and another long-term care insurance freeze make this year's Open Season especially important.",
+   "note": "Overview of potential cost increases and changes in upcoming federal employee benefits enrollment."
+  },
+  {
+   "title": "SEC Charges Eight Entities Over Alleged $37 Million Crypto Fraud",
+   "url": "https://www.securities.io/sec-charges-eight-entities-over-alleged-37-million-crypto-fraud/",
+   "publisher": "Securities.io",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "charged eight Colorado-based entities with defra defrauding more than 1,500 U.S. investors of at least $37 million",
+   "note": "The SEC charged eight entities with defrauding investors of $37 million in a cryptocurrency scheme."
+  }
+ ],
+ "digest": "- A proposed NYC bill would require Amazon delivery drivers to become direct employees rather than DSP staff, threatening to upend the DSP model and alter who purchases"
+}

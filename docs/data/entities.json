@@ -2630,5 +2630,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-21T08:51:03Z"
+ },
+ "Skyward Specialty Insurance Group Inc": {
+  "name": "Skyward Specialty Insurance Group Inc",
+  "first_seen": "2026-11-21T20:15:06Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_7105a659441c"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-21T20:15:06Z"
+ },
+ "Brinks": {
+  "name": "Brinks",
+  "first_seen": "2026-11-21T20:15:06Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_291a39bf29b0"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-21T20:15:06Z"
  }
 }
