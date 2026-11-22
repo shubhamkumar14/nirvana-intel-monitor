@@ -1,0 +1,1171 @@
+{
+ "run_id": "2026-11-22T08-53-59Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/45004939184",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-22",
+ "started": "2026-11-22T08:53:59Z",
+ "duration_s": 241.6,
+ "baseline": false,
+ "previous_run": "2026-11-21T20-15-06Z",
+ "previous_started": "2026-11-21T20:15:06Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 386,
+  "unique": 357,
+  "known_skipped": 325,
+  "attached_existing": 1,
+  "prefiltered_out": 3,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 28,
+  "irrelevant": 23,
+  "quarantined": 0,
+  "new_events": 5,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.3,
+  "dedup_ratio": 0.922,
+  "relevance_rate": 0.179
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 427
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 408
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 88
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 146
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 198
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 85
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 469
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 104
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 249
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 297
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 194
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 260
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 214
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 155
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 314
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 181
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 145
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 217
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 253
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 189
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 237
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 221
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 101
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1303
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 362
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 434
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 141
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 593
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 789
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5309,
+  "output_tokens": 3997,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_a22fcaad3568",
+   "title": "Georgia cop groped delivery driver during search and told him, ‘You're extremely lucky you did not get shot,' lawsuit alleges",
+   "url": "https://ca.style.yahoo.com/georgia-cop-groped-delivery-driver-140000756.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "A delivery driver has filed a lawsuit against a police officer following an alleged roadside assault.",
+   "evidence_quote": "Georgia delivery driver sues officer over alleged sexual assault during arrest.",
+   "companies": [],
+   "implication": "Highlights potential legal and safety exposures for delivery personnel, reinforcing the need for telematics data to substantiate driver incidents and defend claims.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-21T06:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T08:53:59Z",
+   "first_run": "2026-11-22T08-53-59Z",
+   "last_seen": "2026-11-22T08:53:59Z",
+   "last_updated_run": "2026-11-22T08-53-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "a22fcaad3568"
+   ],
+   "sources": [
+    {
+     "url": "https://ca.style.yahoo.com/georgia-cop-groped-delivery-driver-140000756.html",
+     "publisher": "Yahoo Lifestyle Canada",
+     "publisher_key": "yahoo lifestyle canada",
+     "published": "2026-11-21T06:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 60.9,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_10031457bb4f",
+   "title": "[News Commentary] The \"Sea Peak\" of the Christmas Shopping Season Has Already Passed This Year | US Imports Hit Record Highs in September-October, Freight Rates Heading Toward ...",
+   "url": "https://note.com/tetutaro1052/n/nacd75d0fcbdc?hl=en",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "US container imports hit record highs in September and October, indicating strong retail volumes heading into the holiday season.",
+   "evidence_quote": "US Imports Hit Record Highs in September-October",
+   "companies": [],
+   "implication": "High import volumes signal strong delivery demand for last-mile fleets, increasing fleet exposure and telematics data generation.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-21T01:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T08:53:59Z",
+   "first_run": "2026-11-22T08-53-59Z",
+   "last_seen": "2026-11-22T08:53:59Z",
+   "last_updated_run": "2026-11-22T08-53-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "10031457bb4f"
+   ],
+   "sources": [
+    {
+     "url": "https://note.com/tetutaro1052/n/nacd75d0fcbdc?hl=en",
+     "publisher": "note",
+     "publisher_key": "note",
+     "published": "2026-11-21T01:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.7,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_8d9d29003d95",
+   "title": "Three prior crashes, multiple fusions - and a jury said: no injury",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/three-prior-crashes-multiple-fusions--and-a-jury-said-no-injury-597916.aspx",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "A Michigan appeals court upheld a split jury verdict finding no injury despite prior accidents and spinal fusions.",
+   "evidence_quote": "Three prior crashes, multiple fusions - and a jury said: no injury",
+   "companies": [],
+   "implication": "Demonstrates favorable pushback against questionable injury claims in auto litigation, supporting loss cost stability for commercial fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-18T02:32:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T08:53:59Z",
+   "first_run": "2026-11-22T08-53-59Z",
+   "last_seen": "2026-11-22T08:53:59Z",
+   "last_updated_run": "2026-11-22T08-53-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "8d9d29003d95"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/three-prior-crashes-multiple-fusions--and-a-jury-said-no-injury-597916.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-18T02:32:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 2,
+   "score": 58.1,
+   "age_days": 4.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.66,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_5af7dd0d2ef2",
+   "title": "Roadzen Delivers First Positive Adjusted EBITDA Quarter in Company History on Record Revenue of ...",
+   "url": "https://baytobaynews.com/salisbury/stories/roadzen-delivers-first-positive-adjusted-ebitda-quarter-in-company-history-on-record-revenue-of-,364077",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "Roadzen reported its first positive adjusted EBITDA quarter alongside record revenue growth.",
+   "evidence_quote": "Roadzen Delivers First Positive Adjusted EBITDA Quarter in Company History",
+   "companies": [
+    "Roadzen"
+   ],
+   "implication": "Competitor validation for telematics-backed insurance technology providers scaling toward profitability in the fleet market.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-16T08:06:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T08:53:59Z",
+   "first_run": "2026-11-22T08-53-59Z",
+   "last_seen": "2026-11-22T08:53:59Z",
+   "last_updated_run": "2026-11-22T08-53-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "5af7dd0d2ef2"
+   ],
+   "sources": [
+    {
+     "url": "https://baytobaynews.com/salisbury/stories/roadzen-delivers-first-positive-adjusted-ebitda-quarter-in-company-history-on-record-revenue-of-,364077",
+     "publisher": "Bay to Bay News",
+     "publisher_key": "bay to bay news",
+     "published": "2026-11-16T08:06:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.8,
+   "age_days": 6.0,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.55,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_4d869a3c8e41",
+   "title": "Walmart Raises Outlook Despite Higher Costs",
+   "url": "https://ijr.com/discover/business-2026-11-16-walmart-results-expected-test-consumer-resilience-48b98269",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Walmart raises its outlook amid consumer spending adjustments and tight inflation conditions.",
+   "evidence_quote": "Walmart Raises Outlook Despite Higher Costs",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-21T15:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T08:53:59Z",
+   "first_run": "2026-11-22T08-53-59Z",
+   "last_seen": "2026-11-22T08:53:59Z",
+   "last_updated_run": "2026-11-22T08-53-59Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "4d869a3c8e41"
+   ],
+   "sources": [
+    {
+     "url": "https://ijr.com/discover/business-2026-11-16-walmart-results-expected-test-consumer-resilience-48b98269",
+     "publisher": "Independent Journal Review",
+     "publisher_key": "independent journal review",
+     "published": "2026-11-21T15:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_07c22152ebbf",
+   "title": "New York City legislation could upend Amazon's delivery model",
+   "url": "https://seekingalpha.com/news/4674722-new-york-city-legislation-could-upend-amazons-delivery-model",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.8,
+   "summary": "NYC proposed Delivery Protection Act would license last-mile services and restrict subcontracting, threatening gig worker models.",
+   "evidence_quote": "New York City legislation could upend Amazon's delivery model",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Regulatory shifts threatening subcontracting models directly impact Amazon DSP structures and commercial auto exposure footprints in urban markets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-19T06:58:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-19T21:48:36Z",
+   "first_run": "2026-11-19T21-48-36Z",
+   "last_seen": "2026-11-22T08:53:59Z",
+   "last_updated_run": "2026-11-22T08-53-59Z",
+   "update_note": "New corroborating source: Seeking Alpha on MSN",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "07c22152ebbf"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/news/4674722-new-york-city-legislation-could-upend-amazons-delivery-model",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-11-19T06:58:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    },
+    {
+     "url": "https://www.msn.com/en-us/news/other/new-york-city-legislation-could-upend-amazon-s-delivery-model/ar-AA2hME6D",
+     "publisher": "Seeking Alpha on MSN",
+     "publisher_key": "seeking alpha on msn",
+     "published": "2026-11-19T06:58:22Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.6,
+   "age_days": 3.1,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.74,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Chandigarh Man Earns Rs 39,000 In First Month As Blinkit Delivery Partner, Shares Experience",
+   "url": "https://www.ndtv.com/offbeat/chandigarh-man-earns-rs-39-000-in-first-month-as-blinkit-delivery-partner-shares-experience-12361626",
+   "publisher": "NDTV",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Chandigarh Man Earns Rs 39,000 In First Month As Blinkit Delivery Partner",
+   "note": "An Indian delivery partner shares earnings details and suggests electric vehicle rentals."
+  },
+  {
+   "title": "Dr. Moira Gunn’s journey in harness racing, Part 1",
+   "url": "https://harnessracingupdate.com/2026/11/22/dr-moira-gunns-journey-in-harness-racing-part-1/",
+   "publisher": "Harness Racing Update",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Dr. Moira Gunn’s journey in harness racing, Part 1",
+   "note": "A profile of Dr. Moira Gunn's journey in harness racing."
+  },
+  {
+   "title": "‘Tremendous,’ ‘They Deserve an Emmy’ — NFL Fans React to FS1’s Kevin Wildes’ Brutally Honest Take on Daniel Jones Potentially Landing With Patriots",
+   "url": "https://sports.yahoo.com/articles/tremendous-deserve-emmy-nfl-fans-075445472.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The New England Patriots suddenly have a quarterback question",
+   "note": "Sports commentary regarding NFL quarterbacks and team status."
+  },
+  {
+   "title": "Iran Basij deputy says US forces will not be safe 2,000 km from its borders",
+   "url": "https://www.iranintl.com/en/202611220003",
+   "publisher": "Iran International",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Iran Basij deputy says US forces will not be safe 2,000 km from its borders",
+   "note": "An Iranian official makes statements regarding US force positioning."
+  },
+  {
+   "title": "US Army to get next-gen autonomous fuel delivery with converted unmanned surface vessels",
+   "url": "https://interestingengineering.com/military/us-army-next-gen-autonomous-fuel-delivery",
+   "publisher": "Interesting Engineering",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Textron Systems will convert its TSUNAMI 25 Unmanned Surface Vessels",
+   "note": "Textron Systems will convert unmanned surface vessels for US Army fuel delivery."
+  },
+  {
+   "title": "KC Current beat Washington Spirit to win historic NWSL championship, top highlights and photos",
+   "url": "https://www.msn.com/en-us/news/other/kc-current-beat-washington-spirit-to-win-historic-nwsl-championship-top-highlights-and-photos/ar-AA2hWAwv",
+   "publisher": "Bleacher Report on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Kansas City Current are NWSL champions.",
+   "note": "The Kansas City Current win the NWSL championship."
+  },
+  {
+   "title": "Rams star wide receiver’s tenure ‘probably ending’ according to NFL insider",
+   "url": "https://www.boston.com/sports/new-england-patriots/2026/11/21/nfl-patriots-rams-puka-nacua-free-agency-update/",
+   "publisher": "Boston.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Rams star wide receiver’s tenure ‘probably ending’",
+   "note": "NFL insider commentary regarding player roster movements."
+  },
+  {
+   "title": "Quincy gets revenge against Edwardsville",
+   "url": "https://www.msn.com/en-us/sports/high-school-sports/quincy-gets-revenge-against-edwardsville/ar-AA2hWv8i",
+   "publisher": "The Edwardsville Intelligencer on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Quincy gets revenge against Edwardsville",
+   "note": "High school sports game results."
+  },
+  {
+   "title": "Seattle Torrent Name Alex Carpenter As New Captain",
+   "url": "https://sports.yahoo.com/articles/seattle-torrent-name-alex-carpenter-023904318.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Seattle Torrent Name Alex Carpenter As New Captain",
+   "note": "A PWHL team names a new captain."
+  },
+  {
+   "title": "Walmart Raises Outlook Despite Higher Costs",
+   "url": "https://ijr.com/discover/business-2026-11-16-walmart-results-expected-test-consumer-resilience-48b98269",
+   "publisher": "Independent Journal Review",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Walmart Raises Outlook Despite Higher Costs",
+   "note": "Context only"
+  },
+  {
+   "title": "Kyle Whittingham Announces Plans for Andrew Marsh for Michigan vs. Ohio State Game",
+   "url": "https://sports.yahoo.com/articles/kyle-whittingham-announces-plans-andrew-012553131.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kyle Whittingham Announces Plans for Andrew Marsh",
+   "note": "College football team lineup plans announced ahead of a game."
+  },
+  {
+   "title": "Calmatters: El Nio Is Here. This Flood-Prone Towns Insurance Pilot Was A State Model -- Then It Fell Apart",
+   "url": "https://www.sfgate.com/news/bayarea/article/calmatters-el-nio-is-here-this-flood-prone-22544121.php",
+   "publisher": "SFGATE",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "This Flood-Prone Towns Insurance Pilot Was A State Model -- Then It Fell Apart",
+   "note": "A California community flood insurance pilot program faced challenges."
+  },
+  {
+   "title": "Shopify vs. Uber Technologies: Which Technology Stock Is a Better Buy?",
+   "url": "https://www.fool.com/coverage/better-buy/2026/11/21/shopify-vs-uber-technologies-which-technology-stock-is-a-better-buy/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Shopify vs. Uber Technologies: Which Technology Stock Is a Better Buy?",
+   "note": "Stock comparison between Shopify and Uber Technologies."
+  },
+  {
+   "title": "Chipotle Just Announced a BOGO Entrée Deal for Thanksgiving Eve—but It's Only Available for 4 Hours",
+   "url": "https://www.yahoo.com/lifestyle/articles/chipotle-just-announced-bogo-entr-221225355.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Chipotle Just Announced a BOGO Entrée Deal",
+   "note": "Chipotle announces a limited-time holiday food promotion."
+  },
+  {
+   "title": "Michigan receiver Andrew Marsh suspended as he faces a misdemeanor charge of indecent exposure",
+   "url": "https://www.aol.com/articles/michigan-receiver-andrew-marsh-suspended-220250000.html",
+   "publisher": "AOL",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Michigan receiver Andrew Marsh suspended as he faces a misdemeanor charge",
+   "note": "A college football player was suspended following an incident involving a food delivery driver."
+  },
+  {
+   "title": "Who pays half of the health insurance premiums for side jobs? — It was supposed to be put on the back burner, but it arrived in three months —",
+   "url": "https://note.com/drneurosur/n/na1ea19d6237f?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "whether to include side job income of company employees in the calculation of health insurance premiums",
+   "note": "Japan's Ministry discusses including side job income in health insurance premium calculations."
+  },
+  {
+   "title": "Kenyan Farmer Who Lost His Car and Livestock Rebuilds Life, Now Owns 2 Delivery Vehicles",
+   "url": "https://www.tuko.co.ke/people/family/647511-kenyan-farmer-lost-car-livestock-rebuilds-life-owns-2-delivery-vehicles/",
+   "publisher": "Tuko News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Kenyan Farmer Who Lost His Car and Livestock Rebuilds Life, Now Owns 2 Delivery Vehicles",
+   "note": "A Kenyan farmer rebuilt his business after losses and acquired delivery vehicles."
+  },
+  {
+   "title": "Delaware County deputies investigating fatal crash along Interstate 69",
+   "url": "https://www.yahoo.com/news/articles/delaware-county-deputies-investigating-fatal-174132749.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Delaware County deputies investigating fatal crash along Interstate 69",
+   "note": "Local authorities are investigating a fatal van crash along an interstate highway."
+  },
+  {
+   "title": "Georgia cop groped delivery driver during search and told him, ‘You're extremely lucky you did not get shot,' lawsuit alleges",
+   "url": "https://ca.style.yahoo.com/georgia-cop-groped-delivery-driver-140000756.html",
+   "publisher": "Yahoo Lifestyle Canada",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Georgia delivery driver sues officer over alleged sexual assault during arrest.",
+   "note": "Highlights potential legal and safety exposures for delivery personnel, reinforcing the need for telematics data to substantiate driver incidents and defend claims."
+  },
+  {
+   "title": "Millions could lose paid benefits due to Congress ignoring decades of Social Security warnings: experts",
+   "url": "https://www.foxnews.com/politics/millions-could-lose-paid-benefits-due-congress-ignoring-decades-social-security-warnings-experts",
+   "publisher": "Fox News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Millions could lose paid benefits due to Congress ignoring decades of Social Security warnings",
+   "note": "A congressional report discusses long-term Social Security benefit concerns."
+  },
+  {
+   "title": "\"Babe, please\": Video of Obinim 'jossing' Ohemaa Dynamite surfaces online",
+   "url": "https://www.msn.com/en-xl/news/other/babe-please-video-of-obinim-jossing-ohemaa-dynamite-surfaces-online/ar-AA2hUO2N",
+   "publisher": "YEN.com.gh on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "\"Babe, please\": Video of Obinim 'jossing' Ohemaa Dynamite surfaces online",
+   "note": "A leaked video involving public figures surfaced online."
+  },
+  {
+   "title": "[News Commentary] The \"Sea Peak\" of the Christmas Shopping Season Has Already Passed This Year | US Imports Hit Record Highs in September-October, Freight Rates Heading Toward ...",
+   "url": "https://note.com/tetutaro1052/n/nacd75d0fcbdc?hl=en",
+   "publisher": "note",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "US Imports Hit Record Highs in September-October",
+   "note": "High import volumes signal strong delivery demand for last-mile fleets, increasing fleet exposure and telematics data generation."
+  },
+  {
+   "title": "'The bravest woman in Britain' and 'Silence is not an option'",
+   "url": "https://www.yahoo.com/news/world/articles/bravest-woman-britain-silence-not-010544986.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "'The bravest woman in Britain'",
+   "note": "News coverage regarding a domestic abuse case in Britain."
+  },
+  {
+   "title": "Genie One Accuracy: Why Curated Agents Need Governed Context",
+   "url": "https://www.databricks.com/blog/genie-one-accuracy-why-curated-agents-need-governed-context",
+   "publisher": "databricks.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Genie One Accuracy: Why Curated Agents Need Governed Context",
+   "note": "Databricks published an article about AI agent accuracy using curated data models."
+  },
+  {
+   "title": "This is the preliminary roster for Canada who are scheduled to play Uruguay on the road next Thursday. We'll see what the final 12 man roster looks like, but Canada looks quite ...",
+   "url": "https://x.com/Truenor23860723/status/2123073561338503397",
+   "publisher": "x",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "This is the preliminary roster for Canada who are scheduled to play Uruguay",
+   "note": "A preliminary sports roster announcement for a Canadian team."
+  },
+  {
+   "title": "Three prior crashes, multiple fusions - and a jury said: no injury",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/three-prior-crashes-multiple-fusions--and-a-jury-said-no-injury-597916.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Three prior crashes, multiple fusions - and a jury said: no injury",
+   "note": "Demonstrates favorable pushback against questionable injury claims in auto litigation, supporting loss cost stability for commercial fleets."
+  },
+  {
+   "title": "A Pension Fund Is Suing Intel Over a $140 Billion Market Loss",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/pension-fund-suing-intel-over-171535094.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A Pension Fund Is Suing Intel Over a $140 Billion Market Loss",
+   "note": "Intel faces a class-action lawsuit over a major stock price drop."
+  },
+  {
+   "title": "Roadzen Delivers First Positive Adjusted EBITDA Quarter in Company History on Record Revenue of ...",
+   "url": "https://baytobaynews.com/salisbury/stories/roadzen-delivers-first-positive-adjusted-ebitda-quarter-in-company-history-on-record-revenue-of-,364077",
+   "publisher": "Bay to Bay News",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Roadzen Delivers First Positive Adjusted EBITDA Quarter in Company History",
+   "note": "Competitor validation for telematics-backed insurance technology providers scaling toward profitability in the fleet market."
+  }
+ ],
+ "digest": "- New York City proposed legislation targeting last-mile licensing and subcontracting, threatening gig worker models and directly impacting Amazon DSP structures and commercial auto exposure footprints in urban markets [6].\n- Competitor Roadzen reported its first positive adjusted EBITDA quarter on record revenue, validating the scalability and financial viability of telematics-backed insurance technology models in the fleet market [4].\n- A Michigan appeals court upheld a verdict finding no injury despite prior accidents and spinal fusions, supporting loss cost stability by pushing back against questionable auto litigation claims [3].\n- Record US container imports in September and October indicate strong retail volumes heading into the holidays, increasing last-mile fleet exposure and telematics data generation [2].\n- A delivery driver filed a lawsuit alleging roadside assault by a police officer, highlighting safety exposures and reinforcing the need for telematics data to substantiate driver incidents and defend claims [1]."
+}
