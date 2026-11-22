@@ -1,0 +1,1291 @@
+{
+ "run_id": "2026-11-22T20-28-43Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/45066624899",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-22",
+ "started": "2026-11-22T20:28:43Z",
+ "duration_s": 450.9,
+ "baseline": false,
+ "previous_run": "2026-11-22T08-53-59Z",
+ "previous_started": "2026-11-22T08:53:59Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 387,
+  "unique": 362,
+  "known_skipped": 329,
+  "attached_existing": 3,
+  "prefiltered_out": 4,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 26,
+  "irrelevant": 21,
+  "quarantined": 0,
+  "new_events": 5,
+  "updated_events": 3,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.6,
+  "dedup_ratio": 0.928,
+  "relevance_rate": 0.192
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 565
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 556
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 240
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 143
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 380
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 63
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 143
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 877
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 142
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 238
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 211
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 168
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 219
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 256
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 180
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 162
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 231
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 217
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 184
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 227
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 198
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 204
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 209
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 188
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 231
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 274
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 254
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 244
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 246
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 255
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 255
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 230
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1815
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 687
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 192
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 673
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 364
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 685
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1074
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5233,
+  "output_tokens": 3690,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_060ad4a503ff",
+   "title": "Report: Mass. among top 10 for lawsuit costs; NH costs topped $1.7B",
+   "url": "https://www.unionleader.com/news/nation-world/report-mass-among-top-10-for-lawsuit-costs-8ddd0e6e",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.3,
+   "summary": "A business-group report highlights high lawsuit-related costs for households in Massachusetts and New Hampshire.",
+   "evidence_quote": "Report: Mass. among top 10 for lawsuit costs; NH costs topped $1.7B",
+   "companies": [],
+   "implication": "Elevated state-level litigation costs exacerbate social inflation pressures, reinforcing the need for telematics-based risk mitigation in commercial auto underwriting.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-22T03:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T20:28:43Z",
+   "first_run": "2026-11-22T20-28-43Z",
+   "last_seen": "2026-11-22T20:28:43Z",
+   "last_updated_run": "2026-11-22T20-28-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "060ad4a503ff"
+   ],
+   "sources": [
+    {
+     "url": "https://www.unionleader.com/news/nation-world/report-mass-among-top-10-for-lawsuit-costs-8ddd0e6e",
+     "publisher": "Union Leader",
+     "publisher_key": "union leader",
+     "published": "2026-11-22T03:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 66.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9af070b6b072",
+   "title": "Royal Mail battles to avoid a Christmas delivery meltdown",
+   "url": "https://www.aol.com/articles/royal-mail-battles-avoid-christmas-130126000.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "Royal Mail prepares for heavy seasonal parcel delivery demands ahead of the Christmas holiday.",
+   "evidence_quote": "Royal Mail battles to avoid a Christmas delivery meltdown",
+   "companies": [],
+   "implication": "High seasonal delivery volumes increase exposure miles; telematics fleets should expect higher crash frequency risks during peak holiday periods.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-22T05:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T20:28:43Z",
+   "first_run": "2026-11-22T20-28-43Z",
+   "last_seen": "2026-11-22T20:28:43Z",
+   "last_updated_run": "2026-11-22T20-28-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9af070b6b072"
+   ],
+   "sources": [
+    {
+     "url": "https://www.aol.com/articles/royal-mail-battles-avoid-christmas-130126000.html",
+     "publisher": "AOL",
+     "publisher_key": "aol",
+     "published": "2026-11-22T05:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 62.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_53fd835b88d2",
+   "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+   "url": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Major pizza chains face weaker demand and heightened delivery competition alongside shifting consumer habits.",
+   "evidence_quote": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+   "companies": [],
+   "implication": "Restaurant delivery fleet volumes may experience headwinds, altering commercial auto mileage assumptions for delivery-heavy insureds.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-22T04:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T20:28:43Z",
+   "first_run": "2026-11-22T20-28-43Z",
+   "last_seen": "2026-11-22T20:28:43Z",
+   "last_updated_run": "2026-11-22T20-28-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "53fd835b88d2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+     "publisher": "CNBC",
+     "publisher_key": "cnbc",
+     "published": "2026-11-22T04:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1bd93d8d0cf5",
+   "title": "Pizza franchisee files Chapter 11 bankruptcy, chain cut 381 units",
+   "url": "https://www.thestreet.com/restaurants/cicis-pizza-franchisee-mulhern-files-chapter-11-bankruptcy",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "A pizza franchise parent company enters Chapter 11 bankruptcy and cuts 381 units.",
+   "evidence_quote": "Pizza franchisee files Chapter 11 bankruptcy, chain cut 381 units",
+   "companies": [],
+   "implication": "Monitor delivery fleet contraction among restaurant franchisees, which can impact local commercial auto exposure in specific accounts.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-22T07:17:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T20:28:43Z",
+   "first_run": "2026-11-22T20-28-43Z",
+   "last_seen": "2026-11-22T20:28:43Z",
+   "last_updated_run": "2026-11-22T20-28-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1bd93d8d0cf5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.thestreet.com/restaurants/cicis-pizza-franchisee-mulhern-files-chapter-11-bankruptcy",
+     "publisher": "TheStreet",
+     "publisher_key": "thestreet",
+     "published": "2026-11-22T07:17:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_970f1b65200f",
+   "title": "Bayer reaches Roundup settlement that could cost the company billions",
+   "url": "https://www.npr.org/2026/11/21/nx-s1-6049684/roundup-bayer-hodgkins-settlement",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.0,
+   "summary": "Bayer reaches a massive settlement regarding Roundup health claims.",
+   "evidence_quote": "Bayer reaches Roundup settlement that could cost the company billions",
+   "companies": [],
+   "implication": "Broad indicator of ongoing legal environment severity, contributing to overall macroeconomic social inflation trends impacting liability insurers.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-21T12:37:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-22T20:28:43Z",
+   "first_run": "2026-11-22T20-28-43Z",
+   "last_seen": "2026-11-22T20:28:43Z",
+   "last_updated_run": "2026-11-22T20-28-43Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "970f1b65200f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.npr.org/2026/11/21/nx-s1-6049684/roundup-bayer-hodgkins-settlement",
+     "publisher": "NPR",
+     "publisher_key": "npr",
+     "published": "2026-11-21T12:37:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.7,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_7d3b20a22ce0",
+   "title": "Roadzen Delivers First Positive Adjusted EBITDA Quarter in Company History on Record Revenue of $17.6 Million, Up 28.6% Year-Over-Year",
+   "url": "https://markets.ft.com/data/announce/detail?dockey=1330-9878669en-3CAJQDKR3ADOSUO8JUJHBV2BC0",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "Roadzen reported its first positive adjusted EBITDA quarter alongside record revenue of $17.6 million, up 28.6% year-over-year.",
+   "evidence_quote": "Roadzen Delivers First Positive Adjusted EBITDA Quarter in Company History",
+   "companies": [
+    "Roadzen"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-16T12:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T23:01:58Z",
+   "first_run": "2026-11-16T23-01-58Z",
+   "last_seen": "2026-11-22T20:28:43Z",
+   "last_updated_run": "2026-11-22T20-28-43Z",
+   "update_note": "New corroborating source: Yahoo Finance UK",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "7d3b20a22ce0"
+   ],
+   "sources": [
+    {
+     "url": "https://markets.ft.com/data/announce/detail?dockey=1330-9878669en-3CAJQDKR3ADOSUO8JUJHBV2BC0",
+     "publisher": "FT Markets",
+     "publisher_key": "ft markets",
+     "published": "2026-11-16T12:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    },
+    {
+     "url": "https://markets.businessinsider.com/news/stocks/roadzen-delivers-first-positive-adjusted-ebitda-quarter-in-company-history-on-record-revenue-of-17-6-million-up-28-6-year-over-year-1036770891",
+     "publisher": "Markets Insider",
+     "publisher_key": "markets insider",
+     "published": "2026-11-16T08:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    },
+    {
+     "url": "https://www.stocktitan.net/news/RDZN/roadzen-delivers-first-positive-adjusted-ebitda-quarter-in-company-hmogoccwraej.html",
+     "publisher": "Stock Titan",
+     "publisher_key": "stock titan",
+     "published": "2026-11-16T13:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    },
+    {
+     "url": "https://uk.finance.yahoo.com/news/roadzen-delivers-first-positive-adjusted-210500614.html",
+     "publisher": "Yahoo Finance UK",
+     "publisher_key": "yahoo finance uk",
+     "published": "2026-11-16T08:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.5,
+   "age_days": 6.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.53,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 4 independent publishers"
+  },
+  {
+   "id": "ev_9ea413bffcb2",
+   "title": "Waymo Suspends All Driverless Taxi Rides on Freeways After Ban in California",
+   "url": "https://www.usnews.com/news/us/articles/2026-11-17/california-bans-waymo-autonomous-vehicles-from-state-freeways-saying-they-pose-an-imminent-hazard",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "California DMV bans Waymo autonomous vehicles from state freeways following safety incidents.",
+   "evidence_quote": "Waymo Suspends All Driverless Taxi Rides on Freeways After Ban in California",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-17T08:06:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T09:14:49Z",
+   "first_run": "2026-11-18T09-14-49Z",
+   "last_seen": "2026-11-22T20:28:43Z",
+   "last_updated_run": "2026-11-22T20-28-43Z",
+   "update_note": "New corroborating source: Associated Press News",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "9ea413bffcb2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.usnews.com/news/us/articles/2026-11-17/california-bans-waymo-autonomous-vehicles-from-state-freeways-saying-they-pose-an-imminent-hazard",
+     "publisher": "U.S. News & World Report",
+     "publisher_key": "u.s. news & world report",
+     "published": "2026-11-17T08:06:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    },
+    {
+     "url": "https://apnews.com/article/waymo-driverless-vehicle-california-freeway-ban-37bcd5371a4699a1850b7666b271946b",
+     "publisher": "Associated Press News",
+     "publisher_key": "associated press news",
+     "published": "2026-11-17T19:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.2,
+   "age_days": 5.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.58,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_1da8f56cf5cb",
+   "title": "343 Companies Report $28.5 Billion In Trump Tariff Refunds. Here's Where The Money Is Going.",
+   "url": "https://finance.yahoo.com/economy/policy/articles/343-companies-report-28-5-124819208.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "Major US companies report billions in tariff refunds following a Supreme Court ruling.",
+   "evidence_quote": "343 Companies Report $28.5 Billion In Trump Tariff Refunds.",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T04:48:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-20T21:31:59Z",
+   "first_run": "2026-11-20T21-31-59Z",
+   "last_seen": "2026-11-22T20:28:43Z",
+   "last_updated_run": "2026-11-22T20-28-43Z",
+   "update_note": "New corroborating source: International Business Times on MSN",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "1da8f56cf5cb"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/economy/policy/articles/343-companies-report-28-5-124819208.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-20T04:48:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://www.msn.com/en-us/news/other/343-companies-report-285-billion-in-trump-tariff-refunds-heres-where-the-money-is-going/ar-AA2hQSCC",
+     "publisher": "International Business Times on MSN",
+     "publisher_key": "international business times on msn",
+     "published": "2026-11-20T04:48:19Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 41.0,
+   "age_days": 2.7,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.77,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Denver woman sues police after officers handcuff her over a package that was never missing",
+   "url": "https://thegrio.com/2026/11/22/ebony-watson-sues-denver-police-wrongful-arrest/",
+   "publisher": "TheGrio",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Denver woman sues police after officers handcuff her over a package that was never missing",
+   "note": "A Denver woman is suing police officers over a wrongful handcuffing incident related to a package theft."
+  },
+  {
+   "title": "Figma vs. Fastly: Which Cloud Stock Is a Better Buy for 2027?",
+   "url": "https://www.fool.com/coverage/better-buy/2026/11/22/figma-vs-fastly-which-cloud-stock-is-a-better-buy-for-2027/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Figma vs. Fastly: Which Cloud Stock Is a Better Buy for 2027?",
+   "note": "A financial comparison of cloud software stocks Figma and Fastly."
+  },
+  {
+   "title": "Iowa State will have 'enhanced monitoring' of women's basketball after ex-players seek review",
+   "url": "https://sports.yahoo.com/articles/iowa-state-enhanced-monitoring-womens-194031363.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Iowa State will have 'enhanced monitoring' of women's basketball",
+   "note": "Iowa State implements enhanced monitoring for its women's basketball team following ex-player inquiries."
+  },
+  {
+   "title": "Walmart Has Raised Its Dividend 53 Straight Years. I'd Buy It Before December and Never Sell.",
+   "url": "https://www.fool.com/investing/2026/11/22/walmart-has-raised-its-dividend-53-straight-years-id-buy-it-before-december-and-never-sell/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Walmart Has Raised Its Dividend 53 Straight Years.",
+   "note": "Financial commentary highlights Walmart's long history of consecutive dividend increases."
+  },
+  {
+   "title": "DoorDasher waits in a downpour with a remade order she thought was stolen. Then the customer walks up holding the original",
+   "url": "https://www.yahoo.com/lifestyle/articles/doordasher-waits-downpour-remade-order-183000571.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DoorDasher waits in a downpour with a remade order she thought was stolen.",
+   "note": "A gig delivery driver experiences issues with a potentially stolen food order while working for DoorDash."
+  },
+  {
+   "title": "Liverpool destroy abject Man Utd in defining home victory for Iraola",
+   "url": "https://sports.yahoo.com/articles/liverpool-destroy-abject-man-utd-182500903.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Liverpool destroy abject Man Utd in defining home victory",
+   "note": "Liverpool defeats Manchester United in a soccer match."
+  },
+  {
+   "title": "How to Store Lemons So They Stay Fresh",
+   "url": "https://www.yahoo.com/lifestyle/articles/store-lemons-stay-fresh-180000864.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How to Store Lemons So They Stay Fresh",
+   "note": "A lifestyle guide provides tips on how to store lemons to maintain freshness."
+  },
+  {
+   "title": "3 winners and 3 losers from Virginia Tech’s 28-20 loss to Miami",
+   "url": "https://www.msn.com/en-us/news/other/3-winners-and-3-losers-from-virginia-tech-s-28-20-loss-to-miami/ar-AA2hYLez",
+   "publisher": "Sports Illustrated on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "3 winners and 3 losers from Virginia Tech’s 28-20 loss to Miami",
+   "note": "Analysis of a college football game between Virginia Tech and Miami."
+  },
+  {
+   "title": "Iran lawmaker urges building nuclear bomb 'once and for all'",
+   "url": "https://www.iranintl.com/en/202611229421",
+   "publisher": "Iran International",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Iran lawmaker urges building nuclear bomb 'once and for all'",
+   "note": "An Iranian lawmaker calls for developing a nuclear bomb for military deterrence."
+  },
+  {
+   "title": "Drone Alert Sounds in Russian Exclave After Putin’s Veiled Nuclear Threat",
+   "url": "https://www.newsweek.com/drone-alert-sounds-in-russian-exclave-after-putins-veiled-nuclear-threat-12753669",
+   "publisher": "Newsweek",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Drone Alert Sounds in Russian Exclave",
+   "note": "Drone alerts sound in the Russian exclave of Kaliningrad amid ongoing conflict reports."
+  },
+  {
+   "title": "Pizza franchisee files Chapter 11 bankruptcy, chain cut 381 units",
+   "url": "https://www.thestreet.com/restaurants/cicis-pizza-franchisee-mulhern-files-chapter-11-bankruptcy",
+   "publisher": "TheStreet",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Pizza franchisee files Chapter 11 bankruptcy, chain cut 381 units",
+   "note": "Monitor delivery fleet contraction among restaurant franchisees, which can impact local commercial auto exposure in specific accounts."
+  },
+  {
+   "title": "Amazon Turned a $5 Warning Into 20,000 Messages in 6 Hours. The Same Playbook Produced 2 Very Different Outcomes",
+   "url": "https://www.inc.com/liyana-illyas/amazon-turned-5-dollar-warning-20000-messages-6-hours-same-playbook-2-different-outcomes/91439897",
+   "publisher": "Inc.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon Turned a $5 Warning Into 20,000 Messages in 6 Hours",
+   "note": "Amazon's messaging campaign generated thousands of emails to lawmakers, raising strategic questions."
+  },
+  {
+   "title": "Anker’s 140W Charger Has Four Ports and a Smart Display, and It’s Way Cheaper Than Apple’s Single-Port Brick",
+   "url": "https://gizmodo.com/ankers-140w-charger-has-four-ports-and-a-smart-display-and-its-way-cheaper-than-apples-single-port-brick-2000843616",
+   "publisher": "Gizmodo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Anker’s 140W Charger Has Four Ports and a Smart Display",
+   "note": "Anker releases a discounted multi-port GaN charger."
+  },
+  {
+   "title": "Royal Mail battles to avoid a Christmas delivery meltdown",
+   "url": "https://www.aol.com/articles/royal-mail-battles-avoid-christmas-130126000.html",
+   "publisher": "AOL",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Royal Mail battles to avoid a Christmas delivery meltdown",
+   "note": "High seasonal delivery volumes increase exposure miles; telematics fleets should expect higher crash frequency risks during peak holiday periods."
+  },
+  {
+   "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+   "url": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html",
+   "publisher": "CNBC",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+   "note": "Restaurant delivery fleet volumes may experience headwinds, altering commercial auto mileage assumptions for delivery-heavy insureds."
+  },
+  {
+   "title": "Report: Mass. among top 10 for lawsuit costs; NH costs topped $1.7B",
+   "url": "https://www.unionleader.com/news/nation-world/report-mass-among-top-10-for-lawsuit-costs-8ddd0e6e",
+   "publisher": "Union Leader",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Report: Mass. among top 10 for lawsuit costs; NH costs topped $1.7B",
+   "note": "Elevated state-level litigation costs exacerbate social inflation pressures, reinforcing the need for telematics-based risk mitigation in commercial auto underwriting."
+  },
+  {
+   "title": "3 takeaways from Alabama's blowout win vs. Chattanooga",
+   "url": "https://www.indystar.com/story/sports/college/crimson-tide/football/2026/11/22/alabama-football-chattanooga-win-takeaways/92903005007/",
+   "publisher": "The Indianapolis Star",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "3 takeaways from Alabama's blowout win vs. Chattanooga",
+   "note": "Recap of an Alabama college football game win."
+  },
+  {
+   "title": "Quebec turns to New York's dirty grid amid extended drought",
+   "url": "https://www.msn.com/en-us/news/other/quebec-turns-to-new-yorks-dirty-grid-amid-extended-drought/ar-AA2hXXYz",
+   "publisher": "Times Union on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Quebec turns to New York's dirty grid amid extended drought",
+   "note": "Quebec relies on New York energy due to an extended drought."
+  },
+  {
+   "title": "Bayer reaches Roundup settlement that could cost the company billions",
+   "url": "https://www.npr.org/2026/11/21/nx-s1-6049684/roundup-bayer-hodgkins-settlement",
+   "publisher": "NPR",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Bayer reaches Roundup settlement that could cost the company billions",
+   "note": "Broad indicator of ongoing legal environment severity, contributing to overall macroeconomic social inflation trends impacting liability insurers."
+  },
+  {
+   "title": "Boston Fleet",
+   "url": "https://www.boston.com/tag/boston-fleet/",
+   "publisher": "Boston.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Boston Fleet",
+   "note": "Announcement regarding a sports museum gala event in Boston."
+  },
+  {
+   "title": "Court Approves $7.25 Billion Settlement With Bayer Over Claims Roundup Weed Killer Caused Cancer",
+   "url": "https://www.usnews.com/news/health-news/articles/2026-11-20/court-approves-7-25-billion-settlement-with-bayer-over-claims-roundup-weedkiller-caused-cancer",
+   "publisher": "U.S. News & World Report",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Court Approves $7.25 Billion Settlement With Bayer Over Claims Roundup Weed Killer Caused Cancer",
+   "note": "Bayer agreed to a settlement regarding Roundup weed killer cancer claims."
+  },
+  {
+   "title": "Insurance M&A failure starts long before the deal closes",
+   "url": "https://www.insurancebusinessmag.com/us/news/mergers-acquisitions/insurance-manda-failure-starts-long-before-the-deal-closes-598187.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "irrelevant",
+   "event_type": "m_and_a",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Insurance M&A failure starts long before the deal closes",
+   "note": "Industry analysis highlights that many insurance M&A deals fail to deliver expected value."
+  },
+  {
+   "title": "What Berkshire Hathaway's Third-Quarter Report Says About Its Insurance Business",
+   "url": "https://www.fool.com/investing/2026/11/19/what-berkshire-hathaway-q3-report-says-insurance-business/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "What Berkshire Hathaway's Third-Quarter Report Says About Its Insurance Business",
+   "note": "A financial review examines Berkshire Hathaway's third-quarter insurance results."
+  },
+  {
+   "title": "The Trump Crackdown Aims At The Driver, However The Same Government Keeps Clearing The Company Behind Him",
+   "url": "https://www.yahoo.com/news/us/articles/trump-crackdown-aims-driver-however-165146371.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Trump Crackdown Aims At The Driver, However The Same Government Keeps Clearing The Company Behind Him",
+   "note": "An opinion piece discusses government regulatory enforcement targeting truck drivers versus companies."
+  },
+  {
+   "title": "How to find the best travel insurance",
+   "url": "https://www.cnbc.com/select/travel-insurance-guide/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "How to find the best travel insurance",
+   "note": "Consumer guidance on how to evaluate and purchase travel insurance."
+  },
+  {
+   "title": "Mercury Auto Transport Review 2026",
+   "url": "https://www.forbes.com/advisor/car-insurance/mercury-auto-transport-review/",
+   "publisher": "Forbes",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Mercury Auto Transport Review 2026",
+   "note": "A review of Mercury Auto Transport services for vehicle shipping."
+  }
+ ],
+ "digest": "- Roadzen achieved its first positive adjusted EBITDA quarter on record revenue of $17.6 million, signaling improving financial scale for telematics-adjacent competitors [6].\n- High lawsuit-related costs in Massachusetts and New Hampshire exacerbate social inflation pressures, reinforcing the need for telematics-based risk mitigation [1].\n- Major pizza chains face weaker demand, heightened delivery competition, and franchisee bankruptcy, altering commercial auto mileage and exposure assumptions for restaurant delivery fleets [3, 4]."
+}
