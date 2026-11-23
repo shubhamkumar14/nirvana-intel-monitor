@@ -1,0 +1,1407 @@
+{
+ "run_id": "2026-11-23T09-51-30Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/45150776408",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-23",
+ "started": "2026-11-23T09:51:30Z",
+ "duration_s": 318.5,
+ "baseline": false,
+ "previous_run": "2026-11-22T20-28-43Z",
+ "previous_started": "2026-11-22T20:28:43Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 368,
+  "unique": 344,
+  "known_skipped": 291,
+  "attached_existing": 2,
+  "prefiltered_out": 19,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 32,
+  "irrelevant": 25,
+  "quarantined": 0,
+  "new_events": 7,
+  "updated_events": 2,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.917,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 1.2,
+  "dedup_ratio": 0.907,
+  "relevance_rate": 0.219
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 4564
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 273
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 231
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 127
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 277
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1101
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 253
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 78
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 176
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 157
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 177
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 178
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 249
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 281
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 224
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 173
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 204
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 169
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 249
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 232
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 110
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 267
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 318
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 245
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 294
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 154
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 171
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 106
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1485
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 697
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 293
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 724
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 223
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 833
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1159
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 6038,
+  "output_tokens": 4635,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_24d194af08a5",
+   "title": "What Does Walmart (WMT) Nearly Tripling 30 Minute Delivery Volume Mean?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/does-walmart-wmt-nearly-tripling-080658672.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 4,
+   "last_mile_fit": 0.8,
+   "summary": "Walmart reported that its sub-30-minute delivery volume nearly tripled in Q3, driven by expanded store and warehouse networks.",
+   "evidence_quote": "Walmart (NasdaqGS:WMT) reported that sub-30-minute delivery volume nearly tripled in Q3",
+   "companies": [
+    "Walmart"
+   ],
+   "implication": "Surging last-mile delivery volumes increase commercial auto exposure hours. Monitor gig and parcel fleet utilization rates for underwriting telematics calibration.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T00:06:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "24d194af08a5"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/does-walmart-wmt-nearly-tripling-080658672.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-23T00:06:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 71.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_27afd501dca7",
+   "title": "CXT Software and Dispatch Science Combine to Create the Largest, Unified Agentic Last-Mile TMS",
+   "url": "https://www.freep.com/press-release/story/274725/cxt-software-and-dispatch-science-combine-to-create-the-largest-unified-agentic-last-mile-tms/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 4,
+   "last_mile_fit": 0.9,
+   "summary": "CXT Software and Dispatch Science combine to create a unified agentic last-mile transportation management system.",
+   "evidence_quote": "CXT Software and Dispatch Science Combine to Create the Largest, Unified Agentic Last-Mile TMS",
+   "companies": [
+    "CXT Software",
+    "Dispatch Science"
+   ],
+   "implication": "Monitor integrated TMS platforms like CXT Software and Dispatch Science as potential telematics and data integration partners for last-mile fleet underwriting.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-18T14:09:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "27afd501dca7"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freep.com/press-release/story/274725/cxt-software-and-dispatch-science-combine-to-create-the-largest-unified-agentic-last-mile-tms/",
+     "publisher": "Detroit Free Press",
+     "publisher_key": "detroit free press",
+     "published": "2026-11-18T14:09:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 67.8,
+   "age_days": 4.8,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.62,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e3458795a7cd",
+   "title": "Delhivery back in the black in Q2, posts Rs 41 cr profit",
+   "url": "https://www.medianama.com/2026/11/223-delhivery-black-posts-profit/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "Delhivery returned to profitability in Q2 with a Rs 40.6 crore profit as revenue rose 20%.",
+   "evidence_quote": "Delhivery posts Rs 40.6 crore Q2 FY27 profit as revenue rises 20%",
+   "companies": [
+    "Delhivery"
+   ],
+   "implication": "Strong financial health among major logistics players indicates robust delivery demand, supporting fleet expansion and commercial auto policy purchases.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-22T23:22:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "e3458795a7cd"
+   ],
+   "sources": [
+    {
+     "url": "https://www.medianama.com/2026/11/223-delhivery-black-posts-profit/",
+     "publisher": "MediaNama",
+     "publisher_key": "medianama",
+     "published": "2026-11-22T23:22:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 61.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a795d40202c4",
+   "title": "Ford, Honda, VW and Stellantis Sue Over Law They Say Could Cost $2 Billion",
+   "url": "https://www.autoblog.com/news/ford-honda-vw-and-stellantis-sue-over-law-they-say-could-cost-2-billion",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Major automakers sue over a recall notice and fair compensation act affecting repair costs.",
+   "evidence_quote": "Ford, Honda, VW and Stellantis Sue Over Law They Say Could Cost $2 Billion",
+   "companies": [
+    "Ford",
+    "Honda",
+    "VW",
+    "Stellantis"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-22T06:15:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "a795d40202c4"
+   ],
+   "sources": [
+    {
+     "url": "https://www.autoblog.com/news/ford-honda-vw-and-stellantis-sue-over-law-they-say-could-cost-2-billion",
+     "publisher": "Autoblog",
+     "publisher_key": "autoblog",
+     "published": "2026-11-22T06:15:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.9,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_712380691852",
+   "title": "MercadoLibre: Sacrificing Near-Term Profitability For Long-Term Stability",
+   "url": "https://seekingalpha.com/article/4970783-mercadolibre-sacrificing-near-term-profitability-for-long-term-stability",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Seeking Alpha analyzes MercadoLibre's trade-off between near-term profitability and long-term stability.",
+   "evidence_quote": "MercadoLibre: Sacrificing Near-Term Profitability For Long-Term Stability",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T21:31:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "712380691852"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/article/4970783-mercadolibre-sacrificing-near-term-profitability-for-long-term-stability",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-11-20T21:31:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.2,
+   "age_days": 2.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.78,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_43452bc5d3cb",
+   "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+   "url": "https://www.reuters.com/legal/litigation/waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control-2026-11-20/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Waymo issues recalls for self-driving cars regarding closed freeway lanes and manual traffic control.",
+   "evidence_quote": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T12:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "43452bc5d3cb"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reuters.com/legal/litigation/waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control-2026-11-20/",
+     "publisher": "Reuters",
+     "publisher_key": "reuters",
+     "published": "2026-11-20T12:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 43.7,
+   "age_days": 2.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.75,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_298d64a40ff5",
+   "title": "HIVE Underwriters strengthens Aviation capabilities with Vessey appointment",
+   "url": "https://www.reinsurancene.ws/hive-underwriters-strengthens-aviation-capabilities-with-vessey-appointment/",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "HIVE Underwriters has appointed Adam Vessey as Aviation Claims Manager, effective March 1, 2027.",
+   "evidence_quote": "HIVE Underwriters strengthens Aviation capabilities with Vessey appointment",
+   "companies": [
+    "HIVE Underwriters"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T09:00:17Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "298d64a40ff5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reinsurancene.ws/hive-underwriters-strengthens-aviation-capabilities-with-vessey-appointment/",
+     "publisher": "Reinsurance News",
+     "publisher_key": "reinsurance news",
+     "published": "2026-11-23T09:00:17Z",
+     "tier": 2,
+     "source_id": "reinsurancenews",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 42.2,
+   "age_days": 0.0,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 1.0,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_09d2fd88bd51",
+   "title": "GEODIS Launches U.S. Final Mile Index as Delivery Costs Rise Three Times Faster Than Inflation",
+   "url": "https://finance.yahoo.com/economy/articles/geodis-launches-u-final-mile-150000987.html",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.9,
+   "summary": "GEODIS launched its U.S. Final Mile Index, showing final mile costs up 10.5% year over year.",
+   "evidence_quote": "GEODIS Launches U.S. Final Mile Index as Delivery Costs Rise Three Times Faster Than Inflation",
+   "companies": [
+    "GEODIS"
+   ],
+   "implication": "Final-mile operational costs are surging. Fleet margins remain tight, increasing the value proposition of risk-reducing telematics insurance.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-18T07:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-21T08:51:03Z",
+   "first_run": "2026-11-21T08-51-03Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": "New corroborating source: American Journal of Transportation",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "09d2fd88bd51",
+    "b3ebfdc39183"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/economy/articles/geodis-launches-u-final-mile-150000987.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-18T07:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"One80\" last mile delivery insurance"
+    },
+    {
+     "url": "https://www.ajot.com/news/geodis-launches-u.s-final-mile-index-as-delivery-costs-rise-three-times-faster-than-inflation",
+     "publisher": "American Journal of Transportation",
+     "publisher_key": "american journal of transportation",
+     "published": "2026-11-18T02:32:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 62.5,
+   "age_days": 5.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.6,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_08900a8a324c",
+   "title": "TransUnion Finds Nearly 50% Drop in Renters Becoming Homeowners, Reshaping Property Insurance Market",
+   "url": "https://markets.businessinsider.com/news/stocks/transunion-finds-nearly-50-drop-in-renters-becoming-homeowners-reshaping-property-insurance-market-1036773534",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "TransUnion reports a 46% decline in renters converting to homeownership between 2009 and 2025.",
+   "evidence_quote": "TransUnion Finds Nearly 50% Drop in Renters Becoming Homeowners",
+   "companies": [
+    "TransUnion"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-16T23:25:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-17T21:54:15Z",
+   "first_run": "2026-11-17T21-54-15Z",
+   "last_seen": "2026-11-23T09:51:30Z",
+   "last_updated_run": "2026-11-23T09-51-30Z",
+   "update_note": "New corroborating source: financialcontent",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "08900a8a324c"
+   ],
+   "sources": [
+    {
+     "url": "https://markets.businessinsider.com/news/stocks/transunion-finds-nearly-50-drop-in-renters-becoming-homeowners-reshaping-property-insurance-market-1036773534",
+     "publisher": "Markets Insider",
+     "publisher_key": "markets insider",
+     "published": "2026-11-16T23:25:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    },
+    {
+     "url": "https://www.financialcontent.com/article/gnwcq-2026-11-17-transunion-finds-nearly-50-drop-in-renters-becoming-homeowners-reshaping-property-insurance-market",
+     "publisher": "financialcontent",
+     "publisher_key": "financialcontent",
+     "published": "2026-11-17T04:26:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" market outlook report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 37.4,
+   "age_days": 6.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.53,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "HIVE Underwriters strengthens Aviation capabilities with Vessey appointment",
+   "url": "https://www.reinsurancene.ws/hive-underwriters-strengthens-aviation-capabilities-with-vessey-appointment/",
+   "publisher": "Reinsurance News",
+   "lane": "competitor_move",
+   "event_type": "leadership",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "HIVE Underwriters strengthens Aviation capabilities with Vessey appointment",
+   "note": "Context only"
+  },
+  {
+   "title": "Titagarh Rail stock trades lower despite three fresh cues",
+   "url": "https://www.businesstoday.in/markets/stocks/story/titagarh-rail-stock-trades-lower-despite-three-fresh-cues-569067-2026-11-23",
+   "publisher": "Business Today",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Titagarh received route clearance from Indian Railways",
+   "note": "Titagarh received route clearance from Indian Railways for specialised auto-carrier wagons."
+  },
+  {
+   "title": "Former biotech dumps $10M crypto treasury for robots",
+   "url": "https://www.thestreet.com/crypto/markets/former-biotech-dumps-10m-crypto-treasury-for-robots",
+   "publisher": "TheStreet",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Former biotech dumps $10M crypto treasury for robots",
+   "note": "A former biotech and crypto treasury company has shifted focus to humanoid robots."
+  },
+  {
+   "title": "‘My heart breaks for every parent:’ Families, lawmakers respond to Spotlight PA’s overdose investigations",
+   "url": "https://www.thetimes-tribune.com/2026/11/23/my-heart-breaks-for-every-parent-families-lawmakers-respond-to-spotlight-pas-overdose-investigations/",
+   "publisher": "The Times-Tribune",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Overdose death prosecutions in Pennsylvania received new scrutiny",
+   "note": "Overdose death prosecutions in Pennsylvania are facing new scrutiny from lawmakers and advocates."
+  },
+  {
+   "title": "Reading Women 2-1 Chesham United Women: Match Report",
+   "url": "https://sports.yahoo.com/articles/reading-women-2-1-chesham-084617278.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Reading Women 2-1 Chesham United Women: Match Report",
+   "note": "Reading Women defeated Chesham United Women 2-1."
+  },
+  {
+   "title": "The Rise and Fall of Taiwan's Power Supply Manufacturers: Development Secrets and Survival Strategies of the 'Unsung Heroes' That Powered the World's PCs",
+   "url": "https://note.com/akihiro312/n/n3835c78ad416?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Rise and Fall of Taiwan's Power Supply Manufacturers",
+   "note": "An analysis explores the development and dominance of Taiwanese power supply manufacturers."
+  },
+  {
+   "title": "What Does Walmart (WMT) Nearly Tripling 30 Minute Delivery Volume Mean?",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/does-walmart-wmt-nearly-tripling-080658672.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Walmart (NasdaqGS:WMT) reported that sub-30-minute delivery volume nearly tripled in Q3",
+   "note": "Surging last-mile delivery volumes increase commercial auto exposure hours. Monitor gig and parcel fleet utilization rates for underwriting telematics calibration."
+  },
+  {
+   "title": "Lewis Hamilton's $400,000 Richard Mille Met Its Match as Las Vegas GP Stars Flexed Wild Watches",
+   "url": "https://sports.yahoo.com/articles/lewis-hamiltons-400-000-richard-074209803.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Lewis Hamilton's $400,000 Richard Mille Met Its Match",
+   "note": "A celebrity watch collection at the Las Vegas Grand Prix attracted attention."
+  },
+  {
+   "title": "Delhivery back in the black in Q2, posts Rs 41 cr profit",
+   "url": "https://www.medianama.com/2026/11/223-delhivery-black-posts-profit/",
+   "publisher": "MediaNama",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Delhivery posts Rs 40.6 crore Q2 FY27 profit as revenue rises 20%",
+   "note": "Strong financial health among major logistics players indicates robust delivery demand, supporting fleet expansion and commercial auto policy purchases."
+  },
+  {
+   "title": "Wind sails, e-methanol and a stalled global deal: Can hard-to-decarbonise shipping go green?",
+   "url": "https://www.msn.com/en-ca/weather/general/wind-sails-e-methanol-and-a-stalled-global-deal-can-hard-to-decarbonise-shipping-go-green/ar-AA2i1ILS",
+   "publisher": "Euronews on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Wind sails, e-methanol and a stalled global deal",
+   "note": "International maritime organizations continue efforts to establish green shipping decarbonization deals."
+  },
+  {
+   "title": "Shippers’ Authority targets lower shipping costs in 2027",
+   "url": "https://www.msn.com/en-xl/money/general/shippers-authority-targets-lower-shipping-costs-in-2027/ar-AA2i0yyY",
+   "publisher": "The Business & Financial Times on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Shippers’ Authority targets lower shipping costs in 2027",
+   "note": "The Shippers' Authority is targeting lower shipping costs in 2027."
+  },
+  {
+   "title": "Vikings offense, after 49ers loss, still needs to prove it’s worth trusting",
+   "url": "https://www.startribune.com/minnesota-vikings-san-francisco-49ers-score-kirk-cousins-justin-jefferson-stats-mexico-city/601922750",
+   "publisher": "Star Tribune",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Vikings offense, after 49ers loss, still needs to prove it’s worth trusting",
+   "note": "Minnesota Vikings offensive performance analysis following a loss."
+  },
+  {
+   "title": "10 Common Complaints Customers Have About Burger King",
+   "url": "https://www.yahoo.com/lifestyle/articles/10-common-complaints-customers-burger-010300450.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "10 Common Complaints Customers Have About Burger King",
+   "note": "An overview of common customer complaints regarding Burger King."
+  },
+  {
+   "title": "Gene writing in vivo",
+   "url": "https://www.nature.com/articles/d41573-026-00183-6",
+   "publisher": "Nature",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Gene writing in vivo",
+   "note": "Gene writing research identified specific high-activity gene writers."
+  },
+  {
+   "title": "In Vietnam, an Electric Vehicle Revolution Without Cars",
+   "url": "https://www.nytimes.com/2026/11/23/business/electric-motorcyles-vietnam.html",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "In Vietnam, an Electric Vehicle Revolution Without Cars",
+   "note": "Vietnam's vehicle market is experiencing an electric motorcycle revolution."
+  },
+  {
+   "title": "Cebu’s Port Charges Are Rising. Look Beyond the Tariff.",
+   "url": "https://portcalls.com/cebus-port-charges-are-rising-look-beyond-the-tariff/",
+   "publisher": "PortCalls Asia",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Cebu’s Port Charges Are Rising. Look Beyond the Tariff.",
+   "note": "Cebu port charges are rising due to increased operating costs and wages."
+  },
+  {
+   "title": "Halaifonua scores 22, Natt 21 and Oklahoma State goes wild in second half to rout Virginia Tech",
+   "url": "https://www.msn.com/en-us/sports/college-sports/halaifonua-scores-22-natt-21-and-oklahoma-state-goes-wild-in-second-half-to-rout-virginia-tech/ar-AA2hZNiy",
+   "publisher": "Associated Press News on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Oklahoma State goes wild in second half to rout Virginia Tech",
+   "note": "Oklahoma State defeated Virginia Tech in a college basketball game."
+  },
+  {
+   "title": "These 15 Restaurant Chains Are Open On Thanksgiving 2026",
+   "url": "https://www.yahoo.com/lifestyle/articles/15-restaurant-chains-open-thanksgiving-222500172.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "These 15 Restaurant Chains Are Open On Thanksgiving 2026",
+   "note": "A list of restaurant chains open nationwide on Thanksgiving 2026."
+  },
+  {
+   "title": "Everyone Had Them In The '70s — Now These Trinkets And Novelties Are Thrift Store Gems We Want",
+   "url": "https://shopping.yahoo.com/home-garden/home-decor/articles/everyone-had-them-70s-now-212000638.html",
+   "publisher": "YAHOO!",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Everyone Had Them In The '70s",
+   "note": "A retrospective look at 1970s novelties and trinkets found in thrift stores."
+  },
+  {
+   "title": "Wildberries owner steps down after EU sanctions target Russian oligarchs",
+   "url": "https://kyivindependent.com/wildberries-owner-steps-down-after-eu-sanctions-target-russian-oligarchs-2/",
+   "publisher": "The Kyiv Independent",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Wildberries owner steps down after EU sanctions target Russian oligarchs",
+   "note": "The owner of Wildberries has stepped down following EU sanctions targeting Russian oligarchs."
+  },
+  {
+   "title": "Ukraine presses Sweden for faster Gripen jets delivery and Meteor missiles",
+   "url": "https://www.aerotime.aero/articles/ukraine-sweden-speed-up-gripen-meteor-missiles",
+   "publisher": "AeroTime",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ukraine presses Sweden for faster Gripen jets delivery",
+   "note": "Ukraine presses Sweden for faster delivery of Gripen fighter jets and Meteor missiles."
+  },
+  {
+   "title": "I moved from Australia to the Welsh valleys because the houses are so cheap",
+   "url": "https://www.msn.com/en-us/news/other/i-moved-from-australia-to-the-welsh-valleys-because-the-houses-are-so-cheap/ar-AA2hZiB8",
+   "publisher": "BBC on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "I moved from Australia to the Welsh valleys because the houses are so cheap",
+   "note": "An Australian investor moves to the Welsh valleys due to affordable housing."
+  },
+  {
+   "title": "ACC Basketball Schedule: Nov. 23-29 – Full Schedule and Must-Watch Games",
+   "url": "https://accsports.com/news/acc-basketball-schedule-november-23-29/",
+   "publisher": "ACC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "ACC Basketball Schedule: Nov. 23-29",
+   "note": "ACC publishes its basketball schedule for November 23-29."
+  },
+  {
+   "title": "Ford, Honda, VW and Stellantis Sue Over Law They Say Could Cost $2 Billion",
+   "url": "https://www.autoblog.com/news/ford-honda-vw-and-stellantis-sue-over-law-they-say-could-cost-2-billion",
+   "publisher": "Autoblog",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ford, Honda, VW and Stellantis Sue Over Law They Say Could Cost $2 Billion",
+   "note": "Context only"
+  },
+  {
+   "title": "I ride e-bikes for a living. This is the real gear I actually use",
+   "url": "https://electrek.co/2026/11/21/i-ride-e-bikes-for-a-living-this-is-the-real-gear-i-actually-use/",
+   "publisher": "Electrek",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "I ride e-bikes for a living.",
+   "note": "An e-bike rider shares gear used for professional riding."
+  },
+  {
+   "title": "MercadoLibre: Sacrificing Near-Term Profitability For Long-Term Stability",
+   "url": "https://seekingalpha.com/article/4970783-mercadolibre-sacrificing-near-term-profitability-for-long-term-stability",
+   "publisher": "Seeking Alpha",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "MercadoLibre: Sacrificing Near-Term Profitability For Long-Term Stability",
+   "note": "Context only"
+  },
+  {
+   "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+   "url": "https://www.reuters.com/legal/litigation/waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control-2026-11-20/",
+   "publisher": "Reuters",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+   "note": "Context only"
+  },
+  {
+   "title": "Rice’s 3 QBs complete stunning comeback over Temple, 31-27, to secure first FBS victory",
+   "url": "https://sports.yahoo.com/articles/rice-3-qbs-complete-stunning-070720411.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Rice’s 3 QBs complete stunning comeback over Temple",
+   "note": "Rice secures an FBS victory with a comeback over Temple."
+  },
+  {
+   "title": "Former Sacramento City Council member Sean Loloee sentenced to more than 3 years in prison for fraud schemes",
+   "url": "https://www.kcra.com/article/sacramento-sean-loloee-sentence-fraud-viva-supermarkets/74480990",
+   "publisher": "KCRA Channel 3",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Former Sacramento City Council member Sean Loloee sentenced to more than 3 years in prison",
+   "note": "Former council member Sean Loloee sentenced for fraud schemes tied to supermarket chain."
+  },
+  {
+   "title": "Why Pittsburgh Zoo polar bear, Snowflake, was euthanized before birthday",
+   "url": "https://www.freep.com/story/news/state/pennsylvania/pittsburgh/2026/11/19/pittsburgh-polar-bear-snowflake-birthday-die-euthanized/92857608007/",
+   "publisher": "Detroit Free Press",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Why Pittsburgh Zoo polar bear, Snowflake, was euthanized",
+   "note": "Pittsburgh Zoo polar bear Snowflake was euthanized before her 31st birthday."
+  },
+  {
+   "title": "CXT Software and Dispatch Science Combine to Create the Largest, Unified Agentic Last-Mile TMS",
+   "url": "https://www.freep.com/press-release/story/274725/cxt-software-and-dispatch-science-combine-to-create-the-largest-unified-agentic-last-mile-tms/",
+   "publisher": "Detroit Free Press",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "CXT Software and Dispatch Science Combine to Create the Largest, Unified Agentic Last-Mile TMS",
+   "note": "Monitor integrated TMS platforms like CXT Software and Dispatch Science as potential telematics and data integration partners for last-mile fleet underwriting."
+  },
+  {
+   "title": "UnitedHealthcare and CPESN Announce New Care Delivery Model Expanding Access to Care in Rural and Underserved Communities Through Independent Pharmacies",
+   "url": "https://finance.yahoo.com/healthcare/articles/unitedhealthcare-cpesn-announce-care-delivery-120000683.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "UnitedHealthcare and CPESN Announce New Care Delivery Model",
+   "note": "UnitedHealthcare and CPESN announce a care delivery model expanding access via independent pharmacies."
+  }
+ ],
+ "digest": "- Walmart reported its sub-30-minute delivery volume nearly tripled in Q3 due to expanded store networks, increasing commercial auto exposure hours and requiring telematics calibration for fleet utilization rates [1].\n- GEODIS launched its U.S. Final Mile Index showing delivery costs up 10.5% year over year, tightening fleet margins and increasing the value proposition of our risk-reducing telematics insurance [8].\n- CXT Software and Dispatch Science combined to create a unified agentic last-mile transportation management system, serving as potential data integration partners for last-mile fleet underwriting [2].\n- Delhivery returned to profitability in Q2 with a Rs 40.6 crore profit as revenue rose 20%, indicating robust delivery demand that supports fleet expansion and commercial auto policy purchases [3]."
+}

@@ -1506,12 +1506,13 @@
  "HIVE Underwriters": {
   "name": "HIVE Underwriters",
   "first_seen": "2026-11-05T08:34:16Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_9b00eb655377"
+   "ev_9b00eb655377",
+   "ev_298d64a40ff5"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-05T08:34:16Z"
+  "last_seen": "2026-11-23T09:51:30Z"
  },
  "Folgate Underwriting": {
   "name": "Folgate Underwriting",
@@ -2651,5 +2652,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-21T20:15:06Z"
+ },
+ "Waymo": {
+  "name": "Waymo",
+  "first_seen": "2026-11-23T09:51:30Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_43452bc5d3cb"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-23T09:51:30Z"
  }
 }
