@@ -1710,12 +1710,13 @@
  "Lloyd’s": {
   "name": "Lloyd’s",
   "first_seen": "2026-11-07T07:49:44Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_35f00aae1570"
+   "ev_35f00aae1570",
+   "ev_ec557344c888"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-07T07:49:44Z"
+  "last_seen": "2026-11-24T11:39:53Z"
  },
  "Arthur J. Gallagher": {
   "name": "Arthur J. Gallagher",
@@ -2662,5 +2663,45 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-23T09:51:30Z"
+ },
+ "Crux Underwriting": {
+  "name": "Crux Underwriting",
+  "first_seen": "2026-11-24T11:39:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_ec557344c888"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T11:39:53Z"
+ },
+ "Trucker Path": {
+  "name": "Trucker Path",
+  "first_seen": "2026-11-24T11:39:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_123bcdaf8493"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T11:39:53Z"
+ },
+ "Triumph Financial": {
+  "name": "Triumph Financial",
+  "first_seen": "2026-11-24T11:39:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_123bcdaf8493"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T11:39:53Z"
+ },
+ "Transfix": {
+  "name": "Transfix",
+  "first_seen": "2026-11-24T11:39:53Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_123bcdaf8493"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T11:39:53Z"
  }
 }

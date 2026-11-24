@@ -1,0 +1,2383 @@
+{
+ "run_id": "2026-11-24T11-39-53Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/45386198962",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-24",
+ "started": "2026-11-24T11:39:53Z",
+ "duration_s": 287.1,
+ "baseline": false,
+ "previous_run": "2026-11-24T01-13-32Z",
+ "previous_started": "2026-11-24T01:13:32Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 379,
+  "unique": 352,
+  "known_skipped": 282,
+  "attached_existing": 1,
+  "prefiltered_out": 19,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 50,
+  "irrelevant": 26,
+  "quarantined": 0,
+  "new_events": 22,
+  "updated_events": 1,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.75,
+  "dedup_ratio": 0.858,
+  "relevance_rate": 0.44
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 670
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 544
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 282
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 325
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 74
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 163
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 212
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 168
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 317
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 164
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 198
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 193
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 168
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 181
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 178
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 226
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 186
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 160
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 189
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 185
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 197
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 190
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 197
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 202
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 290
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 291
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 251
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1667
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 821
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 183
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 705
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 258
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 766
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 847
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 9938,
+  "output_tokens": 7408,
+  "calls": 4,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 4
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_a84b99b0978e",
+   "title": "Liability Insurers Face Up to $337 Billion in Added Costs",
+   "url": "https://www.mychesco.com/a/news/business/liability-insurers-face-up-to-337-billion-in-added-costs/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 4,
+   "last_mile_fit": 0.8,
+   "summary": "U.S. auto and general liability insurers faced massive additional losses from 2016 through 2025.",
+   "evidence_quote": "Liability Insurers Face Up to $337 Billion in Added Costs",
+   "companies": [],
+   "implication": "Escalating industry-wide loss trends require strict telematics-based underwriting and risk selection for Nirvana's last-mile commercial auto book.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-22T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "a84b99b0978e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.mychesco.com/a/news/business/liability-insurers-face-up-to-337-billion-in-added-costs/",
+     "publisher": "MyChesCo",
+     "publisher_key": "mychesco",
+     "published": "2026-11-22T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 70.0,
+   "age_days": 1.8,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.84,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_c94166aad321",
+   "title": "DSA and union leaders push bill to recognize Amazon delivery drivers as employees",
+   "url": "https://www.wsws.org/en/articles/2026/11/24/frgc-n24.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Union leaders and activists push for the Delivery Protection Act to mandate licensing and safety training for last-mile facilities.",
+   "evidence_quote": "DSA and union leaders push bill to recognize Amazon delivery drivers as employees",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Monitor municipal-level delivery worker legislation as it impacts DSP operating models and risk profiles.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "c94166aad321"
+   ],
+   "sources": [
+    {
+     "url": "https://www.wsws.org/en/articles/2026/11/24/frgc-n24.html",
+     "publisher": "World Socialist Web Site",
+     "publisher_key": "world socialist web site",
+     "published": "2026-11-23T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.3,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a779493d7f8b",
+   "title": "Amazon fights Delivery Protection Act by putting stickers on its packages",
+   "url": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "Amazon is attaching packaging stickers to delivery boxes urging consumers to oppose local delivery legislation in New York City.",
+   "evidence_quote": "Amazon fights Delivery Protection Act by putting stickers on its packages",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Track how large delivery networks push back against municipal operational regulations affecting delivery density.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T03:38:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "a779493d7f8b"
+   ],
+   "sources": [
+    {
+     "url": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
+     "publisher": "Ars Technica",
+     "publisher_key": "ars technica",
+     "published": "2026-11-23T03:38:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon DSP delivery contractors"
+    }
+   ],
+   "best_tier": 3,
+   "score": 61.6,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_750bba0fff84",
+   "title": "U.S. Department of Labor Releases Final Rule Regarding Independent Contractor Classification Standards",
+   "url": "https://www.jdsupra.com/legalnews/u-s-department-of-labor-releases-final-2691884/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.5,
+   "summary": "The U.S. Department of Labor released a final rule regarding independent contractor classification standards.",
+   "evidence_quote": "U.S. Department of Labor Releases Final Rule Regarding Independent Contractor Classification Standards",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-22T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "750bba0fff84"
+   ],
+   "sources": [
+    {
+     "url": "https://www.jdsupra.com/legalnews/u-s-department-of-labor-releases-final-2691884/",
+     "publisher": "JD Supra",
+     "publisher_key": "jd supra",
+     "published": "2026-11-22T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 59.0,
+   "age_days": 1.8,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.84,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_bf715c01eb44",
+   "title": "DOL Announces Adoption of “Economic Reality” Test for Determining Independent Contractor vs. Employee Classification",
+   "url": "https://www.jdsupra.com/legalnews/dol-announces-adoption-of-economic-9495739/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.5,
+   "summary": "The Department of Labor adopted an economic reality test for independent contractor versus employee classification.",
+   "evidence_quote": "DOL Announces Adoption of “Economic Reality” Test",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-22T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "bf715c01eb44"
+   ],
+   "sources": [
+    {
+     "url": "https://www.jdsupra.com/legalnews/dol-announces-adoption-of-economic-9495739/",
+     "publisher": "JD Supra",
+     "publisher_key": "jd supra",
+     "published": "2026-11-22T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 59.0,
+   "age_days": 1.8,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.84,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_08da89c193e4",
+   "title": "Commercial Driver's License: Nick Castello; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23924/commercial-drivers-license-nick-castello-application-for-exemption",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "FMCSA published a notice requesting comments on an application for a commercial driver's license exemption.",
+   "evidence_quote": "Commercial Driver's License: Nick Castello; Application for Exemption",
+   "companies": [
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "implication": "Monitor driver eligibility rule changes that could impact labor availability for commercial delivery fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-24T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "08da89c193e4",
+    "77337f9c1935",
+    "559fc980d476"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23924/commercial-drivers-license-nick-castello-application-for-exemption",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-24T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "FMCSA delivery"
+    }
+   ],
+   "best_tier": 1,
+   "score": 58.3,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 0.95,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_dc4875da05e9",
+   "title": "Commercial Driver's License: Yehonatan Kapach; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23921/commercial-drivers-license-yehonatan-kapach-application-for-exemption",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "FMCSA requested public comment on an application for a CDL exemption involving license reinstatement.",
+   "evidence_quote": "Commercial Driver's License: Yehonatan Kapach; Application for Exemption",
+   "companies": [
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-24T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "dc4875da05e9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23921/commercial-drivers-license-yehonatan-kapach-application-for-exemption",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-24T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "FMCSA delivery"
+    }
+   ],
+   "best_tier": 1,
+   "score": 58.3,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 0.95,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_f689bbedceeb",
+   "title": "Commercial Driver's License: Amiran Morchiladze; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23919/commercial-drivers-license-amiran-morchiladze-application-for-exemption",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "FMCSA requested public comment on an application for temporary relief from CDL immigration eligibility rules.",
+   "evidence_quote": "Commercial Driver's License: Amiran Morchiladze; Application for Exemption",
+   "companies": [
+    "Federal Motor Carrier Safety Administration"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-24T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "f689bbedceeb"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23919/commercial-drivers-license-amiran-morchiladze-application-for-exemption",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-24T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "FMCSA delivery"
+    }
+   ],
+   "best_tier": 1,
+   "score": 58.3,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 0.95,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_7b280ab3fd63",
+   "title": "FedEx has acquired Poland-based InPost in $9.2B joint-agreement",
+   "url": "https://www.msn.com/en-us/news/other/fedex-part-of-consortium-acquiring-poland-based-inpost/ar-AA2hSL7M",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.7,
+   "summary": "FedEx completed a joint-agreement acquisition of Poland-based InPost.",
+   "evidence_quote": "FedEx has acquired Poland-based InPost in $9.2B joint-agreement",
+   "companies": [
+    "FedEx"
+   ],
+   "implication": "Monitor whether FedEx fleet consolidation impacts local delivery operator structures and insurance purchasing patterns for FedEx ISPs.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-20T12:59:41Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "7b280ab3fd63"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/fedex-part-of-consortium-acquiring-poland-based-inpost/ar-AA2hSL7M",
+     "publisher": "Commercial Appeal Memphis on MSN",
+     "publisher_key": "commercial appeal memphis on msn",
+     "published": "2026-11-20T12:59:41Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 56.6,
+   "age_days": 3.9,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.68,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f03c8b7338b6",
+   "title": "The Last Mile Starts in the Warehouse: Why Fulfillment Visibility Is the Key to Omnichannel Success",
+   "url": "https://www.retailtouchpoints.com/executive-viewpoints/the-last-mile-starts-in-the-warehouse-why-fulfillment-visibility-is-the-key-to-omnichannel-success/622179/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.7,
+   "summary": "Industry analysis highlights how warehouse fulfillment visibility and EDI impact retail last-mile delivery success.",
+   "evidence_quote": "The Last Mile Starts in the Warehouse: Why Fulfillment Visibility Is the Key",
+   "companies": [
+    "DCL Logistics"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T04:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "f03c8b7338b6"
+   ],
+   "sources": [
+    {
+     "url": "https://www.retailtouchpoints.com/executive-viewpoints/the-last-mile-starts-in-the-warehouse-why-fulfillment-visibility-is-the-key-to-omnichannel-success/622179/",
+     "publisher": "Retail TouchPoints",
+     "publisher_key": "retail touchpoints",
+     "published": "2026-11-23T04:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"One80\" last mile delivery insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.7,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.88,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f7aeac0b7bcb",
+   "title": "Amazon's Drone Hit a Fiber Line. The $2.99 Delivery Fee Is the Tell.",
+   "url": "https://www.ainvest.com/news/amazon-drone-hit-fiber-line-2-99-delivery-fee-2611/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "An Amazon delivery drone collided with power lines and a garage during takeoff, prompting an FAA investigation.",
+   "evidence_quote": "Amazon's Drone Hit a Fiber Line. The $2.99 Delivery Fee Is the Tell.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Highlights regulatory and physical risks associated with autonomous and aerial delivery methods, underscoring liability complexities.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T21:20:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f7aeac0b7bcb"
+   ],
+   "sources": [
+    {
+     "url": "https://www.ainvest.com/news/amazon-drone-hit-fiber-line-2-99-delivery-fee-2611/",
+     "publisher": "ainvest",
+     "publisher_key": "ainvest",
+     "published": "2026-11-23T21:20:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 52.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3da37491a070",
+   "title": "Marsh flags AI productivity gap as 2027's defining business risk",
+   "url": "https://www.insurancebusinessmag.com/us/news/technology/marsh-flags-ai-productivity-gap-as-2027s-defining-business-risk-598554.aspx",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Marsh's 2027 Economic and Market Outlook highlights an AI productivity gap across major companies.",
+   "evidence_quote": "Marsh flags AI productivity gap as 2027's defining business risk",
+   "companies": [
+    "Marsh"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T21:23:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "3da37491a070"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/technology/marsh-flags-ai-productivity-gap-as-2027s-defining-business-risk-598554.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-23T21:23:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.4,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.94,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_5acf925716da",
+   "title": "Florida secures $122.6 million in excess auto insurance profits",
+   "url": "https://www.insurancebusinessmag.com/us/news/auto-motor/florida-secures-122-6-million-in-excess-auto-insurance-profits-598374.aspx",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Florida regulators secured millions in excess auto insurance profits requiring carrier refunds to policyholders.",
+   "evidence_quote": "Florida secures $122.6 million in excess auto insurance profits",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-22T19:43:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "5acf925716da"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/auto-motor/florida-secures-122-6-million-in-excess-auto-insurance-profits-598374.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-22T19:43:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.0,
+   "age_days": 1.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.85,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_7940cd52b763",
+   "title": "North Myrtle Beach rejected Amazon's drone delivery plan. Now the case is in court.",
+   "url": "https://www.msn.com/en-us/news/other/north-myrtle-beach-rejected-amazon-s-drone-delivery-plan-now-the-case-is-in-court/ar-AA2i6YVY",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "A legal dispute is underway after North Myrtle Beach officials rejected Amazon's drone delivery launchpad request.",
+   "evidence_quote": "North Myrtle Beach rejected Amazon's drone delivery plan. Now the case is in court.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-24T02:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "7940cd52b763"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/north-myrtle-beach-rejected-amazon-s-drone-delivery-plan-now-the-case-is-in-court/ar-AA2i6YVY",
+     "publisher": "The Post and Courier on MSN",
+     "publisher_key": "the post and courier on msn",
+     "published": "2026-11-24T02:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_cab66bbbe1fc",
+   "title": "NYC communists target Amazon from the inside — with help from City Hall",
+   "url": "https://www.msn.com/en-us/news/other/nyc-communists-target-amazon-from-the-inside-with-help-from-city-hall/ar-AA2i5G4J",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Local political debate in New York City centers on labor activism targeting Amazon's delivery operations.",
+   "evidence_quote": "NYC communists target Amazon from the inside — with help from City Hall",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T18:49:01Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "cab66bbbe1fc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/nyc-communists-target-amazon-from-the-inside-with-help-from-city-hall/ar-AA2i5G4J",
+     "publisher": "New York Post on MSN",
+     "publisher_key": "new york post on msn",
+     "published": "2026-11-23T18:49:01Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"last-mile delivery\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_123bcdaf8493",
+   "title": "New free CB radio in trucker path app, CDL job finder tool & more",
+   "url": "https://www.ccjdigital.com/technology/business-operations/video/16542595/trucker-path-app-launches-free-cb-radio-feature",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Trucker Path launched an in-app CB radio feature to enhance driver communication and safety alongside freight market expansions.",
+   "evidence_quote": "New free CB radio in trucker path app, CDL job finder tool",
+   "companies": [
+    "Trucker Path",
+    "Triumph Financial",
+    "Transfix"
+   ],
+   "implication": "Note driver-facing digital platforms increasing engagement features that could eventually integrate telematics or safety services.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-22T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "123bcdaf8493"
+   ],
+   "sources": [
+    {
+     "url": "https://www.ccjdigital.com/technology/business-operations/video/16542595/trucker-path-app-launches-free-cb-radio-feature",
+     "publisher": "Commercial Carrier Journal",
+     "publisher_key": "commercial carrier journal",
+     "published": "2026-11-22T16:00:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 50.8,
+   "age_days": 1.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.84,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_5eabb442d791",
+   "title": "Walmart Just Raised Its Outlook Again. 3 Numbers Show Why Its Scale Advantage Keeps Growing.",
+   "url": "https://www.fool.com/investing/2026/11/24/walmart-raised-its-outlook-again-3-numbers-show-why-its-scale-advantage-keeps-growing/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Walmart raised its financial outlook, demonstrating strong multi-year retail performance and scale advantages.",
+   "evidence_quote": "Walmart Just Raised Its Outlook Again. 3 Numbers Show Why Its Scale Advantage Keeps Growing.",
+   "companies": [],
+   "implication": "Strong retail sales volume can support robust local delivery and courier activity, bolstering commercial auto exposure.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-24T02:20:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "5eabb442d791"
+   ],
+   "sources": [
+    {
+     "url": "https://www.fool.com/investing/2026/11/24/walmart-raised-its-outlook-again-3-numbers-show-why-its-scale-advantage-keeps-growing/",
+     "publisher": "The Motley Fool",
+     "publisher_key": "the motley fool",
+     "published": "2026-11-24T02:20:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 49.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3daed0e35902",
+   "title": "U.S. Flash PMI Indicates Still-Elevated, But Cooling, Business Activity Growth And Price Pressures",
+   "url": "https://seekingalpha.com/article/4971334-us-flash-pmi-indicates-still-elevated-cooling-business-activity-growth-price-pressures",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "The U.S. Flash PMI Composite Output Index showed continued business activity growth, though at a slower pace.",
+   "evidence_quote": "U.S. Flash PMI Indicates Still-Elevated, But Cooling, Business Activity Growth",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-24T00:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "3daed0e35902"
+   ],
+   "sources": [
+    {
+     "url": "https://seekingalpha.com/article/4971334-us-flash-pmi-indicates-still-elevated-cooling-business-activity-growth-price-pressures",
+     "publisher": "Seeking Alpha",
+     "publisher_key": "seeking alpha",
+     "published": "2026-11-24T00:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_96a19a56cf23",
+   "title": "Uncle Sam Charges A Higher Tariff Rate On A Practical Mazda CX-5 Than A Twin-Turbo R34 Skyline GT-R",
+   "url": "https://carbuzz.com/usa-tariffs-new-mazda-cx-5/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "U.S. customs rules impose a 15% import tariff on specific imported vehicles.",
+   "evidence_quote": "Uncle Sam Charges A Higher Tariff Rate On A Practical Mazda CX-5",
+   "companies": [],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "96a19a56cf23"
+   ],
+   "sources": [
+    {
+     "url": "https://carbuzz.com/usa-tariffs-new-mazda-cx-5/",
+     "publisher": "CarBuzz",
+     "publisher_key": "carbuzz",
+     "published": "2026-11-23T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.3,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_8a5ca2557ad1",
+   "title": "Amazon Made Drone Delivery Famous. Zipline Is Making It a $21 Billion Business",
+   "url": "https://www.inc.com/michael-rapkin/zipline-drone-delivery-amazon-prime-air-uber-eats-wing-faa/91430551",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Drone delivery company Zipline expanded its operations and completed millions of deliveries.",
+   "evidence_quote": "Amazon Made Drone Delivery Famous. Zipline Is Making It a $21 Billion Business",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-19T03:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "8a5ca2557ad1"
+   ],
+   "sources": [
+    {
+     "url": "https://www.inc.com/michael-rapkin/zipline-drone-delivery-amazon-prime-air-uber-eats-wing-faa/91430551",
+     "publisher": "Inc.com",
+     "publisher_key": "inc.com",
+     "published": "2026-11-19T03:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"One80\" last mile delivery insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.3,
+   "age_days": 5.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.59,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_ec557344c888",
+   "title": "MGA Crux Underwriting expands into property with wind deductible buy-down launch",
+   "url": "https://www.reinsurancene.ws/mga-crux-underwriting-expands-into-property-with-wind-deductible-buy-down-launch/",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "Crux Underwriting launched a new wind deductible buy-down property offering backed by Lloyd's capacity.",
+   "evidence_quote": "MGA Crux Underwriting expands into property with wind deductible buy-down launch",
+   "companies": [
+    "Crux Underwriting",
+    "Lloyd’s"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-24T08:00:53Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": null,
+   "fingerprints": [
+    "ec557344c888"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reinsurancene.ws/mga-crux-underwriting-expands-into-property-with-wind-deductible-buy-down-launch/",
+     "publisher": "Reinsurance News",
+     "publisher_key": "reinsurance news",
+     "published": "2026-11-24T08:00:53Z",
+     "tier": 2,
+     "source_id": "reinsurancenews",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 42.0,
+   "age_days": 0.2,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.99,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_c378891ec90e",
+   "title": "Legal weed in NC? Governor's cannabis council lays out a plan",
+   "url": "https://www.newsobserver.com/news/state/north-carolina/article318228119.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "A federal law taking effect soon will ban most hemp-derived THC products, affecting North Carolina regulations.",
+   "evidence_quote": "A federal law taking effect Dec. 11 will effectively ban most hemp-derived THC products",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T21:55:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T11:39:53Z",
+   "first_run": "2026-11-24T11-39-53Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "c378891ec90e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.newsobserver.com/news/state/north-carolina/article318228119.html",
+     "publisher": "The News & Observer",
+     "publisher_key": "the news & observer",
+     "published": "2026-11-23T21:55:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 39.7,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_43452bc5d3cb",
+   "title": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+   "url": "https://www.reuters.com/legal/litigation/waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control-2026-11-20/",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Waymo issues recalls for self-driving cars regarding closed freeway lanes and manual traffic control.",
+   "evidence_quote": "Waymo recalls self-driving cars over closed freeway lanes, manual traffic control",
+   "companies": [
+    "Waymo"
+   ],
+   "implication": "Context only",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T12:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-24T11:39:53Z",
+   "last_updated_run": "2026-11-24T11-39-53Z",
+   "update_note": "New corroborating source: Insurance Journal",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "43452bc5d3cb"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reuters.com/legal/litigation/waymo-recalls-self-driving-cars-over-closed-freeway-lanes-manual-traffic-control-2026-11-20/",
+     "publisher": "Reuters",
+     "publisher_key": "reuters",
+     "published": "2026-11-20T12:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"LEEO\" insurance OR \"Fairmatic\""
+    },
+    {
+     "url": "https://www.insurancejournal.com/news/national/2026/11/24/893481.htm",
+     "publisher": "Insurance Journal",
+     "publisher_key": "insurance journal",
+     "published": "2026-11-24T06:30:53Z",
+     "tier": 2,
+     "source_id": "insurancejournal",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 49.4,
+   "age_days": 4.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.67,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "trade press, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Vesttoo co-founder arrested in Czech Republic, subject to US extradition request: Report",
+   "url": "https://www.artemis.bm/news/vesttoo-co-founder-arrested-in-czech-republic-subject-to-us-extradition-request-report/?utm_source=rss&utm_medium=rss&utm_campaign=vesttoo-co-founder-arrested-in-czech-republic-subject-to-us-extradition-request-report",
+   "publisher": "Artemis",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Vesttoo co-founder arrested in Czech Republic, subject to US extradition request: Report",
+   "note": "A co-founder of Vesttoo was arrested in the Czech Republic and faces a US extradition request."
+  },
+  {
+   "title": "MGA Crux Underwriting expands into property with wind deductible buy-down launch",
+   "url": "https://www.reinsurancene.ws/mga-crux-underwriting-expands-into-property-with-wind-deductible-buy-down-launch/",
+   "publisher": "Reinsurance News",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "MGA Crux Underwriting expands into property with wind deductible buy-down launch",
+   "note": "Context only."
+  },
+  {
+   "title": "Are banks, post offices open on Thanksgiving? Here's what to know",
+   "url": "https://www.yahoo.com/news/us/articles/banks-post-offices-open-thanksgiving-110344095.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Are banks, post offices open on Thanksgiving? Here's what to know",
+   "note": "An overview of bank and post office closures for Thanksgiving."
+  },
+  {
+   "title": "Spooked by hackers and heat waves, the British become proper preppers",
+   "url": "https://www.washingtonpost.com/world/2026/11/24/spooked-by-hackers-heat-waves-british-become-proper-preppers/",
+   "publisher": "The Washington Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Spooked by hackers and heat waves, the British become proper preppers",
+   "note": "UK citizens are stocking up on emergency supplies following government advisories."
+  },
+  {
+   "title": "DiaMedica Therapeutics Reports Topline Interim Phase 2 Results from First Two Cohorts of DM199 in Early-Onset Fetal Growth Restriction",
+   "url": "https://finance.yahoo.com/healthcare/articles/diamedica-therapeutics-reports-topline-interim-110000622.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DiaMedica Therapeutics Reports Topline Interim Phase 2 Results from First Two Cohorts of DM199",
+   "note": "DiaMedica Therapeutics reported topline interim Phase 2 results for DM199."
+  },
+  {
+   "title": "Walmart Just Raised Its Outlook Again. 3 Numbers Show Why Its Scale Advantage Keeps Growing.",
+   "url": "https://www.fool.com/investing/2026/11/24/walmart-raised-its-outlook-again-3-numbers-show-why-its-scale-advantage-keeps-growing/",
+   "publisher": "The Motley Fool",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Walmart Just Raised Its Outlook Again. 3 Numbers Show Why Its Scale Advantage Keeps Growing.",
+   "note": "Strong retail sales volume can support robust local delivery and courier activity, bolstering commercial auto exposure."
+  },
+  {
+   "title": "Doctors struggle to save babies after parents refuse vitamin K",
+   "url": "https://www.npr.org/2026/11/24/nx-s1-6001723/vitamin-k-deficiency-refusal-vaccine-misinformation-newborn-bleeding",
+   "publisher": "NPR",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Doctors struggle to save babies after parents refuse vitamin K",
+   "note": "Doctors are tackling misinformation regarding routine newborn vitamin K shots."
+  },
+  {
+   "title": "North Myrtle Beach rejected Amazon's drone delivery plan. Now the case is in court.",
+   "url": "https://www.msn.com/en-us/news/other/north-myrtle-beach-rejected-amazon-s-drone-delivery-plan-now-the-case-is-in-court/ar-AA2i6YVY",
+   "publisher": "The Post and Courier on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "North Myrtle Beach rejected Amazon's drone delivery plan. Now the case is in court.",
+   "note": "Context only."
+  },
+  {
+   "title": "Springfield restaurants open on Thanksgiving dish up more than turkey",
+   "url": "https://www.yahoo.com/lifestyle/articles/springfield-restaurants-open-thanksgiving-dish-095542991.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Springfield restaurants open on Thanksgiving dish up more than turkey",
+   "note": "A listing of restaurants open on Thanksgiving Day in Springfield."
+  },
+  {
+   "title": "SpaceX Secures $44 Billion Financing for Nvidia AI Chips: What's Next?",
+   "url": "https://www.eweek.com/news/spacex-44b-nvidia-gpu-financing-2027/",
+   "publisher": "eWeek",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "SpaceX Secures $44 Billion Financing for Nvidia AI Chips: What's Next?",
+   "note": "SpaceX secured $44 billion in financing to purchase Nvidia AI chips."
+  },
+  {
+   "title": "Ahmed Bin Saeed Inaugurates Future Growth Nexus Summit In Dubai",
+   "url": "https://www.godubai.com/citylife/press_release_page.asp?pr=195214",
+   "publisher": "GoDubai",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ahmed Bin Saeed Inaugurates Future Growth Nexus Summit In Dubai",
+   "note": "The Future Growth Nexus Summit was inaugurated in Dubai to discuss global trade."
+  },
+  {
+   "title": "U.S. Flash PMI Indicates Still-Elevated, But Cooling, Business Activity Growth And Price Pressures",
+   "url": "https://seekingalpha.com/article/4971334-us-flash-pmi-indicates-still-elevated-cooling-business-activity-growth-price-pressures",
+   "publisher": "Seeking Alpha",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "U.S. Flash PMI Indicates Still-Elevated, But Cooling, Business Activity Growth",
+   "note": "Context only."
+  },
+  {
+   "title": "Commercial Driver's License: Nick Castello; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23924/commercial-drivers-license-nick-castello-application-for-exemption",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Commercial Driver's License: Nick Castello; Application for Exemption",
+   "note": "Monitor driver eligibility rule changes that could impact labor availability for commercial delivery fleets."
+  },
+  {
+   "title": "Commercial Driver's License: Nikolai Kostarev; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23923/commercial-drivers-license-nikolai-kostarev-application-for-exemption",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "merged into existing event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Commercial Driver's License: Nikolai Kostarev; Application for Exemption",
+   "note": "ev_08da89c193e4"
+  },
+  {
+   "title": "Commercial Driver's License: Luca Donati; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23922/commercial-drivers-license-luca-donati-application-for-exemption",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "merged into existing event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Commercial Driver's License: Luca Donati; Application for Exemption",
+   "note": "ev_08da89c193e4"
+  },
+  {
+   "title": "Commercial Driver's License: Yehonatan Kapach; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23921/commercial-drivers-license-yehonatan-kapach-application-for-exemption",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Commercial Driver's License: Yehonatan Kapach; Application for Exemption",
+   "note": "Context only."
+  },
+  {
+   "title": "Commercial Driver's License: Amiran Morchiladze; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/24/2026-23919/commercial-drivers-license-amiran-morchiladze-application-for-exemption",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Commercial Driver's License: Amiran Morchiladze; Application for Exemption",
+   "note": "Context only."
+  },
+  {
+   "title": "Legal weed in NC? Governor's cannabis council lays out a plan",
+   "url": "https://www.newsobserver.com/news/state/north-carolina/article318228119.html",
+   "publisher": "The News & Observer",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A federal law taking effect Dec. 11 will effectively ban most hemp-derived THC products",
+   "note": "Context only."
+  },
+  {
+   "title": "Marsh flags AI productivity gap as 2027's defining business risk",
+   "url": "https://www.insurancebusinessmag.com/us/news/technology/marsh-flags-ai-productivity-gap-as-2027s-defining-business-risk-598554.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Marsh flags AI productivity gap as 2027's defining business risk",
+   "note": "Context only."
+  },
+  {
+   "title": "Amazon's Drone Hit a Fiber Line. The $2.99 Delivery Fee Is the Tell.",
+   "url": "https://www.ainvest.com/news/amazon-drone-hit-fiber-line-2-99-delivery-fee-2611/",
+   "publisher": "ainvest",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon's Drone Hit a Fiber Line. The $2.99 Delivery Fee Is the Tell.",
+   "note": "Highlights regulatory and physical risks associated with autonomous and aerial delivery methods, underscoring liability complexities."
+  },
+  {
+   "title": "Is Target open on Thanksgiving Day 2026?",
+   "url": "https://www.al.com/news/2026/11/is-target-open-on-thanksgiving-day-2026.html",
+   "publisher": "al.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Is Target open on Thanksgiving Day 2026?",
+   "note": "Target announced holiday hours for its physical and online retail stores."
+  },
+  {
+   "title": "Norway and Ukraine to Expand Cooperation on Anti-Drone System",
+   "url": "https://www.usnews.com/news/world/articles/2026-11-24/norway-and-ukraine-to-expand-cooperation-on-anti-drone-system",
+   "publisher": "U.S. News & World Report",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Norway and Ukraine to Expand Cooperation on Anti-Drone System",
+   "note": "Norway and Ukraine agreed to expand defense cooperation on anti-drone systems."
+  },
+  {
+   "title": "Grubhub is giving away a full year of Grubhub+ for free this Black Friday — how to claim",
+   "url": "https://mashable.com/life/grubhub-plus-free-year-black-friday-deal",
+   "publisher": "Mashable",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Grubhub is giving away a full year of Grubhub+ for free this Black Friday",
+   "note": "Grubhub is offering a free one-year subscription to Grubhub+ for Black Friday."
+  },
+  {
+   "title": "NYC communists target Amazon from the inside — with help from City Hall",
+   "url": "https://www.msn.com/en-us/news/other/nyc-communists-target-amazon-from-the-inside-with-help-from-city-hall/ar-AA2i5G4J",
+   "publisher": "New York Post on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NYC communists target Amazon from the inside — with help from City Hall",
+   "note": "Context only"
+  },
+  {
+   "title": "The Top 5 Most Iconic and Valuable Jim Brown Cards",
+   "url": "https://www.si.com/collectibles/the-top-5-most-iconic-and-valuable-jim-brown-cards-01m6hrv31ep6",
+   "publisher": "Sports Illustrated",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Top 5 Most Iconic and Valuable Jim Brown Cards",
+   "note": "An article reviews valuable Jim Brown trading cards."
+  },
+  {
+   "title": "Anti-Trans Ads Did Not Sway Ohio Voters in the 2026 Midterms, Post-Election Polls Show",
+   "url": "https://goodmenproject.com/featured-content/anti-trans-ads-did-not-sway-ohio-voters-in-the-2026-midterms-post-election-polls-show/",
+   "publisher": "The Good Men Project",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Anti-Trans Ads Did Not Sway Ohio Voters in the 2026 Midterms",
+   "note": "Post-election polling analyzed campaign advertising impact in Ohio's Senate race."
+  },
+  {
+   "title": "Uncle Sam Charges A Higher Tariff Rate On A Practical Mazda CX-5 Than A Twin-Turbo R34 Skyline GT-R",
+   "url": "https://carbuzz.com/usa-tariffs-new-mazda-cx-5/",
+   "publisher": "CarBuzz",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Uncle Sam Charges A Higher Tariff Rate On A Practical Mazda CX-5",
+   "note": "Context only"
+  },
+  {
+   "title": "DSA and union leaders push bill to recognize Amazon delivery drivers as employees",
+   "url": "https://www.wsws.org/en/articles/2026/11/24/frgc-n24.html",
+   "publisher": "World Socialist Web Site",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DSA and union leaders push bill to recognize Amazon delivery drivers as employees",
+   "note": "Monitor municipal-level delivery worker legislation as it impacts DSP operating models and risk profiles."
+  },
+  {
+   "title": "Is Tristan Ti’a the Future of Auburn Football?",
+   "url": "https://sports.yahoo.com/articles/tristan-ti-future-auburn-football-225529197.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Is Tristan Ti’a the Future of Auburn Football?",
+   "note": "Sports commentary discusses the future quarterback outlook for Auburn football."
+  },
+  {
+   "title": "Auburn riding offensive momentum into Alabama game: 'We've been waiting for it for a while'",
+   "url": "https://www.msn.com/en-us/news/other/auburn-riding-offensive-momentum-into-alabama-game-weve-been-waiting-for-it-for-a-while/ar-AA2i4Bx3",
+   "publisher": "al.com on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Auburn riding offensive momentum into Alabama game",
+   "note": "Auburn football prepares for an upcoming game following an offensive win."
+  },
+  {
+   "title": "‘Sister Wives’ Star Christine Brown Reveals Shocking Family Murder History",
+   "url": "https://www.yahoo.com/entertainment/celebrity/interviews/articles/sister-wives-star-christine-brown-185746892.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "‘Sister Wives’ Star Christine Brown Reveals Shocking Family Murder History",
+   "note": "A television personality discusses family history in a media interview."
+  },
+  {
+   "title": "Rams took different approach to bye week than Packers ahead of critical matchup",
+   "url": "https://www.msn.com/en-us/sports/football/rams-took-different-approach-to-bye-week-than-packers-ahead-of-critical-matchup/ar-AA2i3VE0",
+   "publisher": "Sports Illustrated on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Rams took different approach to bye week than Packers",
+   "note": "NFL teams approach their bye weeks differently ahead of a game."
+  },
+  {
+   "title": "76ers vs. Trail Blazers Injury Report: Jaylen Brown, Dean Wade Status Revealed",
+   "url": "https://sports.yahoo.com/articles/76ers-vs-trail-blazers-injury-155115536.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "76ers vs. Trail Blazers Injury Report: Jaylen Brown, Dean Wade Status Revealed",
+   "note": "NBA injury report lists player statuses for an upcoming basketball game."
+  },
+  {
+   "title": "A Dietitian Shares How Much Fish to Eat for Omega-3 Benefits",
+   "url": "https://www.verywellhealth.com/how-much-fish-for-omega-3-12265210",
+   "publisher": "Verywell Health",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A Dietitian Shares How Much Fish to Eat for Omega-3 Benefits",
+   "note": "A health article provides nutritional advice regarding fish consumption and omega-3."
+  },
+  {
+   "title": "The Last Mile Starts in the Warehouse: Why Fulfillment Visibility Is the Key to Omnichannel Success",
+   "url": "https://www.retailtouchpoints.com/executive-viewpoints/the-last-mile-starts-in-the-warehouse-why-fulfillment-visibility-is-the-key-to-omnichannel-success/622179/",
+   "publisher": "Retail TouchPoints",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Last Mile Starts in the Warehouse: Why Fulfillment Visibility Is the Key",
+   "note": "Context only"
+  },
+  {
+   "title": "STAGE - Développement d'un environnement SharePoint « Inshare » et d'outils Power BI F/H",
+   "url": "https://www.safran-group.com/es/ofertas/francia/issoudun/stage-developpement-environnement-sharepoint-inshare-outils-power-bi-fh-190669",
+   "publisher": "safran-group.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "STAGE - Développement d'un environnement SharePoint",
+   "note": "An aerospace company posted a software development internship listing in France."
+  },
+  {
+   "title": "Amazon fights Delivery Protection Act by putting stickers on its packages",
+   "url": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
+   "publisher": "Ars Technica",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon fights Delivery Protection Act by putting stickers on its packages",
+   "note": "Track how large delivery networks push back against municipal operational regulations affecting delivery density."
+  },
+  {
+   "title": "FEMA proposes new flood insurance rate maps for lower Ochlockonee watershed",
+   "url": "https://fox49.tv/news/local/fema-proposes-new-flood-insurance-rate-maps-for-lower-ochlockonee-watershed",
+   "publisher": "fox49",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FEMA proposes new flood insurance rate maps for lower Ochlockonee watershed",
+   "note": "FEMA proposed updated flood insurance rate maps for a specific Florida watershed."
+  },
+  {
+   "title": "Florida secures $122.6 million in excess auto insurance profits",
+   "url": "https://www.insurancebusinessmag.com/us/news/auto-motor/florida-secures-122-6-million-in-excess-auto-insurance-profits-598374.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Florida secures $122.6 million in excess auto insurance profits",
+   "note": "Context only"
+  },
+  {
+   "title": "New free CB radio in trucker path app, CDL job finder tool & more",
+   "url": "https://www.ccjdigital.com/technology/business-operations/video/16542595/trucker-path-app-launches-free-cb-radio-feature",
+   "publisher": "Commercial Carrier Journal",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "New free CB radio in trucker path app, CDL job finder tool",
+   "note": "Note driver-facing digital platforms increasing engagement features that could eventually integrate telematics or safety services."
+  },
+  {
+   "title": "Liability Insurers Face Up to $337 Billion in Added Costs",
+   "url": "https://www.mychesco.com/a/news/business/liability-insurers-face-up-to-337-billion-in-added-costs/",
+   "publisher": "MyChesCo",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Liability Insurers Face Up to $337 Billion in Added Costs",
+   "note": "Escalating industry-wide loss trends require strict telematics-based underwriting and risk selection for Nirvana's last-mile commercial auto book."
+  },
+  {
+   "title": "U.S. Department of Labor Releases Final Rule Regarding Independent Contractor Classification Standards",
+   "url": "https://www.jdsupra.com/legalnews/u-s-department-of-labor-releases-final-2691884/",
+   "publisher": "JD Supra",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "U.S. Department of Labor Releases Final Rule Regarding Independent Contractor Classification Standards",
+   "note": "Context only."
+  },
+  {
+   "title": "DOL Announces Adoption of “Economic Reality” Test for Determining Independent Contractor vs. Employee Classification",
+   "url": "https://www.jdsupra.com/legalnews/dol-announces-adoption-of-economic-9495739/",
+   "publisher": "JD Supra",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "DOL Announces Adoption of “Economic Reality” Test",
+   "note": "Context only."
+  },
+  {
+   "title": "Driving for Uber or Lyft – Add Rideshare Coverage Before Your First Trip",
+   "url": "https://www.moneycrashers.com/uber-lyft-rideshare-coverage",
+   "publisher": "Money Crashers",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Driving for Uber or Lyft – Add Rideshare Coverage",
+   "note": "Article advises personal auto drivers on adding rideshare coverage for Uber or Lyft."
+  },
+  {
+   "title": "PLN dan Pemkab Siak Perkuat Sinergi Dukung Pembangunan Transmisi SUTT 150 kV Siak–Selat Panjang",
+   "url": "https://pekanbaru.tribunnews.com/adv/1122427/pln-dan-pemkab-siak-perkuat-sinergi-dukung-pembangunan-transmisi-sutt-150-kv-siak-selat-panjang",
+   "publisher": "Tribunpekanbaru.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "PLN dan Pemkab Siak Perkuat Sinergi Dukung Pembangunan Transmisi SUTT 150 kV",
+   "note": "Local government and utility coordination for power transmission development in Indonesia."
+  },
+  {
+   "title": "Is theft from unattended delivery not covered? What really changes with the revision of the Standard Terms and Conditions for Courier Services",
+   "url": "https://note.com/gyokuto15/n/nf826b74da19b?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Is theft from unattended delivery not covered?",
+   "note": "Ministry in Japan published draft revisions to Standard Terms and Conditions for Courier Services regarding unattended delivery theft."
+  },
+  {
+   "title": "FedEx has acquired Poland-based InPost in $9.2B joint-agreement",
+   "url": "https://www.msn.com/en-us/news/other/fedex-part-of-consortium-acquiring-poland-based-inpost/ar-AA2hSL7M",
+   "publisher": "Commercial Appeal Memphis on MSN",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FedEx has acquired Poland-based InPost in $9.2B joint-agreement",
+   "note": "Monitor whether FedEx fleet consolidation impacts local delivery operator structures and insurance purchasing patterns for FedEx ISPs."
+  },
+  {
+   "title": "Amazon Made Drone Delivery Famous. Zipline Is Making It a $21 Billion Business",
+   "url": "https://www.inc.com/michael-rapkin/zipline-drone-delivery-amazon-prime-air-uber-eats-wing-faa/91430551",
+   "publisher": "Inc.com",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Amazon Made Drone Delivery Famous. Zipline Is Making It a $21 Billion Business",
+   "note": "Context only."
+  },
+  {
+   "title": "Meet the Hedge Fund Advisory Firm Getting No-Bid Pentagon Contracts",
+   "url": "https://prospect.org/2026/11/19/meet-the-hedge-fund-advisory-firm-getting-no-bid-pentagon-contracts/",
+   "publisher": "The American Prospect",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Meet the Hedge Fund Advisory Firm Getting No-Bid Pentagon Contracts",
+   "note": "Progressive analysis article covering hedge fund advisory firm and Pentagon contracts."
+  },
+  {
+   "title": "SafeRide Health Ranked Number 156 Fastest-Growing Company in North America on the 2026 Deloitte Technology Fast 500™",
+   "url": "https://finance.yahoo.com/technology/articles/saferide-health-ranked-number-156-161700327.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "SafeRide Health Ranked Number 156 Fastest-Growing Company",
+   "note": "Healthcare transportation company SafeRide Health was ranked on a technology growth list."
+  }
+ ],
+ "digest": "- U.S. auto and general liability insurers faced massive additional losses from 2016 through 2025, reinforcing the need for strict telematics-based underwriting and risk selection for Nirvana's last-mile commercial auto book [1].\n- Union leaders, activists, and NYC local politicians are pushing for the Delivery Protection Act and targeting Amazon delivery operations, requiring Nirvana to monitor municipal delivery worker legislation impacting DSP operating models and risk profiles [2].\n- Amazon is fighting NYC local delivery legislation by attaching packaging stickers urging consumer opposition, showing how major delivery networks actively push back against municipal operational regulations that affect delivery density [3].\n- An Amazon delivery drone collided with power lines and a garage during takeoff, prompting an FAA investigation that highlights the physical and regulatory liability complexities tied to evolving delivery methods [11]."
+}
