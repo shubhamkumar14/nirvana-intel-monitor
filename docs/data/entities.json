@@ -1721,12 +1721,13 @@
  "Arthur J. Gallagher": {
   "name": "Arthur J. Gallagher",
   "first_seen": "2026-11-07T18:19:02Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_ba6bee8224e8"
+   "ev_ba6bee8224e8",
+   "ev_ecbef477d6ec"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-07T18:19:02Z"
+  "last_seen": "2026-11-24T23:16:43Z"
  },
  "Berkshire Hathaway": {
   "name": "Berkshire Hathaway",
@@ -2703,5 +2704,55 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-24T11:39:53Z"
+ },
+ "Applied Systems": {
+  "name": "Applied Systems",
+  "first_seen": "2026-11-24T23:16:43Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3ba232239c9d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T23:16:43Z"
+ },
+ "Tailwind": {
+  "name": "Tailwind",
+  "first_seen": "2026-11-24T23:16:43Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3ba232239c9d"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T23:16:43Z"
+ },
+ "Voltaire": {
+  "name": "Voltaire",
+  "first_seen": "2026-11-24T23:16:43Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_220ac15d1592"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T23:16:43Z"
+ },
+ "Moody's Ratings": {
+  "name": "Moody's Ratings",
+  "first_seen": "2026-11-24T23:16:43Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_ecbef477d6ec"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T23:16:43Z"
+ },
+ "AssuredPartners": {
+  "name": "AssuredPartners",
+  "first_seen": "2026-11-24T23:16:43Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_ecbef477d6ec"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-24T23:16:43Z"
  }
 }
