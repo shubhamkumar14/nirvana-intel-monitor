@@ -1,0 +1,2487 @@
+{
+ "run_id": "2026-11-24T01-13-32Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/45303393357",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-24",
+ "started": "2026-11-24T01:13:32Z",
+ "duration_s": 405.2,
+ "baseline": false,
+ "previous_run": "2026-11-23T09-51-30Z",
+ "previous_started": "2026-11-23T09:51:30Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 364,
+  "unique": 340,
+  "known_skipped": 208,
+  "attached_existing": 4,
+  "prefiltered_out": 80,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 49,
+  "irrelevant": 27,
+  "quarantined": 0,
+  "new_events": 21,
+  "updated_events": 3,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.875,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.5,
+  "dedup_ratio": 0.856,
+  "relevance_rate": 0.429
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 284
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 218
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 226
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 478
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 161
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 272
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 217
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 337
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 448
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 229
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 247
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 242
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 213
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 236
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 216
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 233
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 248
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 251
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 345
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 228
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 253
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "error",
+   "items": 0,
+   "error": "got an HTML page instead of a feed (likely throttled or a consent page)",
+   "ms": 172
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 210
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 320
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 290
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 330
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 299
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 280
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 220
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 200
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 269
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 286
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 337
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 233
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 307
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1623
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 759
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 292
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1220
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 374
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 711
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 1155
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 12934,
+  "output_tokens": 8593,
+  "calls": 6,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-latest": 5,
+   "gemini-flash-lite-latest": 1
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_8aef494078ee",
+   "title": "Trucking risks keep sliding into E&S, and this company has built a wholesaler to catch them",
+   "url": "https://www.insurancebusinessmag.com/us/news/auto-motor/trucking-risks-keep-sliding-into-eands-and-this-company-has-built-a-wholesaler-to-catch-them-598455.aspx",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 4,
+   "last_mile_fit": 0.7,
+   "summary": "Standard carriers are tightening commercial auto appetite, accelerating the migration of trucking risks into the excess and surplus market.",
+   "evidence_quote": "Roman Atkielski says standard carriers have grown choosier about commercial auto, and that the wholesalers who win will be the ones who know exactly",
+   "companies": [],
+   "implication": "Standard market contraction opens massive opportunity for telematics-enabled MGAs to capture displaced delivery and commercial trucking fleets through wholesale broker channels.",
+   "action": "respond",
+   "watchlist_companies": [],
+   "published": "2026-11-23T04:04:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "8aef494078ee"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/auto-motor/trucking-risks-keep-sliding-into-eands-and-this-company-has-built-a-wholesaler-to-catch-them-598455.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-23T04:04:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"Cover Whale\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 74.0,
+   "age_days": 0.9,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.92,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_6bd8b96b904b",
+   "title": "Final mile delivery prices climb 10.5% in Q3, GEODIS says",
+   "url": "https://www.freightwaves.com/news/geodis-final-mile-index-delivery-prices",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.9,
+   "summary": "GEODIS index reports final mile delivery prices jumped 10.5% in Q3, with courier and local freight prices outpacing overall consumer price inflation.",
+   "evidence_quote": "Courier and local freight prices rose 10.2% and 10.7% in the third quarter, according to a new GEODIS index",
+   "companies": [
+    "GEODIS"
+   ],
+   "implication": "Rising courier revenue yields better operator margins, enhancing fleet willingness and capacity to absorb commercial auto insurance costs for Nirvana's prospective clients.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T12:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "6bd8b96b904b"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/geodis-final-mile-index-delivery-prices",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-23T12:30:00Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    },
+    {
+     "url": "https://finance.yahoo.com/economy/articles/final-mile-delivery-prices-climb-123000352.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-23T04:31:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 2,
+   "score": 71.5,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.95,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "trade press, 2 independent publishers"
+  },
+  {
+   "id": "ev_b01488e46f7d",
+   "title": "Gallagher & Hagopian obtiene un veredicto del jurado por $711,068 contra Progressive Insurance",
+   "url": "https://www.prnewswire.com/news-releases/gallagher-amp-hagopian-obtiene-un-veredicto-del-jurado-por-711-068-contra-progressive-insurance-878857894.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "A Florida jury delivered a $711,068 verdict against Progressive Insurance in an uninsured motorist coverage lawsuit.",
+   "evidence_quote": "obtiene un veredicto del jurado por $711,068 contra Progressive Insurance",
+   "companies": [
+    "Progressive Insurance"
+   ],
+   "implication": "Context only. Reflects ongoing litigation severity against a dominant commercial auto competitor, though centered on personal uninsured motorist coverage.",
+   "action": "context",
+   "watchlist_companies": [
+    "Progressive Commercial"
+   ],
+   "published": "2026-11-23T13:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "b01488e46f7d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/gallagher-amp-hagopian-obtiene-un-veredicto-del-jurado-por-711-068-contra-progressive-insurance-878857894.html",
+     "publisher": "PR Newswire - Insurance",
+     "publisher_key": "pr newswire - insurance",
+     "published": "2026-11-23T13:30:00Z",
+     "tier": 1,
+     "source_id": "prn_insurance",
+     "query": null
+    }
+   ],
+   "best_tier": 1,
+   "score": 66.3,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.95,
+    "tier": 1,
+    "recency": 0.95,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_417ca57f348f",
+   "title": "Gallagher & Hagopian Secures $711,068 Jury Verdict Against Progressive Insurance",
+   "url": "https://www.prnewswire.com/news-releases/gallagher--hagopian-secures-711-068-jury-verdict-against-progressive-insurance-302947590.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Law firm Gallagher & Hagopian obtained a $711,068 jury verdict against Progressive Insurance over an uninsured motorist claim dispute in Florida.",
+   "evidence_quote": "obtained a $711,068 jury verdict in Lee...",
+   "companies": [
+    "Progressive Insurance"
+   ],
+   "implication": "Context only. Demonstrates persistent auto jury award severity against Progressive in Florida, though limited to personal lines uninsured motorist exposure.",
+   "action": "context",
+   "watchlist_companies": [
+    "Progressive Commercial"
+   ],
+   "published": "2026-11-23T13:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "417ca57f348f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.prnewswire.com/news-releases/gallagher--hagopian-secures-711-068-jury-verdict-against-progressive-insurance-302947590.html",
+     "publisher": "PR Newswire - Insurance",
+     "publisher_key": "pr newswire - insurance",
+     "published": "2026-11-23T13:30:00Z",
+     "tier": 1,
+     "source_id": "prn_insurance",
+     "query": null
+    }
+   ],
+   "best_tier": 1,
+   "score": 66.3,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.95,
+    "tier": 1,
+    "recency": 0.95,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_f2ff8595bcd7",
+   "title": "Fight intensifies over Amazon delivery bill in Queens",
+   "url": "https://queenseagle.com/all/2026/11/23/fight-intensifies-over-amazon-delivery-bill-in-queens",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.9,
+   "summary": "Tensions are escalating over a New York City Council bill seeking to regulate Amazon's use of third-party delivery contractors.",
+   "evidence_quote": "regulating Amazon’s use of third-party delivery drivers in Queens and beyond.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Municipal regulations targeting third-party delivery drivers could reshape Amazon DSP operational models, fleet labor structures, and route viability in New York.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T13:59:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f2ff8595bcd7"
+   ],
+   "sources": [
+    {
+     "url": "https://queenseagle.com/all/2026/11/23/fight-intensifies-over-amazon-delivery-bill-in-queens",
+     "publisher": "Queens Daily Eagle",
+     "publisher_key": "queens daily eagle",
+     "published": "2026-11-23T13:59:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon DSP delivery contractors"
+    }
+   ],
+   "best_tier": 3,
+   "score": 64.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_c1ce10fece16",
+   "title": "Could a City Council Bill Really Raise Amazon Prices by $5?",
+   "url": "https://www.nytimes.com/2026/11/23/nyregion/amazon-price-increases-nyc.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Amazon is actively contesting a city council bill that would regulate parcel delivery operations, warning it could increase customer fees.",
+   "evidence_quote": "Amazon is fighting a City Council bill to regulate deliveries, telling customers that it could raise prices",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Municipal delivery regulations can increase operating compliance costs for last-mile fleets, potentially squeezing DSP margins and route economics.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T15:41:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "c1ce10fece16"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nytimes.com/2026/11/23/nyregion/amazon-price-increases-nyc.html",
+     "publisher": "The New York Times",
+     "publisher_key": "the new york times",
+     "published": "2026-11-23T15:41:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3a66e877c279",
+   "title": "Amazon Warns New Yorkers of Higher Prices if City Delivery Bill Passes",
+   "url": "https://www.msn.com/en-us/news/other/amazon-warns-new-yorkers-of-higher-prices-if-city-delivery-bill-passes/ar-AA2i4KIv",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Amazon notified customers that the proposed Delivery Protection Act in New York City could add up to five dollars per order.",
+   "evidence_quote": "the proposed Delivery Protection Act \"could add up to $5 per order.\"",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Delivery fee surcharges and contractor regulatory pressures could squeeze urban DSP margins, heightening the need for lower operating costs like telematics-discounted insurance.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T13:32:16Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "3a66e877c279"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/amazon-warns-new-yorkers-of-higher-prices-if-city-delivery-bill-passes/ar-AA2i4KIv",
+     "publisher": "Women's Wear Daily on MSN",
+     "publisher_key": "women's wear daily on msn",
+     "published": "2026-11-23T13:32:16Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon \"delivery service partner\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_995f601501fb",
+   "title": "Ohio House passes Bill 792 to ease surplus lines insurance regulations",
+   "url": "https://beinsure.com/news/ohio-house-passes-bill-792-to-ease-surplus-lines-insurance-regulations/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "Ohio House passed Bill 792, reducing surplus lines declination requirements from five carriers to one and permitting an export list.",
+   "evidence_quote": "Ohio House Bill 792 would reduce surplus lines insurance declination requirements from five carriers to one and allow regulators to establish an export list",
+   "companies": [],
+   "implication": "Easing surplus lines placement friction accelerates speed-to-market for non-admitted commercial auto products and MGAs targeting hard-to-place delivery fleets in Ohio.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T12:21:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "995f601501fb"
+   ],
+   "sources": [
+    {
+     "url": "https://beinsure.com/news/ohio-house-passes-bill-792-to-ease-surplus-lines-insurance-regulations/",
+     "publisher": "beinsure",
+     "publisher_key": "beinsure",
+     "published": "2026-11-23T12:21:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 59.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_57165efbeedc",
+   "title": "Tractor Supply boosts same-day delivery options",
+   "url": "https://www.supplychaindive.com/news/tractor-supply-boosts-same-day-delivery-options/875304/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "Tractor Supply is expanding its same-day delivery offerings as Amazon simultaneously grows its rural delivery network.",
+   "evidence_quote": "Amazon is expanding its rural delivery network.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Rural delivery expansion increases mileage and DSP routes outside dense urban cores, broadening the addressable fleet vehicle base for telematics-based commercial auto coverage.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T15:06:22Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "57165efbeedc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.supplychaindive.com/news/tractor-supply-boosts-same-day-delivery-options/875304/",
+     "publisher": "Supply Chain Dive",
+     "publisher_key": "supply chain dive",
+     "published": "2026-11-23T15:06:22Z",
+     "tier": 2,
+     "source_id": "supplychaindive",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 56.6,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.96,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_5b8d97514357",
+   "title": "Global Autonomous Last Mile Delivery Market Report 2026 | Capitalize on 25.0% CAGR to $5.1 Billion by 2030 as Amazon, DHL, Starship Technologies, Nuro and Flytrex Scale Fleets",
+   "url": "https://finance.yahoo.com/technology/articles/global-autonomous-last-mile-delivery-151600079.html",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.7,
+   "summary": "Research report projects the global autonomous last-mile delivery market to hit $5.1B by 2030 at a 25% CAGR.",
+   "evidence_quote": "Capitalize on 25.0% CAGR to $5.1 Billion by 2030 as Amazon, DHL, Starship Technologies, Nuro and Flytrex Scale Fleets",
+   "companies": [
+    "Amazon",
+    "DHL",
+    "Starship Technologies",
+    "Nuro",
+    "Flytrex"
+   ],
+   "implication": "Autonomous fleet scaling could shift commercial auto liability from driver risk to product liability long term, but near-term human fleet focus remains paramount.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T07:17:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "research",
+   "fingerprints": [
+    "5b8d97514357"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/technology/articles/global-autonomous-last-mile-delivery-151600079.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-23T07:17:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 54.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1034d4600399",
+   "title": "Very Heavy Parcels: Verdi Calls for Relief for Parcel Delivery Workers",
+   "url": "https://www.marketscreener.com/news/very-heavy-parcels-verdi-calls-for-relief-for-parcel-delivery-workers-ce7851dadb8ffe21",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.6,
+   "summary": "German union Verdi highlighted rising parcel volume pressures and worker strain during peak season.",
+   "evidence_quote": "While parcel volumes are rising, delivery",
+   "companies": [],
+   "implication": "Surging peak delivery volumes and driver fatigue heighten accident frequencies, reinforcing the need for telematics monitoring to suppress holiday claim spikes.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T05:11:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1034d4600399"
+   ],
+   "sources": [
+    {
+     "url": "https://www.marketscreener.com/news/very-heavy-parcels-verdi-calls-for-relief-for-parcel-delivery-workers-ce7851dadb8ffe21",
+     "publisher": "MarketScreener",
+     "publisher_key": "marketscreener",
+     "published": "2026-11-23T05:11:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.3,
+   "age_days": 0.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.92,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_3269b9f6afd4",
+   "title": "Cargo Thieves Are Chasing AI Hardware Down the Dirt Road to the Data Center",
+   "url": "https://www.freightwaves.com/news/cargo-thieves-are-chasing-ai-hardware-down-the-dirt-road-to-the-data-center",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Cargo thieves are increasingly targeting high-value artificial intelligence chips and data center components in transit, according to supply chain firm Overhaul.",
+   "evidence_quote": "As AI infrastructure spending surges, cargo thieves are targeting Blackwell chips and scarce data center components.",
+   "companies": [
+    "Overhaul"
+   ],
+   "implication": "Context only. Specialized freight theft targeting server components does not affect typical retail parcel and courier fleet auto lines.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T16:25:44Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": null,
+   "fingerprints": [
+    "3269b9f6afd4"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freightwaves.com/news/cargo-thieves-are-chasing-ai-hardware-down-the-dirt-road-to-the-data-center",
+     "publisher": "FreightWaves",
+     "publisher_key": "freightwaves",
+     "published": "2026-11-23T16:25:44Z",
+     "tier": 2,
+     "source_id": "freightwaves",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.7,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.96,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_c03bd9011f77",
+   "title": "Amazon faces FAA probe after delivery drone strikes Michigan fiber cable, garage",
+   "url": "https://www.msn.com/en-us/money/markets/amazon-faces-faa-probe-after-delivery-drone-strikes-michigan-fiber-cable-garage/ar-AA2i4wGO",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "The FAA is investigating Amazon after a delivery drone collided with a fiber cable and a residential garage in Michigan.",
+   "evidence_quote": "An Amazon drone \"struck a fiber cable, a residential garage, and became entangled in power lines during takeoff,\"",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Drone regulatory and safety setbacks reinforce reliance on ground delivery van fleets, preserving demand for commercial auto telematics insurance.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T16:55:39Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "c03bd9011f77"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/money/markets/amazon-faces-faa-probe-after-delivery-drone-strikes-michigan-fiber-cable-garage/ar-AA2i4wGO",
+     "publisher": "CNBC on MSN",
+     "publisher_key": "cnbc on msn",
+     "published": "2026-11-23T16:55:39Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 52.0,
+   "age_days": 0.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9a08cb550046",
+   "title": "Amazon drone delivering shampoo snags on wire and tumbles onto Michigan man’s garage roof",
+   "url": "https://www.nbcnews.com/news/us-news/amazon-drone-shampoo-wire-michigan-roof-rcna611005",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "An Amazon package delivery drone crashed onto a garage roof in Michigan after snagging an overhead wire, disrupting internet service.",
+   "evidence_quote": "said the accident caused some neighbors to temporarily lose internet access.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Delivery drone property damage demonstrates ongoing operational obstacles, ensuring ground van fleets remain the primary last-mile delivery method.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-23T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "9a08cb550046"
+   ],
+   "sources": [
+    {
+     "url": "https://www.nbcnews.com/news/us-news/amazon-drone-shampoo-wire-michigan-roof-rcna611005",
+     "publisher": "NBC News",
+     "publisher_key": "nbc news",
+     "published": "2026-11-23T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_1fa4ef0de043",
+   "title": "Amazon delivery drone crashes into Detroit home",
+   "url": "https://abcnews.com/video/138392378/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "An 80-pound Amazon delivery drone crashed into a residential home roof in suburban Detroit, triggering an investigation.",
+   "evidence_quote": "workers removing an 80-pound Amazon delivery drone from a roof after it crashed into a home in suburban Detroit.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Highlights emerging property liability risks in automated delivery, but has little near-term impact on Nirvana's core cargo van and box truck commercial auto underwriting.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-22T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "1fa4ef0de043"
+   ],
+   "sources": [
+    {
+     "url": "https://abcnews.com/video/138392378/",
+     "publisher": "ABC News",
+     "publisher_key": "abc news",
+     "published": "2026-11-22T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.6,
+   "age_days": 1.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.87,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_a7bb04582df9",
+   "title": "Amazon Warns New Yorkers Could Pay More Under Mamdani Delivery Plan",
+   "url": "https://www.forbes.com/sites/nathangoldman/2026/11/20/mamdani-amazon-fight-comes-with-a-5-per-order-surcharge-warning/",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "Amazon warned that New York's proposed Delivery Protection Act could increase the cost of NYC delivery orders by up to $5 each.",
+   "evidence_quote": "Amazon says the Delivery Protection Act could add up to $5 per NYC order.",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Mandatory delivery surcharges could dampen parcel volumes or compress courier fleet margins in key metropolitan markets, potentially impacting insurance purchasing decisions.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-20T07:38:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "a7bb04582df9"
+   ],
+   "sources": [
+    {
+     "url": "https://www.forbes.com/sites/nathangoldman/2026/11/20/mamdani-amazon-fight-comes-with-a-5-per-order-surcharge-warning/",
+     "publisher": "Forbes",
+     "publisher_key": "forbes",
+     "published": "2026-11-20T07:38:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"One80\" last mile delivery insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.9,
+   "age_days": 3.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.69,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_e90cf8c88c4d",
+   "title": "Oregon ruling turns $36,500 auto settlement into $162K fee fight",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/oregon-ruling-turns-36500-auto-settlement-into-162k-fee-fight-598265.aspx",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "An Oregon appellate court reversed a fee ruling, expanding attorney fee entitlement on a $36,500 auto settlement into a $162,000 dispute.",
+   "evidence_quote": "Oregon’s Court of Appeals reversed a fee award, ruling the trial court wrongly excluded good-faith claims from fee entitlement",
+   "companies": [],
+   "implication": "Judicial fee-shifting precedents can escalate auto claim defense costs well beyond underlying damages, emphasizing the need for disciplined claims defense in relevant jurisdictions.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-20T01:55:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "e90cf8c88c4d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/oregon-ruling-turns-36500-auto-settlement-into-162k-fee-fight-598265.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-20T01:55:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 2,
+   "score": 48.4,
+   "age_days": 4.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.67,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_b81c6af61ec5",
+   "title": "Capacity constraints continue to drive truckload rate inflation as spot rates climb to 2026 highs, notes RXO ‘Curve’",
+   "url": "https://www.logisticsmgmt.com/article/capacity_constraints_continue_to_drive_truckload_rate_inflation_as_spot_rates_climb_to_2026_highs_notes_rxo_curve",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "RXO reported that third-quarter truckload linehaul spot rates climbed 37.9% annually, reaching their highest level since 2021 due to capacity constraints.",
+   "evidence_quote": "Third quarter spot rates (linehaul only, excluding fuel) remained inflationary, increasing 37.9% annually",
+   "companies": [
+    "RXO"
+   ],
+   "implication": "Strong freight pricing improves broader carrier financial stability, though spot truckload conditions have limited direct correlation with dedicated, contracted last-mile delivery fleets.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-18T16:01:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "research",
+   "fingerprints": [
+    "b81c6af61ec5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.logisticsmgmt.com/article/capacity_constraints_continue_to_drive_truckload_rate_inflation_as_spot_rates_climb_to_2026_highs_notes_rxo_curve",
+     "publisher": "Logistics Management",
+     "publisher_key": "logistics management",
+     "published": "2026-11-18T16:01:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 44.3,
+   "age_days": 5.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.59,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_2761813959a7",
+   "title": "ACT Flags Supply Constraints as Truck Orders Slow",
+   "url": "https://www.aftermarketnews.com/act-research-october-2026-truck-market-outlook/",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "ACT Research flagged slowing commercial truck orders alongside rising equipment costs and persistent supply constraints.",
+   "evidence_quote": "The truck market outlook showed diverging truck and trailer order trends, with higher costs and supply constraints complicating planning.",
+   "companies": [],
+   "implication": "Elevated vehicle replacement costs and supply constraints could inflate physical damage claims severity and cause fleets to keep aging vehicles in service longer.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-18T06:17:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "research",
+   "fingerprints": [
+    "2761813959a7"
+   ],
+   "sources": [
+    {
+     "url": "https://www.aftermarketnews.com/act-research-october-2026-truck-market-outlook/",
+     "publisher": "aftermarketNews",
+     "publisher_key": "aftermarketnews",
+     "published": "2026-11-18T06:17:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 44.0,
+   "age_days": 5.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.56,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_f67914d0c6bc",
+   "title": "Amazon drone crashes into garage after delivering shampoo",
+   "url": "https://www.cnn.com/2026/11/23/us/amazon-drone-crashes",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "An Amazon delivery drone crashed into a garage near Detroit following a delivery, prompting an investigation by the Federal Aviation Administration.",
+   "evidence_quote": "A drone making a delivery for the online retailer Amazon crashed outside of Detroit",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only. Highlights regulatory and operational scrutiny on drone delivery, but ground commercial auto fleets remain the primary last-mile delivery mode.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T15:27:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "f67914d0c6bc"
+   ],
+   "sources": [
+    {
+     "url": "https://www.cnn.com/2026/11/23/us/amazon-drone-crashes",
+     "publisher": "CNN",
+     "publisher_key": "cnn",
+     "published": "2026-11-23T15:27:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"tort reform\" trucking OR delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 40.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_9a5ed5ec06e5",
+   "title": "U.S. prepares new tariff wave as inflation risks mount — KPMG's Diane Swonk",
+   "url": "https://www.forexfactory.com/news/1438197-us-prepares-new-tariff-wave-as-inflation-risks",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 1,
+   "last_mile_fit": 0.0,
+   "summary": "KPMG's chief economist warned that an impending wave of U.S. tariffs risks reigniting broader economic inflation.",
+   "evidence_quote": "KPMG Chief Economist Diane Swonk warns that another round of U.S. tariffs is approaching, potentially reigniting inflation",
+   "companies": [],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-22T20:47:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T01:13:32Z",
+   "first_run": "2026-11-24T01-13-32Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "9a5ed5ec06e5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.forexfactory.com/news/1438197-us-prepares-new-tariff-wave-as-inflation-risks",
+     "publisher": "Forex Factory",
+     "publisher_key": "forex factory",
+     "published": "2026-11-22T20:47:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 38.8,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.89,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_27afd501dca7",
+   "title": "CXT Software and Dispatch Science Combine to Create the Largest, Unified Agentic Last-Mile TMS",
+   "url": "https://www.freep.com/press-release/story/274725/cxt-software-and-dispatch-science-combine-to-create-the-largest-unified-agentic-last-mile-tms/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 4,
+   "last_mile_fit": 0.9,
+   "summary": "CXT Software and Dispatch Science combine to create a unified agentic last-mile transportation management system.",
+   "evidence_quote": "CXT Software and Dispatch Science Combine to Create the Largest, Unified Agentic Last-Mile TMS",
+   "companies": [
+    "CXT Software",
+    "Dispatch Science"
+   ],
+   "implication": "Monitor integrated TMS platforms like CXT Software and Dispatch Science as potential telematics and data integration partners for last-mile fleet underwriting.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-18T14:09:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-23T09:51:30Z",
+   "first_run": "2026-11-23T09-51-30Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": "New corroborating source: The Detroit News",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "27afd501dca7"
+   ],
+   "sources": [
+    {
+     "url": "https://www.freep.com/press-release/story/274725/cxt-software-and-dispatch-science-combine-to-create-the-largest-unified-agentic-last-mile-tms/",
+     "publisher": "Detroit Free Press",
+     "publisher_key": "detroit free press",
+     "published": "2026-11-18T14:09:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    },
+    {
+     "url": "https://www.detroitnews.com/press-release/story/202611/cxt-software-and-dispatch-science-combine-to-create-the-largest-unified-agentic-last-mile-tms/",
+     "publisher": "The Detroit News",
+     "publisher_key": "the detroit news",
+     "published": "2026-11-18T14:17:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 70.2,
+   "age_days": 5.5,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.58,
+    "last_mile_fit": 0.9
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_1aedc3762e13",
+   "title": "‘It’s gone before you ever see it’ | Indiana widow urges lawmakers to raise the minimum insurance truckers must carry, unchanged in 41 years",
+   "url": "https://www.yahoo.com/news/politics/articles/gone-ever-see-indiana-widow-022650433.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 4,
+   "last_mile_fit": 0.7,
+   "summary": "Advocates push Congress to raise minimum insurance requirements for truckers, unchanged for 41 years.",
+   "evidence_quote": "urges lawmakers to raise the minimum insurance truckers must carry, unchanged in 41 years",
+   "companies": [],
+   "implication": "Potential federal increases to financial responsibility minimums would force under-insured delivery fleets to purchase higher liability limits, lifting average premium ticket sizes.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-16T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-17T21:54:15Z",
+   "first_run": "2026-11-17T21-54-15Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": "New corroborating source: WTHR",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "1aedc3762e13"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/politics/articles/gone-ever-see-indiana-widow-022650433.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-11-16T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    },
+    {
+     "url": "https://www.wthr.com/article/news/investigations/13-investigates/blindspots/indiana-widow-urges-lawmakers-to-raise-minimum-insurance-truckers-must-carry-unchanged-41-years/531-f30a664d-fddb-4bba-9923-6aa2d7ece63f",
+     "publisher": "WTHR",
+     "publisher_key": "wthr",
+     "published": "2026-11-16T18:26:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 66.7,
+   "age_days": 7.4,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.48,
+    "last_mile_fit": 0.7
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_7d3b20a22ce0",
+   "title": "Roadzen Delivers First Positive Adjusted EBITDA Quarter in Company History on Record Revenue of $17.6 Million, Up 28.6% Year-Over-Year",
+   "url": "https://markets.ft.com/data/announce/detail?dockey=1330-9878669en-3CAJQDKR3ADOSUO8JUJHBV2BC0",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "Roadzen reported its first positive adjusted EBITDA quarter alongside record revenue of $17.6 million, up 28.6% year-over-year.",
+   "evidence_quote": "Roadzen Delivers First Positive Adjusted EBITDA Quarter in Company History",
+   "companies": [
+    "Roadzen"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-16T12:05:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-16T23:01:58Z",
+   "first_run": "2026-11-16T23-01-58Z",
+   "last_seen": "2026-11-24T01:13:32Z",
+   "last_updated_run": "2026-11-24T01-13-32Z",
+   "update_note": "New corroborating source: The Tech Outlook",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "7d3b20a22ce0"
+   ],
+   "sources": [
+    {
+     "url": "https://markets.ft.com/data/announce/detail?dockey=1330-9878669en-3CAJQDKR3ADOSUO8JUJHBV2BC0",
+     "publisher": "FT Markets",
+     "publisher_key": "ft markets",
+     "published": "2026-11-16T12:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    },
+    {
+     "url": "https://markets.businessinsider.com/news/stocks/roadzen-delivers-first-positive-adjusted-ebitda-quarter-in-company-history-on-record-revenue-of-17-6-million-up-28-6-year-over-year-1036770891",
+     "publisher": "Markets Insider",
+     "publisher_key": "markets insider",
+     "published": "2026-11-16T08:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    },
+    {
+     "url": "https://www.stocktitan.net/news/RDZN/roadzen-delivers-first-positive-adjusted-ebitda-quarter-in-company-hmogoccwraej.html",
+     "publisher": "Stock Titan",
+     "publisher_key": "stock titan",
+     "published": "2026-11-16T13:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    },
+    {
+     "url": "https://uk.finance.yahoo.com/news/roadzen-delivers-first-positive-adjusted-210500614.html",
+     "publisher": "Yahoo Finance UK",
+     "publisher_key": "yahoo finance uk",
+     "published": "2026-11-16T08:05:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    },
+    {
+     "url": "https://www.thetechoutlook.com/press-release/roadzen-delivers-first-positive-adjusted-ebitda-quarter-in-company-history-on-record-revenue-of-17-6-million-up-28-6-year-over-year/",
+     "publisher": "The Tech Outlook",
+     "publisher_key": "the tech outlook",
+     "published": "2026-11-16T18:25:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.6,
+   "age_days": 7.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.47,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 5 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Why AI Is Paramount to Optimizing Air Cargo",
+   "url": "https://www.freightwaves.com/news/why-ai-is-paramount-to-optimizing-air-cargo",
+   "publisher": "FreightWaves",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Air cargo has finally digitized its data.",
+   "note": "The air cargo industry is turning to artificial intelligence to lower operational costs, enhance revenues, and manage margin risks."
+  },
+  {
+   "title": "Lufthansa Cargo to buy out 2nd ground agent at Frankfurt airport",
+   "url": "https://www.freightwaves.com/news/lufthansa-cargo-to-buy-out-2nd-ground-agent-at-frankfurt-airport",
+   "publisher": "FreightWaves",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Lufthansa Cargo is locking up cargo handling capacity at Frankfurt airport",
+   "note": "Lufthansa Cargo is buying out a second ground handling agent at Frankfurt airport to secure internal freight capacity."
+  },
+  {
+   "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+   "publisher": "TechCrunch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon is acquiring Decart’s AI optimization technology and research team in a reported $7.5 billion deal.",
+   "note": "Amazon agreed to acquire Decart's AI optimization technology and research staff in a reported $7.5 billion deal."
+  },
+  {
+   "title": "Amazon faces FAA probe after delivery drone strikes Michigan fiber cable, garage",
+   "url": "https://www.msn.com/en-us/money/markets/amazon-faces-faa-probe-after-delivery-drone-strikes-michigan-fiber-cable-garage/ar-AA2i4wGO",
+   "publisher": "CNBC on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "An Amazon drone \"struck a fiber cable, a residential garage, and became entangled in power lines during takeoff,\"",
+   "note": "Drone regulatory and safety setbacks reinforce reliance on ground delivery van fleets, preserving demand for commercial auto telematics insurance."
+  },
+  {
+   "title": "Cargo Thieves Are Chasing AI Hardware Down the Dirt Road to the Data Center",
+   "url": "https://www.freightwaves.com/news/cargo-thieves-are-chasing-ai-hardware-down-the-dirt-road-to-the-data-center",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "As AI infrastructure spending surges, cargo thieves are targeting Blackwell chips and scarce data center components.",
+   "note": "Context only. Specialized freight theft targeting server components does not affect typical retail parcel and courier fleet auto lines."
+  },
+  {
+   "title": "No 10 North will face greater scrutiny as Burnham's 10-year plan looms",
+   "url": "https://www.yahoo.com/news/politics/articles/no-10-north-face-greater-003134104.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The work of Number 10 North in Manchester has been kept largely away from the headlines",
+   "note": "A regional UK government office in Manchester faces increased scrutiny under an upcoming mayoral ten-year plan."
+  },
+  {
+   "title": "A tale of two Housewives: What Mary Cosby and Sai De Silva reveal about being the only Black ‘Real Housewife’",
+   "url": "https://www.yahoo.com/entertainment/tv/articles/tale-two-housewives-mary-cosby-003740954.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "While Mary Cosby is receiving much-deserved grace, Sai De Silva is dodging microaggressions",
+   "note": "A media article analyzes racial representation and social dynamics across cast members of the Real Housewives reality television franchise."
+  },
+  {
+   "title": "Amazon drone delivering shampoo snags on wire and tumbles onto Michigan man’s garage roof",
+   "url": "https://www.nbcnews.com/news/us-news/amazon-drone-shampoo-wire-michigan-roof-rcna611005",
+   "publisher": "NBC News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "said the accident caused some neighbors to temporarily lose internet access.",
+   "note": "Delivery drone property damage demonstrates ongoing operational obstacles, ensuring ground van fleets remain the primary last-mile delivery method."
+  },
+  {
+   "title": "Michigan WR Marsh will play at OSU; police report details incident",
+   "url": "https://sports.yahoo.com/articles/michigan-wr-marsh-play-osu-235536484.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "denied that he intentionally exposed himself to a female DoorDash driver at his home.",
+   "note": "A college football player denied police report allegations of indecent exposure involving a female DoorDash delivery driver at his home."
+  },
+  {
+   "title": "Could a City Council Bill Really Raise Amazon Prices by $5?",
+   "url": "https://www.nytimes.com/2026/11/23/nyregion/amazon-price-increases-nyc.html",
+   "publisher": "The New York Times",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon is fighting a City Council bill to regulate deliveries, telling customers that it could raise prices",
+   "note": "Municipal delivery regulations can increase operating compliance costs for last-mile fleets, potentially squeezing DSP margins and route economics."
+  },
+  {
+   "title": "Amazon drone crashes into garage after delivering shampoo",
+   "url": "https://www.cnn.com/2026/11/23/us/amazon-drone-crashes",
+   "publisher": "CNN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "A drone making a delivery for the online retailer Amazon crashed outside of Detroit",
+   "note": "Context only. Highlights regulatory and operational scrutiny on drone delivery, but ground commercial auto fleets remain the primary last-mile delivery mode."
+  },
+  {
+   "title": "Tractor Supply boosts same-day delivery options",
+   "url": "https://www.supplychaindive.com/news/tractor-supply-boosts-same-day-delivery-options/875304/",
+   "publisher": "Supply Chain Dive",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon is expanding its rural delivery network.",
+   "note": "Rural delivery expansion increases mileage and DSP routes outside dense urban cores, broadening the addressable fleet vehicle base for telematics-based commercial auto coverage."
+  },
+  {
+   "title": "Suspects Charged in Train Heist Ring Netting $22M in Cargo from Major Retailers",
+   "url": "https://www.carriermanagement.com/news/2026/11/23/294331.htm",
+   "publisher": "Carrier Management",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "orchestrating a massive train heist operation to steal over $22 million in cargo",
+   "note": "Federal authorities indicted over a dozen individuals for allegedly running an organized operation that stole $22 million in cargo from freight trains."
+  },
+  {
+   "title": "Fight intensifies over Amazon delivery bill in Queens",
+   "url": "https://queenseagle.com/all/2026/11/23/fight-intensifies-over-amazon-delivery-bill-in-queens",
+   "publisher": "Queens Daily Eagle",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "regulating Amazon’s use of third-party delivery drivers in Queens and beyond.",
+   "note": "Municipal regulations targeting third-party delivery drivers could reshape Amazon DSP operational models, fleet labor structures, and route viability in New York."
+  },
+  {
+   "title": "Amazon Warns New Yorkers of Higher Prices if City Delivery Bill Passes",
+   "url": "https://www.msn.com/en-us/news/other/amazon-warns-new-yorkers-of-higher-prices-if-city-delivery-bill-passes/ar-AA2i4KIv",
+   "publisher": "Women's Wear Daily on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "the proposed Delivery Protection Act \"could add up to $5 per order.\"",
+   "note": "Delivery fee surcharges and contractor regulatory pressures could squeeze urban DSP margins, heightening the need for lower operating costs like telematics-discounted insurance."
+  },
+  {
+   "title": "Gallagher & Hagopian obtiene un veredicto del jurado por $711,068 contra Progressive Insurance",
+   "url": "https://www.prnewswire.com/news-releases/gallagher-amp-hagopian-obtiene-un-veredicto-del-jurado-por-711-068-contra-progressive-insurance-878857894.html",
+   "publisher": "PR Newswire - Insurance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "obtiene un veredicto del jurado por $711,068 contra Progressive Insurance",
+   "note": "Context only. Reflects ongoing litigation severity against a dominant commercial auto competitor, though centered on personal uninsured motorist coverage."
+  },
+  {
+   "title": "Gallagher & Hagopian Secures $711,068 Jury Verdict Against Progressive Insurance",
+   "url": "https://www.prnewswire.com/news-releases/gallagher--hagopian-secures-711-068-jury-verdict-against-progressive-insurance-302947590.html",
+   "publisher": "PR Newswire - Insurance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "obtained a $711,068 jury verdict in Lee...",
+   "note": "Context only. Demonstrates persistent auto jury award severity against Progressive in Florida, though limited to personal lines uninsured motorist exposure."
+  },
+  {
+   "title": "Chatbot estimates vs. real quotes: What drivers should know",
+   "url": "https://nypost.com/business/ai-car-insurance-estimates-vs-real-quotes/",
+   "publisher": "New York Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Fast AI chatbots promise cheap auto insurance in seconds, but preliminary estimates aren’t binding.",
+   "note": "An article highlights why AI chatbot auto insurance quotes are non-binding estimates and can differ from final rates after insurer verification."
+  },
+  {
+   "title": "Social media companies not liable for Buffalo mass shooting, New York's highest court rules",
+   "url": "https://www.reuters.com/legal/government/social-media-companies-not-liable-buffalo-mass-shooting-new-yorks-highest-court-2026-11-23/",
+   "publisher": "Reuters",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Social media companies not liable for Buffalo mass shooting",
+   "note": "New York's highest court ruled that major social media companies cannot be held liable for the 2022 Buffalo mass shooting."
+  },
+  {
+   "title": "FedEx-led consortium finalizes $9.2B deal for Polish delivery company",
+   "url": "https://www.freightwaves.com/news/fedex-led-consortium-finalizes-9-2b-deal-for-polish-delivery-company",
+   "publisher": "FreightWaves",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "FedEx has completed the takeover of InPost, a large parcel courier in Europe.",
+   "note": "A FedEx-led consortium finalized a $9.2 billion acquisition of European parcel courier InPost."
+  },
+  {
+   "title": "Final mile delivery prices climb 10.5% in Q3, GEODIS says",
+   "url": "https://www.freightwaves.com/news/geodis-final-mile-index-delivery-prices",
+   "publisher": "FreightWaves",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Courier and local freight prices rose 10.2% and 10.7% in the third quarter, according to a new GEODIS index",
+   "note": "Rising courier revenue yields better operator margins, enhancing fleet willingness and capacity to absorb commercial auto insurance costs for Nirvana's prospective clients."
+  },
+  {
+   "title": "Ohio House passes Bill 792 to ease surplus lines insurance regulations",
+   "url": "https://beinsure.com/news/ohio-house-passes-bill-792-to-ease-surplus-lines-insurance-regulations/",
+   "publisher": "beinsure",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Ohio House Bill 792 would reduce surplus lines insurance declination requirements from five carriers to one and allow regulators to establish an export list",
+   "note": "Easing surplus lines placement friction accelerates speed-to-market for non-admitted commercial auto products and MGAs targeting hard-to-place delivery fleets in Ohio."
+  },
+  {
+   "title": "Best burial insurance companies of 2026",
+   "url": "https://www.cnbc.com/select/best-burial-insurance-companies/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The median cost of a funeral in the U.S. ranges between $6,280 and $8,300",
+   "note": "CNBC reviewed consumer burial insurance options and typical funeral expenses."
+  },
+  {
+   "title": "Russian Cargo Ship Attacked by Drones in Gulf of Finland",
+   "url": "https://www.insurancejournal.com/news/international/2026/11/23/893444.htm",
+   "publisher": "Insurance Journal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Two drones attacked the",
+   "note": "A Russian cargo ship in the Gulf of Finland was attacked by drones."
+  },
+  {
+   "title": "Taking the busywork out of business buying",
+   "url": "https://www.supplychaindive.com/spons/taking-the-busywork-out-of-business-buying/874853/",
+   "publisher": "Supply Chain Dive",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon Business brings inventory and procurement systems together to make business buying faster and more efficient",
+   "note": "Amazon Business highlighted its procurement and inventory software capabilities."
+  },
+  {
+   "title": "Team Behind $48M Fulton County Med Mal Verdict Adds $9.1M Attorney Fee Award to Judgment",
+   "url": "https://www.law.com/dailyreportonline/2026/11/23/team-behind-48m-fulton-county-med-mal-verdict-adds-91m-attorney-fee-award-to-judgment/",
+   "publisher": "Law.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Team Behind $48M Fulton County Med Mal Verdict Adds $9.1M Attorney Fee Award to Judgment",
+   "note": "A Georgia judge added a $9.1M attorney fee award to a $48M medical malpractice verdict."
+  },
+  {
+   "title": "‘Grand Theft Auto VI’ lives up to its hype with compelling characters and spectacular action",
+   "url": "https://www.pressdemocrat.com/2026/11/23/grand-theft-auto-vi-impressions/",
+   "publisher": "The Press Democrat",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "‘Grand Theft Auto VI’ lives up to its hype with compelling characters and spectacular action",
+   "note": "A review of Grand Theft Auto VI discusses narrative character arcs."
+  },
+  {
+   "title": "Sen. Schumer introduces tariff legislation, blasts Trump in visit to Massena",
+   "url": "https://www.northcountrynow.com/stories/sen-schumer-introduces-tariff-legislation-blasts-trump-in-visit-to-massena,401884",
+   "publisher": "NorthCountryNow",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Sen. Chuck Schumer visited Massena today, Nov. 23, to announce new legislation to end President Donald Trump's tariffs",
+   "note": "Senator Chuck Schumer introduced legislation targeting federal tariffs affecting regional manufacturing."
+  },
+  {
+   "title": "GeekyAnts Presents React Native Case Study on Task-Specific Parcel Scan Validation",
+   "url": "https://www.greenbaypressgazette.com/press-release/story/210734/geekyants-presents-react-native-case-study-on-task-specific-parcel-scan-validation/",
+   "publisher": "Green Bay Press-Gazette",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The retrospective account examines mobile workflows, scanning integration, testing, and deployment for a parcel service",
+   "note": "GeekyAnts published a mobile engineering case study on barcode scanning validation for parcel workflows."
+  },
+  {
+   "title": "From dorm delivery robots to real‑world video games, UW students show off inventions",
+   "url": "https://www.geekwire.com/2026/from-dorm-delivery-robots-to-real-world-video-games-uw-students-show-off-inventions/",
+   "publisher": "GeekWire",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "including an autonomous robot that delivers dining hall food to dorms",
+   "note": "University of Washington students demonstrated campus delivery robots and student technology projects."
+  },
+  {
+   "title": "Global Autonomous Last Mile Delivery Market Report 2026 | Capitalize on 25.0% CAGR to $5.1 Billion by 2030 as Amazon, DHL, Starship Technologies, Nuro and Flytrex Scale Fleets",
+   "url": "https://finance.yahoo.com/technology/articles/global-autonomous-last-mile-delivery-151600079.html",
+   "publisher": "Yahoo Finance",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Capitalize on 25.0% CAGR to $5.1 Billion by 2030 as Amazon, DHL, Starship Technologies, Nuro and Flytrex Scale Fleets",
+   "note": "Autonomous fleet scaling could shift commercial auto liability from driver risk to product liability long term, but near-term human fleet focus remains paramount."
+  },
+  {
+   "title": "Maricopa train and semi crash causes major traffic delays",
+   "url": "https://www.azcentral.com/story/news/crime-public-safety/arizona/2026/11/23/maricopa-train-semi-truck-crash/92930819007/",
+   "publisher": "azcentral.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Maricopa train and semi crash causes major traffic delays",
+   "note": "A train and semi-truck collision in Maricopa created local traffic delays."
+  },
+  {
+   "title": "Judge approves $7.25 billion Roundup settlement: Who qualifies for compensation?",
+   "url": "https://www.consumeraffairs.com/news/judge-approves-725-billion-roundup-settlement-who-qualifies-for-compensation-112326.html",
+   "publisher": "ConsumerAffairs",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Judge approves $7.25 billion Roundup settlement: Who qualifies for compensation?",
+   "note": "A Missouri judge approved a $7.25B settlement over Bayer's Roundup weed killer."
+  },
+  {
+   "title": "Very Heavy Parcels: Verdi Calls for Relief for Parcel Delivery Workers",
+   "url": "https://www.marketscreener.com/news/very-heavy-parcels-verdi-calls-for-relief-for-parcel-delivery-workers-ce7851dadb8ffe21",
+   "publisher": "MarketScreener",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "While parcel volumes are rising, delivery",
+   "note": "Surging peak delivery volumes and driver fatigue heighten accident frequencies, reinforcing the need for telematics monitoring to suppress holiday claim spikes."
+  },
+  {
+   "title": "Full Speed Ahead: Enterprise AI Agents And The All-Green Illusion",
+   "url": "https://www.forbes.com/councils/forbestechcouncil/2026/11/23/full-speed-ahead-enterprise-ai-agents-and-the-all-green-illusion/",
+   "publisher": "Forbes",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Companies are being lulled into a false sense of security by dashboards that flash green while business logic subtly shatters",
+   "note": "A Forbes article discussed risks of overreliance on enterprise AI dashboard monitoring."
+  },
+  {
+   "title": "Final mile delivery prices climb 10.5% in Q3, GEODIS says",
+   "url": "https://finance.yahoo.com/economy/articles/final-mile-delivery-prices-climb-123000352.html",
+   "publisher": "Yahoo Finance",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "merged into existing event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Courier and local freight prices rose 10.2% and 10.7% in the third quarter, according to a new GEODIS index",
+   "note": "ev_6bd8b96b904b"
+  },
+  {
+   "title": "Trucking risks keep sliding into E&S, and this company has built a wholesaler to catch them",
+   "url": "https://www.insurancebusinessmag.com/us/news/auto-motor/trucking-risks-keep-sliding-into-eands-and-this-company-has-built-a-wholesaler-to-catch-them-598455.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Roman Atkielski says standard carriers have grown choosier about commercial auto, and that the wholesalers who win will be the ones who know exactly",
+   "note": "Standard market contraction opens massive opportunity for telematics-enabled MGAs to capture displaced delivery and commercial trucking fleets through wholesale broker channels."
+  },
+  {
+   "title": "Ethics probe finds Democratic Rep. Jimmy Gomez made unwelcome sexual advances to a staffer",
+   "url": "https://www.bangordailynews.com/2026/11/23/nation/ethics-probe-finds-democratic-rep-jimmy-gomez-made-unwelcome-sexual-advances-to-a-staffer/",
+   "publisher": "Bangor Daily News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Ethics probe finds Democratic Rep. Jimmy Gomez made unwelcome sexual advances to a staffer",
+   "note": "House Ethics Committee cited evidence of misconduct by Rep. Jimmy Gomez."
+  },
+  {
+   "title": "AFCON title to be decided Tuesday when Senegal and Morocco get appeal verdict from sports court",
+   "url": "https://www.msn.com/en-us/sports/soccer/afcon-title-to-be-decided-tuesday-when-senegal-and-morocco-get-appeal-verdict-from-sports-court/ar-AA2i1XP5",
+   "publisher": "Associated Press News on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "AFCON title to be decided Tuesday when Senegal and Morocco get appeal verdict from sports court",
+   "note": "The Court of Arbitration for Sport is ruling on an AFCON soccer dispute."
+  },
+  {
+   "title": "These companies offer the most affordable car insurance in Arizona",
+   "url": "https://www.cnbc.com/select/best-car-insurance-in-arizona/",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "These companies offer the most affordable car insurance in Arizona",
+   "note": "CNBC reviewed consumer personal car insurance rates across Arizona."
+  },
+  {
+   "title": "Moving to Fairfax, VA: the 2026 moving guide",
+   "url": "https://www.ffxnow.com/2026/11/23/moving-to-fairfax-va-the-2026-moving-guide-mov1/",
+   "publisher": "FFXnow",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Written by Andrea Pedon, Marketing Manager at 495 Movers",
+   "note": "A moving company published a 2026 consumer moving and relocation guide for families and businesses in Fairfax, Virginia."
+  },
+  {
+   "title": "U.S. prepares new tariff wave as inflation risks mount — KPMG's Diane Swonk",
+   "url": "https://www.forexfactory.com/news/1438197-us-prepares-new-tariff-wave-as-inflation-risks",
+   "publisher": "Forex Factory",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "KPMG Chief Economist Diane Swonk warns that another round of U.S. tariffs is approaching, potentially reigniting inflation",
+   "note": "Context only."
+  },
+  {
+   "title": "Amazon delivery drone crashes into Detroit home",
+   "url": "https://abcnews.com/video/138392378/",
+   "publisher": "ABC News",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "workers removing an 80-pound Amazon delivery drone from a roof after it crashed into a home in suburban Detroit.",
+   "note": "Highlights emerging property liability risks in automated delivery, but has little near-term impact on Nirvana's core cargo van and box truck commercial auto underwriting."
+  },
+  {
+   "title": "Amazon Warns New Yorkers Could Pay More Under Mamdani Delivery Plan",
+   "url": "https://www.forbes.com/sites/nathangoldman/2026/11/20/mamdani-amazon-fight-comes-with-a-5-per-order-surcharge-warning/",
+   "publisher": "Forbes",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Amazon says the Delivery Protection Act could add up to $5 per NYC order.",
+   "note": "Mandatory delivery surcharges could dampen parcel volumes or compress courier fleet margins in key metropolitan markets, potentially impacting insurance purchasing decisions."
+  },
+  {
+   "title": "Oregon ruling turns $36,500 auto settlement into $162K fee fight",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/oregon-ruling-turns-36500-auto-settlement-into-162k-fee-fight-598265.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Oregon’s Court of Appeals reversed a fee award, ruling the trial court wrongly excluded good-faith claims from fee entitlement",
+   "note": "Judicial fee-shifting precedents can escalate auto claim defense costs well beyond underlying damages, emphasizing the need for disciplined claims defense in relevant jurisdictions."
+  },
+  {
+   "title": "Can’t get enough of Vice City? GameSir’s new controllers bring ‘GTA 6’ vibes to Xbox",
+   "url": "https://tech.yahoo.com/gaming/articles/t-enough-vice-city-gamesir-000052119.html",
+   "publisher": "YAHOO!",
+   "lane": "irrelevant",
+   "event_type": "product_launch",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "GameSir launched two GTA 6-inspired Xbox controllers at $89.99",
+   "note": "GameSir launched two GTA 6-themed video game controllers for Xbox alongside Sony's PS5 offerings."
+  },
+  {
+   "title": "How Do Commercial Car Insurance Deductibles Work?",
+   "url": "https://www.business.com/insurance/commercial-auto-deductibles/",
+   "publisher": "Business.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The deductible on a commercial car business insurance policy works the same as it does for personal auto insurance.",
+   "note": "A small business educational article explains how deductibles work on commercial auto insurance policies."
+  },
+  {
+   "title": "Capacity constraints continue to drive truckload rate inflation as spot rates climb to 2026 highs, notes RXO ‘Curve’",
+   "url": "https://www.logisticsmgmt.com/article/capacity_constraints_continue_to_drive_truckload_rate_inflation_as_spot_rates_climb_to_2026_highs_notes_rxo_curve",
+   "publisher": "Logistics Management",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "Third quarter spot rates (linehaul only, excluding fuel) remained inflationary, increasing 37.9% annually",
+   "note": "Strong freight pricing improves broader carrier financial stability, though spot truckload conditions have limited direct correlation with dedicated, contracted last-mile delivery fleets."
+  },
+  {
+   "title": "ACT Flags Supply Constraints as Truck Orders Slow",
+   "url": "https://www.aftermarketnews.com/act-research-october-2026-truck-market-outlook/",
+   "publisher": "aftermarketNews",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest",
+   "evidence_quote": "The truck market outlook showed diverging truck and trailer order trends, with higher costs and supply constraints complicating planning.",
+   "note": "Elevated vehicle replacement costs and supply constraints could inflate physical damage claims severity and cause fleets to keep aging vehicles in service longer."
+  }
+ ],
+ "digest": "- Standard carriers are tightening commercial auto appetite and pushing trucking risks into the excess and surplus market, creating an opportunity for telematics-enabled MGAs via wholesale channels [1].\n- Final-mile delivery prices jumped 10.5% in Q3, increasing courier revenue and operator margins which enhances fleet capacity to absorb commercial auto insurance costs [2].\n- Ohio passed Bill 792 to reduce surplus lines declination requirements from five carriers to one, accelerating speed-to-market for non-admitted commercial auto products targeting hard-to-place delivery fleets [8].\n- Tractor Supply is expanding same-day delivery options while Amazon grows rural delivery networks, broadening the addressable fleet vehicle base for telematics-based commercial auto coverage [9].\n- Proposed New York City delivery regulations could squeeze urban delivery service partner margins, increasing the need for cost-saving telematics-discounted insurance [7]."
+}
