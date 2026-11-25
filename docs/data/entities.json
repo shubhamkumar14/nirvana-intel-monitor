@@ -673,9 +673,8 @@
  "Progressive": {
   "name": "Progressive",
   "first_seen": "2026-10-21T18:16:06Z",
-  "mentions": 14,
+  "mentions": 15,
   "event_ids": [
-   "ev_4e1decef5c99",
    "ev_69d76db95349",
    "ev_748e9383b930",
    "ev_135ff384a405",
@@ -684,10 +683,11 @@
    "ev_dfd0740c1eca",
    "ev_7bc80e4f1076",
    "ev_63cf43525fc1",
-   "ev_b50c706fe9ac"
+   "ev_b50c706fe9ac",
+   "ev_0bade3e48c0a"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-19T09:32:02Z"
+  "last_seen": "2026-11-25T22:46:58Z"
  },
  "Banyan Risk": {
   "name": "Banyan Risk",
@@ -2115,12 +2115,13 @@
  "Root": {
   "name": "Root",
   "first_seen": "2026-11-13T20:39:22Z",
-  "mentions": 1,
+  "mentions": 2,
   "event_ids": [
-   "ev_7997e49df568"
+   "ev_7997e49df568",
+   "ev_0bade3e48c0a"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-13T20:39:22Z"
+  "last_seen": "2026-11-25T22:46:58Z"
  },
  "Pinion Insurance": {
   "name": "Pinion Insurance",
@@ -2774,5 +2775,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-25T10:32:38Z"
+ },
+ "Coupang": {
+  "name": "Coupang",
+  "first_seen": "2026-11-25T22:46:58Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_3dd7d61fc2ba"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-25T22:46:58Z"
  }
 }
