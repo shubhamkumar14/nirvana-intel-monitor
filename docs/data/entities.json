@@ -2754,5 +2754,25 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-24T23:16:43Z"
+ },
+ "Amazon DSP insurance program": {
+  "name": "Amazon DSP insurance program",
+  "first_seen": "2026-11-25T10:32:38Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_5df4614228cd"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-25T10:32:38Z"
+ },
+ "Element Fleet Management Corp.": {
+  "name": "Element Fleet Management Corp.",
+  "first_seen": "2026-11-25T10:32:38Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_45bbdf2d0749"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-25T10:32:38Z"
  }
 }

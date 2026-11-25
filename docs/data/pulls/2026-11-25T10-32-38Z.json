@@ -1,0 +1,1411 @@
+{
+ "run_id": "2026-11-25T10-32-38Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/45595967045",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-25",
+ "started": "2026-11-25T10:32:38Z",
+ "duration_s": 811.3,
+ "baseline": false,
+ "previous_run": "2026-11-24T23-16-43Z",
+ "previous_started": "2026-11-24T23:16:43Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 377,
+  "unique": 352,
+  "known_skipped": 289,
+  "attached_existing": 2,
+  "prefiltered_out": 19,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 42,
+  "irrelevant": 37,
+  "quarantined": 0,
+  "new_events": 5,
+  "updated_events": 2,
+  "late_discoveries": 0,
+  "classifier_errors": 40,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.7,
+  "dedup_ratio": 0.881,
+  "relevance_rate": 0.119
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 392
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 400
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 111
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 171
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 215
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 98
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 239
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 130
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 122
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 239
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 165
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 180
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 162
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 121
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 168
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 246
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 201
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 154
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 172
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 179
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 144
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 148
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 154
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 169
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 163
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 151
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 170
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 180
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 114
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 181
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 71
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1290
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 656
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 289
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 414
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 229
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 732
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 836
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 1701,
+  "output_tokens": 448,
+  "calls": 2,
+  "errors": 2,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 2
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [
+  "gemini:gemini-flash-lite-latest HTTP 503: b'[{\\n  \"error\": {\\n    \"code\": 503,\\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try aga"
+ ],
+ "new": [
+  {
+   "id": "ev_eed132c33a00",
+   "title": "A $7 Million Premium for Prompt Delivery. Can a Bulker Earn It Back?",
+   "url": "https://www.xindemarinenews.com/news/2125507994746916865",
+   "lane": "market_driver",
+   "event_type": "pricing_rate",
+   "direction": "neutral",
+   "materiality": 4,
+   "last_mile_fit": 0.6,
+   "summary": "A $7 Million Premium for Prompt Delivery. Can a Bulker Earn It Back?",
+   "evidence_quote": "A $7 Million Premium for Prompt Delivery. Can a Bulker Earn It Back?",
+   "companies": [],
+   "implication": "Affects loss costs or demand in last-mile commercial auto; feed into pricing assumptions.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-24T18:44:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-25T10:32:38Z",
+   "first_run": "2026-11-25T10-32-38Z",
+   "last_seen": "2026-11-25T10:32:38Z",
+   "last_updated_run": "2026-11-25T10-32-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "rules-fallback",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "eed132c33a00"
+   ],
+   "sources": [
+    {
+     "url": "https://www.xindemarinenews.com/news/2125507994746916865",
+     "publisher": "xindemarinenews.com",
+     "publisher_key": "xindemarinenews.com",
+     "published": "2026-11-24T18:44:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 69.6,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 4,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source, rules classifier (no AI)"
+  },
+  {
+   "id": "ev_5df4614228cd",
+   "title": "Delivering More Than Packages: Amazon’s Brooklyn Delivery Partners Give Back to the World’s First Children’s Museum",
+   "url": "https://pix11.com/holiday-gift-guide/delivering-more-than-packages-amazons-brooklyn-delivery-partners-give-back-to-the-worlds-first-childrens-museum/",
+   "lane": "competitor_move",
+   "event_type": "partnership_distribution",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "Delivering More Than Packages: Amazon’s Brooklyn Delivery Partners Give Back to the World’s First Children’s Museum",
+   "evidence_quote": "Delivering More Than Packages: Amazon’s Brooklyn Delivery Partners Give Back to the World’s First Children’s Museum",
+   "companies": [
+    "Amazon DSP insurance program"
+   ],
+   "implication": "Amazon DSP insurance program gains a distribution route; check overlap with Nirvana's broker targets.",
+   "action": "respond",
+   "watchlist_companies": [
+    "Amazon DSP insurance program"
+   ],
+   "published": "2026-11-24T17:33:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-25T10:32:38Z",
+   "first_run": "2026-11-25T10-32-38Z",
+   "last_seen": "2026-11-25T10:32:38Z",
+   "last_updated_run": "2026-11-25T10-32-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "rules-fallback",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "5df4614228cd"
+   ],
+   "sources": [
+    {
+     "url": "https://pix11.com/holiday-gift-guide/delivering-more-than-packages-amazons-brooklyn-delivery-partners-give-back-to-the-worlds-first-childrens-museum/",
+     "publisher": "PIX11",
+     "publisher_key": "pix11",
+     "published": "2026-11-24T17:33:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Amazon \"delivery service partner\" insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 69.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.9,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source, rules classifier (no AI)"
+  },
+  {
+   "id": "ev_ea583ec71e85",
+   "title": "BMS sells its Canadian business to Peloton Capital Management",
+   "url": "https://www.reinsurancene.ws/bms-sells-its-canadian-business-to-peloton-capital-management/",
+   "lane": "market_driver",
+   "event_type": "leadership",
+   "direction": "neutral",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "BMS sells its Canadian business to Peloton Capital Management",
+   "evidence_quote": "BMS sells its Canadian business to Peloton Capital Management",
+   "companies": [],
+   "implication": "Affects loss costs or demand in last-mile commercial auto; feed into pricing assumptions.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-25T09:00:55Z",
+   "date_known": true,
+   "first_seen": "2026-11-25T10:32:38Z",
+   "first_run": "2026-11-25T10-32-38Z",
+   "last_seen": "2026-11-25T10:32:38Z",
+   "last_updated_run": "2026-11-25T10-32-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "rules-fallback",
+   "lane_hint": null,
+   "fingerprints": [
+    "ea583ec71e85"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reinsurancene.ws/bms-sells-its-canadian-business-to-peloton-capital-management/",
+     "publisher": "Reinsurance News",
+     "publisher_key": "reinsurance news",
+     "published": "2026-11-25T09:00:55Z",
+     "tier": 2,
+     "source_id": "reinsurancenews",
+     "query": null
+    }
+   ],
+   "best_tier": 2,
+   "score": 63.2,
+   "age_days": 0.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.99,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "trade press, single source, rules classifier (no AI)"
+  },
+  {
+   "id": "ev_45bbdf2d0749",
+   "title": "Element wins two 2026 AutoTech Breakthrough Awards for delivering AI powered fleet solutions",
+   "url": "https://finance.yahoo.com/news/element-wins-two-2026-autotech-130000795.html",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Element Fleet Management won two AutoTech Breakthrough Awards for its AI-powered fleet solutions.",
+   "evidence_quote": "Element wins two 2026 AutoTech Breakthrough Awards for delivering AI powered fleet solutions",
+   "companies": [
+    "Element Fleet Management Corp."
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-23T05:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-25T10:32:38Z",
+   "first_run": "2026-11-25T10-32-38Z",
+   "last_seen": "2026-11-25T10:32:38Z",
+   "last_updated_run": "2026-11-25T10-32-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "45bbdf2d0749"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/news/element-wins-two-2026-autotech-130000795.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-23T05:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 3,
+   "score": 47.5,
+   "age_days": 2.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.8,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_7965abcbda0f",
+   "title": "Wonder Explores Sale of Delivery Service Grubhub, WSJ Reports",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/wonder-explores-sale-of-delivery-service-grubhub-wsj-reports",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "Wonder is considering a sale of its food-delivery business Grubhub, according to a WSJ report.",
+   "evidence_quote": "Wonder Explores Sale of Delivery Service Grubhub, WSJ Reports",
+   "companies": [
+    "Grubhub",
+    "Wonder"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-20T15:10:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-25T10:32:38Z",
+   "first_run": "2026-11-25T10-32-38Z",
+   "last_seen": "2026-11-25T10:32:38Z",
+   "last_updated_run": "2026-11-25T10-32-38Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "7965abcbda0f"
+   ],
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-11-20/wonder-explores-sale-of-delivery-service-grubhub-wsj-reports",
+     "publisher": "Bloomberg",
+     "publisher_key": "bloomberg",
+     "published": "2026-11-20T15:10:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 36.8,
+   "age_days": 4.8,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.62,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_71240b0a914a",
+   "title": "Progressive Reports October 2026 Results",
+   "url": "https://markets.businessinsider.com/news/stocks/progressive-reports-october-2026-results-1036778862",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Progressive reported financial results for October 2026.",
+   "evidence_quote": "Progressive Reports October 2026 Results",
+   "companies": [
+    "The Progressive Corporation"
+   ],
+   "implication": "Monitor major commercial auto carrier financial performance and pricing appetite trends.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-18T00:16:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-18T21:36:09Z",
+   "first_run": "2026-11-18T21-36-09Z",
+   "last_seen": "2026-11-25T10:32:38Z",
+   "last_updated_run": "2026-11-25T10-32-38Z",
+   "update_note": "New corroborating source: Stock Titan",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "71240b0a914a"
+   ],
+   "sources": [
+    {
+     "url": "https://markets.businessinsider.com/news/stocks/progressive-reports-october-2026-results-1036778862",
+     "publisher": "Markets Insider",
+     "publisher_key": "markets insider",
+     "published": "2026-11-18T00:16:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    },
+    {
+     "url": "https://www.stocktitan.net/news/PGR/progressive-reports-october-2026-8uw7owl88rf2.html",
+     "publisher": "Stock Titan",
+     "publisher_key": "stock titan",
+     "published": "2026-11-18T05:16:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "Progressive \"commercial auto\""
+    }
+   ],
+   "best_tier": 3,
+   "score": 43.7,
+   "age_days": 7.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.48,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_c2d07e36d288",
+   "title": "Rising prices and cost of living fuel record-breaking $1 trillion-plus holiday spending estimates",
+   "url": "https://www.kansascity.com/news/business/article318232053.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.2,
+   "summary": "US holiday consumer spending is projected to exceed $1 trillion, driven by inflation and elevated retail prices.",
+   "evidence_quote": "U.S. holiday spending is expected to reach an all-time high of more than $1 trillion this season.",
+   "companies": [],
+   "implication": "Context only. Macro consumer spending indicates sustained parcel delivery volume for final-mile carriers during peak season.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-24T01:56:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T23:16:43Z",
+   "first_run": "2026-11-24T23-16-43Z",
+   "last_seen": "2026-11-25T10:32:38Z",
+   "last_updated_run": "2026-11-25T10-32-38Z",
+   "update_note": "New corroborating source: Miami Herald",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "c2d07e36d288",
+    "b0c9aef883e2"
+   ],
+   "sources": [
+    {
+     "url": "https://www.kansascity.com/news/business/article318232053.html",
+     "publisher": "The Kansas City Star",
+     "publisher_key": "the kansas city star",
+     "published": "2026-11-24T01:56:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    },
+    {
+     "url": "https://www.miamiherald.com/news/business/article318232053.html",
+     "publisher": "Miami Herald",
+     "publisher_key": "miami herald",
+     "published": "2026-11-24T10:47:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 43.6,
+   "age_days": 1.4,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.87,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "BMS sells its Canadian business to Peloton Capital Management",
+   "url": "https://www.reinsurancene.ws/bms-sells-its-canadian-business-to-peloton-capital-management/",
+   "publisher": "Reinsurance News",
+   "lane": "market_driver",
+   "event_type": "leadership",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "rules-fallback",
+   "evidence_quote": "BMS sells its Canadian business to Peloton Capital Management",
+   "note": "Affects loss costs or demand in last-mile commercial auto; feed into pricing assumptions."
+  },
+  {
+   "title": "Suspects Charged in Train Heist That Netted $22M in Cargo From Retailers",
+   "url": "https://www.insurancejournal.com/news/national/2026/11/25/893635.htm",
+   "publisher": "Insurance Journal",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Suspects Charged in Train Heist That Netted $22M in Cargo From Retailers",
+   "note": "Suspects Charged in Train Heist That Netted $22M in Cargo From Retailers"
+  },
+  {
+   "title": "Everything you need to know about Walmart's Black Friday 2026 sale: Store hours, best deals, ad highlights",
+   "url": "https://mashable.com/tech/walmart-black-friday-2026-everything-to-know-best-deals-ad-highlights",
+   "publisher": "Mashable",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Everything you need to know about Walmart's Black Friday 2026 sale: Store hours, best deals, ad highlights",
+   "note": "Everything you need to know about Walmart's Black Friday 2026 sale: Store hours, best deals, ad highlights"
+  },
+  {
+   "title": "Pentagon Retracts $16.1B Air Force Engine Contract, Says 58-Company Award Was Posted in Error",
+   "url": "https://thedefensepost.com/2026/11/25/pentagon-retracts-engine-contract/",
+   "publisher": "The Defense Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Pentagon Retracts $16.1B Air Force Engine Contract, Says 58-Company Award Was Posted in Error",
+   "note": "Pentagon Retracts $16.1B Air Force Engine Contract, Says 58-Company Award Was Posted in Error"
+  },
+  {
+   "title": "What Christmas may cost this year, from the tree to the table",
+   "url": "https://www.msn.com/en-us/news/money/what-christmas-may-cost-this-year-from-the-tree-to-the-table/ar-AA2ibzvo",
+   "publisher": "USA TODAY on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "What Christmas may cost this year, from the tree to the table",
+   "note": "What Christmas may cost this year, from the tree to the table"
+  },
+  {
+   "title": "How Opera Props Became Mashed Potatoes: A Holiday Week Tale",
+   "url": "https://www.nytimes.com/2026/11/25/nyregion/how-opera-props-became-mashed-potatoes-a-holiday-week-tale.html",
+   "publisher": "The New York Times",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "How Opera Props Became Mashed Potatoes: A Holiday Week Tale",
+   "note": "How Opera Props Became Mashed Potatoes: A Holiday Week Tale"
+  },
+  {
+   "title": "Florida TODAY: Amazon drone delivery, Black Friday, Epic Universe",
+   "url": "https://www.yahoo.com/news/us/articles/florida-today-amazon-drone-delivery-100247486.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Florida TODAY: Amazon drone delivery, Black Friday, Epic Universe",
+   "note": "Florida TODAY: Amazon drone delivery, Black Friday, Epic Universe"
+  },
+  {
+   "title": "The Next Miracle Drug for Cancer Is Being Developed in Space",
+   "url": "https://www.newsweek.com/next-miracle-drug-for-cancer-is-being-developed-in-space-12759039",
+   "publisher": "Newsweek",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "The Next Miracle Drug for Cancer Is Being Developed in Space",
+   "note": "The Next Miracle Drug for Cancer Is Being Developed in Space"
+  },
+  {
+   "title": "Amazon Is Weaponizing Its Customers Against NYC Bill",
+   "url": "https://nymag.com/intelligencer/article/amazon-delivery-protection-act.html",
+   "publisher": "New York Magazine",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Amazon Is Weaponizing Its Customers Against NYC Bill",
+   "note": "Amazon Is Weaponizing Its Customers Against NYC Bill"
+  },
+  {
+   "title": "Fuel costs squeeze Nevada nonprofits as more families seek help",
+   "url": "https://lasvegassun.com/news/2026/nov/25/fuel-costs-squeeze-nevada-nonprofits-as-more-famil/",
+   "publisher": "Las Vegas Sun",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Fuel costs squeeze Nevada nonprofits as more families seek help",
+   "note": "Fuel costs squeeze Nevada nonprofits as more families seek help"
+  },
+  {
+   "title": "Infosys Becomes the World's First Organization to Achieve CMMI AI Maturity (AIM) Level 5",
+   "url": "https://finance.yahoo.com/technology/ai/articles/infosys-becomes-worlds-first-organization-095800609.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Infosys Becomes the World's First Organization to Achieve CMMI AI Maturity (AIM) Level 5",
+   "note": "Infosys Becomes the World's First Organization to Achieve CMMI AI Maturity (AIM) Level 5"
+  },
+  {
+   "title": "USPS Warns Americans of Scam ‘Red Flags’ Ahead of Holiday Season",
+   "url": "https://www.newsweek.com/usps-warns-scam-red-flags-holiday-season-12766212",
+   "publisher": "Newsweek",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "USPS Warns Americans of Scam ‘Red Flags’ Ahead of Holiday Season",
+   "note": "USPS Warns Americans of Scam ‘Red Flags’ Ahead of Holiday Season"
+  },
+  {
+   "title": "Port congestion: Shipping firms directed to bear cost of delays",
+   "url": "https://www.graphic.com.gh/news/general-news/ghana-news-port-congestion-shipping-firms-directed-to-bear-cost-of-delays.html",
+   "publisher": "Daily Graphic",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Port congestion: Shipping firms directed to bear cost of delays",
+   "note": "Port congestion: Shipping firms directed to bear cost of delays"
+  },
+  {
+   "title": "Semiconductor Stocks Are Sinking. These 2 AI Chip Stocks Could Make You Richer on the Rebound.",
+   "url": "https://www.fool.com/investing/2026/11/25/semiconductor-stocks-are-sinking-these-2-ai-chip-stocks-could-make-you-richer-on-the-rebound/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Semiconductor Stocks Are Sinking. These 2 AI Chip Stocks Could Make You Richer on the Rebound.",
+   "note": "Semiconductor Stocks Are Sinking. These 2 AI Chip Stocks Could Make You Richer on the Rebound."
+  },
+  {
+   "title": "Kvika banki hf.: Market making agreements, sale of retained bonds and additional issuance of KVIKA CB 32",
+   "url": "https://finance.yahoo.com/markets/options/articles/kvika-banki-hf-market-making-094800346.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Kvika banki hf.: Market making agreements, sale of retained bonds and additional issuance of KVIKA CB 32",
+   "note": "Kvika banki hf.: Market making agreements, sale of retained bonds and additional issuance of KVIKA CB 32"
+  },
+  {
+   "title": "Ocado : How to win in online grocery last mile",
+   "url": "https://www.marketscreener.com/news/ocado-how-to-win-in-online-grocery-last-mile-ce7851dbd180f323",
+   "publisher": "MarketScreener",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Ocado : How to win in online grocery last mile",
+   "note": "Ocado : How to win in online grocery last mile"
+  },
+  {
+   "title": "Sheffield Wednesday forward out for three months after cruel injury blow",
+   "url": "https://the72.co.uk/2026/11/25/sheffield-wednesday-george-brown-new-injury-setback/",
+   "publisher": "The72",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Sheffield Wednesday forward out for three months after cruel injury blow",
+   "note": "Sheffield Wednesday forward out for three months after cruel injury blow"
+  },
+  {
+   "title": "New Trump tariffs on the way, and Absa cutting costs",
+   "url": "https://dailyinvestor.com/investing/166535/new-trump-tariffs-on-the-way-and-absa-cutting-costs/",
+   "publisher": "Daily Investor",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "New Trump tariffs on the way, and Absa cutting costs",
+   "note": "New Trump tariffs on the way, and Absa cutting costs"
+  },
+  {
+   "title": "Is Chick-fil-A open on Thanksgiving Day 2026?",
+   "url": "https://www.nj.com/news/2026/11/is-chick-fil-a-open-on-thanksgiving-day-2026.html",
+   "publisher": "NJ.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Is Chick-fil-A open on Thanksgiving Day 2026?",
+   "note": "Is Chick-fil-A open on Thanksgiving Day 2026?"
+  },
+  {
+   "title": "Are restaurants open on Thanksgiving 2026?",
+   "url": "https://www.nj.com/news/2026/11/are-restaurants-open-on-thanksgiving-2026.html",
+   "publisher": "NJ.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Are restaurants open on Thanksgiving 2026?",
+   "note": "Are restaurants open on Thanksgiving 2026?"
+  },
+  {
+   "title": "Two Stylists Told Me to Ditch These Dated Travel Outfit Trends—Here’s What I’m Wearing Instead",
+   "url": "https://www.instyle.com/stylist-dated-travel-fashion-trends-12264937",
+   "publisher": "InStyle",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Two Stylists Told Me to Ditch These Dated Travel Outfit Trends—Here’s What I’m Wearing Instead",
+   "note": "Two Stylists Told Me to Ditch These Dated Travel Outfit Trends—Here’s What I’m Wearing Instead"
+  },
+  {
+   "title": "A $7 Million Premium for Prompt Delivery. Can a Bulker Earn It Back?",
+   "url": "https://www.xindemarinenews.com/news/2125507994746916865",
+   "publisher": "xindemarinenews.com",
+   "lane": "market_driver",
+   "event_type": "pricing_rate",
+   "materiality": 4,
+   "outcome": "kept: new event",
+   "classifier": "rules-fallback",
+   "evidence_quote": "A $7 Million Premium for Prompt Delivery. Can a Bulker Earn It Back?",
+   "note": "Affects loss costs or demand in last-mile commercial auto; feed into pricing assumptions."
+  },
+  {
+   "title": "Centre approves continuation of ‘Postal Operations’ scheme with Rs 1,141 crore outlay",
+   "url": "https://ianslive.in/centre-approves-continuation-of-postal-operations-scheme-with-rs-1141-crore-outlay--20261125154203",
+   "publisher": "Ianslive",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Centre approves continuation of ‘Postal Operations’ scheme with Rs 1,141 crore outlay",
+   "note": "Centre approves continuation of ‘Postal Operations’ scheme with Rs 1,141 crore outlay"
+  },
+  {
+   "title": "Delivering More Than Packages: Amazon’s Brooklyn Delivery Partners Give Back to the World’s First Children’s Museum",
+   "url": "https://pix11.com/holiday-gift-guide/delivering-more-than-packages-amazons-brooklyn-delivery-partners-give-back-to-the-worlds-first-childrens-museum/",
+   "publisher": "PIX11",
+   "lane": "competitor_move",
+   "event_type": "partnership_distribution",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Delivering More Than Packages: Amazon’s Brooklyn Delivery Partners Give Back to the World’s First Children’s Museum",
+   "note": "Amazon DSP insurance program gains a distribution route; check overlap with Nirvana's broker targets."
+  },
+  {
+   "title": "Tampa Police Say Titans' Jaylen Harrell Assaulted His Rideshare Driver Mid-Ride, Then the SUV Hit a Utility Pole and He Landed in the Hospital",
+   "url": "https://www.msn.com/en-us/news/other/tampa-police-say-titans-jaylen-harrell-assaulted-his-rideshare-driver-mid-ride-then-the-suv-hit-a-utility-pole-and-he-landed-in-the-hospital/ar-AA2iaeTP",
+   "publisher": "BackfireNews on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Tampa Police Say Titans' Jaylen Harrell Assaulted His Rideshare Driver Mid-Ride, Then the SUV Hit a Utility Pole and He Landed in the Hospital",
+   "note": "Tampa Police Say Titans' Jaylen Harrell Assaulted His Rideshare Driver Mid-Ride, Then the SUV Hit a Utility Pole and He Landed in the Hospital"
+  },
+  {
+   "title": "What Do AI Damage Estimates Bring to the Claims Table?",
+   "url": "https://www.claimsjournal.com/news/national/2026/11/25/341527.htm",
+   "publisher": "Claims Journal",
+   "lane": "irrelevant",
+   "event_type": "litigation_claims",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "What Do AI Damage Estimates Bring to the Claims Table?",
+   "note": "What Do AI Damage Estimates Bring to the Claims Table?"
+  },
+  {
+   "title": "Cabinet approves continuation of Postal Operations Scheme with an outlay of Rs. 1,141 Crore for 16th Finance Commission Cycle (FY 2026-27 to FY 2030-31)",
+   "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-continuation-of-postal-operations-scheme-with-an-outlay-of-rs-1141-crore-for-16th-finance-commission-cycle-fy-2026-27-to-fy-2030-31/",
+   "publisher": "Prime Minister of India",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Cabinet approves continuation of Postal Operations Scheme with an outlay of Rs. 1,141 Crore for 16th Finance Commission Cycle (FY 2026-27 to FY 2030-31)",
+   "note": "Cabinet approves continuation of Postal Operations Scheme with an outlay of Rs. 1,141 Crore for 16th Finance Commission Cycle (FY 2026-27 to FY 2030-31)"
+  },
+  {
+   "title": "Vernell Brown III’s season-ending surgery raises bigger questions for Gators",
+   "url": "https://www.sun-sentinel.com/2026/11/24/florida-gators-football-jon-sumrall-sec-vernell-brown-jadan-baugh-buster-faulkner-jayden-woods-myles-graham-dallas-wilson/?mrfcid=2026",
+   "publisher": "Sun Sentinel",
+   "lane": "irrelevant",
+   "event_type": "funding",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Vernell Brown III’s season-ending surgery raises bigger questions for Gators",
+   "note": "Vernell Brown III’s season-ending surgery raises bigger questions for Gators"
+  },
+  {
+   "title": "Beauty products are getting more expensive. Here's what's driving the price increases and how to save",
+   "url": "https://www.cbsnews.com/news/beauty-products-tariffs-gas-prices-rising-costs/",
+   "publisher": "CBS News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Beauty products are getting more expensive. Here's what's driving the price increases and how to save",
+   "note": "Beauty products are getting more expensive. Here's what's driving the price increases and how to save"
+  },
+  {
+   "title": "AMAZON TEAMSTERS RALLY ON CYBER MONDAY TO DEMAND PASSAGE OF CHICAGO DELIVERY PROTECTION ACT",
+   "url": "https://finance.yahoo.com/small-business/articles/amazon-teamsters-rally-cyber-monday-220600495.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "AMAZON TEAMSTERS RALLY ON CYBER MONDAY TO DEMAND PASSAGE OF CHICAGO DELIVERY PROTECTION ACT",
+   "note": "AMAZON TEAMSTERS RALLY ON CYBER MONDAY TO DEMAND PASSAGE OF CHICAGO DELIVERY PROTECTION ACT"
+  },
+  {
+   "title": "AXA Leases 258,196 Sq Ft in Bengaluru for ₹334 Crore Over Ten Years",
+   "url": "https://www.konsulteer.com/article/axa-leases-258-196-sq-ft-in-bengaluru-for-334-crore-over-ten-years",
+   "publisher": "konsulteer.com",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "AXA Leases 258,196 Sq Ft in Bengaluru for ₹334 Crore Over Ten Years",
+   "note": "AXA Leases 258,196 Sq Ft in Bengaluru for ₹334 Crore Over Ten Years"
+  },
+  {
+   "title": "Thyrocare Technologies Appoints Sarovar Chandra as Chief Technology Officer",
+   "url": "https://www.konsulteer.com/article/thyrocare-technologies-appoints-sarovar-chandra-as-chief-technology-officer",
+   "publisher": "konsulteer.com",
+   "lane": "irrelevant",
+   "event_type": "leadership",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Thyrocare Technologies Appoints Sarovar Chandra as Chief Technology Officer",
+   "note": "Thyrocare Technologies Appoints Sarovar Chandra as Chief Technology Officer"
+  },
+  {
+   "title": "He Lets His Tesla Drive at 93, Trusting the Brand. A $400,000 Crash Judgment Could Reach His Savings, While His $2,800 Social Security Check Stays Off-Limits to the Victim",
+   "url": "https://247wallst.com/personal-finance/social-security/2026/11/24/he-lets-his-tesla-drive-at-93-trusting-the-brand-a-400000-crash-judgment-could-reach-his-savings-while-his-2800-social-security-check-stays-off-limits-to-the-victim/",
+   "publisher": "24/7 Wall St.",
+   "lane": "irrelevant",
+   "event_type": "leadership",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "He Lets His Tesla Drive at 93, Trusting the Brand. A $400,000 Crash Judgment Could Reach His Savings, While His $2,800 Social Security Check Stays Off-Limits to the Victim",
+   "note": "He Lets His Tesla Drive at 93, Trusting the Brand. A $400,000 Crash Judgment Could Reach His Savings, While His $2,800 Social Security Check Stays Off-Limits to the Victim"
+  },
+  {
+   "title": "Oscar Health: If Guidance Is Right, The Stock Is Worth Much More",
+   "url": "https://seekingalpha.com/article/4971374-oscar-health-stock-if-guidance-is-right-the-stock-is-worth-much-more",
+   "publisher": "Seeking Alpha",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Oscar Health: If Guidance Is Right, The Stock Is Worth Much More",
+   "note": "Oscar Health: If Guidance Is Right, The Stock Is Worth Much More"
+  },
+  {
+   "title": "Bone stimulators for sprains: GEICO alleges $1.1M no-fault scheme",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/bone-stimulators-for-sprains-geico-alleges-1-1m-nofault-scheme-598619.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Bone stimulators for sprains: GEICO alleges $1.1M no-fault scheme",
+   "note": "Bone stimulators for sprains: GEICO alleges $1.1M no-fault scheme"
+  },
+  {
+   "title": "Florida orders $122.6 million in auto insurance refunds to policyholders",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/florida-orders-122-6-million-in-auto-insurance-refunds-to-policyholders-598609.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Florida orders $122.6 million in auto insurance refunds to policyholders",
+   "note": "Florida orders $122.6 million in auto insurance refunds to policyholders"
+  },
+  {
+   "title": "Iowa blast reveals pollution legal liability gaps in standard cover",
+   "url": "https://www.insurancebusinessmag.com/us/news/environmental/iowa-blast-reveals-pollution-legal-liability-gaps-in-standard-cover-598549.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Iowa blast reveals pollution legal liability gaps in standard cover",
+   "note": "Iowa blast reveals pollution legal liability gaps in standard cover"
+  },
+  {
+   "title": "Three NFL Players Team Up With Sleep in Heavenly Peace for the NFL’s My Cause My Cleats",
+   "url": "https://www.desmoinesregister.com/press-release/story/158043/three-nfl-players-team-up-with-sleep-in-heavenly-peace-for-the-nfls-my-cause-my-cleats/",
+   "publisher": "The Des Moines Register",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Three NFL Players Team Up With Sleep in Heavenly Peace for the NFL’s My Cause My Cleats",
+   "note": "Three NFL Players Team Up With Sleep in Heavenly Peace for the NFL’s My Cause My Cleats"
+  },
+  {
+   "title": "Arrive AI Launches A Jet Drone From A Delivery Box At Camp Atterbury",
+   "url": "https://dronexl.co/2026/11/24/arrive-ai-electric-jet-aircraft-arcspear-camp-atterbury/",
+   "publisher": "dronexl",
+   "lane": "irrelevant",
+   "event_type": "product_launch",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "Arrive AI Launches A Jet Drone From A Delivery Box At Camp Atterbury",
+   "note": "Arrive AI Launches A Jet Drone From A Delivery Box At Camp Atterbury"
+  },
+  {
+   "title": "At 69 With $1.1 Million, She’ll Find a Life Insurance Statement in Her Late Husband’s Desk but No Policy. A Free Locator Service Can Track It Down",
+   "url": "https://247wallst.com/personal-finance/2026/11/23/at-69-with-1-1-million-shell-find-a-life-insurance-statement-in-her-late-husbands-desk-but-no-policy-a-free-locator-service-can-track-it-down/",
+   "publisher": "24/7 Wall St.",
+   "lane": "irrelevant",
+   "event_type": "pricing_rate",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "rules-fallback",
+   "evidence_quote": "At 69 With $1.1 Million, She’ll Find a Life Insurance Statement in Her Late Husband’s Desk but No Policy. A Free Locator Service Can Track It Down",
+   "note": "At 69 With $1.1 Million, She’ll Find a Life Insurance Statement in Her Late Husband’s Desk but No Policy. A Free Locator Service Can Track It Down"
+  },
+  {
+   "title": "Element wins two 2026 AutoTech Breakthrough Awards for delivering AI powered fleet solutions",
+   "url": "https://finance.yahoo.com/news/element-wins-two-2026-autotech-130000795.html",
+   "publisher": "Yahoo Finance",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Element wins two 2026 AutoTech Breakthrough Awards for delivering AI powered fleet solutions",
+   "note": "Context only."
+  },
+  {
+   "title": "Wonder Explores Sale of Delivery Service Grubhub, WSJ Reports",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/wonder-explores-sale-of-delivery-service-grubhub-wsj-reports",
+   "publisher": "Bloomberg",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Wonder Explores Sale of Delivery Service Grubhub, WSJ Reports",
+   "note": "Context only."
+  }
+ ],
+ "digest": "- US holiday consumer spending is projected to exceed $1 trillion due to inflation and rising prices, signaling sustained parcel delivery volume for final-mile carriers during peak season [7].\n- Progressive reported its October 2026 financial results, providing a benchmark to monitor major commercial auto carrier financial performance and pricing appetite trends [6].\n- Element Fleet Management won two AutoTech Breakthrough Awards for its AI-powered fleet solutions, highlighting growing tech capabilities in the competitor landscape [4].\n- BMS sold its Canadian business to Peloton Capital Management, which may affect market dynamics and loss costs relevant to commercial auto underwriting and pricing assumptions [3]."
+}
