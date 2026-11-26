@@ -1,0 +1,1670 @@
+{
+ "run_id": "2026-11-26T10-04-09Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/45797802243",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-26",
+ "started": "2026-11-26T10:04:09Z",
+ "duration_s": 280.0,
+ "baseline": false,
+ "previous_run": "2026-11-25T22-46-58Z",
+ "previous_started": "2026-11-25T22:46:58Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 374,
+  "unique": 356,
+  "known_skipped": 312,
+  "attached_existing": 0,
+  "prefiltered_out": 6,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 37,
+  "irrelevant": 24,
+  "quarantined": 0,
+  "new_events": 13,
+  "updated_events": 0,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 0.6,
+  "dedup_ratio": 0.896,
+  "relevance_rate": 0.351
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 512
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 396
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 109
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 121
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 73
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 646
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 1077
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 244
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 299
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 255
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 3,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 278
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 207
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 191
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 232
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 222
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 198
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 218
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 216
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 270
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 205
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 208
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 216
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 203
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 205
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 220
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 244
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 6,
+   "error": null,
+   "ms": 223
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 211
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 249
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 206
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 225
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 117
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 111
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 11,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1311
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 728
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 111
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 421
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 86
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 713
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 882
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 7368,
+  "output_tokens": 5650,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_008b44b20616",
+   "title": "Wrong truck, wrong driver: Selective fights Signarama crash coverage",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/wrong-truck-wrong-driver-selective-fights-signarama-crash-coverage-598859.aspx",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.5,
+   "summary": "Selective Insurance contests coverage on a commercial crash involving an employee-owned vehicle missing from the commercial policy.",
+   "evidence_quote": "Wrong truck, wrong driver: Selective fights Signarama crash coverage",
+   "companies": [
+    "Selective"
+   ],
+   "implication": "Hired-and-non-owned auto (HNOA) coverage gaps and driver employment status verification remain critical underwriting hurdles for delivery fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-25T04:42:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "008b44b20616"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/wrong-truck-wrong-driver-selective-fights-signarama-crash-coverage-598859.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-25T04:42:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "gig delivery drivers \"commercial auto\" insurance"
+    }
+   ],
+   "best_tier": 2,
+   "score": 63.5,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.89,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_0abf1b07f041",
+   "title": "Global Electric Commercial Vehicle Market Size, Share, Trends, and Forecast, 2026-2033 | USD 341 Billion Opportunity as Battery Innovation and Last-Mile Demand Drive 16% CAGR",
+   "url": "https://finance.yahoo.com/energy/articles/global-electric-commercial-vehicle-market-154200934.html",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "Global electric commercial vehicle market report projects strong CAGR driven by last-mile demand and battery innovations.",
+   "evidence_quote": "Global Electric Commercial Vehicle Market Size, Share, Trends, and Forecast, 2026-2033",
+   "companies": [],
+   "implication": "Highlighting surging EV adoption in last-mile fleets underscores the need for telematics risk models tailored to electric cargo vans and box trucks.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-25T07:42:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "research",
+   "fingerprints": [
+    "0abf1b07f041"
+   ],
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/energy/articles/global-electric-commercial-vehicle-market-154200934.html",
+     "publisher": "Yahoo Finance",
+     "publisher_key": "yahoo finance",
+     "published": "2026-11-25T07:42:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "last-mile delivery market report"
+    }
+   ],
+   "best_tier": 3,
+   "score": 63.0,
+   "age_days": 1.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.9,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_89b554010562",
+   "title": "NYC bike crash fault: Brooklyn bicycle injury lawyer Glenn Herman on dooring, comparative negligence, and delivery e-bike liability by Herman & Herman",
+   "url": "https://newsroom.submitmypressrelease.com/2026/11/25/nyc-bike-crash-fault-brooklyn-bicycle-injury-lawyer-glenn-herman-on-dooring-comparative-negligence-and-delivery-e-bike-liability-by-herman-herman_2629698.html",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "Legal commentary discusses NYC bike crash liability, addressing dooring, comparative negligence, and delivery e-bike liability.",
+   "evidence_quote": "NYC bike crash fault: Brooklyn bicycle injury lawyer Glenn Herman on dooring, comparative negligence, and delivery e-bike liability",
+   "companies": [
+    "Herman & Herman"
+   ],
+   "implication": "Reaffirms complex urban liability and claims risks for delivery fleets operating e-bikes and urban couriers.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-25T16:13:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "89b554010562"
+   ],
+   "sources": [
+    {
+     "url": "https://newsroom.submitmypressrelease.com/2026/11/25/nyc-bike-crash-fault-brooklyn-bicycle-injury-lawyer-glenn-herman-on-dooring-comparative-negligence-and-delivery-e-bike-liability-by-herman-herman_2629698.html",
+     "publisher": "newsroom.submitmypressrelease.com",
+     "publisher_key": "newsroom.submitmypressrelease.com",
+     "published": "2026-11-25T16:13:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 61.4,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5095d74997aa",
+   "title": "A Miami realtor asked his G-Wagon’s hauler for a DOT number and got ‘Why are you asking so many questions?’ Now the $150,000 SUV is gone",
+   "url": "https://www.msn.com/en-us/news/other/a-miami-realtor-asked-his-g-wagon-s-hauler-for-a-dot-number-and-got-why-are-you-asking-so-many-questions-now-the-150000-suv-is-gone/ar-AA2ifSin",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.3,
+   "summary": "A Miami realtor lost a $150,000 vehicle after utilizing an online shipping marketplace and encountering an unverified hauler refusing DOT details.",
+   "evidence_quote": "A Miami realtor asked his G-Wagon’s hauler for a DOT number and got ‘Why are you asking so many questions?’ Now the $150,000 SUV is gone",
+   "companies": [],
+   "implication": "Highlights cargo theft and carrier vetting risks in transport marketplaces; relevant for monitoring commercial cargo exposure.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-25T18:45:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "5095d74997aa"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/a-miami-realtor-asked-his-g-wagon-s-hauler-for-a-dot-number-and-got-why-are-you-asking-so-many-questions-now-the-150000-suv-is-gone/ar-AA2ifSin",
+     "publisher": "The Auto Wire on MSN",
+     "publisher_key": "the auto wire on msn",
+     "published": "2026-11-25T18:45:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.6,
+   "age_days": 0.6,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.94,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_c168d953f2fc",
+   "title": "Ecommerce Orders Rally Ahead of Black Friday With Order Volumes Already Rising up +53% Week-on-Week and +2% Year-on-Year, Ingrid’s Data Reveals",
+   "url": "https://365retail.co.uk/ecommerce-orders-rally-ahead-of-black-friday-with-order-volumes-already-rising-up-53-week-on-week-and-2-year-on-year-ingrids-data-reveals/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "UK ecommerce order volumes rose significantly week-on-week ahead of the Black Friday weekend, according to Ingrid's data.",
+   "evidence_quote": "Ecommerce Orders Rally Ahead of Black Friday With Order Volumes Already Rising",
+   "companies": [
+    "Ingrid"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-26T01:29:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "c168d953f2fc"
+   ],
+   "sources": [
+    {
+     "url": "https://365retail.co.uk/ecommerce-orders-rally-ahead-of-black-friday-with-order-volumes-already-rising-up-53-week-on-week-and-2-year-on-year-ingrids-data-reveals/",
+     "publisher": "365 Retail",
+     "publisher_key": "365 retail",
+     "published": "2026-11-26T01:29:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 52.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_7350f97ed70d",
+   "title": "Royal Mail delivery delays warning amid 'Black November' demand",
+   "url": "https://www.mirror.co.uk/news/uk-news/royal-mail-delivery-delays-warning-37915292",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Royal Mail issued a delivery delay warning as parcel volumes surge due to early festive season shopping.",
+   "evidence_quote": "Royal Mail delivery delays warning amid 'Black November' demand",
+   "companies": [
+    "Royal Mail"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-25T23:34:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "7350f97ed70d"
+   ],
+   "sources": [
+    {
+     "url": "https://www.mirror.co.uk/news/uk-news/royal-mail-delivery-delays-warning-37915292",
+     "publisher": "The Mirror",
+     "publisher_key": "the mirror",
+     "published": "2026-11-25T23:34:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.9,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_dd08d87c9957",
+   "title": "What Royal Mail ‘Black November' alert means for parcel delays",
+   "url": "https://www.msn.com/en-gb/news/other/what-royal-mail-black-november-alert-means-for-parcel-delays/ar-AA2ig3uL",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Royal Mail's Black November alert highlights growing delivery disruptions from peak holiday parcel volumes.",
+   "evidence_quote": "What Royal Mail ‘Black November' alert means for parcel delays",
+   "companies": [
+    "Royal Mail"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-25T23:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "dd08d87c9957"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-gb/news/other/what-royal-mail-black-november-alert-means-for-parcel-delays/ar-AA2ig3uL",
+     "publisher": "Daily Express on MSN",
+     "publisher_key": "daily express on msn",
+     "published": "2026-11-25T23:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.8,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.96,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_6e6e4be483b9",
+   "title": "Retailers Target the Cost of Returns as 60% of Shoppers Demand They Remain Free",
+   "url": "https://365retail.co.uk/retailers-target-the-cost-of-returns-as-60-of-shoppers-demand-they-remain-free/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Scurri research highlights rising pressure on retailers to reduce return costs while consumers demand free returns and fast refunds.",
+   "evidence_quote": "Retailers Target the Cost of Returns as 60% of Shoppers Demand They Remain Free",
+   "companies": [
+    "Scurri"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-26T01:29:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "6e6e4be483b9"
+   ],
+   "sources": [
+    {
+     "url": "https://365retail.co.uk/retailers-target-the-cost-of-returns-as-60-of-shoppers-demand-they-remain-free/",
+     "publisher": "365 Retail",
+     "publisher_key": "365 retail",
+     "published": "2026-11-26T01:29:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "parcel delivery volumes"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.0,
+   "age_days": 0.4,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.97,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5cf78bb7539e",
+   "title": "Grange Insurance cuts commercial quoting time in half for agents",
+   "url": "https://www.insurancebusinessmag.com/us/news/technology/grange-insurance-cuts-commercial-quoting-time-in-half-for-agents-598850.aspx",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Grange Insurance reduced commercial quoting time and classification calls for independent agents.",
+   "evidence_quote": "Grange Insurance cuts commercial quoting time in half for agents",
+   "companies": [
+    "Grange Insurance"
+   ],
+   "implication": "Agent friction reduction by traditional carriers increases competition for broker-distributed commercial auto business; digital MGA quoting must remain ultra-fast.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-25T03:58:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "5cf78bb7539e"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/technology/grange-insurance-cuts-commercial-quoting-time-in-half-for-agents-598850.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-25T03:58:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 50.5,
+   "age_days": 1.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 2,
+    "recency": 0.88,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_5a5d61311fc0",
+   "title": "Parts and Accessories Necessary for Safe Operation; Application for an Exemption From Liberty Bulk Transport, LLC, USDOT No. 3256390",
+   "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24094/parts-and-accessories-necessary-for-safe-operation-application-for-an-exemption-from-liberty-bulk",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "FMCSA granted an exemption allowing Liberty Bulk Transport to use Intellistop pulsed brake lamps on commercial motor vehicles.",
+   "evidence_quote": "FMCSA announces its decision to grant an application from Liberty Bulk Transport, LLC",
+   "companies": [
+    "Liberty Bulk Transport, LLC",
+    "Intellistop, Inc."
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-27T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "5a5d61311fc0"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24094/parts-and-accessories-necessary-for-safe-operation-application-for-an-exemption-from-liberty-bulk",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-27T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "motor carrier insurance"
+    }
+   ],
+   "best_tier": 1,
+   "score": 49.0,
+   "age_days": 0.0,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 1.0,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_32ff6b793eba",
+   "title": "Hours of Service (HOS) of Drivers: Precision Fireworks LLC; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24088/hours-of-service-hos-of-drivers-precision-fireworks-llc-application-for-exemption",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 1,
+   "last_mile_fit": 0.1,
+   "summary": "FMCSA granted Precision Fireworks a limited hours of service exemption during Independence Day periods.",
+   "evidence_quote": "FMCSA announces its decision to grant an exemption to Precision Fireworks LLC",
+   "companies": [
+    "Precision Fireworks LLC"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-27T00:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "32ff6b793eba"
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24088/hours-of-service-hos-of-drivers-precision-fireworks-llc-application-for-exemption",
+     "publisher": "Federal Register",
+     "publisher_key": "federal register",
+     "published": "2026-11-27T00:00:00Z",
+     "tier": 1,
+     "source_id": "federal_register",
+     "query": "motor carrier insurance"
+    }
+   ],
+   "best_tier": 1,
+   "score": 49.0,
+   "age_days": 0.0,
+   "score_parts": {
+    "materiality": 1,
+    "priority": 0.5,
+    "tier": 1,
+    "recency": 1.0,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Confirmed (primary source)",
+   "confidence": "High",
+   "confidence_reason": "primary source, single source"
+  },
+  {
+   "id": "ev_b7fb52c3758b",
+   "title": "US gunmakers, retailers sued over alleged conspiracy to inflate prices",
+   "url": "https://www.reuters.com/legal/government/us-gunmakers-retailers-sued-over-alleged-conspiracy-inflate-prices-2026-11-24/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.0,
+   "summary": "Gunmakers and retailers face a proposed class action lawsuit over alleged price inflation conspiracies.",
+   "evidence_quote": "US gunmakers, retailers sued over alleged conspiracy to inflate prices",
+   "companies": [
+    "Sig Sauer",
+    "Smith & Wesson",
+    "Glock",
+    "Bass Pro Shops"
+   ],
+   "implication": "Context only.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-24T11:11:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "b7fb52c3758b"
+   ],
+   "sources": [
+    {
+     "url": "https://www.reuters.com/legal/government/us-gunmakers-retailers-sued-over-alleged-conspiracy-inflate-prices-2026-11-24/",
+     "publisher": "Reuters",
+     "publisher_key": "reuters",
+     "published": "2026-11-24T11:11:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"nuclear verdicts\" OR \"social inflation\" auto liability"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.9,
+   "age_days": 2.0,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.82,
+    "last_mile_fit": 0.0
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_881dfde6a5d5",
+   "title": "HCSS and Verizon Connect Partner on Fleet Intelligence Integration",
+   "url": "https://www.forconstructionpros.com/equipment/equipment-technology/telematics/news/22978696/heavy-construction-systems-specialists-inc-hcss-hcss-and-verizon-connect-partner-on-fleet-intelligence-integration",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "HCSS and Verizon Connect partnered to integrate fleet intelligence, automating equipment hours and mileage data transfers.",
+   "evidence_quote": "HCSS and Verizon Connect Partner on Fleet Intelligence Integration",
+   "companies": [
+    "HCSS",
+    "Verizon Connect"
+   ],
+   "implication": "Telematics data integration partnerships continue to streamline fleet management, highlighting expectations for automated data flows in commercial auto.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-24T04:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-26T10:04:09Z",
+   "first_run": "2026-11-26T10-04-09Z",
+   "last_seen": "2026-11-26T10:04:09Z",
+   "last_updated_run": "2026-11-26T10-04-09Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "discovery",
+   "fingerprints": [
+    "881dfde6a5d5"
+   ],
+   "sources": [
+    {
+     "url": "https://www.forconstructionpros.com/equipment/equipment-technology/telematics/news/22978696/heavy-construction-systems-specialists-inc-hcss-hcss-and-verizon-connect-partner-on-fleet-intelligence-integration",
+     "publisher": "For Construction Pros",
+     "publisher_key": "for construction pros",
+     "published": "2026-11-24T04:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "telematics insurance fleet MGA"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.5,
+   "age_days": 2.3,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.8,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "Parts and Accessories Necessary for Safe Operation; Application for an Exemption From Liberty Bulk Transport, LLC, USDOT No. 3256390",
+   "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24094/parts-and-accessories-necessary-for-safe-operation-application-for-an-exemption-from-liberty-bulk",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FMCSA announces its decision to grant an application from Liberty Bulk Transport, LLC",
+   "note": "Context only."
+  },
+  {
+   "title": "Hours of Service (HOS) of Drivers: Precision Fireworks LLC; Application for Exemption",
+   "url": "https://www.federalregister.gov/documents/2026/11/27/2026-24088/hours-of-service-hos-of-drivers-precision-fireworks-llc-application-for-exemption",
+   "publisher": "Federal Register",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FMCSA announces its decision to grant an exemption to Precision Fireworks LLC",
+   "note": "Context only."
+  },
+  {
+   "title": "Public health, hospital data management system being synchronised to improve health delivery - Health Minister",
+   "url": "https://www.graphic.com.gh/news/general-news/ghana-news-public-health-hospital-data-management-system-being-synchronised-to-improve-health-delivery-health-minister.html",
+   "publisher": "Daily Graphic",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Public health, hospital data management system being synchronised to improve health delivery",
+   "note": "The Ministry of Health is synchronising public health and hospital data management systems to improve health delivery."
+  },
+  {
+   "title": "Royal Mail disruptions at 78 postcodes with delayed deliveries on Thursday – full list",
+   "url": "https://www.msn.com/en-gb/news/other/royal-mail-disruptions-at-78-postcodes-with-delayed-deliveries-on-thursday-full-list/ar-AA2igeGB",
+   "publisher": "Hull Live on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Royal Mail disruptions at 78 postcodes with delayed deliveries on Thursday",
+   "note": "Royal Mail reported postal disruptions affecting 78 postcodes with delayed deliveries."
+  },
+  {
+   "title": "Tamil Nadu introduces 15-day paternity leave for male government employees",
+   "url": "https://www.msn.com/en-in/money/general/tamil-nadu-introduces-15-day-paternity-leave-for-male-government-employees/ar-AA2ihn9M",
+   "publisher": "The New Indian Express on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tamil Nadu introduces 15-day paternity leave for male government employees",
+   "note": "Tamil Nadu introduced 15 days of paternity leave for male state government employees."
+  },
+  {
+   "title": "Ecommerce Orders Rally Ahead of Black Friday With Order Volumes Already Rising up +53% Week-on-Week and +2% Year-on-Year, Ingrid’s Data Reveals",
+   "url": "https://365retail.co.uk/ecommerce-orders-rally-ahead-of-black-friday-with-order-volumes-already-rising-up-53-week-on-week-and-2-year-on-year-ingrids-data-reveals/",
+   "publisher": "365 Retail",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ecommerce Orders Rally Ahead of Black Friday With Order Volumes Already Rising",
+   "note": "Context only."
+  },
+  {
+   "title": "Retailers Target the Cost of Returns as 60% of Shoppers Demand They Remain Free",
+   "url": "https://365retail.co.uk/retailers-target-the-cost-of-returns-as-60-of-shoppers-demand-they-remain-free/",
+   "publisher": "365 Retail",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Retailers Target the Cost of Returns as 60% of Shoppers Demand They Remain Free",
+   "note": "Context only."
+  },
+  {
+   "title": "【SMM Analysis】South Africa reviews aluminium tariffs and rebates, weighing downstream protection against input costs",
+   "url": "https://news.metal.com/newscontent/6KS2T3XL4PQILTUO5EQ7CQ5XZXP3NDLIH7GBSZI-smm-analysissouth-africa-reviews-aluminium-tariffs-and-rebates-weighing-downstream-protection-against-input-costs",
+   "publisher": "Shanghai Metals Market",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "South Africa reviews aluminium tariffs and rebates",
+   "note": "South Africa's ITAC is reviewing aluminium tariffs and import-duty rebates."
+  },
+  {
+   "title": "Indian Banks Can Win Bigger Wealth Fee Pool by 2030, BI Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-26/indian-banks-can-win-bigger-wealth-fee-pool-by-2030-bi-says",
+   "publisher": "Bloomberg",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Indian Banks Can Win Bigger Wealth Fee Pool by 2030",
+   "note": "Indian banks are targeting a larger wealth fee pool by 2030 due to rising affluent investors."
+  },
+  {
+   "title": "Canada ends tariff relief on certain American trailers December 1 as Ottawa encourages businesses to buy Canadian",
+   "url": "https://www.msn.com/en-ca/news/other/canada-ends-tariff-relief-on-certain-american-trailers-december-1-as-ottawa-encourages-businesses-to-buy-canadian/ar-AA2igIhp",
+   "publisher": "Trendonomist on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Canada ends tariff relief on certain American trailers December 1",
+   "note": "Canada ended tariff relief on certain American trailers to encourage businesses to buy Canadian."
+  },
+  {
+   "title": "Royal Mail delivery delays warning amid 'Black November' demand",
+   "url": "https://www.mirror.co.uk/news/uk-news/royal-mail-delivery-delays-warning-37915292",
+   "publisher": "The Mirror",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Royal Mail delivery delays warning amid 'Black November' demand",
+   "note": "Context only."
+  },
+  {
+   "title": "Chick-fil-A will do something in 2026 it only does 2 times a year",
+   "url": "https://www.thestreet.com/restaurants/chick-fil-a-closed-thanksgiving-2026",
+   "publisher": "TheStreet",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Chick-fil-A will do something in 2026 it only does 2 times a year",
+   "note": "Chick-fil-A announced plans for a recurring holiday season schedule item."
+  },
+  {
+   "title": "What Royal Mail ‘Black November' alert means for parcel delays",
+   "url": "https://www.msn.com/en-gb/news/other/what-royal-mail-black-november-alert-means-for-parcel-delays/ar-AA2ig3uL",
+   "publisher": "Daily Express on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "What Royal Mail ‘Black November' alert means for parcel delays",
+   "note": "Context only."
+  },
+  {
+   "title": "US proposes Section 301 tariffs on China, EU and 12 partners",
+   "url": "https://container-mag.com/update/us-proposes-section-301-tariffs-on-china-eu-and-12-partners",
+   "publisher": "Container Management",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "US proposes Section 301 tariffs on China, EU and 12 partners",
+   "note": "The US proposed Section 301 tariffs affecting China, the EU, and other international partners."
+  },
+  {
+   "title": "Falcons ‘aware’ of allegations that James Pearce is trying to contact WNBA star ex",
+   "url": "https://nypost.com/2026/11/25/sports/falcons-aware-of-allegations-that-james-pearce-is-trying-to-contact-wnba-star-ex/",
+   "publisher": "New York Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Falcons ‘aware’ of allegations that James Pearce is trying to contact WNBA star ex",
+   "note": "The Atlanta Falcons are aware of allegations regarding player social media contact."
+  },
+  {
+   "title": "A Miami realtor asked his G-Wagon’s hauler for a DOT number and got ‘Why are you asking so many questions?’ Now the $150,000 SUV is gone",
+   "url": "https://www.msn.com/en-us/news/other/a-miami-realtor-asked-his-g-wagon-s-hauler-for-a-dot-number-and-got-why-are-you-asking-so-many-questions-now-the-150000-suv-is-gone/ar-AA2ifSin",
+   "publisher": "The Auto Wire on MSN",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "A Miami realtor asked his G-Wagon’s hauler for a DOT number and got ‘Why are you asking so many questions?’ Now the $150,000 SUV is gone",
+   "note": "Highlights cargo theft and carrier vetting risks in transport marketplaces; relevant for monitoring commercial cargo exposure."
+  },
+  {
+   "title": "Cabinet clears Rs 2632 cr to boost postal network, modernise estate infra",
+   "url": "https://www.msn.com/en-in/news/other/cabinet-clears-rs-2632-cr-to-boost-postal-network-modernise-estate-infra/ar-AA2if1Ft",
+   "publisher": "Daily Excelsior on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Cabinet clears Rs 2632 cr to boost postal network, modernise estate infra",
+   "note": "India's cabinet approved funds to boost the postal network and modernize estate infrastructure."
+  },
+  {
+   "title": "FG taps MDGIF to fast-track CNG adoption",
+   "url": "https://punchng.com/fg-taps-mdgif-to-fast-track-cng-adoption/",
+   "publisher": "The Punch",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "FG taps MDGIF to fast-track CNG adoption",
+   "note": "Nigeria's federal government is utilizing MDGIF to accelerate CNG adoption with new refuelling stations in Lagos."
+  },
+  {
+   "title": "NYC bike crash fault: Brooklyn bicycle injury lawyer Glenn Herman on dooring, comparative negligence, and delivery e-bike liability by Herman & Herman",
+   "url": "https://newsroom.submitmypressrelease.com/2026/11/25/nyc-bike-crash-fault-brooklyn-bicycle-injury-lawyer-glenn-herman-on-dooring-comparative-negligence-and-delivery-e-bike-liability-by-herman-herman_2629698.html",
+   "publisher": "newsroom.submitmypressrelease.com",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "NYC bike crash fault: Brooklyn bicycle injury lawyer Glenn Herman on dooring, comparative negligence, and delivery e-bike liability",
+   "note": "Reaffirms complex urban liability and claims risks for delivery fleets operating e-bikes and urban couriers."
+  },
+  {
+   "title": "Sierra Leone sees steep decline in maternal mortality, but barriers to care persist",
+   "url": "https://www.newsday.com/news/nation/sierra-leone-maternal-mortality-c30864",
+   "publisher": "Newsday",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Sierra Leone sees steep decline in maternal mortality, but barriers to care persist",
+   "note": "Sierra Leone reported a steep decline in maternal mortality alongside persistent barriers to care."
+  },
+  {
+   "title": "Union Cabinet clears Rs 2,632 cr to boost postal network",
+   "url": "https://nagalandpost.com/union-cabinet-clears-rs-2632-cr-to-boost-postal-network/",
+   "publisher": "Nagaland Post",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Union Cabinet clears Rs 2,632 cr to boost postal network",
+   "note": "The Indian Union Cabinet has approved funds for the Department of Posts to modernize its network."
+  },
+  {
+   "title": "Master Concept Highlights the Need for Practical Telematics Adoption Among Malaysia's Fleet Operators",
+   "url": "https://finance.yahoo.com/technology/articles/master-concept-highlights-practical-telematics-010000797.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Master Concept Highlights the Need for Practical Telematics Adoption Among Malaysia's Fleet Operators",
+   "note": "Master Concept highlights fleet operators adopting telematics across Malaysia's logistics sector."
+  },
+  {
+   "title": "Maine utility brings back controversial electricity rate promising hundreds in annual savings",
+   "url": "https://www.yahoo.com/news/us/articles/maine-utility-brings-back-controversial-033000403.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Maine utility brings back controversial electricity rate promising hundreds in annual savings",
+   "note": "Central Maine Power reinstated a seasonal electricity rate for households with heat pumps."
+  },
+  {
+   "title": "‘Baahubali,’ ‘RRR’ Tech Chief C.V. Rao, New SMPTE Fellow, on Why Indian Filmmakers Shouldn’t Depend on Overseas Facilities",
+   "url": "https://www.yahoo.com/entertainment/movies/articles/baahubali-rrr-tech-chief-c-025701179.html",
+   "publisher": "Yahoo",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "‘Baahubali,’ ‘RRR’ Tech Chief C.V. Rao, New SMPTE Fellow",
+   "note": "Profile of film technologist C.V. Rao becoming an SMPTE Fellow."
+  },
+  {
+   "title": "Analysis-for Trump, doubling down on tariffs is about power, not popularity",
+   "url": "https://www.msn.com/en-us/money/general/analysis-for-trump-doubling-down-on-tariffs-is-about-power-not-popularity/ar-AA2if9px",
+   "publisher": "Reuters on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Analysis-for Trump, doubling down on tariffs is about power, not popularity",
+   "note": "Analysis discussing President Trump's continued use of tariffs despite political pushback on inflation."
+  },
+  {
+   "title": "For Trump, doubling down on tariffs is about power, not popularity",
+   "url": "https://www.reuters.com/world/us/trump-doubling-down-tariffs-is-about-power-not-popularity-2026-11-25/",
+   "publisher": "Reuters",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "For Trump, doubling down on tariffs is about power, not popularity",
+   "note": "Reuters report on President Trump doubling down on tariffs."
+  },
+  {
+   "title": "The Push to Free a Princeton Scientist From ICE Detention Is Growing",
+   "url": "https://time.com/article/2026/11/25/the-push-to-free-a-princeton-scientist-from-ice-detention-is-growing/",
+   "publisher": "TIME",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The Push to Free a Princeton Scientist From ICE Detention Is Growing",
+   "note": "Legal challenge mounts for a Princeton scientist detained by ICE."
+  },
+  {
+   "title": "Jackson Koivun names three youngsters destined for PGA Tour success, 'it's crazy'",
+   "url": "https://www.msn.com/en-us/sports/golf/jackson-koivun-names-three-youngsters-destined-for-pga-tour-success-it-s-crazy/ar-AA2iemOc",
+   "publisher": "HITC on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Jackson Koivun names three youngsters destined for PGA Tour success",
+   "note": "Golf commentary naming young prospects destined for the PGA Tour."
+  },
+  {
+   "title": "Paying for Amazon Prime? See How Walmart Plus Compares on Price & Perks",
+   "url": "https://finance.yahoo.com/small-business/articles/amazon-prime-vs-walmart-plus-133659312.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Paying for Amazon Prime? See How Walmart Plus Compares on Price & Perks",
+   "note": "Comparison of pricing and perks between Amazon Prime and Walmart Plus."
+  },
+  {
+   "title": "Global Electric Commercial Vehicle Market Size, Share, Trends, and Forecast, 2026-2033 | USD 341 Billion Opportunity as Battery Innovation and Last-Mile Demand Drive 16% CAGR",
+   "url": "https://finance.yahoo.com/energy/articles/global-electric-commercial-vehicle-market-154200934.html",
+   "publisher": "Yahoo Finance",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Global Electric Commercial Vehicle Market Size, Share, Trends, and Forecast, 2026-2033",
+   "note": "Highlighting surging EV adoption in last-mile fleets underscores the need for telematics risk models tailored to electric cargo vans and box trucks."
+  },
+  {
+   "title": "Wrong truck, wrong driver: Selective fights Signarama crash coverage",
+   "url": "https://www.insurancebusinessmag.com/us/news/risk-compliance-legal/wrong-truck-wrong-driver-selective-fights-signarama-crash-coverage-598859.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Wrong truck, wrong driver: Selective fights Signarama crash coverage",
+   "note": "Hired-and-non-owned auto (HNOA) coverage gaps and driver employment status verification remain critical underwriting hurdles for delivery fleets."
+  },
+  {
+   "title": "Grange Insurance cuts commercial quoting time in half for agents",
+   "url": "https://www.insurancebusinessmag.com/us/news/technology/grange-insurance-cuts-commercial-quoting-time-in-half-for-agents-598850.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "competitor_move",
+   "event_type": "product_launch",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Grange Insurance cuts commercial quoting time in half for agents",
+   "note": "Agent friction reduction by traditional carriers increases competition for broker-distributed commercial auto business; digital MGA quoting must remain ultra-fast."
+  },
+  {
+   "title": "The Day Kokone, My AI Assistant on Muse, Learned to Send Tasks Directly to T3 Code on My Mac",
+   "url": "https://note.com/kokone_ailab/n/ne83889263943?hl=en",
+   "publisher": "note",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "T3 Code's telemetry (usage data transmission) is enabled by default",
+   "note": "Software user notes regarding telemetry settings enabled by default in T3 Code."
+  },
+  {
+   "title": "US gunmakers, retailers sued over alleged conspiracy to inflate prices",
+   "url": "https://www.reuters.com/legal/government/us-gunmakers-retailers-sued-over-alleged-conspiracy-inflate-prices-2026-11-24/",
+   "publisher": "Reuters",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "US gunmakers, retailers sued over alleged conspiracy to inflate prices",
+   "note": "Context only."
+  },
+  {
+   "title": "HCSS and Verizon Connect Partner on Fleet Intelligence Integration",
+   "url": "https://www.forconstructionpros.com/equipment/equipment-technology/telematics/news/22978696/heavy-construction-systems-specialists-inc-hcss-hcss-and-verizon-connect-partner-on-fleet-intelligence-integration",
+   "publisher": "For Construction Pros",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "HCSS and Verizon Connect Partner on Fleet Intelligence Integration",
+   "note": "Telematics data integration partnerships continue to streamline fleet management, highlighting expectations for automated data flows in commercial auto."
+  },
+  {
+   "title": "Ship a Car Across the Country: Costs, Timelines and Tips",
+   "url": "https://theweeklydriver.com/ship-a-car-across-the-country-costs-timelines-and-tips/",
+   "publisher": "The Weekly Driver",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ship a Car Across the Country: Costs, Timelines and Tips",
+   "note": "Consumer guide detailing costs, timelines, and tips for shipping a car across the country."
+  },
+  {
+   "title": "No subirá predial ni se autorizará alza a tarifa de agua en Veracruz para 2027: Rosa María",
+   "url": "https://www.alcalorpolitico.com/informacion/no-subira-predial-ni-se-autorizara-alza-a-tarifa-de-agua-en-veracruz-para-2027-rosa-maria-453725.html",
+   "publisher": "Al Calor Político",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "No subirá predial ni se autorizará alza a tarifa de agua en Veracruz para 2027",
+   "note": "Veracruz mayor announces no property or water tariff increases for 2027."
+  }
+ ],
+ "digest": "- Selective Insurance is contesting coverage on a commercial crash involving an employee-owned vehicle missing from the policy, highlighting that hired-and-non-owned auto gaps and driver verification remain critical underwriting hurdles [1].\n- Grange Insurance halved its commercial quoting time and classification calls for agents, increasing competition for broker-distributed business and reinforcing the need for digital MGAs to maintain ultra-fast quoting [9].\n- Global electric commercial vehicle market projections highlight a $341 billion opportunity driven by last-mile demand, underscoring the need for telematics risk models tailored to electric cargo vans and box trucks [2].\n- HCSS and Verizon Connect partnered to integrate fleet intelligence and automate data transfers, reflecting ongoing market expectations for seamless telematics and fleet management data integration in commercial auto [13].\n- Legal commentary addressing NYC delivery e-bike liability, comparative negligence, and dooring reaffirms the complex urban liability and claims risks faced by delivery fleets operating e-bikes and urban couriers [3]."
+}

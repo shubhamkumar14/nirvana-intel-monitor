@@ -2785,5 +2785,35 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-25T22:46:58Z"
+ },
+ "Grange Insurance": {
+  "name": "Grange Insurance",
+  "first_seen": "2026-11-26T10:04:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_5cf78bb7539e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-26T10:04:09Z"
+ },
+ "HCSS": {
+  "name": "HCSS",
+  "first_seen": "2026-11-26T10:04:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_881dfde6a5d5"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-26T10:04:09Z"
+ },
+ "Verizon Connect": {
+  "name": "Verizon Connect",
+  "first_seen": "2026-11-26T10:04:09Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_881dfde6a5d5"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-26T10:04:09Z"
  }
 }
