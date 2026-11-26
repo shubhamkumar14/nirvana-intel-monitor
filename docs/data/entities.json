@@ -2815,5 +2815,15 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-26T10:04:09Z"
+ },
+ "Optalitix": {
+  "name": "Optalitix",
+  "first_seen": "2026-11-26T22:35:46Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_888eaeee64cd"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-26T22:35:46Z"
  }
 }
