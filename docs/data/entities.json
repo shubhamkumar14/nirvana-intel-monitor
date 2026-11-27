@@ -1200,15 +1200,16 @@
  "Aon": {
   "name": "Aon",
   "first_seen": "2026-10-29T07:41:28Z",
-  "mentions": 4,
+  "mentions": 5,
   "event_ids": [
    "ev_58c34dd39c34",
    "ev_f61daae2bf27",
    "ev_3f8d0a681d14",
-   "ev_bfdac687c678"
+   "ev_bfdac687c678",
+   "ev_76161c77b938"
   ],
   "status": "proposed",
-  "last_seen": "2026-11-18T21:36:09Z"
+  "last_seen": "2026-11-27T10:10:15Z"
  },
  "Altea": {
   "name": "Altea",
@@ -2825,5 +2826,45 @@
   ],
   "status": "proposed",
   "last_seen": "2026-11-26T22:35:46Z"
+ },
+ "Uber Technologies, Inc.": {
+  "name": "Uber Technologies, Inc.",
+  "first_seen": "2026-11-27T10:10:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0c0ab2f7f49e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-27T10:10:15Z"
+ },
+ "Uber International Technologies II Corporation": {
+  "name": "Uber International Technologies II Corporation",
+  "first_seen": "2026-11-27T10:10:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0c0ab2f7f49e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-27T10:10:15Z"
+ },
+ "Delivery Hero": {
+  "name": "Delivery Hero",
+  "first_seen": "2026-11-27T10:10:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_0c0ab2f7f49e"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-27T10:10:15Z"
+ },
+ "Right Fuel Card Company": {
+  "name": "Right Fuel Card Company",
+  "first_seen": "2026-11-27T10:10:15Z",
+  "mentions": 1,
+  "event_ids": [
+   "ev_76161c77b938"
+  ],
+  "status": "proposed",
+  "last_seen": "2026-11-27T10:10:15Z"
  }
 }
