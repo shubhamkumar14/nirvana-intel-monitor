@@ -1,0 +1,1378 @@
+{
+ "run_id": "2026-11-28T09-29-25Z",
+ "run_url": "https://github.com/shubhamkumar14/nirvana-intel-monitor/actions/runs/46130690918",
+ "trigger": "schedule",
+ "repo": "shubhamkumar14/nirvana-intel-monitor",
+ "date": "2026-11-28",
+ "started": "2026-11-28T09:29:25Z",
+ "duration_s": 201.9,
+ "baseline": false,
+ "previous_run": "2026-11-27T22-20-17Z",
+ "previous_started": "2026-11-27T22:20:17Z",
+ "classifier": "llm",
+ "model": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+ "counts": {
+  "raw": 358,
+  "unique": 340,
+  "known_skipped": 312,
+  "attached_existing": 2,
+  "prefiltered_out": 0,
+  "too_old": 0,
+  "deferred": 0,
+  "classified": 26,
+  "irrelevant": 18,
+  "quarantined": 0,
+  "new_events": 8,
+  "updated_events": 2,
+  "late_discoveries": 0,
+  "classifier_errors": 0,
+  "new_source_baseline": 0
+ },
+ "evals": {
+  "source_success_rate": 0.958,
+  "verification_pass_rate": 1.0,
+  "date_coverage": 1.0,
+  "median_age_days_new": 2.15,
+  "dedup_ratio": 0.924,
+  "relevance_rate": 0.308
+ },
+ "health": [
+  {
+   "source_id": "insurancejournal",
+   "name": "Insurance Journal",
+   "kind": "rss",
+   "status": "ok",
+   "items": 30,
+   "error": null,
+   "ms": 465
+  },
+  {
+   "source_id": "carriermanagement",
+   "name": "Carrier Management",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 553
+  },
+  {
+   "source_id": "supplychaindive",
+   "name": "Supply Chain Dive",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 85
+  },
+  {
+   "source_id": "freightwaves",
+   "name": "FreightWaves",
+   "kind": "rss",
+   "status": "ok",
+   "items": 56,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "prn_insurance",
+   "name": "PR Newswire - Insurance",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 353
+  },
+  {
+   "source_id": "techcrunch",
+   "name": "TechCrunch",
+   "kind": "rss",
+   "status": "ok",
+   "items": 20,
+   "error": null,
+   "ms": 91
+  },
+  {
+   "source_id": "reinsurancenews",
+   "name": "Reinsurance News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 81
+  },
+  {
+   "source_id": "repairerdriven",
+   "name": "Repairer Driven News",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 101
+  },
+  {
+   "source_id": "artemis",
+   "name": "Artemis",
+   "kind": "rss",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 130
+  },
+  {
+   "source_id": "bing:\"LEEO\" insurance OR \"Fairmatic\"",
+   "name": "Bing News: \"LEEO\" insurance OR \"Fairmatic\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 5,
+   "error": null,
+   "ms": 250
+  },
+  {
+   "source_id": "bing:Progressive \"commercial auto\"",
+   "name": "Bing News: Progressive \"commercial auto\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 149
+  },
+  {
+   "source_id": "bing:\"One80\" last mile delivery insurance",
+   "name": "Bing News: \"One80\" last mile delivery insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 165
+  },
+  {
+   "source_id": "bing:\"Specialty Program Group\" transportation",
+   "name": "Bing News: \"Specialty Program Group\" transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 174
+  },
+  {
+   "source_id": "bing:\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "name": "Bing News: \"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 243
+  },
+  {
+   "source_id": "bing:\"HDVI\" insurance",
+   "name": "Bing News: \"HDVI\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 146
+  },
+  {
+   "source_id": "bing:\"Cover Whale\"",
+   "name": "Bing News: \"Cover Whale\"",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 210
+  },
+  {
+   "source_id": "bing:\"InShare\" insurance delivery",
+   "name": "Bing News: \"InShare\" insurance delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 205
+  },
+  {
+   "source_id": "bing:\"TrueNorth\" final mile insurance",
+   "name": "Bing News: \"TrueNorth\" final mile insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 165
+  },
+  {
+   "source_id": "bing:\"Asero\" insurance transportation",
+   "name": "Bing News: \"Asero\" insurance transportation",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 159
+  },
+  {
+   "source_id": "bing:Amazon \"delivery service partner\" insurance",
+   "name": "Bing News: Amazon \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 197
+  },
+  {
+   "source_id": "bing:\"last-mile delivery\" insurance",
+   "name": "Bing News: \"last-mile delivery\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 195
+  },
+  {
+   "source_id": "bing:\"delivery fleet\" insurance launch",
+   "name": "Bing News: \"delivery fleet\" insurance launch",
+   "kind": "search",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 167
+  },
+  {
+   "source_id": "bing:\"delivery service partner\" insurance",
+   "name": "Bing News: \"delivery service partner\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 178
+  },
+  {
+   "source_id": "bing:gig delivery drivers \"commercial auto\" insurance",
+   "name": "Bing News: gig delivery drivers \"commercial auto\" insurance",
+   "kind": "search",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 198
+  },
+  {
+   "source_id": "bing:insurtech \"commercial auto\" funding",
+   "name": "Bing News: insurtech \"commercial auto\" funding",
+   "kind": "search",
+   "status": "ok",
+   "items": 2,
+   "error": null,
+   "ms": 183
+  },
+  {
+   "source_id": "bing:telematics insurance fleet MGA",
+   "name": "Bing News: telematics insurance fleet MGA",
+   "kind": "search",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 158
+  },
+  {
+   "source_id": "bing:\"commercial auto\" insurance rates",
+   "name": "Bing News: \"commercial auto\" insurance rates",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 201
+  },
+  {
+   "source_id": "bing:\"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "name": "Bing News: \"nuclear verdicts\" OR \"social inflation\" auto liability",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 169
+  },
+  {
+   "source_id": "bing:\"tort reform\" trucking OR delivery",
+   "name": "Bing News: \"tort reform\" trucking OR delivery",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 393
+  },
+  {
+   "source_id": "bing:Amazon DSP delivery contractors",
+   "name": "Bing News: Amazon DSP delivery contractors",
+   "kind": "search",
+   "status": "ok",
+   "items": 8,
+   "error": null,
+   "ms": 175
+  },
+  {
+   "source_id": "bing:parcel delivery volumes",
+   "name": "Bing News: parcel delivery volumes",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 183
+  },
+  {
+   "source_id": "bing:\"commercial auto\" market outlook report",
+   "name": "Bing News: \"commercial auto\" market outlook report",
+   "kind": "search",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 168
+  },
+  {
+   "source_id": "bing:last-mile delivery market report",
+   "name": "Bing News: last-mile delivery market report",
+   "kind": "search",
+   "status": "ok",
+   "items": 9,
+   "error": null,
+   "ms": 231
+  },
+  {
+   "source_id": "bing:tariffs freight trucking costs",
+   "name": "Bing News: tariffs freight trucking costs",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "bing:FMCSA insurance minimum",
+   "name": "Bing News: FMCSA insurance minimum",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 196
+  },
+  {
+   "source_id": "bing:delivery driver independent contractor law",
+   "name": "Bing News: delivery driver independent contractor law",
+   "kind": "search",
+   "status": "ok",
+   "items": 12,
+   "error": null,
+   "ms": 199
+  },
+  {
+   "source_id": "fedreg:motor carrier insurance",
+   "name": "Federal Register: motor carrier insurance",
+   "kind": "api",
+   "status": "ok",
+   "items": 7,
+   "error": null,
+   "ms": 261
+  },
+  {
+   "source_id": "fedreg:financial responsibility motor carriers",
+   "name": "Federal Register: financial responsibility motor carriers",
+   "kind": "api",
+   "status": "ok",
+   "items": 4,
+   "error": null,
+   "ms": 250
+  },
+  {
+   "source_id": "fedreg:FMCSA delivery",
+   "name": "Federal Register: FMCSA delivery",
+   "kind": "api",
+   "status": "ok",
+   "items": 10,
+   "error": null,
+   "ms": 216
+  },
+  {
+   "source_id": "sec:\"last-mile delivery\" \"commercial auto\"",
+   "name": "SEC EDGAR: \"last-mile delivery\" \"commercial auto\"",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "sec:\"delivery service partners\" insurance",
+   "name": "SEC EDGAR: \"delivery service partners\" insurance",
+   "kind": "api",
+   "status": "error",
+   "items": 0,
+   "error": "SEC_USER_AGENT not set (SEC requires 'Name email' user agent)",
+   "ms": 0
+  },
+  {
+   "source_id": "page:one80_lastmile",
+   "name": "Page watch: One80 Last Mile Delivery program",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 1701
+  },
+  {
+   "source_id": "page:progressive_proview",
+   "name": "Page watch: Progressive Snapshot ProView",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 634
+  },
+  {
+   "source_id": "page:bbrown_lastmile",
+   "name": "Page watch: Brown & Brown last/final-mile page",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 264
+  },
+  {
+   "source_id": "page:truenorth_finalmile",
+   "name": "Page watch: TrueNorth Final Mile",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 695
+  },
+  {
+   "source_id": "page:asero_transport",
+   "name": "Page watch: Asero Transportation programs",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 126
+  },
+  {
+   "source_id": "page:marsh_dsp",
+   "name": "Page watch: Marsh Amazon DSP insurance",
+   "kind": "page",
+   "status": "ok",
+   "items": 0,
+   "error": null,
+   "ms": 484
+  },
+  {
+   "source_id": "page:inshare_geotab",
+   "name": "Page watch: InShare on Geotab Marketplace",
+   "kind": "page",
+   "status": "ok",
+   "items": 1,
+   "error": null,
+   "ms": 924
+  }
+ ],
+ "llm_usage": {
+  "input_tokens": 5513,
+  "output_tokens": 3688,
+  "calls": 3,
+  "errors": 0,
+  "provider": "gemini",
+  "by_model": {
+   "gemini-flash-lite-latest": 3
+  },
+  "model_fallbacks": [
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest",
+   "gemini-flash-latest -> gemini-flash-lite-latest"
+  ]
+ },
+ "llm_errors": [],
+ "new": [
+  {
+   "id": "ev_bf77dbea134e",
+   "title": "[News English #05] That Outsourced Work—Is It Really Outsourced? The U.S. Has Redrawn the Line for 'Employees'",
+   "url": "https://note.com/royal_dunlin3958/n/naea5991c7774?hl=en",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 3,
+   "last_mile_fit": 0.6,
+   "summary": "An opinion piece discusses shifting US legal standards regarding outsourced work and independent contractor classifications.",
+   "evidence_quote": "The U.S. Has Redrawn the Line for 'Employees'",
+   "companies": [],
+   "implication": "Context only. Stricter independent contractor rules can increase employment liability and operational costs for courier and delivery fleets, impacting risk profiles.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-21T22:42:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-28T09:29:25Z",
+   "first_run": "2026-11-28T09-29-25Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "bf77dbea134e"
+   ],
+   "sources": [
+    {
+     "url": "https://note.com/royal_dunlin3958/n/naea5991c7774?hl=en",
+     "publisher": "note",
+     "publisher_key": "note",
+     "published": "2026-11-21T22:42:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 55.4,
+   "age_days": 6.4,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.53,
+    "last_mile_fit": 0.6
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_0ba52777d36d",
+   "title": "Tesla FSD v15 introduces Reality View and claims 25x safety improvement",
+   "url": "https://beinsure.com/news/tesla-fsd-v15-introduces-reality-view/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.4,
+   "summary": "Tesla launched FSD v15 featuring Reality View and claiming significant safety and intervention improvements.",
+   "evidence_quote": "Tesla FSD v15 introduces Reality View and claims 25x safety improvement",
+   "companies": [
+    "Tesla"
+   ],
+   "implication": "Context only. Advances in autonomous driving technology could eventually reduce fleet claim frequencies for last-mile delivery operators adopting similar tech.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-22T10:13:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-28T09:29:25Z",
+   "first_run": "2026-11-28T09-29-25Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "market_driver",
+   "fingerprints": [
+    "0ba52777d36d"
+   ],
+   "sources": [
+    {
+     "url": "https://beinsure.com/news/tesla-fsd-v15-introduces-reality-view/",
+     "publisher": "beinsure",
+     "publisher_key": "beinsure",
+     "published": "2026-11-22T10:13:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"commercial auto\" insurance rates"
+    }
+   ],
+   "best_tier": 3,
+   "score": 53.8,
+   "age_days": 6.0,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.55,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_5d9d012cfb17",
+   "title": "Which MGAs & wholesale brokers are setting the standard in 2027",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/which-mgas-and-wholesale-brokers-are-setting-the-standard-in-2027-599149.aspx",
+   "lane": "research",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Insurance Business America opens entries for annual wholesale broker and MGA rankings.",
+   "evidence_quote": "Which MGAs & wholesale brokers are setting the standard in 2027",
+   "companies": [],
+   "implication": "Provides visibility into industry benchmarks and recognition opportunities for MGA distribution partnerships.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-27T03:31:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-28T09:29:25Z",
+   "first_run": "2026-11-28T09-29-25Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "5d9d012cfb17"
+   ],
+   "sources": [
+    {
+     "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/which-mgas-and-wholesale-brokers-are-setting-the-standard-in-2027-599149.aspx",
+     "publisher": "Insurance Business America",
+     "publisher_key": "insurance business america",
+     "published": "2026-11-27T03:31:00Z",
+     "tier": 2,
+     "source_id": "bing_news",
+     "query": "\"final mile\" insurance \"Risk Strategies\" OR \"Brown & Brown\""
+    }
+   ],
+   "best_tier": 2,
+   "score": 52.5,
+   "age_days": 1.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 2,
+    "recency": 0.88,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Medium",
+   "confidence_reason": "trade press, single source"
+  },
+  {
+   "id": "ev_8f510fb2c5b1",
+   "title": "Truck Driver Fatigue Accidents: Proving Hours-of-Service Violations",
+   "url": "https://legaldesire.com/truck-driver-fatigue-accidents-proving-hours-of-service-violations/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.3,
+   "summary": "Legal overview of how truck driver fatigue and HOS violations prove fault.",
+   "evidence_quote": "Truck Driver Fatigue Accidents: Proving Hours-of-Service Violations",
+   "companies": [],
+   "implication": "Highlights ongoing liability exposures around driver fatigue; telematics data tracking hours and driver behavior remains critical for Nirvana's underwriting defense.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-27T16:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-28T09:29:25Z",
+   "first_run": "2026-11-28T09-29-25Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "8f510fb2c5b1"
+   ],
+   "sources": [
+    {
+     "url": "https://legaldesire.com/truck-driver-fatigue-accidents-proving-hours-of-service-violations/",
+     "publisher": "Legal Desire",
+     "publisher_key": "legal desire",
+     "published": "2026-11-27T16:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.5,
+   "age_days": 0.7,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.93,
+    "last_mile_fit": 0.3
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_0db3ed8b8f6b",
+   "title": "Browns announce multi-year partnership with truenorth",
+   "url": "https://www.clevelandbrowns.com/news/browns-announce-multi-year-partnership-with-truenorth",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.4,
+   "summary": "Truenorth announced a multi-year sponsorship partnership with the Cleveland Browns sports team.",
+   "evidence_quote": "Browns announce multi-year partnership with truenorth",
+   "companies": [
+    "truenorth"
+   ],
+   "implication": "Context only. Shows brand-building activity by a competitor in the commercial transportation insurtech space, but has no direct impact on Nirvana's last-mile underwriting or distribution.",
+   "action": "context",
+   "watchlist_companies": [
+    "TrueNorth"
+   ],
+   "published": "2026-11-25T05:00:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-28T09:29:25Z",
+   "first_run": "2026-11-28T09-29-25Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "0db3ed8b8f6b"
+   ],
+   "sources": [
+    {
+     "url": "https://www.clevelandbrowns.com/news/browns-announce-multi-year-partnership-with-truenorth",
+     "publisher": "Cleveland Browns",
+     "publisher_key": "cleveland browns",
+     "published": "2026-11-25T05:00:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"TrueNorth\" final mile insurance"
+    }
+   ],
+   "best_tier": 3,
+   "score": 50.4,
+   "age_days": 3.2,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.6,
+    "tier": 3,
+    "recency": 0.73,
+    "last_mile_fit": 0.4
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_dee6c4ca5edf",
+   "title": "Trump Proposes New Tariffs on 14 Nations: Vietnam and India Face the Steepest Rates",
+   "url": "https://www.msn.com/en-us/news/other/trump-proposes-new-tariffs-on-14-nations-vietnam-and-india-face-the-steepest-rates/ar-AA2ioMs1",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Trump administration proposes Section 301 tariffs on 14 trading partners.",
+   "evidence_quote": "Trump Proposes New Tariffs on 14 Nations",
+   "companies": [],
+   "implication": "Macro tariffs could increase fleet vehicle and parts replacement costs, influencing physical damage claims severity for delivery fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-27T20:23:04Z",
+   "date_known": true,
+   "first_seen": "2026-11-28T09:29:25Z",
+   "first_run": "2026-11-28T09-29-25Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "dee6c4ca5edf"
+   ],
+   "sources": [
+    {
+     "url": "https://www.msn.com/en-us/news/other/trump-proposes-new-tariffs-on-14-nations-vietnam-and-india-face-the-steepest-rates/ar-AA2ioMs1",
+     "publisher": "Latin Times on MSN",
+     "publisher_key": "latin times on msn",
+     "published": "2026-11-27T20:23:04Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "tariffs freight trucking costs"
+    }
+   ],
+   "best_tier": 3,
+   "score": 48.7,
+   "age_days": 0.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.95,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_0400679a7cfd",
+   "title": "Car accident claims in Charles County test Maryland’s $30,000 insurance minimum as costs climb",
+   "url": "https://thedailyrecord.com/2026/11/25/car-accident-claims-in-charles-county-test-marylands-30000-insurance-minimum-as-costs-climb/",
+   "lane": "market_driver",
+   "event_type": "other",
+   "direction": "headwind",
+   "materiality": 2,
+   "last_mile_fit": 0.2,
+   "summary": "Maryland auto insurance claims test state minimum limits as premiums rise.",
+   "evidence_quote": "Car accident claims in Charles County test Maryland’s $30,000 insurance minimum",
+   "companies": [],
+   "implication": "Rising claim costs and inadequate statutory minimums reinforce the need for robust commercial auto limits and precise telematics pricing for fleets.",
+   "action": "watch",
+   "watchlist_companies": [],
+   "published": "2026-11-25T13:22:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-28T09:29:25Z",
+   "first_run": "2026-11-28T09-29-25Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "0400679a7cfd"
+   ],
+   "sources": [
+    {
+     "url": "https://thedailyrecord.com/2026/11/25/car-accident-claims-in-charles-county-test-marylands-30000-insurance-minimum-as-costs-climb/",
+     "publisher": "Maryland Daily Record",
+     "publisher_key": "maryland daily record",
+     "published": "2026-11-25T13:22:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "FMCSA insurance minimum"
+    }
+   ],
+   "best_tier": 3,
+   "score": 46.8,
+   "age_days": 2.8,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.75,
+    "last_mile_fit": 0.2
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  },
+  {
+   "id": "ev_bc0c00f928f6",
+   "title": "Damco Solutions Introduces a Headless Approach to Insurance Core Modernization with InsureEdge",
+   "url": "https://www.morningstar.com/news/business-wire/20261126675338/damco-solutions-introduces-a-headless-approach-to-insurance-core-modernization-with-insureedge",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.1,
+   "summary": "Damco Solutions introduces InsureEdge for insurance core modernization.",
+   "evidence_quote": "Damco Solutions Introduces a Headless Approach to Insurance Core Modernization",
+   "companies": [
+    "Damco Solutions"
+   ],
+   "implication": "Highlights ongoing vendor activity in insurance core tech platforms, though not specific to last-mile commercial auto.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-26T21:30:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-28T09:29:25Z",
+   "first_run": "2026-11-28T09-29-25Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": null,
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "competitor_move",
+   "fingerprints": [
+    "bc0c00f928f6"
+   ],
+   "sources": [
+    {
+     "url": "https://www.morningstar.com/news/business-wire/20261126675338/damco-solutions-introduces-a-headless-approach-to-insurance-core-modernization-with-insureedge",
+     "publisher": "Morningstar",
+     "publisher_key": "morningstar",
+     "published": "2026-11-26T21:30:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "\"InShare\" insurance delivery"
+    }
+   ],
+   "best_tier": 3,
+   "score": 45.4,
+   "age_days": 1.5,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.4,
+    "tier": 3,
+    "recency": 0.86,
+    "last_mile_fit": 0.1
+   },
+   "verification": "Reported",
+   "confidence": "Low",
+   "confidence_reason": "general news, single source"
+  }
+ ],
+ "updated": [
+  {
+   "id": "ev_e99933b7cdce",
+   "title": "DOL flips independent contractor switch back with new final rule",
+   "url": "https://www.yahoo.com/news/politics/articles/dol-flips-independent-contractor-switch-155700843.html",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "tailwind",
+   "materiality": 3,
+   "last_mile_fit": 0.8,
+   "summary": "The Department of Labor reinstated its economic reality test for independent contractor classification under a new final rule.",
+   "evidence_quote": "DOL flips independent contractor switch back with new final rule",
+   "companies": [],
+   "implication": "Context only on federal contractor classification standards.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-19T07:58:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-19T21:48:36Z",
+   "first_run": "2026-11-19T21-48-36Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": "New corroborating source: Higher Ed Dive",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "e99933b7cdce"
+   ],
+   "sources": [
+    {
+     "url": "https://www.yahoo.com/news/politics/articles/dol-flips-independent-contractor-switch-155700843.html",
+     "publisher": "Yahoo",
+     "publisher_key": "yahoo",
+     "published": "2026-11-19T07:58:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    },
+    {
+     "url": "https://www.highereddive.com/news/dol-flips-independent-contractor-switch-back-with-new-final-rule/875696/",
+     "publisher": "Higher Ed Dive",
+     "publisher_key": "higher ed dive",
+     "published": "2026-11-24T09:29:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 58.6,
+   "age_days": 9.1,
+   "score_parts": {
+    "materiality": 3,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.41,
+    "last_mile_fit": 0.8
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  },
+  {
+   "id": "ev_62a5bb20b370",
+   "title": "Amazon Turns Packages in NYC Into Political Mailers With Anti-Delivery Protection Act Stickers",
+   "url": "https://gizmodo.com/amazon-turns-packages-in-nyc-into-political-mailers-with-anti-delivery-protection-act-stickers-2000844718",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "direction": "neutral",
+   "materiality": 2,
+   "last_mile_fit": 0.5,
+   "summary": "Amazon is protesting New York City's proposed Delivery Protection Act, which aims to extend protections for delivery workers.",
+   "evidence_quote": "The aim of the company’s ire is the Delivery Protection Act, a New York City effort co-signed by Mayor Zohran Mamdani",
+   "companies": [
+    "Amazon"
+   ],
+   "implication": "Context only. Local delivery regulations could impact DSP labor costs and driver classification structures in NYC.",
+   "action": "context",
+   "watchlist_companies": [],
+   "published": "2026-11-24T12:45:00Z",
+   "date_known": true,
+   "first_seen": "2026-11-24T23:16:43Z",
+   "first_run": "2026-11-24T23-16-43Z",
+   "last_seen": "2026-11-28T09:29:25Z",
+   "last_updated_run": "2026-11-28T09-29-25Z",
+   "update_note": "New corroborating source: AOL",
+   "late_discovery": false,
+   "source_baseline": false,
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "lane_hint": "policy_macro",
+   "fingerprints": [
+    "62a5bb20b370"
+   ],
+   "sources": [
+    {
+     "url": "https://gizmodo.com/amazon-turns-packages-in-nyc-into-political-mailers-with-anti-delivery-protection-act-stickers-2000844718",
+     "publisher": "Gizmodo",
+     "publisher_key": "gizmodo",
+     "published": "2026-11-24T12:45:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    },
+    {
+     "url": "https://www.aol.com/articles/amazon-turns-packages-nyc-political-204516000.html",
+     "publisher": "AOL",
+     "publisher_key": "aol",
+     "published": "2026-11-24T13:15:00Z",
+     "tier": 3,
+     "source_id": "bing_news",
+     "query": "delivery driver independent contractor law"
+    }
+   ],
+   "best_tier": 3,
+   "score": 51.7,
+   "age_days": 3.9,
+   "score_parts": {
+    "materiality": 2,
+    "priority": 0.5,
+    "tier": 3,
+    "recency": 0.68,
+    "last_mile_fit": 0.5
+   },
+   "verification": "Corroborated",
+   "confidence": "High",
+   "confidence_reason": "general news, 2 independent publishers"
+  }
+ ],
+ "late_discoveries": [],
+ "quarantine": [],
+ "decisions": [
+  {
+   "title": "CRISPR is now being used to control genes, not just edit them",
+   "url": "https://www.newscientist.com/article/2601111-crispr-is-now-being-used-to-control-genes-instead-of-editing-them/",
+   "publisher": "New Scientist",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "CRISPR is now being used to control genes, not just edit them",
+   "note": "CRISPR gene control trials are progressing."
+  },
+  {
+   "title": "They gave birth in the south. Now, they're helping Inuit deliver closer to home",
+   "url": "https://www.cbc.ca/news/canada/montreal/inuit-midwives-kuujjuaq-nunavik-labour-services-maternity-9.7437876",
+   "publisher": "CBC.ca",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "They gave birth in the south. Now, they're helping Inuit deliver closer to home",
+   "note": "Inuit midwifery program expands care in Quebec."
+  },
+  {
+   "title": "No time for resting: Mashaba gets straight to work as Joburg mayor",
+   "url": "https://www.msn.com/en-za/news/other/no-time-for-resting-mashaba-gets-straight-to-work-as-joburg-mayor/ar-AA2ipfEV",
+   "publisher": "Briefly on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "No time for resting: Mashaba gets straight to work as Joburg mayor",
+   "note": "New Johannesburg mayor takes office."
+  },
+  {
+   "title": "Everything You Need to Know For SMU at Stanford",
+   "url": "https://sports.yahoo.com/college-football/articles/everything-know-smu-stanford-082620892.html",
+   "publisher": "Yahoo Sports",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Everything You Need to Know For SMU at Stanford",
+   "note": "Preview of SMU at Stanford football game."
+  },
+  {
+   "title": "Missing parcels and 'safe spaces' - your delivery rights explained",
+   "url": "https://www.aol.co.uk/articles/missing-parcels-safe-spaces-delivery-080340000.html",
+   "publisher": "AOL.co.uk",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Missing parcels and 'safe spaces' - your delivery rights explained",
+   "note": "Consumer guidance on parcel delivery rights and missing items."
+  },
+  {
+   "title": "The best Black Friday Apple deals are still live. We found Apple Watches, AirPods, and MacBooks at record lows",
+   "url": "https://mashable.com/tech/black-friday-best-apple-live-deals-2026",
+   "publisher": "Mashable",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The best Black Friday Apple deals are still live.",
+   "note": "Black Friday Apple product deals."
+  },
+  {
+   "title": "Council warned of 'unsustainable' finances again",
+   "url": "https://www.bbc.co.uk/news/articles/ck8680nn1lg7o",
+   "publisher": "BBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Council warned of 'unsustainable' finances again",
+   "note": "Croydon Council faces continued financial sustainability warnings."
+  },
+  {
+   "title": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
+   "url": "https://www.cnbc.com/2026/11/28/saudi-arabia-vision-2030-spending.html",
+   "publisher": "CNBC",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Saudi Arabia shifts Vision 2030 spending amid economic and security pressure",
+   "note": "Saudi Arabia shifts Vision 2030 spending strategy."
+  },
+  {
+   "title": "Trump Proposes New Tariffs on 14 Nations: Vietnam and India Face the Steepest Rates",
+   "url": "https://www.msn.com/en-us/news/other/trump-proposes-new-tariffs-on-14-nations-vietnam-and-india-face-the-steepest-rates/ar-AA2ioMs1",
+   "publisher": "Latin Times on MSN",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Trump Proposes New Tariffs on 14 Nations",
+   "note": "Macro tariffs could increase fleet vehicle and parts replacement costs, influencing physical damage claims severity for delivery fleets."
+  },
+  {
+   "title": "Truck Driver Fatigue Accidents: Proving Hours-of-Service Violations",
+   "url": "https://legaldesire.com/truck-driver-fatigue-accidents-proving-hours-of-service-violations/",
+   "publisher": "Legal Desire",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Truck Driver Fatigue Accidents: Proving Hours-of-Service Violations",
+   "note": "Highlights ongoing liability exposures around driver fatigue; telematics data tracking hours and driver behavior remains critical for Nirvana's underwriting defense."
+  },
+  {
+   "title": "'Big Short' Investor Michael Burry Thinks This Chinese Stock Is Worth About 60% More Than Its Price. Should You Buy?",
+   "url": "https://www.fool.com/investing/2026/11/27/big-short-investor-michael-burry-thinks-this-chinese-stock-is-worth-about-60-more-than-its-price-should-you-buy/",
+   "publisher": "The Motley Fool",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "'Big Short' Investor Michael Burry Thinks This Chinese Stock",
+   "note": "Michael Burry invests in Chinese e-commerce stock."
+  },
+  {
+   "title": "Farmers Insurance Skins Game returns with $4 mn purse and star-studded field",
+   "url": "https://beinsure.com/news/farmers-insurance-skins-game-returns-with-4mn-purse/",
+   "publisher": "beinsure",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Farmers Insurance Skins Game returns",
+   "note": "Farmers Insurance sponsors Skins Game golf tournament."
+  },
+  {
+   "title": "Why I'm breaking up with 'The Great British Baking Show'",
+   "url": "https://www.msn.com/en-us/news/other/why-i-m-breaking-up-with-the-great-british-baking-show/ar-AA2imh9o",
+   "publisher": "USA TODAY on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Why I'm breaking up with 'The Great British Baking Show'",
+   "note": "Opinion piece on television show."
+  },
+  {
+   "title": "This 240W Thunderbolt 4 cable charges everything fast, and it’s never been cheaper",
+   "url": "https://www.pcworld.com/article/3285391/this-240w-thunderbolt-4-cable-charges-everything-fast-and-its-never-been-cheaper.html",
+   "publisher": "PCWorld",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "This 240W Thunderbolt 4 cable charges everything fast",
+   "note": "Discounted Thunderbolt cable on Amazon."
+  },
+  {
+   "title": "Which MGAs & wholesale brokers are setting the standard in 2027",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/which-mgas-and-wholesale-brokers-are-setting-the-standard-in-2027-599149.aspx",
+   "publisher": "Insurance Business America",
+   "lane": "research",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Which MGAs & wholesale brokers are setting the standard in 2027",
+   "note": "Provides visibility into industry benchmarks and recognition opportunities for MGA distribution partnerships."
+  },
+  {
+   "title": "En Espagne, 9 jeunes sur 10 se sont déjà sentis seuls à un moment de leur vie",
+   "url": "https://www.touteleurope.eu/societe/en-espagne-9-jeunes-sur-10-se-sont-deja-sentis-seuls-a-un-moment-de-leur-vie/",
+   "publisher": "Touteleurope.eu",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "En Espagne, 9 jeunes sur 10 se sont déjà sentis seuls",
+   "note": "Study on youth loneliness in Spain."
+  },
+  {
+   "title": "Damco Solutions Introduces a Headless Approach to Insurance Core Modernization with InsureEdge",
+   "url": "https://www.morningstar.com/news/business-wire/20261126675338/damco-solutions-introduces-a-headless-approach-to-insurance-core-modernization-with-insureedge",
+   "publisher": "Morningstar",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Damco Solutions Introduces a Headless Approach to Insurance Core Modernization",
+   "note": "Highlights ongoing vendor activity in insurance core tech platforms, though not specific to last-mile commercial auto."
+  },
+  {
+   "title": "Black Friday 2026 deals: Score free food from Burger King, Wendy's, 7-Eleven, Krispy Kreme, and more",
+   "url": "https://mashable.com/life/black-friday-2026-free-food-deals",
+   "publisher": "Mashable",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Black Friday 2026 deals: Score free food from Burger King",
+   "note": "Black Friday food deals and promotions."
+  },
+  {
+   "title": "Ukraine war latest: Trump calls on Putin to pull back all military aggression in Europe",
+   "url": "https://news.sky.com/story/ukraine-war-latest-trump-threatens-putin-with-taxes-tariffs-and-sanctions-if-he-does-not-stop-war-12541713",
+   "publisher": "Sky News",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ukraine war latest: Trump calls on Putin to pull back",
+   "note": "Trump calls on Putin regarding Ukraine war aggression."
+  },
+  {
+   "title": "Car accident claims in Charles County test Maryland’s $30,000 insurance minimum as costs climb",
+   "url": "https://thedailyrecord.com/2026/11/25/car-accident-claims-in-charles-county-test-marylands-30000-insurance-minimum-as-costs-climb/",
+   "publisher": "Maryland Daily Record",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Car accident claims in Charles County test Maryland’s $30,000 insurance minimum",
+   "note": "Rising claim costs and inadequate statutory minimums reinforce the need for robust commercial auto limits and precise telematics pricing for fleets."
+  },
+  {
+   "title": "Browns announce multi-year partnership with truenorth",
+   "url": "https://www.clevelandbrowns.com/news/browns-announce-multi-year-partnership-with-truenorth",
+   "publisher": "Cleveland Browns",
+   "lane": "competitor_move",
+   "event_type": "other",
+   "materiality": 2,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Browns announce multi-year partnership with truenorth",
+   "note": "Context only. Shows brand-building activity by a competitor in the commercial transportation insurtech space, but has no direct impact on Nirvana's last-mile underwriting or distribution."
+  },
+  {
+   "title": "Indian government approves continuation of postal operations scheme with ₹1,141 crore budget",
+   "url": "https://www.msn.com/en-in/news/other/indian-government-approves-continuation-of-postal-operations-scheme-with-1141-crore-budget/ar-AA2icfbU",
+   "publisher": "Newspoint on MSN",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Indian government approves continuation of postal operations scheme",
+   "note": "The Indian government approved a postal operations scheme budget for the Finance Commission's term."
+  },
+  {
+   "title": "Mamdani blasts Jensen Huang’s infidelity for having ‘massive impact’ on public sector pensions",
+   "url": "https://www.politico.com/news/2026/11/23/mamdani-blasts-jensen-huangs-infidelity-for-having-massive-impact-on-public-sector-pensions-01180993",
+   "publisher": "Politico",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Mamdani blasts Jensen Huang’s infidelity",
+   "note": "New York City Mayor Zohran Mamdani commented on Nvidia CEO Jensen Huang regarding public sector pensions."
+  },
+  {
+   "title": "Tesla FSD v15 introduces Reality View and claims 25x safety improvement",
+   "url": "https://beinsure.com/news/tesla-fsd-v15-introduces-reality-view/",
+   "publisher": "beinsure",
+   "lane": "market_driver",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Tesla FSD v15 introduces Reality View and claims 25x safety improvement",
+   "note": "Context only. Advances in autonomous driving technology could eventually reduce fleet claim frequencies for last-mile delivery operators adopting similar tech."
+  },
+  {
+   "title": "Ordering Groceries Online? How 7 Top Delivery Services Compare on Price",
+   "url": "https://finance.yahoo.com/general/articles/instacart-vs-walmart-vs-amazon-190210952.html",
+   "publisher": "Yahoo Finance",
+   "lane": "irrelevant",
+   "event_type": "other",
+   "materiality": 1,
+   "outcome": "dropped: irrelevant",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "Ordering Groceries Online? How 7 Top Delivery Services Compare on Price",
+   "note": "Yahoo Finance published a pricing comparison of seven online grocery delivery services."
+  },
+  {
+   "title": "[News English #05] That Outsourced Work—Is It Really Outsourced? The U.S. Has Redrawn the Line for 'Employees'",
+   "url": "https://note.com/royal_dunlin3958/n/naea5991c7774?hl=en",
+   "publisher": "note",
+   "lane": "policy_macro",
+   "event_type": "other",
+   "materiality": 3,
+   "outcome": "kept: new event",
+   "classifier": "gemini:gemini-flash-latest (+gemini-flash-lite-latest fallback)",
+   "evidence_quote": "The U.S. Has Redrawn the Line for 'Employees'",
+   "note": "Context only. Stricter independent contractor rules can increase employment liability and operational costs for courier and delivery fleets, impacting risk profiles."
+  }
+ ],
+ "digest": "- Truenorth announced a multi-year sponsorship partnership with the Cleveland Browns, demonstrating active brand-building in the commercial transportation insurtech space [5].\n- Insurance Business America opened entries for its 2027 MGA and wholesale broker rankings, offering visibility into industry benchmarks and distribution partnerships [3]."
+}
